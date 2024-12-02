@@ -2559,11 +2559,6 @@ html:has(.drawer-toggle:checked) {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.drop-shadow-lg {
-  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2574,6 +2569,14 @@ html:has(.drawer-toggle:checked) {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.title-box {
+  outline-width: 0.5rem;
+  max-width: 100%;
+  width: 300px;
+  max-height: 100%;
+  height: 80px;
 }
 
 .hover\:scale-110:hover {
@@ -2598,14 +2601,6 @@ html:has(.drawer-toggle:checked) {
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-\[40\%\] {
-    height: 40%;
-  }
-
-  .lg\:h-\[36rem\] {
-    height: 36rem;
-  }
-
   .lg\:h-\[30rem\] {
     height: 30rem;
   }
