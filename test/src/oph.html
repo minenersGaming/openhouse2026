@@ -23,35 +23,54 @@
     <!-- Main Content -->
     <div class="flex items-center justify-center" style="margin-top: 5rem">
       <div
-        class="rounded-box bg-yellow-500 flex items-center justify-center title-box"
+        class="rounded-box flex items-center justify-center title-box"
       >
         <h1 style="font-size: xx-large" class="text-white">Open House 2024</h1>
       </div>
     </div>
-    <main class="flex-grow flex flex-col items-center justify-center p-4">
-      <div id="activity" class="flex flex-col rounded-box" style="background-color: ;">
+    <main class="flex-grow flex flex-col sm:flex-row items-center justify-center p-4">
+      <div
+        id="activity"
+        class="flex flex-col rounded-box  collapsed"
+        onclick="expand('activity')"
+      >
         <div
-          class="text-white rounded-box flex bg-yellow-500 items-center justify-center title-box"
+          class="text-white rounded-box flex items-center justify-center title-box"
         >
           <p class="text-white">Activities</p>
-          <iconify-icon icon="mdi-menu-down"></iconify-icon>
+          <iconify-icon icon="mdi-menu-down" class="hidden-when-expand"></iconify-icon>
+          <iconify-icon icon="mdi-menu-up" class="hidden"></iconify-icon>
         </div>
-        <div>
-          <ul>
-            <li>
-              Soccer Robot
-            </li>
-          </ul>
+        <div class="hidden mx-2">
+            <h3>Soccer Robot</h3>
+            placeholder
         </div>
       </div>
-      <div style="height: 1rem"></div>
+      <div style="width: 1rem; height: 1rem"></div>
       <div
         id="shop"
-        class="text-white rounded-box flex bg-yellow-500 items-center justify-center title-box"
+        class="flex flex-col rounded-box collapsed"
+        onclick="expand('shop')"
+      >
+      <div
+        class="text-white rounded-box flex items-center justify-center title-box"
       >
         <p>Things to buy</p>
-        <iconify-icon icon="mdi-menu-down"></iconify-icon>
+        <iconify-icon icon="mdi-menu-down" class="hidden-when-expand"></iconify-icon>
+        <iconify-icon icon="mdi-menu-up" class="hidden"></iconify-icon>
       </div>
+      <div class="hidden mx-2">
+        <h3>พวงกุญแจ</h3>
+        Placeholde
+      </div>
+    </div>
+      <script>
+        function expand(id) {
+          const expandable = document.getElementById(id);
+          expandable.classList.toggle("collapsed");
+          expandable.classList.toggle("expanded");
+        }
+      </script>
     </main>
 
     <!-- Footer -->

@@ -1488,6 +1488,30 @@ input.tab:checked + .tab-content,
   display: block;
 }
 
+.toggle {
+  flex-shrink: 0;
+  --tglbg: var(--fallback-b1,oklch(var(--b1)/1));
+  --handleoffset: 1.5rem;
+  --handleoffsetcalculator: calc(var(--handleoffset) * -1);
+  --togglehandleborder: 0 0;
+  height: 1.5rem;
+  width: 3rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: var(--rounded-badge, 1.9rem);
+  border-width: 1px;
+  border-color: currentColor;
+  background-color: currentColor;
+  color: var(--fallback-bc,oklch(var(--bc)/0.5));
+  transition: background,
+    box-shadow var(--animation-input, 0.2s) ease-out;
+  box-shadow: var(--handleoffsetcalculator) 0 0 2px var(--tglbg) inset,
+    0 0 0 2px var(--tglbg) inset,
+    var(--togglehandleborder);
+}
+
 .avatar-group :where(.avatar) {
   overflow: hidden;
   border-radius: 9999px;
@@ -1832,6 +1856,12 @@ input.tab:checked + .tab-content,
   margin-top: 0;
 }
 
+.mockup-phone .display {
+  overflow: hidden;
+  border-radius: 40px;
+  margin-top: -25px;
+}
+
 .mockup-browser .mockup-browser-toolbar .input {
   position: relative;
   margin-left: auto;
@@ -2070,6 +2100,57 @@ input.tab:checked + .tab-content,
   }
 }
 
+[dir="rtl"] .toggle {
+  --handleoffsetcalculator: calc(var(--handleoffset) * 1);
+}
+
+.toggle:focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 2px;
+  outline-color: var(--fallback-bc,oklch(var(--bc)/0.2));
+}
+
+.toggle:hover {
+  background-color: currentColor;
+}
+
+.toggle:checked,
+  .toggle[aria-checked="true"] {
+  background-image: none;
+  --handleoffsetcalculator: var(--handleoffset);
+  --tw-text-opacity: 1;
+  color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
+}
+
+[dir="rtl"] .toggle:checked, [dir="rtl"] .toggle[aria-checked="true"] {
+  --handleoffsetcalculator: calc(var(--handleoffset) * -1);
+}
+
+.toggle:indeterminate {
+  --tw-text-opacity: 1;
+  color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
+  box-shadow: calc(var(--handleoffset) / 2) 0 0 2px var(--tglbg) inset,
+      calc(var(--handleoffset) / -2) 0 0 2px var(--tglbg) inset,
+      0 0 0 2px var(--tglbg) inset;
+}
+
+[dir="rtl"] .toggle:indeterminate {
+  box-shadow: calc(var(--handleoffset) / 2) 0 0 2px var(--tglbg) inset,
+        calc(var(--handleoffset) / -2) 0 0 2px var(--tglbg) inset,
+        0 0 0 2px var(--tglbg) inset;
+}
+
+.toggle:disabled {
+  cursor: not-allowed;
+  --tw-border-opacity: 1;
+  border-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-border-opacity)));
+  background-color: transparent;
+  opacity: 0.3;
+  --togglehandleborder: 0 0 0 3px var(--fallback-bc,oklch(var(--bc)/1)) inset,
+      var(--handleoffsetcalculator) 0 0 3px var(--fallback-bc,oklch(var(--bc)/1)) inset;
+}
+
 .btn-circle:where(.btn-xs) {
   height: 1.5rem;
   width: 1.5rem;
@@ -2298,6 +2379,11 @@ html:has(.drawer-toggle:checked) {
 
 .z-\[1\] {
   z-index: 1;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .my-2 {
@@ -2571,12 +2657,67 @@ html:has(.drawer-toggle:checked) {
   transition-duration: 300ms;
 }
 
+:root {
+  --surface: rgb(255 230 155);
+  --primary: rgb(234 179 8);
+  --background: rgb(254 252 232);
+  background-color: var(--background);
+}
+
 .title-box {
   outline-width: 0.5rem;
   max-width: 100%;
   width: 300px;
+  min-height: 60px;
   max-height: 100%;
-  height: 80px;
+  height: 60px;
+  background-color: var(--primary)
+}
+
+#activity {
+  transition: height 1s, display 1s;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--surface);
+}
+
+#activity.collapsed {
+  height: 60px;
+}
+
+#activity.expanded {
+  height: 300px;
+}
+
+#activity.expanded .hidden {
+  display: block;
+}
+
+#activity.expanded .hidden-when-expand {
+  display: none;
+}
+
+#shop {
+  transition: height 1s;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--surface)
+}
+
+#shop.collapsed {
+  height: 60px;
+}
+
+#shop.expanded {
+  height: 300px;
+}
+
+#shop.expanded .hidden {
+  display: block;
+}
+
+#shop.expanded .hidden-when-expand {
+  display: none;
 }
 
 .hover\:scale-110:hover {
@@ -2588,6 +2729,12 @@ html:has(.drawer-toggle:checked) {
 .hover\:bg-yellow-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 768px) {

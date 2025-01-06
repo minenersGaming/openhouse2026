@@ -1,10 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --surface: rgb(255 230 155);
+  --primary: rgb(234 179 8);
+  --background: rgb(254 252 232);
+  background-color: var(--background);
+}
 .title-box {
   outline-width: 0.5rem;
   max-width: 100%;
   width: 300px;
+  min-height: 60px;
   max-height: 100%;
-  height: 80px;
+  height: 60px;
+  background-color: var(--primary)
+}
+#activity {
+  transition: height 1s, display 1s;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--surface);
+}
+#activity.collapsed {
+  height: 60px;
+}
+#activity.expanded {
+  height: 300px;
+}
+#activity.expanded .hidden {
+  display: block;
+}
+#activity.expanded .hidden-when-expand {
+  display: none;
+}
+#shop {
+  transition: height 1s;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--surface)
+}
+#shop.collapsed {
+  height: 60px;
+}
+#shop.expanded {
+  height: 300px;
+}
+#shop.expanded .hidden {
+  display: block;
+}
+#shop.expanded .hidden-when-expand {
+  display: none;
 }
