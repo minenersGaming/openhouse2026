@@ -16,11 +16,20 @@
   height: 60px;
   background-color: var(--primary)
 }
+.github {
+  height: 50px;
+  background-color: #040E12;
+  color: var(--background);
+  border-radius: 15px;
+  cursor: pointer;
+}
 #activity {
   transition: height 1s, display 1s;
-  cursor: pointer;
   overflow: hidden;
   background-color: var(--surface);
+}
+#activity.title-box {
+  cursor: pointer;
 }
 #activity.collapsed {
   height: 60px;
@@ -34,21 +43,46 @@
 #activity.expanded .hidden-when-expand {
   display: none;
 }
-#shop {
+#soccer {
   transition: height 1s;
-  cursor: pointer;
+  width: 300px;
   overflow: hidden;
   background-color: var(--surface)
 }
-#shop.collapsed {
+#soccer.title-box {
+  cursor: pointer;
+}
+#soccer.collapsed {
   height: 60px;
 }
-#shop.expanded {
-  height: 300px;
+#soccer.expanded {
+  height: 1000px;
 }
-#shop.expanded .hidden {
+#soccer.expanded .hidden {
   display: block;
 }
-#shop.expanded .hidden-when-expand {
+#soccer.expanded .hidden-when-expand {
+  display: none;
+}
+
+#drawing {
+  transition: height 1s;
+  width: 300px;
+  overflow: hidden;
+  background-color: var(--surface)
+}
+#drawing.title-box {
+  cursor: pointer;
+}
+#drawing.collapsed {
+  height: 60px;
+}
+#drawing.expanded {
+  height: 1000px;
+}
+#drawing.expanded .hidden {
+  display: block;
+}
+#drawing.expanded .hidden-when-expand {
   display: none;
 }

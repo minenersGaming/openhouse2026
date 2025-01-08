@@ -1,4 +1,5 @@
 # node
 node_modules
+test/node_modules
 # macos
 .DS_Store

@@ -22,53 +22,110 @@
 
     <!-- Main Content -->
     <div class="flex items-center justify-center" style="margin-top: 5rem">
-      <div
-        class="rounded-box flex items-center justify-center title-box"
-      >
+      <div class="rounded-box flex items-center justify-center title-box">
         <h1 style="font-size: xx-large" class="text-white">Open House 2024</h1>
       </div>
     </div>
-    <main class="flex-grow flex flex-col sm:flex-row items-center justify-center p-4">
-      <div
-        id="activity"
-        class="flex flex-col rounded-box  collapsed"
-        onclick="expand('activity')"
-      >
+    <main
+      class="flex-grow flex flex-col sm:flex-row items-center justify-center p-4"
+    >
+      <div id="activity" class="flex flex-col rounded-box collapsed">
         <div
           class="text-white rounded-box flex items-center justify-center title-box"
+          onclick="expand('activity')"
         >
           <p class="text-white">Activities</p>
-          <iconify-icon icon="mdi-menu-down" class="hidden-when-expand"></iconify-icon>
+          <iconify-icon
+            icon="mdi-menu-down"
+            class="hidden-when-expand"
+          ></iconify-icon>
           <iconify-icon icon="mdi-menu-up" class="hidden"></iconify-icon>
         </div>
-        <div class="hidden mx-2">
-            <h3>Soccer Robot</h3>
-            placeholder
+        <div class="hidden mx-2">placeholder</div>
+      </div>
+      <div style="width: 1rem; height: 1rem"></div>
+      <div id="soccer" class="flex flex-col rounded-box collapsed">
+        <div
+          class="text-white rounded-box flex items-center justify-center title-box"
+          onclick="expand('soccer')"
+        >
+          <p>Soccer Robot</p>
+          <iconify-icon
+            icon="mdi-menu-down"
+            class="hidden-when-expand"
+          ></iconify-icon>
+          <iconify-icon icon="mdi-menu-up" class="hidden"></iconify-icon>
+        </div>
+        <div class="hidden mx-2 flex items-center justify-center">
+          <div
+            class="bg-gray-300 w-full lg:w-[80%] h-96 lg:h-[30rem] rounded-lg mb-8 overflow-hidden shadow-lg my-2"
+          >
+            <img
+              src="img/soccer-robot.jpg"
+              alt="Image of soccer robot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          Placeholder
+          <div
+            id="soccer-github"
+            class="mt-5 flex items-center justify-center github"
+            onclick="openGithub('soccer-github')"
+          >
+            Github
+            <a
+              href="https://github.com/TURobotClub/soccer_robot"
+              style="display: none"
+            ></a>
+          </div>
         </div>
       </div>
       <div style="width: 1rem; height: 1rem"></div>
-      <div
-        id="shop"
-        class="flex flex-col rounded-box collapsed"
-        onclick="expand('shop')"
-      >
-      <div
-        class="text-white rounded-box flex items-center justify-center title-box"
-      >
-        <p>Things to buy</p>
-        <iconify-icon icon="mdi-menu-down" class="hidden-when-expand"></iconify-icon>
-        <iconify-icon icon="mdi-menu-up" class="hidden"></iconify-icon>
+      <div id="drawing" class="flex flex-col rounded-box collapsed">
+        <div
+          class="text-white rounded-box flex items-center justify-center title-box"
+          onclick="expand('drawing')"
+        >
+          <p>Drawing Robot</p>
+          <iconify-icon
+            icon="mdi-menu-down"
+            class="hidden-when-expand"
+          ></iconify-icon>
+          <iconify-icon icon="mdi-menu-up" class="hidden"></iconify-icon>
+        </div>
+        <div class="hidden mx-2 flex items-center justify-center">
+          <div
+            class="bg-gray-300 w-full lg:w-[80%] h-96 lg:h-[30rem] rounded-lg mb-8 overflow-hidden shadow-lg my-2"
+          >
+            <img
+              src="img/placeholder.jpg"
+              alt="Placeholder image for drawing robot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          Placeholder
+          <div
+            id="drawing-github"
+            class="mt-5 flex items-center justify-center github"
+            onclick="openGithub('drawing-github')"
+          >
+            Github
+            <a
+              href="https://github.com/TURobotClub/drwaing_robot"
+              style="display: none"
+            ></a>
+          </div>
+        </div>
       </div>
-      <div class="hidden mx-2">
-        <h3>พวงกุญแจ</h3>
-        Placeholde
-      </div>
-    </div>
       <script>
         function expand(id) {
           const expandable = document.getElementById(id);
           expandable.classList.toggle("collapsed");
           expandable.classList.toggle("expanded");
+        }
+        function openGithub(id) {
+          const button = document.getElementById(id);
+          button.firstChild.click();
         }
       </script>
     </main>
