@@ -7,7 +7,7 @@ import YTIcon from "@/vector/Contact/YTIcon";
 import TikTokIcon from "@/vector/Contact/TikTokIcon";
 
 const Style = {
-  Contact: "cursor-pointer w-9 m-1 hover:scale-110 transition-all",
+  Contact: "cursor-pointer w-9 m-1.5 hover:scale-110 transition-all",
   Link: "cursor-pointer lg:w-1/2",
   LinkRow:
     "flex flex-col lg:flex-row lg:text-end lg:justify-between space-y-2 text-center mb-2 lg:mb-auto",
@@ -15,7 +15,7 @@ const Style = {
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 lg:px-30">
+    <footer className=" bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 lg:px-30 h-full overflow-y-clip">
       <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:pb-8">
         <div className="flex flex-col justify-center items-center  lg:justify-start lg:items-start">
           {/** TEXT */}
@@ -24,27 +24,30 @@ const Footer = () => {
             <p className=" text-md lg:text-xl">OPEN HOUSE 2026</p>
           </div>
           <div className="flex py-2  lg:justify-start">
-            <a href="/">
+            <a href="https://www.facebook.com/TriamUdomOPH">
               <FBIcon className={`${Style.Contact}`} />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/triamudom.oph/">
               <IGIcon className={`${Style.Contact}`} />
             </a>
-            <a href="/">
+            <a href="https://x.com/triamudomoph">
               <TwitterIcon className={`${Style.Contact}`} />
             </a>
-            <a href="/">
+            <a href="https://www.youtube.com/c/TriamUdomOpenHouse">
               <YTIcon className={`${Style.Contact}`} />
             </a>
-            <a href="/">
+            <a href="https://www.youtube.com/c/TriamUdomOpenHouse">
               <TikTokIcon className={`${Style.Contact}`} />
             </a>
           </div>
-          <div className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all">
+          <a
+            href="/"
+            className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all"
+          >
             เข้าสู่ระบบ
-          </div>
+          </a>
         </div>
-        <div className=" p-4 lg:w-1/2">
+        <div className="z-10 p-4 lg:w-1/2">
           <div className={`${Style.LinkRow}`}>
             <a href="/" className={`${Style.Link}`}>
               หน้าแรก
@@ -77,8 +80,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="h-px w-60vw lg:w-80vw bg-gray-400"></div>
-      <div className="flex flex-row p-4 pb-6 justify-center items-center">
+      <div className="z-10 h-px w-60vw lg:w-80vw bg-gray-400"></div>
+      <div className="z-10 flex flex-row p-4 pb-6 justify-center items-center">
         <p className="font-bold text-4xl tracking-tighter text-[#F4F2C4]">
           กช.
         </p>
@@ -88,8 +91,9 @@ const Footer = () => {
           <p className="text-sm">โรงเรียนเตรียมอุดมศึกษา</p>
         </div>
       </div>
-      <div className="w-full absolute bottom-0">
-        <FooterBackgroundSm className=" hidden bottom-0" />
+      <div className="relative overflow-clip w-[150vw] h-full left-0 -translate-x-1/10 z-0">
+        <FooterBackgroundSm className="block lg:hidden absolute bottom-0" />
+        <FooterBackground className="hidden lg:block absolute object-cover -bottom-1/2 w-[110vw] min-h-full overflow-hidden left-0 z-0" />
       </div>
     </footer>
   );
