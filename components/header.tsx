@@ -77,7 +77,7 @@ const Header = () => {
       </a>
 
       <div className="w-1/2 text-white justify-evenly items-center hidden lg:flex">
-        <a href="/" className={Style.Link}>
+        <a aria-current="page" href="/" className={`${Style.Link}`}>
           หน้าแรก
         </a>
         <a href="" className={Style.Link}>
