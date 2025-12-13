@@ -105,7 +105,7 @@ const Header = () => {
       {isSidebarOpen && (
         <div
           className={`
-            absolute w-[95vw] justify-center items-center top-16
+            absolute w-[95vw] justify-center items-center top-16 block lg:hidden
             ${isWaitClose ? "outro-fade-down" : "intro-fade-down"}
           `}
         >

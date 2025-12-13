@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
+import Loading from "./Loading";
 
 dayjs.extend(utc);
 
@@ -19,10 +20,10 @@ const Style = {
 
 const Countdown = () => {
   const [time, setTime] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+    days: 99,
+    hours: 99,
+    minutes: 99,
+    seconds: 99,
   });
 
   useEffect(() => {
@@ -59,7 +60,9 @@ const Countdown = () => {
       ].map(({ label, value }) => (
         <div key={label} className="flex flex-col">
           <div className={Style.pad}>
-            <p className={Style.number}>{zeroPadding(value)}</p>
+            <p className={Style.number}>
+              {value != 99 ? zeroPadding(value) : <Loading />}
+            </p>
           </div>
           <p className={Style.subtext}>{label}</p>
         </div>
