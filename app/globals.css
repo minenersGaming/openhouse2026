@@ -3,6 +3,7 @@
 
 :root {
   --background: #ffffff;
+  --background-navy: #0b1955;
   --foreground: #171717;
   --font-noto: "Inter", "Noto Sans Thai", Arial, Helvetica, sans-serif;
 }
@@ -22,7 +23,7 @@
 } */
 
 body {
-  background: var(--background);
+  background: var(--background-navy);
   color: var(--foreground);
   font-family: var(--font-noto);
 }
