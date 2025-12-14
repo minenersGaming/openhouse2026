@@ -85,10 +85,10 @@ const Footer = () => {
         <p className="font-bold text-4xl tracking-tighter text-[#F4F2C4]">
           กช.
         </p>
-        <div className="w-px h-7 mx-2 bg-[#F4F2C4]"></div>
+        <div className="w-px h-7 mx-2 mt-1 bg-[#F4F2C4]"></div>
         <div className="flex flex-col -space-y-0.5">
-          <p className="text-sm">งานกิจกรรมพัฒนาผู้เรียน</p>
-          <p className="text-sm">โรงเรียนเตรียมอุดมศึกษา</p>
+          <p className="text-[10px] mt-[5px]">งานกิจกรรมพัฒนาผู้เรียน</p>
+          <p className="text-[10px]">โรงเรียนเตรียมอุดมศึกษา</p>
         </div>
       </div>
       <div className="relative overflow-clip w-[150vw] h-full left-0 -translate-x-1/10 z-0">

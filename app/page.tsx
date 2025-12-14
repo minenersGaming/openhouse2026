@@ -22,7 +22,7 @@ const Home = () => {
         {/* THIS WON'T WORK  <LandingBackground className="absolute h-[120vh]" />*/}
         <img
           className="min-w-full min-h-[70vh] bottom-0 object-cover"
-          src="/LandingBg.svg"
+          src="/landingfixed.svg"
         />
       </div>
       <div className=" bottom-[5%] lg:-bottom-1/7 lg:top-1/2 left-1/2 -translate-x-1/2 absolute flex flex-col items-center justify-center space-y-6">

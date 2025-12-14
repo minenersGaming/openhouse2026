@@ -24,7 +24,7 @@ const FontInter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Triamudom Openhouse 2026",
+  title: "Triam Udom Open House 2026",
   description: "งานนิทรรศการประจำปีของโรงเรียนเตรียมอุดมศึกษา",
 };
 

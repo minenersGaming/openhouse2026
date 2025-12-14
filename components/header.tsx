@@ -64,19 +64,19 @@ const Header = () => {
         flex justify-between items-center px-4 lg:px-10
       `}
     >
-      <a href="/" className="flex justify-start cursor-pointer">
-        <Logo className="w-10 lg:w-12" />
-        <div className="flex flex-col px-2 lg:px-3 -space-y-1 items-center justify-center">
+      <a href="/" className="flex justify-start cursor-pointer pl-7">
+        <Logo className="w-10 lg:w-13" />
+        <div className="flex flex-col px-2 lg:px-3 -space-y-1 items-start justify-center">
           <h1 className="uppercase font-bold text-md lg:text-xl text-white tracking-wider">
             triam udom
           </h1>
-          <h2 className="uppercase text-white text-xs lg:text-sm">
-            open house 2026
+          <h2 className="ml-[1px] uppercase text-white text-xs lg:text-sm">
+            OPEN HOUSE 2026
           </h2>
         </div>
       </a>
 
-      <div className="w-1/2 text-white justify-evenly items-center hidden lg:flex">
+      <div className="w-1/2 text-white justify-evenly -mr-7 items-center hidden lg:flex">
         <a aria-current="page" href="/" className={`${Style.Link}`}>
           หน้าแรก
         </a>
