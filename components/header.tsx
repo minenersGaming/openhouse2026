@@ -31,19 +31,18 @@ const Header = () => {
     setSidebarOpen(!isSidebarOpen);
   }
 
-  // 🔥 Hide on scroll down, show on scroll up
   useEffect(() => {
     let lastScrollY = window.scrollY;
 
     const onScroll = () => {
-      if (isSidebarOpen) return; // ❗ don't hide while sidebar open
+      if (isSidebarOpen) return;
 
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        setHidden(true); // scrolling down
+        setHidden(true);
       } else {
-        setHidden(false); // scrolling up
+        setHidden(false);
       }
 
       lastScrollY = currentScrollY;
@@ -56,7 +55,7 @@ const Header = () => {
   return (
     <header
       className={`
-        sticky top-0 z-50
+        sticky top-0 -z-10
         transition-transform duration-300 ease-out
         ${hidden ? "-translate-y-full" : "translate-y-0"}
         w-full bg-linear-to-r from-[#0B1855]/80 to-[#042284]/80
@@ -70,7 +69,7 @@ const Header = () => {
           <h1 className="uppercase font-bold text-md lg:text-xl text-white tracking-wider">
             triam udom
           </h1>
-          <h2 className="ml-[1px] uppercase text-white text-xs lg:text-sm">
+          <h2 className="ml-px uppercase text-white text-xs lg:text-sm tracking-wider">
             OPEN HOUSE 2026
           </h2>
         </div>
