@@ -12,7 +12,7 @@ const TARGET_DATE = dayjs.utc("2026-01-09T01:00:00Z");
 const zeroPadding = (n: number) => String(n).padStart(2, "0");
 
 const Style = {
-  pad: "w-17 h-17 flex items-center justify-center bg-white rounded-[20px] shadow-[1.904px_3.808px_7.616px_rgba(0,0,0,0.25)]",
+  pad: "w-17 h-17 flex items-center justify-center bg-white rounded-[14px] shadow-[1.904px_3.808px_7.616px_rgba(0,0,0,0.25)]",
   number:
     "font-bold text-4xl bg-linear-to-r from-[#042284] to-[#457BCA] bg-clip-text text-transparent",
   subtext: "text-center text-white/60 mt-2",

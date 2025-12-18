@@ -81,7 +81,7 @@ const Header = () => {
           หน้าแรก
         </a>
         <a href="" className={Style.Link}>
-          ตารางการเรียน
+          ตารางการแสดง
         </a>
         <a href="" className={Style.Link}>
           ชมรม
@@ -110,7 +110,7 @@ const Header = () => {
           }
           `}
         >
-          <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[20px] text-white">
+          <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-1">
             <NavRow
               href="/"
               Icon={<HomeIcon className={Style.NavIcon} />}
