@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Logo from "@/vector/Logo";
+import MenuIcon from "./MenuIcon";
 import SidebarIcon from "@/vector/NavIcon/SideBarIcon";
 import CrossIcon from "@/vector/NavIcon/CrossIcon";
 import NavRow from "./NavRow";
@@ -63,7 +64,7 @@ const Header = () => {
         flex justify-between items-center px-4 lg:px-10
       `}
     >
-      <a href="/" className="flex justify-start cursor-pointer pl-7">
+      <a href="/" className="flex justify-start cursor-pointer lg:pl-7">
         <Logo className="w-10 lg:w-13" />
         <div className="flex flex-col px-2 lg:px-3 -space-y-1 items-start justify-center">
           <h1 className="uppercase font-bold text-md lg:text-xl text-white tracking-wider">
@@ -75,7 +76,7 @@ const Header = () => {
         </div>
       </a>
 
-      <div className="w-1/2 text-white justify-evenly -mr-7 items-center hidden lg:flex">
+      <div className="w-1/2 text-white justify-evenly lg:-mr-7 items-center hidden lg:flex">
         <a aria-current="page" href="/" className={`${Style.Link}`}>
           หน้าแรก
         </a>
@@ -94,11 +95,10 @@ const Header = () => {
       </div>
 
       <div onClick={ToggleSidebar} className="block p-0 lg:hidden">
-        {isSidebarOpen ? (
-          <CrossIcon className="w-5 cursor-pointer stroke-4" />
-        ) : (
-          <SidebarIcon className="w-7 cursor-pointer" />
-        )}
+        <MenuIcon
+          open={!isWaitClose && isSidebarOpen}
+          className="w-7 cursor-pointer"
+        />
       </div>
 
       {isSidebarOpen && (
