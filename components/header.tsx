@@ -64,7 +64,7 @@ const Header = () => {
         flex justify-between items-center px-4 lg:px-10
       `}
     >
-      <a href="/" className="flex justify-start cursor-pointer lg:pl-7">
+      <a href="/" className="flex justify-start cursor-pointer md:pl-3 lg:pl-7">
         <Logo className="w-10 lg:w-13" />
         <div className="flex flex-col px-2 lg:px-3 -space-y-1 items-start justify-center">
           <h1 className="uppercase font-bold text-md lg:text-xl text-white tracking-wider">
@@ -94,18 +94,20 @@ const Header = () => {
         </a>
       </div>
 
-      <div onClick={ToggleSidebar} className="block p-0 lg:hidden">
+      <div onClick={ToggleSidebar} className={`block p-0 lg:hidden`}>
         <MenuIcon
           open={!isWaitClose && isSidebarOpen}
-          className="w-7 cursor-pointer"
+          className="w-7 cursor-pointer md:lr-5"
         />
       </div>
 
       {isSidebarOpen && (
         <div
           className={`
-            absolute w-[95vw] justify-center items-center top-16 block lg:hidden
-            ${isWaitClose ? "outro-fade-down" : "intro-fade-down"}
+             w-[95vw] justify-center items-center top-16 block lg:hidden
+            ${isWaitClose ? "outro-fade-down" : "intro-fade-down"} ${
+            hidden ? "hidden" : "fixed"
+          }
           `}
         >
           <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[20px] text-white">
