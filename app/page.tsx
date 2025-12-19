@@ -19,11 +19,12 @@ const Home = () => {
         <TriamudomOpenhouse26Sm className="w-[85vw] block sm:hidden" />
       </div>
       <div className="relative -z-10">
-        {/* THIS WON'T WORK  <LandingBackground className="absolute h-[120vh]" />*/}
-        <img
+        {/* THIS WON'T WORK  <LandingBackground className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover" />*/}
+        {/* <img
           className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover"
           src="/LandingBg.svg"
-        />
+        /> */}
+        <LandingBackground className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover" />
         <img
           className="block sm:hidden min-w-full min-h-[50vh] bottom-0 object-cover"
           src="/LandingBgSm.svg"

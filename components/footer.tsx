@@ -36,7 +36,7 @@ const Footer = () => {
             <a href="https://www.youtube.com/c/TriamUdomOpenHouse">
               <YTIcon className={`${Style.Contact}`} />
             </a>
-            <a href="https://www.youtube.com/c/TriamUdomOpenHouse">
+            <a href="https://www.tiktok.com/@triamudom.oph">
               <TikTokIcon className={`${Style.Contact}`} />
             </a>
           </div>
@@ -82,9 +82,7 @@ const Footer = () => {
       </div>
       <div className="z-10 h-px w-60vw lg:w-80vw bg-gray-400"></div>
       <div className="z-10 flex flex-row p-4 pb-6 justify-center items-center">
-        <p className="font-bold text-4xl tracking-tighter text-[#F4F2C4]">
-          กช.
-        </p>
+        <p className="font-bold text-4xl tracking-[-3px] text-[#F4F2C4]">กช.</p>
         <div className="w-px h-7 mx-2 mt-1 bg-[#F4F2C4]"></div>
         <div className="flex flex-col -space-y-0.5">
           <p className="text-[10px] mt-[5px]">งานกิจกรรมพัฒนาผู้เรียน</p>

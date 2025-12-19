@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Logo from "@/vector/Logo";
 import MenuIcon from "./MenuIcon";
+import Toptext from "./TopText";
 import SidebarIcon from "@/vector/NavIcon/SideBarIcon";
 import CrossIcon from "@/vector/NavIcon/CrossIcon";
 import NavRow from "./NavRow";
@@ -66,14 +67,7 @@ const Header = () => {
     >
       <a href="/" className="flex justify-start cursor-pointer md:pl-3 lg:pl-7">
         <Logo className="w-10 lg:w-13" />
-        <div className="flex flex-col px-2 lg:px-3 -space-y-1 items-start justify-center">
-          <h1 className="uppercase font-bold text-md lg:text-xl text-white tracking-wider">
-            triam udom
-          </h1>
-          <h2 className="ml-px uppercase text-white text-xs lg:text-sm tracking-wider">
-            OPEN HOUSE 2026
-          </h2>
-        </div>
+        <Toptext />
       </a>
 
       <div className="w-1/2 text-white justify-evenly lg:-mr-7 items-center hidden lg:flex">
@@ -110,7 +104,7 @@ const Header = () => {
           }
           `}
         >
-          <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-1">
+          <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-3.5">
             <NavRow
               href="/"
               Icon={<HomeIcon className={Style.NavIcon} />}
