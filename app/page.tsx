@@ -26,7 +26,7 @@ const Home = () => {
         />
         {/* <LandingBackground className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover" /> */}
         <img
-          className="block sm:hidden min-w-full min-h-[50vh] bottom-0 object-cover"
+          className="block sm:hidden min-w-full min-h-[50vh] bottom-0 object-cover unselectable-image"
           src="/LandingBgSm.svg"
         />
       </div>

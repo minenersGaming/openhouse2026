@@ -66,3 +66,16 @@ body {
 .outro-fade-down {
   animation: fadeDownOut 0.5s ease-in forwards;
 }
+
+.unselectable-image {
+  /* Prevents text selection highlight (blue color when dragging) */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari, Chrome, Opera */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
+
+  /* Prevents the image from being clicked, dragged, or interacted with by mouse events */
+  pointer-events: none;
+}
