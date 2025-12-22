@@ -5,6 +5,7 @@ import IGIcon from "@/vector/Contact/IGIcon";
 import TwitterIcon from "@/vector/Contact/TwitterIcon";
 import YTIcon from "@/vector/Contact/YTIcon";
 import TikTokIcon from "@/vector/Contact/TikTokIcon";
+import { signIn } from "@/lib/auth-client";
 
 const Style = {
   Contact: "cursor-pointer w-9 m-1.5 hover:scale-110 transition-all",
@@ -14,6 +15,13 @@ const Style = {
 };
 
 const Footer = () => {
+  const handleLogin = async () => {
+    await signIn.social({
+      provider: "google",
+      callbackURL: "/register",
+    });
+  };
+
   return (
     <footer className=" bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 lg:px-30 h-full overflow-y-clip">
       <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:pb-8">
@@ -40,12 +48,12 @@ const Footer = () => {
               <TikTokIcon className={`${Style.Contact}`} />
             </a>
           </div>
-          <a
-            href="/"
+          <button
+            onClick={handleLogin}
             className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all"
           >
             เข้าสู่ระบบ
-          </a>
+          </button>
         </div>
         <div className="z-10 p-4 lg:w-1/2">
           <div className={`${Style.LinkRow}`}>
