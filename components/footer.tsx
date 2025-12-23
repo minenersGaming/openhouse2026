@@ -1,3 +1,4 @@
+'use client';
 import FooterBackgroundSm from "@/vector/FooterBackgroundSm";
 import FooterBackground from "@/vector/FooterBackground";
 import FBIcon from "@/vector/Contact/FBIcon";
