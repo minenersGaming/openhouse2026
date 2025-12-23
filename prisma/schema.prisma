@@ -15,8 +15,8 @@ model User {
   image                String?
   createdAt            DateTime  @default(now())
   updatedAt            DateTime  @updatedAt
-  selectedDocumentId   String?   @default("")
-  selectedDocumentType String?   @default("")
+  booking              Booking?
+
   sessions             Session[]
   accounts             Account[]
 
@@ -70,4 +70,19 @@ model Verification {
 
   @@index([identifier])
   @@map("verification")
+}
+
+model Booking {
+  id          String   @id @map("_id")
+
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  queueNumber Int      @unique
+  qr          String   @unique
+
+  checkedIn   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@map("booking")
 }
