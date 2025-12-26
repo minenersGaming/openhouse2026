@@ -5,8 +5,9 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url = env("DATABASE_URL")
+  url      = env("DATABASE_URL")
 }
+
 model User {
   id                   String    @id @map("_id")
   name                 String
@@ -15,8 +16,8 @@ model User {
   image                String?
   createdAt            DateTime  @default(now())
   updatedAt            DateTime  @updatedAt
-  booking              Booking?
-
+  selectedDocumentId   String?   @default("")
+  selectedDocumentType String?   @default("")
   sessions             Session[]
   accounts             Account[]
 
@@ -72,17 +73,169 @@ model Verification {
   @@map("verification")
 }
 
-model Booking {
-  id          String   @id @map("_id")
-
-  userId      String   @unique
-  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  queueNumber Int      @unique
-  qr          String   @unique
-
-  checkedIn   Boolean  @default(false)
-  createdAt   DateTime @default(now())
-
-  @@map("booking")
+model Gifted {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  key         String @unique
+  status      String
+  tag         String
+  name        String
+  thainame    String
+  members     String
+  ig          String
+  fb          String
+  others      String
+  admissions  String
+  courses     String
+  interests   String
+  captureimg1 String
+  descimg1    String
+  captureimg2 String
+  descimg2    String
+  captureimg3 String
+  descimg3    String
+  reviews     Json? // Store reviews as JSON
+  userEmail   String
 }
+
+model Club {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  key         String  @unique
+  status      String
+  tag         String
+  clubKey     String
+  name        String?
+  thainame    String
+  members     String?
+  ig          String?
+  fb          String?
+  others      String?
+  activities  String?
+  benefits    String?
+  working     String?
+  captureimg1 String?
+  descimg1    String?
+  captureimg2 String?
+  descimg2    String?
+  captureimg3 String?
+  descimg3    String?
+  logo        String?
+  reviews     Json?
+  userEmail   String
+}
+
+model Organization {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  key         String @unique
+  status      String
+  tag         String
+  name        String
+  thainame    String
+  members     String
+  ig          String
+  fb          String
+  others      String
+  activities  String
+  position    String
+  working     String
+  captureimg1 String
+  descimg1    String
+  captureimg2 String
+  descimg2    String
+  captureimg3 String
+  descimg3    String
+  reviews     Json? // Store reviews as JSON
+  userEmail   String
+}
+
+model Program {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  key         String @unique
+  status      String
+  tag         String
+  name        String
+  thainame    String
+  members     String
+  ig          String
+  fb          String
+  others      String
+  admissions  String
+  courses     String
+  interests   String
+  captureimg1 String
+  descimg1    String
+  captureimg2 String
+  descimg2    String
+  captureimg3 String
+  descimg3    String
+  reviews     Json? // Store reviews as JSON
+  userEmail   String
+}
+
+/**
+ * model User {
+ * id                   String    @id @map("_id")
+ * name                 String
+ * email                String
+ * emailVerified        Boolean   @default(false)
+ * image                String?
+ * createdAt            DateTime  @default(now())
+ * updatedAt            DateTime  @updatedAt
+ * booking              Booking?
+ * sessions             Session[]
+ * accounts             Account[]
+ * @@unique([email])
+ * @@map("user")
+ * }
+ * model Session {
+ * id        String   @id @map("_id")
+ * expiresAt DateTime
+ * token     String
+ * createdAt DateTime @default(now())
+ * updatedAt DateTime @updatedAt
+ * ipAddress String?
+ * userAgent String?
+ * userId    String
+ * user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+ * @@unique([token])
+ * @@index([userId])
+ * @@map("session")
+ * }
+ * model Account {
+ * id                    String    @id @map("_id")
+ * accountId             String
+ * providerId            String
+ * userId                String
+ * user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+ * accessToken           String?
+ * refreshToken          String?
+ * idToken               String?
+ * accessTokenExpiresAt  DateTime?
+ * refreshTokenExpiresAt DateTime?
+ * scope                 String?
+ * password              String?
+ * createdAt             DateTime  @default(now())
+ * updatedAt             DateTime  @updatedAt
+ * @@index([userId])
+ * @@map("account")
+ * }
+ * model Verification {
+ * id         String   @id @map("_id")
+ * identifier String
+ * value      String
+ * expiresAt  DateTime
+ * createdAt  DateTime @default(now())
+ * updatedAt  DateTime @updatedAt
+ * @@index([identifier])
+ * @@map("verification")
+ * }
+ * model Booking {
+ * id          String   @id @map("_id")
+ * userId      String   @unique
+ * user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+ * queueNumber Int      @unique
+ * qr          String   @unique
+ * checkedIn   Boolean  @default(false)
+ * createdAt   DateTime @default(now())
+ * @@map("booking")
+ * }
+ */

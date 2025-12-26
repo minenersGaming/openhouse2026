@@ -6,7 +6,7 @@ import IGIcon from "@/vector/Contact/IGIcon";
 import TwitterIcon from "@/vector/Contact/TwitterIcon";
 import YTIcon from "@/vector/Contact/YTIcon";
 import TikTokIcon from "@/vector/Contact/TikTokIcon";
-import { signIn } from "@/lib/auth-client";
+import { signIn, useSession, signOut } from "@/lib/auth-client";
 
 const Style = {
   Contact: "cursor-pointer w-9 m-1.5 hover:scale-110 transition-all",
@@ -16,11 +16,17 @@ const Style = {
 };
 
 const Footer = () => {
+  const { data, isPending } = useSession();
+
   const handleLogin = async () => {
     await signIn.social({
       provider: "google",
       callbackURL: "/", //change later
     });
+  };
+  const handleLogout = async () => {
+    await signOut();
+    window.location.href = "/";
   };
 
   return (
@@ -52,12 +58,27 @@ const Footer = () => {
               <TikTokIcon className={`${Style.Contact}`} />
             </a>
           </div>
-          <button
-            onClick={handleLogin}
-            className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all"
-          >
-            เข้าสู่ระบบ
-          </button>
+          {!isPending ? (
+            data?.user ? (
+              <button
+                onClick={handleLogout}
+                className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all"
+              >
+                ออกจากระบบ
+              </button>
+            ) : (
+              <button
+                onClick={handleLogin}
+                className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all"
+              >
+                เข้าสู่ระบบ
+              </button>
+            )
+          ) : (
+            <button className="bg-linear-to-r from-[#F3E19D] via-[#F4F2C4] to-[#E6C674] text-[#062078] rounded-full px-3 py-1 lg:px-5 lg:py-1.5 lg:text-lg text-center cursor-pointer mt-2 font-bold hover:scale-110 transition-all">
+              กำลังเช็คข้อมูล
+            </button>
+          )}
         </div>
         <div className="z-10 p-4 lg:w-1/2">
           <div className={`${Style.LinkRow}`}>
