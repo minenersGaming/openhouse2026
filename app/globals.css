@@ -67,7 +67,7 @@ body {
   animation: fadeDownOut 0.5s ease-in forwards;
 }
 
-.unselectable-image {
+img {
   /* Prevents text selection highlight (blue color when dragging) */
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari, Chrome, Opera */

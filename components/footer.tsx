@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import FooterBackgroundSm from "@/vector/FooterBackgroundSm";
 import FooterBackground from "@/vector/FooterBackground";
 import FBIcon from "@/vector/Contact/FBIcon";
@@ -33,19 +33,22 @@ const Footer = () => {
             <p className=" text-md lg:text-xl">OPEN HOUSE 2026</p>
           </div>
           <div className="flex py-2  lg:justify-start">
-            <a href="https://www.facebook.com/TriamUdomOPH">
+            <a target="_blank" href="https://www.facebook.com/TriamUdomOPH">
               <FBIcon className={`${Style.Contact}`} />
             </a>
-            <a href="https://www.instagram.com/triamudom.oph/">
+            <a target="_blank" href="https://www.instagram.com/triamudom.oph/">
               <IGIcon className={`${Style.Contact}`} />
             </a>
-            <a href="https://x.com/triamudomoph">
+            <a target="_blank" href="https://x.com/triamudomoph">
               <TwitterIcon className={`${Style.Contact}`} />
             </a>
-            <a href="https://www.youtube.com/c/TriamUdomOpenHouse">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/c/TriamUdomOpenHouse"
+            >
               <YTIcon className={`${Style.Contact}`} />
             </a>
-            <a href="https://www.tiktok.com/@triamudom.oph">
+            <a target="_blank" href="https://www.tiktok.com/@triamudom.oph">
               <TikTokIcon className={`${Style.Contact}`} />
             </a>
           </div>
@@ -58,32 +61,32 @@ const Footer = () => {
         </div>
         <div className="z-10 p-4 lg:w-1/2">
           <div className={`${Style.LinkRow}`}>
-            <a href="/" className={`${Style.Link}`}>
+            <a href="/" target="_blank" className={`${Style.Link}`}>
               หน้าแรก
             </a>
-            <a href="/" className={`${Style.Link}`}>
+            <a href="/" target="_blank" className={`${Style.Link}`}>
               แผนผัง
             </a>
           </div>
           <div className={`${Style.LinkRow}`}>
-            <a href="/" className={`${Style.Link}`}>
+            <a target="_blank" href="/" className={`${Style.Link}`}>
               สายการเรียน
             </a>
-            <a href="/" className={`${Style.Link}`}>
+            <a target="_blank" href="/" className={`${Style.Link}`}>
               การสอบเข้า
             </a>
           </div>
           <div className={`${Style.LinkRow}`}>
-            <a href="/" className={`${Style.Link}`}>
+            <a target="_blank" href="/" className={`${Style.Link}`}>
               ชมรม
             </a>
-            <a href="/" className={`${Style.Link}`}>
+            <a target="_blank" href="/" className={`${Style.Link}`}>
               การเดินทาง
             </a>
           </div>
           <div className={`${Style.LinkRow}`}>
             <div className="hidden lg:block"></div>
-            <a href="/" className={`${Style.Link}`}>
+            <a target="_blank" href="/" className={`${Style.Link}`}>
               ติดต่อ
             </a>
           </div>

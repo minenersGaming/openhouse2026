@@ -34,11 +34,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="th">
       <body
         className={`${FontInter.variable} ${NotoSansThai.variable}${geistSans.variable} ${geistMono.variable} antialiased overflow-x-clip`}
       >
-        <div className="absolute w-full h-full z-10">
+        <div className="fixed w-full top-0 left-0 z-10">
           <Header />
         </div>
         {children}
