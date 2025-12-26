@@ -13,6 +13,7 @@ import MapIcon from "@/vector/NavIcon/MapIcon";
 import DirectionIcon from "@/vector/NavIcon/DirectionIcon";
 import SouvenirIcon from "@/vector/NavIcon/SouvenirIcon";
 import AccountIcon from "@/vector/NavIcon/AccountIcon";
+import Link from "next/link";
 
 const Style = {
   Link: "cursor-pointer aria-[current=page]:font-bold",
@@ -65,10 +66,13 @@ const Header = () => {
         flex justify-between items-center px-4 lg:px-10
       `}
     >
-      <a href="/" className="flex justify-start cursor-pointer md:pl-3 lg:pl-7">
+      <Link
+        href="/"
+        className="flex justify-start cursor-pointer md:pl-3 lg:pl-7"
+      >
         <Logo className="w-10 lg:w-13" />
         <Toptext />
-      </a>
+      </Link>
 
       <div className="w-1/2 text-white justify-evenly lg:-mr-7 items-center hidden lg:flex">
         <a

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
-import Loading from "./Loading";
+import Loading from "../Loading";
 
 dayjs.extend(utc);
 

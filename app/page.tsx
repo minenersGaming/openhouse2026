@@ -1,8 +1,8 @@
 import Image from "next/image";
-import TriamudomOpenhouse26 from "@/vector/TriamudomOpenhouse26";
-import TriamudomOpenhouse26Sm from "@/vector/TriamudomOpenhouse26Sm";
-import LandingBackground from "@/vector/LandingBackground";
-import Countdown from "@/components/countdown";
+import TriamudomOpenhouse26 from "@/vector/LandingPage/TriamudomOpenhouse26";
+import TriamudomOpenhouse26Sm from "@/vector/LandingPage/TriamudomOpenhouse26Sm";
+import LandingBackground from "@/vector/LandingPage/LandingBackground";
+import Countdown from "@/components/landingPage/countdown";
 
 const Style = {
   Radial:

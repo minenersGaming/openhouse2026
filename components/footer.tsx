@@ -1,6 +1,6 @@
 "use client";
-import FooterBackgroundSm from "@/vector/FooterBackgroundSm";
-import FooterBackground from "@/vector/FooterBackground";
+import FooterBackgroundSm from "@/vector/Footer/FooterBackgroundSm";
+import FooterBackground from "@/vector/Footer/FooterBackground";
 import FBIcon from "@/vector/Contact/FBIcon";
 import IGIcon from "@/vector/Contact/IGIcon";
 import TwitterIcon from "@/vector/Contact/TwitterIcon";
