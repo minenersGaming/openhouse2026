@@ -1,4 +1,4 @@
-import ClubsCard from "@/components/ClubsCard";
+import ClubsCard from "@/components/clubPage/ClubsCard";
 import SearchIcon from "@/vector/Contact/SearchIcon";
 const EXAMPLE = {
   text: "คนรักมัตจะลัตเต",
