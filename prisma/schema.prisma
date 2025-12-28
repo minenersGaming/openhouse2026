@@ -8,6 +8,20 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Booking {
+  id                  String @id @default(uuid()) @map("_id")
+  registerId          String @unique
+  username            String
+  fullname            String
+  surname             String
+  userStatus          String
+  school              String
+  grade               String
+
+  userId              String @unique
+  user                User   @relation(fields: [userId], references: [id])
+}
+
 model User {
   id                   String    @id @map("_id")
   name                 String
@@ -16,15 +30,15 @@ model User {
   image                String?
   createdAt            DateTime  @default(now())
   updatedAt            DateTime  @updatedAt
-  selectedDocumentId   String?   @default("")
-  selectedDocumentType String?   @default("")
+
+  register             Booking?
+
   sessions             Session[]
   accounts             Account[]
 
   @@unique([email])
   @@map("user")
 }
-
 model Session {
   id        String   @id @map("_id")
   expiresAt DateTime
@@ -170,6 +184,16 @@ model Program {
   reviews     Json? // Store reviews as JSON
   userEmail   String
 }
+model TestEntry {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  Name        String
+  Lastname    String
+  School      String
+  createdAt   DateTime @default(now())
+
+  @@map("test_entry")
+}
+
 
 /**
  * model User {

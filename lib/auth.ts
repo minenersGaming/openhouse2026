@@ -13,5 +13,14 @@ export const auth = betterAuth({
     database: prismaAdapter(prisma, {
         provider: "mongodb",
     }),
+    // user: {
+    //     additionalFields: {
+    //         register: { 
+    //             type: "string",
+    //             defaultValue: "",
+    //             required: false,
+    //             },
+    //     },
+    // }
 
 })
