@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${FontInter.variable} ${NotoSansThai.variable}${geistSans.variable} ${geistMono.variable} antialiased overflow-x-clip`}
       >
-        <div className="fixed w-full top-0 left-0 z-10">
+        <div className="fixed w-full top-0 left-0 z-6767">
           <Header />
         </div>
         {children}
