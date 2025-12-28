@@ -1,6 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 import Logo from "@/vector/Logo";
 import MenuIcon from "./MenuIcon";
 import Toptext from "./TopText";
@@ -13,7 +16,6 @@ import MapIcon from "@/vector/NavIcon/MapIcon";
 import DirectionIcon from "@/vector/NavIcon/DirectionIcon";
 import SouvenirIcon from "@/vector/NavIcon/SouvenirIcon";
 import AccountIcon from "@/vector/NavIcon/AccountIcon";
-import Link from "next/link";
 
 const Style = {
   Link: "cursor-pointer aria-[current=page]:font-bold",
@@ -24,6 +26,7 @@ const Header = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isWaitClose, setWaitClose] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const pathname = usePathname();
 
   async function ToggleSidebar() {
     if (isSidebarOpen) {
@@ -75,14 +78,13 @@ const Header = () => {
       </Link>
 
       <div className="w-1/2 text-white justify-evenly lg:-mr-7 items-center hidden lg:flex">
-        <a
-          aria-current="page"
+        <Link
           href="/"
-          target="_blank"
-          className={`${Style.Link}`}
+          aria-current={pathname === "/" ? "page" : undefined}
+          className={Style.Link}
         >
           หน้าแรก
-        </a>
+        </Link>
         <a href="" className={Style.Link}>
           ตารางการแสดง
         </a>

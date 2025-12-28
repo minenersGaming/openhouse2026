@@ -179,7 +179,7 @@ const RightPillar: FC<{
           fill="url(#paint19_linear_5819_2428)"
         />
       </g>
-      <g style="mix-blend-mode:plus-lighter" opacity="0.8">
+      <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.8">
         <path
           opacity="0.25"
           d="M35.4566 1133.98L361.165 0.000306127L452.977 0L271.734 1133.98L35.4566 1133.98Z"
