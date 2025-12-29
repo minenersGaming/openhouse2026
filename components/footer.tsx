@@ -21,7 +21,7 @@ const Footer = () => {
   const handleLogin = async () => {
     await signIn.social({
       provider: "google",
-      callbackURL: "/test", //change later
+      callbackURL: "/register", //change later
     });
   };
   const handleLogout = async () => {

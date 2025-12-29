@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Noto_Sans_Thai, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Providers from "@/components/provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,11 +39,13 @@ export default function RootLayout({
       <body
         className={`${FontInter.variable} ${NotoSansThai.variable}${geistSans.variable} ${geistMono.variable} antialiased overflow-x-clip`}
       >
-        <div className="fixed w-full top-0 left-0 z-6767">
-          <Header />
-        </div>
-        {children}
-        <Footer />
+        <Providers>
+          <div className="fixed w-full top-0 left-0 z-6767">
+            <Header />
+          </div>
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

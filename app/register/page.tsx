@@ -3,7 +3,9 @@
 import RegisterBgmd from "@/vector/register/RegisterBgmd";
 import RegisterBgsm from "@/vector/register/RegisterBgsm";
 import { useFormik } from "formik";
+import { useMutation } from "@tanstack/react-query";
 import Link from "next/link";
+import toast from "react-hot-toast";
 
 const css = {
   checkBoxLabel:
@@ -59,8 +61,32 @@ interface RegisterFormValues {
   receivedInfo: string[]; // ✅ important
   purpose: string[];
 }
+async function registerUser(values: RegisterFormValues) {
+  const res = await fetch("/api/register", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(values),
+  });
 
+  if (!res.ok) {
+    const error = await res.json();
+    throw new Error(error.error || "Failed to register");
+  }
+
+  return res.json();
+}
 const RegisterPage = () => {
+  const mutation = useMutation({
+    mutationFn: registerUser,
+    onSuccess: () => {
+      toast.success("Registration successful 🎉");
+    },
+    onError: (error: Error) => {
+      toast.error(error.message || "Something went wrong");
+    },
+  });
   const formik = useFormik<RegisterFormValues>({
     initialValues: {
       username: "",
@@ -74,6 +100,7 @@ const RegisterPage = () => {
     },
     onSubmit: (values) => {
       console.log(values);
+      mutation.mutate(values);
     },
   });
   return (
@@ -103,13 +130,14 @@ const RegisterPage = () => {
                     htmlFor="username"
                     className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
                   >
-                    Username
+                    ชื่อผู้ใช้ (username)
                   </label>
                   <input
                     type="text"
                     id="username"
                     name="username"
-                    placeholder="Username"
+                    placeholder="ความยาวไม่เกิน 32 ตัวอักษร"
+                    maxLength={32}
                     value={formik.values.username}
                     onChange={formik.handleChange}
                     className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
@@ -121,13 +149,13 @@ const RegisterPage = () => {
                     htmlFor="fullname"
                     className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
                   >
-                    fullname
+                    ชื่อ (ไม่ต้องมีคำนำหน้า)
                   </label>
                   <input
                     type="text"
                     id="fullname"
                     name="fullname"
-                    placeholder="Fullname"
+                    placeholder="เรียนเด่น"
                     value={formik.values.fullname}
                     onChange={formik.handleChange}
                     className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
@@ -139,13 +167,13 @@ const RegisterPage = () => {
                     htmlFor="surname"
                     className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
                   >
-                    surname
+                    นามสกุล
                   </label>
                   <input
                     type="text"
                     id="surname"
                     name="surname"
-                    placeholder="Surname"
+                    placeholder="เล่นดี"
                     value={formik.values.surname}
                     onChange={formik.handleChange}
                     className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
@@ -236,7 +264,7 @@ const RegisterPage = () => {
                     type="text"
                     id="school"
                     name="school"
-                    placeholder="school"
+                    placeholder="โรงเรียนเตรียมอุดมศึกษา"
                     value={formik.values.school}
                     onChange={formik.handleChange}
                     className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
@@ -254,7 +282,7 @@ const RegisterPage = () => {
                     type="text"
                     id="grade"
                     name="grade"
-                    placeholder="grade"
+                    placeholder="ม.3"
                     value={formik.values.grade}
                     onChange={formik.handleChange}
                     className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
@@ -358,10 +386,11 @@ const RegisterPage = () => {
 
                   <button
                     type="submit"
+                    disabled={mutation.isPending}
                     className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] bg-linear-to-r from-[#E5C675] to-[#C4A063] shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
                   >
                     <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
-                      ลงทะเบียน
+                      {mutation.isPending ? "กำลังลงทะเบียน..." : "ลงทะเบียน"}
                     </p>
                   </button>
                 </div>

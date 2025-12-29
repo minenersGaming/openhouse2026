@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.19",
-    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-query": "^5.90.14",
     "better-auth": "^1.4.9",
     "dayjs": "^1.11.19",
     "dotenv": "^17.2.3",
@@ -22,6 +22,7 @@
     "next-auth": "^4.24.13",
     "react": "19.2.1",
     "react-dom": "19.2.1",
+    "react-hot-toast": "^2.6.0",
     "timediff": "^1.1.1"
   },
   "devDependencies": {

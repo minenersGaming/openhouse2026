@@ -9,14 +9,16 @@ datasource db {
 }
 
 model Booking {
-  id         String @id @default(uuid()) @map("_id")
-  registerId String @unique
-  username   String
-  fullname   String
-  surname    String
-  userStatus String
-  school     String
-  grade      String
+  id           String   @id @default(uuid()) @map("_id")
+  registerId   String   @unique
+  username     String
+  fullname     String
+  surname      String
+  userStatus   String
+  school       String
+  grade        String
+  receivedInfo String[]
+  purpose      String[]
 
   userId String @unique
   user   User   @relation(fields: [userId], references: [id])
