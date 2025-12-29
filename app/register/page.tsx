@@ -4,8 +4,8 @@ import RegisterBgmd from "@/vector/register/RegisterBgmd";
 import RegisterBgsm from "@/vector/register/RegisterBgsm";
 import { useFormik } from "formik";
 import { useMutation } from "@tanstack/react-query";
-import Link from "next/link";
 import toast from "react-hot-toast";
+import { signOut } from "@/lib/auth-client";
 
 const css = {
   checkBoxLabel:
@@ -103,6 +103,10 @@ const RegisterPage = () => {
       mutation.mutate(values);
     },
   });
+  const handleSignOut = async () => {
+    await signOut();
+    window.location.href = "/";
+  };
   return (
     <>
       <div className="w-screen relative border-2 bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)]">
@@ -376,13 +380,14 @@ const RegisterPage = () => {
               {/*submit*/}
               <div>
                 <div className="flex w-full justify-center items-center gap-[1.5vw] border mt-[1.5vw]">
-                  <Link href="/">
-                    <div className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] border-[1.112px] border-white shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]">
-                      <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
-                        ย้อนกลับ
-                      </p>
-                    </div>
-                  </Link>
+                  <div
+                    onClick={handleSignOut}
+                    className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] border-[1.112px] border-white shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
+                  >
+                    <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
+                      ย้อนกลับ
+                    </p>
+                  </div>
 
                   <button
                     type="submit"
