@@ -2,7 +2,7 @@
 
 import RegisterBgmd from "@/vector/register/RegisterBgmd";
 import RegisterBgsm from "@/vector/register/RegisterBgsm";
-import { useFormik, Field } from "formik";
+import { useFormik } from "formik";
 import Link from "next/link";
 
 const css = {
@@ -94,7 +94,7 @@ const RegisterPage = () => {
               <div className="w-[80%] mx-auto h-[0.1vw] bg-[#F4F2C3]" />
             </div>
             {/* inside box */}
-            <div className="w-[75%] border flex flex-col gap-[1.5vw] mx-auto border">
+            <div className="w-[75%] flex flex-col gap-[1.5vw] mx-auto border">
               {/* name & surname box*/}
               <div className=" flex flex-col gap-4">
                 {/*username*/}
@@ -112,7 +112,7 @@ const RegisterPage = () => {
                     placeholder="Username"
                     value={formik.values.username}
                     onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
+                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
                   />
                 </div>
                 {/*fullname*/}
@@ -130,7 +130,7 @@ const RegisterPage = () => {
                     placeholder="Fullname"
                     value={formik.values.fullname}
                     onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
+                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
                   />
                 </div>
                 {/*surname*/}
@@ -148,7 +148,7 @@ const RegisterPage = () => {
                     placeholder="Surname"
                     value={formik.values.surname}
                     onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
+                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
                   />
                 </div>
                 {/* white line */}
