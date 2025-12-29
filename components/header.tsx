@@ -58,7 +58,7 @@ const Header = () => {
   return (
     <header
       className={`
-        sticky top-0 -z-10
+        sticky top-0 z-9999
         transition-transform duration-300 ease-out
         ${hidden ? "-translate-y-full" : "translate-y-0"}
         w-full bg-linear-to-r from-[#0B1855]/80 to-[#042284]/80

@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@prisma/client": "6.19",
+    "@tanstack/react-query": "^5.90.12",
     "better-auth": "^1.4.9",
     "dayjs": "^1.11.19",
     "dotenv": "^17.2.3",
+    "formik": "^2.4.9",
     "framer-motion": "^12.23.26",
     "mongodb": "^7.0.0",
     "next": "^16.0.10",

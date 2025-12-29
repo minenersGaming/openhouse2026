@@ -10,7 +10,7 @@ datasource db {
 
 model Booking {
   id         String @id @default(uuid()) @map("_id")
-  registerId String
+  registerId String @unique
   username   String
   fullname   String
   surname    String
@@ -184,6 +184,16 @@ model Program {
   descimg3    String
   reviews     Json? // Store reviews as JSON
   userEmail   String
+}
+
+model TestEntry {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  Name      String
+  Lastname  String
+  School    String
+  createdAt DateTime @default(now())
+
+  @@map("test_entry")
 }
 
 /**
