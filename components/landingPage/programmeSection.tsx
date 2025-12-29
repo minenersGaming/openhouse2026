@@ -13,6 +13,9 @@ const Style = {
 const ProgrammeSection = () => {
   return (
     <section className="w-full overflow-clip bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto">
+      <div className="hidden top-0 flex w-full flex-row justify-around">
+        <LeftPillar className="h-full" />
+      </div>
       <div className="absolute flex flex-col  justify-center items-center w-full translate-y-12 sm:translate-y-30 md:translate-y-5 lg:translate-y-15 z-10 px-5">
         <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-5xl sm:text-7xl md:text-6xl lg:text-8xl">
           สายการเรียน
