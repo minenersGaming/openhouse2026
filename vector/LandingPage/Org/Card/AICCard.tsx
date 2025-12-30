@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useId } from "react";
 import type { FC } from "react";
 
 const AICCard: FC<{
   className?: string;
 }> = ({ className }) => {
+  // Generate a unique ID for this component instance
+  const id = useId();
+
   return (
     <svg
       className={className}
@@ -13,7 +16,7 @@ const AICCard: FC<{
     >
       <path
         d="M288.672 71.2121C241.739 84.2549 213.984 105.581 174.445 133.435C130.028 129.079 108.682 124.79 60.0868 140.482L103.096 344.752C151.48 332.417 186.373 327.459 231.553 330.521C271.98 303.948 288.669 296.774 334.613 280.959L288.672 71.2121Z"
-        fill="url(#paint0_linear_5779_6076)"
+        fill={`url(#paint0_linear_5779_6076_${id})`}
       />
       <path
         d="M288.67 71.2383L285.936 67.7151L285.844 73.1027L289.398 74.5092L288.67 71.2383Z"
@@ -25,15 +28,15 @@ const AICCard: FC<{
       />
       <path
         d="M285.905 67.6039C246.188 83.8289 208.745 104.416 169.206 132.27C126.472 132.526 104.291 117.992 55.6955 133.684L100.329 341.144C148.713 328.809 183.607 323.851 228.787 326.912C269.214 300.34 285.903 293.166 331.846 277.351L285.905 67.6039Z"
-        fill="url(#paint1_linear_5779_6076)"
+        fill={`url(#paint1_linear_5779_6076_${id})`}
       />
       <path
         d="M275.502 82.3265C234.003 93.8593 206.586 108.943 171.624 133.573C132.35 129.721 113.476 125.928 70.5064 139.803L116.632 321.585C159.414 310.678 184.254 309.221 224.204 311.928C259.95 288.431 278.786 277.953 310.688 267.421L275.502 82.3265Z"
-        fill="url(#paint2_radial_5779_6076)"
+        fill={`url(#paint2_radial_5779_6076_${id})`}
       />
       <path
         d="M276.269 80.677L294.904 178.751L311.944 249.343L310.339 259.035L316.873 264.69L311.517 266.181L294.904 178.751L268.902 71.0296L271.885 75.6384L274.471 77.1494L276.269 80.677Z"
-        fill="url(#paint3_linear_5779_6076)"
+        fill={`url(#paint3_linear_5779_6076_${id})`}
       />
       <path
         d="M312.468 254.119L312.154 248.301L306.847 251.005L310.554 267.47L316.878 264.689L315.794 262.561L313.697 261.015L315.06 256.335L312.468 254.119Z"
@@ -44,7 +47,7 @@ const AICCard: FC<{
         fill="#0A1B60"
       />
       <mask
-        id="mask0_5779_6076"
+        id={`mask0_5779_6076_${id}`}
         style={{ maskType: "alpha" }}
         maskUnits="userSpaceOnUse"
         x="62"
@@ -52,13 +55,13 @@ const AICCard: FC<{
       >
         <path
           d="M269.011 70.8514C233.651 94.64 203.624 103.126 168.663 127.756C130.86 133.883 121.483 121.016 62.7755 124.584L107.827 306.407C150.609 295.501 181.458 301.979 221.407 304.686C254.738 278.804 276.567 270.929 312.223 248.479L269.011 70.8514Z"
-          fill="url(#paint4_radial_5779_6076)"
+          fill={`url(#paint4_radial_5779_6076_${id})`}
         />
       </mask>
-      <g mask="url(#mask0_5779_6076)">
+      <g mask={`url(#mask0_5779_6076_${id})`}>
         <path
           d="M269.011 70.8514C233.651 94.64 203.624 103.126 168.663 127.756C138.507 125.17 114.287 122.527 62.7754 124.584L107.827 306.407C150.609 295.501 181.458 301.979 221.407 304.686C254.738 278.804 276.567 270.929 312.223 248.479L269.011 70.8514Z"
-          fill="url(#paint5_radial_5779_6076)"
+          fill={`url(#paint5_radial_5779_6076_${id})`}
         />
         <g style={{ mixBlendMode: "soft-light" }} opacity="0.88">
           <path
@@ -67,34 +70,34 @@ const AICCard: FC<{
           />
         </g>
       </g>
-      <g opacity="0.84" filter="url(#filter0_f_5779_6076)">
+      <g opacity="0.84" filter={`url(#filter0_f_5779_6076_${id})`}>
         <circle
           cx="190.854"
           cy="183.385"
           r="89.5717"
           transform="rotate(-27.0016 190.854 183.385)"
-          fill="url(#paint6_linear_5779_6076)"
+          fill={`url(#paint6_linear_5779_6076_${id})`}
         />
       </g>
-      <g filter="url(#filter1_d_5779_6076)">
+      <g filter={`url(#filter1_d_5779_6076_${id})`}>
         <path
           d="M146.359 235.671L133.411 238.669L139.908 176.955L155.478 173.35L188.409 225.935L175.462 228.933L150.94 188.16L150.493 188.263L146.359 235.671ZM140.349 213.396L170.931 206.316L173.115 215.747L142.532 222.828L140.349 213.396ZM191.781 164.944L205.013 222.091L192.93 224.889L179.699 167.742L191.781 164.944ZM254.419 171.521L242.197 174.351C241.608 172.821 240.827 171.523 239.854 170.454C238.877 169.367 237.748 168.511 236.467 167.887C235.185 167.262 233.784 166.881 232.262 166.744C230.76 166.601 229.19 166.72 227.553 167.099C224.595 167.784 222.189 169.115 220.334 171.093C218.475 173.052 217.263 175.567 216.7 178.637C216.133 181.689 216.308 185.196 217.225 189.158C218.169 193.232 219.566 196.515 221.417 199.007C223.286 201.494 225.482 203.191 228.005 204.097C230.527 205.002 233.23 205.121 236.113 204.453C237.732 204.079 239.18 203.518 240.457 202.772C241.753 202.021 242.846 201.111 243.735 200.043C244.621 198.956 245.279 197.735 245.71 196.381C246.16 195.022 246.348 193.548 246.274 191.958L258.508 189.184C258.799 191.88 258.594 194.593 257.894 197.323C257.207 200.03 256.026 202.587 254.349 204.994C252.686 207.378 250.523 209.467 247.861 211.259C245.213 213.028 242.057 214.337 238.392 215.186C233.295 216.366 228.471 216.268 223.918 214.891C219.385 213.511 215.449 210.904 212.112 207.071C208.793 203.233 206.414 198.208 204.976 191.995C203.533 185.763 203.477 180.19 204.809 175.275C206.141 170.361 208.551 166.295 212.039 163.076C215.523 159.839 219.777 157.639 224.799 156.477C228.11 155.71 231.288 155.464 234.33 155.74C237.392 156.011 240.227 156.785 242.836 158.063C245.44 159.322 247.727 161.075 249.698 163.324C251.688 165.568 253.261 168.3 254.419 171.521Z"
-          fill="url(#paint7_radial_5779_6076)"
+          fill={`url(#paint7_radial_5779_6076_${id})`}
         />
         <path
           d="M146.359 235.671L133.411 238.669L139.908 176.955L155.478 173.35L188.409 225.935L175.462 228.933L150.94 188.16L150.493 188.263L146.359 235.671ZM140.349 213.396L170.931 206.316L173.115 215.747L142.532 222.828L140.349 213.396ZM191.781 164.944L205.013 222.091L192.93 224.889L179.699 167.742L191.781 164.944ZM254.419 171.521L242.197 174.351C241.608 172.821 240.827 171.523 239.854 170.454C238.877 169.367 237.748 168.511 236.467 167.887C235.185 167.262 233.784 166.881 232.262 166.744C230.76 166.601 229.19 166.72 227.553 167.099C224.595 167.784 222.189 169.115 220.334 171.093C218.475 173.052 217.263 175.567 216.7 178.637C216.133 181.689 216.308 185.196 217.225 189.158C218.169 193.232 219.566 196.515 221.417 199.007C223.286 201.494 225.482 203.191 228.005 204.097C230.527 205.002 233.23 205.121 236.113 204.453C237.732 204.079 239.18 203.518 240.457 202.772C241.753 202.021 242.846 201.111 243.735 200.043C244.621 198.956 245.279 197.735 245.71 196.381C246.16 195.022 246.348 193.548 246.274 191.958L258.508 189.184C258.799 191.88 258.594 194.593 257.894 197.323C257.207 200.03 256.026 202.587 254.349 204.994C252.686 207.378 250.523 209.467 247.861 211.259C245.213 213.028 242.057 214.337 238.392 215.186C233.295 216.366 228.471 216.268 223.918 214.891C219.385 213.511 215.449 210.904 212.112 207.071C208.793 203.233 206.414 198.208 204.976 191.995C203.533 185.763 203.477 180.19 204.809 175.275C206.141 170.361 208.551 166.295 212.039 163.076C215.523 159.839 219.777 157.639 224.799 156.477C228.11 155.71 231.288 155.464 234.33 155.74C237.392 156.011 240.227 156.785 242.836 158.063C245.44 159.322 247.727 161.075 249.698 163.324C251.688 165.568 253.261 168.3 254.419 171.521Z"
-          fill="url(#paint8_radial_5779_6076)"
+          fill={`url(#paint8_radial_5779_6076_${id})`}
         />
       </g>
       <defs>
         <filter
-          id="filter0_f_5779_6076"
+          id={`filter0_f_5779_6076_${id}`}
           x="7.46794"
           y="4.57764e-05"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -107,13 +110,13 @@ const AICCard: FC<{
           />
         </filter>
         <filter
-          id="filter1_d_5779_6076"
+          id={`filter1_d_5779_6076_${id}`}
           x="120"
           y="150.733"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -139,110 +142,110 @@ const AICCard: FC<{
           />
         </filter>
         <linearGradient
-          id="paint0_linear_5779_6076"
+          id={`paint0_linear_5779_6076_${id}`}
           x1="173.949"
           y1="104.133"
           x2="238.37"
           y2="328.564"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.444808" stop-color="#042284" />
-          <stop offset="1" stop-color="#091B63" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.444808" stopColor="#042284" />
+          <stop offset="1" stopColor="#091B63" />
         </linearGradient>
         <linearGradient
-          id="paint1_linear_5779_6076"
+          id={`paint1_linear_5779_6076_${id}`}
           x1="161.027"
           y1="73.7581"
           x2="220.406"
           y2="329.318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.49041" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.49041" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
-          id="paint2_radial_5779_6076"
+          id={`paint2_radial_5779_6076_${id}`}
           cx="0"
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(210.631 276.141) rotate(71.8504) scale(56.0546 130.424)"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <linearGradient
-          id="paint3_linear_5779_6076"
+          id={`paint3_linear_5779_6076_${id}`}
           x1="267.418"
           y1="47.1388"
           x2="315.112"
           y2="261.169"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.430795" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.430795" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
-          id="paint4_radial_5779_6076"
+          id={`paint4_radial_5779_6076_${id}`}
           cx="0"
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(51.8051 177.868) rotate(19.6119) scale(233.319 184.629)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.589246" stop-color="#499FED" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.589246" stopColor="#499FED" />
+          <stop offset="1" stopColor="#C4A063" />
         </radialGradient>
         <radialGradient
-          id="paint5_radial_5779_6076"
+          id={`paint5_radial_5779_6076_${id}`}
           cx="0"
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(183.972 119.564) rotate(75.9818) scale(184.209 223.883)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.51306" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.51306" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#457BCA" />
         </radialGradient>
         <linearGradient
-          id="paint6_linear_5779_6076"
+          id={`paint6_linear_5779_6076_${id}`}
           x1="149.501"
           y1="118.625"
           x2="217.364"
           y2="307.736"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9F6FF" />
-          <stop offset="0.54901" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#E9F6FF" />
+          <stop offset="0.54901" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <radialGradient
-          id="paint7_radial_5779_6076"
+          id={`paint7_radial_5779_6076_${id}`}
           cx="0"
           cy="0"
           r="1"
           gradientTransform="matrix(91.0036 57.2201 -60.5729 60.2592 152.764 168.917)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.484868" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.484868" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <radialGradient
-          id="paint8_radial_5779_6076"
+          id={`paint8_radial_5779_6076_${id}`}
           cx="0"
           cy="0"
           r="1"
           gradientTransform="matrix(113.233 49.5805 -43.6539 65.2794 136.857 147.811)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
       </defs>
     </svg>
