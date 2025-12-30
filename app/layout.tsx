@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Geist, Geist_Mono, Noto_Sans_Thai, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/header";
@@ -26,7 +27,8 @@ const FontInter = Inter({
 
 export const metadata: Metadata = {
   title: "Triam Udom Open House 2026",
-  description: "งานนิทรรศการประจำปีของโรงเรียนเตรียมอุดมศึกษา",
+  description:
+    "88 ปีงานนิทรรศการวิชาการเตรียมอุดมศึกษา (Triam Udom Open House 2026)",
 };
 
 export default function RootLayout({
@@ -45,6 +47,7 @@ export default function RootLayout({
           </div>
           {children}
           <Footer />
+          <Analytics />
         </Providers>
       </body>
     </html>

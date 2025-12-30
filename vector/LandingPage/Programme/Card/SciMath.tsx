@@ -7,7 +7,7 @@ const SciMath: FC<{
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      classname={className}
+      className={className}
       viewBox="0 0 399 541"
       fill="none"
     >
