@@ -6,8 +6,8 @@ const CurvyLight: FC<{
 }> = ({ className }) => {
   return (
     <svg
-      className={className}
       xmlns="http://www.w3.org/2000/svg"
+      className={`${className}`}
       viewBox="0 0 532 1432"
       fill="none"
     >
@@ -17,8 +17,10 @@ const CurvyLight: FC<{
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
+        width="532"
+        height="1432"
       >
-        <rect fill="#D9D9D9" />
+        <rect width="531.762" height="1431.14" fill="#D9D9D9" />
       </mask>
       <g mask="url(#mask0_5801_2698)">
         <path

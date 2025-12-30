@@ -6,15 +6,26 @@ const LeftPillar: FC<{
 }> = ({ className }) => {
   return (
     <svg
-      className={className}
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
       viewBox="0 0 544 1120"
       fill="none"
     >
-      <rect x="-1.96094" fill="url(#paint0_linear_5910_2917)" />
-      <rect x="-1.96094" y="1033.98" fill="url(#paint1_linear_5910_2917)" />
+      <rect
+        x="-1.96484"
+        width="186.987"
+        height="1120"
+        fill="url(#paint0_linear_5910_2917)"
+      />
+      <rect
+        x="-1.96484"
+        y="1033.98"
+        width="186.987"
+        height="100"
+        fill="url(#paint1_linear_5910_2917)"
+      />
       <path
-        d="M144.484 0H185.026V1120L144.484 1031.03V0Z"
+        d="M144.48 0H185.022V1120L144.48 1031.03V0Z"
         fill="url(#paint2_linear_5910_2917)"
       />
       <path
@@ -76,67 +87,120 @@ const LeftPillar: FC<{
           d="M12.9554 61.8383L12.9554 47.8705L106.446 131.904L90.7035 131.904L12.9554 61.8383Z"
           fill="url(#paint6_linear_5910_2917)"
         />
-        <rect x="7.36719" y="15.5137" fill="#B4B4B4" />
-        <rect x="7.36719" y="15.5137" fill="url(#paint7_linear_5910_2917)" />
         <rect
+          x="7.36719"
+          y="15.5137"
+          width="10.7864"
+          height="126.104"
+          fill="#B4B4B4"
+        />
+        <rect
+          x="7.36719"
+          y="15.5137"
+          width="10.7864"
+          height="126.104"
+          fill="url(#paint7_linear_5910_2917)"
+        />
+        <rect
+          width="24.9019"
+          height="11.6221"
           rx="2.86999"
           transform="matrix(1 0 0 -1 0.398438 20.5713)"
           fill="#B4B4B4"
         />
         <rect
+          width="24.9019"
+          height="11.6221"
           rx="2.86999"
           transform="matrix(1 0 0 -1 0.398438 20.5713)"
           fill="url(#paint8_linear_5910_2917)"
         />
         <rect
+          width="79.8186"
+          height="11.6221"
           rx="2.86999"
           transform="matrix(1 0 0 -1 -27.0625 11.6221)"
           fill="#B4B4B4"
         />
         <rect
+          width="79.8186"
+          height="11.6221"
           rx="2.86999"
           transform="matrix(1 0 0 -1 -27.0625 11.6221)"
           fill="url(#paint9_linear_5910_2917)"
         />
-        <rect x="-4.77344" y="124.674" fill="#7B7B7B" />
-        <rect x="-4.77344" y="124.674" fill="url(#paint10_linear_5910_2917)" />
         <rect
+          x="-4.77344"
+          y="124.674"
+          width="133.603"
+          height="20.044"
+          fill="#7B7B7B"
+        />
+        <rect
+          x="-4.77344"
+          y="124.674"
+          width="133.603"
+          height="20.044"
+          fill="url(#paint10_linear_5910_2917)"
+        />
+        <rect
+          width="11.2372"
+          height="13.4301"
           rx="5.6186"
-          transform="matrix(-1 0 0 1 146.051 127.583)"
+          transform="matrix(-1 0 0 1 146.051 127.584)"
           fill="#D9D9D9"
         />
         <rect
+          width="11.2372"
+          height="13.4301"
           rx="5.6186"
-          transform="matrix(-1 0 0 1 146.051 127.583)"
+          transform="matrix(-1 0 0 1 146.051 127.584)"
           fill="url(#paint11_radial_5910_2917)"
         />
         <rect
+          width="11.2372"
+          height="13.4301"
           rx="5.6186"
-          transform="matrix(-1 0 0 1 146.051 127.583)"
+          transform="matrix(-1 0 0 1 146.051 127.584)"
           fill="url(#paint12_linear_5910_2917)"
         />
-        <rect x="111.605" y="120.184" rx="1.90365" fill="#D9D9D9" />
         <rect
           x="111.605"
           y="120.184"
+          width="9.28291"
+          height="28.2307"
+          rx="1.90365"
+          fill="#D9D9D9"
+        />
+        <rect
+          x="111.605"
+          y="120.184"
+          width="9.28291"
+          height="28.2307"
           rx="1.90365"
           fill="url(#paint13_linear_5910_2917)"
         />
         <rect
           x="111.605"
           y="120.184"
+          width="9.28291"
+          height="28.2307"
           rx="1.90365"
           fill="url(#paint14_linear_5910_2917)"
         />
         <rect
           x="111.605"
           y="120.184"
+          width="9.28291"
+          height="28.2307"
           rx="1.90365"
           fill="url(#paint15_linear_5910_2917)"
         />
         <rect
           x="123.293"
           y="120.324"
+          width="15.8787"
+          height="29.1852"
           rx="7.93933"
           transform="rotate(-0.741191 123.293 120.324)"
           fill="#D9D9D9"
@@ -144,6 +208,8 @@ const LeftPillar: FC<{
         <rect
           x="123.293"
           y="120.324"
+          width="15.8787"
+          height="29.1852"
           rx="7.93933"
           transform="rotate(-0.741191 123.293 120.324)"
           fill="url(#paint16_radial_5910_2917)"
@@ -151,6 +217,8 @@ const LeftPillar: FC<{
         <rect
           x="123.293"
           y="120.324"
+          width="15.8787"
+          height="29.1852"
           rx="7.93933"
           transform="rotate(-0.741191 123.293 120.324)"
           fill="url(#paint17_linear_5910_2917)"
@@ -158,6 +226,8 @@ const LeftPillar: FC<{
         <rect
           x="123.293"
           y="120.324"
+          width="15.8787"
+          height="29.1852"
           rx="7.93933"
           transform="rotate(-0.741191 123.293 120.324)"
           fill="url(#paint18_linear_5910_2917)"
@@ -165,6 +235,8 @@ const LeftPillar: FC<{
         <rect
           x="123.293"
           y="120.324"
+          width="15.8787"
+          height="29.1852"
           rx="7.93933"
           transform="rotate(-0.741191 123.293 120.324)"
           fill="url(#paint19_linear_5910_2917)"
@@ -186,7 +258,7 @@ const LeftPillar: FC<{
         <path
           d="M371.684 28.8975L288.631 28.8975M382.758 63.4473H244.335M332.926 63.4473V28.8975"
           stroke="white"
-          stroke-
+          stroke-width="6.12182"
           stroke-linecap="round"
         />
       </g>
@@ -194,7 +266,7 @@ const LeftPillar: FC<{
         <path
           d="M526.943 177.577L423.006 177.577M471.51 105.658L367.573 105.658M540.801 141.618H367.573M478.439 141.618V177.577M409.148 105.658V141.618"
           stroke="white"
-          stroke-
+          stroke-width="5.90253"
           stroke-linecap="round"
         />
       </g>
@@ -203,6 +275,8 @@ const LeftPillar: FC<{
           id="filter0_i_5910_2917"
           x="-4.77344"
           y="144.325"
+          width="88.9336"
+          height="697.438"
           filterUnits="userSpaceOnUse"
           color-interpolation-filters="sRGB"
         >
@@ -234,9 +308,9 @@ const LeftPillar: FC<{
         </filter>
         <linearGradient
           id="paint0_linear_5910_2917"
-          x1="91.5324"
+          x1="91.5285"
           y1="0"
-          x2="91.5324"
+          x2="91.5285"
           y2="1044.55"
           gradientUnits="userSpaceOnUse"
         >
@@ -245,9 +319,9 @@ const LeftPillar: FC<{
         </linearGradient>
         <linearGradient
           id="paint1_linear_5910_2917"
-          x1="165.625"
+          x1="165.621"
           y1="1013.56"
-          x2="-1.96094"
+          x2="-1.96484"
           y2="1125.58"
           gradientUnits="userSpaceOnUse"
         >
@@ -256,9 +330,9 @@ const LeftPillar: FC<{
         </linearGradient>
         <linearGradient
           id="paint2_linear_5910_2917"
-          x1="164.755"
+          x1="164.751"
           y1="0"
-          x2="164.755"
+          x2="164.751"
           y2="1120"
           gradientUnits="userSpaceOnUse"
         >
