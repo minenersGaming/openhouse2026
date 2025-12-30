@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 
 const css = {
   checkBoxLabel:
-    "border flex items-center gap-2 text-white font-inter text-[15.882px] font-medium leading-[22.689px]",
+    " flex items-center gap-2 text-white font-inter text-[15.882px] font-medium leading-[22.689px]",
   checkBox:
     " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
   squreCheckBox:
@@ -113,23 +113,23 @@ const RegisterPage = () => {
   };
   return (
     <>
-      <div className="w-screen relative border-2 bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)]">
-        <RegisterBgmd className="hidden z-0 md:block border-2 top-0 left-0 w-screen h-auto" />
-        <RegisterBgsm className="block md:hidden absolute w-full left-0 top-0" />
+      <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)]">
+        <RegisterBgmd className="hidden z-0 md:block top-0 left-0 w-screen h-auto" />
+        <RegisterBgsm className="block z-0 md:hidden w-full h-auto left-0 top-0" />
         <form
-          className="absolute pt-3 pb-10 z-10 w-1/2 md:w-1/2 lg:w-[40vw] top-40 left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
+          className="absolute pt-3 pb-10 z-10 w-1/2 md:w-[60vw] lg:w-[40vw] top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
           onSubmit={formik.handleSubmit}
         >
           <div className="w-full flex flex-col gap-[1vw]">
             {/* header */}
-            <div className=" border ">
+            <div className=" ">
               <p className="w-full text-[#F4F2C3] text-center font-inter text-[48.115px] font-bold">
                 ลงทะเบียน
               </p>
               <div className="w-[80%] mx-auto h-[0.1vw] bg-[#F4F2C3]" />
             </div>
             {/* inside box */}
-            <div className="w-[75%] flex flex-col gap-[1.5vw] mx-auto border">
+            <div className="w-[75%] flex flex-col gap-[1.5vw] mx-auto">
               {/* name & surname box*/}
               <div className=" flex flex-col gap-4">
                 {/*username*/}
@@ -383,7 +383,7 @@ const RegisterPage = () => {
               </div>
               {/*submit*/}
               <div>
-                <div className="flex w-full justify-center items-center gap-[1.5vw] border mt-[1.5vw]">
+                <div className="flex w-full justify-center items-center gap-[1.5vw] mt-[1.5vw]">
                   <div
                     onClick={handleSignOut}
                     className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] border-[1.112px] border-white shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"

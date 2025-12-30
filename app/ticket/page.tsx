@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import StudentIcon from "@/vector/Eticket/Student";
-import ExampleQR from "@/vector/Eticket/ExampleQR";
 import DownloadIcon from "@/vector/Eticket/download";
 import { useRef } from "react";
 import { toPng } from "html-to-image";
 import { useQuery } from "@tanstack/react-query";
+import QRCode from "qrcode";
+import { useEffect, useState } from "react";
 
 const css = {
   textId:
@@ -18,6 +19,7 @@ const css = {
 };
 
 type BookingMeResponse = {
+  userId: string;
   registerId: string;
   username: string;
   fullname: string;
@@ -44,6 +46,23 @@ const TicketPage = () => {
     queryKey: ["booking", "me"],
     queryFn: fetchMyBooking,
   });
+  const [qr, setQr] = useState<string>("");
+
+  useEffect(() => {
+    if (!data?.userId) return;
+
+    const userId = JSON.stringify({
+      uid: data.userId,
+      type: "checkin",
+    });
+
+    const qrValue = `${window.location.origin}/api/ticket/checkIn?userId=${userId}`;
+
+    QRCode.toDataURL(qrValue, {
+      width: 256,
+      margin: 1,
+    }).then(setQr);
+  }, [data?.userId]);
 
   const ref = useRef<HTMLDivElement>(null);
   const downloadPNG = async () => {
@@ -97,7 +116,7 @@ const TicketPage = () => {
             </div>
           </div>
           <div className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0">
-            <ExampleQR className="w-full h-auto" />
+            {qr && <img src={qr} alt="QR Code" className="w-full h-auto" />}
           </div>
         </div>
 
