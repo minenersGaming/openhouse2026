@@ -7,10 +7,8 @@ const Home = () => {
   return (
     <>
       <div className="flex flex-col w-screen overflow-x-clip">
-        <Hero />
-        <ProgrammeSection />
         <GiftedSection />
-        <OrgSection />
+        <ProgrammeSection />
       </div>
     </>
   );

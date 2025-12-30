@@ -8,10 +8,10 @@ import P from "@/vector/directions/P";
 import Light from "@/vector/directions/Light";
 
 const COLORS = {
-  bts: "#001870",
-  bus: "#C5A064",
-  mrt: "#EC7A7A",
-  parking: "#F08054",
+  bts: "#C5A064",
+  bus: "#EC7A7A",
+  mrt: "#001870",
+  parking: "#EC7A7A",
 };
 
 export default function Directions() {
@@ -22,7 +22,7 @@ export default function Directions() {
     <object
       key={"b"}
       data="/assets/images/directions/bts.svg"
-      className="h-[404px] w-[100%] lg:h-[884px] lg:w-[700px]"
+      className="h-[404px] w-full lg:h-[884px] lg:w-[700px]"
     />
   );
 
