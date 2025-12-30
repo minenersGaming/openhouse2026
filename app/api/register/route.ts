@@ -14,8 +14,13 @@ export async function POST(req: Request) {
       )
     }
 
+    if (session.user.isBooking) {
+      return NextResponse.json(
+        { error: "User already booked" },
+        { status: 409 }
+      );
+    }
     const userId = session.user.id
-
     const body = await req.json();
     const {username, fullname, surname, userStatus, school, grade, receivedInfo, purpose} = body;
 
@@ -43,8 +48,14 @@ export async function POST(req: Request) {
         userId
       },
     });
+    const updateUser = await prisma.user.update({
+        where: { id: userId },
+        data: {
+          isBooking: true,
+        },
+      });
 
-    return NextResponse.json(saved);
+    return NextResponse.json({saved,updateUser});
   } catch (err) {
     return NextResponse.json(
       { error: err },

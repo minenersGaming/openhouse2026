@@ -6,6 +6,7 @@ import ExampleQR from "@/vector/Eticket/ExampleQR";
 import DownloadIcon from "@/vector/Eticket/download";
 import { useRef } from "react";
 import { toPng } from "html-to-image";
+import { useQuery } from "@tanstack/react-query";
 
 const css = {
   textId:
@@ -16,7 +17,34 @@ const css = {
   student: "text-[#F3E8AD] font-inter text-[17px] leading-[23px]",
 };
 
+type BookingMeResponse = {
+  registerId: string;
+  username: string;
+  fullname: string;
+  surname: string;
+  userStatus: string;
+};
+
+async function fetchMyBooking(): Promise<BookingMeResponse> {
+  const res = await fetch("/api/ticket/getBooking", {
+    method: "GET",
+    credentials: "include", // IMPORTANT for Better Auth cookies
+  });
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch booking");
+  }
+
+  const json = await res.json();
+  return json.data;
+}
+
 const TicketPage = () => {
+  const { data, isPending, isError } = useQuery({
+    queryKey: ["booking", "me"],
+    queryFn: fetchMyBooking,
+  });
+
   const ref = useRef<HTMLDivElement>(null);
   const downloadPNG = async () => {
     if (!ref.current) return;
@@ -25,12 +53,13 @@ const TicketPage = () => {
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
         cacheBust: true,
-        backgroundColor: "#F4F2C3",
+        //backgroundColor: "#F4F2C3",
         width: 375,
         height: 695,
         style: {
           margin: "0",
           padding: "0",
+          background: "transparent",
         },
       });
 
@@ -42,28 +71,32 @@ const TicketPage = () => {
       console.error("PNG export failed", err);
     }
   };
+  if (isPending) return <div>Loading</div>;
+  if (isError) return <div>Error</div>;
   return (
     <>
       <div className=" w-screen py-[25vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)] ">
         <div
           ref={ref}
-          className="relative w-[375px] h-[695px] mx-auto overflow-hidden border"
+          className="relative w-[375px] h-[695px] mx-auto overflow-hidden"
         >
           <Image src="/Eticket.svg" alt="Ticket" width={800} height={600} />
-          <div className="absolute pt-4 top-0 left-0 w-full border flex flex-col gap-3">
-            <p className={css.textId + " text-center "}>ID: 00001</p>
-            <p className={css.userName + " text-center uppercase break-all"}>
-              wanderingtn
+          <div className="absolute pt-4 top-0 left-0 w-full flex flex-col gap-3">
+            <p className={css.textId + " text-center "}>
+              ID: {data.registerId}
             </p>
-            <p className={css.thaiName}>จิรวัฒน์</p>
-            <p className={css.thaiName}>เอสเปร่า</p>
+            <p className={css.userName + " text-center uppercase break-all"}>
+              {data.username}
+            </p>
+            <p className={css.thaiName}>{data.fullname}</p>
+            <p className={css.thaiName}>{data.surname}</p>
             <div className="ml-7 w-[40%] h-0.5 bg-[#F3E8AD]"></div>
-            <div className=" ml-7 flex items-center border gap-2">
+            <div className=" ml-7 flex items-center gap-2">
               <StudentIcon className="w-[17px] h-auto" />
-              <p className={css.student}>นักเรียน</p>
+              <p className={css.student}>{data.userStatus}</p>
             </div>
           </div>
-          <div className="absolute w-[25%] mx-[30px] my-[15px] border right-0 bottom-0">
+          <div className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0">
             <ExampleQR className="w-full h-auto" />
           </div>
         </div>

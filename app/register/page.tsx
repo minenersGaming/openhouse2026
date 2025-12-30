@@ -6,6 +6,7 @@ import { useFormik } from "formik";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { signOut } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
 
 const css = {
   checkBoxLabel:
@@ -78,10 +79,13 @@ async function registerUser(values: RegisterFormValues) {
   return res.json();
 }
 const RegisterPage = () => {
+  const router = useRouter();
+
   const mutation = useMutation({
     mutationFn: registerUser,
     onSuccess: () => {
       toast.success("Registration successful 🎉");
+      router.push("/ticket");
     },
     onError: (error: Error) => {
       toast.error(error.message || "Something went wrong");
@@ -195,11 +199,11 @@ const RegisterPage = () => {
                   <input
                     type="checkbox"
                     name="statusStudent"
-                    checked={formik.values.userStatus === "student"}
+                    checked={formik.values.userStatus === "นักเรียน"}
                     onChange={(e) =>
                       formik.setFieldValue(
                         "userStatus",
-                        e.target.checked ? "student" : ""
+                        e.target.checked ? "นักเรียน" : ""
                       )
                     }
                     className={css.checkBox}
@@ -210,11 +214,11 @@ const RegisterPage = () => {
                   <input
                     type="checkbox"
                     name="statusParent"
-                    checked={formik.values.userStatus === "parent"}
+                    checked={formik.values.userStatus === "ผู้ปกครอง"}
                     onChange={(e) =>
                       formik.setFieldValue(
                         "userStatus",
-                        e.target.checked ? "parent" : ""
+                        e.target.checked ? "ผู้ปกครอง" : ""
                       )
                     }
                     className={css.checkBox}
@@ -225,11 +229,11 @@ const RegisterPage = () => {
                   <input
                     type="checkbox"
                     name="statusTeacher"
-                    checked={formik.values.userStatus === "teacher"}
+                    checked={formik.values.userStatus === "ครู"}
                     onChange={(e) =>
                       formik.setFieldValue(
                         "userStatus",
-                        e.target.checked ? "teacher" : ""
+                        e.target.checked ? "ครู" : ""
                       )
                     }
                     className={css.checkBox}
@@ -240,11 +244,11 @@ const RegisterPage = () => {
                   <input
                     type="checkbox"
                     name="statusOther"
-                    checked={formik.values.userStatus === "other"}
+                    checked={formik.values.userStatus === "อื่นๆ"}
                     onChange={(e) =>
                       formik.setFieldValue(
                         "userStatus",
-                        e.target.checked ? "other" : ""
+                        e.target.checked ? "อื่นๆ" : ""
                       )
                     }
                     className={css.checkBox}

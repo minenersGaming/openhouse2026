@@ -13,13 +13,18 @@ export const auth = betterAuth({
     database: prismaAdapter(prisma, {
         provider: "mongodb",
     }),
-    // user: {
-    //     additionalFields: {
-    //         register: { 
-    //             type: "string",
-    //             defaultValue: "",
-    //             required: false,
-    //             },
-    //     },
-    // }
+    user: {
+        additionalFields: {
+            isBooking: {
+                type: "boolean",
+                defaultValue: false,
+                required: false,
+            },
+            checkedIn: {
+                type: "boolean", 
+                defaultValue: false,
+                required: false,
+            },
+        },
+    },
 })
