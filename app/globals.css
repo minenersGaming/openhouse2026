@@ -79,3 +79,9 @@ img {
   /* Prevents the image from being clicked, dragged, or interacted with by mouse events */
   pointer-events: none;
 }
+
+#qr-reader video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
