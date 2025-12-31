@@ -12,9 +12,7 @@ export default async function proxy(request: NextRequest) {
 
   const json = await res.json();
 
-  // ─────────────────────────────
-  // NOT LOGGED IN
-  // ─────────────────────────────
+
   if (!json.ok) {
     if (currentPath !== "/") {
       return NextResponse.redirect(new URL("/", request.url));
@@ -24,9 +22,6 @@ export default async function proxy(request: NextRequest) {
 
   const user = json.data.user;
 
-  // ─────────────────────────────
-  // STAFF ROUTES PROTECTION
-  // ─────────────────────────────
   if (currentPath.startsWith("/staff")) {
     if (!user.isStaff) {
       return NextResponse.redirect(new URL("/", request.url));
@@ -34,9 +29,7 @@ export default async function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // ─────────────────────────────
-  // NORMAL USER BOOKING LOGIC
-  // ─────────────────────────────
+
   if (
     currentPath !== "/register" &&
     currentPath !== "/" &&
@@ -57,6 +50,6 @@ export const config = {
     "/",
     "/ticket",
     "/register",
-    "/staff/:path*", // 👈 staff pages
+    "/staff/:path*",
   ],
 };
