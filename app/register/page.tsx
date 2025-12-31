@@ -2,22 +2,13 @@
 
 import RegisterBgmd from "@/vector/register/RegisterBgmd";
 import RegisterBgsm from "@/vector/register/RegisterBgsm";
+import RegisterBg from "@/vector/register/RegisterBg";
+import RegisterBgxl from "@/vector/register/RegisterBgxl";
 import { useFormik } from "formik";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { signOut } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
-
-const css = {
-  checkBoxLabel:
-    " flex items-center gap-2 text-white font-inter text-[15.882px] font-medium leading-[22.689px]",
-  checkBox:
-    " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
-  squreCheckBox:
-    " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
-  squreLabel:
-    " self-stretch text-white font-['Noto_Sans_Thai'] text-[17.553px] font-medium leading-[25.075px]",
-};
 const receivedInfoOptions = [
   { label: "Facebook Page: Triam Udom Open House", value: "fb" },
   { label: "Instagram: @triamudom.oph / @tucmc_official", value: "ig" },
@@ -59,9 +50,42 @@ interface RegisterFormValues {
   userStatus: string;
   school: string;
   grade: string;
-  receivedInfo: string[]; // ✅ important
+  receivedInfo: string[];
   purpose: string[];
 }
+
+const css = {
+  checkBoxLabel:
+    " flex items-center gap-2 text-white font-inter text-[15.882px] font-medium ",
+  checkBox:
+    " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
+  squreCheckBox:
+    " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
+  squreLabel:
+    " self-stretch text-white font-['Noto_Sans_Thai'] font-medium " +
+    " text-[15px] " +
+    " sm:text-[17.553px]  ",
+  inputBox:
+    "flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300",
+  h1: " text-[48.115px] ",
+  h2:
+    " text-white font-['Inter'] font-semibold " +
+    " w-[320px] text-[17px] " +
+    " sm:w-[414.073px] sm:text-[19.546px] ",
+  h3: "",
+  h4: " text-[15.882px] text-white font-['Noto_Sans_Thai'] font-normal ",
+  p: "",
+};
+
+const container = {
+  bg: " z-0 left-0 top-0 " + " block sm:hidden " + " h-480 w-auto ",
+  bgsm:
+    " z-0 left-0 top-0 " + " hidden sm:block md:hidden " + " w-full h-auto ",
+  bgmd: " z-0 left-0 top-0 " + " hidden md:block xl:hidden " + " h-480 w-auto ",
+  bgxl: " z-0 left-0 top-0 " + " hidden xl:block " + " w-full h-auto ",
+  outerBox: "",
+  innerBox: "",
+};
 async function registerUser(values: RegisterFormValues) {
   const res = await fetch("/api/register", {
     method: "POST",
@@ -113,17 +137,24 @@ const RegisterPage = () => {
   };
   return (
     <>
-      <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)]">
-        <RegisterBgmd className="hidden z-0 md:block top-0 left-0 w-screen h-auto" />
-        <RegisterBgsm className="block z-0 md:hidden w-full h-auto left-0 top-0" />
+      <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)] overflow-hidden">
+        <RegisterBg className={container.bg} />
+        <RegisterBgsm className={container.bgsm} />
+        <RegisterBgmd className={container.bgmd} />
+        <RegisterBgxl className={container.bgxl} />
         <form
-          className="absolute pt-3 pb-10 z-10 w-1/2 md:w-[60vw] lg:w-[40vw] top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
+          className="absolute pt-3 pb-10 z-10 mt-[20px] sm:mt-[8vw] md:mt-0 w-[95vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] lg:min-w-150 top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
           onSubmit={formik.handleSubmit}
         >
           <div className="w-full flex flex-col gap-[1vw]">
             {/* header */}
             <div className=" ">
-              <p className="w-full text-[#F4F2C3] text-center font-inter text-[48.115px] font-bold">
+              <p
+                className={
+                  "w-full text-[#F4F2C3] text-center font-inter font-bold" +
+                  css.h1
+                }
+              >
                 ลงทะเบียน
               </p>
               <div className="w-[80%] mx-auto h-[0.1vw] bg-[#F4F2C3]" />
@@ -134,10 +165,7 @@ const RegisterPage = () => {
               <div className=" flex flex-col gap-4">
                 {/*username*/}
                 <div>
-                  <label
-                    htmlFor="username"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
+                  <label htmlFor="username" className={css.h4}>
                     ชื่อผู้ใช้ (username)
                   </label>
                   <input
@@ -148,15 +176,12 @@ const RegisterPage = () => {
                     maxLength={32}
                     value={formik.values.username}
                     onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
+                    className={css.inputBox}
                   />
                 </div>
                 {/*fullname*/}
                 <div>
-                  <label
-                    htmlFor="fullname"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
+                  <label htmlFor="fullname" className={css.h4}>
                     ชื่อ (ไม่ต้องมีคำนำหน้า)
                   </label>
                   <input
@@ -166,15 +191,12 @@ const RegisterPage = () => {
                     placeholder="เรียนเด่น"
                     value={formik.values.fullname}
                     onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
+                    className={css.inputBox}
                   />
                 </div>
                 {/*surname*/}
                 <div>
-                  <label
-                    htmlFor="surname"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
+                  <label htmlFor="surname" className={css.h4}>
                     นามสกุล
                   </label>
                   <input
@@ -184,7 +206,7 @@ const RegisterPage = () => {
                     placeholder="เล่นดี"
                     value={formik.values.surname}
                     onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
+                    className={css.inputBox}
                   />
                 </div>
                 {/* white line */}
@@ -192,7 +214,7 @@ const RegisterPage = () => {
               </div>
               {/*Userstatus*/}
               <div className="flex flex-col gap-4">
-                <p className="w-[83.428px] h-[27.227px] text-white font-inter text-[18.151px] font-medium leading-[27.227px]">
+                <p className="w-[83.428px] h-[27.227px] text-white font-inter text-[18.151px] font-medium ">
                   สถานภาพ
                 </p>
                 <label className={css.checkBoxLabel}>
@@ -264,7 +286,7 @@ const RegisterPage = () => {
                 <div>
                   <label
                     htmlFor="school"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
+                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal "
                   >
                     โรงเรียน
                   </label>
@@ -282,7 +304,7 @@ const RegisterPage = () => {
                 <div>
                   <label
                     htmlFor="grade"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
+                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal "
                   >
                     ระดับชั้น
                   </label>
@@ -301,7 +323,7 @@ const RegisterPage = () => {
               </div>
               {/* received infomation */}
               <div className="flex flex-col gap-4">
-                <p className=" w-[414.073px] text-white font-['Inter'] text-[19.546px] font-semibold leading-[27.375px]">
+                <p className={css.h2}>
                   ได้รับข่าวสารของ Triam Udom Open House จากที่ใดบ้าง
                   (ตอบได้มากกว่า 1 ข้อ)
                 </p>
@@ -343,7 +365,7 @@ const RegisterPage = () => {
               </div>
               {/*purpose*/}
               <div className="flex flex-col gap-4">
-                <p className=" w-[414.073px] text-white font-['Inter'] text-[19.546px] font-semibold leading-[27.375px]">
+                <p className={css.h2}>
                   จุดประสงค์ในการเข้าร่วม Triam Udom Open House (ตอบได้มากกว่า 1
                   ข้อ)
                 </p>
@@ -388,7 +410,7 @@ const RegisterPage = () => {
                     onClick={handleSignOut}
                     className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] border-[1.112px] border-white shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
                   >
-                    <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
+                    <p className="text-white font-inter text-[17.556px] font-medium ">
                       ย้อนกลับ
                     </p>
                   </div>
@@ -398,7 +420,7 @@ const RegisterPage = () => {
                     disabled={mutation.isPending}
                     className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] bg-linear-to-r from-[#E5C675] to-[#C4A063] shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
                   >
-                    <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
+                    <p className="text-white font-inter text-[17.556px] font-medium ">
                       {mutation.isPending ? "กำลังลงทะเบียน..." : "ลงทะเบียน"}
                     </p>
                   </button>
