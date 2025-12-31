@@ -25,6 +25,10 @@ export default function ScanPage() {
         qr.stop().then(() => {
           router.push(decodedText);
         });
+      },
+      (errorMessage) => {
+        // Handle scan errors (optional - you can leave empty or add logging)
+        console.log(errorMessage);
       }
     );
 
