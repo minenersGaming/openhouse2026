@@ -32,11 +32,11 @@ const Footer = () => {
   return (
     <>
       {/* BACKGROUND (UNFINISHED) */}
-      <div className="hidden absolute lg:block w-screen  overflow-hidden">
-        <FooterBackground className="translate-y-[10%] -z-67- lg:-ml-30" />
+      <div className="hidden absolute lg:block w-screen  overflow-hidden pointer-events-none">
+        <FooterBackground className="translate-y-[10%] z-[-67] lg:-ml-30" />
       </div>
-      <div className="absolute block lg:hidden w-screen  overflow-hidden">
-        <FooterBackgroundSm className="translate-y-[0%] -z-67- mt-[120%]" />
+      <div className="absolute block lg:hidden w-screen  overflow-hidden  pointer-events-none">
+        <FooterBackgroundSm className="translate-y-[0%] z-[-67] mt-[120%]" />
       </div>
 
       <footer className=" bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 lg:px-30 h-full overflow-y-clip z-6767">

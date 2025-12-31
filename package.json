@@ -19,6 +19,7 @@
     "formik": "^2.4.9",
     "framer-motion": "^12.23.26",
     "html-to-image": "^1.11.13",
+    "html5-qrcode": "^2.3.8",
     "mongodb": "^7.0.0",
     "next": "^16.0.10",
     "next-auth": "^4.24.13",

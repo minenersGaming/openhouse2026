@@ -44,12 +44,7 @@ export default function StaffBookingPage() {
   const router = useRouter();
 
   // 🔍 Fetch booking preview
-  const {
-    data,
-    isLoading,
-    isError,
-    error,
-  } = useQuery({
+  const { data, isLoading, isError, error } = useQuery({
     queryKey: ["staff-booking", registerId],
     queryFn: () => fetchBooking(registerId),
   });
@@ -59,7 +54,7 @@ export default function StaffBookingPage() {
     mutationFn: () => confirmCheckIn(registerId),
     onSuccess: () => {
       toast.success("Checked in successfully");
-      router.push("/");
+      router.push("/staff");
     },
     onError: (e: Error) => {
       toast.error(e.message);
@@ -95,14 +90,10 @@ export default function StaffBookingPage() {
             {data!.fullname} {data!.surname}
           </p>
 
-          <p className="text-gray-600">
-            Status: {data!.userStatus}
-          </p>
+          <p className="text-gray-600">Status: {data!.userStatus}</p>
 
           {data!.checkedIn && (
-            <p className="mt-2 text-red-600 font-bold">
-              Already Checked In
-            </p>
+            <p className="mt-2 text-red-600 font-bold">Already Checked In</p>
           )}
         </div>
 
