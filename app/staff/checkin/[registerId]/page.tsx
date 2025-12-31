@@ -3,6 +3,7 @@
 import { useParams, useRouter } from "next/navigation";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import toast from "react-hot-toast";
+import { useState } from "react";
 
 type BookingPreview = {
   fullname: string;
@@ -25,12 +26,15 @@ async function fetchBooking(registerId: string): Promise<BookingPreview> {
   return res.json();
 }
 
-async function confirmCheckIn(registerId: string) {
+async function confirmCheckIn(
+  registerId: string,
+  door: "ประตูพญาไท" | "ประตูอังรีดูนังต์"
+) {
   const res = await fetch("/api/staff/checkin", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     credentials: "include",
-    body: JSON.stringify({ registerId }),
+    body: JSON.stringify({ registerId, door }),
   });
 
   if (!res.ok) {
@@ -43,7 +47,9 @@ export default function StaffBookingPage() {
   const { registerId } = useParams<{ registerId: string }>();
   const router = useRouter();
 
-  // 🔍 Fetch booking preview
+  const [door, setDoor] = useState<"ประตูพญาไท" | "ประตูอังรีดูนังต์" | null>(null);
+
+  // Fetch booking preview
   const {
     data,
     isLoading,
@@ -54,9 +60,9 @@ export default function StaffBookingPage() {
     queryFn: () => fetchBooking(registerId),
   });
 
-  // ✅ Confirm check-in
+  //Confirm check-in
   const mutation = useMutation({
-    mutationFn: () => confirmCheckIn(registerId),
+    mutationFn: () => confirmCheckIn(registerId, door!),
     onSuccess: () => {
       toast.success("Checked in successfully");
       router.push("/");
@@ -106,12 +112,49 @@ export default function StaffBookingPage() {
           )}
         </div>
 
+        {/*Door selection */}
+        {!data!.checkedIn && (
+          <div className="mt-6 space-y-3">
+            <p className="text-lg font-semibold text-center">
+              Entrance Door
+            </p>
+
+            <label className="flex items-center gap-3 cursor-pointer">
+              <input
+                type="radio"
+                name="door"
+                value="ประตูพญาไท"
+                checked={door === "ประตูพญาไท"}
+                onChange={() => setDoor("ประตูพญาไท")}
+                className="w-5 h-5"
+              />
+              <span className="text-lg">ประตูพญาไท</span>
+            </label>
+
+            <label className="flex items-center gap-3 cursor-pointer">
+              <input
+                type="radio"
+                name="door"
+                value="ประตูอังรีดูนังต์"
+                checked={door === "ประตูอังรีดูนังต์"}
+                onChange={() => setDoor("ประตูอังรีดูนังต์")}
+                className="w-5 h-5"
+              />
+              <span className="text-lg">ประตูอังรีดูนังต์</span>
+            </label>
+          </div>
+        )}
+
         <button
           onClick={() => mutation.mutate()}
-          disabled={mutation.isPending || data!.checkedIn}
+          disabled={
+            mutation.isPending ||
+            data!.checkedIn ||
+            !door
+          }
           className={`mt-6 w-full py-3 rounded-lg text-white text-lg font-semibold transition
             ${
-              data!.checkedIn
+              data!.checkedIn || !door
                 ? "bg-gray-400 cursor-not-allowed"
                 : "bg-green-600 hover:bg-green-700"
             }
@@ -121,6 +164,8 @@ export default function StaffBookingPage() {
             ? "Checking in..."
             : data!.checkedIn
             ? "Already Checked In"
+            : !door
+            ? "Select Entrance Door"
             : "Confirm Check-in"}
         </button>
       </div>

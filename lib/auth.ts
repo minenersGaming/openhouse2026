@@ -30,6 +30,11 @@ export const auth = betterAuth({
                 defaultValue: false,
                 required: false,
             },
+            door: {
+                type: "string",
+                defaultValue: null,
+                required: false,
+            },
         },
     },
 })
