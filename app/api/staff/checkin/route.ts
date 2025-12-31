@@ -15,11 +15,18 @@ export async function POST(request: NextRequest) {
   }
 
   const body = await request.json();
-  const { registerId } = body;
+  const { registerId, door } = body;
 
-  if (!registerId) {
+  if (!registerId || !door) {
     return NextResponse.json(
-      { error: "Missing registerId" },
+      { error: "Missing registerId or door" },
+      { status: 400 }
+    );
+  }
+
+  if (door !== "ประตูพญาไท" && door !== "ประตูอังรีดูนังต์") {
+    return NextResponse.json(
+      { error: "Invalid door" },
       { status: 400 }
     );
   }
@@ -45,7 +52,10 @@ export async function POST(request: NextRequest) {
 
   await prisma.user.update({
     where: { id: booking.userId },
-    data: { checkedIn: true },
+    data: {
+      checkedIn: true,
+      door,
+    },
   });
 
   return NextResponse.json({

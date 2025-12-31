@@ -31,14 +31,14 @@ export default async function proxy(request: NextRequest) {
 
 
   if (
-    currentPath !== "/register" &&
+    currentPath !== "/register/user" &&
     currentPath !== "/" &&
     !user.isBooking
   ) {
-    return NextResponse.redirect(new URL("/register", request.url));
+    return NextResponse.redirect(new URL("/register/user", request.url));
   }
 
-  if (currentPath === "/register" && user.isBooking) {
+  if (currentPath === "/register/user" && user.isBooking) {
     return NextResponse.redirect(new URL("/", request.url));
   }
 
@@ -50,5 +50,6 @@ export const config = {
     "/",
     "/ticket",
     "/staff/:path*",
+    "/register/user",
   ],
 };

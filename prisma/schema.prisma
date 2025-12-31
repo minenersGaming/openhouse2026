@@ -35,6 +35,7 @@ model User {
 
   register  Booking?
   isStaff  Boolean  @default(false)
+  door      String?
   isBooking Boolean  @default(false)
   checkedIn Boolean  @default(false)
 

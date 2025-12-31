@@ -6,7 +6,7 @@ export async function GET(
   request: NextRequest,
   ctx: { params: Promise<{ registerId: string }> }
 ) {
-  const { registerId } = await ctx.params; // ✅ REQUIRED
+  const { registerId } = await ctx.params;
 
   if (!registerId) {
     return NextResponse.json(
