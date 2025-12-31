@@ -6,7 +6,8 @@ import IGIcon from "@/vector/Contact/IGIcon";
 import TwitterIcon from "@/vector/Contact/TwitterIcon";
 import YTIcon from "@/vector/Contact/YTIcon";
 import TikTokIcon from "@/vector/Contact/TikTokIcon";
-import { signIn, useSession, signOut } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
+import { useSession, signOut } from "@/lib/auth-client";
 
 const Style = {
   Contact: "cursor-pointer w-9 m-1.5 hover:scale-110 transition-all",
@@ -17,12 +18,11 @@ const Style = {
 
 const Footer = () => {
   const { data, isPending } = useSession();
+  const router = useRouter();
 
   const handleLogin = async () => {
-    await signIn.social({
-      provider: "google",
-      callbackURL: "/register", //change later
-    });
+    // to register page
+    router.push("/register");
   };
   const handleLogout = async () => {
     await signOut();
@@ -32,10 +32,10 @@ const Footer = () => {
   return (
     <>
       {/* BACKGROUND (UNFINISHED) */}
-      <div className="hidden absolute hidden lg:block w-[100vw]  overflow-hidden">
+      <div className="hidden absolute lg:block w-screen  overflow-hidden">
         <FooterBackground className="translate-y-[10%] -z-67- lg:-ml-30" />
       </div>
-      <div className="hidden absolute block lg:hidden w-screen  overflow-hidden">
+      <div className="absolute block lg:hidden w-screen  overflow-hidden">
         <FooterBackgroundSm className="translate-y-[0%] -z-67- mt-[120%]" />
       </div>
 

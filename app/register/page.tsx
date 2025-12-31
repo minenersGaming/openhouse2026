@@ -1,414 +1,107 @@
 "use client";
+import { signIn } from "@/lib/auth-client";
+import GoogleIcon from "@/vector/signInPage/GoogleIcon";
+import Topline from "@/vector/signInPage/Topline";
+import Windows from "@/vector/signInPage/Windows";
+import LightBeams from "@/vector/signInPage/LightBeams";
+import StarL from "@/vector/signInPage/StarL";
+import StarR from "@/vector/signInPage/StarR";
+import StarLLg from "@/vector/signInPage/StarLLg";
+import StarRLg from "@/vector/signInPage/StarRLg";
+import MobileBrick from "@/vector/signInPage/MobileBrick";
+import ToplineLg from "@/vector/signInPage/ToplineLg";
+import LgBrick from "@/vector/signInPage/LgBrick";
+import Pillar from "@/vector/signInPage/Pillar";
 
-import RegisterBgmd from "@/vector/register/RegisterBgmd";
-import RegisterBgsm from "@/vector/register/RegisterBgsm";
-import { useFormik } from "formik";
-import { useMutation } from "@tanstack/react-query";
-import toast from "react-hot-toast";
-import { signOut } from "@/lib/auth-client";
-import { useRouter } from "next/navigation";
+import MdStarTL from "@/vector/signInPage/MdStarTL";
+import MdStarML from "@/vector/signInPage/MdStarML";
+import MdStarR from "@/vector/signInPage/MdStarR";
+import SmStarLeft from "@/vector/signInPage/SmStarLeft";
+import SmStarRight from "@/vector/signInPage/SmStarRight";
 
-const css = {
-  checkBoxLabel:
-    " flex items-center gap-2 text-white font-inter text-[15.882px] font-medium leading-[22.689px]",
-  checkBox:
-    " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
-  squreCheckBox:
-    " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
-  squreLabel:
-    " self-stretch text-white font-['Noto_Sans_Thai'] text-[17.553px] font-medium leading-[25.075px]",
-};
-const receivedInfoOptions = [
-  { label: "Facebook Page: Triam Udom Open House", value: "fb" },
-  { label: "Instagram: @triamudom.oph / @tucmc_official", value: "ig" },
-  { label: "Twitter: @triamudomoph", value: "twitter" },
-  { label: "TikTok: @triamudom.oph", value: "tiktok" },
-  { label: "เพจ studygram", value: "studygram" },
-  { label: "นักเรียนโรงเรียนเตรียมฯ", value: "tuStudent" },
-  { label: "เพื่อน", value: "friend" },
-  { label: "ผู้ปกครอง", value: "parent" },
-  { label: "โรงเรียน", value: "school" },
-];
-const purposeOptions = [
-  {
-    label: "หาข้อมูลการสอบเข้าโรงเรียนเตรียมอุดมศึกษา",
-    value: "หาข้อมูลการสอบเข้าโรงเรียนเตรียมอุดมศึกษา",
-  },
-  {
-    label: "เข้าชมซุ้มกิจกรรม และ กิจกรรมการแสดง",
-    value: "เข้าชมซุ้มกิจกรรม และ กิจกรรมการแสดง",
-  },
-  {
-    label: "หาข้อมูลเกี่ยวกับโรงเรียนเตรียมฯ เพื่อประกอบการตัดสินใจ",
-    value: "หาข้อมูลเกี่ยวกับโรงเรียนเตรียมฯ เพื่อประกอบการตัดสินใจ",
-  },
-  {
-    label: "หาแรงบันดาลใจในการสอบเข้าโรงเรียนเตรียมอุดมศึกษา",
-    value: "หาแรงบันดาลใจในการสอบเข้าโรงเรียนเตรียมอุดมศึกษา",
-  },
-  {
-    label: "ชมบรรยากาศโรงเรียนเตรียมอุดมศึกษา",
-    value: "ชมบรรยากาศโรงเรียนเตรียมอุดมศึกษา",
-  },
-  { label: "อื่น ๆ โปรดระบุ:", value: "อื่นๆ :" },
-];
-interface RegisterFormValues {
-  username: string;
-  fullname: string;
-  surname: string;
-  userStatus: string;
-  school: string;
-  grade: string;
-  receivedInfo: string[]; // ✅ important
-  purpose: string[];
-}
-async function registerUser(values: RegisterFormValues) {
-  const res = await fetch("/api/register", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(values),
-  });
-
-  if (!res.ok) {
-    const error = await res.json();
-    throw new Error(error.error || "Failed to register");
-  }
-
-  return res.json();
-}
-const RegisterPage = () => {
-  const router = useRouter();
-
-  const mutation = useMutation({
-    mutationFn: registerUser,
-    onSuccess: () => {
-      toast.success("Registration successful 🎉");
-      router.push("/ticket");
-    },
-    onError: (error: Error) => {
-      toast.error(error.message || "Something went wrong");
-    },
-  });
-  const formik = useFormik<RegisterFormValues>({
-    initialValues: {
-      username: "",
-      fullname: "",
-      surname: "",
-      userStatus: "",
-      school: "",
-      grade: "",
-      receivedInfo: [],
-      purpose: [],
-    },
-    onSubmit: (values) => {
-      console.log(values);
-      mutation.mutate(values);
-    },
-  });
-  const handleSignOut = async () => {
-    await signOut();
-    window.location.href = "/";
+export default function Home() {
+  const handleLogin = async () => {
+    await signIn.social({
+      provider: "google",
+      callbackURL: "/register/user",
+    });
   };
+
   return (
-    <>
-      <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)]">
-        <RegisterBgmd className="hidden z-0 md:block top-0 left-0 w-screen h-auto" />
-        <RegisterBgsm className="block z-0 md:hidden w-full h-auto left-0 top-0" />
-        <form
-          className="absolute pt-3 pb-10 z-10 w-1/2 md:w-[60vw] lg:w-[40vw] top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
-          onSubmit={formik.handleSubmit}
-        >
-          <div className="w-full flex flex-col gap-[1vw]">
-            {/* header */}
-            <div className=" ">
-              <p className="w-full text-[#F4F2C3] text-center font-inter text-[48.115px] font-bold">
-                ลงทะเบียน
-              </p>
-              <div className="w-[80%] mx-auto h-[0.1vw] bg-[#F4F2C3]" />
-            </div>
-            {/* inside box */}
-            <div className="w-[75%] flex flex-col gap-[1.5vw] mx-auto">
-              {/* name & surname box*/}
-              <div className=" flex flex-col gap-4">
-                {/*username*/}
-                <div>
-                  <label
-                    htmlFor="username"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
-                    ชื่อผู้ใช้ (username)
-                  </label>
-                  <input
-                    type="text"
-                    id="username"
-                    name="username"
-                    placeholder="ความยาวไม่เกิน 32 ตัวอักษร"
-                    maxLength={32}
-                    value={formik.values.username}
-                    onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
-                  />
-                </div>
-                {/*fullname*/}
-                <div>
-                  <label
-                    htmlFor="fullname"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
-                    ชื่อ (ไม่ต้องมีคำนำหน้า)
-                  </label>
-                  <input
-                    type="text"
-                    id="fullname"
-                    name="fullname"
-                    placeholder="เรียนเด่น"
-                    value={formik.values.fullname}
-                    onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
-                  />
-                </div>
-                {/*surname*/}
-                <div>
-                  <label
-                    htmlFor="surname"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
-                    นามสกุล
-                  </label>
-                  <input
-                    type="text"
-                    id="surname"
-                    name="surname"
-                    placeholder="เล่นดี"
-                    value={formik.values.surname}
-                    onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
-                  />
-                </div>
-                {/* white line */}
-                <div className="w-full mx-auto h-[0.05vw] bg-white" />
-              </div>
-              {/*Userstatus*/}
-              <div className="flex flex-col gap-4">
-                <p className="w-[83.428px] h-[27.227px] text-white font-inter text-[18.151px] font-medium leading-[27.227px]">
-                  สถานภาพ
-                </p>
-                <label className={css.checkBoxLabel}>
-                  <input
-                    type="checkbox"
-                    name="statusStudent"
-                    checked={formik.values.userStatus === "นักเรียน"}
-                    onChange={(e) =>
-                      formik.setFieldValue(
-                        "userStatus",
-                        e.target.checked ? "นักเรียน" : ""
-                      )
-                    }
-                    className={css.checkBox}
-                  />
-                  นักเรียน
-                </label>
-                <label className={css.checkBoxLabel}>
-                  <input
-                    type="checkbox"
-                    name="statusParent"
-                    checked={formik.values.userStatus === "ผู้ปกครอง"}
-                    onChange={(e) =>
-                      formik.setFieldValue(
-                        "userStatus",
-                        e.target.checked ? "ผู้ปกครอง" : ""
-                      )
-                    }
-                    className={css.checkBox}
-                  />
-                  ผู้ปกครอง
-                </label>
-                <label className={css.checkBoxLabel}>
-                  <input
-                    type="checkbox"
-                    name="statusTeacher"
-                    checked={formik.values.userStatus === "ครู"}
-                    onChange={(e) =>
-                      formik.setFieldValue(
-                        "userStatus",
-                        e.target.checked ? "ครู" : ""
-                      )
-                    }
-                    className={css.checkBox}
-                  />
-                  ครู/บุคลากรโรงเรียน
-                </label>
-                <label className={css.checkBoxLabel}>
-                  <input
-                    type="checkbox"
-                    name="statusOther"
-                    checked={formik.values.userStatus === "อื่นๆ"}
-                    onChange={(e) =>
-                      formik.setFieldValue(
-                        "userStatus",
-                        e.target.checked ? "อื่นๆ" : ""
-                      )
-                    }
-                    className={css.checkBox}
-                  />
-                  อื่นๆ
-                </label>
-                {/* white line */}
-                <div className="w-full mx-auto h-[0.05vw] bg-white" />
-              </div>
-              {/* school & grade*/}
-              <div className="flex flex-col gap-4">
-                {/*school*/}
-                <div>
-                  <label
-                    htmlFor="school"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
-                    โรงเรียน
-                  </label>
-                  <input
-                    type="text"
-                    id="school"
-                    name="school"
-                    placeholder="โรงเรียนเตรียมอุดมศึกษา"
-                    value={formik.values.school}
-                    onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
-                  />
-                </div>
-                {/*grade*/}
-                <div>
-                  <label
-                    htmlFor="grade"
-                    className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
-                    ระดับชั้น
-                  </label>
-                  <input
-                    type="text"
-                    id="grade"
-                    name="grade"
-                    placeholder="ม.3"
-                    value={formik.values.grade}
-                    onChange={formik.handleChange}
-                    className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border-[1.134px] border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
-                  />
-                </div>
-                {/* white line */}
-                <div className="w-full mx-auto h-[0.05vw] bg-white" />
-              </div>
-              {/* received infomation */}
-              <div className="flex flex-col gap-4">
-                <p className=" w-[414.073px] text-white font-['Inter'] text-[19.546px] font-semibold leading-[27.375px]">
-                  ได้รับข่าวสารของ Triam Udom Open House จากที่ใดบ้าง
-                  (ตอบได้มากกว่า 1 ข้อ)
-                </p>
-                {receivedInfoOptions.map((option) => (
-                  <label
-                    key={option.value}
-                    className="flex items-center gap-3 cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      name="receivedInfo"
-                      value={option.value}
-                      checked={formik.values.receivedInfo.includes(
-                        option.value
-                      )}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          formik.setFieldValue("receivedInfo", [
-                            ...formik.values.receivedInfo,
-                            option.value,
-                          ]);
-                        } else {
-                          formik.setFieldValue(
-                            "receivedInfo",
-                            formik.values.receivedInfo.filter(
-                              (v) => v !== option.value
-                            )
-                          );
-                        }
-                      }}
-                      className={css.squreCheckBox}
-                    />
+    <section className="h-screen bg-linear-to-bl from-[#467BCA] via-[#354FB0] via-41% to-[#042284] relative overflow-clip">
+      {/*TopLine md*/}
+      <div className="absolute w-full h-auto flex justify-center pt-0 lg:hidden z-45">
+        <Topline className="w-[80vw] h-auto block" />
+      </div>
+      {/*TopLine lg*/}
+      <div className="hidden lg:block absolute w-full h-auto -top-5 -right-3/5 z-5">
+        <ToplineLg className="h-[50vh] block" />
+      </div>
+      {/**pillar */}
+      <div className="hidden lg:block absolute h-full right-0 top-0 z-25">
+        <Pillar className="h-screen block" />
+      </div>
+      {/*mobile brick*/}
+      <div className="absolute flex items-center justify-center w-screen h-screen left-0 z-0 lg:hidden">
+        <MobileBrick className="w-[95vw] " />
+      </div>
+      {/** Lg Brick */}
+      <div className="absolute h-full w-full p-5 -top-10 justify-center z-0 hidden lg:flex">
+        <LgBrick className="w-[90vw]" />
+      </div>
+      {/*light beam */}
+      <div className="absolute top-0 right-0 z-20">
+        <LightBeams className="h-screen" />
+      </div>
 
-                    <span className={css.squreLabel}>{option.label}</span>
-                  </label>
-                ))}
-                {/* white line */}
-                <div className="w-full mx-auto h-[0.05vw] bg-white" />
-              </div>
-              {/*purpose*/}
-              <div className="flex flex-col gap-4">
-                <p className=" w-[414.073px] text-white font-['Inter'] text-[19.546px] font-semibold leading-[27.375px]">
-                  จุดประสงค์ในการเข้าร่วม Triam Udom Open House (ตอบได้มากกว่า 1
-                  ข้อ)
-                </p>
-                {purposeOptions.map((option) => (
-                  <label
-                    key={option.value}
-                    className="flex items-center gap-3 cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      name="purpose"
-                      value={option.value}
-                      checked={formik.values.purpose.includes(option.value)}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          formik.setFieldValue("purpose", [
-                            ...formik.values.purpose,
-                            option.value,
-                          ]);
-                        } else {
-                          formik.setFieldValue(
-                            "purpose",
-                            formik.values.purpose.filter(
-                              (v) => v !== option.value
-                            )
-                          );
-                        }
-                      }}
-                      className={css.squreCheckBox}
-                    />
-
-                    <span className={css.squreLabel}>{option.label}</span>
-                  </label>
-                ))}
-                {/* white line */}
-                <div className="w-full mx-auto h-[0.05vw] bg-white" />
-              </div>
-              {/*submit*/}
-              <div>
-                <div className="flex w-full justify-center items-center gap-[1.5vw] mt-[1.5vw]">
-                  <div
-                    onClick={handleSignOut}
-                    className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] border-[1.112px] border-white shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
-                  >
-                    <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
-                      ย้อนกลับ
-                    </p>
-                  </div>
-
-                  <button
-                    type="submit"
-                    disabled={mutation.isPending}
-                    className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] bg-linear-to-r from-[#E5C675] to-[#C4A063] shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
-                  >
-                    <p className="text-white font-inter text-[17.556px] font-medium leading-[25.08px]">
-                      {mutation.isPending ? "กำลังลงทะเบียน..." : "ลงทะเบียน"}
-                    </p>
-                  </button>
-                </div>
-              </div>
+      <div className=" flex flex-col lg:flex-row items-center justify-center lg:justify-end h-full lg:w-[80vw] space-y-16 z-30 lg:relative">
+        <div className="-mt-10 lg:absolute lg:right-1/2 -bottom-40 z-30">
+          <Windows className="h-[40vh] lg:h-[105vh] " />
+        </div>
+        <div className="h-40 relative flex flex-col items-center justify-center space-y-2 w-[250px] lg:w-[300px]">
+          <MdStarTL className="hidden lg:block absolute -top-45 -left-50 z-40" />
+          <MdStarML className="hidden lg:block absolute top-10 -left-35 z-40" />
+          <MdStarR className="hidden lg:block absolute top-30 -right-35 z-40" />
+          <SmStarLeft className="block lg:hidden absolute -top-75 -left-17 z-40 w-[200px] md:w-[300px] md:-top-108 md:-left-40 h-auto" />
+          <SmStarRight className="block lg:hidden absolute -top-110 -right-18 z-40 w-[200px] md:w-[300px] md:-top-150 md:-right-42 h-auto" />
+          <h1 className=" bg-clip-text text-transparent font-bold bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] to-66% text-5xl lg:text-7xl">
+            REGISTER
+          </h1>
+          <div className="flex justify-between items-center w-[90%] lg:w-full">
+            <div className="bg-[#F9D4CE] h-[0.15rem] rounded-full w-[70%] m-2"></div>
+            <p className="bg-clip-text text-transparent font-bold bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] text-xl lg:text-3xl text-nowrap">
+              ลงทะเบียน
+            </p>
+          </div>
+          <button
+            onClick={handleLogin}
+            className="mt-2 bg-linear-to-r from-[#FAD1CF] from-[1.12%] to-[#F4F2C4] to-[66.02%] cursor-pointer hover:scale-105 transition-all py-3 px-4 lg:px-11 lg:py-5 rounded-full flex justify-evenly items-center  z-9999"
+          >
+            <GoogleIcon className="h-5 lg:h-7 mr-2" />
+            <p className="font-bold text-[#193596] font-[Noto_Sans_Thai] text-nowrap lg:text-xl">
+              Sign In With Google
+            </p>
+          </button>
+          <div className="flex items-center justify-center mt-2">
+            <p
+              translate="no"
+              className="text-[#F4F2C4] text-4xl font-semibold text-shadow-black tracking-tight"
+            >
+              กช.
+            </p>
+            <div className="mx-3 h-6 w-0.5 bg-[#F4F2C4] sm:h-8"></div>
+            <div className="flex flex-col text-[#F4F2C4] text-xs">
+              <p>งานกิจกรรมพัฒนาผู้เรียน</p>
+              <p>โรงเรียนเตรียมอุดมศึกษา</p>
             </div>
           </div>
-        </form>
+        </div>
       </div>
-    </>
+      <div className="flex flex-col-reverse absolute bottom-0 z-10">
+        <div className="bg-[#0B1956] w-screen h-[8vh]"></div>
+        <div className="bg-[#0B1956] w-screen h-[3vh] mb-3"></div>
+      </div>
+      <div></div>
+    </section>
   );
-};
-export default RegisterPage;
+}
