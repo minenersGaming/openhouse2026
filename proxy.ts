@@ -49,7 +49,6 @@ export const config = {
   matcher: [
     "/",
     "/ticket",
-    "/register",
     "/staff/:path*",
   ],
 };
