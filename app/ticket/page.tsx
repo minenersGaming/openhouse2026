@@ -48,21 +48,17 @@ const TicketPage = () => {
   });
   const [qr, setQr] = useState<string>("");
 
-  useEffect(() => {
-    if (!data?.userId) return;
+useEffect(() => {
+  if (!data?.registerId) return;
 
-    const userId = JSON.stringify({
-      uid: data.userId,
-      type: "checkin",
-    });
+  const qrValue =
+    `${window.location.origin}/staff/checkin/${data.registerId}`;
 
-    const qrValue = `${window.location.origin}/api/ticket/checkIn?userId=${userId}`;
-
-    QRCode.toDataURL(qrValue, {
-      width: 256,
-      margin: 1,
-    }).then(setQr);
-  }, [data?.userId]);
+  QRCode.toDataURL(qrValue, {
+    width: 256,
+    margin: 1,
+  }).then(setQr);
+}, [data?.registerId]);
 
   const ref = useRef<HTMLDivElement>(null);
   const downloadPNG = async () => {
