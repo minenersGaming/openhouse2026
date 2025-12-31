@@ -25,6 +25,11 @@ export const auth = betterAuth({
                 defaultValue: false,
                 required: false,
             },
+            isStaff: {
+                type: "boolean",
+                defaultValue: false,
+                required: false,
+            },
         },
     },
 })

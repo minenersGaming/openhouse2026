@@ -34,6 +34,7 @@ model User {
   updatedAt     DateTime @updatedAt
 
   register  Booking?
+  isStaff  Boolean  @default(false)
   isBooking Boolean  @default(false)
   checkedIn Boolean  @default(false)
 
