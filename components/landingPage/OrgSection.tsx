@@ -12,16 +12,16 @@ const OrgSection = () => {
     <section className="bg-linear-to-t to-[#0B1855] via-[#042284] from-[#3450B0]">
       <div className="hidden md:block">
         <div className="absolute flex w-full flex-row justify-end">
-          <div className="w-[80%] h-full p-10 -space-y-10 flex flex-row justify-between">
+          <div className="w-[80%] h-[170%] p-10 -space-y-10 flex flex-row justify-between">
             <div
-              className="้-h-[120%] flex flex-col space-y-10 
+              className=" flex flex-col space-y-10 
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
             >
               <TUSCCard className="w-[20vw]" />
               <AnusornCard className="w-[20vw]" />
             </div>
-            <div className="self-end">
+            <div className=" flex flex-col self-end">
               <TUCMCCard className="w-[20vw]" />
               <AICCard className="w-[20vw]" />
             </div>
