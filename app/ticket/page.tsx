@@ -99,7 +99,10 @@ const TicketPage = () => {
             <p className={css.textId + " text-center "}>
               ID: {data.registerId}
             </p>
-            <p className={css.userName + " text-center uppercase break-all"}>
+            <p
+              style={{ fontFamily: "var(--font-bethany)" }}
+              className={css.userName + " text-center uppercase break-all"}
+            >
               {data.username}
             </p>
             <p className={css.thaiName}>{data.fullname}</p>
