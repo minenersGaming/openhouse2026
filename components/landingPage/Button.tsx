@@ -30,13 +30,14 @@ const Button = () => {
     <>
       {!isPending ? (
         !data?.user ? (
-          <div
+          <a
+            href="./register"
             //   onClick={handleLogin}
             className={style}
           >
-            <PersonIcon className="h-8 mr-2" />
+            <PersonIcon className="h-8 mr-3" />
             <p className={TextStyle}>Register</p>
-          </div>
+          </a>
         ) : (
           <div onClick={handleOnClick} className={style}>
             <p className={TextStyle}>E-ticket</p>

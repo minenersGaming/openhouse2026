@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
 
 import Logo from "@/vector/Logo";
+import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
 import Toptext from "./TopText";
 import SidebarIcon from "@/vector/NavIcon/SideBarIcon";
@@ -31,6 +32,17 @@ const Header = () => {
   const pathname = usePathname();
   const { data, isPending } = useSession();
   const router = useRouter();
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+    console.log("Mouse entered!");
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+    console.log("Mouse left!");
+  };
 
   async function ToggleSidebar() {
     if (isSidebarOpen) {
@@ -76,9 +88,15 @@ const Header = () => {
       <Link
         href="/"
         className="flex justify-start cursor-pointer md:pl-3 lg:pl-7"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
-        <Logo className="w-10 lg:w-13" />
-        <Toptext />
+        <Logo
+          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
+            isHovering && "drop-shadow-sm/100"
+          } `}
+        />
+        <Toptext hover={isHovering} />
       </Link>
 
       <div className="w-1/2 text-white justify-evenly lg:-mr-7 items-center hidden lg:flex">

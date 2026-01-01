@@ -43,7 +43,7 @@ const GiftedSection = () => {
             โครงการพัฒนาความสามารถพิเศษ
           </p>
         </div>
-        <div className="absolute flex flex-row justify-center items-center w-full ">
+        <div className="translate-y-[120%] absolute flex flex-row justify-center items-center w-full ">
           <GiftedMathLg className="w-[10vw]" />
           <GiftedSciLg className="w-[10vw]" />
           <GiftedEngLg className="w-[10vw]" />
