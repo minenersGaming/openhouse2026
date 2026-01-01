@@ -54,20 +54,20 @@ interface RegisterFormValues {
 
 const css = {
   checkBoxLabel:
-    " flex items-center gap-2 text-white font-inter text-[15.882px] font-medium ",
+    " flex items-center gap-2 text-white font-noto-sans text-[15.882px] font-medium ",
   checkBox:
     " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
   squreCheckBox:
     " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
   squreLabel:
-    " self-stretch text-white font-['Noto_Sans_Thai'] font-medium " +
+    " self-stretch text-white font-noto-sans font-medium " +
     " text-[15px] " +
     " sm:text-[17.553px]  ",
   inputBox:
     "flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300",
   h1: " text-[48.115px] ",
   h2:
-    " text-white font-['Inter'] font-semibold " +
+    " text-white font-inter font-semibold " +
     " w-[320px] text-[17px] " +
     " sm:w-[414.073px] sm:text-[19.546px] ",
   h3: "",
@@ -320,10 +320,7 @@ const RegisterPage = () => {
               </div>
               {/* received infomation */}
               <div className="flex flex-col gap-4">
-                <p
-                  className={css.h2}
-                  style={{ fontFamily: "var(--font-inter)" }}
-                >
+                <p className={css.h2}>
                   ได้รับข่าวสารของ Triam Udom Open House จากที่ใดบ้าง
                   (ตอบได้มากกว่า 1 ข้อ)
                 </p>
@@ -365,10 +362,7 @@ const RegisterPage = () => {
               </div>
               {/*purpose*/}
               <div className="flex flex-col gap-4">
-                <p
-                  className={css.h2}
-                  style={{ fontFamily: "var(--font-inter)" }}
-                >
+                <p className={css.h2}>
                   จุดประสงค์ในการเข้าร่วม Triam Udom Open House (ตอบได้มากกว่า 1
                   ข้อ)
                 </p>

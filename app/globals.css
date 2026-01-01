@@ -85,3 +85,7 @@ img {
   height: 100% !important;
   object-fit: cover;
 }
+
+.font-noto-sans {
+  font-family: var(--font-noto-sans-thai);
+}

@@ -21,6 +21,7 @@ const NotoSansThai = Noto_Sans_Thai({
   variable: "--font-noto-sans-thai",
   subsets: ["thai", "latin"],
 });
+
 const FontInter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -46,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="th">
       <body
-        className={`${FontInter.variable} ${NotoSansThai.variable}${geistSans.variable} ${geistMono.variable} ${bethanyFont.variable} antialiased overflow-x-clip`}
+        className={`${FontInter.variable} ${NotoSansThai.variable} ${geistSans.variable} ${geistMono.variable} ${bethanyFont.variable} antialiased overflow-x-clip`}
       >
         <Providers>
           <div className="fixed w-full top-0 left-0 z-6767">
