@@ -36,19 +36,19 @@ const Schedule = [
 ];
 const Programme = [
   {
-    Icon: <SciMathIcon className="w-9 mr-3" />,
+    Icon: <SciMathIcon className="h-8 lg:h-13 mr-3 mt-2" />,
     name: "วิทยาศาสตร์-คณิตศาสตร์",
     description: "รับ 1000 คน",
     list: [],
   },
   {
-    Icon: <ArtsMathIcon className="w-9 mr-3" />,
+    Icon: <ArtsMathIcon className="h-8 lg:h-13 mr-3 mt-2" />,
     name: "ภาษา-คณิตศาสตร์",
     description: "รับ 120 คน",
     list: [],
   },
   {
-    Icon: <ArtsLangIcon className="w-9 mr-3" />,
+    Icon: <ArtsLangIcon className="h-8 lg:h-13 mr-3 mt-8" />,
     name: "ภาษา-ภาษาต่างประเทศ",
     description: "รวม 6 สาย รับ 400 คน",
     list: [
@@ -63,13 +63,13 @@ const Programme = [
 ];
 const Exam = [
   {
-    Icon: <SciMathIcon className="w-9 mr-3" />,
+    Icon: <SciMathIcon className="h-8 lg:h-13 mr-3 mt-2" />,
     name: "วิทยาศาสตร์-คณิตศาสตร์",
     description: "สอบ 5 วิชา",
     list: ["คณิตศาสตร์", "วิทยาศาสตร์", "ภาษาไทย", "สังคมศึกษา", "ภาษาอังกฤษ"],
   },
   {
-    Icon: <ArtsMathIcon className="w-9 mr-3" />,
+    Icon: <ArtsMathIcon className="h-8 lg:h-13 mr-3 mt-2" />,
     name: "ภาษา-คณิตศาสตร์",
     description: "สอบ 4 วิชา",
     list: [
@@ -80,7 +80,7 @@ const Exam = [
     ],
   },
   {
-    Icon: <ArtsLangIcon className="w-9 mr-3" />,
+    Icon: <ArtsLangIcon className="h-8 lg:h-13 mr-3 mt-2" />,
     name: "ภาษา-ภาษาต่างประเทศ",
     description: "รวม 6 สาย รับ 400 คน",
     list: [

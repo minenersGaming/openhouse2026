@@ -15,7 +15,7 @@ const OneIcon: FC<{
 }> = ({ header, icon, description, list }) => {
   return (
     <div
-      className={`flex flex-row justify-start items-start" ${
+      className={`flex flex-row justify-start items-start py-2" ${
         (description ?? "") === SpecialWord[1] ? "mt-4" : ""
       }`}
     >
@@ -24,7 +24,7 @@ const OneIcon: FC<{
         <p
           className={
             SpecialWord.includes(description ?? "")
-              ? `text-white font-semibold text-md lg:text-lg `
+              ? `text-[#FDFCDA] font-semibold text-md lg:text-lg `
               : `text-[#F4F2C4] font-bold text-lg lg:text-4xl`
           }
         >
@@ -42,14 +42,18 @@ const OneIcon: FC<{
           {description}
         </p>
         <ul
-          className={`list-disc pl-5 pt-2 grid ${
+          className={`list-disc pl-3 lg:pl-5 pt-2  grid ${
             SpecialWord.includes(description ?? "") ? "grid-cols-2" : ""
-          } gap-x-4`}
+          }  ${
+            description === SpecialWord[1]
+              ? "gap-x-6 lg:gap-x-3"
+              : "gap-x-6 lg:gap-x-27  "
+          }`}
         >
           {list.map((item, index) => (
             <li
               id={`${index}`}
-              className="text-[#F4F2C4] text-xs lg:text-sm py-[2px]"
+              className="text-[#F4F2C4] text-[10px] lg:text-sm py-[2px]"
             >
               {item}
             </li>

@@ -1,7 +1,12 @@
-import GiftedMath from "@/vector/LandingPage/Gifted/Card/GiftedMath";
-import GiftedSci from "@/vector/LandingPage/Gifted/Card/GiftedSci";
-import GiftedThai from "@/vector/LandingPage/Gifted/Card/GiftedThai";
-import GiftedEng from "@/vector/LandingPage/Gifted/Card/GiftedEng";
+import GiftedMath from "@/vector/LandingPage/Gifted/CardSm/GiftedMath";
+import GiftedSci from "@/vector/LandingPage/Gifted/CardSm/GiftedSci";
+import GiftedThai from "@/vector/LandingPage/Gifted/CardSm/GiftedThai";
+import GiftedEng from "@/vector/LandingPage/Gifted/CardSm/GiftedEng";
+
+import GiftedMathLg from "@/vector/LandingPage/Gifted/CardLg/GiftedMathLg";
+import GiftedSciLg from "@/vector/LandingPage/Gifted/CardLg/GiftedSciLg";
+import GiftedThaiLg from "@/vector/LandingPage/Gifted/CardLg/GiftedThaiLg";
+import GiftedEngLg from "@/vector/LandingPage/Gifted/CardLg/GiftedEngLg";
 
 import GiftedSm from "@/vector/LandingPage/Gifted/GiftedSm";
 import GiftedTextSm from "@/vector/LandingPage/Gifted/GiftedTextSm";
@@ -38,8 +43,13 @@ const GiftedSection = () => {
             โครงการพัฒนาความสามารถพิเศษ
           </p>
         </div>
-        <GiftedMath className="hidden md:visible" />
-        <GiftedLg className=" w-full left-0" />
+        <div className="absolute flex flex-row justify-center items-center w-full ">
+          <GiftedMathLg className="w-[10vw]" />
+          <GiftedSciLg className="w-[10vw]" />
+          <GiftedEngLg className="w-[10vw]" />
+          <GiftedThaiLg className="w-[10vw]" />
+        </div>
+        <GiftedLg className="w-full" />
       </div>
     </section>
   );

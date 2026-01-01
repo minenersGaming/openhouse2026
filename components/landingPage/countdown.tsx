@@ -51,7 +51,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="flex flex-row justify-between space-x-2 lg:space-x-3">
+    <div className="flex flex-row justify-between space-x-2 lg:space-x-3 ">
       {[
         { label: "Day", value: time.days },
         { label: "Hour", value: time.hours },
