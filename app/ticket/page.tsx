@@ -8,12 +8,11 @@ import { toPng } from "html-to-image";
 import { useQuery } from "@tanstack/react-query";
 import QRCode from "qrcode";
 import { useEffect, useState } from "react";
+import LoadingPage from "@/components/ticket/LoadingPage";
 
 const css = {
   textId:
     " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px] mb-1",
-  userName:
-    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:1.02px] font-[Bethany_Elingston] text-[33px] font-normal leading-[32px] tracking-[4.02px] mb-[14px]",
   thaiName: " ml-7 text-[#F3E8AD] font-inter text-[20px] leading-[13px]",
   student: "text-[#F3E8AD] font-inter text-[15px] leading-[10px]",
 };
@@ -47,6 +46,8 @@ const TicketPage = () => {
     queryFn: fetchMyBooking,
   });
   const [qr, setQr] = useState<string>("");
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!data?.registerId) return;
@@ -59,7 +60,6 @@ const TicketPage = () => {
     }).then(setQr);
   }, [data?.registerId]);
 
-  const ref = useRef<HTMLDivElement>(null);
   const downloadPNG = async () => {
     if (!ref.current) return;
 
@@ -85,56 +85,88 @@ const TicketPage = () => {
       console.error("PNG export failed", err);
     }
   };
-  if (isPending) return <div>Loading</div>;
-  if (isError) return <div>Error</div>;
+  const isLoading = isPending || !imageLoaded;
+
+  if (isError) {
+    return (
+      <div className="w-screen min-h-screen py-[15vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)]">
+        <div className="text-center">
+          <p className="text-[#0B1855] font-noto-sans text-2xl font-bold mb-4">
+            เกิดข้อผิดพลาด
+          </p>
+          <p className="text-[#0B1855] font-noto-sans text-lg">
+            ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง
+          </p>
+        </div>
+      </div>
+    );
+  }
   return (
     <>
       <div className=" w-screen py-[15vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)] ">
-        <div className="mb-20">
-          <p className=" text-[#0B1855] text-center font-noto-sans text-[50px] font-bold leading-[31.881px]">
-            E-Ticket
-          </p>
-          <p className=" text-[#0B1855] font-noto-sans text-[33px] font-medium leading-[61.881px] ">
-            สำหรับแสดงเพื่อเข้างาน
-          </p>
-        </div>
-        <div
-          ref={ref}
-          className="relative w-[375px] h-[695px] mx-auto overflow-hidden"
-        >
-          <Image src="/Eticket2.svg" alt="Ticket" width={800} height={600} />
-          <div className="absolute pt-4 top-0 left-0 w-full flex flex-col gap-3">
-            <p className={css.textId + " text-center "}>
-              ID: {data.registerId}
-            </p>
-            <p
-              style={{ fontFamily: "var(--font-bethany)" }}
-              className={css.userName + " text-center uppercase break-all"}
+        {isLoading && <LoadingPage />}
+
+        {data && (
+          <div
+            className={
+              isLoading ? "hidden" : "mx-auto flex flex-col items-center"
+            }
+          >
+            <div className="mt-10 mb-20">
+              <p className=" text-[#0B1855] text-center font-noto-sans text-[50px] font-bold leading-[31.881px]">
+                E-Ticket
+              </p>
+              <p className=" text-[#0B1855] font-noto-sans text-[33px] font-medium leading-[61.881px] ">
+                สำหรับแสดงเพื่อเข้างาน
+              </p>
+            </div>
+            <div
+              ref={ref}
+              className="relative w-[375px] h-[695px] mx-auto overflow-hidden"
             >
-              {data.username}
-            </p>
-            <p className={css.thaiName}>{data.fullname}</p>
-            <p className={css.thaiName}>{data.surname}</p>
-            <div className="ml-7 w-[40%] h-0.5 bg-[#F3E8AD]"></div>
-            <div className=" ml-7 flex items-center gap-2">
-              <StudentIcon className="w-4 h-auto" />
-              <p className={css.student}>{data.userStatus}</p>
+              <Image
+                src="/Eticket2.svg"
+                alt="Ticket"
+                width={800}
+                height={600}
+                onLoad={() => setImageLoaded(true)}
+                priority
+              />
+              <div className="absolute pt-4 top-0 left-0 w-full flex flex-col gap-3">
+                <p className={css.textId + " text-center "}>
+                  ID: {data.registerId}
+                </p>
+                <p
+                  style={{ fontFamily: "var(--font-bethany)" }}
+                  className={
+                    "text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] text-[33px] font-bold leading-[32px] tracking-[4.02px] mb-[14px] text-center uppercase break-all"
+                  }
+                >
+                  {data.username}
+                </p>
+                <p className={css.thaiName}>{data.fullname}</p>
+                <p className={css.thaiName}>{data.surname}</p>
+                <div className="ml-7 w-[40%] h-0.5 bg-[#F3E8AD]"></div>
+                <div className=" ml-7 flex items-center gap-2">
+                  <StudentIcon className="w-4 h-auto" />
+                  <p className={css.student}>{data.userStatus}</p>
+                </div>
+              </div>
+              <div className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0">
+                {qr && <img src={qr} alt="QR Code" className="w-full h-auto" />}
+              </div>
+            </div>
+            <div
+              onClick={downloadPNG}
+              className=" shadow-sm mt-[10vw] md:mt-[5vw] w-[200px] h-[50px] rounded-[55.164px] bg-[linear-gradient(93deg,#457BCA_2.18%,#042284_114.09%)] flex items-center justify-center hover:scale-105 transition-all"
+            >
+              <div className="flex">
+                <DownloadIcon className="w-[30px] h-auto mr-3" />
+                <p className="text-white text-xl mr-5">Download</p>
+              </div>
             </div>
           </div>
-          <div className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0">
-            {qr && <img src={qr} alt="QR Code" className="w-full h-auto" />}
-          </div>
-        </div>
-
-        <div
-          onClick={downloadPNG}
-          className=" shadow-sm mt-[10vw] md:mt-[5vw] w-[200px] h-[50px] rounded-[55.164px] bg-[linear-gradient(93deg,#457BCA_2.18%,#042284_114.09%)] flex items-center justify-center hover:scale-105 transition-all"
-        >
-          <div className="flex">
-            <DownloadIcon className="w-[30px] h-auto mr-3" />
-            <p className="text-white text-xl mr-5">Download</p>
-          </div>
-        </div>
+        )}
       </div>
     </>
   );
