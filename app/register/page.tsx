@@ -51,7 +51,7 @@ export default function Home() {
           <SmTop className="z-0 absolute w-full h-auto top-0 left-0 md:top-auto md:left-auto md:-bottom-20 md:right-0 border" />
         </div>
         <div className="z-20 relative lg:hidden mx-auto w-[80%] max-w-[380px] h-auto md:h-[45vh] md:w-auto border">
-          <SmWindow className="w-full h-auto md:h-full md:w-auto border" />
+          <SmWindow className="w-full h-auto  md:absolute md:h-full md:w-auto md:left-1/2 md:-translate-x-1/2 border" />
 
           <SmStarLeft className="block lg:hidden absolute top-27 -left-12 w-[210px] md:top-27 md:-left-25 md:w-[300px] h-auto" />
           <SmStarRight className="block lg:hidden absolute -top-9 -right-12 w-[210px] md:-top-27 md:-right-27 md:w-[300px] h-auto" />
@@ -73,7 +73,10 @@ export default function Home() {
             <LgStarML className="hidden lg:block absolute top-10 -left-35 z-40" />
             <LgStarR className="hidden lg:block absolute top-30 -right-35 z-40" />
 
-            <h1 className=" z-20 bg-clip-text text-transparent font-bold bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] to-66% text-5xl md:text-7xl">
+            <h1
+              style={{ fontFamily: "var(--font-bethany)" }}
+              className=" z-20 border bg-clip-text text-transparent bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] to-66% text-5xl md:text-7xl py-4"
+            >
               REGISTER
             </h1>
             <div className="flex justify-between items-center w-[90%] md:w-full">

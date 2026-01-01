@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Geist, Geist_Mono, Noto_Sans_Thai, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -25,6 +26,12 @@ const FontInter = Inter({
   subsets: ["latin"],
 });
 
+const bethanyFont = localFont({
+  src: "../public/fonts/BethanyElingston.otf", // adjust the extension based on your file
+  variable: "--font-bethany",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Triam Udom Open House 2026",
   description:
@@ -39,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="th">
       <body
-        className={`${FontInter.variable} ${NotoSansThai.variable}${geistSans.variable} ${geistMono.variable} antialiased overflow-x-clip`}
+        className={`${FontInter.variable} ${NotoSansThai.variable}${geistSans.variable} ${geistMono.variable} ${bethanyFont.variable} antialiased overflow-x-clip`}
       >
         <Providers>
           <div className="fixed w-full top-0 left-0 z-6767">
