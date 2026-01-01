@@ -20,6 +20,9 @@ import BrickTL from "@/vector/signInPage/brickTL";
 import BrickTR from "@/vector/signInPage/BrickTR";
 import BrickBL from "@/vector/signInPage/BrickBL";
 import BrickBR from "@/vector/signInPage/BrickBR";
+import RegisterText from "@/vector/signInPage/RegisterText";
+import GoogleButton from "@/vector/signInPage/GoogleButton";
+import TucmcLogo from "@/vector/signInPage/TucmcLogo";
 
 export default function Home() {
   const handleLogin = async () => {
@@ -68,23 +71,12 @@ export default function Home() {
         </div>
         <div className="flex-1 flex lg:w-[50%] xl:flex-1 h-full justify-center lg:items-center mt-[7vh] md:mt-[10vh]">
           {/* register box */}
-          <div className="h-40 relative flex flex-col items-center justify-center space-y-2 w-[250px] md:w-[300px]">
+          <div className="h-40 border relative flex flex-col items-center justify-center space-y-2 w-[250px] md:w-[300px]">
             <LgStarTL className="hidden lg:block absolute -top-45 -left-50 z-40" />
             <LgStarML className="hidden lg:block absolute top-10 -left-35 z-40" />
             <LgStarR className="hidden lg:block absolute top-30 -right-35 z-40" />
 
-            <h1
-              style={{ fontFamily: "var(--font-bethany)" }}
-              className=" z-20 bg-clip-text text-transparent bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] to-66% text-5xl md:text-7xl py-4"
-            >
-              REGISTER
-            </h1>
-            <div className="flex justify-between items-center w-[90%] md:w-full">
-              <div className="bg-[#F9D4CE] h-[0.15rem] rounded-full w-[70%] m-2"></div>
-              <p className="bg-clip-text z-20 text-transparent font-bold bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] text-xl md:text-3xl text-nowrap">
-                ลงทะเบียน
-              </p>
-            </div>
+            <RegisterText className=" absolute w-[400px] -top-14 h-auto" />
             <button
               onClick={handleLogin}
               className="mt-2 bg-linear-to-r from-[#FAD1CF] from-[1.12%] to-[#F4F2C4] to-[66.02%] cursor-pointer hover:scale-105 transition-all py-3 px-4 md:px-11 md:py-5 rounded-full flex justify-evenly items-center  z-9999"
