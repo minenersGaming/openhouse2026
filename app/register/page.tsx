@@ -47,14 +47,14 @@ export default function Home() {
       {/* object  */}
       <div className="flex h-screen mx-auto w-[90%] md:w-[70%] flex-col lg:flex-row lg:w-screen lg:justify-start lg:items-center">
         {/* sm box */}
-        <div className=" lg:hidden border relative w-full h-[20vh] md:h-[18vh] max-w-[470px] md:max-w-[570px] mx-auto">
-          <SmTop className="z-0 absolute w-full h-auto top-0 left-0 md:top-auto md:left-auto md:-bottom-20 md:right-0 border" />
+        <div className=" lg:hidden relative w-full h-[20vh] md:h-[18vh] max-w-[470px] md:max-w-[570px] mx-auto">
+          <SmTop className="z-0 absolute w-full h-auto top-0 left-0 md:top-auto md:left-auto md:-bottom-20 md:right-0 " />
         </div>
-        <div className="z-20 relative lg:hidden mx-auto w-[80%] max-w-[380px] h-auto md:h-[45vh] md:w-auto border">
-          <SmWindow className="w-full h-auto  md:absolute md:h-full md:w-auto md:left-1/2 md:-translate-x-1/2 border" />
+        <div className="z-20 relative lg:hidden mx-auto w-[80%] max-w-[380px] h-auto md:h-[45vh] md:w-auto ">
+          <SmWindow className="w-full h-auto  md:absolute md:h-full md:w-auto md:left-1/2 md:-translate-x-1/2 " />
 
-          <SmStarLeft className="block lg:hidden absolute top-27 -left-12 w-[210px] md:top-27 md:-left-25 md:w-[300px] h-auto" />
-          <SmStarRight className="block lg:hidden absolute -top-9 -right-12 w-[210px] md:-top-27 md:-right-27 md:w-[300px] h-auto" />
+          <SmStarLeft className="block lg:hidden absolute top-27 -left-12 w-[210px] md:top-42 md:-left-77 md:w-[320px] h-auto" />
+          <SmStarRight className="block lg:hidden absolute -top-9 -right-12 w-[210px] md:-top-10 md:-right-77 md:w-[320px] h-auto" />
         </div>
 
         {/* lg box */}
@@ -66,16 +66,16 @@ export default function Home() {
           {/* Window */}
           <LgWindow className="hidden lg:block absolute bottom-0 right-0 h-[91vh] w-auto 2xl:w-auto 2xl:h-[91vh] 2xl:bottom-0 2xl:left-0" />
         </div>
-        <div className="flex-1 flex lg:w-[50%] xl:flex-1 h-full border justify-center lg:items-center mt-[7vh] md:mt-[10vh]">
+        <div className="flex-1 flex lg:w-[50%] xl:flex-1 h-full justify-center lg:items-center mt-[7vh] md:mt-[10vh]">
           {/* register box */}
-          <div className="h-40 border relative flex flex-col items-center justify-center space-y-2 w-[250px] md:w-[300px]">
+          <div className="h-40 relative flex flex-col items-center justify-center space-y-2 w-[250px] md:w-[300px]">
             <LgStarTL className="hidden lg:block absolute -top-45 -left-50 z-40" />
             <LgStarML className="hidden lg:block absolute top-10 -left-35 z-40" />
             <LgStarR className="hidden lg:block absolute top-30 -right-35 z-40" />
 
             <h1
               style={{ fontFamily: "var(--font-bethany)" }}
-              className=" z-20 border bg-clip-text text-transparent bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] to-66% text-5xl md:text-7xl py-4"
+              className=" z-20 bg-clip-text text-transparent bg-linear-to-r from-[#FAD1CF] to-[#F4F2C4] to-66% text-5xl md:text-7xl py-4"
             >
               REGISTER
             </h1>
