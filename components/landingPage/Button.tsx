@@ -18,6 +18,9 @@ const Button = () => {
   const { data, isPending } = useSession();
   const router = useRouter();
 
+  const handleOnClick = () => {
+    console.log("click");
+  };
   // const handleLogin = async () => {
   //   // to register page
   //   router.push("/register");
@@ -34,10 +37,7 @@ const Button = () => {
             <p className={TextStyle}>Register</p>
           </div>
         ) : (
-          <div
-            //   onClick={handleLogin}
-            className={style}
-          >
+          <div onClick={handleOnClick} className={style}>
             <p className={TextStyle}>E-ticket</p>
           </div>
         )
