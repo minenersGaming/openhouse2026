@@ -86,6 +86,10 @@ img {
   object-fit: cover;
 }
 
+.font-inter {
+  font-family: var(--font-inter);
+}
+
 .font-noto-sans {
   font-family: var(--font-noto-sans-thai);
 }

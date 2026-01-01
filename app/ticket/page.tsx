@@ -13,7 +13,7 @@ const css = {
   textId:
     " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px] mb-1",
   userName:
-    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:1.02px] font-[Bethany_Elingston] text-[33px] font-normal leading-[32px] tracking-[4.02px] mb-[14px]",
+    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:1.02px] text-[33px] font-normal leading-[32px] tracking-[4.02px] mb-[14px]",
   thaiName: " ml-7 text-[#F3E8AD] font-inter text-[20px] leading-[13px]",
   student: "text-[#F3E8AD] font-inter text-[15px] leading-[10px]",
 };
@@ -109,7 +109,9 @@ const TicketPage = () => {
             </p>
             <p
               style={{ fontFamily: "var(--font-bethany)" }}
-              className={css.userName + " text-center uppercase break-all"}
+              className={
+                "text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] text-[33px] font-bold leading-[32px] tracking-[4.02px] mb-[14px] text-center uppercase break-all"
+              }
             >
               {data.username}
             </p>

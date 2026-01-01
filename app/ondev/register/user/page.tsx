@@ -136,7 +136,7 @@ const RegisterPage = () => {
   };
   return (
     <>
-      <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)] overflow-hidden">
+      <div className="w-screen relative overflow-hidden">
         <SmallRegisterBg className={container.bg} />
         <BigRegisterBg className={container.bgxl} />
         <form
