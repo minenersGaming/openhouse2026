@@ -1,14 +1,12 @@
 "use client";
 
-import RegisterBgmd from "@/vector/register/RegisterBgmd";
-import RegisterBgsm from "@/vector/register/RegisterBgsm";
-import RegisterBg from "@/vector/register/RegisterBg";
-import RegisterBgxl from "@/vector/register/RegisterBgxl";
 import { useFormik } from "formik";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { signOut } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
+import BigRegisterBg from "@/vector/register/BigRegisterBg";
+import SmallRegisterBg from "@/vector/register/SmallRegisterBg";
 const receivedInfoOptions = [
   { label: "Facebook Page: Triam Udom Open House", value: "fb" },
   { label: "Instagram: @triamudom.oph / @tucmc_official", value: "ig" },
@@ -78,11 +76,12 @@ const css = {
 };
 
 const container = {
-  bg: " z-0 left-0 top-0 " + " block sm:hidden " + " h-480 w-auto ",
-  bgsm:
-    " z-0 left-0 top-0 " + " hidden sm:block md:hidden " + " w-full h-auto ",
-  bgmd: " z-0 left-0 top-0 " + " hidden md:block xl:hidden " + " h-480 w-auto ",
-  bgxl: " z-0 left-0 top-0 " + " hidden xl:block " + " w-full h-auto ",
+  bg:
+    " z-0 left-0 top-0 " + " md:hidden " + " h-480 w-auto sm:w-full sm:h-auto ",
+  bgxl:
+    " z-0 left-0 top-0 " +
+    " hidden md:block " +
+    " h-480 w-auto xl:w-full xl:h-auto ",
   outerBox: "",
   innerBox: "",
 };
@@ -138,12 +137,10 @@ const RegisterPage = () => {
   return (
     <>
       <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)] overflow-hidden">
-        <RegisterBg className={container.bg} />
-        <RegisterBgsm className={container.bgsm} />
-        <RegisterBgmd className={container.bgmd} />
-        <RegisterBgxl className={container.bgxl} />
+        <SmallRegisterBg className={container.bg} />
+        <BigRegisterBg className={container.bgxl} />
         <form
-          className="absolute pt-3 pb-10 z-10 mt-[20px] sm:mt-[8vw] md:mt-0 w-[95vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] lg:min-w-150 top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
+          className="absolute pt-3 pb-10 z-10 mt-5 sm:mt-[8vw] md:mt-0 w-[95vw] sm:w-[80vw] md:w-[60vw] lg:w-[40vw] lg:min-w-150 top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
           onSubmit={formik.handleSubmit}
         >
           <div className="w-full flex flex-col gap-[1vw]">

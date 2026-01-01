@@ -11,11 +11,11 @@ import { useEffect, useState } from "react";
 
 const css = {
   textId:
-    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px]",
+    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px] mb-1",
   userName:
-    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:1.02px] font-[Bethany_Elingston] text-[33px] font-normal leading-[32px] tracking-[4.02px] mb-[10px]",
-  thaiName: " ml-7 text-[#F3E8AD] font-inter text-[26px] leading-[23px]",
-  student: "text-[#F3E8AD] font-inter text-[17px] leading-[23px]",
+    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:1.02px] font-[Bethany_Elingston] text-[33px] font-normal leading-[32px] tracking-[4.02px] mb-[14px]",
+  thaiName: " ml-7 text-[#F3E8AD] font-inter text-[20px] leading-[13px]",
+  student: "text-[#F3E8AD] font-inter text-[15px] leading-[10px]",
 };
 
 type BookingMeResponse = {
@@ -94,7 +94,7 @@ const TicketPage = () => {
           ref={ref}
           className="relative w-[375px] h-[695px] mx-auto overflow-hidden"
         >
-          <Image src="/Eticket.svg" alt="Ticket" width={800} height={600} />
+          <Image src="/E-ticket.svg" alt="Ticket" width={800} height={600} />
           <div className="absolute pt-4 top-0 left-0 w-full flex flex-col gap-3">
             <p className={css.textId + " text-center "}>
               ID: {data.registerId}
@@ -109,7 +109,7 @@ const TicketPage = () => {
             <p className={css.thaiName}>{data.surname}</p>
             <div className="ml-7 w-[40%] h-0.5 bg-[#F3E8AD]"></div>
             <div className=" ml-7 flex items-center gap-2">
-              <StudentIcon className="w-[17px] h-auto" />
+              <StudentIcon className="w-4 h-auto" />
               <p className={css.student}>{data.userStatus}</p>
             </div>
           </div>
