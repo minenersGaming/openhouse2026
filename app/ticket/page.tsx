@@ -9,12 +9,24 @@ import { useQuery } from "@tanstack/react-query";
 import QRCode from "qrcode";
 import { useEffect, useState } from "react";
 import LoadingPage from "@/components/ticket/LoadingPage";
+import { Noto_Sans_Thai } from "next/font/google";
+import { Inter } from "next/font/google";
+
+const FontInter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+const NotoSansThai = Noto_Sans_Thai({
+  variable: "--font-noto-sans-thai",
+  subsets: ["thai", "latin"],
+});
 
 const css = {
   textId:
     " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px] mb-1",
-  thaiName: " ml-7 text-[#F3E8AD] font-inter text-[20px] leading-[13px]",
-  student: "text-[#F3E8AD] font-inter text-[15px] leading-[10px]",
+  thaiName:
+    " ml-7 text-[#F3E8AD] font-noto-sans-thai text-[20px] leading-[13px]",
+  student: "text-[#F3E8AD] font-noto-sans-thai text-[15px] leading-[10px]",
 };
 
 type BookingMeResponse = {
@@ -91,10 +103,10 @@ const TicketPage = () => {
     return (
       <div className="w-screen min-h-screen py-[15vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)]">
         <div className="text-center">
-          <p className="text-[#0B1855] font-noto-sans text-2xl font-bold mb-4">
+          <p className="text-[#0B1855] font-noto-sans-thai text-2xl font-bold mb-4">
             เกิดข้อผิดพลาด
           </p>
-          <p className="text-[#0B1855] font-noto-sans text-lg">
+          <p className="text-[#0B1855] font-noto-sans-thai text-lg">
             ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่อีกครั้ง
           </p>
         </div>
@@ -113,10 +125,10 @@ const TicketPage = () => {
             }
           >
             <div className="mt-10 mb-20">
-              <p className=" text-[#0B1855] text-center font-noto-sans text-[50px] font-bold leading-[31.881px]">
+              <p className=" text-[#0B1855] text-center font-noto-sans-thai text-[50px] font-bold leading-[31.881px]">
                 E-Ticket
               </p>
-              <p className=" text-[#0B1855] font-noto-sans text-[33px] font-medium leading-[61.881px] ">
+              <p className=" text-[#0B1855] font-noto-sans-thai text-[33px] font-medium leading-[61.881px] ">
                 สำหรับแสดงเพื่อเข้างาน
               </p>
             </div>

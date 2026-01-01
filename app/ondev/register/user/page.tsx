@@ -7,6 +7,12 @@ import { signOut } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 import BigRegisterBg from "@/vector/register/BigRegisterBg";
 import SmallRegisterBg from "@/vector/register/SmallRegisterBg";
+import { Noto_Sans_Thai } from "next/font/google";
+
+const NotoSansThai = Noto_Sans_Thai({
+  variable: "--font-noto-sans-thai",
+  subsets: ["thai", "latin"],
+});
 const receivedInfoOptions = [
   { label: "Facebook Page: Triam Udom Open House", value: "fb" },
   { label: "Instagram: @triamudom.oph / @tucmc_official", value: "ig" },
@@ -54,13 +60,13 @@ interface RegisterFormValues {
 
 const css = {
   checkBoxLabel:
-    " flex items-center gap-2 text-white font-noto-sans text-[15.882px] font-medium ",
+    " flex items-center gap-2 text-white font-noto-sans-thai text-[15.882px] font-medium ",
   checkBox:
     " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
   squreCheckBox:
     " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
   squreLabel:
-    " self-stretch text-white font-noto-sans font-medium " +
+    " self-stretch text-white font-noto-sans-thai font-medium " +
     " text-[15px] " +
     " sm:text-[17.553px]  ",
   inputBox:
@@ -71,7 +77,7 @@ const css = {
     " w-[320px] text-[17px] " +
     " sm:w-[414.073px] sm:text-[19.546px] ",
   h3: "",
-  h4: " text-[15.882px] text-white font-['Noto_Sans_Thai'] font-normal ",
+  h4: " text-[15.882px] text-white font-noto-sans-thai font-normal ",
   p: "",
 };
 
