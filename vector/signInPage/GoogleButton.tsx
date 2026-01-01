@@ -47,7 +47,6 @@ const GoogleButton: FC<{ className?: string; onClick?: () => void }> = ({
         <div
           style={{
             backdropFilter: "blur(2.11px)",
-            WebkitBackdropFilter: "blur(2.11px)", // for Safari
             clipPath: "url(#bgblur_1_6732_6740_clip_path)",
             height: "100%",
             width: "100%",
