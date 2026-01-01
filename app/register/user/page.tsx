@@ -320,7 +320,10 @@ const RegisterPage = () => {
               </div>
               {/* received infomation */}
               <div className="flex flex-col gap-4">
-                <p className={css.h2}>
+                <p
+                  className={css.h2}
+                  style={{ fontFamily: "var(--font-inter)" }}
+                >
                   ได้รับข่าวสารของ Triam Udom Open House จากที่ใดบ้าง
                   (ตอบได้มากกว่า 1 ข้อ)
                 </p>
@@ -362,7 +365,10 @@ const RegisterPage = () => {
               </div>
               {/*purpose*/}
               <div className="flex flex-col gap-4">
-                <p className={css.h2}>
+                <p
+                  className={css.h2}
+                  style={{ fontFamily: "var(--font-inter)" }}
+                >
                   จุดประสงค์ในการเข้าร่วม Triam Udom Open House (ตอบได้มากกว่า 1
                   ข้อ)
                 </p>

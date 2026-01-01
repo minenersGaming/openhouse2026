@@ -59,7 +59,7 @@ export default function Home() {
 
         {/* lg box */}
         {/* window box */}
-        <div className=" hidden lg:block lg:w-[46%] xl:w-[50%] xl:max-w-[680px] 2xl:w-[71vh] h-full relative">
+        <div className=" hidden lg:block lg:w-[46%] lg:max-w-[69vh] xl:w-[50%] 2xl:w-[71vh] h-full relative">
           {/* Bricks */}
           <LgBrickL className="hidden lg:block absolute top-20 left-10 xl:left-30 h-[8.5vh] w-auto xl:h-[9vh] xl:w-auto" />
           <LgBrickM className="hidden lg:block absolute top-20 -right-[20vw] 2xl:-right-[12.5vw] h-[75vh] w-auto" />
