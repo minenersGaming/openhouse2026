@@ -39,7 +39,7 @@ const purposeOptions = [
     label: "ชมบรรยากาศโรงเรียนเตรียมอุดมศึกษา",
     value: "ชมบรรยากาศโรงเรียนเตรียมอุดมศึกษา",
   },
-  { label: "อื่น ๆ โปรดระบุ:", value: "อื่นๆ :" },
+  { label: "อื่น ๆ โปรดระบุ:", value: "อื่นๆ:" },
 ];
 interface RegisterFormValues {
   username: string;
@@ -368,10 +368,7 @@ const RegisterPage = () => {
                 </p>
                 {purposeOptions.map((option) => (
                   <div key={option.value}>
-                    <label
-                      key={option.value}
-                      className="flex items-center gap-3 cursor-pointer"
-                    >
+                    <label className="flex items-center gap-3 cursor-pointer">
                       <input
                         type="checkbox"
                         name="purpose"
@@ -396,38 +393,35 @@ const RegisterPage = () => {
                         }}
                         className={css.squreCheckBox}
                       />
-
                       <span className={css.squreLabel}>{option.label}</span>
+
+                      {/* Conditional input field for "อื่นๆ โปรดระบุ:" - inline */}
+                      {option.value === "อื่นๆ:" &&
+                        formik.values.purpose.some((p) =>
+                          p.startsWith("อื่นๆ:")
+                        ) && (
+                          <input
+                            type="text"
+                            placeholder="โปรดระบุ..."
+                            value={
+                              formik.values.purpose
+                                .find((p) => p.startsWith("อื่นๆ:"))
+                                ?.replace("อื่นๆ:", "") || ""
+                            }
+                            onChange={(e) => {
+                              const filteredPurpose =
+                                formik.values.purpose.filter(
+                                  (v) => !v.startsWith("อื่นๆ:")
+                                );
+                              formik.setFieldValue("purpose", [
+                                ...filteredPurpose,
+                                `อื่นๆ:${e.target.value}`,
+                              ]);
+                            }}
+                            className="flex-1 bg-transparent border-none outline-none text-white placeholder:text-white/50 ml-2"
+                          />
+                        )}
                     </label>
-                    {option.value === "อื่นๆ :" &&
-                      formik.values.purpose.some((p) =>
-                        p.startsWith("อื่นๆ :")
-                      ) && (
-                        <input
-                          type="text"
-                          placeholder="โปรดระบุ..."
-                          value={
-                            formik.values.purpose
-                              .find((p) => p.startsWith("อื่นๆ :"))
-                              ?.replace("อื่นๆ : ", "") || ""
-                          }
-                          onChange={(e) => {
-                            const text = e.target.value;
-
-                            // Update the purpose array: remove old "อื่นๆ" entries and add new one
-                            const filteredPurpose =
-                              formik.values.purpose.filter(
-                                (v) => !v.startsWith("อื่นๆ :")
-                              );
-
-                            formik.setFieldValue("purpose", [
-                              ...filteredPurpose,
-                              text ? `อื่นๆ : ${text}` : "อื่นๆ :",
-                            ]);
-                          }}
-                          className={`${css.inputBox} mt-2 ml-8`}
-                        />
-                      )}
                   </div>
                 ))}
                 {/* white line */}
