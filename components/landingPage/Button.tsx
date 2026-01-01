@@ -39,12 +39,12 @@ const Button = () => {
             <p className={TextStyle}>Register</p>
           </a>
         ) : (
-          <div onClick={handleOnClick} className={style}>
+          <a href="/ticket" onClick={handleOnClick} className={style}>
             <p className={TextStyle}>E-ticket</p>
-          </div>
+          </a>
         )
       ) : (
-        <a href="/ticket" className={style}>
+        <a className={style}>
           <p className={TextStyle}>Loading..</p>
         </a>
       )}

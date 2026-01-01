@@ -18,16 +18,16 @@ const OrgSection = () => {
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
             >
-              <TUSCCard className="w-[20vw]" />
-              <AnusornCard className="w-[20vw]" />
+              <TUSCCard className="w-[20vw] hover:scale-105  transition-all" />
+              <AnusornCard className="w-[20vw] hover:scale-105  transition-all" />
             </div>
             <div className=" flex flex-col h-[140%]  mt-[20%] self-end">
-              <TUCMCCard className="w-[20vw]" />
-              <AICCard className="w-[20vw]" />
+              <TUCMCCard className="w-[20vw] hover:scale-105  transition-all" />
+              <AICCard className="w-[20vw] hover:scale-105  transition-all" />
             </div>
             <div>
-              <TUPROCard className="w-[20vw]" />
-              <TUNSOCard className="w-[20vw]" />
+              <TUPROCard className="w-[20vw] hover:scale-105  transition-all" />
+              <TUNSOCard className="w-[20vw] hover:scale-105  transition-all" />
             </div>
           </div>
           <div className="w-1/3 flex flex-col items-center justify-center py-15">
@@ -65,12 +65,12 @@ const OrgSection = () => {
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
           >
-            <TUCMCCard className="w-[55vw]" />
-            <TUSCCard className="w-[55vw]" />
-            <AnusornCard className="w-[55vw]" />
-            <AICCard className="w-[55vw]" />
-            <TUNSOCard className="w-[55vw]" />
-            <TUPROCard className="w-[55vw]" />
+            <TUCMCCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUSCCard className="w-[55vw] hover:scale-105  transition-all" />
+            <AnusornCard className="w-[55vw] hover:scale-105  transition-all" />
+            <AICCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUNSOCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUPROCard className="w-[55vw] hover:scale-105  transition-all" />
           </div>
           <div className="flex items-center justify-center w-full">
             <p className="font-medium text-center text-lg w-3/5 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
