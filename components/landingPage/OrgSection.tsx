@@ -1,11 +1,17 @@
 import OrgLg from "@/vector/LandingPage/Org/OrgLg";
 import OrgSm from "@/vector/LandingPage/Org/OrgSm";
-import TUCMCCard from "@/vector/LandingPage/Org/Card/TUCMCCard";
-import TUSCCard from "@/vector/LandingPage/Org/Card/TUSCCard";
-import AnusornCard from "@/vector/LandingPage/Org/Card/AnusornCard";
-import AICCard from "@/vector/LandingPage/Org/Card/AICCard";
-import TUNSOCard from "@/vector/LandingPage/Org/Card/TUNSOCard";
-import TUPROCard from "@/vector/LandingPage/Org/Card/TUPROCard";
+import TUCMCCard from "@/vector/LandingPage/Org/CardSm/TUCMCCard";
+import TUSCCard from "@/vector/LandingPage/Org/CardSm/TUSCCard";
+import AnusornCard from "@/vector/LandingPage/Org/CardSm/AnusornCard";
+import AICCard from "@/vector/LandingPage/Org/CardSm/AICCard";
+import TUNSOCard from "@/vector/LandingPage/Org/CardSm/TUNSOCard";
+import TUPROCard from "@/vector/LandingPage/Org/CardSm/TUPROCard";
+import TUCMCLg from "@/vector/LandingPage/Org/CardLg/TUCMCLg";
+import TUSCLg from "@/vector/LandingPage/Org/CardLg/TUSCLg";
+import AnusornLg from "@/vector/LandingPage/Org/CardLg/AnusornLg";
+import AICLg from "@/vector/LandingPage/Org/CardLg/AICLg";
+import TUNSOLg from "@/vector/LandingPage/Org/CardLg/TUNSOLg";
+import TUPROLg from "@/vector/LandingPage/Org/CardLg/TUPROLg";
 
 const OrgSection = () => {
   return (
@@ -14,20 +20,20 @@ const OrgSection = () => {
         <div className="absolute flex w-full flex-row justify-end">
           <div className="w-[80%] h-[170%] p-10 -space-y-10 flex flex-row justify-between">
             <div
-              className=" flex flex-col space-y-10 -space-x-20
+              className=" flex flex-col space-y-10 -space-x-50
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
             >
-              <TUSCCard className="w-[20vw]" />
-              <AnusornCard className="w-[20vw]" />
+              <TUSCLg className="w-[20vw] hover:scale-105  transition-all" />
+              <AnusornLg className="w-[20vw] hover:scale-105  transition-all" />
             </div>
             <div className=" flex flex-col h-[140%]  mt-[20%] self-end">
-              <TUCMCCard className="w-[20vw]" />
-              <AICCard className="w-[20vw]" />
+              <TUCMCLg className="w-[20vw] hover:scale-105  transition-all" />
+              <AICLg className="w-[20vw] hover:scale-105  transition-all" />
             </div>
             <div>
-              <TUPROCard className="w-[20vw]" />
-              <TUNSOCard className="w-[20vw]" />
+              <TUPROLg className="w-[20vw] hover:scale-105  transition-all" />
+              <TUNSOLg className="w-[20vw] hover:scale-105  transition-all" />
             </div>
           </div>
           <div className="w-1/3 flex flex-col items-center justify-center py-15">
@@ -65,12 +71,12 @@ const OrgSection = () => {
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
           >
-            <TUCMCCard className="w-[55vw]" />
-            <TUSCCard className="w-[55vw]" />
-            <AnusornCard className="w-[55vw]" />
-            <AICCard className="w-[55vw]" />
-            <TUNSOCard className="w-[55vw]" />
-            <TUPROCard className="w-[55vw]" />
+            <TUCMCCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUSCCard className="w-[55vw] hover:scale-105  transition-all" />
+            <AnusornCard className="w-[55vw] hover:scale-105  transition-all" />
+            <AICCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUNSOCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUPROCard className="w-[55vw] hover:scale-105  transition-all" />
           </div>
           <div className="flex items-center justify-center w-full">
             <p className="font-medium text-center text-lg w-3/5 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">

@@ -43,11 +43,11 @@ const GiftedSection = () => {
             โครงการพัฒนาความสามารถพิเศษ
           </p>
         </div>
-        <div className="absolute flex flex-row justify-center items-center w-full ">
-          <GiftedMathLg className="w-[10vw]" />
-          <GiftedSciLg className="w-[10vw]" />
-          <GiftedEngLg className="w-[10vw]" />
-          <GiftedThaiLg className="w-[10vw]" />
+        <div className="translate-y-[62%] absolute flex flex-row justify-center items-center w-full space-x-[9%]">
+          <GiftedMathLg className="w-[15vw] transition-all hover:scale-105" />
+          <GiftedSciLg className="w-[15vw] transition-all hover:scale-105" />
+          <GiftedEngLg className="w-[15vw] transition-all hover:scale-105" />
+          <GiftedThaiLg className="w-[15vw] transition-all hover:scale-105" />
         </div>
         <GiftedLg className="w-full" />
       </div>

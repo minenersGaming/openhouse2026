@@ -12,40 +12,172 @@
 </a>; */
 }
 const style = {
-  Top: "font-bold text-md lg:text-xl text-white",
-  Bottom: "ml-px uppercase text-white text-xs lg:text-sm",
+  Top: "font-bold text-md lg:text-xl text-white transtion-all",
+  Bottom: "ml-px uppercase text-white text-xs lg:text-sm transtion-all",
 };
-const Toptext = () => {
+const Toptext = ({ hover }: { hover: boolean }) => {
   return (
     <div className="flex flex-col px-2 lg:px-3 -space-y-1 items-start justify-center">
       <div className="justify-evenly flex w-full">
-        <p className={style.Top}>T</p>
-        <p className={style.Top}>R</p>
-        <p className={style.Top}>I</p>
-        <p className={style.Top}>A</p>
-        <p className={style.Top}>M</p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          T
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          R
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          I
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          A
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          M
+        </p>
         <div className="w-1"></div>
-        <p className={style.Top}>U</p>
-        <p className={style.Top}>D</p>
-        <p className={style.Top}>O</p>
-        <p className={style.Top}>M</p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          U
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          D
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          O
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Top} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          M
+        </p>
       </div>
       <div className="justify-evenly flex w-full">
-        <p className={style.Bottom}>O</p>
-        <p className={style.Bottom}>P</p>
-        <p className={style.Bottom}>E</p>
-        <p className={style.Bottom}>N</p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          O
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          P
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          E
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          N
+        </p>
         <div className="w-1"></div>
-        <p className={style.Bottom}>H</p>
-        <p className={style.Bottom}>O</p>
-        <p className={style.Bottom}>U</p>
-        <p className={style.Bottom}>S</p>
-        <p className={style.Bottom}>E</p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          H
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          O
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          U
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          S
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          E
+        </p>
         <div className="w-1"></div>
-        <p className={style.Bottom}>2</p>
-        <p className={style.Bottom}>0</p>
-        <p className={style.Bottom}>2</p>
-        <p className={style.Bottom}>6</p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          2
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          0
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          2
+        </p>
+        <p
+          className={`transition-all duration-400 ${style.Bottom} ${
+            hover ? "drop-shadow-white drop-shadow-sm/100" : "drop-shadow-sm/0"
+          }`}
+        >
+          6
+        </p>
       </div>
     </div>
   );
