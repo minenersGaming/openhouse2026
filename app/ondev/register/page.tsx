@@ -32,15 +32,15 @@ export default function Home() {
   };
 
   return (
-    <section className="h-screen bg-linear-to-bl from-[#467BCA] via-[#354FB0] via-41% to-[#042284] relative overflow-clip -z-20">
+    <section className="h-screen bg-linear-to-bl from-[#467BCA] via-[#354FB0] via-41% to-[#042284] relative overflow-clip z-0">
       {/* Pole */}
       <Pole className="hidden lg:block absolute right-0 top-0 h-full w-auto z-10" />
       {/* Brick right */}
-      <LgBrickR className=" -z-10 hidden lg:block absolute bottom-[35vh] right-30 h-[12vh] w-auto " />
-      <BrickBL className=" -z-10 lg:hidden absolute bottom-[18vh] left-[4vw] md:bottom-50 md:left-45  w-[120px] h-auto " />
-      <BrickTL className=" -z-10 lg:hidden absolute top-[26vh] left-[4vw] md:top-60 md:left-30  w-[120px] h-auto " />
-      <BrickBR className=" -z-10 lg:hidden absolute bottom-[27vh] right-[2vw] md:bottom-80 md:right-25  w-[120px] h-auto " />
-      <BrickTR className=" -z-10 lg:hidden absolute top-[10vh] right-[1vw] md:top-30 md:right-20  w-[120px] h-auto " />
+      <LgBrickR className=" z-0 hidden lg:block absolute bottom-[35vh] right-30 h-[12vh] w-auto " />
+      <BrickBL className=" z-0 lg:hidden absolute bottom-[18vh] left-[4vw] md:bottom-50 md:left-45  w-[120px] h-auto " />
+      <BrickTL className=" z-0 lg:hidden absolute top-[26vh] left-[4vw] md:top-60 md:left-30  w-[120px] h-auto " />
+      <BrickBR className=" z-0 lg:hidden absolute bottom-[27vh] right-[2vw] md:bottom-80 md:right-25  w-[120px] h-auto " />
+      <BrickTR className=" z-0 lg:hidden absolute top-[10vh] right-[1vw] md:top-30 md:right-20  w-[120px] h-auto " />
       {/*top line */}
       <LgTopLine className="z-0 hidden lg:block absolute right-45 xl:right-55 top-0 h-[380px] xl:h-[25vw] w-auto" />
       {/* Light Effect */}
@@ -78,7 +78,7 @@ export default function Home() {
             <RegisterText className=" z-40 absolute w-[270px] -top-5 sm:w-[270px] sm:-top-5 md:w-[320px] md:-top-12 lg:w-[400px] lg:-top-14 h-auto" />
             <GoogleButton
               onClick={handleLogin}
-              className=" z-40 absolute w-[270px] top-19 sm:top-19 sm:w-[270px] md:w-[320px] md:top-16 lg:w-[400px] lg:top-20 hover:scale-105 transition-all h-auto "
+              className=" z-50 absolute w-[270px] top-19 sm:top-19 sm:w-[270px] md:w-[320px] md:top-16 lg:w-[400px] lg:top-20 hover:scale-105 transition-all h-auto "
             />
             <TucmcLogo className=" z-40 absolute w-[210px] top-38 sm:w-[210px] sm:top-38 md:w-[230px] md:top-39 lg:w-[280px] lg:top-48 h-auto" />
           </div>
