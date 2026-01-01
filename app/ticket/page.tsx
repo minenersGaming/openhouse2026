@@ -103,7 +103,7 @@ const TicketPage = () => {
   }
   return (
     <>
-      <div className=" w-screen py-[15vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)] ">
+      <div className=" w-screen py-[15vh] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)] ">
         {isLoading && <LoadingPage />}
 
         {data && (
