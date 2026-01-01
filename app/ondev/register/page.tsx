@@ -8,7 +8,7 @@ import SmStarLeft from "@/vector/signInPage/SmStarLeft";
 import SmStarRight from "@/vector/signInPage/SmStarRight";
 import Pole from "@/vector/signInPage/Pole";
 import LgWindow from "@/vector/signInPage/Lgwindow";
-import Lgtop from "@/vector/signInPage/LGtop";
+import Lgtop from "@/vector/signInPage/Lgtop";
 import LgLight from "@/vector/signInPage/LgLight";
 import LgBrickL from "@/vector/signInPage/LgBrickL";
 import LgBrickR from "@/vector/signInPage/LgBrickR";

@@ -98,16 +98,13 @@ const Header = () => {
         <a href="" className={Style.Link}>
           เพิ่มเติม
         </a>
-        {/* {!isPending && !data?.user ? ( */}
-        {true ? (
+        {!isPending && !data?.user ? (
           <Link
-            // href="/ondev/register"
-            href="/"
+            href="/ondev/register"
             aria-current={pathname === "/ondev/register" ? "page" : undefined}
             className={Style.Link}
           >
-            {/* ลงทะเบียน */}
-            E-ticket
+            ลงทะเบียน
           </Link>
         ) : (
           <a
@@ -162,11 +159,9 @@ const Header = () => {
               text="สินค้าที่ระลึก"
             />
             <NavRow
-              // href="/ondev/register"
-              href="/"
+              href="/ondev/register"
               Icon={<AccountIcon className={Style.NavIcon} />}
-              text="บัญชี"
-              // text={isPending || !data?.user ? "ลงทะเบียน" : "E-ticket"}
+              text={isPending || !data?.user ? "ลงทะเบียน" : "E-ticket"}
             />
           </div>
         </div>
