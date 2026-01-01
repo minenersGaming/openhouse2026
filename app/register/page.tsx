@@ -8,7 +8,7 @@ import SmStarLeft from "@/vector/signInPage/SmStarLeft";
 import SmStarRight from "@/vector/signInPage/SmStarRight";
 import Pole from "@/vector/signInPage/Pole";
 import LgWindow from "@/vector/signInPage/Lgwindow";
-import Lgtop from "@/vector/signInPage/Lgtop";
+import Lgtop from "@/vector/signInPage/LGtop";
 import LgLight from "@/vector/signInPage/LgLight";
 import LgBrickL from "@/vector/signInPage/LgBrickL";
 import LgBrickR from "@/vector/signInPage/LgBrickR";
@@ -20,12 +20,6 @@ import BrickTL from "@/vector/signInPage/brickTL";
 import BrickTR from "@/vector/signInPage/BrickTR";
 import BrickBL from "@/vector/signInPage/BrickBL";
 import BrickBR from "@/vector/signInPage/BrickBR";
-
-const css = {
-  h1: "",
-  h2: "",
-  SignInbutton: "",
-};
 
 export default function Home() {
   const handleLogin = async () => {
