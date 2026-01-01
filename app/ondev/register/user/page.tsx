@@ -367,35 +367,68 @@ const RegisterPage = () => {
                   ข้อ)
                 </p>
                 {purposeOptions.map((option) => (
-                  <label
-                    key={option.value}
-                    className="flex items-center gap-3 cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      name="purpose"
-                      value={option.value}
-                      checked={formik.values.purpose.includes(option.value)}
-                      onChange={(e) => {
-                        if (e.target.checked) {
-                          formik.setFieldValue("purpose", [
-                            ...formik.values.purpose,
-                            option.value,
-                          ]);
-                        } else {
-                          formik.setFieldValue(
-                            "purpose",
-                            formik.values.purpose.filter(
-                              (v) => v !== option.value
-                            )
-                          );
-                        }
-                      }}
-                      className={css.squreCheckBox}
-                    />
+                  <div key={option.value}>
+                    <label
+                      key={option.value}
+                      className="flex items-center gap-3 cursor-pointer"
+                    >
+                      <input
+                        type="checkbox"
+                        name="purpose"
+                        value={option.value}
+                        checked={formik.values.purpose.some((p) =>
+                          p.startsWith(option.value)
+                        )}
+                        onChange={(e) => {
+                          if (e.target.checked) {
+                            formik.setFieldValue("purpose", [
+                              ...formik.values.purpose,
+                              option.value,
+                            ]);
+                          } else {
+                            formik.setFieldValue(
+                              "purpose",
+                              formik.values.purpose.filter(
+                                (v) => !v.startsWith(option.value)
+                              )
+                            );
+                          }
+                        }}
+                        className={css.squreCheckBox}
+                      />
 
-                    <span className={css.squreLabel}>{option.label}</span>
-                  </label>
+                      <span className={css.squreLabel}>{option.label}</span>
+                    </label>
+                    {option.value === "อื่นๆ :" &&
+                      formik.values.purpose.some((p) =>
+                        p.startsWith("อื่นๆ :")
+                      ) && (
+                        <input
+                          type="text"
+                          placeholder="โปรดระบุ..."
+                          value={
+                            formik.values.purpose
+                              .find((p) => p.startsWith("อื่นๆ :"))
+                              ?.replace("อื่นๆ : ", "") || ""
+                          }
+                          onChange={(e) => {
+                            const text = e.target.value;
+
+                            // Update the purpose array: remove old "อื่นๆ" entries and add new one
+                            const filteredPurpose =
+                              formik.values.purpose.filter(
+                                (v) => !v.startsWith("อื่นๆ :")
+                              );
+
+                            formik.setFieldValue("purpose", [
+                              ...filteredPurpose,
+                              text ? `อื่นๆ : ${text}` : "อื่นๆ :",
+                            ]);
+                          }}
+                          className={`${css.inputBox} mt-2 ml-8`}
+                        />
+                      )}
+                  </div>
                 ))}
                 {/* white line */}
                 <div className="w-full mx-auto h-[0.05vw] bg-white" />

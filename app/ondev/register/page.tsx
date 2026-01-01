@@ -78,7 +78,7 @@ export default function Home() {
             <RegisterText className=" z-40 absolute w-[270px] -top-5 sm:w-[270px] sm:-top-5 md:w-[320px] md:-top-12 lg:w-[400px] lg:-top-14 h-auto" />
             <GoogleButton
               onClick={handleLogin}
-              className=" z-50 absolute w-[270px] top-19 sm:top-19 sm:w-[270px] md:w-[320px] md:top-16 lg:w-[400px] lg:top-20 hover:scale-105 transition-all h-auto "
+              className=" z-50 absolute w-[270px] top-19 sm:top-19 sm:w-[270px] md:w-[320px] md:top-16 lg:w-[400px] lg:top-20 hover:scale-105 transition-all h-auto cursor-pointer "
             />
             <TucmcLogo className=" z-40 absolute w-[210px] top-38 sm:w-[210px] sm:top-38 md:w-[230px] md:top-39 lg:w-[280px] lg:top-48 h-auto" />
           </div>
