@@ -1,5 +1,5 @@
 import type { FC } from "react";
-const MdStarML: FC<{ className?: string }> = ({ className }) => {
+const LgStarML: FC<{ className?: string }> = ({ className }) => {
   return (
     <svg
       width="92"
@@ -381,4 +381,4 @@ const MdStarML: FC<{ className?: string }> = ({ className }) => {
     </svg>
   );
 };
-export default MdStarML;
+export default LgStarML;

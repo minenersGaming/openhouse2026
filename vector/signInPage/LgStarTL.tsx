@@ -1,5 +1,5 @@
 import type { FC } from "react";
-const MdStarTL: FC<{ className?: string }> = ({ className }) => {
+const LgStarTL: FC<{ className?: string }> = ({ className }) => {
   return (
     <svg
       width="118"
@@ -284,4 +284,4 @@ const MdStarTL: FC<{ className?: string }> = ({ className }) => {
     </svg>
   );
 };
-export default MdStarTL;
+export default LgStarTL;
