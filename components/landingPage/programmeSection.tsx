@@ -1,9 +1,23 @@
 import LeftPillar from "@/vector/LandingPage/Programme/LeftPillar";
 import RightPillar from "@/vector/LandingPage/Programme/RightPillar";
 
-import SciMath from "@/vector/LandingPage/Programme/Card/SciMath";
-import ArtsFr from "@/vector/LandingPage/Programme/Card/ArtsFr";
+import SciMath from "@/vector/LandingPage/Programme/CardLg/SciMath";
+import ArtsFr from "@/vector/LandingPage/Programme/CardLg/ArtsFr";
+import ArtsKr from "@/vector/LandingPage/Programme/CardLg/ArtsKr";
+import ArtsCn from "@/vector/LandingPage/Programme/CardLg/ArtsCn";
+import ArtJp from "@/vector/LandingPage/Programme/CardLg/ArtJp";
+import ArtsDe from "@/vector/LandingPage/Programme/CardLg/ArtsDe";
+import ArtsEs from "@/vector/LandingPage/Programme/CardLg/ArtsEs";
+import ArtsMath from "@/vector/LandingPage/Programme/CardLg/ArtsMath";
 
+import SciMathSm from "@/vector/LandingPage/Programme/CardSm/SciMathSm";
+import ArtsFrSm from "@/vector/LandingPage/Programme/CardSm/ArtsFrSm";
+import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
+import ArtsCnSm from "@/vector/LandingPage/Programme/CardSm/ArtsCnSm";
+import ArtsJpSm from "@/vector/LandingPage/Programme/CardSm/ArtsJpSm";
+import ArtsDeSm from "@/vector/LandingPage/Programme/CardSm/ArtsDeSm";
+import ArtsEsSm from "@/vector/LandingPage/Programme/CardSm/ArtsEsSm";
+import ArtsMathSm from "@/vector/LandingPage/Programme/CardSm/ArtsMathSm";
 import ProgrammeSm from "@/vector/LandingPage/Programme/ProgrammeSm";
 
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
@@ -47,28 +61,28 @@ const ProgrammeSection = () => {
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
               <SciMath className={Style.LgCard} />
-              <ArtsFr className={Style.LgCard} />
+              <ArtsMath className={Style.LgCard} />
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
               <ArtsFr className={Style.LgCard} />
-              <SciMath className={Style.LgCard} />
+              <ArtsDe className={Style.LgCard} />
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <ArtsFr className={Style.LgCard} />
-              <SciMath className={Style.LgCard} />
+              <ArtJp className={Style.LgCard} />
+              <ArtsEs className={Style.LgCard} />
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <ArtsFr className={Style.LgCard} />
-              <SciMath className={Style.LgCard} />
+              <ArtsCn className={Style.LgCard} />
+              <ArtsKr className={Style.LgCard} />
             </div>
           </div>
         </div>
@@ -76,16 +90,16 @@ const ProgrammeSection = () => {
 
       <div className="block md:hidden">
         <div className="w-[56vw] overflow-clip absolute z-67 -space-y-20 sm:-space-y-40 md:-space-y-50 flex flex-col justify-center items-center left-0 translate-y-40 sm:translate-y-60 md:translate-y-90">
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsFr className="w-5/4 hover:scale-110 duration-400" />
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
+          <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
         </div>
         <div className=" w-[56vw] overflow-clip absolute z-67 -space-y-20 sm:-space-y-40 md:-space-y-50 flex flex-col justify-center items-center right-0 translate-y-47 sm:translate-y-76 md:translate-y-106">
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
-          <SciMath className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
+          <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" />
         </div>
         <div className=" w-full ">
           <ProgrammeSm className=" left-0  w-full" />

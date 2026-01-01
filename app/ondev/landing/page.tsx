@@ -6,7 +6,7 @@ import OrgSection from "@/components/landingPage/OrgSection";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col w-screen overflow-x-clip">
+      <div className="translate-y-[40%] spac-x-20 flex flex-col w-screen overflow-x-clip">
         <Herodev />
         <ProgrammeSection />
         <GiftedSection />

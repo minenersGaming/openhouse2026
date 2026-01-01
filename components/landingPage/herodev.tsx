@@ -30,7 +30,7 @@ const Herodev = () => {
       <div className="absolute bottom-[5%] lg:-bottom-1/5 lg:top-1/2 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center space-y-5 z-20">
         <div className="relative flex flex-col items-center justify-center space-y-5">
           <Button />
-          <div className="hover:scale-105 rounded-full py-2 lg:py-2 px-8 bg-linear-to-r from-[#467BCA]/87 via-[#354FB0]/87 to-[#042284]/87 backdrop-blur-[0.5px]">
+          <div className=" rounded-full py-2 lg:py-2 px-8 bg-linear-to-r from-[#467BCA]/87 via-[#354FB0]/87 to-[#042284]/87 backdrop-blur-[0.5px]">
             <p className="uppercase bg-radial from-[#F4F2C3] to-[#F3E09D] bg-clip-text text-transparent font-bold text-center text-xl lg:text-2xl pt-0.5">
               9-10 January 2026
             </p>
