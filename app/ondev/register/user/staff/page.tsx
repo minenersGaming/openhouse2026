@@ -1,22 +1,11 @@
 "use client";
 
-import RegisterBgmd from "@/vector/register/RegisterBgmd";
-import RegisterBgsm from "@/vector/register/RegisterBgsm";
 import { useFormik } from "formik";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
-
-const css = {
-  checkBoxLabel:
-    " flex items-center gap-2 text-white font-inter text-[15.882px] font-medium leading-[22.689px]",
-  checkBox:
-    " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
-  squreCheckBox:
-    " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
-  squreLabel:
-    " self-stretch text-white font-['Noto_Sans_Thai'] text-[17.553px] font-medium leading-[25.075px]",
-};
+import BigRegisterBg from "@/vector/register/BigRegisterBg";
+import SmallRegisterBg from "@/vector/register/SmallRegisterBg";
 
 interface RegisterFormValues {
   passworddd: string;
@@ -62,8 +51,8 @@ const StaffPage = () => {
   return (
     <>
       <div className="w-screen relative bg-[linear-gradient(180deg,#042284_-1.18%,#3450B0_27.05%,#457BCA_44.58%,#F3E09D_68.71%)]">
-        <RegisterBgmd className="hidden z-0 md:block top-0 left-0 w-screen h-auto" />
-        <RegisterBgsm className="block z-0 md:hidden w-full h-auto left-0 top-0" />
+        <BigRegisterBg className="hidden z-0 md:block top-0 left-0 w-screen h-auto" />
+        <SmallRegisterBg className="block z-0 md:hidden w-full h-auto left-0 top-0" />
         <form
           className="absolute pt-3 pb-10 z-10 w-1/2 md:w-[60vw] lg:w-[40vw] top-[10vw] left-1/2 -translate-x-1/2 rounded-[41.146px] bg-[rgba(11,24,85,0.65)]  backdrop-blur-[2.2241060733795166px]"
           onSubmit={formik.handleSubmit}
@@ -85,9 +74,7 @@ const StaffPage = () => {
                   <label
                     htmlFor="username"
                     className="text-white font-['Noto_Sans_Thai'] text-[15.882px] font-normal leading-[22.689px]"
-                  >
-                    
-                  </label>
+                  ></label>
                   <input
                     type="text"
                     id="passworddd"
@@ -99,7 +86,7 @@ const StaffPage = () => {
                     className="flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300"
                   />
                 </div>
- 
+
                 <button
                   type="submit"
                   disabled={mutation.isPending}
