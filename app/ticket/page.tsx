@@ -94,7 +94,7 @@ const TicketPage = () => {
           ref={ref}
           className="relative w-[375px] h-[695px] mx-auto overflow-hidden"
         >
-          <Image src="/E-ticket.svg" alt="Ticket" width={800} height={600} />
+          <Image src="/Eticket2.svg" alt="Ticket" width={800} height={600} />
           <div className="absolute pt-4 top-0 left-0 w-full flex flex-col gap-3">
             <p className={css.textId + " text-center "}>
               ID: {data.registerId}

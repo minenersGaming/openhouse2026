@@ -27,7 +27,7 @@ const FontInter = Inter({
 });
 
 const bethanyFont = localFont({
-  src: "../public/fonts/BethanyElingston.otf", // adjust the extension based on your file
+  src: "../public/fonts/BethanyElingston.woff2", // adjust the extension based on your file
   variable: "--font-bethany",
   display: "swap",
 });
