@@ -1,5 +1,8 @@
 import type { FC } from "react";
-const GoogleButton: FC<{ className?: string }> = ({ className }) => {
+const GoogleButton: FC<{ className?: string; onClick?: () => void }> = ({
+  className,
+  onClick,
+}) => {
   return (
     <svg
       width="539"
@@ -8,6 +11,7 @@ const GoogleButton: FC<{ className?: string }> = ({ className }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      onClick={onClick}
     >
       <foreignObject
         x="0.00107336"
