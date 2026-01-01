@@ -89,7 +89,15 @@ const TicketPage = () => {
   if (isError) return <div>Error</div>;
   return (
     <>
-      <div className=" w-screen py-[25vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)] ">
+      <div className=" w-screen py-[15vw] flex flex-col items-center justify-center bg-[linear-gradient(164deg,#E5C675_-6.81%,#F4F2C3_20.9%,#F4F2C3_64.17%,#E5C675_112.12%)] ">
+        <div className="mb-20">
+          <p className=" text-[#0B1855] text-center font-noto-sans text-[50px] font-bold leading-[31.881px]">
+            E-Ticket
+          </p>
+          <p className=" text-[#0B1855] font-noto-sans text-[33px] font-medium leading-[61.881px] ">
+            สำหรับแสดงเพื่อเข้างาน
+          </p>
+        </div>
         <div
           ref={ref}
           className="relative w-[375px] h-[695px] mx-auto overflow-hidden"
