@@ -216,7 +216,7 @@ const RegisterPage = () => {
               </div>
               {/*Userstatus*/}
               <div className="flex flex-col gap-4">
-                <p className="w-[83.428px] h-[27.227px] text-white font-inter text-[18.151px] font-medium ">
+                <p className="w-[83.428px] h-[27.227px] text-white font-noto-sans-thai text-[18.151px] font-medium ">
                   สถานภาพ
                 </p>
                 <label className={css.checkBoxLabel}>
