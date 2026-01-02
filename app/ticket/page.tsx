@@ -12,6 +12,7 @@ import LoadingPage from "@/components/ticket/LoadingPage";
 import { Noto_Sans_Thai } from "next/font/google";
 import { Inter } from "next/font/google";
 import { toast } from "react-hot-toast";
+import { saveAs } from "file-saver";
 
 const FontInter = Inter({
   variable: "--font-inter",
@@ -79,14 +80,12 @@ const TicketPage = () => {
 
   const downloadPNG = async () => {
     if (!ref.current) return;
-
     const toastId = toast.loading("กำลังดาวน์โหลด...");
 
     try {
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
         cacheBust: true,
-        //backgroundColor: "#F4F2C3",
         width: 375,
         height: 695,
         style: {
@@ -96,10 +95,12 @@ const TicketPage = () => {
         },
       });
 
-      const link = document.createElement("a");
-      link.download = "Eticket.png";
-      link.href = dataUrl;
-      link.click();
+      // Convert data URL to blob
+      const response = await fetch(dataUrl);
+      const blob = await response.blob();
+
+      // Use saveAs for better mobile support
+      saveAs(blob, "Eticket.png");
 
       toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
     } catch (err) {
