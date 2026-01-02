@@ -2,6 +2,7 @@ import Herodev from "@/components/landingPage/herodev";
 import ProgrammeSection from "@/components/landingPage/programmeSection";
 import GiftedSection from "@/components/landingPage/GiftedSection";
 import OrgSection from "@/components/landingPage/OrgSection";
+import OtherSection from "@/components/landingPage/OtherSection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <ProgrammeSection />
         <GiftedSection />
         <OrgSection />
+        <OtherSection />
       </div>
     </>
   );

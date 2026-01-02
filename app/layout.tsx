@@ -50,7 +50,7 @@ export default function RootLayout({
         className={`${FontInter.variable} ${NotoSansThai.variable} ${geistSans.variable} ${geistMono.variable} ${bethanyFont.variable} antialiased overflow-x-clip`}
       >
         <Providers>
-          <div className="fixed w-full top-0 left-0 z-6767">
+          <div className="fixed w-full top-0 left-0 z-9999">
             <Header />
           </div>
           {children}
