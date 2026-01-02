@@ -71,7 +71,7 @@ const css = {
     " sm:text-[17.553px]  ",
   inputBox:
     "flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300",
-  h1: " text-[48.115px] ",
+  h1: " text-[48.115px] font-noto-sans-thai ",
   h2:
     " text-white font-noto-sans-thai font-semibold " +
     " w-[320px] text-[17px] " +
@@ -154,8 +154,7 @@ const RegisterPage = () => {
             <div className=" ">
               <p
                 className={
-                  "w-full text-[#F4F2C3] text-center font-inter font-bold" +
-                  css.h1
+                  "w-full text-[#F4F2C3] text-center font-bold" + css.h1
                 }
               >
                 ลงทะเบียน
@@ -450,7 +449,7 @@ const RegisterPage = () => {
                     disabled={mutation.isPending}
                     className="flex w-[150.127px] h-[42.258px] px-[21.318px] py-[11.286px] justify-center items-center rounded-[45.144px] bg-linear-to-r from-[#E5C675] to-[#C4A063] shadow-[0_1.254px_2.508px_0_rgba(0,0,0,0.05)]"
                   >
-                    <p className="text-white font-inter text-[17.556px] font-medium ">
+                    <p className="text-white font-noto-sans-thai text-[17.556px] font-medium ">
                       {mutation.isPending ? "กำลังลงทะเบียน..." : "ลงทะเบียน"}
                     </p>
                   </button>
