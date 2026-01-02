@@ -86,7 +86,6 @@ const TicketPage = () => {
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
         cacheBust: true,
-        //backgroundColor: "#F4F2C3",
         width: 375,
         height: 695,
         style: {
@@ -96,10 +95,50 @@ const TicketPage = () => {
         },
       });
 
+      // Convert data URL to blob for better mobile support
+      const response = await fetch(dataUrl);
+      const blob = await response.blob();
+
+      // Try multiple methods for better compatibility
+
+      // Method 1: Use navigator.share if available (works great on mobile)
+      if (
+        navigator.share &&
+        navigator.canShare &&
+        navigator.canShare({
+          files: [new File([blob], "Eticket.png", { type: "image/png" })],
+        })
+      ) {
+        const file = new File([blob], "Eticket.png", { type: "image/png" });
+        await navigator.share({
+          files: [file],
+          title: "E-Ticket",
+        });
+        toast.success("แชร์สำเร็จ!", { id: toastId });
+        return;
+      }
+
+      // Method 2: Create blob URL (better for mobile Chrome)
+      const blobUrl = URL.createObjectURL(blob);
       const link = document.createElement("a");
+      link.href = blobUrl;
       link.download = "Eticket.png";
-      link.href = dataUrl;
+
+      // Force download attribute and target
+      link.setAttribute("download", "Eticket.png");
+      link.setAttribute("target", "_blank");
+
+      // Append to body (important for iOS)
+      document.body.appendChild(link);
+
+      // Trigger click
       link.click();
+
+      // Clean up
+      setTimeout(() => {
+        document.body.removeChild(link);
+        URL.revokeObjectURL(blobUrl);
+      }, 100);
 
       toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
     } catch (err) {
