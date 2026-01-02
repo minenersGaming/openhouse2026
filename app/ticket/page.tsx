@@ -79,12 +79,14 @@ const TicketPage = () => {
 
   const downloadPNG = async () => {
     if (!ref.current) return;
-    const toastId = toast.loading("กำลังสร้างรูปภาพ...");
+
+    const toastId = toast.loading("กำลังดาวน์โหลด...");
 
     try {
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
         cacheBust: true,
+        //backgroundColor: "#F4F2C3",
         width: 375,
         height: 695,
         style: {
@@ -94,68 +96,12 @@ const TicketPage = () => {
         },
       });
 
-      // Detect if mobile
-      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      const link = document.createElement("a");
+      link.download = "Eticket.png";
+      link.href = dataUrl;
+      link.click();
 
-      if (isMobile) {
-        // Open new tab first (before any async operations)
-        const newWindow = window.open("", "_blank");
-
-        if (newWindow) {
-          newWindow.document.write(`
-          <!DOCTYPE html>
-          <html>
-            <head>
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>E-Ticket</title>
-              <style>
-                body {
-                  margin: 0;
-                  padding: 20px;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-                  justify-content: center;
-                  min-height: 100vh;
-                  background: linear-gradient(164deg, #E5C675 -6.81%, #F4F2C3 20.9%, #F4F2C3 64.17%, #E5C675 112.12%);
-                }
-                img {
-                  max-width: 100%;
-                  height: auto;
-                  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-                }
-                p {
-                  text-align: center;
-                  color: #0B1855;
-                  margin-top: 20px;
-                  font-size: 16px;
-                  padding: 0 20px;
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-                }
-              </style>
-            </head>
-            <body>
-              <img src="${dataUrl}" alt="E-Ticket" />
-              <p>กดค้างที่รูปภาพเพื่อบันทึกลงในอัลบั้มของคุณ</p>
-            </body>
-          </html>
-        `);
-          newWindow.document.close();
-          toast.success("เปิดรูปภาพแล้ว กดค้างเพื่อบันทึก", { id: toastId });
-        } else {
-          // Fallback if popup blocked
-          toast.error("กรุณาอนุญาตให้เปิดหน้าต่างใหม่", { id: toastId });
-        }
-      } else {
-        // Desktop: direct download
-        const link = document.createElement("a");
-        link.download = "Eticket.png";
-        link.href = dataUrl;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
-      }
+      toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
     } catch (err) {
       console.error("PNG export failed", err);
       toast.error("เกิดข้อผิดพลาดในการดาวน์โหลด", { id: toastId });
