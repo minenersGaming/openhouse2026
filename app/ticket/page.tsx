@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import LoadingPage from "@/components/ticket/LoadingPage";
 import { Noto_Sans_Thai } from "next/font/google";
 import { Inter } from "next/font/google";
+import { toast } from "react-hot-toast";
 
 const FontInter = Inter({
   variable: "--font-inter",
@@ -79,6 +80,8 @@ const TicketPage = () => {
   const downloadPNG = async () => {
     if (!ref.current) return;
 
+    const toastId = toast.loading("กำลังดาวน์โหลด...");
+
     try {
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
@@ -97,8 +100,11 @@ const TicketPage = () => {
       link.download = "Eticket.png";
       link.href = dataUrl;
       link.click();
+
+      toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
     } catch (err) {
       console.error("PNG export failed", err);
+      toast.error("เกิดข้อผิดพลาดในการดาวน์โหลด", { id: toastId });
     }
   };
   const isLoading = isPending || !imageLoaded;
@@ -174,7 +180,7 @@ const TicketPage = () => {
             </div>
             <div
               onClick={downloadPNG}
-              className=" shadow-sm mt-[10vw] md:mt-[5vw] w-[200px] h-[50px] rounded-[55.164px] bg-[linear-gradient(93deg,#457BCA_2.18%,#042284_114.09%)] flex items-center justify-center hover:scale-105 transition-all"
+              className=" cursor-pointer z-40 shadow-sm mt-[10vw] md:mt-[5vw] w-[200px] h-[50px] rounded-[55.164px] bg-[linear-gradient(93deg,#457BCA_2.18%,#042284_114.09%)] flex items-center justify-center hover:scale-105 transition-all"
             >
               <div className="flex">
                 <DownloadIcon className="w-[30px] h-auto mr-3" />
