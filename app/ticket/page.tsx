@@ -77,13 +77,10 @@ const TicketPage = () => {
     }).then(setQr);
   }, [data?.registerId]);
 
-  const downloadPNG = async () => {
-    if (!ref.current) return;
-
-    const toastId = toast.loading("กำลังดาวน์โหลด...");
+  const generatePNG = async () => {
+    if (!ref.current) return null;
 
     try {
-      // Generate PNG with optimized settings
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
         cacheBust: true,
@@ -96,63 +93,114 @@ const TicketPage = () => {
         },
       });
 
-      // Convert to blob
       const response = await fetch(dataUrl);
       const blob = await response.blob();
-      const file = new File([blob], "Eticket.png", { type: "image/png" });
+      return new File([blob], "Eticket.png", { type: "image/png" });
+    } catch (err) {
+      console.error("PNG generation failed:", err);
+      throw err;
+    }
+  };
 
-      // Try to download file first
-      let downloadSuccess = false;
-      try {
-        const blobUrl = URL.createObjectURL(blob);
-        const link = document.createElement("a");
+  const downloadFile = async (file: File) => {
+    try {
+      const blobUrl = URL.createObjectURL(file);
+      const link = document.createElement("a");
 
-        link.href = blobUrl;
-        link.download = "Eticket.png";
-        link.style.display = "none";
+      link.href = blobUrl;
+      link.download = file.name;
+      link.style.display = "none";
 
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(blobUrl);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(blobUrl);
 
-        downloadSuccess = true;
+      return true;
+    } catch (err) {
+      console.error("Download failed:", err);
+      return false;
+    }
+  };
+
+  const shareFile = async (file: File) => {
+    // Check if share is supported
+    if (!navigator.share) {
+      console.log("Share not supported");
+      return { success: false, reason: "not-supported" };
+    }
+
+    // IMPORTANT: iOS/iPadOS requires checking canShare
+    if (navigator.canShare && !navigator.canShare({ files: [file] })) {
+      console.log("Cannot share this file type");
+      return { success: false, reason: "file-not-supported" };
+    }
+
+    try {
+      // iOS requires user gesture - make sure this is called directly from a click event
+      await navigator.share({
+        files: [file],
+        title: "E-Ticket",
+        text: "E-Ticket", // Adding text can help on some iOS versions
+      });
+      return { success: true };
+    } catch (err) {
+      console.error("Share error:", err);
+      if (err instanceof Error) {
+        console.log("Error name:", err.name);
+        console.log("Error message:", err.message);
+
+        if (err.name === "AbortError") {
+          return { success: false, reason: "cancelled" };
+        }
+        if (err.name === "NotAllowedError") {
+          return { success: false, reason: "not-allowed" };
+        }
+      }
+      return { success: false, reason: "error" };
+    }
+  };
+
+  // Main function that combines both
+  const downloadAndSharePNG = async () => {
+    if (!ref.current) return;
+
+    const toastId = toast.loading("กำลังดาวน์โหลด...");
+
+    try {
+      // Generate PNG once
+      const file = await generatePNG();
+      if (!file) {
+        toast.error("เกิดข้อผิดพลาดในการสร้างรูปภาพ", { id: toastId });
+        return;
+      }
+
+      // Download file
+      const downloadSuccess = await downloadFile(file);
+      if (downloadSuccess) {
         toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
-      } catch (downloadErr) {
-        console.error("Download failed:", downloadErr);
+      } else {
         toast.error("ดาวน์โหลดล้มเหลว", { id: toastId });
       }
 
-      // Then try to share if available (even if download failed)
-      const canShare =
-        typeof navigator.share === "function" &&
-        typeof navigator.canShare === "function" &&
-        navigator.canShare({ files: [file] });
+      // Small delay before sharing
+      await new Promise((resolve) => setTimeout(resolve, 300));
 
-      if (canShare) {
-        // Small delay to ensure download completes first
-        await new Promise((resolve) => setTimeout(resolve, 300));
+      // Share file
+      const shareResult = await shareFile(file);
 
-        try {
-          await navigator.share({
-            files: [file],
-            title: "E-Ticket",
-          });
-
-          toast.success("แชร์สำเร็จ!");
-        } catch (shareErr) {
-          // Check if error is from share cancellation (not a real error)
-          if (shareErr instanceof Error && shareErr.name === "AbortError") {
-            // User cancelled share, not an error
-            return;
-          }
-          console.error("Share failed:", shareErr);
-          // Only show error if download also failed
-          if (!downloadSuccess) {
-            toast.error("แชร์ล้มเหลว");
-          }
-        }
+      if (shareResult.success) {
+        toast.success("แชร์สำเร็จ!");
+      } else if (shareResult.reason === "not-supported") {
+        console.log("Share API not supported on this device");
+      } else if (shareResult.reason === "file-not-supported") {
+        toast.error("ไม่สามารถแชร์ไฟล์ชนิดนี้ได้");
+      } else if (shareResult.reason === "not-allowed") {
+        toast.error("ไม่ได้รับอนุญาตให้แชร์");
+      } else if (shareResult.reason === "error" && !downloadSuccess) {
+        toast.error("แชร์ล้มเหลว");
       }
+      // Don't show error for "cancelled"
     } catch (err) {
       console.error("PNG generation failed:", err);
       toast.error("เกิดข้อผิดพลาดในการสร้างรูปภาพ", { id: toastId });
@@ -230,7 +278,7 @@ const TicketPage = () => {
               </div>
             </div>
             <div
-              onClick={downloadPNG}
+              onClick={downloadAndSharePNG}
               className=" cursor-pointer z-40 shadow-sm mt-[10vw] md:mt-[5vw] w-[200px] h-[50px] rounded-[55.164px] bg-[linear-gradient(93deg,#457BCA_2.18%,#042284_114.09%)] flex items-center justify-center hover:scale-105 transition-all"
             >
               <div className="flex">

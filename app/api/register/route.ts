@@ -30,32 +30,46 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
-    //auto generate registerId
-    const bookingCount = await prisma.booking.count();
-    const newRegisterId = String(bookingCount + 1).padStart(5, '0');
+    
+    // ✅ TRANSACTION STARTS HERE
+    const result = await prisma.$transaction(async (tx) => {
+      // get last registerId
+      const lastBooking = await tx.booking.findFirst({
+        orderBy: { registerId: "desc" },
+        select: { registerId: true },
+      });
 
-    const saved = await prisma.booking.create({
-      data: {
-        username,
-        fullname,
-        surname,
-        userStatus,
-        school,
-        grade,
-        registerId: newRegisterId,
-        receivedInfo,
-        purpose,
-        userId
-      },
-    });
-    const updateUser = await prisma.user.update({
-        where: { id: userId },
+      const lastNumber = lastBooking
+        ? parseInt(lastBooking.registerId, 10)
+        : 0;
+
+      const newRegisterId = String(lastNumber + 1).padStart(5, "0");
+
+      const saved = await tx.booking.create({
         data: {
-          isBooking: true,
+          username,
+          fullname,
+          surname,
+          userStatus,
+          school,
+          grade,
+          registerId: newRegisterId,
+          receivedInfo,
+          purpose,
+          userId,
         },
       });
 
-    return NextResponse.json({saved,updateUser});
+      const updateUser = await tx.user.update({
+        where: { id: userId },
+        data: { isBooking: true },
+      });
+
+      return { saved, updateUser };
+    });
+    // ✅ TRANSACTION ENDS HERE
+
+    return NextResponse.json(result);
   } catch (err) {
     return NextResponse.json(
       { error: err },
