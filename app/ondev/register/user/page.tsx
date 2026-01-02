@@ -64,13 +64,13 @@ const css = {
   checkBox:
     " flex appearance-none w-[18.151px] h-[18.151px] shrink-0 rounded-[18.151px] border-[1.134px] border-[#D1D5DB] bg-white checked:bg-[#3450B0] checked:border-[#3450B0] checked:after:content-[''] checked:after:block checked:after:w-[8px] checked:after:h-[8px] checked:after:rounded-full checked:after:bg-white checked:after:mx-auto checked:after:my-auto items-center justify-center cursor-pointer",
   squreCheckBox:
-    " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.254px] border-gray-300 bg-white",
+    " w-[20.06px] h-[20.06px] shrink-0 rounded-[5.015px] border-[1.59px] border-gray-300 bg-white ",
   squreLabel:
     " self-stretch text-white font-noto-sans-thai font-medium " +
     " text-[15px] " +
     " sm:text-[17.553px]  ",
   inputBox:
-    "flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300",
+    "flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300 ",
   h1: " text-[48.115px] font-noto-sans-thai ",
   h2:
     " text-white font-noto-sans-thai font-semibold " +

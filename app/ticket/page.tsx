@@ -68,7 +68,11 @@ const TicketPage = () => {
 
     QRCode.toDataURL(qrValue, {
       width: 256,
-      margin: 1,
+      margin: 0,
+      color: {
+        dark: "#F3F1C2", // QR color (dots)
+        light: "#00000000", // transparent background
+      },
     }).then(setQr);
   }, [data?.registerId]);
 
