@@ -99,12 +99,7 @@ const TicketPage = () => {
       const response = await fetch(dataUrl);
       const blob = await response.blob();
 
-      const isMobile =
-        ("ontouchstart" in window || navigator.maxTouchPoints > 0) &&
-        window.innerWidth <= 1024;
-
       if (
-        isMobile &&
         navigator.share &&
         navigator.canShare &&
         navigator.canShare({
