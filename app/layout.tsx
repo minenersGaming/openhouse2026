@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Noto_Sans_Thai, Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "../components/header";
+import HeaderDev from "@/components/headerdev";
 import Footer from "../components/footer";
 import Providers from "@/components/provider";
 
@@ -50,8 +51,8 @@ export default function RootLayout({
         className={`${FontInter.variable} ${NotoSansThai.variable} ${geistSans.variable} ${geistMono.variable} ${bethanyFont.variable} antialiased overflow-x-clip`}
       >
         <Providers>
-          <div className="fixed w-full top-0 left-0 z-9999">
-            <Header />
+          <div className="fixed w-full top-0 left-0 z-9999 ">
+            <HeaderDev />
           </div>
           {children}
           <Footer />
