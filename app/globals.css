@@ -90,6 +90,10 @@ img {
   font-family: var(--font-inter);
 }
 
+.font-inter-thai {
+  font-family: var(--font-inter), var(--font-noto-sans-thai), sans-serif;
+}
+
 .font-noto-sans {
   font-family: var(--font-noto-sans-thai);
 }
