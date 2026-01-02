@@ -99,16 +99,19 @@ const TicketPage = () => {
       const response = await fetch(dataUrl);
       const blob = await response.blob();
 
-      // Try multiple methods for better compatibility
+      const isMobile =
+        ("ontouchstart" in window || navigator.maxTouchPoints > 0) &&
+        window.innerWidth <= 1024;
 
-      // Method 1: Use navigator.share if available (works great on mobile)
       if (
+        isMobile &&
         navigator.share &&
         navigator.canShare &&
         navigator.canShare({
           files: [new File([blob], "Eticket.png", { type: "image/png" })],
         })
       ) {
+        // Mobile: Use share method
         const file = new File([blob], "Eticket.png", { type: "image/png" });
         await navigator.share({
           files: [file],
@@ -118,17 +121,13 @@ const TicketPage = () => {
         return;
       }
 
-      // Method 2: Create blob URL (better for mobile Chrome)
+      // Desktop or fallback: Normal download
       const blobUrl = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = blobUrl;
       link.download = "Eticket.png";
 
-      // Force download attribute and target
-      link.setAttribute("download", "Eticket.png");
-      link.setAttribute("target", "_blank");
-
-      // Append to body (important for iOS)
+      // Append to body (important for some browsers)
       document.body.appendChild(link);
 
       // Trigger click
