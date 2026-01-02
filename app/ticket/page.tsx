@@ -99,26 +99,10 @@ const TicketPage = () => {
       const response = await fetch(dataUrl);
       const blob = await response.blob();
 
-      if (
-        navigator.share &&
-        navigator.canShare &&
-        navigator.canShare({
-          files: [new File([blob], "Eticket.png", { type: "image/png" })],
-        })
-      ) {
-        // Mobile: Use share method
-        const file = new File([blob], "Eticket.png", { type: "image/png" });
-        await navigator.share({
-          files: [file],
-          title: "E-Ticket",
-        });
-        toast.success("แชร์สำเร็จ!", { id: toastId });
-        return;
-      }
-
       // Desktop or fallback: Normal download
       const blobUrl = URL.createObjectURL(blob);
       const link = document.createElement("a");
+
       link.href = blobUrl;
       link.download = "Eticket.png";
 
@@ -135,6 +119,23 @@ const TicketPage = () => {
       }, 100);
 
       toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
+
+      if (
+        navigator.share &&
+        navigator.canShare &&
+        navigator.canShare({
+          files: [new File([blob], "Eticket.png", { type: "image/png" })],
+        })
+      ) {
+        // Mobile: Use share method
+        const file = new File([blob], "Eticket.png", { type: "image/png" });
+        await navigator.share({
+          files: [file],
+          title: "E-Ticket",
+        });
+        toast.success("แชร์สำเร็จ!", { id: toastId });
+        return;
+      }
     } catch (err) {
       console.error("PNG export failed", err);
       toast.error("เกิดข้อผิดพลาดในการดาวน์โหลด", { id: toastId });
