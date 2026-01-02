@@ -27,7 +27,7 @@ const Herodev = () => {
           src="/LandingBgSm.svg"
         />
       </div>
-      <div className="absolute bottom-[5%] lg:-bottom-1/5 lg:top-1/2 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center space-y-5 z-20">
+      <div className="absolute bottom-[5%] lg:-bottom-1/5 lg:top-1/3 left-1/2 -translate-x-1/2 lg:translate-y-[2%] flex flex-col items-center justify-center space-y-5 z-20">
         <div className="relative flex flex-col items-center justify-center space-y-5">
           <Button />
           <div className=" rounded-full py-2 lg:py-2 px-8 bg-linear-to-r from-[#467BCA]/87 via-[#354FB0]/87 to-[#042284]/87 backdrop-blur-[0.5px]">

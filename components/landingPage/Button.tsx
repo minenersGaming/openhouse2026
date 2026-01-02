@@ -13,7 +13,7 @@ const NotoSansThai = Noto_Sans_Thai({
 const style =
   "shadow-sm/35  z-6767 items-center hover:scale-105 transition-all cursor-pointer flex flex-row bg-linear-to-r from-[#C5A064] to-[#E5C675] lg:py-2 lg:px-7 py-2 px-5 rounded-full";
 const TextStyle =
-  "font-bold text-shadow-sm/10 text-white text-lg lg:text-[33px] font-noto-sans-thai";
+  "font-bold text-shadow-sm/10 text-white text-2xl lg:text-[33px] font-noto-sans-thai";
 const Button = () => {
   const { data, isPending } = useSession();
   const router = useRouter();
@@ -35,7 +35,7 @@ const Button = () => {
             //   onClick={handleLogin}
             className={style}
           >
-            <PersonIcon className="h-8 mr-3" />
+            <PersonIcon className="h-6 lg:h-8 mr-2 lg:mr-3" />
             <p className={TextStyle}>Register</p>
           </a>
         ) : (

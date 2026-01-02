@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
 
 import Logo from "@/vector/Logo";
+import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
 import Toptext from "./TopText";
 import SidebarIcon from "@/vector/NavIcon/SideBarIcon";
@@ -24,7 +25,7 @@ const Style = {
   NavIcon: "w-4 mr-3",
 };
 
-const Header = () => {
+const HeaderDev = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isWaitClose, setWaitClose] = useState(false);
   const [hidden, setHidden] = useState(false);
@@ -90,7 +91,11 @@ const Header = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <Logo className="w-10 lg:w-13" />
+        <Logo
+          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
+            isHovering && "drop-shadow-sm/100"
+          } `}
+        />
         <Toptext hover={isHovering} />
       </Link>
 
@@ -111,17 +116,20 @@ const Header = () => {
         <a href="" className={Style.Link}>
           เพิ่มเติม
         </a>
-        {!isPending && !data?.user ? (
+        {/* {true ? ( */}
+        {isPending || !data?.user ? (
           <Link
-            href="/ondev/register"
-            aria-current={pathname === "/ondev/register" ? "page" : undefined}
+            href="/register"
+            // href="/"
+            aria-current={pathname === "/register" ? "page" : undefined}
             className={Style.Link}
           >
             ลงทะเบียน
+            {/* E-ticket */}
           </Link>
         ) : (
           <a
-            href="/register"
+            href="/ticket"
             className="cursor-pointer font-bold bg-linear-to-r from-[#C5A064] to-[#E5C675] px-3 py-1 rounded-full"
           >
             <p className="text-shadow-sm/15 font-noto-sans-thai">E-ticket</p>
@@ -172,8 +180,10 @@ const Header = () => {
               text="สินค้าที่ระลึก"
             />
             <NavRow
-              href="/ondev/register"
+              href={isPending || !data?.user ? "/register" : "/ticket"}
+              // href="/"
               Icon={<AccountIcon className={Style.NavIcon} />}
+              // text="บัญชี"
               text={isPending || !data?.user ? "ลงทะเบียน" : "E-ticket"}
             />
           </div>
@@ -183,4 +193,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderDev;
