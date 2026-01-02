@@ -12,7 +12,6 @@ import LoadingPage from "@/components/ticket/LoadingPage";
 import { Noto_Sans_Thai } from "next/font/google";
 import { Inter } from "next/font/google";
 import { toast } from "react-hot-toast";
-import { saveAs } from "file-saver";
 
 const FontInter = Inter({
   variable: "--font-inter",
@@ -95,14 +94,33 @@ const TicketPage = () => {
         },
       });
 
-      // Convert data URL to blob
-      const response = await fetch(dataUrl);
-      const blob = await response.blob();
+      // Detect if mobile
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-      // Use saveAs for better mobile support
-      saveAs(blob, "Eticket.png");
-
-      toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
+      if (isMobile) {
+        // Open in new tab for mobile
+        const link = document.createElement("a");
+        link.download = "Eticket.png";
+        link.href = dataUrl;
+        link.click();
+        const newWindow = window.open();
+        if (newWindow) {
+          newWindow.document.write(`
+          <img src="${dataUrl}" style="max-width: 100%; height: auto;" />
+          <p style="text-align: center; font-family: sans-serif;">
+            กดค้างที่รูปภาพเพื่อบันทึก
+          </p>
+        `);
+          toast.success("เปิดรูปภาพแล้ว กดค้างเพื่อบันทึก", { id: toastId });
+        }
+      } else {
+        // Desktop: direct download
+        const link = document.createElement("a");
+        link.download = "Eticket.png";
+        link.href = dataUrl;
+        link.click();
+        toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
+      }
     } catch (err) {
       console.error("PNG export failed", err);
       toast.error("เกิดข้อผิดพลาดในการดาวน์โหลด", { id: toastId });
