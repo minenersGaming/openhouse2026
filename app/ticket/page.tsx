@@ -83,6 +83,7 @@ const TicketPage = () => {
     const toastId = toast.loading("กำลังดาวน์โหลด...");
 
     try {
+      // Generate PNG with optimized settings
       const dataUrl = await toPng(ref.current, {
         pixelRatio: 3,
         cacheBust: true,
@@ -95,50 +96,66 @@ const TicketPage = () => {
         },
       });
 
-      // Convert data URL to blob for better mobile support
+      // Convert to blob
       const response = await fetch(dataUrl);
       const blob = await response.blob();
+      const file = new File([blob], "Eticket.png", { type: "image/png" });
 
-      // Desktop or fallback: Normal download
-      const blobUrl = URL.createObjectURL(blob);
-      const link = document.createElement("a");
+      // Try to download file first
+      let downloadSuccess = false;
+      try {
+        const blobUrl = URL.createObjectURL(blob);
+        const link = document.createElement("a");
 
-      link.href = blobUrl;
-      link.download = "Eticket.png";
+        link.href = blobUrl;
+        link.download = "Eticket.png";
+        link.style.display = "none";
 
-      // Append to body (important for some browsers)
-      document.body.appendChild(link);
-
-      // Trigger click
-      link.click();
-
-      // Clean up
-      setTimeout(() => {
+        document.body.appendChild(link);
+        link.click();
         document.body.removeChild(link);
         URL.revokeObjectURL(blobUrl);
-      }, 100);
 
-      toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
+        downloadSuccess = true;
+        toast.success("ดาวน์โหลดสำเร็จ!", { id: toastId });
+      } catch (downloadErr) {
+        console.error("Download failed:", downloadErr);
+        toast.error("ดาวน์โหลดล้มเหลว", { id: toastId });
+      }
 
-      if (
-        navigator.share &&
-        navigator.canShare &&
-        navigator.canShare({
-          files: [new File([blob], "Eticket.png", { type: "image/png" })],
-        })
-      ) {
-        // Mobile: Use share method
-        const file = new File([blob], "Eticket.png", { type: "image/png" });
-        await navigator.share({
-          files: [file],
-          title: "E-Ticket",
-        });
-        toast.success("แชร์สำเร็จ!", { id: toastId });
-        return;
+      // Then try to share if available (even if download failed)
+      const canShare =
+        typeof navigator.share === "function" &&
+        typeof navigator.canShare === "function" &&
+        navigator.canShare({ files: [file] });
+
+      if (canShare) {
+        // Small delay to ensure download completes first
+        await new Promise((resolve) => setTimeout(resolve, 300));
+
+        try {
+          await navigator.share({
+            files: [file],
+            title: "E-Ticket",
+          });
+
+          toast.success("แชร์สำเร็จ!");
+        } catch (shareErr) {
+          // Check if error is from share cancellation (not a real error)
+          if (shareErr instanceof Error && shareErr.name === "AbortError") {
+            // User cancelled share, not an error
+            return;
+          }
+          console.error("Share failed:", shareErr);
+          // Only show error if download also failed
+          if (!downloadSuccess) {
+            toast.error("แชร์ล้มเหลว");
+          }
+        }
       }
     } catch (err) {
-      console.error("PNG export failed", err);
-      toast.error("เกิดข้อผิดพลาดในการดาวน์โหลด", { id: toastId });
+      console.error("PNG generation failed:", err);
+      toast.error("เกิดข้อผิดพลาดในการสร้างรูปภาพ", { id: toastId });
     }
   };
   const isLoading = isPending || !imageLoaded;
