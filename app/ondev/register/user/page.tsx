@@ -73,7 +73,7 @@ const css = {
     "flex w-full items-center self-stretch px-[14.748px] py-[10.21px] rounded-[6.807px] border border-gray-300/0 bg-white shadow-[0_1.134px_2.269px_rgba(0,0,0,0.05)] outline-none focus:border-gray-300",
   h1: " text-[48.115px] ",
   h2:
-    " text-white font-inter font-semibold " +
+    " text-white font-noto-sans-thai font-semibold " +
     " w-[320px] text-[17px] " +
     " sm:w-[414.073px] sm:text-[19.546px] ",
   h3: "",
