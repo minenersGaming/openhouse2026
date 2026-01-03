@@ -19,7 +19,7 @@ export default function ClubsInfoPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`/api/doc/getDocument?type=clubs&key=${id}`)
+    fetch(`/api/doc/getDocument?type=clubs&key=${id}`) //for programs use  type=programs&key=... etc 
       .then((res) => res.json())
       .then((json) => setData(json.data))
       .finally(() => setLoading(false));
