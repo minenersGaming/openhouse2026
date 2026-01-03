@@ -8,7 +8,7 @@ const EXAMPLE = {
 
 const Clubs = () => {
   return (
-    <div className="w-full h-[1000px] lg:h-[4500px] bg-linear-to-t from-[#042284] via-[#3450B0] to-[#457BCA] w-screen overflow-hidden">
+    <div className="w-full h-[1000px] lg:h-[4500px] bg-linear-to-t from-[#042284] via-[#3450B0] to-[#457BCA] overflow-hidden">
       <div className="flex flex-col absolute left-0 w-full items-center justify-center  ">
         <div className="px-20 py-30 flex flex-col w-full  justify-center items-center">
           <p className="text-5xl font-bold bg-linear-to-r from-[#F3E09D] to-[#FDFAE0] bg-clip-text text-transparent w-full text-center text-shadow-xl">
