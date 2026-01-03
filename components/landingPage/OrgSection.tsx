@@ -15,25 +15,25 @@ import TUPROLg from "@/vector/LandingPage/Org/CardLg/TUPROLg";
 
 const OrgSection = () => {
   return (
-    <section className="bg-linear-to-t to-[#0B1855] via-[#042284] from-[#3450B0]">
+    <section className="overflow-hidden bg-linear-to-t to-[#0B1855] via-[#042284] from-[#3450B0]">
       <div className="hidden md:block">
         <div className="absolute flex w-full flex-row justify-end">
-          <div className="w-[80%] h-[170%] p-10 -space-y-10 flex flex-row justify-between">
+          <div className="w-[80%] h-[170%] p-10  -space-x-32 -space-y-10 flex flex-row justify-between">
             <div
-              className=" flex flex-col space-y-10 -space-x-50
+              className=" flex flex-col -space-y-0
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
             >
-              <TUSCLg className="w-[20vw] hover:scale-105  transition-all" />
-              <AnusornLg className="w-[20vw] hover:scale-105  transition-all" />
+              <TUSCLg className="w-[25vw] hover:scale-105  transition-all" />
+              <AnusornLg className="w-[25vw] hover:scale-105  transition-all" />
             </div>
-            <div className=" flex flex-col h-[140%]  mt-[20%] self-end">
-              <TUCMCLg className="w-[20vw] hover:scale-105  transition-all" />
-              <AICLg className="w-[20vw] hover:scale-105  transition-all" />
+            <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
+              <TUCMCLg className="w-[25vw] hover:scale-105  transition-all" />
+              <AICLg className="w-[25vw] hover:scale-105  transition-all" />
             </div>
-            <div>
-              <TUPROLg className="w-[20vw] hover:scale-105  transition-all" />
-              <TUNSOLg className="w-[20vw] hover:scale-105  transition-all" />
+            <div className="flex flex-col h-[140%] -space-y-10">
+              <TUPROLg className="w-[25vw] hover:scale-105  transition-all" />
+              <TUNSOLg className="w-[25vw] hover:scale-105  transition-all" />
             </div>
           </div>
           <div className="w-1/3 flex flex-col items-center justify-center py-15">
@@ -67,19 +67,19 @@ const OrgSection = () => {
             </p>
           </div>
           <div
-            className="w-[80%] h-3/5 -space-y-12 flex flex-col
+            className="w-[90%] h-3/5 -space-y-15 flex flex-col
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
           >
-            <TUCMCCard className="w-[55vw] hover:scale-105  transition-all" />
-            <TUSCCard className="w-[55vw] hover:scale-105  transition-all" />
-            <AnusornCard className="w-[55vw] hover:scale-105  transition-all" />
-            <AICCard className="w-[55vw] hover:scale-105  transition-all" />
-            <TUNSOCard className="w-[55vw] hover:scale-105  transition-all" />
-            <TUPROCard className="w-[55vw] hover:scale-105  transition-all" />
+            <TUCMCCard className="w-[60vw] hover:scale-105  transition-all" />
+            <TUSCCard className="w-[60vw] hover:scale-105  transition-all" />
+            <AnusornCard className="w-[60vw] hover:scale-105  transition-all" />
+            <AICCard className="w-[60vw] hover:scale-105  transition-all" />
+            <TUNSOCard className="w-[60vw] hover:scale-105  transition-all" />
+            <TUPROCard className="w-[60vw] hover:scale-105  transition-all" />
           </div>
           <div className="flex items-center justify-center w-full">
-            <p className="font-medium text-center text-lg w-3/5 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+            <p className="font-medium text-center text-lg sm:text-xl w-19/20 sm:w-2/3  bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
               กลุ่มหรือองค์กรที่จัดตั้งขึ้นภายในสถานศึกษา
               โดยมีนักเรียนเป็นสมาชิกหลัก ทำหน้าที่ช่วยเหลือ สนับสนุน
               และมีส่วนร่วมในการบริหารจัดการกิจกรรมต่าง ๆ ของโรงเรียน

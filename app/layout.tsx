@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Geist, Geist_Mono, Noto_Sans_Thai, Inter } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Noto_Sans_Thai,
+  Inter,
+  Bai_Jamjuree,
+} from "next/font/google";
+
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "../components/header";
@@ -27,6 +34,11 @@ const FontInter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
+const FontBaiJamjuree = Bai_Jamjuree({
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-bai-jamjuree",
+  subsets: ["thai", "latin"],
+});
 
 const bethanyFont = localFont({
   src: "../public/fonts/BethanyElingston.woff2", // adjust the extension based on your file
@@ -35,9 +47,25 @@ const bethanyFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Triam Udom Open House 2026",
+  title: {
+    default: "Triam Udom Open House 2026",
+    template: "%s | Triam Udom Open House 2026",
+  },
   description:
     "88 ปีงานนิทรรศการวิชาการเตรียมอุดมศึกษา (Triam Udom Open House 2026)",
+  metadataBase: new URL("https://openhouse.triamudom.ac.th"),
+  openGraph: {
+    title: "Triam Udom Open House 2026",
+    description:
+      "88 ปีงานนิทรรศการวิชาการเตรียมอุดมศึกษา (Triam Udom Open House 2026)",
+    url: "https://openhouse.triamudom.ac.th",
+    siteName: "Triam Udom Open House 2026",
+    // images: ["/og.png"],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  // },
 };
 
 export default function RootLayout({

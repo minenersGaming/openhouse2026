@@ -24,20 +24,20 @@ const GiftedSection = () => {
             โครงการพัฒนาความสามารถพิเศษ
           </p>
         </div>
-        <div className="h-full xoverflow-hidden absolute flex flex-row justify-center items-start w-full space-x-1/7 mt-[80%]  ">
-          <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 px-5 space-y-5">
-            <GiftedMath className="w-[30vw] sm:w-55" />
-            <GiftedThai className="w-[30vw] sm:w-55" />
+        <div className="h-full xoverflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%]  ">
+          <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
+            <GiftedMath className="w-[30vw]" />
+            <GiftedThai className="w-[30vw]" />
           </div>
-          <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 xpx-5 space-y-5">
-            <GiftedSci className="w-[30vw] sm:w-55" />
-            <GiftedEng className="w-[30vw] sm:w-55" />
+          <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
+            <GiftedSci className="w-[30vw]" />
+            <GiftedEng className="w-[30vw]" />
           </div>
         </div>
         <GiftedSm className=" w-full left-0 " />
       </div>
       <div className="relative hidden md:block">
-        <div className="absolute flex flex-col justify-center items-center w-full mt-9  mb-10 px-5">
+        <div className="absolute flex flex-col justify-center items-center w-full mt-[4.5%] mb-10 px-5">
           <GiftedTextLg className="w-[60vw]" />
           <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-2xl">
             โครงการพัฒนาความสามารถพิเศษ
