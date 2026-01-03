@@ -1,132 +1,142 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const TYPES = ["clubs", "programs", "gifted", "organizations"];
+import BackIcon from "@/vector/InfoPage/BackIcon";
+import MemberIcon from "@/vector/InfoPage/MemberIcon";
+import StarBar from "@/vector/InfoPage/StarBar";
+import TopCurtain from "@/vector/InfoPage/TopCurtain";
+import InfoTemplate from "@/components/InfoPage/InfoTemplate";
+import ReviewBox from "@/components/InfoPage/ReviewBox";
 
-export default function ClubViewPage() {
+export default function ClubsInfoPage() {
   const params = useParams();
+  const router = useRouter();
   const id = decodeURIComponent(params.id as string);
 
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!id) return;
-
-    const fetchData = async () => {
-      try {
-        for (const type of TYPES) {
-          const res = await fetch(
-            `/api/doc/getDocument?type=${type}&key=${id}`
-          );
-
-          if (!res.ok) continue;
-
-          const json = await res.json();
-          if (json?.data) {
-            setData({ ...json.data, __type: type });
-            return;
-          }
-        }
-
-        throw new Error("Document not found in any category");
-      } catch (err: any) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
+    fetch(`/api/doc/getDocument?type=clubs&key=${id}`)
+      .then((res) => res.json())
+      .then((json) => setData(json.data))
+      .finally(() => setLoading(false));
   }, [id]);
 
-  if (loading)
-    return <div className="p-6 text-center text-white">Loading...</div>;
-
-  if (error)
-    return <div className="p-6 text-red-400">ERROR: {error}</div>;
-
-  if (!data)
-    return <div className="p-6 text-white">Not found</div>;
+  if (loading) return <div className="text-center p-10">Loading...</div>;
+  if (!data) return <div className="text-center p-10">Not found</div>;
 
   return (
-    <div className="max-w-4xl mx-auto p-6 space-y-6 text-white">
-      <div>
-        <h1 className="text-3xl font-bold">{data.name}</h1>
-        <p className="text-white/70">{data.thainame}</p>
-        <p className="text-sm text-white/50 capitalize">
-          Category: {data.__type}
+    <div className="items-center px-3 [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
+      <div className="relative">
+        <TopCurtain className="w-full absolute" />
+      </div>
+
+      <div className="relative flex flex-col items-center space-y-3 z-50">
+        <button
+          onClick={() => router.back()}
+          className="flex flex-row items-center mt-24 hover:scale-105"
+        >
+          <BackIcon className="w-5 mr-1" />
+          <p className="text-[#F3ECB7]">ย้อนกลับ</p>
+        </button>
+
+        <p className="text-[#F3ECB7] font-bold text-4xl text-center px-4 mt-2">
+          {data.name}
         </p>
-      </div>
 
-      <div className="flex flex-wrap gap-3">
-        {data.members && (
-          <div className="px-4 py-2 rounded-xl border border-white/20 bg-white/5">
-            <b>Members:</b> {data.members}
+        <div className="flex flex-row items-center space-x-6">
+          <div className="flex flex-row items-center space-x-3">
+            <MemberIcon className="w-12" />
+            <div className="flex flex-col justify-center items-center">
+              <p className="font-semibold text-[#F3ECB7]">สมาชิก</p>
+              <p className="text-[#F3ECB7] text-4xl font-bold">
+                {data.members}
+              </p>
+            </div>
           </div>
-        )}
-        <div className="px-4 py-2 rounded-xl border border-white/20 bg-white/5"> <b>Status:</b> {data.status} </div>
+
+          <div className="h-16 rounded-full bg-[#F3E29E] w-[4px]" />
+
+          <div className="flex flex-col">
+            {data.ig && (
+              <p className="text-[#F3ECB7] font-light">IG: {data.ig}</p>
+            )}
+            {data.fb && (
+              <p className="text-[#F3ECB7] font-light">FB: {data.fb}</p>
+            )}
+            {data.others && (
+              <p className="text-[#F3ECB7] font-light">
+                อื่น ๆ : {data.others}
+              </p>
+            )}
+          </div>
+        </div>
+
+        <div className="m-5 w-[65%] flex flex-row items-center justify-center space-x-2">
+          <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full" />
+          <StarBar className="w-[55px]" />
+          <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full" />
+        </div>
       </div>
 
-      {data.activities && (
-        <section className="rounded-2xl border border-white/20 bg-white/5 p-4">
-          <h2 className="font-semibold text-xl mb-1">Activities</h2>
-          <p className="text-white/80">{data.activities}</p>
-        </section>
-      )}
-
-      {data.benefits && (
-        <section className="rounded-2xl border border-white/20 bg-white/5 p-4">
-          <h2 className="font-semibold text-xl mb-1">Benefits</h2>
-          <p className="text-white/80">{data.benefits}</p>
-        </section>
-      )}
-
-      {data.working && (
-        <section className="rounded-2xl border border-white/20 bg-white/5 p-4">
-          <h2 className="font-semibold text-xl mb-1">Working</h2>
-          <p className="text-white/80">{data.working}</p>
-        </section>
-      )}
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="flex flex-col items-center justify-center">
         {data.captureimg1 && (
-          <img src={data.captureimg1} className="rounded-2xl" />
+          <InfoTemplate
+            type="clubs"
+            item={0}
+            img={data.captureimg1}
+            imgDescription={data.descimg1}
+            text={data.activities}
+          />
         )}
+
         {data.captureimg2 && (
-          <img src={data.captureimg2} className="rounded-2xl" />
+          <InfoTemplate
+            type="clubs"
+            item={1}
+            img={data.captureimg2}
+            imgDescription={data.descimg2}
+            text={data.benefits}
+          />
         )}
+
         {data.captureimg3 && (
-          <img src={data.captureimg3} className="rounded-2xl" />
+          <InfoTemplate
+            type="clubs"
+            item={2}
+            img={data.captureimg3}
+            imgDescription={data.descimg3}
+            text={data.working}
+          />
         )}
       </div>
 
       {data.reviews?.length > 0 && (
-        <section>
-          <h2 className="font-semibold text-xl mb-3">Reviews</h2>
-          <div className="space-y-4">
-            {data.reviews.map((r: any, i: number) => (
-              <div
-                key={i}
-                className="rounded-2xl border border-white/20 bg-white/5 p-4"
-              >
-                <p className="font-bold">{r.nick}</p>
-                <p className="text-sm text-white/60 mb-1">{r.gen}</p>
-                <p className="text-white/80">{r.content}</p>
-              </div>
-            ))}
+        <div className="w-full flex flex-col justify-center items-center mt-5">
+          <div className="w-[80%] flex flex-row items-center justify-center space-x-2">
+            <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full hidden md:block" />
+              <p className="font-bold text-3xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
+                รีวิวจากรุ่นพี่
+              </p>
+            <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full hidden md:block" />
           </div>
-        </section>
-      )}
 
-      <div className="rounded-2xl border border-white/20 bg-white/5 p-4 space-y-1 text-white/80">
-        {data.ig && <p>IG: {data.ig}</p>}
-        {data.fb && <p>FB: {data.fb}</p>}
-        {data.others && <p>Other: {data.others}</p>}
-      </div>
+    {data.reviews.map((r: any, i: number) => (
+      <ReviewBox
+        key={i}
+        name={r.nick}
+        img={r.profile}          // ✅ profile picture
+        gen={r.gen}
+        ig={r.contact}           // ✅ IG / contact text
+        text={r.content}         // ✅ HTML content
+      />
+            ))}
+        </div>
+        )}
+
     </div>
   );
 }
