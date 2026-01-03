@@ -1,5 +1,5 @@
 import Chandelier from "@/vector/InfoPage/Chandelier";
-import { JSX } from "react";
+import { Component, JSX } from "react";
 
 const SampleImg =
   "https://www.ondemand.in.th/wp-content/uploads/2020/07/%E0%B8%9F%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C_%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2-2.jpg";
@@ -51,7 +51,7 @@ const InfoTemplate = ({
   item: number;
   img: string;
   imgDescription: string;
-  text: string;
+  text: any;
 }) => {
   return (
     <div className="flex flex-col items-center justify-center my-3">

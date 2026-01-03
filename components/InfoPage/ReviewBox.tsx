@@ -1,6 +1,3 @@
-const TextBoxStyle =
-  "mt-3 rounded-[1.8125rem] w-[75vw] bg-[rgba(69,123,202,0.44)] shadow-[0_1.5px_1px_0_rgba(0,0,0,0.25)] backdrop-blur-[5.55px]";
-
 const ReviewBox = ({
   img,
   name,
@@ -12,7 +9,7 @@ const ReviewBox = ({
   name: string;
   gen: string;
   ig: string;
-  text: string;
+  text: any;
 }) => {
   return (
     <div

@@ -4,6 +4,10 @@ import { useEffect, useState } from "react";
 import ClubsCard from "@/components/clubPage/ClubsCard";
 import SearchIcon from "@/vector/Contact/SearchIcon";
 import CurvyLight from "@/vector/CurvyLight";
+import Star1 from "@/vector/clubs/Star1";
+import Star2 from "@/vector/clubs/Star2";
+import Star3 from "@/vector/clubs/Star3";
+import Star4 from "@/vector/clubs/Star4";
 
 type ClubPreview = {
   key: string;
@@ -29,6 +33,11 @@ export default function ClubsPage() {
 
   return (
     <div className="relative w-screen min-h-screen bg-linear-to-t from-[#042284] via-[#3450B0] to-[#457BCA] overflow-hidden">
+      <CurvyLight className="absolute top-0 left-0  h-full pointer-events-none" />
+      <Star1 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw] translate-y-[110%]" />
+      <Star2 className="absolute w-[8vw] left-0 top-0 translate-x-[7vw] translate-y-[1250%] " />
+      <Star3 className="absolute w-[10vw] left-0 top-0 translate-x-[7vw] translate-y-[1500%]" />
+      <Star4 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw]  translate-y-[2550%]" />
       <div className="flex flex-col items-center pt-30 pb-10">
         <p className="text-5xl font-bold bg-linear-to-r from-[#F3E09D] to-[#FDFAE0] bg-clip-text text-transparent">
           ชมรม
@@ -46,7 +55,7 @@ export default function ClubsPage() {
       </div>
 
       <div className="flex justify-center px-6 md:px-10 lg:px-20 pb-20">
-        <div className="flex flex-wrap justify-center gap-6 max-w-[1200px]">
+        <div className="flex flex-wrap justify-center gap-6 max-w-[1000px]">
           {filtered.map((club) => (
             <ClubsCard
               key={club.key}
@@ -57,8 +66,6 @@ export default function ClubsPage() {
           ))}
         </div>
       </div>
-
-      <CurvyLight className="absolute bottom-0 left-0 w-full min-h-[700px] pointer-events-none" />
     </div>
   );
 }
