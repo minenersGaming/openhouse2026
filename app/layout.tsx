@@ -34,6 +34,11 @@ const FontInter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
+const FontBaiJamjuree = Bai_Jamjuree({
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-bai-jamjuree",
+  subsets: ["thai", "latin"],
+});
 
 const bethanyFont = localFont({
   src: "../public/fonts/BethanyElingston.woff2", // adjust the extension based on your file
