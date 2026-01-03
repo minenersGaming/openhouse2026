@@ -460,69 +460,58 @@ const ClubsSmPillar: FC<{
             fill="url(#paint63_linear_7095_5370)"
           />
           <g opacity="0.63">
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 583.207 254.553)"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 639.16 210.845)"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.75">
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 600.574 642.95)"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 623.531 297.765)"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.53">
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 584.949 729.868)"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }}>
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 537.395 -17.1953)"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }}>
-              <rect
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                transform="matrix(-1 0 0 1 493.828 26.1365)"
-                fill="#D9D9D9"
-              />
-            </g>
+            <rect
+              opacity="0.74"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 583.207 254.553)"
+              fill="#0B31B5"
+            />
+            <rect
+              opacity="0.74"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 639.16 210.845)"
+              fill="#0B31B5"
+            />
+            <rect
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 600.574 642.95)"
+              fill="#1E3E9C"
+            />
+            <rect
+              opacity="0.74"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 623.531 297.765)"
+              fill="#0B31B5"
+            />
+            <rect
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 584.949 729.868)"
+              fill="#1E3E9C"
+            />
+            <rect
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 537.395 -17.1953)"
+              fill="#0B2588"
+            />
+            <rect
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              transform="matrix(-1 0 0 1 493.828 26.1365)"
+              fill="#0B2588"
+            />
           </g>
         </g>
         <g style={{ mixBlendMode: "plus-darker" }} opacity="0.2">
@@ -583,84 +572,73 @@ const ClubsSmPillar: FC<{
         </mask>
         <g mask="url(#mask4_7095_5370)">
           <path
-            d="M54.8641 323.215C85.6204 123.756 208.426 -123.682 208.426 -123.682H-43.0584V887.421H54.8641C54.8641 887.421 23.654 525.616 54.8641 323.215Z"
+            d="M54.8641 323.215C85.6205 123.756 208.426 -123.682 208.426 -123.682H-43.0584V887.422H54.8641C54.8641 887.422 23.654 525.616 54.8641 323.215Z"
             fill="url(#paint73_linear_7095_5370)"
           />
           <path
-            d="M-103.762 323.215C-134.518 123.756 -257.323 -123.682 -257.323 -123.682H-5.83908V887.421H-103.762C-103.762 887.421 -72.5515 525.616 -103.762 323.215Z"
+            d="M-103.762 323.215C-134.518 123.756 -257.323 -123.682 -257.323 -123.682H-5.83908V887.422H-103.762C-103.762 887.422 -72.5515 525.616 -103.762 323.215Z"
             fill="url(#paint74_linear_7095_5370)"
           />
           <g opacity="0.63">
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
-              <rect
-                x="8.11328"
-                y="254.553"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
-              <rect
-                x="-47.8398"
-                y="210.845"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.75">
-              <rect
-                x="-9.25391"
-                y="642.95"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
-              <rect
-                x="-32.2109"
-                y="297.765"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }} opacity="0.53">
-              <rect
-                x="6.37109"
-                y="729.868"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }}>
-              <rect
-                x="53.9258"
-                y="-17.1953"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
-            <g style={{ mixBlendMode: "soft-light" }}>
-              <rect
-                x="97.4922"
-                y="26.1365"
-                width="107.397"
-                height="37.6109"
-                rx="7.22231"
-                fill="#D9D9D9"
-              />
-            </g>
+            <rect
+              opacity="0.74"
+              x="8.11328"
+              y="254.553"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#0A34C7"
+            />
+            <rect
+              opacity="0.74"
+              x="-47.8398"
+              y="210.845"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#0A34C7"
+            />
+            <rect
+              x="-9.25391"
+              y="642.95"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#1E3E9C"
+            />
+            <rect
+              opacity="0.74"
+              x="-32.2109"
+              y="297.765"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#0A34C7"
+            />
+            <rect
+              x="6.37109"
+              y="729.868"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#1E3E9C"
+            />
+            <rect
+              x="53.9258"
+              y="-17.1953"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#0C2A99"
+            />
+            <rect
+              x="97.4922"
+              y="26.1365"
+              width="107.397"
+              height="37.6109"
+              rx="7.22231"
+              fill="#0C2A99"
+            />
           </g>
         </g>
       </g>

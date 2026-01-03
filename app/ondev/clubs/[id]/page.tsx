@@ -29,12 +29,12 @@ export default function ClubsInfoPage() {
   if (!data) return <div className="text-center p-10">Not found</div>;
 
   return (
-    <div className="items-center px-3 [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
+    <div className="items-center [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
       <div className="relative">
         <TopCurtain className="w-full absolute" />
       </div>
 
-      <div className="relative flex flex-col items-center space-y-3 z-50">
+      <div className="relative flex flex-col items-center space-y-3 z-50 px-3">
         <button
           onClick={() => router.back()}
           className="flex flex-row items-center mt-24 hover:scale-105"
@@ -61,8 +61,12 @@ export default function ClubsInfoPage() {
           <div className="h-16 rounded-full bg-[#F3E29E] w-[4px]" />
 
           <div className="flex flex-col">
-            {data.ig && <span className="text-[#F3ECB7] font-light">IG: {data.ig}</span>}
-            {data.fb && <span className="text-[#F3ECB7] font-light">FB: {data.fb}</span>}
+            {data.ig && (
+              <span className="text-[#F3ECB7] font-light">IG: {data.ig}</span>
+            )}
+            {data.fb && (
+              <span className="text-[#F3ECB7] font-light">FB: {data.fb}</span>
+            )}
             {data.others && (
               <span className="text-[#F3ECB7] font-light">
                 อื่น ๆ : {data.others}
@@ -85,11 +89,7 @@ export default function ClubsInfoPage() {
             item={0}
             img={data.captureimg1}
             imgDescription={data.descimg1}
-            text={
-              <div
-                dangerouslySetInnerHTML={{ __html: data.activities }}
-              />
-            }
+            text={<div dangerouslySetInnerHTML={{ __html: data.activities }} />}
           />
         )}
 
@@ -99,11 +99,7 @@ export default function ClubsInfoPage() {
             item={1}
             img={data.captureimg2}
             imgDescription={data.descimg2}
-            text={
-              <div
-                dangerouslySetInnerHTML={{ __html: data.benefits }}
-              />
-            }
+            text={<div dangerouslySetInnerHTML={{ __html: data.benefits }} />}
           />
         )}
 
@@ -113,11 +109,7 @@ export default function ClubsInfoPage() {
             item={2}
             img={data.captureimg3}
             imgDescription={data.descimg3}
-            text={
-              <div
-                dangerouslySetInnerHTML={{ __html: data.working }}
-              />
-            }
+            text={<div dangerouslySetInnerHTML={{ __html: data.working }} />}
           />
         )}
       </div>
@@ -139,11 +131,7 @@ export default function ClubsInfoPage() {
               img={r.profile}
               gen={r.gen}
               ig={r.contact}
-              text={
-                <div
-                  dangerouslySetInnerHTML={{ __html: r.content }}
-                />
-              }
+              text={<div dangerouslySetInnerHTML={{ __html: r.content }} />}
             />
           ))}
         </div>

@@ -6,1778 +6,1776 @@ const OtherSmBg: FC<{
 }> = ({ className }) => {
   return (
     <svg
+      xmlns="http://www.w3.org/2000/svg"
       className={className}
       viewBox="0 0 592 1944"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
     >
       <g clip-path="url(#clip0_6669_5513)">
-        <g style={{ mixBlendMode: "plus-darker" }} opacity="0.16">
+        <g opacity="0.12">
           <rect
             x="-17.6797"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="-5.73438"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="62.2817"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="131.004"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="199.02"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="267.743"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="335.758"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="404.481"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="472.497"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="541.22"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="609.235"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="677.958"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="745.974"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="814.696"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.082"
             y="882.712"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
-        </g>
-        <g style={{ mixBlendMode: "plus-darker" }} opacity="0.16">
           <rect
             x="-17.6797"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="951.19"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1019.21"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1087.93"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1155.94"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1224.67"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1292.68"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1361.41"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1429.42"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1498.14"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1566.16"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1634.88"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1702.9"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1771.62"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="-17.6797"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="51.0391"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="119.762"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="188.48"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="257.203"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="325.922"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="394.641"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="463.363"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
           <rect
             x="532.086"
             y="1839.64"
             width="62.9214"
             height="62.9214"
-            fill="#D9D9D9"
+            fill="#031C6E"
           />
         </g>
         <path

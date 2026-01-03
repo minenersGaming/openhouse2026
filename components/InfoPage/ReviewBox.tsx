@@ -19,7 +19,7 @@ const ReviewBox = ({
       <div className="flex flex-row ">
         <img
           src={img}
-          className="rounded-[10px] w-3/10 aspect-square object-cover"
+          className="rounded-[10px] w-3/10 lg:w-2/5 aspect-square object-cover"
         />
         <div className="ml-3 -space-y-1 flex flex-col justify-center items-start">
           <p className="text-[#F3E19E] font-bold text-2xl">{name}</p>

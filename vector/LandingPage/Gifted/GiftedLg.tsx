@@ -69,334 +69,228 @@ const GiftedLg: FC<{
             fill="url(#paint8_linear_5779_3266)"
           />
         </g>
-        <g opacity="0.52">
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter0_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 950.121 726.661)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter1_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 972.773 757.655)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter2_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 996.195 695.667)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter3_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 837.918 448.683)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter4_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 860.57 479.677)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter5_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 883.992 417.689)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter6_i_5779_3266)"
-          >
-            <rect
-              x="462.629"
-              y="700.435"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter7_i_5779_3266)"
-          >
-            <rect
-              x="439.977"
-              y="731.429"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter8_i_5779_3266)"
-          >
-            <rect
-              x="416.559"
-              y="669.441"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter9_i_5779_3266)"
-          >
-            <rect
-              x="1591.74"
-              y="865.411"
-              width="86.5871"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter10_i_5779_3266)"
-          >
-            <rect
-              x="1571.18"
-              y="896.405"
-              width="86.5871"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter11_i_5779_3266)"
-          >
-            <rect
-              x="1549.91"
-              y="834.417"
-              width="86.5871"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter12_i_5779_3266)"
-          >
-            <rect
-              x="713.902"
-              y="894.617"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter13_i_5779_3266)"
-          >
-            <rect
-              x="667.832"
-              y="863.623"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter14_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 133.133 754.28)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter15_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 179.207 723.286)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter16_i_5779_3266)"
-          >
-            <rect
-              x="326.547"
-              y="569.709"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter17_i_5779_3266)"
-          >
-            <rect
-              x="280.473"
-              y="538.715"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter18_i_5779_3266)"
-          >
-            <rect
-              x="1614.12"
-              y="429.974"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter19_i_5779_3266)"
-          >
-            <rect
-              x="1568.05"
-              y="398.98"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter20_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 1234.2 573.885)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter21_i_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 1280.27 542.892)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter22_i_5779_3266)"
-          >
-            <rect
-              x="1304.88"
-              y="856.404"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter23_i_5779_3266)"
-          >
-            <rect
-              x="1258.81"
-              y="825.411"
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter24_d_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 120.043 409.891)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g
-            style={{ mixBlendMode: "soft-light" }}
-            filter="url(#filter25_d_5779_3266)"
-          >
-            <rect
-              width="95.3686"
-              height="26.2264"
-              rx="10.7884"
-              transform="matrix(-1 0 0 1 166.117 378.897)"
-              fill="#D9D9D9"
-            />
-          </g>
-        </g>
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 950.121 726.661)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 972.773 757.655)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 996.191 695.667)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 837.918 448.683)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 860.566 479.677)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 883.988 417.689)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="462.629"
+          y="700.435"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="439.977"
+          y="731.429"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="416.555"
+          y="669.441"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1591.74"
+          y="865.411"
+          width="86.5871"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1571.18"
+          y="896.405"
+          width="86.5871"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1549.91"
+          y="834.417"
+          width="86.5871"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="713.902"
+          y="894.617"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="667.828"
+          y="863.623"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 133.133 754.28)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 179.203 723.286)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="326.547"
+          y="569.709"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="280.473"
+          y="538.715"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1614.12"
+          y="429.974"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1568.04"
+          y="398.98"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 1234.2 573.885)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 1280.27 542.892)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1304.88"
+          y="856.404"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          x="1258.81"
+          y="825.411"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 120.043 409.891)"
+          fill="#ADD0FF"
+        />
+        <rect
+          opacity="0.36"
+          width="95.3686"
+          height="26.2264"
+          rx="10.7884"
+          transform="matrix(-1 0 0 1 166.117 378.897)"
+          fill="#ADD0FF"
+        />
         <rect
           x="1623.43"
           y="404.156"
@@ -418,22 +312,20 @@ const GiftedLg: FC<{
           height="408.967"
           fill="url(#paint10_linear_5779_3266)"
         />
-        <g filter="url(#filter26_i_5779_3266)">
-          <rect
-            x="1637.29"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint11_linear_5779_3266)"
-          />
-          <rect
-            x="1637.29"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint12_linear_5779_3266)"
-          />
-        </g>
+        <rect
+          x="1637.29"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint11_linear_5779_3266)"
+        />
+        <rect
+          x="1637.29"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint12_linear_5779_3266)"
+        />
         <rect
           x="1619.14"
           y="816.561"
@@ -616,22 +508,27 @@ const GiftedLg: FC<{
           height="408.967"
           fill="url(#paint34_linear_5779_3266)"
         />
-        <g filter="url(#filter27_i_5779_3266)">
-          <rect
-            x="1225.87"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint35_linear_5779_3266)"
-          />
-          <rect
-            x="1225.87"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint36_linear_5779_3266)"
-          />
-        </g>
+        <rect
+          x="1225.87"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint35_linear_5779_3266)"
+        />
+        <rect
+          x="1225.87"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint36_linear_5779_3266)"
+        />
+        <rect
+          x="1225.87"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint37_linear_5779_3266)"
+        />
         <rect
           x="1207.72"
           y="816.561"
@@ -644,14 +541,14 @@ const GiftedLg: FC<{
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint37_linear_5779_3266)"
+          fill="url(#paint38_linear_5779_3266)"
         />
         <rect
           x="1207.72"
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint38_linear_5779_3266)"
+          fill="url(#paint39_linear_5779_3266)"
         />
         <mask
           id="mask3_5779_3266"
@@ -667,14 +564,14 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint39_linear_5779_3266)"
+            fill="url(#paint40_linear_5779_3266)"
           />
           <rect
             x="1200.35"
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint40_linear_5779_3266)"
+            fill="url(#paint41_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask3_5779_3266)">
@@ -683,14 +580,14 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint41_linear_5779_3266)"
+            fill="url(#paint42_linear_5779_3266)"
           />
           <rect
             x="1200.35"
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint42_linear_5779_3266)"
+            fill="url(#paint43_linear_5779_3266)"
           />
         </g>
         <mask
@@ -712,13 +609,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 1180.32 388.083)"
-            fill="url(#paint43_linear_5779_3266)"
+            fill="url(#paint44_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 1180.32 388.083)"
-            fill="url(#paint44_linear_5779_3266)"
+            fill="url(#paint45_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask4_5779_3266)">
@@ -732,13 +629,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 1180.32 388.083)"
-            fill="url(#paint45_linear_5779_3266)"
+            fill="url(#paint46_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 1180.32 388.083)"
-            fill="url(#paint46_linear_5779_3266)"
+            fill="url(#paint47_linear_5779_3266)"
           />
         </g>
         <path
@@ -747,14 +644,10 @@ const GiftedLg: FC<{
         />
         <path
           d="M1186.21 794.422H1336.87L1325.43 816.561H1198.46L1186.21 794.422Z"
-          fill="url(#paint47_linear_5779_3266)"
-        />
-        <path
-          d="M1186.21 794.422H1336.87L1325.43 816.561H1198.46L1186.21 794.422Z"
           fill="url(#paint48_linear_5779_3266)"
         />
         <path
-          d="M1191.09 967.096L1200.12 959.769H1322.85L1331.99 967.096V978.574H1191.09V967.096Z"
+          d="M1186.21 794.422H1336.87L1325.43 816.561H1198.46L1186.21 794.422Z"
           fill="url(#paint49_linear_5779_3266)"
         />
         <path
@@ -762,19 +655,19 @@ const GiftedLg: FC<{
           fill="url(#paint50_linear_5779_3266)"
         />
         <path
-          d="M1191.09 874.025L1200.12 881.352H1322.85L1331.99 874.025V862.547H1191.09V874.025Z"
-          fill="#D9D9D9"
+          d="M1191.09 967.096L1200.12 959.769H1322.85L1331.99 967.096V978.574H1191.09V967.096Z"
+          fill="url(#paint51_linear_5779_3266)"
         />
         <path
           d="M1191.09 874.025L1200.12 881.352H1322.85L1331.99 874.025V862.547H1191.09V874.025Z"
-          fill="url(#paint51_linear_5779_3266)"
+          fill="#D9D9D9"
         />
         <path
           d="M1191.09 874.025L1200.12 881.352H1322.85L1331.99 874.025V862.547H1191.09V874.025Z"
           fill="url(#paint52_linear_5779_3266)"
         />
         <path
-          d="M1331.98 862.546H1191.09L1199.51 851.123H1323.39L1331.98 862.546Z"
+          d="M1191.09 874.025L1200.12 881.352H1322.85L1331.99 874.025V862.547H1191.09V874.025Z"
           fill="url(#paint53_linear_5779_3266)"
         />
         <path
@@ -782,16 +675,20 @@ const GiftedLg: FC<{
           fill="url(#paint54_linear_5779_3266)"
         />
         <path
+          d="M1331.98 862.546H1191.09L1199.51 851.123H1323.39L1331.98 862.546Z"
+          fill="url(#paint55_linear_5779_3266)"
+        />
+        <path
           d="M1331.98 388.082H1191.08L1199.5 404.205H1323.38L1331.98 388.082Z"
           fill="#A4A4A4"
         />
         <path
           d="M1331.98 388.082H1191.08L1199.5 404.205H1323.38L1331.98 388.082Z"
-          fill="url(#paint55_linear_5779_3266)"
+          fill="url(#paint56_linear_5779_3266)"
         />
         <path
           d="M1331.98 388.082H1191.08L1199.5 404.205H1323.38L1331.98 388.082Z"
-          fill="url(#paint56_linear_5779_3266)"
+          fill="url(#paint57_linear_5779_3266)"
         />
         <rect
           x="800.582"
@@ -805,31 +702,36 @@ const GiftedLg: FC<{
           y="404.156"
           width="99.4134"
           height="408.967"
-          fill="url(#paint57_linear_5779_3266)"
+          fill="url(#paint58_linear_5779_3266)"
         />
         <rect
           x="800.582"
           y="404.156"
           width="99.4134"
           height="408.967"
-          fill="url(#paint58_linear_5779_3266)"
+          fill="url(#paint59_linear_5779_3266)"
         />
-        <g filter="url(#filter28_i_5779_3266)">
-          <rect
-            x="814.449"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint59_linear_5779_3266)"
-          />
-          <rect
-            x="814.449"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint60_linear_5779_3266)"
-          />
-        </g>
+        <rect
+          x="814.449"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint60_linear_5779_3266)"
+        />
+        <rect
+          x="814.449"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint61_linear_5779_3266)"
+        />
+        <rect
+          x="814.449"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint62_linear_5779_3266)"
+        />
         <rect
           x="796.301"
           y="816.561"
@@ -842,14 +744,14 @@ const GiftedLg: FC<{
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint61_linear_5779_3266)"
+          fill="url(#paint63_linear_5779_3266)"
         />
         <rect
           x="796.301"
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint62_linear_5779_3266)"
+          fill="url(#paint64_linear_5779_3266)"
         />
         <mask
           id="mask5_5779_3266"
@@ -865,22 +767,6 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint63_linear_5779_3266)"
-          />
-          <rect
-            x="788.926"
-            y="862.547"
-            width="122.375"
-            height="116.025"
-            fill="url(#paint64_linear_5779_3266)"
-          />
-        </mask>
-        <g mask="url(#mask5_5779_3266)">
-          <rect
-            x="788.926"
-            y="862.547"
-            width="122.375"
-            height="116.025"
             fill="url(#paint65_linear_5779_3266)"
           />
           <rect
@@ -889,6 +775,22 @@ const GiftedLg: FC<{
             width="122.375"
             height="116.025"
             fill="url(#paint66_linear_5779_3266)"
+          />
+        </mask>
+        <g mask="url(#mask5_5779_3266)">
+          <rect
+            x="788.926"
+            y="862.547"
+            width="122.375"
+            height="116.025"
+            fill="url(#paint67_linear_5779_3266)"
+          />
+          <rect
+            x="788.926"
+            y="862.547"
+            width="122.375"
+            height="116.025"
+            fill="url(#paint68_linear_5779_3266)"
           />
         </g>
         <mask
@@ -910,13 +812,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 768.902 388.083)"
-            fill="url(#paint67_linear_5779_3266)"
+            fill="url(#paint69_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 768.902 388.083)"
-            fill="url(#paint68_linear_5779_3266)"
+            fill="url(#paint70_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask6_5779_3266)">
@@ -930,13 +832,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 768.902 388.083)"
-            fill="url(#paint69_linear_5779_3266)"
+            fill="url(#paint71_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 768.902 388.083)"
-            fill="url(#paint70_linear_5779_3266)"
+            fill="url(#paint72_linear_5779_3266)"
           />
         </g>
         <path
@@ -945,19 +847,19 @@ const GiftedLg: FC<{
         />
         <path
           d="M774.785 794.422H925.444L914.007 816.561H787.035L774.785 794.422Z"
-          fill="url(#paint71_linear_5779_3266)"
-        />
-        <path
-          d="M774.785 794.422H925.444L914.007 816.561H787.035L774.785 794.422Z"
-          fill="url(#paint72_linear_5779_3266)"
-        />
-        <path
-          d="M779.668 967.096L788.698 959.769H911.429L920.565 967.096V978.574H779.668V967.096Z"
           fill="url(#paint73_linear_5779_3266)"
         />
         <path
-          d="M779.668 967.096L788.698 959.769H911.429L920.565 967.096V978.574H779.668V967.096Z"
+          d="M774.785 794.422H925.444L914.007 816.561H787.035L774.785 794.422Z"
           fill="url(#paint74_linear_5779_3266)"
+        />
+        <path
+          d="M779.668 967.096L788.698 959.769H911.429L920.565 967.096V978.574H779.668V967.096Z"
+          fill="url(#paint75_linear_5779_3266)"
+        />
+        <path
+          d="M779.668 967.096L788.698 959.769H911.429L920.565 967.096V978.574H779.668V967.096Z"
+          fill="url(#paint76_linear_5779_3266)"
         />
         <path
           d="M779.668 874.025L788.698 881.352H911.429L920.565 874.025V862.547H779.668V874.025Z"
@@ -965,19 +867,19 @@ const GiftedLg: FC<{
         />
         <path
           d="M779.668 874.025L788.698 881.352H911.429L920.565 874.025V862.547H779.668V874.025Z"
-          fill="url(#paint75_linear_5779_3266)"
-        />
-        <path
-          d="M779.668 874.025L788.698 881.352H911.429L920.565 874.025V862.547H779.668V874.025Z"
-          fill="url(#paint76_linear_5779_3266)"
-        />
-        <path
-          d="M920.562 862.546H779.665L788.086 851.123H911.964L920.562 862.546Z"
           fill="url(#paint77_linear_5779_3266)"
         />
         <path
-          d="M920.562 862.546H779.665L788.086 851.123H911.964L920.562 862.546Z"
+          d="M779.668 874.025L788.698 881.352H911.429L920.565 874.025V862.547H779.668V874.025Z"
           fill="url(#paint78_linear_5779_3266)"
+        />
+        <path
+          d="M920.562 862.546H779.665L788.086 851.123H911.964L920.562 862.546Z"
+          fill="url(#paint79_linear_5779_3266)"
+        />
+        <path
+          d="M920.562 862.546H779.665L788.086 851.123H911.964L920.562 862.546Z"
+          fill="url(#paint80_linear_5779_3266)"
         />
         <path
           d="M920.559 388.082H779.661L788.082 404.205H911.96L920.559 388.082Z"
@@ -985,11 +887,11 @@ const GiftedLg: FC<{
         />
         <path
           d="M920.559 388.082H779.661L788.082 404.205H911.96L920.559 388.082Z"
-          fill="url(#paint79_linear_5779_3266)"
+          fill="url(#paint81_linear_5779_3266)"
         />
         <path
           d="M920.559 388.082H779.661L788.082 404.205H911.96L920.559 388.082Z"
-          fill="url(#paint80_linear_5779_3266)"
+          fill="url(#paint82_linear_5779_3266)"
         />
         <rect
           x="389.16"
@@ -1003,31 +905,36 @@ const GiftedLg: FC<{
           y="404.156"
           width="99.4134"
           height="408.967"
-          fill="url(#paint81_linear_5779_3266)"
+          fill="url(#paint83_linear_5779_3266)"
         />
         <rect
           x="389.16"
           y="404.156"
           width="99.4134"
           height="408.967"
-          fill="url(#paint82_linear_5779_3266)"
+          fill="url(#paint84_linear_5779_3266)"
         />
-        <g filter="url(#filter29_i_5779_3266)">
-          <rect
-            x="403.027"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint83_linear_5779_3266)"
-          />
-          <rect
-            x="403.027"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint84_linear_5779_3266)"
-          />
-        </g>
+        <rect
+          x="403.027"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint85_linear_5779_3266)"
+        />
+        <rect
+          x="403.027"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint86_linear_5779_3266)"
+        />
+        <rect
+          x="403.027"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint87_linear_5779_3266)"
+        />
         <rect
           x="384.879"
           y="816.561"
@@ -1040,14 +947,14 @@ const GiftedLg: FC<{
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint85_linear_5779_3266)"
+          fill="url(#paint88_linear_5779_3266)"
         />
         <rect
           x="384.879"
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint86_linear_5779_3266)"
+          fill="url(#paint89_linear_5779_3266)"
         />
         <mask
           id="mask7_5779_3266"
@@ -1063,14 +970,14 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint87_linear_5779_3266)"
+            fill="url(#paint90_linear_5779_3266)"
           />
           <rect
             x="377.504"
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint88_linear_5779_3266)"
+            fill="url(#paint91_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask7_5779_3266)">
@@ -1079,14 +986,14 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint89_linear_5779_3266)"
+            fill="url(#paint92_linear_5779_3266)"
           />
           <rect
             x="377.504"
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint90_linear_5779_3266)"
+            fill="url(#paint93_linear_5779_3266)"
           />
         </g>
         <mask
@@ -1108,13 +1015,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 357.48 388.083)"
-            fill="url(#paint91_linear_5779_3266)"
+            fill="url(#paint94_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 357.48 388.083)"
-            fill="url(#paint92_linear_5779_3266)"
+            fill="url(#paint95_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask8_5779_3266)">
@@ -1128,13 +1035,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 357.48 388.083)"
-            fill="url(#paint93_linear_5779_3266)"
+            fill="url(#paint96_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 357.48 388.083)"
-            fill="url(#paint94_linear_5779_3266)"
+            fill="url(#paint97_linear_5779_3266)"
           />
         </g>
         <path
@@ -1143,19 +1050,19 @@ const GiftedLg: FC<{
         />
         <path
           d="M363.363 794.422H514.022L502.586 816.561H375.613L363.363 794.422Z"
-          fill="url(#paint95_linear_5779_3266)"
+          fill="url(#paint98_linear_5779_3266)"
         />
         <path
           d="M363.363 794.422H514.022L502.586 816.561H375.613L363.363 794.422Z"
-          fill="url(#paint96_linear_5779_3266)"
+          fill="url(#paint99_linear_5779_3266)"
         />
         <path
           d="M368.246 967.096L377.276 959.769H500.007L509.144 967.096V978.574H368.246V967.096Z"
-          fill="url(#paint97_linear_5779_3266)"
+          fill="url(#paint100_linear_5779_3266)"
         />
         <path
           d="M368.246 967.096L377.276 959.769H500.007L509.144 967.096V978.574H368.246V967.096Z"
-          fill="url(#paint98_linear_5779_3266)"
+          fill="url(#paint101_linear_5779_3266)"
         />
         <path
           d="M368.246 874.025L377.276 881.352H500.007L509.144 874.025V862.547H368.246V874.025Z"
@@ -1163,19 +1070,19 @@ const GiftedLg: FC<{
         />
         <path
           d="M368.246 874.025L377.276 881.352H500.007L509.144 874.025V862.547H368.246V874.025Z"
-          fill="url(#paint99_linear_5779_3266)"
+          fill="url(#paint102_linear_5779_3266)"
         />
         <path
           d="M368.246 874.025L377.276 881.352H500.007L509.144 874.025V862.547H368.246V874.025Z"
-          fill="url(#paint100_linear_5779_3266)"
+          fill="url(#paint103_linear_5779_3266)"
         />
         <path
           d="M509.141 862.546H368.243L376.664 851.123H500.542L509.141 862.546Z"
-          fill="url(#paint101_linear_5779_3266)"
+          fill="url(#paint104_linear_5779_3266)"
         />
         <path
           d="M509.141 862.546H368.243L376.664 851.123H500.542L509.141 862.546Z"
-          fill="url(#paint102_linear_5779_3266)"
+          fill="url(#paint105_linear_5779_3266)"
         />
         <path
           d="M509.137 388.082H368.239L376.66 404.205H500.539L509.137 388.082Z"
@@ -1183,11 +1090,11 @@ const GiftedLg: FC<{
         />
         <path
           d="M509.137 388.082H368.239L376.66 404.205H500.539L509.137 388.082Z"
-          fill="url(#paint103_linear_5779_3266)"
+          fill="url(#paint106_linear_5779_3266)"
         />
         <path
           d="M509.137 388.082H368.239L376.66 404.205H500.539L509.137 388.082Z"
-          fill="url(#paint104_linear_5779_3266)"
+          fill="url(#paint107_linear_5779_3266)"
         />
         <rect
           x="-22.2617"
@@ -1201,31 +1108,36 @@ const GiftedLg: FC<{
           y="404.156"
           width="99.4134"
           height="408.967"
-          fill="url(#paint105_linear_5779_3266)"
+          fill="url(#paint108_linear_5779_3266)"
         />
         <rect
           x="-22.2617"
           y="404.156"
           width="99.4134"
           height="408.967"
-          fill="url(#paint106_linear_5779_3266)"
+          fill="url(#paint109_linear_5779_3266)"
         />
-        <g filter="url(#filter30_i_5779_3266)">
-          <rect
-            x="-8.39453"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint107_linear_5779_3266)"
-          />
-          <rect
-            x="-8.39453"
-            y="419.933"
-            width="71.3256"
-            height="375.634"
-            fill="url(#paint108_linear_5779_3266)"
-          />
-        </g>
+        <rect
+          x="-8.39453"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint110_linear_5779_3266)"
+        />
+        <rect
+          x="-8.39453"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint111_linear_5779_3266)"
+        />
+        <rect
+          x="-8.39453"
+          y="419.933"
+          width="71.3256"
+          height="375.634"
+          fill="url(#paint112_linear_5779_3266)"
+        />
         <rect
           x="-26.543"
           y="816.561"
@@ -1238,14 +1150,14 @@ const GiftedLg: FC<{
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint109_linear_5779_3266)"
+          fill="url(#paint113_linear_5779_3266)"
         />
         <rect
           x="-26.543"
           y="816.561"
           width="107.632"
           height="68.7866"
-          fill="url(#paint110_linear_5779_3266)"
+          fill="url(#paint114_linear_5779_3266)"
         />
         <mask
           id="mask9_5779_3266"
@@ -1261,14 +1173,14 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint111_linear_5779_3266)"
+            fill="url(#paint115_linear_5779_3266)"
           />
           <rect
             x="-33.918"
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint112_linear_5779_3266)"
+            fill="url(#paint116_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask9_5779_3266)">
@@ -1277,14 +1189,14 @@ const GiftedLg: FC<{
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint113_linear_5779_3266)"
+            fill="url(#paint117_linear_5779_3266)"
           />
           <rect
             x="-33.918"
             y="862.547"
             width="122.375"
             height="116.025"
-            fill="url(#paint114_linear_5779_3266)"
+            fill="url(#paint118_linear_5779_3266)"
           />
         </g>
         <mask
@@ -1306,13 +1218,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 -53.9414 388.083)"
-            fill="url(#paint115_linear_5779_3266)"
+            fill="url(#paint119_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 -53.9414 388.083)"
-            fill="url(#paint116_linear_5779_3266)"
+            fill="url(#paint120_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask10_5779_3266)">
@@ -1326,13 +1238,13 @@ const GiftedLg: FC<{
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 -53.9414 388.083)"
-            fill="url(#paint117_linear_5779_3266)"
+            fill="url(#paint121_linear_5779_3266)"
           />
           <rect
             width="162.422"
             height="38.4975"
             transform="matrix(1 0 0 -1 -53.9414 388.083)"
-            fill="url(#paint118_linear_5779_3266)"
+            fill="url(#paint122_linear_5779_3266)"
           />
         </g>
         <path
@@ -1341,19 +1253,19 @@ const GiftedLg: FC<{
         />
         <path
           d="M-48.0586 794.422H102.6L91.1637 816.561H-35.8086L-48.0586 794.422Z"
-          fill="url(#paint119_linear_5779_3266)"
+          fill="url(#paint123_linear_5779_3266)"
         />
         <path
           d="M-48.0586 794.422H102.6L91.1637 816.561H-35.8086L-48.0586 794.422Z"
-          fill="url(#paint120_linear_5779_3266)"
+          fill="url(#paint124_linear_5779_3266)"
         />
         <path
           d="M-43.1758 967.096L-34.1459 959.769H88.5849L97.7217 967.096V978.574H-43.1758V967.096Z"
-          fill="url(#paint121_linear_5779_3266)"
+          fill="url(#paint125_linear_5779_3266)"
         />
         <path
           d="M-43.1758 967.096L-34.1459 959.769H88.5849L97.7217 967.096V978.574H-43.1758V967.096Z"
-          fill="url(#paint122_linear_5779_3266)"
+          fill="url(#paint126_linear_5779_3266)"
         />
         <path
           d="M-43.1758 874.025L-34.1459 881.352H88.5849L97.7217 874.025V862.547H-43.1758V874.025Z"
@@ -1361,19 +1273,19 @@ const GiftedLg: FC<{
         />
         <path
           d="M-43.1758 874.025L-34.1459 881.352H88.5849L97.7217 874.025V862.547H-43.1758V874.025Z"
-          fill="url(#paint123_linear_5779_3266)"
+          fill="url(#paint127_linear_5779_3266)"
         />
         <path
           d="M-43.1758 874.025L-34.1459 881.352H88.5849L97.7217 874.025V862.547H-43.1758V874.025Z"
-          fill="url(#paint124_linear_5779_3266)"
+          fill="url(#paint128_linear_5779_3266)"
         />
         <path
           d="M97.7188 862.546H-43.1787L-34.7577 851.123H89.1206L97.7188 862.546Z"
-          fill="url(#paint125_linear_5779_3266)"
+          fill="url(#paint129_linear_5779_3266)"
         />
         <path
           d="M97.7188 862.546H-43.1787L-34.7577 851.123H89.1206L97.7188 862.546Z"
-          fill="url(#paint126_linear_5779_3266)"
+          fill="url(#paint130_linear_5779_3266)"
         />
         <path
           d="M97.7148 388.082H-43.1826L-34.7616 404.205H89.1167L97.7148 388.082Z"
@@ -1381,11 +1293,11 @@ const GiftedLg: FC<{
         />
         <path
           d="M97.7148 388.082H-43.1826L-34.7616 404.205H89.1167L97.7148 388.082Z"
-          fill="url(#paint127_linear_5779_3266)"
+          fill="url(#paint131_linear_5779_3266)"
         />
         <path
           d="M97.7148 388.082H-43.1826L-34.7616 404.205H89.1167L97.7148 388.082Z"
-          fill="url(#paint128_linear_5779_3266)"
+          fill="url(#paint132_linear_5779_3266)"
         />
         <mask
           id="mask11_5779_3266"
@@ -1401,7 +1313,7 @@ const GiftedLg: FC<{
             y="977.663"
             width="1706.42"
             height="127.616"
-            fill="url(#paint129_linear_5779_3266)"
+            fill="url(#paint133_linear_5779_3266)"
           />
         </mask>
         <g mask="url(#mask11_5779_3266)">
@@ -1410,7 +1322,7 @@ const GiftedLg: FC<{
             y="977.663"
             width="2109.93"
             height="77.0128"
-            fill="url(#paint130_linear_5779_3266)"
+            fill="url(#paint134_linear_5779_3266)"
           />
           <g opacity="0.38">
             <mask
@@ -1426,7 +1338,7 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 -33.7539 1043.4)"
-                fill="url(#paint131_linear_5779_3266)"
+                fill="url(#paint135_linear_5779_3266)"
               />
             </mask>
             <g mask="url(#mask12_5779_3266)">
@@ -1434,18 +1346,18 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 -33.7539 1043.4)"
-                fill="url(#paint132_linear_5779_3266)"
+                fill="url(#paint136_linear_5779_3266)"
               />
               <rect
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 -33.7539 1043.4)"
-                fill="url(#paint133_linear_5779_3266)"
+                fill="url(#paint137_linear_5779_3266)"
               />
             </g>
             <path
               d="M-43.0156 986.602L-33.9835 992.309H88.7776L97.9167 986.602V977.662H-43.0156V986.602Z"
-              fill="url(#paint134_linear_5779_3266)"
+              fill="url(#paint138_linear_5779_3266)"
             />
           </g>
           <g opacity="0.38">
@@ -1462,7 +1374,7 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 377.473 1043.4)"
-                fill="url(#paint135_linear_5779_3266)"
+                fill="url(#paint139_linear_5779_3266)"
               />
             </mask>
             <g mask="url(#mask13_5779_3266)">
@@ -1470,18 +1382,18 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 377.473 1043.4)"
-                fill="url(#paint136_linear_5779_3266)"
+                fill="url(#paint140_linear_5779_3266)"
               />
               <rect
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 377.473 1043.4)"
-                fill="url(#paint137_linear_5779_3266)"
+                fill="url(#paint141_linear_5779_3266)"
               />
             </g>
             <path
               d="M368.211 986.602L377.243 992.309H500.004L509.143 986.602V977.662H368.211V986.602Z"
-              fill="url(#paint138_linear_5779_3266)"
+              fill="url(#paint142_linear_5779_3266)"
             />
           </g>
           <g opacity="0.38">
@@ -1498,7 +1410,7 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 788.91 1043.4)"
-                fill="url(#paint139_linear_5779_3266)"
+                fill="url(#paint143_linear_5779_3266)"
               />
             </mask>
             <g mask="url(#mask14_5779_3266)">
@@ -1506,18 +1418,18 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 788.91 1043.4)"
-                fill="url(#paint140_linear_5779_3266)"
+                fill="url(#paint144_linear_5779_3266)"
               />
               <rect
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 788.91 1043.4)"
-                fill="url(#paint141_linear_5779_3266)"
+                fill="url(#paint145_linear_5779_3266)"
               />
             </g>
             <path
               d="M779.648 986.602L788.681 992.309H911.442L920.581 986.602V977.662H779.648V986.602Z"
-              fill="url(#paint142_linear_5779_3266)"
+              fill="url(#paint146_linear_5779_3266)"
             />
           </g>
           <g opacity="0.38">
@@ -1534,7 +1446,7 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 1200.31 1043.4)"
-                fill="url(#paint143_linear_5779_3266)"
+                fill="url(#paint147_linear_5779_3266)"
               />
             </mask>
             <g mask="url(#mask15_5779_3266)">
@@ -1542,18 +1454,18 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 1200.31 1043.4)"
-                fill="url(#paint144_linear_5779_3266)"
+                fill="url(#paint148_linear_5779_3266)"
               />
               <rect
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 1200.31 1043.4)"
-                fill="url(#paint145_linear_5779_3266)"
+                fill="url(#paint149_linear_5779_3266)"
               />
             </g>
             <path
               d="M1191.05 986.602L1200.08 992.309H1322.84L1331.98 986.602V977.662H1191.05V986.602Z"
-              fill="url(#paint146_linear_5779_3266)"
+              fill="url(#paint150_linear_5779_3266)"
             />
           </g>
           <g opacity="0.38">
@@ -1570,7 +1482,7 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 1611.77 1043.4)"
-                fill="url(#paint147_linear_5779_3266)"
+                fill="url(#paint151_linear_5779_3266)"
               />
             </mask>
             <g mask="url(#mask16_5779_3266)">
@@ -1578,18 +1490,18 @@ const GiftedLg: FC<{
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 1611.77 1043.4)"
-                fill="url(#paint148_linear_5779_3266)"
+                fill="url(#paint152_linear_5779_3266)"
               />
               <rect
                 width="122.405"
                 height="65.7356"
                 transform="matrix(1 0 0 -1 1611.77 1043.4)"
-                fill="url(#paint149_linear_5779_3266)"
+                fill="url(#paint153_linear_5779_3266)"
               />
             </g>
             <path
               d="M1602.51 986.602L1611.54 992.309H1734.3L1743.44 986.602V977.662H1602.51V986.602Z"
-              fill="url(#paint150_linear_5779_3266)"
+              fill="url(#paint154_linear_5779_3266)"
             />
           </g>
         </g>
@@ -1598,36 +1510,36 @@ const GiftedLg: FC<{
           y="1026.5"
           width="1714.17"
           height="24.6139"
-          fill="url(#paint151_linear_5779_3266)"
+          fill="url(#paint155_linear_5779_3266)"
         />
         <rect
           width="1706"
           height="23.6851"
           transform="matrix(1 0 0 -1 -2.16406 349.585)"
-          fill="url(#paint152_linear_5779_3266)"
+          fill="url(#paint156_linear_5779_3266)"
         />
         <rect
           width="1706"
           height="72.6313"
           transform="matrix(1 0 0 -1 -2.16406 329.617)"
-          fill="url(#paint153_linear_5779_3266)"
+          fill="url(#paint157_linear_5779_3266)"
         />
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.36">
           <path
             d="M1466.7 110.924L1639.52 -10.8594L1639.21 -8.16912L1474.51 121.407C1471.46 123.808 1467 123.035 1464.93 119.748C1463.08 116.804 1463.86 112.927 1466.7 110.924Z"
-            fill="url(#paint154_linear_5779_3266)"
+            fill="url(#paint158_linear_5779_3266)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.36">
           <path
             d="M1595.66 76.1145L1686.67 11.9808L1686.51 13.3976L1599.77 81.6352C1598.17 82.8996 1595.82 82.4929 1594.73 80.7617C1593.75 79.2114 1594.16 77.1693 1595.66 76.1145Z"
-            fill="url(#paint155_linear_5779_3266)"
+            fill="url(#paint159_linear_5779_3266)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.36">
           <path
             d="M1562.71 201.409L1653.72 137.275L1653.56 138.692L1566.82 206.93C1565.21 208.194 1562.86 207.787 1561.78 206.056C1560.8 204.506 1561.21 202.464 1562.71 201.409Z"
-            fill="url(#paint156_linear_5779_3266)"
+            fill="url(#paint160_linear_5779_3266)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.65">
@@ -1645,19 +1557,19 @@ const GiftedLg: FC<{
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.36">
           <path
             d="M129.698 142.081L300.488 21.7256L300.185 24.3843L137.416 152.441C134.4 154.814 129.992 154.051 127.95 150.802C126.121 147.893 126.889 144.06 129.698 142.081Z"
-            fill="url(#paint157_linear_5779_3266)"
+            fill="url(#paint161_linear_5779_3266)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.36">
           <path
             d="M31.4963 153.332L111.004 97.3026L110.863 98.5403L35.0891 158.155C33.685 159.259 31.6333 158.904 30.6825 157.392C29.831 156.037 30.1886 154.253 31.4963 153.332Z"
-            fill="url(#paint158_linear_5779_3266)"
+            fill="url(#paint162_linear_5779_3266)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.36">
           <path
             d="M115.434 42.2476L194.942 -13.7814L194.8 -12.5437L119.027 47.0707C117.623 48.1753 115.571 47.82 114.62 46.3076C113.768 44.9532 114.126 43.1692 115.434 42.2476Z"
-            fill="url(#paint159_linear_5779_3266)"
+            fill="url(#paint163_linear_5779_3266)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.65">
@@ -1692,1091 +1604,6 @@ const GiftedLg: FC<{
         </g>
       </g>
       <defs>
-        <filter
-          id="filter0_i_5779_3266"
-          x="854.754"
-          y="726.661"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter1_i_5779_3266"
-          x="877.406"
-          y="757.655"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter2_i_5779_3266"
-          x="900.828"
-          y="695.667"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter3_i_5779_3266"
-          x="742.551"
-          y="448.683"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter4_i_5779_3266"
-          x="765.203"
-          y="479.677"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter5_i_5779_3266"
-          x="788.625"
-          y="417.689"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter6_i_5779_3266"
-          x="462.629"
-          y="700.435"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter7_i_5779_3266"
-          x="439.977"
-          y="731.429"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter8_i_5779_3266"
-          x="416.559"
-          y="669.441"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter9_i_5779_3266"
-          x="1591.74"
-          y="865.411"
-          width="86.5859"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter10_i_5779_3266"
-          x="1571.18"
-          y="896.405"
-          width="86.5859"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter11_i_5779_3266"
-          x="1549.91"
-          y="834.417"
-          width="86.5859"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter12_i_5779_3266"
-          x="713.902"
-          y="894.617"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter13_i_5779_3266"
-          x="667.832"
-          y="863.623"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter14_i_5779_3266"
-          x="37.7656"
-          y="754.28"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter15_i_5779_3266"
-          x="83.8398"
-          y="723.286"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter16_i_5779_3266"
-          x="326.547"
-          y="569.709"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter17_i_5779_3266"
-          x="280.473"
-          y="538.715"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter18_i_5779_3266"
-          x="1614.12"
-          y="429.974"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter19_i_5779_3266"
-          x="1568.05"
-          y="398.98"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter20_i_5779_3266"
-          x="1138.83"
-          y="573.885"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter21_i_5779_3266"
-          x="1184.9"
-          y="542.892"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter22_i_5779_3266"
-          x="1304.88"
-          y="856.404"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter23_i_5779_3266"
-          x="1258.81"
-          y="825.411"
-          width="95.3672"
-          height="27.7266"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="1.5" />
-          <feGaussianBlur stdDeviation="1" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter24_d_5779_3266"
-          x="21.5934"
-          y="409.891"
-          width="101.532"
-          height="32.3914"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="3.08241" />
-          <feGaussianBlur stdDeviation="1.54121" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_5779_3266"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_5779_3266"
-            result="shape"
-          />
-        </filter>
-        <filter
-          id="filter25_d_5779_3266"
-          x="67.6676"
-          y="378.897"
-          width="101.532"
-          height="32.3914"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="3.08241" />
-          <feGaussianBlur stdDeviation="1.54121" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_5779_3266"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_5779_3266"
-            result="shape"
-          />
-        </filter>
-        <filter
-          id="filter26_i_5779_3266"
-          x="1637.29"
-          y="419.933"
-          width="71.3242"
-          height="379.634"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="4" />
-          <feGaussianBlur stdDeviation="2" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter27_i_5779_3266"
-          x="1225.87"
-          y="419.933"
-          width="71.3242"
-          height="379.634"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="4" />
-          <feGaussianBlur stdDeviation="2" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter28_i_5779_3266"
-          x="814.449"
-          y="419.933"
-          width="71.3242"
-          height="379.634"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="4" />
-          <feGaussianBlur stdDeviation="2" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter29_i_5779_3266"
-          x="403.027"
-          y="419.933"
-          width="71.3242"
-          height="379.634"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="4" />
-          <feGaussianBlur stdDeviation="2" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
-        <filter
-          id="filter30_i_5779_3266"
-          x="-8.39453"
-          y="419.933"
-          width="71.3242"
-          height="379.634"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dy="4" />
-          <feGaussianBlur stdDeviation="2" />
-          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="shape"
-            result="effect1_innerShadow_5779_3266"
-          />
-        </filter>
         <linearGradient
           id="paint0_linear_5779_3266"
           x1="853"
@@ -2917,13 +1744,13 @@ const GiftedLg: FC<{
         <linearGradient
           id="paint12_linear_5779_3266"
           x1="1672.96"
-          y1="856.695"
-          x2="1655.12"
-          y2="419.933"
+          y1="802.567"
+          x2="1672.96"
+          y2="407.215"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C1E9FF" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stop-color="#9BD7FF" />
+          <stop offset="1" stop-color="#C1E9FF" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_5779_3266"
@@ -3197,6 +2024,17 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint37_linear_5779_3266"
+          x1="1261.53"
+          y1="802.567"
+          x2="1261.53"
+          y2="407.215"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9BD7FF" />
+          <stop offset="1" stop-color="#C1E9FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint38_linear_5779_3266"
           x1="1261.54"
           y1="858.643"
           x2="1261.54"
@@ -3207,7 +2045,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint38_linear_5779_3266"
+          id="paint39_linear_5779_3266"
           x1="1278.82"
           y1="877.25"
           x2="1278.82"
@@ -3218,7 +2056,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint39_linear_5779_3266"
+          id="paint40_linear_5779_3266"
           x1="1261.53"
           y1="885.57"
           x2="1261.53"
@@ -3228,20 +2066,20 @@ const GiftedLg: FC<{
           <stop stop-color="#F3E09D" />
           <stop offset="0.497336" stop-color="#E5C675" />
           <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint40_linear_5779_3266"
-          x1="1281.18"
-          y1="964.913"
-          x2="1281.18"
-          y2="887.177"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_5779_3266"
+          x1="1281.18"
+          y1="964.913"
+          x2="1281.18"
+          y2="887.177"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#477BCA" />
+          <stop offset="1" stop-color="#9CD6FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint42_linear_5779_3266"
           x1="1261.53"
           y1="885.57"
           x2="1261.53"
@@ -3253,7 +2091,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C5A064" />
         </linearGradient>
         <linearGradient
-          id="paint42_linear_5779_3266"
+          id="paint43_linear_5779_3266"
           x1="1281.18"
           y1="964.913"
           x2="1281.18"
@@ -3264,7 +2102,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint43_linear_5779_3266"
+          id="paint44_linear_5779_3266"
           x1="81.2111"
           y1="38.4975"
           x2="81.2111"
@@ -3273,31 +2111,9 @@ const GiftedLg: FC<{
         >
           <stop stop-color="#F3E09D" />
           <stop offset="1" stop-color="#C4A063" />
-        </linearGradient>
-        <linearGradient
-          id="paint44_linear_5779_3266"
-          x1="93.7293"
-          y1="38.4975"
-          x2="93.7293"
-          y2="-9.31411"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_5779_3266"
-          x1="81.2111"
-          y1="38.4975"
-          x2="81.2111"
-          y2="0"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
-        </linearGradient>
-        <linearGradient
-          id="paint46_linear_5779_3266"
           x1="93.7293"
           y1="38.4975"
           x2="93.7293"
@@ -3308,7 +2124,29 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#477BCA" />
         </linearGradient>
         <linearGradient
+          id="paint46_linear_5779_3266"
+          x1="81.2111"
+          y1="38.4975"
+          x2="81.2111"
+          y2="0"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="1" stop-color="#C4A063" />
+        </linearGradient>
+        <linearGradient
           id="paint47_linear_5779_3266"
+          x1="93.7293"
+          y1="38.4975"
+          x2="93.7293"
+          y2="-9.31411"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9CD6FF" />
+          <stop offset="1" stop-color="#477BCA" />
+        </linearGradient>
+        <linearGradient
+          id="paint48_linear_5779_3266"
           x1="1261.54"
           y1="816.561"
           x2="1261.54"
@@ -3320,7 +2158,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint48_linear_5779_3266"
+          id="paint49_linear_5779_3266"
           x1="1273.15"
           y1="816.561"
           x2="1273.15"
@@ -3331,7 +2169,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint49_linear_5779_3266"
+          id="paint50_linear_5779_3266"
           x1="1261.54"
           y1="959.769"
           x2="1261.54"
@@ -3342,7 +2180,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint50_linear_5779_3266"
+          id="paint51_linear_5779_3266"
           x1="1272.4"
           y1="978.574"
           x2="1272.4"
@@ -3353,7 +2191,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint51_linear_5779_3266"
+          id="paint52_linear_5779_3266"
           x1="1261.54"
           y1="862.547"
           x2="1261.54"
@@ -3364,7 +2202,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint52_linear_5779_3266"
+          id="paint53_linear_5779_3266"
           x1="1272.4"
           y1="862.547"
           x2="1272.4"
@@ -3375,7 +2213,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint53_linear_5779_3266"
+          id="paint54_linear_5779_3266"
           x1="1261.54"
           y1="845.227"
           x2="1261.54"
@@ -3386,7 +2224,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint54_linear_5779_3266"
+          id="paint55_linear_5779_3266"
           x1="1261.54"
           y1="851.123"
           x2="1261.54"
@@ -3397,7 +2235,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#558AD3" />
         </linearGradient>
         <linearGradient
-          id="paint55_linear_5779_3266"
+          id="paint56_linear_5779_3266"
           x1="1261.53"
           y1="404.205"
           x2="1261.53"
@@ -3408,7 +2246,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint56_linear_5779_3266"
+          id="paint57_linear_5779_3266"
           x1="1250.67"
           y1="404.205"
           x2="1250.67"
@@ -3419,7 +2257,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint57_linear_5779_3266"
+          id="paint58_linear_5779_3266"
           x1="850.289"
           y1="813.122"
           x2="850.289"
@@ -3432,7 +2270,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint58_linear_5779_3266"
+          id="paint59_linear_5779_3266"
           x1="866.247"
           y1="764.976"
           x2="866.247"
@@ -3443,7 +2281,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint59_linear_5779_3266"
+          id="paint60_linear_5779_3266"
           x1="850.112"
           y1="412.649"
           x2="850.112"
@@ -3455,7 +2293,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#E5C675" />
         </linearGradient>
         <linearGradient
-          id="paint60_linear_5779_3266"
+          id="paint61_linear_5779_3266"
           x1="850.112"
           y1="856.695"
           x2="832.279"
@@ -3466,7 +2304,18 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9BD7FF" />
         </linearGradient>
         <linearGradient
-          id="paint61_linear_5779_3266"
+          id="paint62_linear_5779_3266"
+          x1="850.112"
+          y1="802.567"
+          x2="850.112"
+          y2="407.215"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9BD7FF" />
+          <stop offset="1" stop-color="#C1E9FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint63_linear_5779_3266"
           x1="850.117"
           y1="858.643"
           x2="850.117"
@@ -3477,34 +2326,11 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint62_linear_5779_3266"
+          id="paint64_linear_5779_3266"
           x1="867.395"
           y1="877.25"
           x2="867.395"
           y2="831.163"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
-        </linearGradient>
-        <linearGradient
-          id="paint63_linear_5779_3266"
-          x1="850.113"
-          y1="885.57"
-          x2="850.113"
-          y2="961.026"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint64_linear_5779_3266"
-          x1="869.757"
-          y1="964.913"
-          x2="869.757"
-          y2="887.177"
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="#477BCA" />
@@ -3535,25 +2361,26 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint67_linear_5779_3266"
-          x1="81.2111"
-          y1="38.4975"
-          x2="81.2111"
-          y2="0"
+          x1="850.113"
+          y1="885.57"
+          x2="850.113"
+          y2="961.026"
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_5779_3266"
-          x1="93.7293"
-          y1="38.4975"
-          x2="93.7293"
-          y2="-9.31411"
+          x1="869.757"
+          y1="964.913"
+          x2="869.757"
+          y2="887.177"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stop-color="#477BCA" />
+          <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_5779_3266"
@@ -3579,6 +2406,28 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint71_linear_5779_3266"
+          x1="81.2111"
+          y1="38.4975"
+          x2="81.2111"
+          y2="0"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="1" stop-color="#C4A063" />
+        </linearGradient>
+        <linearGradient
+          id="paint72_linear_5779_3266"
+          x1="93.7293"
+          y1="38.4975"
+          x2="93.7293"
+          y2="-9.31411"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9CD6FF" />
+          <stop offset="1" stop-color="#477BCA" />
+        </linearGradient>
+        <linearGradient
+          id="paint73_linear_5779_3266"
           x1="850.115"
           y1="816.561"
           x2="850.115"
@@ -3590,7 +2439,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint72_linear_5779_3266"
+          id="paint74_linear_5779_3266"
           x1="861.726"
           y1="816.561"
           x2="861.726"
@@ -3601,7 +2450,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint73_linear_5779_3266"
+          id="paint75_linear_5779_3266"
           x1="850.117"
           y1="959.769"
           x2="850.117"
@@ -3612,7 +2461,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint74_linear_5779_3266"
+          id="paint76_linear_5779_3266"
           x1="860.976"
           y1="978.574"
           x2="860.976"
@@ -3623,7 +2472,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint75_linear_5779_3266"
+          id="paint77_linear_5779_3266"
           x1="850.117"
           y1="862.547"
           x2="850.117"
@@ -3634,7 +2483,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint76_linear_5779_3266"
+          id="paint78_linear_5779_3266"
           x1="860.976"
           y1="862.547"
           x2="860.976"
@@ -3645,7 +2494,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint77_linear_5779_3266"
+          id="paint79_linear_5779_3266"
           x1="850.114"
           y1="845.227"
           x2="850.114"
@@ -3656,7 +2505,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint78_linear_5779_3266"
+          id="paint80_linear_5779_3266"
           x1="850.114"
           y1="851.123"
           x2="850.114"
@@ -3667,7 +2516,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#558AD3" />
         </linearGradient>
         <linearGradient
-          id="paint79_linear_5779_3266"
+          id="paint81_linear_5779_3266"
           x1="850.11"
           y1="404.205"
           x2="850.11"
@@ -3678,7 +2527,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint80_linear_5779_3266"
+          id="paint82_linear_5779_3266"
           x1="839.251"
           y1="404.205"
           x2="839.251"
@@ -3689,7 +2538,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint81_linear_5779_3266"
+          id="paint83_linear_5779_3266"
           x1="438.867"
           y1="813.122"
           x2="438.867"
@@ -3702,7 +2551,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint82_linear_5779_3266"
+          id="paint84_linear_5779_3266"
           x1="454.825"
           y1="764.976"
           x2="454.825"
@@ -3713,7 +2562,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint83_linear_5779_3266"
+          id="paint85_linear_5779_3266"
           x1="438.69"
           y1="412.649"
           x2="438.69"
@@ -3725,7 +2574,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#E5C675" />
         </linearGradient>
         <linearGradient
-          id="paint84_linear_5779_3266"
+          id="paint86_linear_5779_3266"
           x1="438.69"
           y1="856.695"
           x2="420.857"
@@ -3736,7 +2585,18 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9BD7FF" />
         </linearGradient>
         <linearGradient
-          id="paint85_linear_5779_3266"
+          id="paint87_linear_5779_3266"
+          x1="438.69"
+          y1="802.567"
+          x2="438.69"
+          y2="407.215"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9BD7FF" />
+          <stop offset="1" stop-color="#C1E9FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint88_linear_5779_3266"
           x1="438.695"
           y1="858.643"
           x2="438.695"
@@ -3747,7 +2607,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint86_linear_5779_3266"
+          id="paint89_linear_5779_3266"
           x1="455.973"
           y1="877.25"
           x2="455.973"
@@ -3758,75 +2618,53 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint87_linear_5779_3266"
-          x1="438.691"
-          y1="885.57"
-          x2="438.691"
-          y2="961.026"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint88_linear_5779_3266"
-          x1="458.336"
-          y1="964.913"
-          x2="458.336"
-          y2="887.177"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
-        </linearGradient>
-        <linearGradient
-          id="paint89_linear_5779_3266"
-          x1="438.691"
-          y1="885.57"
-          x2="438.691"
-          y2="961.026"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
           id="paint90_linear_5779_3266"
-          x1="458.336"
-          y1="964.913"
-          x2="458.336"
-          y2="887.177"
+          x1="438.691"
+          y1="885.57"
+          x2="438.691"
+          y2="961.026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stop-color="#F3E09D" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint91_linear_5779_3266"
-          x1="81.2111"
-          y1="38.4975"
-          x2="81.2111"
-          y2="0"
+          x1="458.336"
+          y1="964.913"
+          x2="458.336"
+          y2="887.177"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stop-color="#477BCA" />
+          <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint92_linear_5779_3266"
-          x1="93.7293"
-          y1="38.4975"
-          x2="93.7293"
-          y2="-9.31411"
+          x1="438.691"
+          y1="885.57"
+          x2="438.691"
+          y2="961.026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stop-color="#F3E09D" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint93_linear_5779_3266"
+          x1="458.336"
+          y1="964.913"
+          x2="458.336"
+          y2="887.177"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#477BCA" />
+          <stop offset="1" stop-color="#9CD6FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint94_linear_5779_3266"
           x1="81.2111"
           y1="38.4975"
           x2="81.2111"
@@ -3837,7 +2675,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint94_linear_5779_3266"
+          id="paint95_linear_5779_3266"
           x1="93.7293"
           y1="38.4975"
           x2="93.7293"
@@ -3848,7 +2686,29 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#477BCA" />
         </linearGradient>
         <linearGradient
-          id="paint95_linear_5779_3266"
+          id="paint96_linear_5779_3266"
+          x1="81.2111"
+          y1="38.4975"
+          x2="81.2111"
+          y2="0"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="1" stop-color="#C4A063" />
+        </linearGradient>
+        <linearGradient
+          id="paint97_linear_5779_3266"
+          x1="93.7293"
+          y1="38.4975"
+          x2="93.7293"
+          y2="-9.31411"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9CD6FF" />
+          <stop offset="1" stop-color="#477BCA" />
+        </linearGradient>
+        <linearGradient
+          id="paint98_linear_5779_3266"
           x1="438.693"
           y1="816.561"
           x2="438.693"
@@ -3860,7 +2720,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint96_linear_5779_3266"
+          id="paint99_linear_5779_3266"
           x1="450.304"
           y1="816.561"
           x2="450.304"
@@ -3871,7 +2731,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint97_linear_5779_3266"
+          id="paint100_linear_5779_3266"
           x1="438.695"
           y1="959.769"
           x2="438.695"
@@ -3882,7 +2742,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint98_linear_5779_3266"
+          id="paint101_linear_5779_3266"
           x1="449.554"
           y1="978.574"
           x2="449.554"
@@ -3893,7 +2753,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint99_linear_5779_3266"
+          id="paint102_linear_5779_3266"
           x1="438.695"
           y1="862.547"
           x2="438.695"
@@ -3904,7 +2764,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint100_linear_5779_3266"
+          id="paint103_linear_5779_3266"
           x1="449.554"
           y1="862.547"
           x2="449.554"
@@ -3915,7 +2775,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint101_linear_5779_3266"
+          id="paint104_linear_5779_3266"
           x1="438.692"
           y1="845.227"
           x2="438.692"
@@ -3926,7 +2786,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint102_linear_5779_3266"
+          id="paint105_linear_5779_3266"
           x1="438.692"
           y1="851.123"
           x2="438.692"
@@ -3937,7 +2797,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#558AD3" />
         </linearGradient>
         <linearGradient
-          id="paint103_linear_5779_3266"
+          id="paint106_linear_5779_3266"
           x1="438.688"
           y1="404.205"
           x2="438.688"
@@ -3948,7 +2808,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint104_linear_5779_3266"
+          id="paint107_linear_5779_3266"
           x1="427.829"
           y1="404.205"
           x2="427.829"
@@ -3959,7 +2819,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint105_linear_5779_3266"
+          id="paint108_linear_5779_3266"
           x1="27.445"
           y1="813.122"
           x2="27.445"
@@ -3972,7 +2832,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint106_linear_5779_3266"
+          id="paint109_linear_5779_3266"
           x1="43.4035"
           y1="764.976"
           x2="43.4035"
@@ -3983,7 +2843,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint107_linear_5779_3266"
+          id="paint110_linear_5779_3266"
           x1="27.2683"
           y1="412.649"
           x2="27.2683"
@@ -3995,7 +2855,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#E5C675" />
         </linearGradient>
         <linearGradient
-          id="paint108_linear_5779_3266"
+          id="paint111_linear_5779_3266"
           x1="27.2683"
           y1="856.695"
           x2="9.43493"
@@ -4006,7 +2866,18 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9BD7FF" />
         </linearGradient>
         <linearGradient
-          id="paint109_linear_5779_3266"
+          id="paint112_linear_5779_3266"
+          x1="27.2683"
+          y1="802.567"
+          x2="27.2683"
+          y2="407.215"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9BD7FF" />
+          <stop offset="1" stop-color="#C1E9FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint113_linear_5779_3266"
           x1="27.273"
           y1="858.643"
           x2="27.273"
@@ -4017,7 +2888,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint110_linear_5779_3266"
+          id="paint114_linear_5779_3266"
           x1="44.5508"
           y1="877.25"
           x2="44.5508"
@@ -4028,75 +2899,53 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint111_linear_5779_3266"
-          x1="27.2693"
-          y1="885.57"
-          x2="27.2693"
-          y2="961.026"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint112_linear_5779_3266"
-          x1="46.9136"
-          y1="964.913"
-          x2="46.9136"
-          y2="887.177"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
-        </linearGradient>
-        <linearGradient
-          id="paint113_linear_5779_3266"
-          x1="27.2693"
-          y1="885.57"
-          x2="27.2693"
-          y2="961.026"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint114_linear_5779_3266"
-          x1="46.9136"
-          y1="964.913"
-          x2="46.9136"
-          y2="887.177"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
-        </linearGradient>
-        <linearGradient
           id="paint115_linear_5779_3266"
-          x1="81.2111"
-          y1="38.4975"
-          x2="81.2111"
-          y2="0"
+          x1="27.2693"
+          y1="885.57"
+          x2="27.2693"
+          y2="961.026"
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint116_linear_5779_3266"
-          x1="93.7293"
-          y1="38.4975"
-          x2="93.7293"
-          y2="-9.31411"
+          x1="46.9136"
+          y1="964.913"
+          x2="46.9136"
+          y2="887.177"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stop-color="#477BCA" />
+          <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint117_linear_5779_3266"
+          x1="27.2693"
+          y1="885.57"
+          x2="27.2693"
+          y2="961.026"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
+        </linearGradient>
+        <linearGradient
+          id="paint118_linear_5779_3266"
+          x1="46.9136"
+          y1="964.913"
+          x2="46.9136"
+          y2="887.177"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#477BCA" />
+          <stop offset="1" stop-color="#9CD6FF" />
+        </linearGradient>
+        <linearGradient
+          id="paint119_linear_5779_3266"
           x1="81.2111"
           y1="38.4975"
           x2="81.2111"
@@ -4107,7 +2956,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint118_linear_5779_3266"
+          id="paint120_linear_5779_3266"
           x1="93.7293"
           y1="38.4975"
           x2="93.7293"
@@ -4118,7 +2967,29 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#477BCA" />
         </linearGradient>
         <linearGradient
-          id="paint119_linear_5779_3266"
+          id="paint121_linear_5779_3266"
+          x1="81.2111"
+          y1="38.4975"
+          x2="81.2111"
+          y2="0"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="1" stop-color="#C4A063" />
+        </linearGradient>
+        <linearGradient
+          id="paint122_linear_5779_3266"
+          x1="93.7293"
+          y1="38.4975"
+          x2="93.7293"
+          y2="-9.31411"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#9CD6FF" />
+          <stop offset="1" stop-color="#477BCA" />
+        </linearGradient>
+        <linearGradient
+          id="paint123_linear_5779_3266"
           x1="27.2708"
           y1="816.561"
           x2="27.2708"
@@ -4130,7 +3001,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint120_linear_5779_3266"
+          id="paint124_linear_5779_3266"
           x1="38.8825"
           y1="816.561"
           x2="38.8825"
@@ -4141,7 +3012,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint121_linear_5779_3266"
+          id="paint125_linear_5779_3266"
           x1="27.273"
           y1="959.769"
           x2="27.273"
@@ -4152,7 +3023,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint122_linear_5779_3266"
+          id="paint126_linear_5779_3266"
           x1="38.1323"
           y1="978.574"
           x2="38.1323"
@@ -4163,7 +3034,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint123_linear_5779_3266"
+          id="paint127_linear_5779_3266"
           x1="27.273"
           y1="862.547"
           x2="27.273"
@@ -4174,7 +3045,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#C4A063" />
         </linearGradient>
         <linearGradient
-          id="paint124_linear_5779_3266"
+          id="paint128_linear_5779_3266"
           x1="38.1323"
           y1="862.547"
           x2="38.1323"
@@ -4185,7 +3056,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint125_linear_5779_3266"
+          id="paint129_linear_5779_3266"
           x1="27.27"
           y1="845.227"
           x2="27.27"
@@ -4196,7 +3067,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F4F2C3" />
         </linearGradient>
         <linearGradient
-          id="paint126_linear_5779_3266"
+          id="paint130_linear_5779_3266"
           x1="27.27"
           y1="851.123"
           x2="27.27"
@@ -4207,7 +3078,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#558AD3" />
         </linearGradient>
         <linearGradient
-          id="paint127_linear_5779_3266"
+          id="paint131_linear_5779_3266"
           x1="27.2661"
           y1="404.205"
           x2="27.2661"
@@ -4218,7 +3089,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint128_linear_5779_3266"
+          id="paint132_linear_5779_3266"
           x1="16.4068"
           y1="404.205"
           x2="16.4068"
@@ -4229,7 +3100,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#9CD6FF" />
         </linearGradient>
         <linearGradient
-          id="paint129_linear_5779_3266"
+          id="paint133_linear_5779_3266"
           x1="850.383"
           y1="1116.3"
           x2="850.383"
@@ -4241,7 +3112,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#F3E09D" />
         </linearGradient>
         <linearGradient
-          id="paint130_linear_5779_3266"
+          id="paint134_linear_5779_3266"
           x1="649.053"
           y1="1061.33"
           x2="649.053"
@@ -4251,52 +3122,6 @@ const GiftedLg: FC<{
           <stop stop-color="#3450B0" />
           <stop offset="0.329578" stop-color="#457BCA" />
           <stop offset="1" stop-color="#F3E09D" />
-        </linearGradient>
-        <linearGradient
-          id="paint131_linear_5779_3266"
-          x1="61.2024"
-          y1="13.0436"
-          x2="61.2024"
-          y2="55.7943"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint132_linear_5779_3266"
-          x1="61.2024"
-          y1="13.0436"
-          x2="61.2024"
-          y2="55.7943"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
-        </linearGradient>
-        <linearGradient
-          id="paint133_linear_5779_3266"
-          x1="61.2024"
-          y1="0"
-          x2="61.2024"
-          y2="65.7356"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#588DD5" />
-          <stop offset="1" stop-color="#85BEF1" />
-        </linearGradient>
-        <linearGradient
-          id="paint134_linear_5779_3266"
-          x1="27.4505"
-          y1="992.309"
-          x2="27.4505"
-          y2="977.662"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#588DD5" />
-          <stop offset="1" stop-color="#85BEF1" />
         </linearGradient>
         <linearGradient
           id="paint135_linear_5779_3266"
@@ -4335,9 +3160,9 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint138_linear_5779_3266"
-          x1="438.677"
+          x1="27.4505"
           y1="992.309"
-          x2="438.677"
+          x2="27.4505"
           y2="977.662"
           gradientUnits="userSpaceOnUse"
         >
@@ -4381,9 +3206,9 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint142_linear_5779_3266"
-          x1="850.115"
+          x1="438.677"
           y1="992.309"
-          x2="850.115"
+          x2="438.677"
           y2="977.662"
           gradientUnits="userSpaceOnUse"
         >
@@ -4427,9 +3252,9 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint146_linear_5779_3266"
-          x1="1261.52"
+          x1="850.115"
           y1="992.309"
-          x2="1261.52"
+          x2="850.115"
           y2="977.662"
           gradientUnits="userSpaceOnUse"
         >
@@ -4473,6 +3298,52 @@ const GiftedLg: FC<{
         </linearGradient>
         <linearGradient
           id="paint150_linear_5779_3266"
+          x1="1261.52"
+          y1="992.309"
+          x2="1261.52"
+          y2="977.662"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#588DD5" />
+          <stop offset="1" stop-color="#85BEF1" />
+        </linearGradient>
+        <linearGradient
+          id="paint151_linear_5779_3266"
+          x1="61.2024"
+          y1="13.0436"
+          x2="61.2024"
+          y2="55.7943"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
+        </linearGradient>
+        <linearGradient
+          id="paint152_linear_5779_3266"
+          x1="61.2024"
+          y1="13.0436"
+          x2="61.2024"
+          y2="55.7943"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#F3E09D" />
+          <stop offset="0.497336" stop-color="#E5C675" />
+          <stop offset="1" stop-color="#C5A064" />
+        </linearGradient>
+        <linearGradient
+          id="paint153_linear_5779_3266"
+          x1="61.2024"
+          y1="0"
+          x2="61.2024"
+          y2="65.7356"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#588DD5" />
+          <stop offset="1" stop-color="#85BEF1" />
+        </linearGradient>
+        <linearGradient
+          id="paint154_linear_5779_3266"
           x1="1672.98"
           y1="992.309"
           x2="1672.98"
@@ -4483,7 +3354,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#85BEF1" />
         </linearGradient>
         <linearGradient
-          id="paint151_linear_5779_3266"
+          id="paint155_linear_5779_3266"
           x1="852.41"
           y1="1068.25"
           x2="852.41"
@@ -4494,7 +3365,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#3450B0" />
         </linearGradient>
         <linearGradient
-          id="paint152_linear_5779_3266"
+          id="paint156_linear_5779_3266"
           x1="853"
           y1="35.6997"
           x2="853"
@@ -4505,7 +3376,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#042284" />
         </linearGradient>
         <linearGradient
-          id="paint153_linear_5779_3266"
+          id="paint157_linear_5779_3266"
           x1="853"
           y1="102.126"
           x2="853"
@@ -4517,7 +3388,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#3450B0" />
         </linearGradient>
         <linearGradient
-          id="paint154_linear_5779_3266"
+          id="paint158_linear_5779_3266"
           x1="1621.66"
           y1="1.47438"
           x2="1446.26"
@@ -4528,7 +3399,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#FBD1CF" />
         </linearGradient>
         <linearGradient
-          id="paint155_linear_5779_3266"
+          id="paint159_linear_5779_3266"
           x1="1677.26"
           y1="18.4761"
           x2="1584.9"
@@ -4539,7 +3410,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#FBD1CF" />
         </linearGradient>
         <linearGradient
-          id="paint156_linear_5779_3266"
+          id="paint160_linear_5779_3266"
           x1="1644.31"
           y1="143.77"
           x2="1551.94"
@@ -4550,7 +3421,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#FBD1CF" />
         </linearGradient>
         <linearGradient
-          id="paint157_linear_5779_3266"
+          id="paint161_linear_5779_3266"
           x1="282.837"
           y1="33.9148"
           x2="109.496"
@@ -4561,7 +3432,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#FBD1CF" />
         </linearGradient>
         <linearGradient
-          id="paint158_linear_5779_3266"
+          id="paint162_linear_5779_3266"
           x1="102.787"
           y1="102.977"
           x2="22.0914"
@@ -4572,7 +3443,7 @@ const GiftedLg: FC<{
           <stop offset="1" stop-color="#FBD1CF" />
         </linearGradient>
         <linearGradient
-          id="paint159_linear_5779_3266"
+          id="paint163_linear_5779_3266"
           x1="186.725"
           y1="-8.10698"
           x2="106.029"

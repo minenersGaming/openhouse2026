@@ -12,38 +12,34 @@ const ProgrammeSm: FC<{
       fill="none"
     >
       <g clip-path="url(#clip0_5779_4177)">
-        <g style={{ mixBlendMode: "soft-light" }}>
-          <path
-            d="M109.703 66.851L159.215 66.851M103.102 87.4478H185.621M132.809 87.4478V66.851"
-            stroke="white"
-            stroke-width="3.6495"
-            stroke-linecap="round"
-          />
-        </g>
-        <g style={{ mixBlendMode: "soft-light" }}>
-          <path
-            d="M46.4581 66.851L89.7667 66.851M69.556 22.7808L112.865 22.7808M40.6836 44.8159H112.865M66.6688 44.8159V66.851M95.5411 22.7808V44.8159"
-            stroke="white"
-            stroke-width="3.19226"
-            stroke-linecap="round"
-          />
-        </g>
-        <g style={{ mixBlendMode: "soft-light" }}>
-          <path
-            d="M485.461 217.927L435.949 217.927M492.062 238.524H409.543M462.355 238.524V217.927"
-            stroke="white"
-            stroke-width="3.6495"
-            stroke-linecap="round"
-          />
-        </g>
-        <g style={{ mixBlendMode: "soft-light" }}>
-          <path
-            d="M548.71 217.927L505.401 217.927M525.612 173.857L482.303 173.857M554.484 195.892H482.303M528.499 195.892V217.927M499.627 173.857V195.892"
-            stroke="white"
-            stroke-width="3.19226"
-            stroke-linecap="round"
-          />
-        </g>
+        <path
+          opacity="0.32"
+          d="M109.703 66.851L159.215 66.851M103.102 87.4478H185.621M132.809 87.4478V66.851"
+          stroke="white"
+          stroke-width="3.6495"
+          stroke-linecap="round"
+        />
+        <path
+          opacity="0.32"
+          d="M46.4581 66.851L89.7667 66.851M69.556 22.7808L112.865 22.7808M40.6836 44.8159H112.865M66.6688 44.8159V66.851M95.5411 22.7808V44.8159"
+          stroke="white"
+          stroke-width="3.19226"
+          stroke-linecap="round"
+        />
+        <path
+          opacity="0.32"
+          d="M485.461 217.927L435.949 217.927M492.062 238.524H409.543M462.355 238.524V217.927"
+          stroke="white"
+          stroke-width="3.6495"
+          stroke-linecap="round"
+        />
+        <path
+          opacity="0.32"
+          d="M548.71 217.927L505.401 217.927M525.612 173.857L482.303 173.857M554.484 195.892H482.303M528.499 195.892V217.927M499.627 173.857V195.892"
+          stroke="white"
+          stroke-width="3.19226"
+          stroke-linecap="round"
+        />
         <path
           d="M46.3516 350.589C46.3516 284.79 99.6915 231.451 165.49 231.451C231.288 231.451 284.627 284.791 284.627 350.589V2087H46.3516V350.589Z"
           fill="url(#paint0_linear_5779_4177)"

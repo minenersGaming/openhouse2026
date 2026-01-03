@@ -304,16 +304,14 @@ const OrgLg: FC<{
           d="M403.191 153.198C403.191 146.959 398.134 141.901 391.895 141.901H233.176V216.901H391.895C398.134 216.901 403.191 211.844 403.191 205.605V153.198Z"
           fill="url(#paint20_linear_5779_5880)"
         />
-        <g filter="url(#filter3_d_5779_5880)">
-          <path
-            d="M543.765 -37.938C404.216 -37.938 361.121 81.955 357.017 141.901H262.617C262.617 -73.4994 443.441 -141.981 543.765 -133.088V-37.938Z"
-            fill="#939393"
-          />
-          <path
-            d="M543.765 -37.938C404.216 -37.938 361.121 81.955 357.017 141.901H262.617C262.617 -73.4994 443.441 -141.981 543.765 -133.088V-37.938Z"
-            fill="url(#paint21_linear_5779_5880)"
-          />
-        </g>
+        <path
+          d="M543.765 -37.938C404.216 -37.938 361.121 81.955 357.017 141.901H262.617C262.617 -73.4994 443.441 -141.981 543.765 -133.088V-37.938Z"
+          fill="#939393"
+        />
+        <path
+          d="M543.765 -37.938C404.216 -37.938 361.121 81.955 357.017 141.901H262.617C262.617 -73.4994 443.441 -141.981 543.765 -133.088V-37.938Z"
+          fill="url(#paint21_linear_5779_5880)"
+        />
         <rect
           width="63.5605"
           height="857"
@@ -422,20 +420,18 @@ const OrgLg: FC<{
           d="M656.797 153.198C656.797 146.959 661.855 141.901 668.094 141.901H826.812V216.901H668.094C661.855 216.901 656.797 211.844 656.797 205.605V153.198Z"
           fill="url(#paint42_linear_5779_5880)"
         />
-        <g filter="url(#filter4_d_5779_5880)">
-          <path
-            d="M516.224 -37.938C655.772 -37.938 698.867 81.955 702.971 141.901H797.371C797.371 -73.4994 616.547 -141.981 516.224 -133.088V-37.938Z"
-            fill="#939393"
-          />
-          <path
-            d="M516.224 -37.938C655.772 -37.938 698.867 81.955 702.971 141.901H797.371C797.371 -73.4994 616.547 -141.981 516.224 -133.088V-37.938Z"
-            fill="url(#paint43_linear_5779_5880)"
-          />
-          <path
-            d="M516.224 -37.938C655.772 -37.938 698.867 81.955 702.971 141.901H797.371C797.371 -73.4994 616.547 -141.981 516.224 -133.088V-37.938Z"
-            fill="url(#paint44_linear_5779_5880)"
-          />
-        </g>
+        <path
+          d="M516.224 -37.938C655.772 -37.938 698.867 81.955 702.971 141.901H797.371C797.371 -73.4994 616.547 -141.981 516.224 -133.088V-37.938Z"
+          fill="#939393"
+        />
+        <path
+          d="M516.224 -37.938C655.772 -37.938 698.867 81.955 702.971 141.901H797.371C797.371 -73.4994 616.547 -141.981 516.224 -133.088V-37.938Z"
+          fill="url(#paint43_linear_5779_5880)"
+        />
+        <path
+          d="M516.224 -37.938C655.772 -37.938 698.867 81.955 702.971 141.901H797.371C797.371 -73.4994 616.547 -141.981 516.224 -133.088V-37.938Z"
+          fill="url(#paint44_linear_5779_5880)"
+        />
         <rect
           x="738.559"
           y="283.757"
@@ -600,7 +596,7 @@ const OrgLg: FC<{
           />
         </g>
         <g opacity="0.54">
-          <g filter="url(#filter5_d_5779_5880)">
+          <g filter="url(#filter3_d_5779_5880)">
             <rect
               x="838.207"
               y="573.994"
@@ -616,7 +612,7 @@ const OrgLg: FC<{
           />
         </g>
         <g opacity="0.54">
-          <g filter="url(#filter6_d_5779_5880)">
+          <g filter="url(#filter4_d_5779_5880)">
             <rect
               x="864.98"
               y="596.09"
@@ -834,7 +830,7 @@ const OrgLg: FC<{
             rx="5.2377"
             fill="url(#paint82_linear_5779_5880)"
           />
-          <g filter="url(#filter7_d_5779_5880)">
+          <g filter="url(#filter5_d_5779_5880)">
             <rect
               width="32.1042"
               height="86.0825"
@@ -847,7 +843,7 @@ const OrgLg: FC<{
             d="M77.0623 117.804C73.0225 102.54 71.3627 96.4062 65.2878 93.4941C61.6161 96.153 63.4645 104.054 57.6911 109.827C51.9176 115.6 51.7404 131.351 57.6911 139.074H73.6442C70.3547 138.188 80.4804 130.718 77.0623 117.804Z"
             fill="#3450B0"
           />
-          <g filter="url(#filter8_d_5779_5880)">
+          <g filter="url(#filter6_d_5779_5880)">
             <rect
               x="164.008"
               y="988.752"
@@ -873,7 +869,7 @@ const OrgLg: FC<{
             d="M168.535 967.482C172.575 952.218 174.235 946.084 180.31 943.172C183.982 945.831 182.133 953.732 187.907 959.505C193.68 965.279 193.857 981.029 187.907 988.752H171.954C175.243 987.866 165.117 980.396 168.535 967.482Z"
             fill="url(#paint84_linear_5779_5880)"
           />
-          <g filter="url(#filter9_d_5779_5880)">
+          <g filter="url(#filter7_d_5779_5880)">
             <rect
               width="29.3232"
               height="59.5859"
@@ -990,106 +986,70 @@ const OrgLg: FC<{
           fill="url(#paint101_linear_5779_5880)"
         />
         <g opacity="0.74">
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              x="1572.86"
-              y="55.5192"
-              width="128.208"
-              height="35.2571"
-              rx="14.5033"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              x="1534.7"
-              y="99.688"
-              width="128.208"
-              height="35.2571"
-              rx="14.5033"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              x="1613.26"
-              y="143.857"
-              width="128.208"
-              height="35.2571"
-              rx="14.5033"
-              fill="#D9D9D9"
-            />
-          </g>
-        </g>
-        <g opacity="0.74">
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              width="128.208"
-              height="35.2571"
-              rx="14.5033"
-              transform="matrix(-1 0 0 1 1368.72 736.149)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              width="128.208"
-              height="35.2571"
-              rx="14.5033"
-              transform="matrix(-1 0 0 1 1406.87 780.318)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              width="128.208"
-              height="35.2571"
-              rx="14.5033"
-              transform="matrix(-1 0 0 1 1328.32 824.487)"
-              fill="#D9D9D9"
-            />
-          </g>
-        </g>
-        <g opacity="0.74">
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              width="120.237"
-              height="33.0651"
-              rx="13.6016"
-              transform="matrix(-1 0 0 1 1340.73 188.78)"
-              fill="#D9D9D9"
-            />
-          </g>
-          <g style={{ mixBlendMode: "soft-light" }}>
-            <rect
-              width="120.237"
-              height="33.0651"
-              rx="13.6016"
-              transform="matrix(-1 0 0 1 1376.51 230.202)"
-              fill="#D9D9D9"
-            />
-          </g>
-        </g>
-        <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
           <rect
-            x="1621.23"
-            y="728.955"
-            width="120.237"
-            height="33.0651"
-            rx="13.6016"
-            fill="#D9D9D9"
+            x="1572.86"
+            y="55.5192"
+            width="128.208"
+            height="35.2571"
+            rx="14.5033"
+            fill="#0C2B8A"
+          />
+          <rect
+            x="1534.7"
+            y="99.688"
+            width="128.208"
+            height="35.2571"
+            rx="14.5033"
+            fill="#0C2B8A"
+          />
+          <rect
+            x="1613.26"
+            y="143.857"
+            width="128.208"
+            height="35.2571"
+            rx="14.5033"
+            fill="#0C2B8A"
           />
         </g>
-        <g style={{ mixBlendMode: "soft-light" }} opacity="0.74">
+        <g opacity="0.59">
           <rect
-            x="1585.45"
-            y="770.378"
-            width="120.237"
-            height="33.0651"
-            rx="13.6016"
-            fill="#D9D9D9"
+            width="128.208"
+            height="35.2571"
+            rx="14.5033"
+            transform="matrix(-1 0 0 1 1428.7 630.06)"
+            fill="#193395"
+          />
+          <rect
+            width="128.208"
+            height="35.2571"
+            rx="14.5033"
+            transform="matrix(-1 0 0 1 1466.85 674.228)"
+            fill="#193395"
+          />
+          <rect
+            width="128.208"
+            height="35.2571"
+            rx="14.5033"
+            transform="matrix(-1 0 0 1 1388.29 718.397)"
+            fill="#193395"
           />
         </g>
+        <rect
+          x="1621.23"
+          y="741.001"
+          width="120.237"
+          height="33.0651"
+          rx="13.6016"
+          fill="#0C277C"
+        />
+        <rect
+          x="1585.45"
+          y="782.424"
+          width="120.237"
+          height="33.0651"
+          rx="13.6016"
+          fill="#0C277C"
+        />
         <g style={{ mixBlendMode: "screen" }} opacity="0.66">
           <path
             d="M218.673 774.876C254.055 812.793 218.817 846.036 245.502 890.506C296.286 975.137 725.354 797.418 872.945 847.595C965.163 878.947 1043.49 1038.14 1000.11 1129.71L440.674 1123.12C440.674 1123.12 453.744 1094.05 386.991 1078.16C299.302 1057.3 104.19 1085.04 55.5299 1009.17C2.96742 927.207 138.953 773.144 155.672 789.458C150.493 781.8 127.331 744.136 181.475 755.919C210.532 762.242 198.385 753.135 218.673 774.876Z"
@@ -1315,76 +1275,6 @@ const OrgLg: FC<{
         </filter>
         <filter
           id="filter3_d_5779_5880"
-          x="255.817"
-          y="-139.642"
-          width="300.748"
-          height="295.343"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dx="3" dy="4" />
-          <feGaussianBlur stdDeviation="4.9" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.19 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_5779_5880"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_5779_5880"
-            result="shape"
-          />
-        </filter>
-        <filter
-          id="filter4_d_5779_5880"
-          x="509.423"
-          y="-139.642"
-          width="300.748"
-          height="295.343"
-          filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
-        >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
-          <feColorMatrix
-            in="SourceAlpha"
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            result="hardAlpha"
-          />
-          <feOffset dx="3" dy="4" />
-          <feGaussianBlur stdDeviation="4.9" />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix
-            type="matrix"
-            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.19 0"
-          />
-          <feBlend
-            mode="normal"
-            in2="BackgroundImageFix"
-            result="effect1_dropShadow_5779_5880"
-          />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="effect1_dropShadow_5779_5880"
-            result="shape"
-          />
-        </filter>
-        <filter
-          id="filter5_d_5779_5880"
           x="837.512"
           y="573.994"
           width="28.1591"
@@ -1419,7 +1309,7 @@ const OrgLg: FC<{
           />
         </filter>
         <filter
-          id="filter6_d_5779_5880"
+          id="filter4_d_5779_5880"
           x="864.346"
           y="596.09"
           width="25.7224"
@@ -1454,7 +1344,7 @@ const OrgLg: FC<{
           />
         </filter>
         <filter
-          id="filter7_d_5779_5880"
+          id="filter5_d_5779_5880"
           x="48.6512"
           y="139.074"
           width="33.7719"
@@ -1489,7 +1379,7 @@ const OrgLg: FC<{
           />
         </filter>
         <filter
-          id="filter8_d_5779_5880"
+          id="filter6_d_5779_5880"
           x="163.175"
           y="988.752"
           width="33.7719"
@@ -1524,7 +1414,7 @@ const OrgLg: FC<{
           />
         </filter>
         <filter
-          id="filter9_d_5779_5880"
+          id="filter7_d_5779_5880"
           x="19.403"
           y="165.571"
           width="30.8463"
