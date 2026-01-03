@@ -44,6 +44,9 @@ export default async function proxy(request: NextRequest) {
   if (currentPath === "/register/user" && user.isStaff) {
     return NextResponse.redirect(new URL("/", request.url));
   }
+  if (currentPath === "/register/user/staff" && user.isStaff) {
+    return NextResponse.redirect(new URL("/staff", request.url));
+  }
 
   return NextResponse.next();
 }
