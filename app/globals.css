@@ -101,3 +101,49 @@ img {
 .font-noto-sans-thai {
   font-family: "Noto Sans Thai", sans-serif;
 }
+
+/* In your global CSS or CSS module */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.dateContainer {
+  animation: slideInFromLeft 0.4s ease-out forwards;
+}
+
+.dateContainerExit {
+  animation: slideOutRight 0.4s ease-out forwards;
+}
