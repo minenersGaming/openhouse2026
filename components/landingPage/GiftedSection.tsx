@@ -19,7 +19,7 @@ const GiftedSection = () => {
     <section className="bg-linear-to-t to-[#042284] via-[#3450B0] from-[#F3E09D]">
       <div className=" block md:hidden  ">
         <div className="absolute flex flex-col justify-center items-center w-full mt-10 sm:mt-12 mb-10 px-5">
-          <GiftedTextSm className="w-[80vw]" />
+          <GiftedTextSm className="w-[90vw]  -translate-x-[4%]" />
           <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-xl">
             โครงการพัฒนาความสามารถพิเศษ
           </p>
@@ -37,9 +37,9 @@ const GiftedSection = () => {
         <GiftedSm className=" w-full left-0 " />
       </div>
       <div className="relative hidden md:block">
-        <div className="absolute flex flex-col justify-center items-center w-full mt-[4.5%] mb-10 px-5">
-          <GiftedTextLg className="w-[60vw]" />
-          <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-2xl">
+        <div className="absolute flex flex-col justify-center items-center w-full mt-[1.5%] mb-10 px-5">
+          <GiftedTextLg className="w-[65vw]" />
+          <p className="-translate-y-[80%]  font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-2xl">
             โครงการพัฒนาความสามารถพิเศษ
           </p>
         </div>
