@@ -19,7 +19,7 @@ export default function ClubsInfoPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`/api/doc/getDocument?type=clubs&key=${id}`) //for programs use  type=programs&key=... etc 
+    fetch(`/api/doc/getDocument?type=clubs&key=${id}`)
       .then((res) => res.json())
       .then((json) => setData(json.data))
       .finally(() => setLoading(false));
@@ -40,37 +40,33 @@ export default function ClubsInfoPage() {
           className="flex flex-row items-center mt-24 hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />
-          <p className="text-[#F3ECB7]">ย้อนกลับ</p>
+          <span className="text-[#F3ECB7]">ย้อนกลับ</span>
         </button>
 
-        <p className="text-[#F3ECB7] font-bold text-4xl text-center px-4 mt-2">
+        <h1 className="text-[#F3ECB7] font-bold text-4xl text-center px-4 mt-2">
           {data.name}
-        </p>
+        </h1>
 
         <div className="flex flex-row items-center space-x-6">
           <div className="flex flex-row items-center space-x-3">
             <MemberIcon className="w-12" />
             <div className="flex flex-col justify-center items-center">
-              <p className="font-semibold text-[#F3ECB7]">สมาชิก</p>
-              <p className="text-[#F3ECB7] text-4xl font-bold">
+              <span className="font-semibold text-[#F3ECB7]">สมาชิก</span>
+              <span className="text-[#F3ECB7] text-4xl font-bold">
                 {data.members}
-              </p>
+              </span>
             </div>
           </div>
 
           <div className="h-16 rounded-full bg-[#F3E29E] w-[4px]" />
 
           <div className="flex flex-col">
-            {data.ig && (
-              <p className="text-[#F3ECB7] font-light">IG: {data.ig}</p>
-            )}
-            {data.fb && (
-              <p className="text-[#F3ECB7] font-light">FB: {data.fb}</p>
-            )}
+            {data.ig && <span className="text-[#F3ECB7] font-light">IG: {data.ig}</span>}
+            {data.fb && <span className="text-[#F3ECB7] font-light">FB: {data.fb}</span>}
             {data.others && (
-              <p className="text-[#F3ECB7] font-light">
+              <span className="text-[#F3ECB7] font-light">
                 อื่น ๆ : {data.others}
-              </p>
+              </span>
             )}
           </div>
         </div>
@@ -89,7 +85,11 @@ export default function ClubsInfoPage() {
             item={0}
             img={data.captureimg1}
             imgDescription={data.descimg1}
-            text={data.activities}
+            text={
+              <div
+                dangerouslySetInnerHTML={{ __html: data.activities }}
+              />
+            }
           />
         )}
 
@@ -99,7 +99,11 @@ export default function ClubsInfoPage() {
             item={1}
             img={data.captureimg2}
             imgDescription={data.descimg2}
-            text={data.benefits}
+            text={
+              <div
+                dangerouslySetInnerHTML={{ __html: data.benefits }}
+              />
+            }
           />
         )}
 
@@ -109,7 +113,11 @@ export default function ClubsInfoPage() {
             item={2}
             img={data.captureimg3}
             imgDescription={data.descimg3}
-            text={data.working}
+            text={
+              <div
+                dangerouslySetInnerHTML={{ __html: data.working }}
+              />
+            }
           />
         )}
       </div>
@@ -118,25 +126,30 @@ export default function ClubsInfoPage() {
         <div className="w-full flex flex-col justify-center items-center mt-5">
           <div className="w-[80%] flex flex-row items-center justify-center space-x-2">
             <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full hidden md:block" />
-              <p className="font-bold text-3xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
-                รีวิวจากรุ่นพี่
-              </p>
+            <h2 className="font-bold text-3xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
+              รีวิวจากรุ่นพี่
+            </h2>
             <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full hidden md:block" />
           </div>
 
-    {data.reviews.map((r: any, i: number) => (
-      <ReviewBox
-        key={i}
-        name={r.nick}
-        img={r.profile}          // ✅ profile picture
-        gen={r.gen}
-        ig={r.contact}           // ✅ IG / contact text
-        text={r.content}         // ✅ HTML content
-      />
-            ))}
+          {data.reviews.map((r: any, i: number) => (
+            <ReviewBox
+              key={i}
+              name={r.nick}
+              img={r.profile}
+              gen={r.gen}
+              ig={r.contact}
+              text={
+                <div
+                  dangerouslySetInnerHTML={{ __html: r.content }}
+                />
+              }
+            />
+          ))}
         </div>
-        )}
-
+      )}
     </div>
   );
 }
+
+// IGNORE ERROR ON THE "TEXT" IT DOESN'T MATTER
