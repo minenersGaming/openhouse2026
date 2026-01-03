@@ -257,12 +257,12 @@ const PerformancePage = () => {
               className={`
                           absolute inset-0
                 mx-auto flex flex-col items-center
-                transition-all w-[92vw] duration-300 ease-in
+                transition-all duration-300 ease-in
                 transform
                 ${
                   date === "FRI 9 JAN"
                     ? "translate-x-0 "
-                    : "translate-x-[10px] opacity-0 pointer-events-none"
+                    : "translate-x-10 opacity-0 pointer-events-none"
                 }
               `}
             >
@@ -286,12 +286,12 @@ const PerformancePage = () => {
               className={`
                 absolute inset-0
                 mx-auto flex flex-col items-center
-                transition-all w-[92vw] duration-300 ease-in
+                transition-all duration-300 ease-in
                 transform
                 ${
                   date === "SAT 10 JAN"
                     ? "translate-x-0 "
-                    : "-translate-x-[10px] opacity-0 pointer-events-none"
+                    : "-translate-x-10 opacity-0 pointer-events-none"
                 }
               `}
             >
