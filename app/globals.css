@@ -101,3 +101,19 @@ img {
 .font-noto-sans-thai {
   font-family: "Noto Sans Thai", sans-serif;
 }
+
+.font-bai-jamjuree {
+  font-family: "Bai Jamjuree", "Inter", sans-serif;
+}
+
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-scroll.show {
+  opacity: 1;
+  transform: translateY(0);
+}

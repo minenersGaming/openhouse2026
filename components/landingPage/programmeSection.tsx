@@ -25,7 +25,7 @@ import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
 const Style = {
   LgCard: "w-[25vw] hover:scale-105 transition-all duration-400",
   LgFlex:
-    "flex flex-col justify-center items-center left-0 translate-x- z-67 -space-y-15",
+    "flex flex-col justify-center items-center left-0 translate-x- z-67 -space-y-15  fade-in-scroll",
   LgPadding: "w-[17vw] left-0 -translate-y-10",
 };
 
@@ -89,13 +89,13 @@ const ProgrammeSection = () => {
       </div>
 
       <div className="block md:hidden">
-        <div className="w-[56vw] overflow-clip absolute z-67 -space-y-20 sm:-space-y-40 md:-space-y-50 flex flex-col justify-center items-center left-0 translate-y-40 sm:translate-y-60 md:translate-y-90">
+        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-20 sm:-space-y-40 md:-space-y-50 flex flex-col justify-center items-center left-0 translate-y-40 sm:translate-y-60 md:translate-y-90">
           <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
         </div>
-        <div className=" w-[56vw] overflow-clip absolute z-67 -space-y-20 sm:-space-y-40 md:-space-y-50 flex flex-col justify-center items-center right-0 translate-y-47 sm:translate-y-76 md:translate-y-106">
+        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-20 sm:-space-y-40 md:-space-y-50 flex flex-col justify-center items-center right-0 translate-y-47 sm:translate-y-76 md:translate-y-106">
           <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
