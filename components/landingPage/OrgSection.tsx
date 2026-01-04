@@ -24,16 +24,28 @@ const OrgSection = () => {
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
             >
-              <TUSCLg className="w-[25vw] hover:scale-105  transition-all" />
-              <AnusornLg className="w-[25vw] hover:scale-105  transition-all" />
+              <a href="/ondev/organizations/TUSC" className="block">
+                 <TUSCLg className="w-[25vw] hover:scale-105  transition-all" />           
+              </a>
+              <a href="/ondev/organizations/TUANUSORN" className="block">
+                 <AnusornLg className="w-[25vw] hover:scale-105  transition-all" />           
+              </a>
             </div>
             <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
-              <TUCMCLg className="w-[25vw] hover:scale-105  transition-all" />
-              <AICLg className="w-[25vw] hover:scale-105  transition-all" />
+              <a href="/ondev/organizations/TUCMC" className="block">
+                <TUCMCLg className="w-[25vw] hover:scale-105  transition-all" />
+              </a>
+              <a href="/ondev/organizations/AIC" className="block">
+                <AICLg className="w-[25vw] hover:scale-105  transition-all" />
+              </a>
             </div>
             <div className="flex flex-col h-[140%] -space-y-10">
-              <TUPROLg className="w-[25vw] hover:scale-105  transition-all" />
-              <TUNSOLg className="w-[25vw] hover:scale-105  transition-all" />
+              <a href="/ondev/organizations/TUPRO" className="block">
+                <TUPROLg className="w-[25vw] hover:scale-105  transition-all" />
+              </a>
+              <a href="/ondev/organizations/TUNSO" className="block">
+                <TUNSOLg className="w-[25vw] hover:scale-105  transition-all" />
+              </a>
             </div>
           </div>
           <div className="w-1/3 flex flex-col items-center justify-center py-15">
