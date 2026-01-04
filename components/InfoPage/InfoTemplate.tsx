@@ -4,56 +4,215 @@ import { JSX } from "react";
 const SampleImg =
   "https://www.ondemand.in.th/wp-content/uploads/2020/07/%E0%B8%9F%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C_%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2-2.jpg";
 const TextBoxStyle =
-  "mt-3 rounded-[1.8125rem] w-[75vw] bg-[rgba(69,123,202,0.44)] shadow-[0_1.5px_1px_0_rgba(0,0,0,0.25)] backdrop-blur-[5.55px]";
-
+  "mt-3 rounded-[1.8125rem] w-[80vw]  md:w-[60vw] bg-[rgba(69,123,202,0.44)] shadow-[0_1.5px_1px_0_rgba(0,0,0,0.25)] backdrop-blur-[5.55px]";
+const SmTextStyle =
+  " text-2xl sm:text-5xl md:text-6xl lg:text-7xl block md:hidden ";
 type categoryType = "clubs" | "organization" | "programme" | "gifted";
 const CommonTextStyle =
   "font-bold bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent";
 const BigTextItem: Record<categoryType, JSX.Element[]> = {
   clubs: [
-    <div className="flex flex-col justify-center items-end">
+    <div className="flex flex-col justify-center items-start md:items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl`}
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
       >
         ชมรมนี้
       </p>
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl`}
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
       >
         ทำอะไร
       </p>
+      <p className={`${CommonTextStyle}  ${SmTextStyle}`}>ชมรมนี้ทำอะไร</p>
     </div>,
     <div className="flex flex-col justify-center sm:-space-y-2 items-start">
       <p
-        className={`${CommonTextStyle} text-2xl sm:mb-0.5  sm:text-5xl md:text-6xl`}
+        className={`${CommonTextStyle} text-2xl sm:mb-0.5 sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
       >
         ประโยชน์
       </p>
-      <p className={`${CommonTextStyle} text-2xl  block sm:hidden`}>
-        ที่ได้รับ
-      </p>
-      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden sm:block`}>
+      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
         ที่ได้รับจาก
       </p>
-      <p className={`${CommonTextStyle} text-xl md:text-3xl  hidden sm:block`}>
+      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
         การเข้าร่วมชมรม
+      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle}`}>
+        ประโยชน์ที่ได้รับจากการเข้าร่วมชมรม
       </p>
     </div>,
     <div className="flex flex-col justify-center items-end">
-      <p className={`${CommonTextStyle} text-2xl sm:text-6xl lg:text-7xl`}>
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-6xl lg:text-7xl  hidden md:block`}
+      >
         ผลงาน
       </p>
-      <p className={`${CommonTextStyle} text-2xl block sm:hidden`}>ชมรม</p>
       <p
-        className={`${CommonTextStyle} text-3xl md:text-4xl  lg:text-5xl hidden sm:block`}
+        className={`${CommonTextStyle} text-3xl md:text-4xl  lg:text-5xl  hidden md:block `}
       >
         ของชมรม
       </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle}`}>ผลงานของชมรม</p>
     </div>,
   ],
-  organization: [],
-  programme: [],
-  gifted: [],
+  organization: [
+    <div className="flex flex-col justify-center items-start md:items-end">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        องค์กรนี้
+      </p>
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        ทำอะไร
+      </p>
+      <p className={`${CommonTextStyle}  ${SmTextStyle}`}>องค์กรนี้ทำอะไร</p>
+    </div>,
+    <div className="flex flex-col justify-center sm:-space-y-2 items-start">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:mb-0.5 sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        ตำแหน่ง
+      </p>
+      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
+        และหน้าที่ในแต่ละ
+      </p>
+      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
+        ตำแหน่ง
+      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle}`}>
+        ตำแหน่งและหน้าที่ในแต่ละตำแหน่ง
+      </p>
+    </div>,
+    <div className="flex flex-col justify-center items-end">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-6xl lg:text-7xl  hidden md:block`}
+      >
+        ผลงาน
+      </p>
+      <p
+        className={`${CommonTextStyle} text-3xl md:text-4xl  lg:text-5xl  hidden md:block `}
+      >
+        ขององค์กร
+      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle}`}>ผลงานขององค์กร</p>
+    </div>,
+  ],
+  programme: [
+    <div className="flex flex-col justify-center items-end">
+      <p
+        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-5xl lg:text-7xl`}
+      >
+        การรับสมัคร
+      </p>
+      <div className="flex flex-row items-start">
+        <p
+          className={`${CommonTextStyle} text-3xl lg:text-5xl mr-2 lg:mr-5 hidden md:block`}
+        >
+          และ
+        </p>
+        <p
+          className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-5xl lg:text-7xl hidden md:block`}
+        >
+          การสอบเข้า
+        </p>
+      </div>
+      <p className={`${CommonTextStyle}  ${SmTextStyle} `}>
+        การรับสมัครและการสอบเข้า
+      </p>
+    </div>,
+    <div className="flex flex-col justify-center items-start">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl  hidden md:block lg:text-7xl`}
+      >
+        วิชา /
+      </p>
+      <p className={`${CommonTextStyle} font-medium text-4xl hidden md:block`}>
+        หลักสูตรเพิ่มเติม
+      </p>
+      <p className={`${CommonTextStyle}  ${SmTextStyle}`}>
+        วิชา / หลักสูตรเพิ่มเติม
+      </p>
+    </div>,
+    <div className="flex flex-col justify-center items-end">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        ความ
+      </p>
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        น่าสนใจ
+      </p>
+      <p
+        className={`${CommonTextStyle} font-medium text-4xl  hidden md:block `}
+      >
+        ของสายการเรียน
+      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle} `}>
+        ความน่าสนใจของสายการเรียน
+      </p>
+    </div>,
+  ],
+  gifted: [
+    <div className="flex flex-col justify-center items-end">
+      <p
+        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-5xl lg:text-7xl`}
+      >
+        การรับสมัคร
+      </p>
+      <div className="flex flex-row items-start">
+        <p
+          className={`${CommonTextStyle} text-3xl lg:text-5xl mr-2 lg:mr-5 hidden md:block`}
+        >
+          และ
+        </p>
+        <p
+          className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-5xl lg:text-7xl hidden md:block`}
+        >
+          การสอบเข้า
+        </p>
+      </div>
+      <p className={`${CommonTextStyle}  ${SmTextStyle} `}>
+        การรับสมัครและการสอบเข้า
+      </p>
+    </div>,
+    <div className="flex flex-col justify-center items-start">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl  hidden md:block lg:text-7xl`}
+      >
+        วิชา /
+      </p>
+      <p className={`${CommonTextStyle} font-medium text-4xl hidden md:block`}>
+        หลักสูตรเพิ่มเติม
+      </p>
+      <p className={`${CommonTextStyle}  ${SmTextStyle}`}>
+        วิชา / หลักสูตรเพิ่มเติม
+      </p>
+    </div>,
+    <div className="flex flex-col justify-center items-end">
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        ความ
+      </p>
+      <p
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+      >
+        น่าสนใจ
+      </p>
+      <p
+        className={`${CommonTextStyle} font-medium text-4xl  hidden md:block `}
+      >
+        ของสายการเรียน
+      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle} `}>
+        ความน่าสนใจของสายการเรียน
+      </p>
+    </div>,
+  ],
 };
 
 const InfoTemplate = ({
@@ -70,24 +229,26 @@ const InfoTemplate = ({
   text: any;
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center my-3">
+    <div className="z-67 flex flex-col items-center justify-center my-3">
       <div
-        className={`flex ${
-          item % 2 == 0 ? "flex-row" : "flex-row-reverse"
+        className={`flex flex-col ${
+          item % 2 == 0 ? "md:flex-row" : "md:flex-row-reverse"
         } justify-center`}
       >
         <div
-          className={`flex flex-col justify-center ${
-            item % 2 == 0 ? "items-end" : "items-start"
+          className={`flex flex-col  justify-center ${
+            item % 2 == 0
+              ? "items-start ml-[4%] md:ml-auto md:items-end"
+              : "items-start"
           } justify-center`}
         >
           {BigTextItem[type][item]}
-          <Chandelier className="w-[20vw] lg:mt-5 " />
+          <Chandelier className="hidden md:block w-[15vw] lg:mt-5 " />
         </div>
-        <div className="flex flex-col items-center justify-center mx-3 lg:mx-6">
+        <div className="flex flex-col items-center justify-center mx-3 lg:mx-6 ">
           <img
             src={img}
-            className="rounded-[6px] object-cover w-[50vw] aspect-8/5"
+            className="rounded-[6px] object-cover w-[90vw] md:w-[45vw] aspect-8/5"
           />
           <p className="mt-1 text-[#F4F2C4B2] w-[50vw] text-center font-light text-sm font-bai-jamjuree">
             {imgDescription}
@@ -95,7 +256,7 @@ const InfoTemplate = ({
         </div>
       </div>
       <div className={TextBoxStyle}>
-        <p className="font-bai-jamjuree py-2 px-5 text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]">
+        <p className="font-bai-jamjuree py-2 text-sm md:text-md px-5 text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]">
           {text}
         </p>
       </div>

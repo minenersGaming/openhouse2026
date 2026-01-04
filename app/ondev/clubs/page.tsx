@@ -8,6 +8,8 @@ import Star1 from "@/vector/clubs/Star1";
 import Star2 from "@/vector/clubs/Star2";
 import Star3 from "@/vector/clubs/Star3";
 import Star4 from "@/vector/clubs/Star4";
+import StarL from "@/vector/clubs/StarL";
+import StarR from "@/vector/clubs/StarR";
 
 type ClubPreview = {
   key: string;
@@ -33,11 +35,12 @@ export default function ClubsPage() {
 
   return (
     <div className="relative w-screen min-h-screen bg-linear-to-t from-[#042284] via-[#3450B0] to-[#457BCA] overflow-hidden">
-      <CurvyLight className="absolute top-0 left-0  h-full pointer-events-none" />
-      <Star1 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw] translate-y-[110%]" />
-      <Star2 className="absolute w-[8vw] left-0 top-0 translate-x-[7vw] translate-y-[1250%] " />
-      <Star3 className="absolute w-[10vw] left-0 top-0 translate-x-[7vw] translate-y-[1500%]" />
-      <Star4 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw]  translate-y-[2550%]" />
+      <StarL className="absolute top-0 -left-10 hidden md:block translate-y-[5%] h-[90%] pointer-events-none" />
+      <StarR className="absolute top-0 -right-10 hidden md:block translate-y-[5%] h-[90%] pointer-events-none" />
+      <Star1 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw] translate-y-[110%] block md:hidden" />
+      <Star2 className="absolute w-[8vw] left-0 top-0 translate-x-[7vw] translate-y-[1250%]  md:hidden" />
+      <Star3 className="absolute w-[10vw] left-0 top-0 translate-x-[7vw] translate-y-[1500%] md:hidden" />
+      <Star4 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw]  translate-y-[2550%] md:hidden" />
       <div className="flex flex-col items-center pt-30 pb-10">
         <p className="text-5xl font-bold bg-linear-to-r from-[#F3E09D] to-[#FDFAE0] bg-clip-text text-transparent">
           ชมรม
