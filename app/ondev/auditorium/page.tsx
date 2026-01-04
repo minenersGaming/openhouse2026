@@ -108,7 +108,7 @@ const timeTable10 = [
       </p>
     ),
     caption: "ชมรมหลากทัศนะประวัติศาสตร์",
-    img: "/assets/images/auditory/หลากทัศน์.png",
+    img: "/assets/images/auditory/หลากทัศน์.jpg",
   },
   {
     time: "11.03-11.23",
@@ -183,11 +183,11 @@ const css = {
     " text-[#FDFCE5] font-noto-sans-thai font-bold leading-normal [text-shadow:0_3.164px_3.164px_rgba(0,0,0,0.25)]  " +
     " text-[28px] my-3 sm:text-[33px] sm:my-4 md:text-[35px] md:my-4 lg:text-[44.967px] lg:my-5 2xl:my-6  2xl:text-[54.967px] ",
   nameText:
-    " text-[#F4F2C4] font-noto-sans-thai font-semibold flex flex-col " +
+    "z-10 text-[#F4F2C4] font-noto-sans-thai font-semibold flex flex-col " +
     " text-[17px] leading-[18px] sm:text-[21px] sm:leading-[23px] md:text-[20px] md:leading-[20px] lg:text-[26px] lg:leading-[30px] 2xl:text-[29.271px] 2xl:leading-[33.669px] ",
   castle: "absolute bottom-0 right-0 w-full h-auto",
   caption:
-    " text-[#F4F2C4] font-noto-sans-thai leading-normal [text-shadow:0_3.041px_3.041px_rgba(0,0,0,0.25)] " +
+    " z-10 text-[#F4F2C4] font-noto-sans-thai leading-normal [text-shadow:0_3.041px_3.041px_rgba(0,0,0,0.25)] " +
     " text-[13px] sm:text-[15px] md:text-[13px] lg:text-[15px] 2xl:text-[18.659px] ",
   time:
     " text-white text-right font-noto-sans-thai font-bold " +
