@@ -165,16 +165,16 @@ const css = {
     " text-[#F4F2C4] text-right font-noto-sans-thai font-medium " +
     " text-[18px] leading-[16px] sm:text-[20px] sm:leading-[19px] md:text-[20px] md:leading-[19px] lg:text-[23.203px] lg:leading-[22.454px] 2xl:text-[28.203px] 2xl:leading-[27.454px] ",
   ActivityBox:
-    " rounded-[158.224px] bg-[linear-gradient(180deg,_#042284_-6.54%,_#0B1855_100%)] shadow-[0_2.538px_2.538px_rgba(0,0,0,0.25)] flex items-center " +
+    " rounded-[158.224px]  bg-[linear-gradient(180deg,_#042284_-6.54%,_#0B1855_100%)] shadow-[0_2.538px_2.538px_rgba(0,0,0,0.25)] flex items-center " +
     " w-[270px] px-4 py-3 sm:w-[380px] sm:px-5 sm:py-3 md:w-[400px] md:px-3 md:py-3.25 lg:px-8 lg:py-2 lg:w-[520.32px] 2xl:px-10 2xl:py-2.5 2xl:w-[710.32px] ",
   ActivityText:
-    " text-[#F4F2C4] font-noto-thai font-semibold flex flex-col " +
+    " text-[#F4F2C4] font-noto-sans-thai font-semibold flex flex-col " +
     " text-[17px] leading-[18px] sm:text-[21px] sm:leading-[23px] md:text-[22px] md:leading-[26px] lg:text-[26px] lg:leading-[30px] 2xl:text-[29.271px] 2xl:leading-[33.669px] ",
 };
 const container = {
   MdAll:
-    " w-screen relative bg-[linear-gradient(13deg,#042284_6.23%,#3450B0_45.79%,#457BCA_98.77%)] " +
-    " h-[1700px] py-25 sm:h-[2000px] py-30 md:h-[1430px] md:py-30 lg:h-[1600px] lg:py-40 2xl:py-40 2xl:h-[2100px]  ",
+    " w-screen overflow-hidden relative bg-[linear-gradient(13deg,#042284_6.23%,#3450B0_45.79%,#457BCA_98.77%)] " +
+    " h-[1600px] py-25 sm:h-[2000px] py-30 md:h-[1430px] md:py-30 lg:h-[1600px] lg:py-40 2xl:py-40 2xl:h-[2100px]  ",
   Box1: " flex flex-col " + " gap-4 md:gap-4 lg:gap-4 2xl:gap-6 ",
   Box2:
     " z-10 flex justify-center items-center " +
@@ -257,12 +257,12 @@ const PerformancePage = () => {
               className={`
                           absolute inset-0
                 mx-auto flex flex-col items-center
-                transition-all w-[92vw] duration-300 ease-in
+                transition-all duration-300 ease-in
                 transform
                 ${
                   date === "FRI 9 JAN"
                     ? "translate-x-0 "
-                    : "translate-x-[10px] opacity-0 pointer-events-none"
+                    : "translate-x-10 opacity-0 pointer-events-none"
                 }
               `}
             >
@@ -286,12 +286,12 @@ const PerformancePage = () => {
               className={`
                 absolute inset-0
                 mx-auto flex flex-col items-center
-                transition-all w-[92vw] duration-300 ease-in
+                transition-all duration-300 ease-in
                 transform
                 ${
                   date === "SAT 10 JAN"
                     ? "translate-x-0 "
-                    : "-translate-x-[10px] opacity-0 pointer-events-none"
+                    : "-translate-x-10 opacity-0 pointer-events-none"
                 }
               `}
             >

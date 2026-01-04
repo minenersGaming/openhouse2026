@@ -9,6 +9,10 @@ import Mdbeam from "@/vector/preformance/Mdbeam";
 import SmUpper from "@/vector/preformance/SmUpper";
 import SmBeam2 from "@/vector/preformance/SmBeam2";
 import SmBottom from "@/vector/preformance/SmBottom";
+import Mdcurtain from "@/vector/auditory/Mdcurtain";
+import BottomCastle from "@/vector/auditory/BottomCastle";
+import Image from "next/image";
+import SmCurtain from "@/vector/auditory/SmCurtain";
 
 const NotoSansThai = Noto_Sans_Thai({
   variable: "--font-noto-sans-thai",
@@ -17,127 +21,147 @@ const NotoSansThai = Noto_Sans_Thai({
 
 const timeTable9 = [
   {
-    timeStart: "10:05",
-    timeEnd: "10:17",
-    activity: "การแสดงของคณะคัลเลอร์การ์ด",
-  },
-  { timeStart: "10:17", timeEnd: "10:23", activity: "การแสดงคทากร" },
-  {
-    timeStart: "10:26",
-    timeEnd: "10:33",
-    activity: (
+    time: "9:02-10:42",
+    overall: "100 นาที",
+    name: (
       <p>
-        การเเสดงของผู้นำเชียร์ประจำ
+        Oh! My Orb The Musical
         <br />
-        โรงเรียนเตรียมอุดมศึกษา รุ่นที่ 42
+        ลูกแก้วอลหม่านเรือสำราญอลเวง
       </p>
     ),
+    caption: "ชมรมนิเทศศิลป",
+    img: "/assets/images/auditory/นิเทศศิลป_Tusp.jpg",
   },
-  { timeStart: "10:40", timeEnd: "10:45", activity: "การแสดงเต้นโซรัน" },
   {
-    timeStart: "10:50",
-    timeEnd: "11:10",
-    activity: (
+    time: "10.52-11.42",
+    overall: "50 นาที",
+    name: "ภาพยนตร์สั้น",
+    caption: "ชมรมภาพยนตร์สั้นและสื่อโทรทัศน์",
+    img: "/assets/images/auditory/ภาพยนตร์สั้นและสื่อโทรทัศน์.jpg",
+  },
+  {
+    time: "12.12-12.42",
+    overall: "30 นาที",
+    name: "My O'Clock",
+    caption: "ชมรมสันทนากร",
+    img: "/assets/images/auditory/tuent.jpg",
+  },
+  {
+    time: "12.44-13.19",
+    overall: "35 นาที",
+    name: "ไกล",
+    caption: "ชมรมสังคมศึกษา (หนังสังคม) ฝ่าย Documentary Maker",
+    img: "/assets/images/auditory/ไกล.jpg",
+  },
+  {
+    time: "13.22-14.07",
+    overall: "45 นาที",
+    name: "More than words",
+    caption: "ชมรมดุริยางค์",
+    img: "/assets/images/auditory/ดุริยางค์.jpg",
+  },
+  {
+    time: "14.10-15.10",
+    overall: "60 นาที",
+    name: "Dearest Dreamers",
+    caption: "ชมรมภาษาอังกฤษ (ขับร้องประสานเสียง)",
+    img: "/assets/images/auditory/epcho.jpg",
+  },
+  {
+    time: "15.13-16.33",
+    overall: "80 นาที",
+    name: (
       <p>
-        The Eternal Garden Of Bliss - <br />
-        สวนแห่งความสุขนิรันดร์
-      </p>
-    ),
-  },
-  {
-    timeStart: "11:15",
-    timeEnd: "11:33",
-    activity: "Le Carrousel; the madman’s cirque",
-  },
-  {
-    timeStart: "11:40",
-    timeEnd: "12:05",
-    activity: (
-      <p>
-        สัมภาษณ์ศิลป์ตะวันออก
+        In the Name of
         <br />
-        (ศิลป์ญี่ปุ่น, ศิลป์จีน, ศิลป์เกาหลี)
+        Desires the Musical
       </p>
     ),
+    caption: "ชมรมภาษาอังกฤษ (English Drama)",
+    img: "/assets/images/auditory/engma.jpg",
   },
-  { timeStart: "12:30", timeEnd: "12:55", activity: "สัมภาษณ์ศิลป์-คำนวณ" },
-  { timeStart: "13:02", timeEnd: "13:12", activity: "ระบำ Cumbia" },
-  { timeStart: "13:17", timeEnd: "13:47", activity: "K-POP Random Dance" },
-  {
-    timeStart: "14:25",
-    timeEnd: "14:50",
-    activity: "petite fête du thé (little tea party)",
-  },
-  { timeStart: "15:00", timeEnd: "15:30", activity: "คอนเสิร์ตดนตรีสากล" },
-  { timeStart: "15:40", timeEnd: "16:10", activity: "คอนเสิร์ตวงครู" },
 ];
 const timeTable10 = [
   {
-    timeStart: "09:10",
-    timeEnd: "09:35",
-    activity: "สัมภาษณ์ด้วยแทนโครงการพัฒนาความสามารถพิเศษ",
+    time: "9.02-9.37",
+    overall: "35 นาที",
+    name: "ไกล",
+    caption: "ชมรมสังคมศึกษา (หนังสังคม) ฝ่าย Documentary Maker",
+    img: "/assets/images/auditory/ไกล.jpg",
   },
   {
-    timeStart: "09:40",
-    timeEnd: "10:10",
-    activity: "More Than Words",
+    time: "9.39-10.34",
+    overall: "55 นาที",
+    name: "ภาพยนตร์สั้น",
+    caption: "ชมรมภาพยนตร์สั้นและสื่อโทรทัศน์",
+    img: "/assets/images/auditory/ภาพยนตร์สั้นและสื่อโทรทัศน์.jpg",
   },
   {
-    timeStart: "10:15",
-    timeEnd: "10:40",
-    activity: (
+    time: "10.36-11.01",
+    overall: "25 นาที",
+    name: (
       <p>
-        สัมภาษณ์ศิลป์ตะวันตก
+        สายรุ้งแห่งศรัทธา : คริสตชนไทย
         <br />
-        (ศิลป์ฝรั่งเศส, ศิลป์เยอรมัน, ศิลป์สเปน)
+        กับความหลากหลายทางเพศ
       </p>
     ),
+    caption: "ชมรมหลากทัศนะประวัติศาสตร์",
+    img: "/assets/images/auditory/หลากทัศน์.png",
   },
   {
-    timeStart: "10:45",
-    timeEnd: "10:50",
-    activity: "การแสดงเต้นโซรัน",
-  },
-  {
-    timeStart: "10:55",
-    timeEnd: "11:20",
-    activity: "สัมภาษณ์วิทย์-คณิต",
-  },
-  {
-    timeStart: "11:55",
-    timeEnd: "12:10",
-    activity: (
+    time: "11.03-11.23",
+    overall: "20 นาที",
+    name: (
       <p>
-        Flowers of The Mystical Garden
+        The last wish maker
         <br />
-        (หมู่ดอกไม้แห่งสวนพิศวง)
+        ตะเกียงแห่งมนตรา
       </p>
     ),
+    caption: "ชมรมนาฏศิลป์",
+    img: "/assets/images/auditory/The_Last_With_Maker.jpg",
   },
   {
-    timeStart: "12:15",
-    timeEnd: "12:35",
-    activity: "K-POP Random Dance",
+    time: "11.25-12.00",
+    overall: "35 นาที",
+    name: "My O'Clock",
+    caption: "ชมรมสันทนากร",
+    img: "/assets/images/auditory/tuent.jpg",
   },
   {
-    timeStart: "12:40",
-    timeEnd: "12:58",
-    activity: "Le Carrousel; the madman's cirque",
+    time: "12.27-13.27",
+    overall: "60 นาที",
+    name: "Dearest Dreamers",
+    caption: "ชมรมภาษาอังกฤษ (ขับร้องประสานเสียง)",
+    img: "/assets/images/auditory/epcho.jpg",
   },
   {
-    timeStart: "13:35",
-    timeEnd: "14:35",
-    activity: "คอนเสิร์ตดนตรีสากล",
+    time: "13.30-15.10",
+    overall: "100 นาที",
+    name: (
+      <p>
+        Oh! My Orb The Musical
+        <br />
+        ลูกแก้วอลหม่านเรือสำราญอลเวง
+      </p>
+    ),
+    caption: "ชมรมนิเทศศิลป",
+    img: "/assets/images/auditory/นิเทศศิลป_Tusp.jpg",
   },
   {
-    timeStart: "14:45",
-    timeEnd: "15:25",
-    activity: "คอนเสิร์ตวงดนตรีไทย",
-  },
-  {
-    timeStart: "15:35",
-    timeEnd: "16:00",
-    activity: "คอนเสิร์ตวงครู",
+    time: "15.13-16.33",
+    overall: "20 นาที",
+    name: (
+      <p>
+        In the Name of
+        <br />
+        Desires the Musical
+      </p>
+    ),
+    caption: "ชมรมภาษาอังกฤษ (English Drama)",
+    img: "/assets/images/auditory/engma.jpg",
   },
 ];
 
@@ -158,27 +182,32 @@ const css = {
   h1:
     " text-[#FDFCE5] font-noto-sans-thai font-bold leading-normal [text-shadow:0_3.164px_3.164px_rgba(0,0,0,0.25)]  " +
     " text-[28px] my-3 sm:text-[33px] sm:my-4 md:text-[35px] md:my-4 lg:text-[44.967px] lg:my-5 2xl:my-6  2xl:text-[54.967px] ",
-  timeStart:
-    "text-[#F4F2C4] text-right font-noto-sans-thai font-bold " +
-    " text-[25px] leading-[23px] sm:text-[32px] sm:leading-[31px] md:text-[32px] md:leading-[31px] lg:text-[35.812px] lg:leading-[34.595px] 2xl:text-[45.812px] 2xl:leading-[44.595px] ",
-  timeEnd:
-    " text-[#F4F2C4] text-right font-noto-sans-thai font-medium " +
-    " text-[18px] leading-[16px] sm:text-[20px] sm:leading-[19px] md:text-[20px] md:leading-[19px] lg:text-[23.203px] lg:leading-[22.454px] 2xl:text-[28.203px] 2xl:leading-[27.454px] ",
-  ActivityBox:
-    " rounded-[158.224px] bg-[linear-gradient(180deg,_#042284_-6.54%,_#0B1855_100%)] shadow-[0_2.538px_2.538px_rgba(0,0,0,0.25)] flex items-center " +
-    " w-[270px] px-4 py-3 sm:w-[380px] sm:px-5 sm:py-3 md:w-[400px] md:px-3 md:py-3.25 lg:px-8 lg:py-2 lg:w-[520.32px] 2xl:px-10 2xl:py-2.5 2xl:w-[710.32px] ",
-  ActivityText:
-    " text-[#F4F2C4] font-noto-thai font-semibold flex flex-col " +
-    " text-[17px] leading-[18px] sm:text-[21px] sm:leading-[23px] md:text-[22px] md:leading-[26px] lg:text-[26px] lg:leading-[30px] 2xl:text-[29.271px] 2xl:leading-[33.669px] ",
+  nameText:
+    " text-[#F4F2C4] font-noto-sans-thai font-semibold flex flex-col " +
+    " text-[17px] leading-[18px] sm:text-[21px] sm:leading-[23px] md:text-[20px] md:leading-[20px] lg:text-[26px] lg:leading-[30px] 2xl:text-[29.271px] 2xl:leading-[33.669px] ",
+  castle: "absolute bottom-0 right-0 w-full h-auto",
+  caption:
+    " text-[#F4F2C4] font-noto-sans-thai leading-normal [text-shadow:0_3.041px_3.041px_rgba(0,0,0,0.25)] " +
+    " text-[13px] sm:text-[15px] md:text-[13px] lg:text-[15px] 2xl:text-[18.659px] ",
+  time:
+    " text-white text-right font-noto-sans-thai font-bold " +
+    " text-[17px] leading-[20px] sm:text-[21px] sm:leading-[23px] md:text-[22px] md:leading-[21px] lg:text-[25px] lg:leading-[24px] 2xl:text-[29.58px] 2xl:leading-[28.795px]",
+  overall:
+    "text-white text-right font-noto-sans-thai font-semibold " +
+    " text-[14px] leading-[13px]  sm:text-[16px] sm:leading-[15px] md:text-[17px] md:leading-[16px] lg:text-[18px] lg:leading-[17px] 2xl:text-[20.51px] 2xl:leading-[19.966px] ",
 };
 const container = {
   MdAll:
-    " w-screen relative bg-[linear-gradient(13deg,#042284_6.23%,#3450B0_45.79%,#457BCA_98.77%)] " +
-    " h-[1700px] py-25 sm:h-[2000px] py-30 md:h-[1430px] md:py-30 lg:h-[1600px] lg:py-40 2xl:py-40 2xl:h-[2100px]  ",
+    " w-screen overflow-hidden relative bg-[linear-gradient(13deg,#042284_6.23%,#3450B0_45.79%,#457BCA_98.77%)] " +
+    " h-[2100px] py-25 sm:h-[2500px] py-30 md:h-[1940px] md:py-30 lg:h-[2350px] lg:py-30 2xl:py-40 2xl:h-[2600px]  ",
   Box1: " flex flex-col " + " gap-4 md:gap-4 lg:gap-4 2xl:gap-6 ",
   Box2:
-    " z-10 flex justify-center items-center " +
-    " gap-4 md:gap-2.5 lg:gap-6 2xl:gap-7 ",
+    "relative overflow-hidden flex bg-[linear-gradient(180deg,#042284_-6.54%,#0B1855_100%),linear-gradient(264deg,#3450B0_-9.13%,#042284_97.88%)] shadow-[0_1.009px_1.009px_0_rgba(0,0,0,0.25)] " +
+    " w-[370px] rounded-[15px] sm:w-[450px] sm:rounded-[15px] md:w-[400px] md:rounded-[12px] lg:w-[570px] lg:rounded-[12px] 2xl:w-[636.734px] 2xl:rounded-[12.724px] ",
+  Img:
+    "aspect-[131.23/185] h-auto overflow-hidden relative flex-shrink-0 " +
+    " w-[90px] m-3 rounded-[12px] sm:w-[100px] sm:m-3 sm:rounded-[12px] md:w-[105px] md:m-3 md:rounded-[10px] lg:w-[120px] lg:m-5 lg:rounded-[10px] 2xl:m-4 2xl:rounded-[10px] 2xl:w-[131.23px] ",
+  inner: "flex flex-col flex-1 " + " py-3 sm:py-3 md:py-3 lg:py-4 ",
 };
 
 const PerformancePage = () => {
@@ -187,16 +216,17 @@ const PerformancePage = () => {
   return (
     <>
       <div className={container.MdAll}>
-        <Mdleft className="hidden md:block absolute w-auto bottom-[5.6vw] left-0 md:h-[1300px] lg:h-[1470px] 2xl:h-[2000px]" />
-        <Mdright className="hidden md:block absolute w-auto bottom-[5.6vw] right-0 md:h-[1300px] lg:h-[1450px] 2xl:h-[2020px]" />
+        <Mdleft className="hidden md:block absolute w-auto bottom-[5.6vw] left-0 md:h-[1400px] lg:h-[1650px] 2xl:h-[2000px]" />
+        <Mdright className="hidden md:block absolute w-auto bottom-[5.6vw] right-0 md:h-[1400px] lg:h-[1650px] 2xl:h-[2020px]" />
+        <Mdcurtain className="hidden md:block absolute w-full h-auto top-0 right-0" />
         <Mdbeam className="hidden md:block absolute w-auto top-0 right-0 md:h-[1300px] lg:h-[1400px] 2xl:h-[1800px]" />
         <Mdbottom className=" hidden md:block absolute w-screen h-auto bottom-0 " />
-        <SmUpper className=" md:hidden absolute h-auto w-[98%] top-[60px] sm:top-[70px] right-0" />
         <SmBottom className="md:hidden absolute bottom-0 left-0 h-auto w-full" />
+        <SmCurtain className="md:hidden absolute top-0 left-0 h-auto w-full" />
         <SmBeam2 className="md:hidden absolute top-0 right-0 w-auto h-[95%]" />
         <div className=" flex flex-col items-center mx-auto">
           <p className={css.header1}>ตารางการแสดง</p>
-          <p className={css.header2}>ลาน 70 ปีฯ</p>
+          <p className={css.header2}>บนหอประชุม</p>
 
           <div
             className={"z-10 relative mx-auto bg-[#0B1855]/30 " + css.ButtonAll}
@@ -270,12 +300,26 @@ const PerformancePage = () => {
               <div className={container.Box1}>
                 {timeTable9.map((item, index) => (
                   <div key={index} className={container.Box2}>
-                    <div className="flex flex-col gap-1 items-end">
-                      <p className={css.timeStart}>{item.timeStart}</p>
-                      <p className={css.timeEnd}>-{item.timeEnd}</p>
+                    <BottomCastle className={css.castle} />
+
+                    {/* Add flex-shrink-0 and explicit dimensions */}
+                    <div className={container.Img}>
+                      <Image
+                        src={item.img}
+                        alt="img"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className={css.ActivityBox}>
-                      <p className={css.ActivityText}>{item.activity}</p>
+
+                    <div className={container.inner}>
+                      <p className={css.nameText}>{item.name}</p>
+                      <p className={css.caption}>{item.caption}</p>
+                    </div>
+
+                    <div className="absolute right-4 bottom-4">
+                      <p className={css.time}>{item.time}</p>
+                      <p className={css.overall}>{item.overall}</p>
                     </div>
                   </div>
                 ))}
@@ -299,12 +343,22 @@ const PerformancePage = () => {
               <div className={container.Box1}>
                 {timeTable10.map((item, index) => (
                   <div key={index} className={container.Box2}>
-                    <div className="flex flex-col gap-1 items-end">
-                      <p className={css.timeStart}>{item.timeStart}</p>
-                      <p className={css.timeEnd}>-{item.timeEnd}</p>
+                    <BottomCastle className={css.castle} />
+                    <div className={container.Img}>
+                      <Image
+                        src={item.img}
+                        alt="img"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className={css.ActivityBox}>
-                      <p className={css.ActivityText}>{item.activity}</p>
+                    <div className={container.inner}>
+                      <p className={css.nameText}>{item.name}</p>
+                      <p className={css.caption}>{item.caption}</p>
+                    </div>
+                    <div className="absolute right-4 bottom-4">
+                      <p className={css.time}>{item.time}</p>
+                      <p className={css.overall}>{item.overall}</p>
                     </div>
                   </div>
                 ))}
