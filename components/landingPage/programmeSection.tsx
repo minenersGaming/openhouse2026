@@ -60,29 +60,47 @@ const ProgrammeSection = () => {
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <SciMath className={Style.LgCard} />
-              <ArtsMath className={Style.LgCard} />
+              <a href="/ondev/programs/sci-math" className="block">
+                <SciMath className={Style.LgCard} />            
+              </a>
+              <a href="/ondev/programs/arts-math" className="block">
+                <ArtsMath className={Style.LgCard} />
+              </a>
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <ArtsFr className={Style.LgCard} />
-              <ArtsDe className={Style.LgCard} />
+              <a href="/ondev/programs/arts-french" className="block">
+                <ArtsFr className={Style.LgCard} />          
+              </a>
+
+              <a href="/ondev/programs/arts-german" className="block">
+                <ArtsDe className={Style.LgCard} />
+              </a>
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <ArtJp className={Style.LgCard} />
-              <ArtsEs className={Style.LgCard} />
+              <a href="/ondev/programs/arts-japanese" className="block">
+                <ArtJp className={Style.LgCard} />          
+              </a>
+
+              <a href="/ondev/programs/arts-espanol" className="block">
+                <ArtsEs className={Style.LgCard} />
+              </a>
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <ArtsCn className={Style.LgCard} />
-              <ArtsKr className={Style.LgCard} />
+              <a href="/ondev/programs/arts-chinese" className="block">
+                <ArtsCn className={Style.LgCard} />          
+              </a>
+              <a href="/ondev/programs/arts-korean" className="block">
+                <ArtsKr className={Style.LgCard} />
+              </a>
             </div>
           </div>
         </div>

@@ -44,10 +44,21 @@ const GiftedSection = () => {
           </p>
         </div>
         <div className="translate-y-[62%] absolute flex flex-row justify-center items-center w-full space-x-[9%]">
-          <GiftedMathLg className="w-[15vw] transition-all hover:scale-105" />
-          <GiftedSciLg className="w-[15vw] transition-all hover:scale-105" />
-          <GiftedEngLg className="w-[15vw] transition-all hover:scale-105" />
-          <GiftedThaiLg className="w-[15vw] transition-all hover:scale-105" />
+          <a href="/ondev/gifted/gifted-math" className="block">
+            <GiftedMathLg className="w-[15vw] transition-all hover:scale-105 cursor-pointer" />
+          </a>
+
+          <a href="/ondev/gifted/gifted-science" className="block">
+            <GiftedSciLg className="w-[15vw] transition-all hover:scale-105 cursor-pointer" />
+          </a>
+
+          <a href="/ondev/gifted/gifted-english" className="block">
+            <GiftedEngLg className="w-[15vw] transition-all hover:scale-105 cursor-pointer" />
+          </a>
+
+          <a href="/ondev/gifted/gifted-thai" className="block">
+            <GiftedThaiLg className="w-[15vw] transition-all hover:scale-105 cursor-pointer" />
+          </a>
         </div>
         <GiftedLg className="w-full" />
       </div>
