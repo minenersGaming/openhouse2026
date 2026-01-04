@@ -44,7 +44,7 @@ export default function OrganizationInfoPage() {
         </button>
 
         <h1 className="text-[#F3ECB7] font-bold text-4xl text-center px-4 mt-2">
-          {data.name}
+          {data.thainame}
         </h1>
 
         <div className="flex flex-row items-center space-x-6">
@@ -99,7 +99,7 @@ export default function OrganizationInfoPage() {
             item={1}
             img={data.captureimg2}
             imgDescription={data.descimg2}
-            text={<div dangerouslySetInnerHTML={{ __html: data.benefits }} />}
+            text={<div dangerouslySetInnerHTML={{ __html: data.position }} />}
           />
         )}
 
