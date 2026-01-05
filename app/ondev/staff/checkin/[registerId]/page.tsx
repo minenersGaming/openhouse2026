@@ -43,6 +43,8 @@ async function confirmCheckIn(
   }
 }
 
+//`${window.location.origin}/staff/checkin/${data.registerId}`
+
 export default function StaffBookingPage() {
   const { registerId } = useParams<{ registerId: string }>();
   const router = useRouter();
