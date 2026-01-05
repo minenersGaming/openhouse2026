@@ -8,10 +8,7 @@ export async function POST(request: NextRequest) {
   });
 
   if (!session || !session.user?.isStaff) {
-    return NextResponse.json(
-      { error: "Unauthorized" },
-      { status: 401 }
-    );
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const body = await request.json();
@@ -25,10 +22,7 @@ export async function POST(request: NextRequest) {
   }
 
   if (door !== "ประตูพญาไท" && door !== "ประตูอังรีดูนังต์") {
-    return NextResponse.json(
-      { error: "Invalid door" },
-      { status: 400 }
-    );
+    return NextResponse.json({ error: "Invalid door" }, { status: 400 });
   }
 
   const booking = await prisma.booking.findUnique({
@@ -37,24 +31,18 @@ export async function POST(request: NextRequest) {
   });
 
   if (!booking) {
-    return NextResponse.json(
-      { error: "Booking not found" },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "Booking not found" }, { status: 404 });
   }
 
-  if (booking.user.checkedIn) {
-    return NextResponse.json(
-      { error: "Already checked in" },
-      { status: 409 }
-    );
+  if (booking.user.checkIn) {
+    return NextResponse.json({ error: "Already checked in" }, { status: 409 });
   }
 
   await prisma.user.update({
     where: { id: booking.userId },
     data: {
-      checkedIn: true,
-      door,
+      // checkIn: true,
+      // door,
     },
   });
 
