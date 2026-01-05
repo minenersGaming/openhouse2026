@@ -28,7 +28,7 @@ async function fetchBooking(registerId: string): Promise<BookingPreview> {
 
 async function confirmCheckIn(
   registerId: string,
-  door: "ประตูพญาไท" | "ประตูอังรีดูนังต์"
+  door: "ประตูพญาไท" | "ประตูอังรีดูนังต์" | "ประตูตึก50ปี"
 ) {
   const res = await fetch("/api/staff/checkin", {
     method: "POST",

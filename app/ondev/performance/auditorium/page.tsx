@@ -6,7 +6,6 @@ import Mdleft from "@/vector/preformance/Mdleft";
 import Mdright from "@/vector/preformance/Mdright";
 import Mdbottom from "@/vector/preformance/Mdbottom";
 import Mdbeam from "@/vector/preformance/Mdbeam";
-import SmUpper from "@/vector/preformance/SmUpper";
 import SmBeam2 from "@/vector/preformance/SmBeam2";
 import SmBottom from "@/vector/preformance/SmBottom";
 import Mdcurtain from "@/vector/auditory/Mdcurtain";
