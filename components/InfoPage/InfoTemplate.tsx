@@ -56,12 +56,12 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
   organization: [
     <div className="flex flex-col justify-center items-start md:items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} overflow-visible text-2xl sm:text-3xl md:text-4xl lg:text-5xl hidden md:block`}
       >
         องค์กรนี้
       </p>
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-4xl lg:text-5xl hidden md:block`}
       >
         ทำอะไร
       </p>
@@ -69,30 +69,28 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
     </div>,
     <div className="flex flex-col justify-center sm:-space-y-2 items-start">
       <p
-        className={`${CommonTextStyle} text-2xl sm:mb-0.5 sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:mb-0.5 sm:text-3xl md:text-4xl lg:text-5xl hidden md:block`}
       >
         ตำแหน่ง
       </p>
-      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
+      <p className={`${CommonTextStyle} text-lg lg:text-2xl hidden md:block`}>
         และหน้าที่ในแต่ละ
       </p>
-      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
+      <p className={`${CommonTextStyle} text-lg lg:text-2xl hidden md:block`}>
         ตำแหน่ง
       </p>
-      <p className={`${CommonTextStyle} ${SmTextStyle}`}>
-        ตำแหน่งและหน้าที่ในแต่ละตำแหน่ง
-      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle}`}>ตำแหน่งและหน้าที่</p>
     </div>,
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-6xl lg:text-7xl  hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-5xl lg:text-6xl  hidden md:block`}
       >
         ผลงาน
       </p>
       <p
-        className={`${CommonTextStyle} text-3xl md:text-4xl  lg:text-5xl  hidden md:block `}
+        className={`${CommonTextStyle} text-2xl md:text-3xl  lg:text-4xl  hidden md:block `}
       >
-        ขององค์กร
+        ของชมรม
       </p>
       <p className={`${CommonTextStyle} ${SmTextStyle}`}>ผลงานขององค์กร</p>
     </div>,
@@ -146,9 +144,7 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
       >
         น่าสนใจ
       </p>
-      <p
-        className={`${CommonTextStyle} font-medium text-3xl  hidden md:block `}
-      >
+      <p className={`${CommonTextStyle} font-medium text-xl  hidden md:block `}>
         ของสายการเรียน
       </p>
       <p className={`${CommonTextStyle} ${SmTextStyle} `}>
@@ -159,18 +155,18 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
   gifted: [
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-5xl lg:text-4xl`}
+        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-2xl lg:text-4xl`}
       >
         การรับสมัคร
       </p>
       <div className="flex flex-row items-start">
         <p
-          className={`${CommonTextStyle} text-3xl lg:text-5xl mr-2 lg:mr-5 hidden md:block`}
+          className={`${CommonTextStyle} text-lg lg:text-2xl mr-1 hidden md:block`}
         >
           และ
         </p>
         <p
-          className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-5xl lg:text-7xl hidden md:block`}
+          className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-2xl lg:text-4xl hidden md:block`}
         >
           การสอบเข้า
         </p>
@@ -181,11 +177,13 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
     </div>,
     <div className="flex flex-col justify-center items-start">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl  hidden md:block lg:text-7xl`}
+        className={`${CommonTextStyle} text-xl sm:text-3xl md:text-5xl  hidden md:block lg:text-7xl`}
       >
         วิชา /
       </p>
-      <p className={`${CommonTextStyle} font-medium text-4xl hidden md:block`}>
+      <p
+        className={`${CommonTextStyle} font-medium text-lg lg:text-2xl hidden md:block`}
+      >
         หลักสูตรเพิ่มเติม
       </p>
       <p className={`${CommonTextStyle}  ${SmTextStyle}`}>
@@ -194,18 +192,16 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
     </div>,
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-4xl md:text-5xl lg:text-6xl hidden md:block`}
       >
         ความ
       </p>
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-4xl md:text-5xl lg:text-6xl hidden md:block`}
       >
         น่าสนใจ
       </p>
-      <p
-        className={`${CommonTextStyle} font-medium text-4xl  hidden md:block `}
-      >
+      <p className={`${CommonTextStyle} font-medium text-xl  hidden md:block `}>
         ของสายการเรียน
       </p>
       <p className={`${CommonTextStyle} ${SmTextStyle} `}>
@@ -248,7 +244,7 @@ const InfoTemplate = ({
             src={img}
             className="rounded-[6px] object-cover w-[85vw] md:w-[30vw] aspect-8/5"
           />
-          <p className="mt-1 text-[#F4F2C4B2] w-[80wv] md:w-[30vw] text-center font-light text-sm font-bai-jamjuree">
+          <p className="mt-1 text-[#F4F2C4B2] w-[80vw] md:w-[30vw] text-center font-light text-sm font-bai-jamjuree">
             {imgDescription}
           </p>
         </div>

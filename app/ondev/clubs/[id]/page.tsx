@@ -58,13 +58,13 @@ export default function ClubsInfoPage() {
       <Smoke1 className="w-7/10 absolute left-0 -translate-x-[12%]  top-[35%] z-0" />
 
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
-        <button
-          onClick={() => router.back()}
+        <a
+          href="./"
           className="flex flex-row items-center mt-24  lg:mt-[17%] transition-all hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
-        </button>
+        </a>
 
         <h1 className="text-[#F3ECB7] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
           {data.thainame}

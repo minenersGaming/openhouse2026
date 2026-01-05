@@ -16,12 +16,12 @@ const ReviewBox = ({
       className="flex flex-col z-67 bg-[linear-gradient(103deg,#0B1955_0%,rgba(4,34,132,0.6)_57.23%)]
   backdrop-blur-[3.5px] rounded-[15px] mt-5 p-[5%] md:p-[2%] w-[80%] md:w-[50%]"
     >
-      <div className="flex flex-row ">
+      <div className="flex flex-row w-auto">
         <img
           src={img}
-          className="rounded-[10px] w-1/5 lg:w-1/6 lg:max-w-[500px] aspect-square object-cover"
+          className="rounded-[10px] w-1/5 lg:wxx-1/6 md:w-1/4 lg:max-w-[500px] lg:max-h-[500px] aspect-square object-cover"
         />
-        <div className="ml-3 -space-y-1 flex flex-col justify-between items-start">
+        <div className="ml-3 -space-y-1 flex flex-col justify-start items-start space-y-0.5">
           <p className="text-[#F3E19E] font-bold text-2xl sm:text-3xl">
             {name}
           </p>
