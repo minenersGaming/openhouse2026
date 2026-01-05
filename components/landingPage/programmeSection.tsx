@@ -25,7 +25,7 @@ import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
 const Style = {
   LgCard: "w-[24vw] hover:scale-105 transition-all duration-400",
   LgFlex:
-    "flex flex-col justify-center items-center left-0 translate-x- z-67 -space-y-15  fade-in-scroll",
+    "flex flex-col justify-center items-center left-0 translate-x- z-6 -space-y-15  fade-in-scroll",
   LgPadding: "w-[17vw] left-0 -translate-y-10",
 };
 
@@ -34,8 +34,8 @@ const ProgrammeSection = () => {
     <section className="relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:max-h-[1600px]">
       <div className="h-full top-0">
         <div className=" -translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
-          <LeftPillar className="h-[210%]" />
-          <RightPillar className="h-[210%]" />
+          <LeftPillar className="h-[200%] -translate-x-[13%] z-67" />
+          <RightPillar className="h-[200%] translate-x-[13%] z-67" />
         </div>
       </div>
       <div className="hidden absolute min-w-full xlg:flex flex-row justify-center h-[105%]">
@@ -61,7 +61,7 @@ const ProgrammeSection = () => {
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
               <a href="/ondev/programs/sci-math" className="block">
-                <SciMath className={Style.LgCard} />            
+                <SciMath className={Style.LgCard} />
               </a>
               <a href="/ondev/programs/arts-math" className="block">
                 <ArtsMath className={Style.LgCard} />
@@ -72,7 +72,7 @@ const ProgrammeSection = () => {
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
               <a href="/ondev/programs/arts-french" className="block">
-                <ArtsFr className={Style.LgCard} />          
+                <ArtsFr className={Style.LgCard} />
               </a>
 
               <a href="/ondev/programs/arts-german" className="block">
@@ -84,7 +84,7 @@ const ProgrammeSection = () => {
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
               <a href="/ondev/programs/arts-japanese" className="block">
-                <ArtJp className={Style.LgCard} />          
+                <ArtJp className={Style.LgCard} />
               </a>
 
               <a href="/ondev/programs/arts-espanol" className="block">
@@ -96,7 +96,7 @@ const ProgrammeSection = () => {
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
               <a href="/ondev/programs/arts-chinese" className="block">
-                <ArtsCn className={Style.LgCard} />          
+                <ArtsCn className={Style.LgCard} />
               </a>
               <a href="/ondev/programs/arts-korean" className="block">
                 <ArtsKr className={Style.LgCard} />

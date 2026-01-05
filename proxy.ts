@@ -22,31 +22,31 @@ export default async function proxy(request: NextRequest) {
 
   const user = json.data.user;
 
-  if (currentPath.startsWith("/staff")) {
-    if (!user.isStaff) {
-      return NextResponse.redirect(new URL("/", request.url));
-    }
-    return NextResponse.next();
-  }
+  // if (currentPath.startsWith("/staff")) {
+  //   if (!user.isStaff) {
+  //     return NextResponse.redirect(new URL("/", request.url));
+  //   }
+  //   return NextResponse.next();
+  // }
 
 
-  if (
-    currentPath !== "/register/user" &&
-    currentPath !== "/" &&
-    !user.isBooking
-  ) {
-    return NextResponse.redirect(new URL("/register/user", request.url));
-  }
+  // if (
+  //   currentPath !== "/register/user" &&
+  //   currentPath !== "/" &&
+  //   !user.isBooking
+  // ) {
+  //   return NextResponse.redirect(new URL("/register/user", request.url));
+  // }
 
-  if (currentPath === "/register/user" && user.isBooking) {
-    return NextResponse.redirect(new URL("/", request.url));
-  }
-  if (currentPath === "/register/user" && user.isStaff) {
-    return NextResponse.redirect(new URL("/", request.url));
-  }
-  if (currentPath === "/register/user/staff" && user.isStaff) {
-    return NextResponse.redirect(new URL("/staff", request.url));
-  }
+  // if (currentPath === "/register/user" && user.isBooking) {
+  //   return NextResponse.redirect(new URL("/", request.url));
+  // }
+  // if (currentPath === "/register/user" && user.isStaff) {
+  //   return NextResponse.redirect(new URL("/", request.url));
+  // }
+  // if (currentPath === "/register/user/staff" && user.isStaff) {
+  //   return NextResponse.redirect(new URL("/staff", request.url));
+  // }
 
   return NextResponse.next();
 }
