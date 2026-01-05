@@ -28,7 +28,7 @@ const OtherSection = () => {
             <p className={Style.BigText}>ข้อมูล</p>
             <p className={Style.BigText}>เพิ่มเติม</p>
           </div>
-          <div className="flex flex-col h-8/10 justify-center space-y-[6%]">
+          <div className="translate-y-[5%] flex flex-col h-8/10 justify-center space-y-[6%]">
             {List}
           </div>
         </div>

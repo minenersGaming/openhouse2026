@@ -57,16 +57,16 @@ const OrgSection = () => {
                 นักเรียน
               </p>
             </div>
-            <div className="h-[2px] w-5/7 m-4 rounded-full bg-linear-to-r from-[#F3F2CD] to-[#FBDE8C]"></div>
+            {/* <div className="h-[2px] w-5/7 m-4 rounded-full bg-linear-to-r from-[#F3F2CD] to-[#FBDE8C]"></div>
             <p className=" text-sm lg:text-xl w-3/5 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
               หน่วยงานนักเรียนที่รับผิดชอบงานต่าง ๆ ในโรงเรียน ประกอบด้วย
               คณะกรรมการงานกิจกรรมพัฒนาผู้เรียน (กช.) คณะกรรมการนักเรียน (กน.)
               นักเรียนผู้ช่วยงานประชาสัมพันธ์ (ปชส.) นักเรียนกลุ่ม AIC (กอ.)
               กลุ่มนักเรียนอาสาพยาบาลและความปลอดภัย และคณะกรรมการหนังสืออนุสรณ์ฯ
-            </p>
+            </p> */}
           </div>
         </div>
-        <OrgLg className="w-full" />
+        <OrgLg className="w-full top-0" />
       </div>
       <div className="block md:hidden">
         <div className="absolute flex flex-col w-full items-center justify-center py-10 px-5 space-y-3">
@@ -83,12 +83,12 @@ const OrgSection = () => {
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
           >
-            <TUCMCCard className="w-[60vw] hover:scale-105  transition-all" />
-            <TUSCCard className="w-[60vw] hover:scale-105  transition-all" />
-            <AnusornCard className="w-[60vw] hover:scale-105  transition-all" />
-            <AICCard className="w-[60vw] hover:scale-105  transition-all" />
-            <TUNSOCard className="w-[60vw] hover:scale-105  transition-all" />
-            <TUPROCard className="w-[60vw] hover:scale-105  transition-all" />
+            <TUCMCCard className="w-[60vw] hover:scale-105 duration-400  transition-all" />
+            <TUSCCard className="w-[60vw] hover:scale-105  duration-400 transition-all" />
+            <AnusornCard className="w-[60vw] hover:scale-105  duration-400 transition-all" />
+            <AICCard className="w-[60vw] hover:scale-105  duration-400 transition-all" />
+            <TUNSOCard className="w-[60vw] hover:scale-105  duration-400 transition-all" />
+            <TUPROCard className="w-[60vw] hover:scale-105  duration-400 transition-all" />
           </div>
           <div className="flex items-center justify-center w-full">
             <p className="font-medium text-center text-md sm:text-xl w-39/40 sm:w-2/3  bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">

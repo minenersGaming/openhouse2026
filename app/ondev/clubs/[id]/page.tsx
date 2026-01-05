@@ -60,7 +60,7 @@ export default function ClubsInfoPage() {
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
         <a
           href="./"
-          className="flex flex-row items-center mt-24  lg:mt-[17%] transition-all hover:scale-105"
+          className="flex flex-row items-center mt-24 lg:mt-[13%] transition-all hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
@@ -140,11 +140,9 @@ export default function ClubsInfoPage() {
       {data.reviews?.length > 0 && (
         <div className="w-full flex flex-col justify-center items-center mt-5">
           <div className="w-[65%] flex flex-row items-center justify-center space-x-2">
-            <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full hidden md:block" />
             <h2 className="font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
               รีวิวจากรุ่นพี่
             </h2>
-            <div className="bg-[#F3E3A1] h-[3px] rounded-full w-full hidden md:block" />
           </div>
 
           {data.reviews.map((r: any, i: number) => (
