@@ -11,10 +11,13 @@ import CloudAndMoon from "@/vector/InfoPage/CloudAndMoon";
 import Bubble1 from "@/vector/InfoPage/Bubble1";
 import BottomCastle from "@/vector/InfoPage/BottomCastle";
 import Bubble2 from "@/vector/InfoPage/Bubble2";
+import Bricks from "@/vector/InfoPage/Bricks";
 import Comet from "@/vector/InfoPage/Comet";
 import Candle1 from "@/vector/InfoPage/Candle1";
 import Candle2 from "@/vector/InfoPage/Candle2";
 import Candle3 from "@/vector/InfoPage/Candle3";
+import Smoke1 from "@/vector/InfoPage/Smoke1";
+import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
 
@@ -39,19 +42,22 @@ export default function ClubsInfoPage() {
   return (
     <div className="overflow-hidden relative items-center min-h-screen [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
       <div className="relative">
-        <TopCurtain className="w-full absolute" />
+        <TopCurtain className="w-full -translate-y-[3%] absolute z-30" />
       </div>
 
-      <CloudAndMoon className="left-0 scale-140 top-[60%]  absolute z-0" />
+      <Bricks className="w-[50vw] top-[8%] left-0 translate-x-1/2 absolute z-30" />
+      <CloudAndMoon className="left-0 scale-140 top-[60%]  absolute z-5" />
       <Bubble1 className="absolute right-0 w-1/6 translate-x-[0%] top-[27%] z-0" />
       <Bubble2 className=" absolute left-0 w-1/6 translate-x-[5%] top-[32%] z-0" />
       <Candle1 className=" absolute right-0  w-1/5 translate-x-[5%] top-[33%] z-0" />
       <Candle2 className="w-1/6 absolute left-0 translate-x-[5%] top-[43%] z-0" />
       <Candle3 className="w-1/4 absolute right-0 translate-x-[13%] top-[47%] z-0 " />
-      <Comet className="hidden absolute left-0 translate-x-[5%] top-[20%] z-0" />
-      <Comet className="hidden absolute left-0 translate-x-[5%] top-[20%] z-0" />
+      <Comet className=" absolute left-0 w-1/3 translate-x-[-13%] top-[20%] z-0" />
+      <Comet className="w-1/3 absolute right-0 translate-x-[7%] top-[38%] z-0" />
+      <Smoke2 className=" absolute right-0  w-7/10 translate-x-[13%] top-[20%] z-0" />
+      <Smoke1 className="w-7/10 absolute left-0 -translate-x-[12%]  top-[35%] z-0" />
 
-      <div className="relative flex flex-col items-center  space-y-3 z-67 px-3">
+      <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
         <button
           onClick={() => router.back()}
           className="flex flex-row items-center mt-24  lg:mt-[17%] transition-all hover:scale-105"
@@ -153,7 +159,7 @@ export default function ClubsInfoPage() {
           ))}
         </div>
       )}
-      <BottomCastle className=" block w-screen mt-[10%] translate-y-[7%]" />
+      <BottomCastle className=" block w-screen mt-[10%] translate-y-[1%]" />
     </div>
   );
 }

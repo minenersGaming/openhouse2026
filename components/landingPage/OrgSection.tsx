@@ -18,17 +18,17 @@ const OrgSection = () => {
     <section className="overflow-hidden bg-linear-to-t to-[#0B1855] via-[#042284] from-[#3450B0]">
       <div className="hidden md:block">
         <div className="absolute flex w-full flex-row justify-end">
-          <div className="w-[80%] h-[170%] p-10  -space-x-32 -space-y-10 flex flex-row justify-between">
+          <div className="w-[80%] h-[170%] p-10  -translate-x-[2%] -space-x-32 -space-y-10 flex flex-row justify-between">
             <div
-              className=" flex flex-col -space-y-0
+              className=" flex flex-col  -space-y-0
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
             >
               <a href="/ondev/organizations/TUSC" className="block">
-                 <TUSCLg className="w-[25vw] hover:scale-105  transition-all" />           
+                <TUSCLg className="w-[25vw] hover:scale-105  transition-all" />
               </a>
               <a href="/ondev/organizations/TUANUSORN" className="block">
-                 <AnusornLg className="w-[25vw] hover:scale-105  transition-all" />           
+                <AnusornLg className="w-[25vw] hover:scale-105  transition-all" />
               </a>
             </div>
             <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
@@ -71,10 +71,10 @@ const OrgSection = () => {
       <div className="block md:hidden">
         <div className="absolute flex flex-col w-full items-center justify-center py-10 px-5 space-y-3">
           <div className="flex flex-col items-center">
-            <p className="font-bold text-5xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+            <p className="font-bold text-6xl sm:text-6xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
               หน่วยงาน
             </p>
-            <p className="font-bold text-5xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+            <p className="font-bold text-6xl sm:text-6xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
               นักเรียน
             </p>
           </div>
@@ -91,7 +91,7 @@ const OrgSection = () => {
             <TUPROCard className="w-[60vw] hover:scale-105  transition-all" />
           </div>
           <div className="flex items-center justify-center w-full">
-            <p className="font-medium text-center text-lg sm:text-xl w-19/20 sm:w-2/3  bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+            <p className="font-medium text-center text-md sm:text-xl w-39/40 sm:w-2/3  bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
               กลุ่มหรือองค์กรที่จัดตั้งขึ้นภายในสถานศึกษา
               โดยมีนักเรียนเป็นสมาชิกหลัก ทำหน้าที่ช่วยเหลือ สนับสนุน
               และมีส่วนร่วมในการบริหารจัดการกิจกรรมต่าง ๆ ของโรงเรียน

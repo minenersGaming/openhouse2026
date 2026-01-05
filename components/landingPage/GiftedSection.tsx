@@ -16,22 +16,22 @@ import GiftedTextLg from "@/vector/LandingPage/Gifted/GiftedTextLg";
 
 const GiftedSection = () => {
   return (
-    <section className="bg-linear-to-t to-[#042284] via-[#3450B0] from-[#F3E09D]">
+    <section className="[background:linear-gradient(180deg,#042284_1.28%,#3450B0_14.51%,#F3E09D_37.42%)]">
       <div className=" block md:hidden  ">
         <div className="absolute flex flex-col justify-center items-center w-full mt-10 sm:mt-12 mb-10 px-5">
           <GiftedTextSm className="w-[90vw]  -translate-x-[4%]" />
-          <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-xl">
+          {/* <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-xl">
             โครงการพัฒนาความสามารถพิเศษ
-          </p>
+          </p> */}
         </div>
         <div className="h-full xoverflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%]  ">
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <GiftedMath className="w-[30vw]" />
-            <GiftedThai className="w-[30vw]" />
+            <GiftedMath className="w-[30vw] hover:scale-105" />
+            <GiftedThai className="w-[30vw] hover:scale-105" />
           </div>
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <GiftedSci className="w-[30vw]" />
-            <GiftedEng className="w-[30vw]" />
+            <GiftedSci className="w-[30vw] hover:scale-105" />
+            <GiftedEng className="w-[30vw] hover:scale-105" />
           </div>
         </div>
         <GiftedSm className=" w-full left-0 " />
@@ -39,9 +39,9 @@ const GiftedSection = () => {
       <div className="relative hidden md:block">
         <div className="absolute flex flex-col justify-center items-center w-full mt-[1.5%] mb-10 px-5">
           <GiftedTextLg className="w-[65vw]" />
-          <p className="-translate-y-[80%]  font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-2xl">
+          {/* <p className="-translate-y-[80%]  font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-2xl">
             โครงการพัฒนาความสามารถพิเศษ
-          </p>
+          </p> */}
         </div>
         <div className="translate-y-[62%] absolute flex flex-row justify-center items-center w-full space-x-[9%]">
           <a href="/ondev/gifted/gifted-math" className="block">

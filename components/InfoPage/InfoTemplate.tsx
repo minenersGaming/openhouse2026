@@ -4,9 +4,9 @@ import { JSX } from "react";
 const SampleImg =
   "https://www.ondemand.in.th/wp-content/uploads/2020/07/%E0%B8%9F%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C_%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2-2.jpg";
 const TextBoxStyle =
-  "mt-3 rounded-[1.8125rem] w-[80vw]  md:w-[60vw] bg-[rgba(69,123,202,0.44)] shadow-[0_1.5px_1px_0_rgba(0,0,0,0.25)] backdrop-blur-[5.55px]";
+  "mt-3 rounded-[1.8125rem] w-[80vw]  md:w-[50vw] bg-[rgba(69,123,202,0.44)] shadow-[0_1.5px_1px_0_rgba(0,0,0,0.25)] backdrop-blur-[5.55px]";
 const SmTextStyle =
-  " text-2xl sm:text-5xl md:text-6xl lg:text-7xl block md:hidden ";
+  " text-2xl sm:text-4xl md:text-6xl lg:text-7xl block md:hidden ";
 type categoryType = "clubs" | "organization" | "programme" | "gifted";
 const CommonTextStyle =
   "font-bold bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent";
@@ -14,12 +14,12 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
   clubs: [
     <div className="flex flex-col justify-center items-start md:items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} overflow-visible text-2xl sm:text-3xl md:text-4xl lg:text-5xl hidden md:block`}
       >
         ชมรมนี้
       </p>
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-4xl lg:text-5xl hidden md:block`}
       >
         ทำอะไร
       </p>
@@ -27,28 +27,26 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
     </div>,
     <div className="flex flex-col justify-center sm:-space-y-2 items-start">
       <p
-        className={`${CommonTextStyle} text-2xl sm:mb-0.5 sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:mb-0.5 sm:text-3xl md:text-4xl lg:text-5xl hidden md:block`}
       >
         ประโยชน์
       </p>
-      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
+      <p className={`${CommonTextStyle} text-lg lg:text-2xl hidden md:block`}>
         ที่ได้รับจาก
       </p>
-      <p className={`${CommonTextStyle} text-xl md:text-3xl hidden md:block`}>
+      <p className={`${CommonTextStyle} text-lg lg:text-2xl hidden md:block`}>
         การเข้าร่วมชมรม
       </p>
-      <p className={`${CommonTextStyle} ${SmTextStyle}`}>
-        ประโยชน์ที่ได้รับจากการเข้าร่วมชมรม
-      </p>
+      <p className={`${CommonTextStyle} ${SmTextStyle}`}>ประโยชน์ที่ได้รับ</p>
     </div>,
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-6xl lg:text-7xl  hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-5xl lg:text-6xl  hidden md:block`}
       >
         ผลงาน
       </p>
       <p
-        className={`${CommonTextStyle} text-3xl md:text-4xl  lg:text-5xl  hidden md:block `}
+        className={`${CommonTextStyle} text-2xl md:text-3xl  lg:text-4xl  hidden md:block `}
       >
         ของชมรม
       </p>
@@ -102,18 +100,18 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
   programme: [
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-5xl lg:text-7xl`}
+        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-2xl lg:text-4xl`}
       >
         การรับสมัคร
       </p>
       <div className="flex flex-row items-start">
         <p
-          className={`${CommonTextStyle} text-3xl lg:text-5xl mr-2 lg:mr-5 hidden md:block`}
+          className={`${CommonTextStyle} text-lg lg:text-2xl mr-1 hidden md:block`}
         >
           และ
         </p>
         <p
-          className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-5xl lg:text-7xl hidden md:block`}
+          className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-2xl lg:text-4xl hidden md:block`}
         >
           การสอบเข้า
         </p>
@@ -124,11 +122,13 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
     </div>,
     <div className="flex flex-col justify-center items-start">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl  hidden md:block lg:text-7xl`}
+        className={`${CommonTextStyle} text-xl sm:text-3xl md:text-5xl  hidden md:block lg:text-7xl`}
       >
         วิชา /
       </p>
-      <p className={`${CommonTextStyle} font-medium text-4xl hidden md:block`}>
+      <p
+        className={`${CommonTextStyle} font-medium text-lg lg:text-2xl hidden md:block`}
+      >
         หลักสูตรเพิ่มเติม
       </p>
       <p className={`${CommonTextStyle}  ${SmTextStyle}`}>
@@ -137,17 +137,17 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
     </div>,
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-4xl md:text-5xl lg:text-6xl hidden md:block`}
       >
         ความ
       </p>
       <p
-        className={`${CommonTextStyle} text-2xl sm:text-5xl md:text-6xl lg:text-7xl hidden md:block`}
+        className={`${CommonTextStyle} text-2xl sm:text-4xl md:text-5xl lg:text-6xl hidden md:block`}
       >
         น่าสนใจ
       </p>
       <p
-        className={`${CommonTextStyle} font-medium text-4xl  hidden md:block `}
+        className={`${CommonTextStyle} font-medium text-3xl  hidden md:block `}
       >
         ของสายการเรียน
       </p>
@@ -159,7 +159,7 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
   gifted: [
     <div className="flex flex-col justify-center items-end">
       <p
-        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-5xl lg:text-7xl`}
+        className={`${CommonTextStyle}  hidden md:block text-2xl sm:text-5xl lg:text-4xl`}
       >
         การรับสมัคร
       </p>
@@ -229,34 +229,32 @@ const InfoTemplate = ({
   text: any;
 }) => {
   return (
-    <div className="z-67 flex flex-col items-center justify-center my-3">
+    <div className="z-67 flex flex-col md:max-w-[50vw] items-center justify-center my-3">
       <div
-        className={`flex flex-col ${
+        className={`flex flex-col w-full ${
           item % 2 == 0 ? "md:flex-row" : "md:flex-row-reverse"
-        } justify-center`}
+        } justify-around`}
       >
         <div
-          className={`flex flex-col  justify-center ${
-            item % 2 == 0
-              ? "items-start ml-[4%] md:ml-auto md:items-end"
-              : "items-start"
-          } justify-center`}
+          className={`flex flex-col justify-evenly ${
+            item % 2 == 0 ? "items-start md:items-end" : "items-start"
+          }`}
         >
-          {BigTextItem[type][item]}
-          <Chandelier className="hidden md:block w-[15vw] lg:mt-5 " />
+          <span className="scale-100">{BigTextItem[type][item]}</span>
+          <Chandelier className="hidden md:block w-[12vw] " />
         </div>
-        <div className="flex flex-col items-center justify-center mx-3 lg:mx-6 ">
+        <div className="flex flex-col items-center justify-between ">
           <img
             src={img}
-            className="rounded-[6px] object-cover w-[90vw] md:w-[45vw] aspect-8/5"
+            className="rounded-[6px] object-cover w-[85vw] md:w-[30vw] aspect-8/5"
           />
-          <p className="mt-1 text-[#F4F2C4B2] w-[50vw] text-center font-light text-sm font-bai-jamjuree">
+          <p className="mt-1 text-[#F4F2C4B2] w-[80wv] md:w-[30vw] text-center font-light text-sm font-bai-jamjuree">
             {imgDescription}
           </p>
         </div>
       </div>
       <div className={TextBoxStyle}>
-        <p className="font-bai-jamjuree py-2 text-sm md:text-md px-5 text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]">
+        <p className="bg-transparent font-bai-jamjuree py-2 text-sm md:text-md px-5 *:text-white text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]">
           {text}
         </p>
       </div>
