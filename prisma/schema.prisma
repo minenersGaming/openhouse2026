@@ -49,7 +49,7 @@ model User {
   register  Booking?
   isStaff   Boolean  @default(false)
   isBooking Boolean  @default(false)
-  checkIn CheckIn?
+  checkIn   CheckIn?
 
   sessions Session[]
   accounts Account[]
