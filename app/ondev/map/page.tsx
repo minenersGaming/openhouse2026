@@ -27,7 +27,7 @@ const CirW = "h-9 w-9 text-[17.937px] md:h-7 md:w-7 md:text-[14px]";
 
 const css = {
   header:
-    "text-[#F3E19D] text-center font-inter font-bold leading-normal drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" +
+    "text-[#F3E19D] font-noto-sans-thai text-center font-inter font-bold leading-normal drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" +
     "  text-[30px] sm:text-[34px] md:text-[38px] lg:text-[60px] xl:text-[89.118px] ",
   header2:
     "text-[#F3E19D] text-center font-normal leading-normal tracking-[4.308px] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] " +
