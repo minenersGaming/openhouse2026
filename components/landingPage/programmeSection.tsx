@@ -31,7 +31,10 @@ const Style = {
 
 const ProgrammeSection = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:max-h-[1600px]">
+    <section
+      id="program"
+      className="relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:max-h-[1600px]"
+    >
       <div className="h-full top-0">
         <div className=" -translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
           <LeftPillar className="h-[200%] -translate-x-[13%] z-67" />

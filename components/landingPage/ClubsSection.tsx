@@ -8,7 +8,10 @@ import ClubsSmComet from "@/vector/LandingPage/Clubs/ClubsSmComet";
 
 const ClubsSection = () => {
   return (
-    <section className="w-full h-auto [background:radial-gradient(122.77%_76.67%_at_50%_79.6%,#F4F2C3_17.02%,#457BCA_62.05%,#042284_100%)]">
+    <section
+      id="clubs"
+      className="w-full h-auto [background:radial-gradient(122.77%_76.67%_at_50%_79.6%,#F4F2C3_17.02%,#457BCA_62.05%,#042284_100%)]"
+    >
       <div className="hidden md:block w-full h-auto overflow-hidden">
         <div className="relative z-6 w-full flex justify-center ">
           <ClubsLgComet className="absolute w-full" />

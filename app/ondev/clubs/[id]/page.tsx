@@ -20,6 +20,7 @@ import Smoke1 from "@/vector/InfoPage/Smoke1";
 import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
+import Custom404 from "@/app/not-found";
 
 export default function ClubsInfoPage() {
   const params = useParams();
@@ -36,8 +37,18 @@ export default function ClubsInfoPage() {
       .finally(() => setLoading(false));
   }, [id]);
 
-  if (loading) return <div className="text-center p-10">Loading...</div>;
-  if (!data) return <div className="text-center p-10">Not found</div>;
+  if (loading)
+    return (
+      <div className="text-center p-10 h-screen [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
+        Loading...
+      </div>
+    );
+  if (!data)
+    return (
+      <div className="text-center p-10">
+        <Custom404 />
+      </div>
+    );
 
   return (
     <div className="overflow-hidden relative items-center min-h-screen [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
