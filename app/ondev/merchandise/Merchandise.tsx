@@ -38,6 +38,8 @@ const RecommendBar = [
 export default function Merchandise() {
   const searchParams = useSearchParams();
   const params = searchParams.get("item");
+  if (params === "") {
+  }
   const [page, setPage] = useState(0);
 
   function prevPage() {
@@ -119,7 +121,7 @@ export default function Merchandise() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mxt-[5%]">
+            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mt-[6%]">
               <p className="font-medium text-sm md:text-[13px] lg:text-xl py-1 md:py-3 text-[#04217F] ">
                 สินค้าอื่น ๆ
               </p>
