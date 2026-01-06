@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
+import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
@@ -34,6 +35,19 @@ const HeaderDev = () => {
   const router = useRouter();
   const [isHovering, setIsHovering] = useState(false);
 
+  const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = scrollY.getPrevious() ?? 0;
+    if (isSidebarOpen) return;
+
+    if (latest > previous && latest > 80) {
+      setHidden(true);
+    } else if (latest < previous) {
+      setHidden(false);
+    }
+  });
+
   const handleMouseEnter = () => {
     setIsHovering(true);
     console.log("Mouse entered!");
@@ -53,33 +67,13 @@ const HeaderDev = () => {
     setSidebarOpen(!isSidebarOpen);
   }
 
-  useEffect(() => {
-    let lastScrollY = window.scrollY;
-
-    const onScroll = () => {
-      if (isSidebarOpen) return;
-
-      const currentScrollY = window.scrollY;
-
-      if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        setHidden(true);
-      } else {
-        setHidden(false);
-      }
-
-      lastScrollY = currentScrollY;
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [isSidebarOpen]);
-
   return (
-    <header
+    <motion.header
+      initial={{ y: 0 }}
+      animate={{ y: hidden ? "-100%" : 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
       className={`
-        sticky top-0 z-9999
-        transition-transform duration-300 ease-out
-        ${hidden ? "-translate-y-full" : "translate-y-0"}
+        fixed top-0 left-0 right-0 z-50
         w-full bg-linear-to-r from-[#0B1855]/80 to-[#042284]/80
         h-14 lg:h-16 backdrop-blur-sm
         flex justify-between items-center px-4 lg:px-10
@@ -92,13 +86,12 @@ const HeaderDev = () => {
         onMouseLeave={handleMouseLeave}
       >
         <Logo
-          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
-            isHovering && "drop-shadow-sm/100"
-          } `}/>
-          {/* {isHovering && <AureateLogo className={`z-20 absolute w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
+          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${isHovering && "drop-shadow-sm/100"
+            } `} />
+        {/* {isHovering && <AureateLogo className={`z-20 absolute w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
             isHovering ? "drop-shadow-sm/100 opacity-0": "opacity-100"
           } `}/>} */}
-        
+
         <Toptext hover={isHovering} />
       </Link>
 
@@ -151,9 +144,8 @@ const HeaderDev = () => {
         <div
           className={`
              w-[95vw] justify-center items-center top-16 block lg:hidden
-            ${isWaitClose ? "outro-fade-down" : "intro-fade-down"} ${
-            hidden ? "hidden" : "fixed"
-          }
+            ${isWaitClose ? "outro-fade-down" : "intro-fade-down"} ${hidden ? "hidden" : "fixed"
+            }
           `}
         >
           <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-3.5">
@@ -192,7 +184,7 @@ const HeaderDev = () => {
           </div>
         </div>
       )}
-    </header>
+    </motion.header>
   );
 };
 

@@ -1,13 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc";
 import Loading from "../Loading";
-
-dayjs.extend(utc);
-
-const TARGET_DATE = dayjs.utc("2026-01-09T01:00:00Z");
+import { OPH_FIRST_TIME_TIMESTAMP } from "@/config/time";
 
 const zeroPadding = (n: number) => String(n).padStart(2, "0");
 
@@ -28,8 +23,8 @@ const Countdown = () => {
 
   useEffect(() => {
     const tick = () => {
-      const nowUtc = dayjs.utc();
-      const diff = TARGET_DATE.diff(nowUtc, "second");
+      // Fix the time open if it not 7 am
+      const diff = Math.floor((OPH_FIRST_TIME_TIMESTAMP - Date.now()) / 1000);
 
       if (diff <= 0) {
         setTime({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -44,7 +39,7 @@ const Countdown = () => {
       setTime({ days, hours, minutes, seconds });
     };
 
-    tick(); // run immediately
+    tick();
     const interval = setInterval(tick, 1000);
 
     return () => clearInterval(interval);
@@ -60,9 +55,9 @@ const Countdown = () => {
       ].map(({ label, value }) => (
         <div key={label} className="flex flex-col">
           <div className={Style.pad}>
-            <p className={Style.number}>
+            <div className={Style.number} suppressHydrationWarning>
               {value != 99 ? zeroPadding(value) : <Loading />}
-            </p>
+            </div>
           </div>
           <p className={Style.subtext}>{label}</p>
         </div>

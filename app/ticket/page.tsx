@@ -9,18 +9,7 @@ import { useQuery } from "@tanstack/react-query";
 import QRCode from "qrcode";
 import { useEffect, useState } from "react";
 import LoadingPage from "@/components/ticket/LoadingPage";
-import { Noto_Sans_Thai } from "next/font/google";
-import { Inter } from "next/font/google";
 import { toast } from "react-hot-toast";
-
-const FontInter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-const NotoSansThai = Noto_Sans_Thai({
-  variable: "--font-noto-sans-thai",
-  subsets: ["thai", "latin"],
-});
 
 const css = {
   textId:
