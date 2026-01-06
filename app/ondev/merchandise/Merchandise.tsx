@@ -5,6 +5,7 @@ import BackIcon from "@/components/merchandise/BackIcon";
 import Card from "@/components/merchandise/Card";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
+import Beam from "@/components/merchandise/Beam";
 
 const valid = ["0", "1", "2", "3"];
 
@@ -52,36 +53,53 @@ export default function Merchandise() {
 
     return (
       <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3] flex flex-col justify-center  items-center">
-        <div className="py-20 md:py-[10%] w-[90vw] md:w-[50vw]">
+        <Beam className="absolute h-full right-0" />
+        <div className="py-20 md:py-[10%] w-[90vw] md:w-[50vw] z-67">
           <div className="flex w-full flex-row justify-start items-center">
             <a
-              href="./merchandise"
+              href="./merchandise?item=none"
               className=" flex flex-row justify-start items-center hover:scale-110 transition-all duration-400"
             >
               <BackIcon className="w-5 mr-1" />
               <p className="text-md font-semibold text-[#042284]">ย้อนกลับ</p>
             </a>
           </div>
-          <div className="flex flex-col md:flex-row justify-center md:justify-between items-center w-full">
+          <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start w-full">
             <div>
               <div className="flex flex-row justify-between items-center w-full mt-[10%] mb-[4%]">
                 <p
                   onClick={prevPage}
                   className="text-2xl cursor-pointer md:text-4xl opacity-51 font-bold text-[#04217F]"
                 >
-                  {"<"}
+                  {page === 0 ? " " : "<"}
                 </p>
-                <img
-                  src={ImgData[Number(params)][page]}
-                  className="w-[70vw] md:w-[30vw] rounded-[20px] aspect-square shrink-0 mx-2"
-                />
+
+                {/* CAROUSEL */}
+                <div className="overflow-hidden w-[70vw] md:w-[30vw] mx-2">
+                  <div
+                    className="flex transition-transform duration-500 ease-in-out"
+                    style={{
+                      transform: `translateX(-${page * 100}%)`,
+                    }}
+                  >
+                    {ImgData[Number(params)].map((img, i) => (
+                      <img
+                        key={i}
+                        src={img}
+                        className="w-[70vw] md:w-[30vw] rounded-[20px] aspect-square shrink-0"
+                      />
+                    ))}
+                  </div>
+                </div>
+
                 <p
                   onClick={nextPage}
                   className="text-2xl md:text-4xl opacity-51 cursor-pointer font-bold text-[#04217F]"
                 >
-                  {">"}
+                  {page === 2 ? " " : ">"}
                 </p>
               </div>
+
               <div className="flex flex-col w-[75vw] md:w-97/100  p-2 pl-5">
                 <div className="flex flex-row justify-between w-full">
                   <p className="text-[#04217F] text-xl sm:text-3xl md:text-4xl font-bold font-noto-sans-thai">
@@ -101,7 +119,7 @@ export default function Merchandise() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mt-[5%]">
+            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mxt-[5%]">
               <p className="font-medium text-sm md:text-[13px] lg:text-xl py-1 md:py-3 text-[#04217F] ">
                 สินค้าอื่น ๆ
               </p>
@@ -131,6 +149,7 @@ export default function Merchandise() {
 
   return (
     <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3]">
+      <Beam className="absolute h-full right-0" />
       <div className="py-20  sm:py-[10%] w-full flex flex-col justify-center items-center">
         <div className="flex flex-col w-4/5 py-2">
           <p className="text-[#0020A9] text-4xl md:text-7xl text-center font-bold ">
@@ -146,7 +165,7 @@ export default function Merchandise() {
             บริเวณหน้าตึก 80 ปี
           </p>
         </div>
-        <div className="flex flex-col md:flex-row space-x-4  md:space-y-0 space-y-2 mt-4">
+        <div className="flex flex-col md:flex-row space-x-4  md:space-y-0 space-y-2 mt-4 intro-fade-down">
           <Box
             img={ImgData[0][0]}
             head={TextData[0][0]}
