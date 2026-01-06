@@ -268,7 +268,7 @@ export const mapItems: MapItem[] = [
       <OuterOrg className="absolute left-[333px] top-[410px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["องค์กรณ์ภายนอก", "outer organization"],
-    type: "outer organization",
+    type: "outer",
   },
   {
     element: (
@@ -289,449 +289,449 @@ export const mapItems: MapItem[] = [
       <P1 className="absolute left-[47px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สายการเรียนภาษา-ภาษาญี่ปุ่น", "Program japanease"],
-    type: "Program",
+    type: "program",
   },
   {
     element: (
       <P2 className="absolute left-[61px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สายการเรียนภาษา-ภาษาจีน", "Program chinease"],
-    type: "Program",
+    type: "program",
   },
   {
     element: (
       <P3 className="absolute left-[75px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สายการเรียนภาษา-ภาษาเกาหลี", "Program korea"],
-    type: "Program",
+    type: "program",
   },
   {
     element: (
       <P4 className="absolute left-[89px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาสเปน", "Program spain"],
-    type: "Program",
+    keyword: ["สายการเรียนภาษา-ภาษาสเปน", "program spain"],
+    type: "program",
   },
   {
     element: (
       <P5 className="absolute left-[103px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาฝรั่งเศส", "Program french"],
-    type: "Program",
+    keyword: ["สายการเรียนภาษา-ภาษาฝรั่งเศส", "program french"],
+    type: "program",
   },
   {
     element: (
       <P6 className="absolute left-[117px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาเยอรมัน", "Program germen"],
-    type: "Program",
+    keyword: ["สายการเรียนภาษา-ภาษาเยอรมัน", "program germen"],
+    type: "program",
   },
   {
     element: (
       <P7 className="absolute left-[55px] top-[470px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนวิทยาศาสตร์-คณิตศาสตร์", "Program science math"],
-    type: "Program",
+    keyword: ["สายการเรียนวิทยาศาสตร์-คณิตศาสตร์", "program science math"],
+    type: "program",
   },
   {
     element: (
       <P8 className="absolute left-[93px] top-[470px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-คณิตศาสตร์", "Program english math"],
-    type: "Program",
+    keyword: ["สายการเรียนภาษา-คณิตศาสตร์", "program english math"],
+    type: "program",
   },
   {
     element: (
       <G9 className="absolute left-[45px] top-[500px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["Gifted Science", "กิฟต์วิทย์"],
-    type: "Program",
+    type: "gifted",
   },
   {
     element: (
       <G10 className="absolute left-[61px] top-[500px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["Gifted Math", "กิฟต์เลข"],
-    type: "Program",
+    type: "gifted",
   },
   {
     element: (
       <G11 className="absolute left-[77px] top-[500px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["Gifted English", "กิฟต์อังกฤษ"],
-    type: "Program",
+    type: "gifted",
   },
   {
     element: (
       <G12 className="absolute left-[380px] top-[612px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    type: "gifted",
   },
   //add new
   {
     element: (
       <C13 className="absolute -left-[13px] top-[385px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรม Quant การเงินเชิงปริมาณ"],
+    type: "club",
   },
   {
     element: (
       <C14 className="absolute -left-[13px] top-[400px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมคณิตศาสตร์"],
+    type: "club",
   },
   {
     element: (
       <C15 className="absolute left-[15px] top-[469px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมเพาะพันธุ์ไม้"],
+    type: "club",
   },
   {
     element: (
       <C16 className="absolute left-[15px] top-[496px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมการ์ตูน", "cartoon"],
+    type: "club",
   },
   {
     element: (
       <C17 className="absolute left-[20px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมสิ่งละอันพันละน้อย"],
+    type: "club",
   },
   {
     element: (
       <C18 className="absolute left-[33px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมสิ่งละอันพันละน้อย (โครเชต์)"],
+    type: "club",
   },
   {
     element: (
       <C19 className="absolute left-[94px] top-[500px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรม Crossword"],
+    type: "club",
   },
   {
     element: (
       <C20 className="absolute left-[113px] top-[526px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมดนตรีสากล", "music"],
+    type: "club",
   },
   {
     element: (
       <C21 className="absolute left-[139px] top-[530px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาพยนตร์สั้นและสื่อโทรทัศน์"],
+    type: "club",
   },
   {
     element: (
       <C22 className="absolute left-[139px] top-[517px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมผู้บำเพ็ญประโยชน์"],
+    type: "club",
   },
   {
     element: (
       <C23 className="absolute left-[139px] top-[503px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมวรรณศิลป์ ต.อ."],
+    type: "club",
   },
   {
     element: (
       <C24 className="absolute left-[139px] top-[489px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมสร้างสรรค์หนังสือ", "book"],
+    type: "club",
   },
   {
     element: (
       <C25 className="absolute left-[139px] top-[475px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมนิเทศศิลป"],
+    type: "club",
   },
   {
     element: (
       <C26 className="absolute left-[139px] top-[461px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมจิตวิทยา"],
+    type: "club",
   },
   {
     element: (
       <C27 className="absolute left-[139px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมเพื่อนที่ปรึกษา"],
+    type: "club",
   },
   {
     element: (
       <C28 className="absolute left-[235px] top-[353px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรม MUN"],
+    type: "club",
   },
   {
     element: (
       <C29 className="absolute left-[235px] top-[363px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรม Debate"],
+    type: "club",
   },
   {
     element: (
       <C30 className="absolute left-[235px] top-[373px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมกฎหมายน่ารู้"],
+    type: "club",
   },
   {
     element: (
       <C31 className="absolute left-[235px] top-[383px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมหนังสังคม"],
+    type: "club",
   },
   {
     element: (
       <C32 className="absolute left-[235px] top-[393px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาคีสังคม"],
+    type: "club",
   },
   {
     element: (
       <C33 className="absolute left-[235px] top-[403px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมหลากทัศนะประวัติศาสตร์"],
+    type: "club",
   },
   {
     element: (
       <C34 className="absolute left-[235px] top-[420px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมสรรพศึกษา"],
+    type: "club",
   },
   {
     element: (
       <C35 className="absolute left-[265px] top-[392px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมบริหารธุรกิจ"],
+    type: "club",
   },
   {
     element: (
       <Library className="absolute left-[295px] top-[346px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ห้องสมุด", "library"],
+    type: "building",
   },
   {
     element: (
       <C36 className="absolute left-[242px] top-[475px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมศิลปศึกษา"],
+    type: "club",
   },
   {
     element: (
       <C37 className="absolute left-[242px] top-[498px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมของเล่นเพื่อการเรียนรู้"],
+    type: "club",
   },
   {
     element: (
       <C38 className="absolute left-[242px] top-[510px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมวิทยาศาสตร์", "science"],
+    type: "club",
   },
   {
     element: (
       <C39 className="absolute left-[242px] top-[521px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมวิจัย", "research"],
+    type: "club",
   },
   {
     element: (
       <C40 className="absolute left-[242px] top-[556px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมฟิตเนส", "fitness"],
+    type: "club",
   },
   {
     element: (
       <C41 className="absolute left-[269px] top-[580px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมหมากกระดาน"],
+    type: "club",
   },
   {
     element: (
       <C42 className="absolute left-[282px] top-[580px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมผู้นำเยาวชนสาธารณสุข"],
+    type: "club",
   },
   {
     element: (
       <C43 className="absolute left-[300px] top-[580px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมผู้นำเชียร์"],
+    type: "club",
   },
   {
     element: (
       <C44 className="absolute left-[313px] top-[580px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมวาทศิลป์"],
+    type: "club",
   },
   {
     element: (
       <C45 className="absolute left-[326px] top-[580px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["งานแนะแนว"],
+    type: "club",
   },
   {
     element: (
       <C46 className="absolute left-[340px] top-[566px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมถ่ายภาพ"],
+    type: "club",
   },
   {
     element: (
       <C47 className="absolute left-[373px] top-[598px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาไทย"],
+    type: "club",
   },
   {
     element: (
       <C48 className="absolute left-[347px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาเกาหลี"],
+    type: "club",
   },
   {
     element: (
       <C49 className="absolute left-[360px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาญี่ปุ่น"],
+    type: "club",
   },
   {
     element: (
       <C50 className="absolute left-[373px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาจีน"],
+    type: "club",
   },
   {
     element: (
       <C51 className="absolute left-[386px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาเยอรมัน"],
+    type: "club",
   },
   {
     element: (
       <C52 className="absolute left-[399px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาฝรั่งเศส"],
+    type: "club",
   },
   {
     element: (
       <C53 className="absolute left-[412px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["ชมรมภาษาสเปน"],
+    type: "club",
   },
   //organization
   {
     element: (
       <O54 className="absolute left-[99px] top-[526px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["กลุ่มนักเรียนอาสาพยาบาล"],
+    type: "organization",
   },
   {
     element: (
       <O55 className="absolute left-[265px] top-[378px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["คณะกรรมการหนังสืออนุสรณ์"],
+    type: "organization",
   },
   {
     element: (
       <O56 className="absolute left-[256px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["สปค.ต.อ."],
+    type: "organization",
   },
   {
     element: (
       <O57 className="absolute left-[269px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["สนตอ."],
+    type: "organization",
   },
   {
     element: (
       <O58 className="absolute left-[282px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["สปค.รร.ต.อ."],
+    type: "organization",
   },
   {
     element: (
       <O59 className="absolute left-[300px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["กช.", "tucmc"],
+    type: "organization",
   },
   {
     element: (
       <O60 className="absolute left-[313px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["กน."],
+    type: "organization",
   },
   {
     element: (
       <O61 className="absolute left-[326px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["AIC"],
+    type: "organization",
   },
   {
     element: (
       <O62 className="absolute left-[256px] top-[580px]  w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["สโมสรอาจารย์โรงเรียนฯ"],
+    type: "organization",
   },
   {
     element: (
       <O63 className="absolute left-[341px] top-[579px]  w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["Gifted Thai", "กิฟต์ไทย"],
-    type: "Program",
+    keyword: ["TUPRO"],
+    type: "organization",
   },
 ];
