@@ -107,13 +107,13 @@ const ProgrammeSection = () => {
       </div>
 
       <div className="block md:hidden">
-        <div className=" xfade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
+        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
           <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
         </div>
-        <div className=" xfade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
+        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
           <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />

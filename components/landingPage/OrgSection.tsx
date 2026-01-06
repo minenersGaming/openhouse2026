@@ -25,26 +25,26 @@ const OrgSection = () => {
   [&>*:nth-child(even)]:self-end"
             >
               <a href="/ondev/organizations/TUSC" className="block">
-                <TUSCLg className="w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <TUSCLg className=" fade-in-scroll w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
               <a href="/ondev/organizations/TUANUSORN" className="block">
-                <AnusornLg className="w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <AnusornLg className=" fade-in-scroll w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
               </a>
             </div>
             <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
               <a href="/ondev/organizations/TUCMC" className="block">
-                <TUCMCLg className="w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <TUCMCLg className=" fade-in-scroll w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
               </a>
               <a href="/ondev/organizations/AIC" className="block">
-                <AICLg className="w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <AICLg className=" fade-in-scroll w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
               </a>
             </div>
             <div className="flex flex-col h-[140%] -space-y-10">
               <a href="/ondev/organizations/TUPRO" className="block">
-                <TUPROLg className="w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <TUPROLg className=" fade-in-scroll w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
               </a>
               <a href="/ondev/organizations/TUNSO" className="block">
-                <TUNSOLg className="w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <TUNSOLg className=" fade-in-scroll w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
               </a>
             </div>
           </div>
@@ -83,12 +83,12 @@ const OrgSection = () => {
   [&>*:nth-child(odd)]:self-start
   [&>*:nth-child(even)]:self-end"
           >
-            <TUCMCCard className="w-[60vw] hover:scale-105 duration-400  transition-all cursor-pointer " />
-            <TUSCCard className="w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <AnusornCard className="w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <AICCard className="w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <TUNSOCard className="w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <TUPROCard className="w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
+            <TUCMCCard className=" fade-in-scroll w-[60vw] hover:scale-105 duration-400  transition-all cursor-pointer " />
+            <TUSCCard className=" fade-in-scroll w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
+            <AnusornCard className=" fade-in-scroll w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
+            <AICCard className=" fade-in-scroll w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
+            <TUNSOCard className=" fade-in-scroll w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
+            <TUPROCard className=" fade-in-scroll w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
           </div>
           <div className="flex items-center justify-center w-full">
             <p className="font-medium text-center text-md sm:text-xl w-39/40 sm:w-2/3  bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
