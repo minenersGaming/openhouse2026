@@ -90,7 +90,7 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
       <p
         className={`${CommonTextStyle} text-2xl md:text-3xl  lg:text-4xl  hidden md:block `}
       >
-        ของชมรม
+        ขององค์กร
       </p>
       <p className={`${CommonTextStyle} ${SmTextStyle}`}>ผลงานขององค์กร</p>
     </div>,

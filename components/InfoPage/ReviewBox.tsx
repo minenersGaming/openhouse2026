@@ -35,7 +35,7 @@ const ReviewBox = ({
           </div>
         </div>
       </div>
-      <p className="text-sm font-bai-jamjuree py-2  *:text-white text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]">
+      <p className="text-sm font-bai-jamjuree pb-2 pt-3  *:text-white text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]">
         {text}
       </p>
     </div>
