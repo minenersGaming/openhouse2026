@@ -12,7 +12,8 @@ import AnusornLg from "@/vector/LandingPage/Org/CardLg/AnusornLg";
 import AICLg from "@/vector/LandingPage/Org/CardLg/AICLg";
 import TUNSOLg from "@/vector/LandingPage/Org/CardLg/TUNSOLg";
 import TUPROLg from "@/vector/LandingPage/Org/CardLg/TUPROLg";
-
+const LgCard =
+  " w-[60vw] hover:scale-105 duration-400 transition-all cursor-pointer ";
 const OrgSection = () => {
   return (
     <section
@@ -21,52 +22,52 @@ const OrgSection = () => {
     >
       <div className="hidden md:block">
         <div className="absolute flex w-full flex-row justify-end">
-          <div className="w-[80%] h-[170%] p-10  fade-in-scroll -translate-x-[2.75%] -space-x-32 -space-y-10 flex flex-row justify-between">
+          <div className="w-[80%] h-[170%] p-10 fade-in-scroll -translate-x-[2.75%] -space-x-32 -space-y-10 flex flex-row justify-between">
             <div
               className=" flex flex-col -space-y-0
-  [&>*:nth-child(odd)]:self-start
-  [&>*:nth-child(even)]:self-end"
+ [&>*:nth-child(odd)]:self-start
+ [&>*:nth-child(even)]:self-end"
             >
               <a href="/ondev/organizations/TUSC" className="block">
-                <TUSCLg className="   w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <TUSCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
               <a href="/ondev/organizations/TUANUSORN" className="block">
-                <AnusornLg className="   w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <AnusornLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
             </div>
             <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
               <a href="/ondev/organizations/TUCMC" className="block">
-                <TUCMCLg className="   w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <TUCMCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
               <a href="/ondev/organizations/AIC" className="block">
-                <AICLg className="   w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <AICLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
             </div>
             <div className="flex flex-col h-[140%] -space-y-10">
               <a href="/ondev/organizations/TUPRO" className="block">
-                <TUPROLg className="   w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <TUPROLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
               <a href="/ondev/organizations/TUNSO" className="block">
-                <TUNSOLg className="   w-[25vw] hover:scale-105  cursor-pointer  transition-all" />
+                <TUNSOLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </a>
             </div>
           </div>
           <div className="w-1/3 flex flex-col items-center justify-center py-15">
             <div className="flex flex-col items-end">
-              <p className="font-bold text-5xl lg:text-7xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+              <p className="font-bold text-5xl lg:text-7xl xl:text-8xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
                 หน่วยงาน
               </p>
-              <p className="font-bold text-5xl lg:text-7xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+              <p className="font-bold text-5xl lg:text-7xl xl:text-8xl bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
                 นักเรียน
               </p>
             </div>
             {/* <div className="h-[2px] w-5/7 m-4 rounded-full bg-linear-to-r from-[#F3F2CD] to-[#FBDE8C]"></div>
-            <p className=" text-sm lg:text-xl w-3/5 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
-              หน่วยงานนักเรียนที่รับผิดชอบงานต่าง ๆ ในโรงเรียน ประกอบด้วย
-              คณะกรรมการงานกิจกรรมพัฒนาผู้เรียน (กช.) คณะกรรมการนักเรียน (กน.)
-              นักเรียนผู้ช่วยงานประชาสัมพันธ์ (ปชส.) นักเรียนกลุ่ม AIC (กอ.)
-              กลุ่มนักเรียนอาสาพยาบาลและความปลอดภัย และคณะกรรมการหนังสืออนุสรณ์ฯ
-            </p> */}
+ <p className=" text-sm lg:text-xl w-3/5 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+ หน่วยงานนักเรียนที่รับผิดชอบงานต่าง ๆ ในโรงเรียน ประกอบด้วย
+ คณะกรรมการงานกิจกรรมพัฒนาผู้เรียน (กช.) คณะกรรมการนักเรียน (กน.)
+ นักเรียนผู้ช่วยงานประชาสัมพันธ์ (ปชส.) นักเรียนกลุ่ม AIC (กอ.)
+ กลุ่มนักเรียนอาสาพยาบาลและความปลอดภัย และคณะกรรมการหนังสืออนุสรณ์ฯ
+ </p> */}
           </div>
         </div>
         <OrgLg className="w-full top-0" />
@@ -83,23 +84,23 @@ const OrgSection = () => {
           </div>
           <div
             className="w-[90%] h-3/5 -space-y-15 flex flex-col
-  [&>*:nth-child(odd)]:self-start
-  [&>*:nth-child(even)]:self-end"
+ [&>*:nth-child(odd)]:self-start
+ [&>*:nth-child(even)]:self-end"
           >
-            <TUCMCCard className="   w-[60vw] hover:scale-105 duration-400  transition-all cursor-pointer " />
-            <TUSCCard className="   w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <AnusornCard className="   w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <AICCard className="   w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <TUNSOCard className="   w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
-            <TUPROCard className="   w-[60vw] hover:scale-105  duration-400 transition-all cursor-pointer " />
+            <TUCMCCard className={LgCard} />
+            <TUSCCard className={LgCard} />
+            <AnusornCard className={LgCard} />
+            <AICCard className={LgCard} />
+            <TUNSOCard className={LgCard} />
+            <TUPROCard className={LgCard} />
           </div>
           <div className="flex items-center justify-center w-full">
-            {/* <p className="font-medium text-center text-md sm:text-xl w-39/40 sm:w-2/3  bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
-              กลุ่มหรือองค์กรที่จัดตั้งขึ้นภายในสถานศึกษา
-              โดยมีนักเรียนเป็นสมาชิกหลัก ทำหน้าที่ช่วยเหลือ สนับสนุน
-              และมีส่วนร่วมในการบริหารจัดการกิจกรรมต่าง ๆ ของโรงเรียน
-              ภายใต้การดูแลของครูหรือผู้บริหาร
-            </p> */}
+            {/* <p className="font-medium text-center text-md sm:text-xl w-39/40 sm:w-2/3 bg-linear-to-r from-[#F3F2CD] via-[#FBDE8C] to-[#FBDE8C] bg-clip-text text-transparent">
+ กลุ่มหรือองค์กรที่จัดตั้งขึ้นภายในสถานศึกษา
+ โดยมีนักเรียนเป็นสมาชิกหลัก ทำหน้าที่ช่วยเหลือ สนับสนุน
+ และมีส่วนร่วมในการบริหารจัดการกิจกรรมต่าง ๆ ของโรงเรียน
+ ภายใต้การดูแลของครูหรือผู้บริหาร
+ </p> */}
           </div>
         </div>
         <OrgSm className="w-full" />

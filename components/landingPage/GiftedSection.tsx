@@ -13,7 +13,10 @@ import GiftedTextSm from "@/vector/LandingPage/Gifted/GiftedTextSm";
 
 import GiftedLg from "@/vector/LandingPage/Gifted/GiftedLg";
 import GiftedTextLg from "@/vector/LandingPage/Gifted/GiftedTextLg";
-
+const SmBanner =
+  "w-[30vw] cursor-pointer  duration-400 transition-all hover:scale-105";
+const LgBanner =
+  "w-[14vw] transition-all hover:scale-105 duration-400 cursor-pointer";
 const GiftedSection = () => {
   return (
     <section
@@ -29,12 +32,12 @@ const GiftedSection = () => {
         </div>
         <div className="h-full xoverflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%] fade-in-scroll  ">
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <GiftedMath className="   w-[30vw] cursor-pointer  duration-400 transition-all hover:scale-105" />
-            <GiftedThai className="   w-[30vw] cursor-pointer  duration-400 transition-all hover:scale-105" />
+            <GiftedMath className={SmBanner} />
+            <GiftedThai className={SmBanner} />
           </div>
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <GiftedSci className="   w-[30vw] cursor-pointer  duration-400 transition-all hover:scale-105" />
-            <GiftedEng className="   w-[30vw] cursor-pointer duration-400 transition-all hover:scale-105" />
+            <GiftedSci className={SmBanner} />
+            <GiftedEng className={SmBanner} />
           </div>
         </div>
         <GiftedSm className=" w-full left-0 " />
@@ -46,21 +49,21 @@ const GiftedSection = () => {
             โครงการพัฒนาความสามารถพิเศษ
           </p> */}
         </div>
-        <div className="translate-y-[62%] absolute flex flex-row justify-center items-center w-full space-x-[9%] fade-in-scroll">
+        <div className="translate-y-[70%] absolute flex flex-row justify-center items-center w-full space-x-[10.5%] xfade-in-scroll">
           <a href="/ondev/gifted/gifted-math" className="block">
-            <GiftedMathLg className="   w-[15vw] transition-all hover:scale-105 duration-400 cursor-pointer" />
+            <GiftedMathLg className={LgBanner} />
           </a>
 
           <a href="/ondev/gifted/gifted-science" className="block">
-            <GiftedSciLg className="   w-[15vw] transition-all hover:scale-105  duration-400 cursor-pointer" />
+            <GiftedSciLg className={LgBanner} />
           </a>
 
           <a href="/ondev/gifted/gifted-english" className="block">
-            <GiftedEngLg className="   w-[15vw] transition-all hover:scale-105 duration-400  cursor-pointer" />
+            <GiftedEngLg className={LgBanner} />
           </a>
 
           <a href="/ondev/gifted/gifted-thai" className="block">
-            <GiftedThaiLg className="   w-[15vw] transition-all hover:scale-105  duration-400 cursor-pointer" />
+            <GiftedThaiLg className={LgBanner} />
           </a>
         </div>
         <GiftedLg className="w-full" />

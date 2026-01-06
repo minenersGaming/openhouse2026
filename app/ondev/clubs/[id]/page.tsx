@@ -77,7 +77,7 @@ export default function ClubsInfoPage() {
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
         </a>
 
-        <h1 className="text-[#F3ECB7] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
+        <h1 className="text-[#F3ECB7] max-w-[70vw] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
           {data.thainame}
         </h1>
 

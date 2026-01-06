@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <ScrollObserver />
-      <div className="flex flex-col w-screen overflow-x-clip bg-red-400">
+      <div className="flex flex-col w-screen overflow-x-clip">
         <Herodev />
         <ProgrammeSection />
         <GiftedSection />

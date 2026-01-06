@@ -38,8 +38,7 @@ const RecommendBar = [
 export default function Merchandise() {
   const searchParams = useSearchParams();
   const params = searchParams.get("item");
-  if (params === "") {
-  }
+
   const [page, setPage] = useState(0);
 
   function prevPage() {
@@ -49,10 +48,11 @@ export default function Merchandise() {
   function nextPage() {
     setPage(page === 2 ? 0 : page + 1);
   }
+  function setPageZero() {
+    setPage(0);
+  }
 
   if (valid.includes(params ?? "")) {
-    const index = Number(params);
-
     return (
       <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3] flex flex-col justify-center  items-center">
         <Beam className="absolute h-full right-0" />
@@ -125,7 +125,10 @@ export default function Merchandise() {
               <p className="font-medium text-sm md:text-[13px] lg:text-xl py-1 md:py-3 text-[#04217F] ">
                 สินค้าอื่น ๆ
               </p>
-              <div className="flex flex-row md:flex-col space-x-2 md:space-y-2">
+              <div
+                onClick={setPageZero}
+                className="flex flex-row md:flex-col space-x-2 md:space-y-2"
+              >
                 <Card
                   img={ImgData[RecommendBar[Number(params)][0]][0]}
                   text={TextData[RecommendBar[Number(params)][0]][0]}

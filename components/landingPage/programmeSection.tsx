@@ -24,9 +24,9 @@ import Bricks from "@/vector/LandingPage/Programme/Bricks";
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
 const Style = {
-  LgCard: "w-[24vw] hover:scale-105 transition-all duration-400",
+  LgCard: "w-[25vw] hover:scale-105 transition-all duration-400",
   LgFlex:
-    "flex flex-col justify-center items-center left-0 translate-x- z-6 -space-y-15  fade-in-scroll",
+    "flex flex-col justify-center items-center left-0 translate-x- z-6 -space-y-15 -space-xx-1  scale-100 xfade-in-scroll",
   LgPadding: "w-[17vw] left-0 -translate-y-10",
 };
 
@@ -34,12 +34,12 @@ const ProgrammeSection = () => {
   return (
     <section
       id="program"
-      className="relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:max-h-[1600px]"
+      className=" relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
       <div className="h-full top-0">
         <div className=" -translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
-          <LeftPillar className="h-[200%] -translate-x-[13%] z-67" />
-          <RightPillar className="h-[200%] translate-x-[13%] z-67" />
+          <LeftPillar className="h-[100%] -translate-x-[17%] z-67" />
+          <RightPillar className="h-[100%] translate-x-[17%] z-67" />
         </div>
         <div className="relative w-full items-center flex justify-center">
           <Bricks className="absolute w-[70vw] translate-y-[70%] z-2" />
@@ -61,12 +61,12 @@ const ProgrammeSection = () => {
       <div className="hidden overflow-hidden md:flex w-full justify-center items-center">
         <div
           className={
-            "mt-15 w-[70vw] flex flex-row justify-between items-center"
+            "mt-15 w-[66vw] flex flex-row justify-between items-center"
           }
         >
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
+            <div className="absolute flex flex-col -space-y-[40%] -translate-y-5 -translate-x-[1.5%]">
               <a href="/ondev/programs/sci-math" className="block">
                 <SciMath className={Style.LgCard} />
               </a>
@@ -77,7 +77,7 @@ const ProgrammeSection = () => {
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
+            <div className="absolute flex flex-col -space-y-[40%] translate-x-[1%] -translate-y-5">
               <a href="/ondev/programs/arts-french" className="block">
                 <ArtsFr className={Style.LgCard} />
               </a>
@@ -101,7 +101,7 @@ const ProgrammeSection = () => {
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
+            <div className="absolute flex flex-col -space-y-[40%] -translate-x-[2.5%] -translate-y-5">
               <a href="/ondev/programs/arts-chinese" className="block">
                 <ArtsCn className={Style.LgCard} />
               </a>
