@@ -3,41 +3,7 @@
 import { useState } from "react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { Noto_Sans_Thai } from "next/font/google";
-import MapBg from "@/vector/map/MapBg";
-import Toilet from "@/vector/map/toilet";
-import B1 from "@/vector/map/building/B1";
-import B2 from "@/vector/map/building/ฺB2";
-import BArt from "@/vector/map/building/BArt";
-import B3 from "@/vector/map/building/ฺB3";
-import B8 from "@/vector/map/building/ฺB8";
-import B72 from "@/vector/map/building/B72";
-import B9 from "@/vector/map/building/ฺB9";
-import B50 from "@/vector/map/building/B50";
-import B55 from "@/vector/map/building/B55";
-import B80 from "@/vector/map/building/B80";
-import B81 from "@/vector/map/building/ฺB81";
-import BRung from "@/vector/map/building/BRung";
-import OuterOrg from "@/vector/map/OuterOrg";
-import Kubua from "@/vector/map/other/kubua";
-import Cafeteria1 from "@/vector/map/other/Cafeteria1";
-import Plant from "@/vector/map/other/plant";
-import B60 from "@/vector/map/building/B60";
-import PE from "@/vector/map/other/PE";
-import Lan70 from "@/vector/map/other/lan70";
-import LanBanYen from "@/vector/map/other/lanbanyen";
-import TennisCourt from "@/vector/map/other/TennisCourt";
-import BasketBallCourt from "@/vector/map/other/BasketBallCourt";
-import Football from "@/vector/map/other/Football";
-import VolleyBall from "@/vector/map/other/volleyball";
-import Auditorium from "@/vector/map/other/auditorium";
-import P1 from "@/vector/map/programs/P1";
-import P2 from "@/vector/map/programs/P2";
-import P3 from "@/vector/map/programs/P3";
-import P4 from "@/vector/map/programs/P4";
-import P5 from "@/vector/map/programs/P5";
-import P6 from "@/vector/map/programs/P6";
-import P7 from "@/vector/map/programs/P7";
-import P8 from "@/vector/map/programs/P8";
+import { mapItems, MapItem } from "@/components/map/Element";
 import SearchIcon from "@/vector/Contact/SearchIcon";
 import R1 from "@/vector/map/icon/R1";
 import R2 from "@/vector/map/icon/R2";
@@ -53,287 +19,62 @@ const NotoSansThai = Noto_Sans_Thai({
   subsets: ["thai", "latin"],
 });
 
-type MapItem = {
-  element: React.ReactElement;
-  keyword: string[];
-  type: string;
-};
-
-const mapItems: MapItem[] = [
-  {
-    element: <MapBg className="w-full h-full" />,
-    keyword: [" "],
-    type: "others",
-  },
-  {
-    element: (
-      <Toilet className="absolute left-[36px] top-[210px] scale-50 origin-top-left" />
-    ),
-    keyword: ["toilet", "ห้องน้ำ"],
-    type: "toilet",
-  },
-  {
-    element: (
-      <B1 className="absolute left-[400px] top-[690px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก1", "building1"],
-    type: "building",
-  },
-  {
-    element: (
-      <B2 className="absolute left-[385px] top-[425px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก2", "building2"],
-    type: "building",
-  },
-  {
-    element: (
-      <BArt className="absolute left-[285px] top-[706px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึกศิลปะ", "ArtBuilding"],
-    type: "building",
-  },
-  {
-    element: (
-      <B3 className="absolute left-[400px] top-[150px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก3", "building3"],
-    type: "building",
-  },
-  {
-    element: (
-      <B8 className="absolute -left-[19px] top-[246px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก8", "building8"],
-    type: "building",
-  },
-  {
-    element: (
-      <B72 className="absolute -left-[19px] top-[332px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก72", "building72"],
-    type: "building",
-  },
-  {
-    element: (
-      <B9 className="absolute left-[186px] top-[475px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก9", "building9"],
-    type: "building",
-  },
-  {
-    element: (
-      <B50 className="absolute left-[100px] top-[70px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก50ปี", "building 50 years"],
-    type: "building",
-  },
-  {
-    element: (
-      <B55 className="absolute left-[155px] top-[70px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก55ปี", "building 55 years"],
-    type: "building",
-  },
-  {
-    element: (
-      <B80 className="absolute left-[290px] top-[460px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก80ปี", "building 80 years"],
-    type: "building",
-  },
-  {
-    element: (
-      <B81 className="absolute left-[235px] top-[337px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก81ปี", "building 81 years"],
-    type: "building",
-  },
-  {
-    element: (
-      <BRung className="absolute left-[27px] top-[70px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึกคุณหญิงหรั่ง", "lady rung building"],
-    type: "building",
-  },
-  {
-    element: (
-      <B60 className="absolute left-[70px] top-[540px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ตึก60ปี", "60 years building"],
-    type: "building",
-  },
-  {
-    element: (
-      <Kubua className="absolute left-[343px] top-[692px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["คูบัว", "pool"],
-    type: "others",
-  },
-  {
-    element: (
-      <Cafeteria1 className="absolute left-[123px] top-[152px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["โดมทอง", "cafeteria", "โรงอาหาร"],
-    type: "others",
-  },
-  {
-    element: (
-      <Plant className="absolute -left-[19px] top-[473px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["เรือนเกษตร", "plant"],
-    type: "others",
-  },
-  {
-    element: (
-      <PE className="absolute left-[197px] top-[549px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["โรงพละ", "PE"],
-    type: "others",
-  },
-  {
-    element: (
-      <Lan70 className="absolute left-[200px] top-[503px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ลาน70ปี", "lan 70 years"],
-    type: "others",
-  },
-  {
-    element: (
-      <LanBanYen className="absolute left-[70px] top-[464px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ลานบานเย็น", "lan Ban Yen"],
-    type: "others",
-  },
-  {
-    element: (
-      <TennisCourt className="absolute left-[360px] top-[350px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สนามเท็นนิส", "TennisCourt"],
-    type: "others",
-  },
-  {
-    element: (
-      <BasketBallCourt className="absolute left-[360px] top-[424px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สนามบาสเก็ตบอล", "BasketBallCourt"],
-    type: "others",
-  },
-  {
-    element: (
-      <Football className="absolute left-[85px] top-[155px] w-1/2 scale-70 origin-top-left" />
-    ),
-    keyword: ["สนามฟุตบอล", "FootBallCourt"],
-    type: "others",
-  },
-  {
-    element: (
-      <OuterOrg className="absolute left-[333px] top-[410px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["องค์กรณ์ภายนอก", "outer organization"],
-    type: "outer organization",
-  },
-  {
-    element: (
-      <VolleyBall className="absolute left-[373px] top-[540px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สนามวอลเลย์บอล", "volleyballcourt"],
-    type: "others",
-  },
-  {
-    element: (
-      <Auditorium className="absolute left-[290px] top-[590px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["หอประชุม", "Auditorium"],
-    type: "others",
-  },
-  {
-    element: (
-      <P1 className="absolute left-[47px] top-[447px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-ภาษาญี่ปุ่น", "Program japanease"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P2 className="absolute left-[61px] top-[447px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-ภาษาจีน", "Program chinease"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P3 className="absolute left-[75px] top-[447px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-ภาษาเกาหลี", "Program korea"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P4 className="absolute left-[89px] top-[447px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-ภาษาสเปน", "Program spain"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P5 className="absolute left-[103px] top-[447px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-ภาษาฝรั่งเศส", "Program french"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P6 className="absolute left-[117px] top-[447px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-ภาษาเยอรมัน", "Program germen"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P7 className="absolute left-[55px] top-[470px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนวิทยาศาสตร์-คณิตศาสตร์", "Program science math"],
-    type: "Program",
-  },
-  {
-    element: (
-      <P8 className="absolute left-[93px] top-[470px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["สายการเรียนภาษา-คณิตศาสตร์", "Program english math"],
-    type: "Program",
-  },
-];
+const CirW = "h-9 w-9 text-[17.937px] md:h-7 md:w-7 md:text-[14px]";
 
 const css = {
   header:
-    "text-[#F3E19D] text-center font-inter text-[89.118px] font-bold leading-normal drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]",
+    "text-[#F3E19D] text-center font-inter font-bold leading-normal drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" +
+    "  text-[30px] sm:text-[32px] md:text-[35px] xl:text-[89.118px] ",
   header2:
-    "text-[#F3E19D] text-center text-[43.083px] font-normal leading-normal tracking-[4.308px] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]",
-  p: "text-white text-center font-noto-sans-thai text-[17.937px] leading-normal",
-  h2: " text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.25)] font-noto-sans-thai text-[39.294px] font-bold leading-normal",
-  h4: " flex items-center gap-2 text-white font-['Noto_Sans_Thai'] text-[22.997px] font-semibold leading-normal",
-  button: " px-7 py-1 ",
-  buttonText: " text-[24px] ",
+    "text-[#F3E19D] text-center font-normal leading-normal tracking-[4.308px] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] " +
+    " text-[18px] sm:text-[20px] md:text-[24px] xl:text-[43.083px]  ",
+  button: " px-3 py-1 md:px-5 lg:px-7 lg:py-1 ",
+  buttonText: " text-[13px] sm:text-[14px] md:text-[16px] xl:text-[24px] ",
   searchBox:
-    " w-full pl-[40px] bg-white rounded-[30px] text-[#112E90] font-noto-sans-thai text-[24px] ",
+    " w-full bg-white rounded-[30px] text-[#112E90] font-noto-sans-thai " +
+    " pl-[40px] text-[19px] sm:text-[19px] lg:text-[24px] ",
   searchIcon: "absolute left-[27px] w-[24px] h-auto ",
+  h2:
+    " text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.25)] font-noto-sans-thai font-bold leading-normal " +
+    " text-[24px] lg:text-[39.294px] ",
+  whiteline: " h-[2px] bg-white " + " w-[150px] mb-4 lg:w-[400px] ",
+  listicon: " h-auto w-[25px] ",
+  h4:
+    " flex items-center gap-2 text-white font-['Noto_Sans_Thai'] font-semibold leading-normal " +
+    " text-[19px] lg:text-[22.997px] ",
+  p:
+    " text-white text-center font-noto-sans-thai leading-normal " +
+    " text-[16px] md:text-[12px] lg:text-[17.937px] ",
   CirOr:
-    "flex h-9 w-9 items-center justify-center rounded-full bg-[#F08054] text-white text-center font-noto-sans-thai text-[17.937px] font-black leading-normal",
+    "flex items-center justify-center rounded-full bg-[#F08054] text-white text-center font-noto-sans-thai font-black leading-normal " +
+    CirW,
   CirDB:
-    "flex h-9 w-9 items-center justify-center rounded-full bg-[#042284] border-2 text-white text-center font-noto-sans-thai text-[17.937px] font-black leading-normal",
+    "flex items-center justify-center rounded-full bg-[#042284] border-2 text-white text-center font-noto-sans-thai font-black leading-normal " +
+    CirW,
   CirBl:
-    "flex h-9 w-9 items-center justify-center rounded-full bg-[#4284D8] text-white text-center font-noto-sans-thai text-[17.937px] font-black leading-normal",
-  CirG: "flex h-9 w-9 items-center justify-center rounded-full bg-[#E5C675] text-white text-center font-noto-sans-thai text-[17.937px] font-black leading-normal",
-  CirB: "flex h-9 w-9 items-center justify-center rounded-full bg-[#C5A064] text-white text-center font-noto-sans-thai text-[17.937px] font-black leading-normal",
+    "flex items-center justify-center rounded-full bg-[#4284D8] text-white text-center font-noto-sans-thai font-black leading-normal " +
+    CirW,
+  CirG:
+    "flex items-center justify-center rounded-full bg-[#E5C675] text-white text-center font-noto-sans-thai font-black leading-normal " +
+    CirW,
+  CirB:
+    "flex items-center justify-center rounded-full bg-[#C5A064] text-white text-center font-noto-sans-thai font-black leading-normal " +
+    CirW,
 };
 const container = {
   smallBox: "flex items-center gap-2",
-  buttonBox: " flex flex-col justify-center border items-center gap-3 my-5",
+  buttonBox:
+    " flex flex-col justify-center border items-center gap-3 " +
+    " my-4 sm:my-6 ",
   searchBox:
-    " relative border px-4 flex items-center justify-center w-[60vw] mt-3 mb-6 ",
-  Allbox: " flex space-evenly mt-4 w-[1200px] rounded-[26px] bg-[#173083] p-5 ",
-  col: "flex flex-col gap-3",
+    " relative border flex items-center justify-center " +
+    " w-[350px] px-4 sm:w-[420px] md:w-[560px] lg:w-[60vw] my-4 md:my-5  ",
+  list: " flex border flex-col " + "mb-6 w-[180px] md:w-[270px] ",
+  sublist: "flex flex-col md:w-full md:flex-row md:flex-wrap gap-1 lg:gap-2 ",
+  Allbox:
+    " flex flex-col items-center md:items-start md:flex-row rounded-[26px] bg-[#173083] " +
+    " w-[360px] p-5 md:w-[760px] md:py-6 md:px-2 md:mt-4 lg:p-5 lg:mt-5 lg:w-[1200px] ",
+  col: "flex border flex-col gap-3 " + " w-[300] ",
 };
 const MapPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -348,13 +89,13 @@ const MapPage = () => {
   };
   return (
     <div className="w-screen overflow-hidden bg-[linear-gradient(270deg,#042284_0%,#3450B0_100%)] py-20">
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full border flex flex-col items-center">
         <p className={css.header}>แผนผังงาน</p>
         <p
           className={css.header2}
           style={{ fontFamily: "var(--font-bethany)" }}
         >
-          TRIAMUDON OPEN HOUSE 2026
+          TRIAMUDOM OPEN HOUSE 2026
         </p>
         <div className={container.buttonBox}>
           <div className="flex gap-2">
@@ -455,16 +196,29 @@ const MapPage = () => {
         </div>
 
         {/* MAP CONTAINER */}
-        <div className="relative h-[442px] w-[277.5px] sm:h-[663px] sm:w-[416.25px] md:h-[884px] md:w-[555px]  overflow-hidden touch-none">
+        <div className="relative border aspect-[555/884] w-[375px] sm:h-[663px] sm:w-[416.25px] md:h-[884px] md:w-[555px] lg:h-[1105px] lg:w-[693.75px] xl:h-[1326px] xl:w-[832.5px] 2xl:h-[1547px] 2xl:w-[971.25px] overflow-visible touch-none">
           <TransformWrapper
             minScale={1}
             maxScale={4}
             wheel={{ step: 0.15 }}
             pinch={{ step: 5 }}
             doubleClick={{ disabled: true }}
+            centerOnInit={false}
+            limitToBounds={false}
           >
-            <TransformComponent>
-              <div className="scale-50 sm:scale-75 md:scale-100 origin-top-left w-[555px] h-[884px]">
+            <TransformComponent
+              wrapperStyle={{
+                width: "100%",
+                height: "100%",
+                overflow: "hidden",
+                border: "2px solid red", // Add border here
+              }}
+              contentStyle={{
+                overflow: "visible",
+                border: "2px solid blue", // Or add border here
+              }}
+            >
+              <div className="absolute -top-[297px] -left-[187px] scale-[0.675] sm:scale-75 sm:-top-[332px] sm:-left-[210px] md:scale-100 md:-top-[443px] md:-left-[280px] lg:scale-125 lg:-top-[553px] lg:-left-[350px] xl:scale-150 xl:-top-[664px] xl:-left-[417px] 2xl:scale-175 2xl:-top-[775px] 2xl:-left-[490px] origin-top-left w-[555px] h-[884px] overflow-visible">
                 {mapItems.map((item, index) => {
                   const isMatch = matchesSearch(item);
                   const opacity =
@@ -484,58 +238,54 @@ const MapPage = () => {
           </TransformWrapper>
         </div>
 
-        <div className="flex justify-center gap-4 border mt-10">
-          <div className="flex flex-col ">
+        <div className="flex justify-center border mt-10">
+          <div className={container.list}>
             <p className={css.h2}>พื้นที่ภายใน</p>
-            <div className="w-[300px] h-[2px] bg-white"></div>
-            <div className="flex gap-2 ">
+            <div className={css.whiteline}></div>
+            <div className={container.sublist}>
               <div className={css.h4}>
-                <R1 />
+                <R1 className={css.listicon} />
                 มีการแสดง
               </div>
               <div className={css.h4}>
                 {" "}
-                <R2 />
+                <R2 className={css.listicon} />
                 ห้องน้ำ
               </div>
-            </div>
-            <div className="flex gap-2 ">
               <div className={css.h4}>
                 {" "}
-                <R3 />
+                <R3 className={css.listicon} />
                 มีการจัดซุ้ม
               </div>
             </div>
           </div>
-          <div className="flex  flex-col">
+          <div className={container.list}>
             <p className={css.h2}>สัญลักษณ์ซุ้ม</p>
-            <div className="w-[400px] h-[2px] bg-white"></div>
-            <div className="flex gap-2">
+            <div className={css.whiteline}></div>
+            <div className={container.sublist}>
               <div className={css.h4}>
                 {" "}
-                <R4 />
+                <R4 className={css.listicon} />
                 สายการเรียน
               </div>
               <div className={css.h4}>
                 {" "}
-                <R6 />
+                <R6 className={css.listicon} />
                 Gifted
               </div>
               <div className={css.h4}>
                 {" "}
-                <R8 />
+                <R8 className={css.listicon} />
                 ชมรม
               </div>
-            </div>
-            <div className="flex gap-2">
               <div className={css.h4}>
                 {" "}
-                <R5 />
+                <R5 className={css.listicon} />
                 องค์กรณ์ภายใน
               </div>
               <div className={css.h4}>
                 {" "}
-                <R7 />
+                <R7 className={css.listicon} />
                 องค์กรณ์ภายนอก
               </div>
             </div>
