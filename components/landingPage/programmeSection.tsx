@@ -19,6 +19,7 @@ import ArtsDeSm from "@/vector/LandingPage/Programme/CardSm/ArtsDeSm";
 import ArtsEsSm from "@/vector/LandingPage/Programme/CardSm/ArtsEsSm";
 import ArtsMathSm from "@/vector/LandingPage/Programme/CardSm/ArtsMathSm";
 import ProgrammeSm from "@/vector/LandingPage/Programme/ProgrammeSm";
+import Bricks from "@/vector/LandingPage/Programme/Bricks";
 
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
@@ -31,11 +32,17 @@ const Style = {
 
 const ProgrammeSection = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:max-h-[1600px]">
+    <section
+      id="program"
+      className="relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:max-h-[1600px]"
+    >
       <div className="h-full top-0">
         <div className=" -translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
           <LeftPillar className="h-[200%] -translate-x-[13%] z-67" />
           <RightPillar className="h-[200%] translate-x-[13%] z-67" />
+        </div>
+        <div className="relative w-full items-center flex justify-center">
+          <Bricks className="absolute w-[70vw] translate-y-[70%] z-2" />
         </div>
       </div>
       <div className="hidden absolute min-w-full xlg:flex flex-row justify-center h-[105%]">
@@ -107,13 +114,13 @@ const ProgrammeSection = () => {
       </div>
 
       <div className="block md:hidden">
-        <div className=" xfade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
+        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
           <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
         </div>
-        <div className=" xfade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
+        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
           <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />

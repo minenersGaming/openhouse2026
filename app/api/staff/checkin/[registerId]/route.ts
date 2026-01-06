@@ -9,10 +9,7 @@ export async function GET(
   const { registerId } = await ctx.params;
 
   if (!registerId) {
-    return NextResponse.json(
-      { error: "Missing registerId" },
-      { status: 400 }
-    );
+    return NextResponse.json({ error: "Missing registerId" }, { status: 400 });
   }
 
   const session = await auth.api.getSession({
@@ -20,10 +17,7 @@ export async function GET(
   });
 
   if (!session || !session.user?.isStaff) {
-    return NextResponse.json(
-      { error: "Unauthorized" },
-      { status: 401 }
-    );
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const booking = await prisma.booking.findUnique({
@@ -32,16 +26,13 @@ export async function GET(
   });
 
   if (!booking) {
-    return NextResponse.json(
-      { error: "Booking not found" },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "Booking not found" }, { status: 404 });
   }
 
   return NextResponse.json({
     fullname: booking.fullname,
     surname: booking.surname,
     userStatus: booking.userStatus,
-    checkedIn: booking.user.checkedIn,
+    checkedIn: booking.user.checkIn,
   });
 }

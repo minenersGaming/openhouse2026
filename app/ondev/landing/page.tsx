@@ -10,11 +10,12 @@ const Home = () => {
   return (
     <>
       <ScrollObserver />
-      <div className="flex flex-col w-screen overflow-x-clip">
+      <div className="flex flex-col w-screen overflow-x-clip bg-red-400">
         <Herodev />
         <ProgrammeSection />
         <GiftedSection />
-        <OrgSection /> <ClubsSection />
+        <OrgSection />
+        <ClubsSection />
         <OtherSection />
       </div>
     </>

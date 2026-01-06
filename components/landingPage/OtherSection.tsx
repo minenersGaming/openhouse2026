@@ -21,14 +21,17 @@ const Style = {
 
 const OtherSection = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-linear-to-t from-[#3450B0] to-[#042284]">
+    <section
+      id="others"
+      className="relative w-full overflow-hidden bg-linear-to-t from-[#3450B0] to-[#042284]"
+    >
       <div className="hidden md:block w-full">
         <div className="flex z-6767 absolute items-center  flex-row w-full h-[85%] px-[5%] justify-between">
           <div className="flex flex-col space-y-2">
             <p className={Style.BigText}>ข้อมูล</p>
             <p className={Style.BigText}>เพิ่มเติม</p>
           </div>
-          <div className="flex flex-col h-8/10 justify-center space-y-[6%]">
+          <div className="translate-y-[5%] flex flex-col h-8/10 justify-center space-y-[6%] fade-in-scroll">
             {List}
           </div>
         </div>

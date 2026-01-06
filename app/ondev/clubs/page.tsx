@@ -35,8 +35,8 @@ export default function ClubsPage() {
 
   return (
     <div className="relative w-screen min-h-screen bg-linear-to-t from-[#042284] via-[#3450B0] to-[#457BCA] overflow-hidden">
-      <StarL className="absolute top-0 -left-10 hidden md:block translate-y-[5%] h-[90%] pointer-events-none" />
-      <StarR className="absolute top-0 -right-10 hidden md:block translate-y-[5%] h-[90%] pointer-events-none" />
+      <StarL className="absolute top-0 -left-10 hidden md:block translate-y-[5%] w-[11%] pointer-events-none" />
+      <StarR className="absolute top-0 -right-10 hidden md:block translate-y-[5%] w-[11%] pointer-events-none" />
       <Star1 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw] translate-y-[110%] block md:hidden" />
       <Star2 className="absolute w-[8vw] left-0 top-0 translate-x-[7vw] translate-y-[1250%]  md:hidden" />
       <Star3 className="absolute w-[10vw] left-0 top-0 translate-x-[7vw] translate-y-[1500%] md:hidden" />
