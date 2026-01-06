@@ -5,7 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
-
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
@@ -107,15 +106,15 @@ const Header = () => {
         >
           หน้าแรก
         </Link>
-        <a href="" className={Style.Link}>
+        <Link href="" className={Style.Link}>
           ตารางการแสดง
-        </a>
-        <a href="" className={Style.Link}>
+        </Link>
+        <Link href="" className={Style.Link}>
           ชมรม
-        </a>
-        <a href="" className={Style.Link}>
+        </Link>
+        <Link href="" className={Style.Link}>
           เพิ่มเติม
-        </a>
+        </Link>
 
         {/* {!isPending && !data?.user ? ( */}
         {true ? (
@@ -156,7 +155,7 @@ const Header = () => {
         >
           <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-3.5">
             <NavRow
-              href="/"
+              href="/#home"
               Icon={<HomeIcon className={Style.NavIcon} />}
               text="หน้าแรก"
             />

@@ -165,7 +165,7 @@ const css = {
     " text-[#F4F2C4] text-right font-noto-sans-thai font-medium " +
     " text-[18px] leading-[16px] sm:text-[20px] sm:leading-[19px] md:text-[20px] md:leading-[19px] lg:text-[23.203px] lg:leading-[22.454px] 2xl:text-[28.203px] 2xl:leading-[27.454px] ",
   ActivityBox:
-    " rounded-[158.224px]  bg-[linear-gradient(180deg,_#042284_-6.54%,_#0B1855_100%)] shadow-[0_2.538px_2.538px_rgba(0,0,0,0.25)] flex items-center " +
+    " rounded-lg  bg-[linear-gradient(180deg,_#042284_-6.54%,_#0B1855_100%)] shadow-[0_2.538px_2.538px_rgba(0,0,0,0.25)] flex items-center " +
     " w-[270px] px-4 py-3 sm:w-[380px] sm:px-5 sm:py-3 md:w-[400px] md:px-3 md:py-3.25 lg:px-8 lg:py-2 lg:w-[520.32px] 2xl:px-10 2xl:py-2.5 2xl:w-[710.32px] ",
   ActivityText:
     " text-[#F4F2C4] font-noto-sans-thai font-semibold flex flex-col " +
@@ -199,7 +199,7 @@ const PerformancePage = () => {
           <p className={css.header2}>ลาน 70 ปีฯ</p>
 
           <div
-            className={"z-10 relative mx-auto bg-[#0B1855]/30 " + css.ButtonAll}
+            className={"z-10 relative mx-auto bg-[#0B1855]/30 cursor-pointer" + css.ButtonAll}
           >
             {/* Left date label */}
             <button
@@ -209,7 +209,7 @@ const PerformancePage = () => {
                   date === "FRI 9 JAN"
                     ? "text-white opacity-0"
                     : "text-white opacity-60"
-                } absolute left-0 top-0 h-full flex items-center justify-center transition-opacity duration-300 ` +
+                } absolute cursor-pointer left-0 top-0 h-full flex items-center justify-center transition-opacity duration-300` +
                 css.ButtonBox +
                 css.ButtonText
               }
@@ -243,7 +243,7 @@ const PerformancePage = () => {
                   date === "SAT 10 JAN"
                     ? "text-white opacity-0"
                     : "text-white opacity-60"
-                } absolute right-0 top-0 h-full flex items-center justify-center transition-opacity duration-300 ` +
+                } absolute cursor-pointer right-0 top-0 h-full flex items-center justify-center transition-opacity duration-300 ` +
                 css.ButtonText +
                 css.ButtonBox
               }

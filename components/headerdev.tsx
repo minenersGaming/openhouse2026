@@ -94,8 +94,11 @@ const HeaderDev = () => {
         <Logo
           className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
             isHovering && "drop-shadow-sm/100"
-          } `}
-        />
+          } `}/>
+          {/* {isHovering && <AureateLogo className={`z-20 absolute w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
+            isHovering ? "drop-shadow-sm/100 opacity-0": "opacity-100"
+          } `}/>} */}
+        
         <Toptext hover={isHovering} />
       </Link>
 

@@ -30,7 +30,7 @@ const ReviewBox = ({
               เตรียมอุดมฯ {gen}
             </p>
             <p className="text-[#F3E19E] font-light text-md sm:text-lg">
-              IG: {ig}
+              {ig}
             </p>
           </div>
         </div>

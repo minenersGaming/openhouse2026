@@ -11,6 +11,7 @@ const Style = {
 const Herodev = () => {
   return (
     <section
+      id="home"
       className={`${Style.Radial} h-auto w-full relative overflow-hidden`}
     >
       <div className="absolute top-[18%] lg:top-[15%] -translate-y-[15%] left-1/2 -translate-x-1/2 z-10">
