@@ -4,7 +4,6 @@ import { auth } from '@/lib/auth'
 
 export async function POST(req: Request) {
   try {
-    // ✅ Read session from BetterAuth
     const session = await auth.api.getSession({ headers: req.headers })
 
     if (!session?.user) {

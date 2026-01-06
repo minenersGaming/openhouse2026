@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-// import { QrReader } from "react-qr-reader";
+import QRCode from "react-qr-code";
 
 export default function ScanPage() {
   const [data, setData] = useState("No result");

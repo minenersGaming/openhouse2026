@@ -28,8 +28,6 @@ model Booking {
 type CheckInEntry {
   door      String?
   checkIn   DateTime?
-  date      DateTime?
-  isCheckIn Boolean   @default(false)
 }
 
 type CheckIn {
