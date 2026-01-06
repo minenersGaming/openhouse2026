@@ -70,7 +70,7 @@ export default function GiftedInfoPage() {
 
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
         <a
-          href="./"
+          href="https://openhouse.triamudom.ac.th/#gifted"
           className="flex flex-row items-center mt-24 lg:mt-[13%] transition-all hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />

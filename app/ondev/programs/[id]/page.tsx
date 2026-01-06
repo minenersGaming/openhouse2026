@@ -119,7 +119,7 @@ export default function ProgramInfoPage() {
       <div className="flex flex-col items-center justify-center z-67">
         {data.captureimg1 && (
           <InfoTemplate
-            type="gifted"
+            type="programme"
             item={0}
             img={data.captureimg1}
             imgDescription={data.descimg1}
@@ -129,7 +129,7 @@ export default function ProgramInfoPage() {
 
         {data.captureimg2 && (
           <InfoTemplate
-            type="gifted"
+            type="programme"
             item={1}
             img={data.captureimg2}
             imgDescription={data.descimg2}
@@ -139,7 +139,7 @@ export default function ProgramInfoPage() {
 
         {data.captureimg3 && (
           <InfoTemplate
-            type="gifted"
+            type="programme"
             item={2}
             img={data.captureimg3}
             imgDescription={data.descimg3}
