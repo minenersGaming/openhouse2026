@@ -21,8 +21,6 @@ export default async function proxy(request: NextRequest) {
   }
 
   const user = json.data.user;
-  console.log(user);
-  
 
   if (currentPath.startsWith("/checkin")) {
     if (!user.isStaff) {
