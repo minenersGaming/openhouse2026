@@ -11,23 +11,23 @@ const LeftPillar: FC<{
       viewBox="0 0 543 1120"
       fill="none"
     >
-      <g clip-path="url(#clip0_5908_3495)">
+      <g clip-path="url(#clip0_7595_4709)">
         <rect
-          x="-1.96484"
+          x="-1.96094"
           width="186.987"
           height="1120"
-          fill="url(#paint0_linear_5908_3495)"
+          fill="url(#paint0_linear_7595_4709)"
         />
         <rect
-          x="-1.96484"
+          x="-1.96094"
           y="1033.98"
           width="186.987"
           height="100"
-          fill="url(#paint1_linear_5908_3495)"
+          fill="url(#paint1_linear_7595_4709)"
         />
         <path
-          d="M144.48 0H185.022V1120L144.48 1031.03V0Z"
-          fill="url(#paint2_linear_5908_3495)"
+          d="M144.484 0H185.026V1120L144.484 1031.03V0Z"
+          fill="url(#paint2_linear_7595_4709)"
         />
         <path
           d="M230.511 969.416C230.511 969.416 230.193 958.844 226.257 954.909C222.321 950.973 211.929 950.834 211.929 950.834C211.929 950.834 222.321 950.515 226.257 946.579C230.193 942.644 230.511 932.251 230.511 932.251C230.511 932.251 230.651 942.823 234.586 946.758C238.522 950.694 249.094 950.834 249.094 950.834C249.094 950.834 238.522 950.973 234.586 954.909C230.651 958.844 230.511 969.416 230.511 969.416Z"
@@ -68,16 +68,16 @@ const LeftPillar: FC<{
           />
           <path
             d="M-4.77344 884.392L-4.77337 144.325H103.705V746.232C103.705 748.689 102.863 751.072 101.32 752.983L-4.77344 884.392Z"
-            fill="url(#paint3_linear_5908_3495)"
+            fill="url(#paint3_linear_7595_4709)"
           />
           <path
             d="M-4.77344 884.392L-4.77337 144.325H103.705V746.232C103.705 748.689 102.863 751.072 101.32 752.983L-4.77344 884.392Z"
-            fill="url(#paint4_linear_5908_3495)"
+            fill="url(#paint4_linear_7595_4709)"
           />
-          <g opacity="0.55" filter="url(#filter0_i_5908_3495)">
+          <g opacity="0.55" filter="url(#filter0_i_7595_4709)">
             <path
               d="M-4.77344 839.762L-4.77339 144.325H84.1582V732.44C84.1582 735.013 83.2352 737.5 81.5569 739.451L-4.77344 839.762Z"
-              fill="url(#paint5_linear_5908_3495)"
+              fill="url(#paint5_linear_7595_4709)"
             />
           </g>
           <path
@@ -86,7 +86,7 @@ const LeftPillar: FC<{
           />
           <path
             d="M12.9554 61.8383L12.9554 47.8705L106.446 131.904L90.7035 131.904L12.9554 61.8383Z"
-            fill="url(#paint6_linear_5908_3495)"
+            fill="url(#paint6_linear_7595_4709)"
           />
           <rect
             x="7.36719"
@@ -100,7 +100,7 @@ const LeftPillar: FC<{
             y="15.5137"
             width="10.7864"
             height="126.104"
-            fill="url(#paint7_linear_5908_3495)"
+            fill="url(#paint7_linear_7595_4709)"
           />
           <rect
             width="24.9019"
@@ -114,7 +114,7 @@ const LeftPillar: FC<{
             height="11.6221"
             rx="2.86999"
             transform="matrix(1 0 0 -1 0.398438 20.5713)"
-            fill="url(#paint8_linear_5908_3495)"
+            fill="url(#paint8_linear_7595_4709)"
           />
           <rect
             width="79.8186"
@@ -128,7 +128,7 @@ const LeftPillar: FC<{
             height="11.6221"
             rx="2.86999"
             transform="matrix(1 0 0 -1 -27.0625 11.6221)"
-            fill="url(#paint9_linear_5908_3495)"
+            fill="url(#paint9_linear_7595_4709)"
           />
           <rect
             x="-4.77344"
@@ -142,7 +142,7 @@ const LeftPillar: FC<{
             y="124.674"
             width="133.603"
             height="20.044"
-            fill="url(#paint10_linear_5908_3495)"
+            fill="url(#paint10_linear_7595_4709)"
           />
           <rect
             width="11.2372"
@@ -156,14 +156,14 @@ const LeftPillar: FC<{
             height="13.4301"
             rx="5.6186"
             transform="matrix(-1 0 0 1 146.051 127.584)"
-            fill="url(#paint11_radial_5908_3495)"
+            fill="url(#paint11_radial_7595_4709)"
           />
           <rect
             width="11.2372"
             height="13.4301"
             rx="5.6186"
             transform="matrix(-1 0 0 1 146.051 127.584)"
-            fill="url(#paint12_linear_5908_3495)"
+            fill="url(#paint12_linear_7595_4709)"
           />
           <rect
             x="111.605"
@@ -179,7 +179,7 @@ const LeftPillar: FC<{
             width="9.28291"
             height="28.2307"
             rx="1.90365"
-            fill="url(#paint13_linear_5908_3495)"
+            fill="url(#paint13_linear_7595_4709)"
           />
           <rect
             x="111.605"
@@ -187,7 +187,7 @@ const LeftPillar: FC<{
             width="9.28291"
             height="28.2307"
             rx="1.90365"
-            fill="url(#paint14_linear_5908_3495)"
+            fill="url(#paint14_linear_7595_4709)"
           />
           <rect
             x="111.605"
@@ -195,7 +195,7 @@ const LeftPillar: FC<{
             width="9.28291"
             height="28.2307"
             rx="1.90365"
-            fill="url(#paint15_linear_5908_3495)"
+            fill="url(#paint15_linear_7595_4709)"
           />
           <rect
             x="123.293"
@@ -213,7 +213,7 @@ const LeftPillar: FC<{
             height="29.1852"
             rx="7.93933"
             transform="rotate(-0.741191 123.293 120.324)"
-            fill="url(#paint16_radial_5908_3495)"
+            fill="url(#paint16_radial_7595_4709)"
           />
           <rect
             x="123.293"
@@ -222,7 +222,7 @@ const LeftPillar: FC<{
             height="29.1852"
             rx="7.93933"
             transform="rotate(-0.741191 123.293 120.324)"
-            fill="url(#paint17_linear_5908_3495)"
+            fill="url(#paint17_linear_7595_4709)"
           />
           <rect
             x="123.293"
@@ -231,7 +231,7 @@ const LeftPillar: FC<{
             height="29.1852"
             rx="7.93933"
             transform="rotate(-0.741191 123.293 120.324)"
-            fill="url(#paint18_linear_5908_3495)"
+            fill="url(#paint18_linear_7595_4709)"
           />
           <rect
             x="123.293"
@@ -240,39 +240,25 @@ const LeftPillar: FC<{
             height="29.1852"
             rx="7.93933"
             transform="rotate(-0.741191 123.293 120.324)"
-            fill="url(#paint19_linear_5908_3495)"
+            fill="url(#paint19_linear_7595_4709)"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.8">
           <path
             opacity="0.25"
             d="M472.332 1126.99L146.624 -6.9909L54.8125 -6.99121L236.055 1126.99L472.332 1126.99Z"
-            fill="url(#paint20_linear_5908_3495)"
+            fill="url(#paint20_linear_7595_4709)"
           />
           <path
             opacity="0.25"
             d="M315.164 1101.71L73.9265 -6.99122L-4.77734 -6.99121L-4.77734 1119.31L315.164 1101.71Z"
-            fill="url(#paint21_linear_5908_3495)"
+            fill="url(#paint21_linear_7595_4709)"
           />
         </g>
-        <path
-          opacity="0.32"
-          d="M373.442 35.5147L290.388 35.5146M384.516 70.0645H246.093M334.684 70.0645V35.5147"
-          stroke="white"
-          stroke-width="6.12182"
-          stroke-linecap="round"
-        />
-        <path
-          opacity="0.32"
-          d="M528.7 184.195L424.764 184.195M473.268 112.276L369.331 112.276M542.559 148.236H369.331M480.197 148.236V184.195M410.906 112.276V148.236"
-          stroke="white"
-          stroke-width="5.90253"
-          stroke-linecap="round"
-        />
       </g>
       <defs>
         <filter
-          id="filter0_i_5908_3495"
+          id="filter0_i_7595_4709"
           x="-4.77344"
           y="144.325"
           width="88.9336"
@@ -303,14 +289,14 @@ const LeftPillar: FC<{
           <feBlend
             mode="normal"
             in2="shape"
-            result="effect1_innerShadow_5908_3495"
+            result="effect1_innerShadow_7595_4709"
           />
         </filter>
         <linearGradient
-          id="paint0_linear_5908_3495"
-          x1="91.5285"
+          id="paint0_linear_7595_4709"
+          x1="91.5324"
           y1="0"
-          x2="91.5285"
+          x2="91.5324"
           y2="1044.55"
           gradientUnits="userSpaceOnUse"
         >
@@ -318,10 +304,10 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#0B1855" />
         </linearGradient>
         <linearGradient
-          id="paint1_linear_5908_3495"
-          x1="165.621"
+          id="paint1_linear_7595_4709"
+          x1="165.625"
           y1="1013.56"
-          x2="-1.96484"
+          x2="-1.96094"
           y2="1125.58"
           gradientUnits="userSpaceOnUse"
         >
@@ -329,10 +315,10 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <linearGradient
-          id="paint2_linear_5908_3495"
-          x1="164.751"
+          id="paint2_linear_7595_4709"
+          x1="164.755"
           y1="0"
-          x2="164.751"
+          x2="164.755"
           y2="1120"
           gradientUnits="userSpaceOnUse"
         >
@@ -340,7 +326,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#042284" />
         </linearGradient>
         <linearGradient
-          id="paint3_linear_5908_3495"
+          id="paint3_linear_7595_4709"
           x1="9.01428"
           y1="144.325"
           x2="9.01428"
@@ -352,7 +338,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <linearGradient
-          id="paint4_linear_5908_3495"
+          id="paint4_linear_7595_4709"
           x1="49.4658"
           y1="838.41"
           x2="49.4658"
@@ -363,7 +349,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#477BCA" />
         </linearGradient>
         <linearGradient
-          id="paint5_linear_5908_3495"
+          id="paint5_linear_7595_4709"
           x1="49.7007"
           y1="795.462"
           x2="49.6773"
@@ -374,7 +360,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#9BD7FF" />
         </linearGradient>
         <linearGradient
-          id="paint6_linear_5908_3495"
+          id="paint6_linear_7595_4709"
           x1="19.8306"
           y1="61.0023"
           x2="104.627"
@@ -386,7 +372,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <linearGradient
-          id="paint7_linear_5908_3495"
+          id="paint7_linear_7595_4709"
           x1="7.36719"
           y1="26.0048"
           x2="66.9153"
@@ -398,7 +384,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <linearGradient
-          id="paint8_linear_5908_3495"
+          id="paint8_linear_7595_4709"
           x1="12.451"
           y1="12.5202"
           x2="12.451"
@@ -410,7 +396,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#499FED" />
         </linearGradient>
         <linearGradient
-          id="paint9_linear_5908_3495"
+          id="paint9_linear_7595_4709"
           x1="39.9093"
           y1="12.5202"
           x2="39.9093"
@@ -422,7 +408,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#499FED" />
         </linearGradient>
         <linearGradient
-          id="paint10_linear_5908_3495"
+          id="paint10_linear_7595_4709"
           x1="62.0282"
           y1="146.267"
           x2="62.0282"
@@ -434,7 +420,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#499FED" />
         </linearGradient>
         <radialGradient
-          id="paint11_radial_5908_3495"
+          id="paint11_radial_7595_4709"
           cx="0"
           cy="0"
           r="1"
@@ -445,7 +431,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#E9D265" />
         </radialGradient>
         <linearGradient
-          id="paint12_linear_5908_3495"
+          id="paint12_linear_7595_4709"
           x1="1.72456e-09"
           y1="1.11731"
           x2="0.886163"
@@ -457,7 +443,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <linearGradient
-          id="paint13_linear_5908_3495"
+          id="paint13_linear_7595_4709"
           x1="116.442"
           y1="124.572"
           x2="117.511"
@@ -468,7 +454,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#E9D265" />
         </linearGradient>
         <linearGradient
-          id="paint14_linear_5908_3495"
+          id="paint14_linear_7595_4709"
           x1="116.442"
           y1="124.572"
           x2="116.76"
@@ -479,7 +465,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#E9D265" />
         </linearGradient>
         <linearGradient
-          id="paint15_linear_5908_3495"
+          id="paint15_linear_7595_4709"
           x1="111.605"
           y1="122.532"
           x2="116.247"
@@ -491,7 +477,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <radialGradient
-          id="paint16_radial_5908_3495"
+          id="paint16_radial_7595_4709"
           cx="0"
           cy="0"
           r="1"
@@ -502,7 +488,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#E9D265" />
         </radialGradient>
         <linearGradient
-          id="paint17_linear_5908_3495"
+          id="paint17_linear_7595_4709"
           x1="124.645"
           y1="123.681"
           x2="148.263"
@@ -514,7 +500,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#F4F2C4" />
         </linearGradient>
         <linearGradient
-          id="paint18_linear_5908_3495"
+          id="paint18_linear_7595_4709"
           x1="122.194"
           y1="123.441"
           x2="142.251"
@@ -526,7 +512,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#F4F2C4" />
         </linearGradient>
         <linearGradient
-          id="paint19_linear_5908_3495"
+          id="paint19_linear_7595_4709"
           x1="123.293"
           y1="122.752"
           x2="126.239"
@@ -538,7 +524,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#457BCA" />
         </linearGradient>
         <linearGradient
-          id="paint20_linear_5908_3495"
+          id="paint20_linear_7595_4709"
           x1="85.2784"
           y1="87.1244"
           x2="678.179"
@@ -549,7 +535,7 @@ const LeftPillar: FC<{
           <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
         </linearGradient>
         <linearGradient
-          id="paint21_linear_5908_3495"
+          id="paint21_linear_7595_4709"
           x1="18.5674"
           y1="85.0261"
           x2="605.929"
@@ -559,7 +545,7 @@ const LeftPillar: FC<{
           <stop stop-color="#F3E09D" />
           <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
         </linearGradient>
-        <clipPath id="clip0_5908_3495">
+        <clipPath id="clip0_7595_4709">
           <rect width="543" height="1120" fill="white" />
         </clipPath>
       </defs>

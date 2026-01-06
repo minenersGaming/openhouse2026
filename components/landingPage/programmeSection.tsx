@@ -19,6 +19,7 @@ import ArtsDeSm from "@/vector/LandingPage/Programme/CardSm/ArtsDeSm";
 import ArtsEsSm from "@/vector/LandingPage/Programme/CardSm/ArtsEsSm";
 import ArtsMathSm from "@/vector/LandingPage/Programme/CardSm/ArtsMathSm";
 import ProgrammeSm from "@/vector/LandingPage/Programme/ProgrammeSm";
+import Bricks from "@/vector/LandingPage/Programme/Bricks";
 
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
@@ -39,6 +40,9 @@ const ProgrammeSection = () => {
         <div className=" -translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
           <LeftPillar className="h-[200%] -translate-x-[13%] z-67" />
           <RightPillar className="h-[200%] translate-x-[13%] z-67" />
+        </div>
+        <div className="relative w-full items-center flex justify-center">
+          <Bricks className="absolute w-[70vw] translate-y-[70%] z-2" />
         </div>
       </div>
       <div className="hidden absolute min-w-full xlg:flex flex-row justify-center h-[105%]">
