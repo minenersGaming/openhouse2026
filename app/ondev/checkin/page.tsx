@@ -1,34 +1,38 @@
-"use client"
+"use client";
 
-import { Scanner } from '@yudiel/react-qr-scanner';
-import { useRouter } from 'next/navigation';
-import { useState, useEffect } from 'react';
-import { Formik, Form, Field } from 'formik';
-import { doors } from '@/constant/doors';
-import { callAPI } from '@/utils/callAPI';
-import type { Session } from '@/lib/auth-type';
-import { useSession } from '@/lib/auth-client';
-import toast from 'react-hot-toast';
+import { Scanner } from "@yudiel/react-qr-scanner";
+import { useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
+import { Formik, Form, Field } from "formik";
+import { doors } from "@/constant/doors";
+import { callAPI } from "@/utils/callAPI";
+import type { Session } from "@/lib/auth-type";
+import { useSession } from "@/lib/auth-client";
+import toast from "react-hot-toast";
 
 const CheckInPage = () => {
-  const [selectedDoor, setSelectedDoor] = useState("")
-  const [registerId, setRegisterId] = useState("")
+  const [selectedDoor, setSelectedDoor] = useState("");
+  const [registerId, setRegisterId] = useState("");
   const { data: session, isPending } = useSession() as {
     data: Session | null;
     isPending: boolean;
-  }
+  };
 
-  const router = useRouter()
+  const router = useRouter();
 
   useEffect(() => {
     if (!isPending && (!session || !session.user.isStaff)) {
-      router.push('/');
+      router.push("/");
     }
   }, [session, isPending, router]);
 
   // Add Skeleton or better loading state
   if (isPending) {
-    return <div className="h-screen flex items-center justify-center">Loading...</div>;
+    return (
+      <div className="h-screen flex items-center justify-center">
+        Loading...
+      </div>
+    );
   }
 
   if (!session || !session.user.isStaff) {
@@ -36,37 +40,37 @@ const CheckInPage = () => {
   }
 
   const handleSubmit = async (values: { door: string; registerId: string }) => {
-
     if (!values.door) {
-      toast.error("กรุณาเลือกประตูเข้างาน")
+      toast.error("กรุณาเลือกประตูเข้างาน");
       return;
     }
 
     if (!values.registerId) {
-      toast.error("กรุณาใส่รหัสเข้างาน")
+      toast.error("กรุณาใส่รหัสเข้างาน");
       return;
     }
 
-    setSelectedDoor(values.door)
+    setSelectedDoor(values.door);
 
-    toast.loading("กำลังเช็คอิน...", { id: 'checkin-toast' })
+    toast.loading("กำลังเช็คอิน...", { id: "checkin-toast" });
 
     // Please keep this simple, no need to use react query
-    const response = await callAPI('/checkin', {
-      method: 'POST',
+    //"/checkin"
+    const response = await callAPI("/checkin", {
+      method: "POST",
       data: {
         door: values.door,
         registerId: values.registerId,
       },
-    })
+    });
 
     if (response.error) {
-      toast.error(response.error, { id: 'checkin-toast' })
+      toast.error(response.error, { id: "checkin-toast" });
     } else {
-      toast.success("เช็คอินสำเร็จ", { id: 'checkin-toast' })
-      setRegisterId("")
+      toast.success("เช็คอินสำเร็จ", { id: "checkin-toast" });
+      setRegisterId("");
     }
-  }
+  };
 
   return (
     <section className="h-screen w-full bg-white flex flex-col items-center pt-10">
@@ -78,12 +82,16 @@ const CheckInPage = () => {
             {/* If you want to setting this please refer to https://www.npmjs.com/package/@yudiel/react-qr-scanner */}
             <Scanner
               onError={() => {
-                toast.error("กรุณาอนุญาตสิทธ์การใช้งานกล้องเพื่อสแกน QR code")
+                toast.error("กรุณาอนุญาตสิทธ์การใช้งานกล้องเพื่อสแกน QR code");
               }}
               onScan={(data) => [
                 data.forEach((d) => {
-                  setRegisterId(d.rawValue)
-                })
+                  const raw = d.rawValue;
+                  const id = raw.split("/").pop();
+                  if (id) {
+                    setRegisterId(id);
+                  }
+                }),
               ]}
               components={{
                 zoom: false,
@@ -123,7 +131,10 @@ const CheckInPage = () => {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <label htmlFor="registerId" className="font-medium text-gray-700">
+                  <label
+                    htmlFor="registerId"
+                    className="font-medium text-gray-700"
+                  >
                     รหัสเข้างาน
                   </label>
                   <Field
@@ -147,7 +158,7 @@ const CheckInPage = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default CheckInPage;
