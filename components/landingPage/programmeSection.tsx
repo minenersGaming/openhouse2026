@@ -44,11 +44,11 @@ const ProgrammeSection = () => {
           <RightPillar className="h-[100%] translate-x-[17%] z-20" /> */}
           <img
             src="../assets/images/Landing/LeftPillar.png"
-            className="h-full -translate-x-[17%] z-20"
+            className=" -translate-x-[0%] z-20"
           />
           <img
             src="../assets/images/Landing/RightPillar.png"
-            className="h-full translate-x-[17%] z-20"
+            className=" translate-x-[0%] z-22"
           />
         </div>
         <div className="hidden relative w-full items-center flex justify-center">

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Loading from "../Loading";
+import Loading from "@/components/Loading";
 import { OPH_FIRST_TIME_TIMESTAMP } from "@/config/time";
 
 const zeroPadding = (n: number) => String(n).padStart(2, "0");
