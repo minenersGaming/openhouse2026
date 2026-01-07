@@ -11,7 +11,9 @@ const Home = () => {
     <>
       <ScrollObserver />
       <div className="flex flex-col w-screen overflow-x-clip">
-        <Herodev />
+        <div className="lg:-mt-[6rem]">
+          <Herodev />
+        </div>
         <ProgrammeSection />
         <GiftedSection />
         <OrgSection />

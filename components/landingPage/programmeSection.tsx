@@ -117,33 +117,33 @@ const ProgrammeSection = () => {
 
       <div className="block md:hidden">
         <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
-          <a href="./programs/sci-math">
+          <Link href="./programs/sci-math">
             <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
-          <a>
+          </Link>
+          <Link href={"/"}>
             <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
-          <a>
+          </Link>
+          <Link href={"/"}>
             <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
-          <a>
+          </Link>
+          <Link href={"/"}>
             <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
+          </Link>
         </div>
         <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
-          <a>
+          <Link href={"/"}>
             <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
-          <a>
+          </Link>
+          <Link href={"/"}>
             <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
-          <a>
+          </Link>
+          <Link href={'/'}>
             <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
-          </a>
-          <a>
-            {/* <Image src={`/korea.png`} alt="korea" className="w-5/4" /> */}
+          </Link>
+          <Link href={"/"}>
+            <Image src={`/korea.png`} alt="korea" className="w-5/4" width={500} height={500} />
             {/* <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" /> */}
-          </a>
+          </Link>
         </div>
         <div className=" w-full ">
           <ProgrammeSm className=" left-0  w-full" />
