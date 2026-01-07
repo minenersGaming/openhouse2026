@@ -19,7 +19,7 @@
     "dayjs": "^1.11.19",
     "dotenv": "^17.2.3",
     "formik": "^2.4.9",
-    "framer-motion": "^12.23.26",
+    "framer-motion": "^12.24.8",
     "html-to-image": "^1.11.13",
     "mongodb": "^7.0.0",
     "next": "^16.0.10",
