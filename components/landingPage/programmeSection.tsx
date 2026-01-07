@@ -141,7 +141,7 @@ const ProgrammeSection = () => {
             <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
           </a>
           <a>
-            <Image src={`/korea.png`} alt="korea" className="w-5/4" />
+            {/* <Image src={`/korea.png`} alt="korea" className="w-5/4" /> */}
             {/* <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" /> */}
           </a>
         </div>
