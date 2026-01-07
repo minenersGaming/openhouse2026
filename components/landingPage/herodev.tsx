@@ -20,7 +20,7 @@ const Herodev = () => {
       </div>
       <div className="relative z-0">
         <img
-          className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover unselectable-image"
+          className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover "
           src="/LandingBg.svg"
         />
         <img
