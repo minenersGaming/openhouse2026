@@ -5,8 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
-import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "framer-motion";
-
+import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "motion/react";
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
