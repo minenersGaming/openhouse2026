@@ -99,9 +99,9 @@ const AnusornLg: FC<{
           width="414.28"
           height="414.282"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -120,9 +120,9 @@ const AnusornLg: FC<{
           width="226.587"
           height="122.976"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -155,9 +155,9 @@ const AnusornLg: FC<{
           y2="376.454"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.444808" stop-color="#042284" />
-          <stop offset="1" stop-color="#091B63" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.444808" stopColor="#042284" />
+          <stop offset="1" stopColor="#091B63" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6774_3654"
@@ -167,9 +167,9 @@ const AnusornLg: FC<{
           y2="367.281"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.49041" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.49041" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint2_radial_6774_3654"
@@ -179,8 +179,8 @@ const AnusornLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(175.416 309.474) rotate(101.109) scale(63.3223 147.334)"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <linearGradient
           id="paint3_linear_6774_3654"
@@ -190,9 +190,9 @@ const AnusornLg: FC<{
           y2="352.406"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.430795" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.430795" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint4_radial_6774_3654"
@@ -202,9 +202,9 @@ const AnusornLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(73.149 124.933) rotate(48.8701) scale(263.57 208.567)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.589246" stop-color="#499FED" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.589246" stopColor="#499FED" />
+          <stop offset="1" stopColor="#C4A063" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_6774_3654"
@@ -214,9 +214,9 @@ const AnusornLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(235.595 140.444) rotate(105.24) scale(208.093 252.91)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.51306" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.51306" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#457BCA" />
         </radialGradient>
         <linearGradient
           id="paint6_linear_6774_3654"
@@ -226,9 +226,9 @@ const AnusornLg: FC<{
           y2="347.615"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9F6FF" />
-          <stop offset="0.54901" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#E9F6FF" />
+          <stop offset="0.54901" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <radialGradient
           id="paint7_radial_6774_3654"
@@ -238,9 +238,9 @@ const AnusornLg: FC<{
           gradientTransform="matrix(101.12 90.5721 -120.128 10.6664 153.68 179.708)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.484868" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.484868" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <radialGradient
           id="paint8_radial_6774_3654"
@@ -250,8 +250,8 @@ const AnusornLg: FC<{
           gradientTransform="matrix(137.431 97.1005 -98.3111 23.452 141.968 155.865)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
       </defs>
     </svg>

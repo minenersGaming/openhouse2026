@@ -220,43 +220,43 @@ const OtherStatue: FC<{
           d="M262.22 336.735C268.026 336.735 272.79 342.455 272.79 349.587C272.79 356.719 268.026 362.439 262.22 362.439C256.413 362.439 251.65 356.719 251.65 349.587C251.651 342.455 256.413 336.735 262.22 336.735Z"
           fill="#9F742F"
           stroke="#9F742F"
-          stroke-width="0.36232"
+          strokeWidth="0.36232"
         />
         <path
           d="M334.417 336.735C328.611 336.735 323.847 342.455 323.847 349.587C323.847 356.719 328.61 362.439 334.417 362.439C340.223 362.439 344.986 356.719 344.986 349.587C344.986 342.455 340.223 336.735 334.417 336.735Z"
           fill="#9F742F"
           stroke="#9F742F"
-          stroke-width="0.36232"
+          strokeWidth="0.36232"
         />
         <path
           d="M288.461 385.546L300.408 376.857L312.355 385.546"
           stroke="#9F742F"
-          stroke-width="6.17175"
-          stroke-linecap="round"
+          strokeWidth="6.17175"
+          strokeLinecap="round"
         />
         <path
           d="M374.273 386.304C383.022 383.027 396.974 378.519 417.249 389.574"
           stroke="#C5A064"
-          stroke-width="5.486"
-          stroke-linecap="round"
+          strokeWidth="5.486"
+          strokeLinecap="round"
         />
         <path
           d="M378.502 394.092C389.031 391.376 399.242 395.236 406.881 401.696"
           stroke="#C5A064"
-          stroke-width="5.486"
-          stroke-linecap="round"
+          strokeWidth="5.486"
+          strokeLinecap="round"
         />
         <path
           d="M218.289 386.34C209.54 383.063 195.589 378.555 175.313 389.61"
           stroke="#C5A064"
-          stroke-width="5.486"
-          stroke-linecap="round"
+          strokeWidth="5.486"
+          strokeLinecap="round"
         />
         <path
           d="M214.616 396.227C204.086 393.51 193.875 397.371 186.236 403.831"
           stroke="#C5A064"
-          stroke-width="5.486"
-          stroke-linecap="round"
+          strokeWidth="5.486"
+          strokeLinecap="round"
         />
         <path
           d="M252.588 638.056L307.113 640.708L302.175 775.298L247.65 772.646L252.588 638.056Z"
@@ -316,20 +316,20 @@ const OtherStatue: FC<{
           <path
             d="M255.164 645.307L264.307 656.253"
             stroke="#C5A064"
-            stroke-width="2.743"
-            stroke-linecap="round"
+            strokeWidth="2.743"
+            strokeLinecap="round"
           />
           <path
             d="M244.836 650.748L253.979 661.694"
             stroke="#C5A064"
-            stroke-width="2.743"
-            stroke-linecap="round"
+            strokeWidth="2.743"
+            strokeLinecap="round"
           />
           <path
             d="M262.605 636.311L271.748 647.257"
             stroke="#C5A064"
-            stroke-width="2.743"
-            stroke-linecap="round"
+            strokeWidth="2.743"
+            strokeLinecap="round"
           />
         </g>
         <path
@@ -417,20 +417,20 @@ const OtherStatue: FC<{
           <path
             d="M457.697 526.094L471.164 521.4"
             stroke="#C5A064"
-            stroke-width="2.743"
-            stroke-linecap="round"
+            strokeWidth="2.743"
+            strokeLinecap="round"
           />
           <path
             d="M459.157 537.68L472.625 532.986"
             stroke="#C5A064"
-            stroke-width="2.743"
-            stroke-linecap="round"
+            strokeWidth="2.743"
+            strokeLinecap="round"
           />
           <path
             d="M451.911 515.957L465.379 511.263"
             stroke="#C5A064"
-            stroke-width="2.743"
-            stroke-linecap="round"
+            strokeWidth="2.743"
+            strokeLinecap="round"
           />
         </g>
         <g style={{ mixBlendMode: "screen" }}>
@@ -496,9 +496,9 @@ const OtherStatue: FC<{
           width="96.3586"
           height="135.183"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -518,9 +518,9 @@ const OtherStatue: FC<{
           y2="380.188"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6669_5925"
@@ -530,9 +530,9 @@ const OtherStatue: FC<{
           y2="380.188"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6669_5925"
@@ -542,8 +542,8 @@ const OtherStatue: FC<{
           y2="959.501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6669_5925"
@@ -553,8 +553,8 @@ const OtherStatue: FC<{
           y2="959.501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6669_5925"
@@ -564,8 +564,8 @@ const OtherStatue: FC<{
           y2="872.987"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6669_5925"
@@ -575,8 +575,8 @@ const OtherStatue: FC<{
           y2="855.687"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6669_5925"
@@ -586,8 +586,8 @@ const OtherStatue: FC<{
           y2="855.687"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6669_5925"
@@ -597,8 +597,8 @@ const OtherStatue: FC<{
           y2="826.085"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6669_5925"
@@ -608,8 +608,8 @@ const OtherStatue: FC<{
           y2="826.085"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_6669_5925"
@@ -619,8 +619,8 @@ const OtherStatue: FC<{
           y2="818.435"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" stop-opacity="0" />
-          <stop offset="1" stop-color="#C4A063" stop-opacity="0.3" />
+          <stop stopColor="#C4A063" stopOpacity="0" />
+          <stop offset="1" stopColor="#C4A063" stopOpacity="0.3" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_6669_5925"
@@ -630,8 +630,8 @@ const OtherStatue: FC<{
           y2="662.642"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6669_5925"
@@ -641,8 +641,8 @@ const OtherStatue: FC<{
           y2="704.724"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_6669_5925"
@@ -652,8 +652,8 @@ const OtherStatue: FC<{
           y2="350.658"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_6669_5925"
@@ -663,8 +663,8 @@ const OtherStatue: FC<{
           y2="273.578"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#C5A064" stop-opacity="0" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#C5A064" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_6669_5925"
@@ -674,8 +674,8 @@ const OtherStatue: FC<{
           y2="350.658"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_6669_5925"
@@ -685,8 +685,8 @@ const OtherStatue: FC<{
           y2="273.578"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#C5A064" stop-opacity="0" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#C5A064" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_6669_5925"
@@ -696,8 +696,8 @@ const OtherStatue: FC<{
           y2="452.277"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_6669_5925"
@@ -707,8 +707,8 @@ const OtherStatue: FC<{
           y2="452.277"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_6669_5925"
@@ -718,8 +718,8 @@ const OtherStatue: FC<{
           y2="405.494"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_6669_5925"
@@ -729,8 +729,8 @@ const OtherStatue: FC<{
           y2="219.687"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_6669_5925"
@@ -740,8 +740,8 @@ const OtherStatue: FC<{
           y2="806.786"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_6669_5925"
@@ -751,8 +751,8 @@ const OtherStatue: FC<{
           y2="806.786"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_6669_5925"
@@ -762,8 +762,8 @@ const OtherStatue: FC<{
           y2="806.786"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_6669_5925"
@@ -773,8 +773,8 @@ const OtherStatue: FC<{
           y2="806.786"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_6669_5925"
@@ -784,8 +784,8 @@ const OtherStatue: FC<{
           y2="731.803"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_6669_5925"
@@ -795,8 +795,8 @@ const OtherStatue: FC<{
           y2="731.803"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_6669_5925"
@@ -806,8 +806,8 @@ const OtherStatue: FC<{
           y2="610.212"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_6669_5925"
@@ -817,8 +817,8 @@ const OtherStatue: FC<{
           y2="624.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_6669_5925"
@@ -828,8 +828,8 @@ const OtherStatue: FC<{
           y2="651.014"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.119111" stop-color="#F4F2C4" />
-          <stop offset="0.884615" stop-color="#F3E19D" />
+          <stop offset="0.119111" stopColor="#F4F2C4" />
+          <stop offset="0.884615" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_6669_5925"
@@ -839,8 +839,8 @@ const OtherStatue: FC<{
           y2="556.258"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <radialGradient
           id="paint30_radial_6669_5925"
@@ -850,8 +850,8 @@ const OtherStatue: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(464.326 407.077) rotate(90) scale(87.9939 96.4085)"
         >
-          <stop stop-color="#F8B043" stop-opacity="0.7" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F8B043" stopOpacity="0.7" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </radialGradient>
         <linearGradient
           id="paint31_linear_6669_5925"
@@ -861,8 +861,8 @@ const OtherStatue: FC<{
           y2="523.292"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_6669_5925"
@@ -872,8 +872,8 @@ const OtherStatue: FC<{
           y2="436.03"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_6669_5925"
@@ -883,8 +883,8 @@ const OtherStatue: FC<{
           y2="436.03"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_6669_5925"
@@ -894,8 +894,8 @@ const OtherStatue: FC<{
           y2="457.037"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_6669_5925"
@@ -905,8 +905,8 @@ const OtherStatue: FC<{
           y2="602.835"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_6669_5925"
@@ -916,8 +916,8 @@ const OtherStatue: FC<{
           y2="474.162"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_6669_5925"
@@ -927,8 +927,8 @@ const OtherStatue: FC<{
           y2="483.571"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_6669_5925"
@@ -938,8 +938,8 @@ const OtherStatue: FC<{
           y2="528.285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#CDCDCD" />
-          <stop offset="1" stop-color="#C1C1C1" />
+          <stop stopColor="#CDCDCD" />
+          <stop offset="1" stopColor="#C1C1C1" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_6669_5925"
@@ -949,8 +949,8 @@ const OtherStatue: FC<{
           y2="529.459"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_6669_5925"
@@ -960,8 +960,8 @@ const OtherStatue: FC<{
           y2="417.847"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_6669_5925"
@@ -971,8 +971,8 @@ const OtherStatue: FC<{
           y2="417.847"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_6669_5925"
@@ -982,8 +982,8 @@ const OtherStatue: FC<{
           y2="417.847"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_6669_5925"
@@ -993,8 +993,8 @@ const OtherStatue: FC<{
           y2="417.847"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_6669_5925"
@@ -1004,8 +1004,8 @@ const OtherStatue: FC<{
           y2="459.695"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_6669_5925"
@@ -1015,8 +1015,8 @@ const OtherStatue: FC<{
           y2="459.695"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_6669_5925"
@@ -1026,8 +1026,8 @@ const OtherStatue: FC<{
           y2="383.726"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_6669_5925"
@@ -1037,8 +1037,8 @@ const OtherStatue: FC<{
           y2="383.726"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_6669_5925"
@@ -1048,8 +1048,8 @@ const OtherStatue: FC<{
           y2="564.315"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_6669_5925"
@@ -1059,8 +1059,8 @@ const OtherStatue: FC<{
           y2="478.472"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_6669_5925"
@@ -1070,8 +1070,8 @@ const OtherStatue: FC<{
           y2="478.472"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
       </defs>
     </svg>

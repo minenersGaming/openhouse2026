@@ -833,9 +833,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="103.211"
           height="103.212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -868,9 +868,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="76.9336"
           height="76.9346"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -903,9 +903,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="48.1953"
           height="48.1963"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -938,9 +938,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="52.2188"
           height="52.2158"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -973,9 +973,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="109.332"
           height="102.188"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1008,9 +1008,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="18.9297"
           height="33.4814"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1043,9 +1043,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="59.3086"
           height="44.2959"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1078,9 +1078,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="35.6094"
           height="33.2354"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1113,9 +1113,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="116.595"
           height="152.379"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1134,9 +1134,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="73.8008"
           height="68.5332"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1169,9 +1169,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="13.8555"
           height="23.5283"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1204,9 +1204,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="40.5703"
           height="30.873"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1239,9 +1239,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="24.9727"
           height="23.2012"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1274,9 +1274,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="99.0011"
           height="122.443"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1295,9 +1295,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="88.4375"
           height="85.5557"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1330,9 +1330,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="16.2188"
           height="27.6807"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1365,9 +1365,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="48.7656"
           height="35.4141"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1400,9 +1400,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="29.1836"
           height="28.3613"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1435,9 +1435,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="106.466"
           height="134.666"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1456,9 +1456,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="66.9258"
           height="66.9258"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1491,9 +1491,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="127.188"
           height="127.188"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1526,9 +1526,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="127.188"
           height="127.188"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1561,9 +1561,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="67.1287"
           height="67.1287"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1596,9 +1596,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="59.2695"
           height="59.2695"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1631,9 +1631,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="124.473"
           height="124.474"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1666,9 +1666,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="102.539"
           height="102.539"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1701,9 +1701,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="50.419"
           height="50.419"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1736,9 +1736,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           width="114.052"
           height="114.052"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1772,8 +1772,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7095_6233"
@@ -1783,8 +1783,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7095_6233"
@@ -1794,8 +1794,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7095_6233"
@@ -1805,8 +1805,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7095_6233"
@@ -1816,8 +1816,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7095_6233"
@@ -1827,8 +1827,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7095_6233"
@@ -1838,8 +1838,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7095_6233"
@@ -1849,8 +1849,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7095_6233"
@@ -1860,8 +1860,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7095_6233"
@@ -1871,8 +1871,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7095_6233"
@@ -1882,8 +1882,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7095_6233"
@@ -1893,8 +1893,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7095_6233"
@@ -1904,8 +1904,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7095_6233"
@@ -1915,8 +1915,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7095_6233"
@@ -1926,8 +1926,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7095_6233"
@@ -1937,8 +1937,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7095_6233"
@@ -1948,8 +1948,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7095_6233"
@@ -1959,8 +1959,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7095_6233"
@@ -1970,8 +1970,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7095_6233"
@@ -1981,8 +1981,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_7095_6233"
@@ -1992,8 +1992,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_7095_6233"
@@ -2003,8 +2003,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_7095_6233"
@@ -2014,8 +2014,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_7095_6233"
@@ -2025,8 +2025,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="2030.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_7095_6233"
@@ -2036,8 +2036,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="501.713"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_7095_6233"
@@ -2047,8 +2047,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="134.259"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_7095_6233"
@@ -2058,8 +2058,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="211.607"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_7095_6233"
@@ -2069,8 +2069,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="463.239"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_7095_6233"
@@ -2080,8 +2080,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1085.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_7095_6233"
@@ -2091,8 +2091,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1098.29"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_7095_6233"
@@ -2102,8 +2102,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1085.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_7095_6233"
@@ -2113,8 +2113,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1098.29"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_7095_6233"
@@ -2124,8 +2124,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1053.57"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_7095_6233"
@@ -2135,8 +2135,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1067.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_7095_6233"
@@ -2146,8 +2146,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="960.748"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_7095_6233"
@@ -2157,9 +2157,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1022.25"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_7095_6233"
@@ -2169,8 +2169,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="937.282"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F0BF" />
-          <stop offset="1" stop-color="#F4F0BD" />
+          <stop stopColor="#F4F0BF" />
+          <stop offset="1" stopColor="#F4F0BD" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_7095_6233"
@@ -2180,9 +2180,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1010.64"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_7095_6233"
@@ -2192,9 +2192,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1010.64"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_7095_6233"
@@ -2204,9 +2204,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1075.04"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_7095_6233"
@@ -2216,9 +2216,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1075.04"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_7095_6233"
@@ -2228,9 +2228,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1063.64"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_7095_6233"
@@ -2240,9 +2240,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1063.64"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_7095_6233"
@@ -2252,8 +2252,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="931.769"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_7095_6233"
@@ -2263,8 +2263,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="931.769"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_7095_6233"
@@ -2274,8 +2274,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="947.886"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_7095_6233"
@@ -2285,8 +2285,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1208.85"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_7095_6233"
@@ -2296,8 +2296,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1216.34"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_7095_6233"
@@ -2307,8 +2307,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1208.85"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_7095_6233"
@@ -2318,8 +2318,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1216.34"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_7095_6233"
@@ -2329,8 +2329,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="4.39736"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_7095_6233"
@@ -2340,8 +2340,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1196.37"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_7095_6233"
@@ -2351,8 +2351,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1126.05"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_7095_6233"
@@ -2362,9 +2362,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1166.78"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_7095_6233"
@@ -2374,8 +2374,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1109.97"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F0BF" />
-          <stop offset="1" stop-color="#F4F0BD" />
+          <stop stopColor="#F4F0BF" />
+          <stop offset="1" stopColor="#F4F0BD" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_7095_6233"
@@ -2385,9 +2385,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1159.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_7095_6233"
@@ -2397,9 +2397,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1159.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_7095_6233"
@@ -2409,9 +2409,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1201.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_7095_6233"
@@ -2421,9 +2421,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1201.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_7095_6233"
@@ -2433,9 +2433,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1194.48"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_7095_6233"
@@ -2445,9 +2445,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1194.48"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_7095_6233"
@@ -2457,8 +2457,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1106.74"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_7095_6233"
@@ -2468,8 +2468,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1106.74"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_7095_6233"
@@ -2479,8 +2479,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1117.39"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_7095_6233"
@@ -2490,8 +2490,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1792.72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_7095_6233"
@@ -2501,8 +2501,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1806.9"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_7095_6233"
@@ -2512,8 +2512,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1792.72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_7095_6233"
@@ -2523,8 +2523,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1806.9"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_7095_6233"
@@ -2534,8 +2534,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1766.85"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_7095_6233"
@@ -2545,8 +2545,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1777.78"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_7095_6233"
@@ -2556,8 +2556,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1692.17"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_7095_6233"
@@ -2567,9 +2567,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1741.57"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_7095_6233"
@@ -2579,8 +2579,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1676.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F0BF" />
-          <stop offset="1" stop-color="#F4F0BD" />
+          <stop stopColor="#F4F0BF" />
+          <stop offset="1" stopColor="#F4F0BD" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_7095_6233"
@@ -2590,9 +2590,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1731.87"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_7095_6233"
@@ -2602,9 +2602,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1731.87"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_7095_6233"
@@ -2614,9 +2614,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1785.27"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_7095_6233"
@@ -2626,9 +2626,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1785.27"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_7095_6233"
@@ -2638,9 +2638,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1773.31"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint78_linear_7095_6233"
@@ -2650,9 +2650,9 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1773.31"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint79_linear_7095_6233"
@@ -2662,8 +2662,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1669.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint80_linear_7095_6233"
@@ -2673,8 +2673,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1669.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint81_linear_7095_6233"
@@ -2684,8 +2684,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1682.58"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint82_linear_7095_6233"
@@ -2695,8 +2695,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="947.599"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint83_linear_7095_6233"
@@ -2706,8 +2706,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="790.755"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint84_linear_7095_6233"
@@ -2717,8 +2717,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="142.965"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint85_linear_7095_6233"
@@ -2728,8 +2728,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="712.263"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint86_linear_7095_6233"
@@ -2739,8 +2739,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1704.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AB2E2" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#7AB2E2" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint87_linear_7095_6233"
@@ -2750,8 +2750,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1493.7"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint88_linear_7095_6233"
@@ -2761,8 +2761,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1206.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint89_linear_7095_6233"
@@ -2772,8 +2772,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1489.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint90_linear_7095_6233"
@@ -2783,8 +2783,8 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           y2="1386.66"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
       </defs>
     </svg>

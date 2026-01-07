@@ -239,9 +239,9 @@ const Chandelier: FC<{
           width="198.02"
           height="121.646"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -274,9 +274,9 @@ const Chandelier: FC<{
           width="9.39423"
           height="16.7365"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -309,9 +309,9 @@ const Chandelier: FC<{
           width="9.39423"
           height="16.7365"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -344,9 +344,9 @@ const Chandelier: FC<{
           width="9.39423"
           height="16.7365"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -379,9 +379,9 @@ const Chandelier: FC<{
           width="9.39423"
           height="16.7365"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -415,9 +415,9 @@ const Chandelier: FC<{
           y2="91.3661"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6598_11839"
@@ -427,9 +427,9 @@ const Chandelier: FC<{
           y2="91.3661"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6598_11839"
@@ -439,8 +439,8 @@ const Chandelier: FC<{
           y2="9"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEDBA" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#FFEDBA" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6598_11839"
@@ -450,9 +450,9 @@ const Chandelier: FC<{
           y2="67.8629"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6598_11839"
@@ -462,9 +462,9 @@ const Chandelier: FC<{
           y2="67.8629"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <radialGradient
           id="paint5_radial_6598_11839"
@@ -474,9 +474,9 @@ const Chandelier: FC<{
           gradientTransform="matrix(-0.181308 9.63663 7.19828 0.0951117 146.162 18.0543)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="0.37" stop-color="#FFDD77" />
-          <stop offset="1" stop-color="#F5EEBF" />
+          <stop stopColor="#F8B043" />
+          <stop offset="0.37" stopColor="#FFDD77" />
+          <stop offset="1" stopColor="#F5EEBF" />
         </radialGradient>
         <linearGradient
           id="paint6_linear_6598_11839"
@@ -486,8 +486,8 @@ const Chandelier: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEDBA" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#FFEDBA" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6598_11839"
@@ -497,8 +497,8 @@ const Chandelier: FC<{
           y2="23.9951"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6598_11839"
@@ -508,9 +508,9 @@ const Chandelier: FC<{
           y2="-3.68213"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <radialGradient
           id="paint9_radial_6598_11839"
@@ -520,9 +520,9 @@ const Chandelier: FC<{
           gradientTransform="matrix(0.181308 9.63663 -7.19828 0.0951117 51.8577 18.0543)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="0.37" stop-color="#FFDD77" />
-          <stop offset="1" stop-color="#F5EEBF" />
+          <stop stopColor="#F8B043" />
+          <stop offset="0.37" stopColor="#FFDD77" />
+          <stop offset="1" stopColor="#F5EEBF" />
         </radialGradient>
         <linearGradient
           id="paint10_linear_6598_11839"
@@ -532,8 +532,8 @@ const Chandelier: FC<{
           y2="23.7744"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEDBA" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#FFEDBA" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6598_11839"
@@ -543,8 +543,8 @@ const Chandelier: FC<{
           y2="23.9951"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_6598_11839"
@@ -554,9 +554,9 @@ const Chandelier: FC<{
           y2="54.7197"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <radialGradient
           id="paint13_radial_6598_11839"
@@ -566,9 +566,9 @@ const Chandelier: FC<{
           gradientTransform="matrix(-0.181308 9.63663 7.19828 0.0951117 179.929 45.2779)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="0.37" stop-color="#FFDD77" />
-          <stop offset="1" stop-color="#F5EEBF" />
+          <stop stopColor="#F8B043" />
+          <stop offset="0.37" stopColor="#FFDD77" />
+          <stop offset="1" stopColor="#F5EEBF" />
         </radialGradient>
         <linearGradient
           id="paint14_linear_6598_11839"
@@ -578,8 +578,8 @@ const Chandelier: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEDBA" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#FFEDBA" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_6598_11839"
@@ -589,8 +589,8 @@ const Chandelier: FC<{
           y2="51.2187"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_6598_11839"
@@ -600,9 +600,9 @@ const Chandelier: FC<{
           y2="-3.68213"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <radialGradient
           id="paint17_radial_6598_11839"
@@ -612,9 +612,9 @@ const Chandelier: FC<{
           gradientTransform="matrix(0.181308 9.63663 -7.19828 0.0951117 18.0901 45.2779)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="0.37" stop-color="#FFDD77" />
-          <stop offset="1" stop-color="#F5EEBF" />
+          <stop stopColor="#F8B043" />
+          <stop offset="0.37" stopColor="#FFDD77" />
+          <stop offset="1" stopColor="#F5EEBF" />
         </radialGradient>
         <linearGradient
           id="paint18_linear_6598_11839"
@@ -624,8 +624,8 @@ const Chandelier: FC<{
           y2="50.9995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEDBA" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#FFEDBA" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_6598_11839"
@@ -635,8 +635,8 @@ const Chandelier: FC<{
           y2="51.2187"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_6598_11839"
@@ -646,9 +646,9 @@ const Chandelier: FC<{
           y2="81.9434"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_6598_11839"
@@ -658,9 +658,9 @@ const Chandelier: FC<{
           y2="50.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.459642" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.459642" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_6598_11839"
@@ -670,8 +670,8 @@ const Chandelier: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEDBA" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#FFEDBA" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_6598_11839"
@@ -681,9 +681,9 @@ const Chandelier: FC<{
           y2="45.4366"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.240385" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.240385" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_6598_11839"
@@ -693,9 +693,9 @@ const Chandelier: FC<{
           y2="4.51346"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="0.240385" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="0.240385" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
       </defs>
     </svg>

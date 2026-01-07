@@ -11,7 +11,7 @@ const GiftedSm: FC<{
       viewBox="0 0 591 1508"
       fill="none"
     >
-      <g clip-path="url(#clip0_7195_4142)">
+      <g clipPath="url(#clip0_7195_4142)">
         <rect
           width="591.826"
           height="1011.55"
@@ -824,9 +824,9 @@ const GiftedSm: FC<{
           width="63.9102"
           height="818.572"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -859,9 +859,9 @@ const GiftedSm: FC<{
           width="63.9102"
           height="818.572"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -895,10 +895,10 @@ const GiftedSm: FC<{
           y2="-113.163"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.486281" stop-color="#3450B0" />
-          <stop offset="0.829634" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.486281" stopColor="#3450B0" />
+          <stop offset="0.829634" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7195_4142"
@@ -908,8 +908,8 @@ const GiftedSm: FC<{
           y2="1336.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7195_4142"
@@ -919,8 +919,8 @@ const GiftedSm: FC<{
           y2="1336.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7195_4142"
@@ -930,8 +930,8 @@ const GiftedSm: FC<{
           y2="1336.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7195_4142"
@@ -941,8 +941,8 @@ const GiftedSm: FC<{
           y2="1336.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7195_4142"
@@ -952,10 +952,10 @@ const GiftedSm: FC<{
           y2="435.602"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="0.300646" stop-color="#E5C675" />
-          <stop offset="0.646328" stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="0.300646" stopColor="#E5C675" />
+          <stop offset="0.646328" stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7195_4142"
@@ -965,8 +965,8 @@ const GiftedSm: FC<{
           y2="611.522"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7195_4142"
@@ -976,9 +976,9 @@ const GiftedSm: FC<{
           y2="1250.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.52057" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.52057" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7195_4142"
@@ -988,8 +988,8 @@ const GiftedSm: FC<{
           y2="443.209"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C1E9FF" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#C1E9FF" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7195_4142"
@@ -999,8 +999,8 @@ const GiftedSm: FC<{
           y2="1267.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7195_4142"
@@ -1010,8 +1010,8 @@ const GiftedSm: FC<{
           y2="1278.44"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7195_4142"
@@ -1021,9 +1021,9 @@ const GiftedSm: FC<{
           y2="1380.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7195_4142"
@@ -1033,8 +1033,8 @@ const GiftedSm: FC<{
           y2="1322.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7195_4142"
@@ -1044,9 +1044,9 @@ const GiftedSm: FC<{
           y2="1380.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7195_4142"
@@ -1056,8 +1056,8 @@ const GiftedSm: FC<{
           y2="1322.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7195_4142"
@@ -1067,8 +1067,8 @@ const GiftedSm: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7195_4142"
@@ -1078,8 +1078,8 @@ const GiftedSm: FC<{
           y2="-7.28881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#9CD6FF" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7195_4142"
@@ -1089,8 +1089,8 @@ const GiftedSm: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7195_4142"
@@ -1100,8 +1100,8 @@ const GiftedSm: FC<{
           y2="-7.28881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#9CD6FF" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7195_4142"
@@ -1111,9 +1111,9 @@ const GiftedSm: FC<{
           y2="1247.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.572647" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.572647" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_7195_4142"
@@ -1123,8 +1123,8 @@ const GiftedSm: FC<{
           y2="1245.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_7195_4142"
@@ -1134,8 +1134,8 @@ const GiftedSm: FC<{
           y2="1393.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_7195_4142"
@@ -1145,8 +1145,8 @@ const GiftedSm: FC<{
           y2="1375.53"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_7195_4142"
@@ -1156,8 +1156,8 @@ const GiftedSm: FC<{
           y2="1317.72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_7195_4142"
@@ -1167,8 +1167,8 @@ const GiftedSm: FC<{
           y2="1321.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_7195_4142"
@@ -1178,8 +1178,8 @@ const GiftedSm: FC<{
           y2="1303"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_7195_4142"
@@ -1189,8 +1189,8 @@ const GiftedSm: FC<{
           y2="1308.61"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="#558AD3" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="#558AD3" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_7195_4142"
@@ -1200,8 +1200,8 @@ const GiftedSm: FC<{
           y2="414.228"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_7195_4142"
@@ -1211,8 +1211,8 @@ const GiftedSm: FC<{
           y2="419.932"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_7195_4142"
@@ -1222,10 +1222,10 @@ const GiftedSm: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="0.300646" stop-color="#E5C675" />
-          <stop offset="0.646328" stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="0.300646" stopColor="#E5C675" />
+          <stop offset="0.646328" stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_7195_4142"
@@ -1235,8 +1235,8 @@ const GiftedSm: FC<{
           y2="175.921"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_7195_4142"
@@ -1246,9 +1246,9 @@ const GiftedSm: FC<{
           y2="814.988"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.52057" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.52057" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_7195_4142"
@@ -1258,8 +1258,8 @@ const GiftedSm: FC<{
           y2="7.60781"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C1E9FF" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#C1E9FF" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_7195_4142"
@@ -1269,8 +1269,8 @@ const GiftedSm: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_7195_4142"
@@ -1280,8 +1280,8 @@ const GiftedSm: FC<{
           y2="11.4268"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_7195_4142"
@@ -1291,9 +1291,9 @@ const GiftedSm: FC<{
           y2="77.0648"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_7195_4142"
@@ -1303,8 +1303,8 @@ const GiftedSm: FC<{
           y2="19.274"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_7195_4142"
@@ -1314,9 +1314,9 @@ const GiftedSm: FC<{
           y2="77.0648"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_7195_4142"
@@ -1326,8 +1326,8 @@ const GiftedSm: FC<{
           y2="19.274"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_7195_4142"
@@ -1337,8 +1337,8 @@ const GiftedSm: FC<{
           y2="422.985"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_7195_4142"
@@ -1348,8 +1348,8 @@ const GiftedSm: FC<{
           y2="415.697"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#9CD6FF" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_7195_4142"
@@ -1359,8 +1359,8 @@ const GiftedSm: FC<{
           y2="422.985"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_7195_4142"
@@ -1370,8 +1370,8 @@ const GiftedSm: FC<{
           y2="415.697"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#9CD6FF" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_7195_4142"
@@ -1381,9 +1381,9 @@ const GiftedSm: FC<{
           y2="1247.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.572647" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.572647" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_7195_4142"
@@ -1393,8 +1393,8 @@ const GiftedSm: FC<{
           y2="1245.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_7195_4142"
@@ -1404,8 +1404,8 @@ const GiftedSm: FC<{
           y2="1393.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_7195_4142"
@@ -1415,8 +1415,8 @@ const GiftedSm: FC<{
           y2="1375.53"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_7195_4142"
@@ -1426,8 +1426,8 @@ const GiftedSm: FC<{
           y2="1317.72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_7195_4142"
@@ -1437,8 +1437,8 @@ const GiftedSm: FC<{
           y2="1321.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_7195_4142"
@@ -1448,8 +1448,8 @@ const GiftedSm: FC<{
           y2="1303"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_7195_4142"
@@ -1459,8 +1459,8 @@ const GiftedSm: FC<{
           y2="1308.61"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="#558AD3" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="#558AD3" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_7195_4142"
@@ -1470,8 +1470,8 @@ const GiftedSm: FC<{
           y2="414.228"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_7195_4142"
@@ -1481,8 +1481,8 @@ const GiftedSm: FC<{
           y2="419.932"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_7195_4142"
@@ -1492,8 +1492,8 @@ const GiftedSm: FC<{
           y2="-5.02211"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_7195_4142"
@@ -1503,9 +1503,9 @@ const GiftedSm: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0808238" stop-color="#F3E09D" />
-          <stop offset="0.565208" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop offset="0.0808238" stopColor="#F3E09D" />
+          <stop offset="0.565208" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_7195_4142"
@@ -1515,9 +1515,9 @@ const GiftedSm: FC<{
           y2="1353.42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.515844" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.515844" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_7195_4142"
@@ -1527,9 +1527,9 @@ const GiftedSm: FC<{
           y2="1353.42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.515844" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.515844" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_7195_4142"
@@ -1539,8 +1539,8 @@ const GiftedSm: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_7195_4142"
@@ -1550,8 +1550,8 @@ const GiftedSm: FC<{
           y2="13.0841"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_7195_4142"
@@ -1561,9 +1561,9 @@ const GiftedSm: FC<{
           y2="88.2419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_7195_4142"
@@ -1573,8 +1573,8 @@ const GiftedSm: FC<{
           y2="22.0695"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_7195_4142"
@@ -1584,9 +1584,9 @@ const GiftedSm: FC<{
           y2="88.2419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_7195_4142"
@@ -1596,8 +1596,8 @@ const GiftedSm: FC<{
           y2="22.0695"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_7195_4142"
@@ -1607,8 +1607,8 @@ const GiftedSm: FC<{
           y2="1393.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_7195_4142"
@@ -1618,8 +1618,8 @@ const GiftedSm: FC<{
           y2="1414.73"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_7195_4142"
@@ -1629,8 +1629,8 @@ const GiftedSm: FC<{
           y2="1480.92"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_7195_4142"
@@ -1640,8 +1640,8 @@ const GiftedSm: FC<{
           y2="1476.84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_7195_4142"
@@ -1651,8 +1651,8 @@ const GiftedSm: FC<{
           y2="1538.97"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A063" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C4A063" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_7195_4142"
@@ -1662,8 +1662,8 @@ const GiftedSm: FC<{
           y2="1552.06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_7195_4142"
@@ -1673,9 +1673,9 @@ const GiftedSm: FC<{
           y2="1586.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_7195_4142"
@@ -1685,8 +1685,8 @@ const GiftedSm: FC<{
           y2="1519.84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_7195_4142"
@@ -1696,9 +1696,9 @@ const GiftedSm: FC<{
           y2="1586.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.497336" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.497336" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_7195_4142"
@@ -1708,8 +1708,8 @@ const GiftedSm: FC<{
           y2="1519.84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_7195_4142"
@@ -1719,8 +1719,8 @@ const GiftedSm: FC<{
           y2="1393.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_7195_4142"
@@ -1730,8 +1730,8 @@ const GiftedSm: FC<{
           y2="1414.73"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_7195_4142"
@@ -1741,8 +1741,8 @@ const GiftedSm: FC<{
           y2="1480.92"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_7195_4142"
@@ -1752,8 +1752,8 @@ const GiftedSm: FC<{
           y2="1476.84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#477BCA" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_7195_4142"
@@ -1763,8 +1763,8 @@ const GiftedSm: FC<{
           y2="1483.31"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint78_linear_7195_4142"
@@ -1774,8 +1774,8 @@ const GiftedSm: FC<{
           y2="94.1374"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint79_linear_7195_4142"
@@ -1785,8 +1785,8 @@ const GiftedSm: FC<{
           y2="95.3509"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint80_linear_7195_4142"
@@ -1796,8 +1796,8 @@ const GiftedSm: FC<{
           y2="24.4622"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint81_linear_7195_4142"
@@ -1807,8 +1807,8 @@ const GiftedSm: FC<{
           y2="67.0317"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint82_linear_7195_4142"
@@ -1818,8 +1818,8 @@ const GiftedSm: FC<{
           y2="40.429"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint83_linear_7195_4142"
@@ -1829,8 +1829,8 @@ const GiftedSm: FC<{
           y2="117.607"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <clipPath id="clip0_7195_4142">
           <rect width="591" height="1508" fill="white" />

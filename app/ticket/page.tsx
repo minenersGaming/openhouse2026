@@ -13,7 +13,7 @@ import { toast } from "react-hot-toast";
 
 const css = {
   textId:
-    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-stroke-width:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px] mb-1",
+    " text-white [text-shadow:0_2px_2px_rgba(0,0,0,0.25)] [-webkit-text-strokeWidth:0.46px] font-[GFS_Didot] text-[20px] font-normal leading-[20px] mt-[30px] mb-1",
   thaiName:
     " ml-7 text-[#F3E8AD] font-noto-sans-thai text-[20px] leading-[13px]",
   student: "text-[#F3E8AD] font-noto-sans-thai text-[15px] leading-[10px]",

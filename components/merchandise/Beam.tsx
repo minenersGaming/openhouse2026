@@ -22,14 +22,14 @@ const Beam = ({ className }: { className: string }) => {
           <path
             d="M1268.5 -309.882L1619.82 -120.641L1419.89 2922.64L318.469 2890.9L1268.5 -309.882Z"
             fill="url(#paint0_linear_7725_5195)"
-            fill-opacity="0.8"
+            fillOpacity="0.8"
           />
         </g>
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.51">
           <path
             d="M1017.34 -450.863L1363.71 -222.035L501.263 2973.75L-7.1338 2637.88L1017.34 -450.863Z"
             fill="url(#paint1_linear_7725_5195)"
-            fill-opacity="0.8"
+            fillOpacity="0.8"
           />
         </g>
       </g>
@@ -42,9 +42,9 @@ const Beam = ({ className }: { className: string }) => {
           y2="565.591"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5EEBF" stop-opacity="0.4" />
-          <stop offset="0.5" stop-color="#F5EEBF" stop-opacity="0.1" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="#F5EEBF" stopOpacity="0.4" />
+          <stop offset="0.5" stopColor="#F5EEBF" stopOpacity="0.1" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7725_5195"
@@ -54,9 +54,9 @@ const Beam = ({ className }: { className: string }) => {
           y2="320.47"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5EEBF" stop-opacity="0.4" />
-          <stop offset="0.5" stop-color="#F5EEBF" stop-opacity="0.1" />
-          <stop offset="1" stop-color="#15786C" stop-opacity="0" />
+          <stop stopColor="#F5EEBF" stopOpacity="0.4" />
+          <stop offset="0.5" stopColor="#F5EEBF" stopOpacity="0.1" />
+          <stop offset="1" stopColor="#15786C" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

@@ -30,8 +30,8 @@ export const SmLight: FC<{ className?: string }> = ({ className }) => {
           y2="844.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" stop-opacity="0.82" />
-          <stop offset="1" stop-color="#F3E19D" stop-opacity="0" />
+          <stop stopColor="#F4F2C4" stopOpacity="0.82" />
+          <stop offset="1" stopColor="#F3E19D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6478_4672"
@@ -41,8 +41,8 @@ export const SmLight: FC<{ className?: string }> = ({ className }) => {
           y2="780.32"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" stop-opacity="0.82" />
-          <stop offset="1" stop-color="#F3E19D" stop-opacity="0.18" />
+          <stop stopColor="#F4F2C4" stopOpacity="0.82" />
+          <stop offset="1" stopColor="#F3E19D" stopOpacity="0.18" />
         </linearGradient>
       </defs>
     </svg>

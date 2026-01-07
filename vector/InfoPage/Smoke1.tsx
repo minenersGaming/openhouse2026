@@ -26,8 +26,8 @@ const Smoke1: FC<{
           y2="1725.31"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FEE" stop-opacity="0" />
-          <stop offset="1" stop-color="#9CD6FF" stop-opacity="0.27" />
+          <stop stopColor="#499FEE" stopOpacity="0" />
+          <stop offset="1" stopColor="#9CD6FF" stopOpacity="0.27" />
         </linearGradient>
       </defs>
     </svg>

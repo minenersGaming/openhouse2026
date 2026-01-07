@@ -113,9 +113,9 @@ const TriamudomOpenHouse26Sm: FC<{
           width="501.9"
           height="227.698"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -149,8 +149,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_5633_3185"
@@ -160,8 +160,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_5633_3185"
@@ -171,8 +171,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_5633_3185"
@@ -182,8 +182,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_5633_3185"
@@ -193,8 +193,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_5633_3185"
@@ -204,8 +204,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_5633_3185"
@@ -215,8 +215,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_5633_3185"
@@ -226,8 +226,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_5633_3185"
@@ -237,8 +237,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_5633_3185"
@@ -248,8 +248,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_5633_3185"
@@ -259,8 +259,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_5633_3185"
@@ -270,8 +270,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_5633_3185"
@@ -281,8 +281,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_5633_3185"
@@ -292,8 +292,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_5633_3185"
@@ -303,8 +303,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_5633_3185"
@@ -314,8 +314,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_5633_3185"
@@ -325,8 +325,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_5633_3185"
@@ -336,8 +336,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_5633_3185"
@@ -347,8 +347,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_5633_3185"
@@ -358,8 +358,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_5633_3185"
@@ -369,8 +369,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_5633_3185"
@@ -380,8 +380,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_5633_3185"
@@ -391,8 +391,8 @@ const TriamudomOpenHouse26Sm: FC<{
           y2="271.267"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
       </defs>
     </svg>

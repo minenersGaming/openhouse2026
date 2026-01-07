@@ -87,9 +87,9 @@ const GiftedTextSm: FC<{
           width="333.566"
           height="27.6289"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -122,9 +122,9 @@ const GiftedTextSm: FC<{
           width="411.223"
           height="131.03"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -158,8 +158,8 @@ const GiftedTextSm: FC<{
           y2="166.255"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7453_5077"
@@ -169,8 +169,8 @@ const GiftedTextSm: FC<{
           y2="120.209"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7453_5077"
@@ -180,8 +180,8 @@ const GiftedTextSm: FC<{
           y2="13.4065"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7453_5077"
@@ -191,8 +191,8 @@ const GiftedTextSm: FC<{
           y2="54.0835"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7453_5077"
@@ -202,8 +202,8 @@ const GiftedTextSm: FC<{
           y2="7.83263"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7453_5077"
@@ -213,8 +213,8 @@ const GiftedTextSm: FC<{
           y2="112.574"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7453_5077"
@@ -224,8 +224,8 @@ const GiftedTextSm: FC<{
           y2="141.925"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7453_5077"
@@ -235,8 +235,8 @@ const GiftedTextSm: FC<{
           y2="85.8033"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
       </defs>
     </svg>

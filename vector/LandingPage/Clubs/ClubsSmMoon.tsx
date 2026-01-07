@@ -112,9 +112,9 @@ const ClubsSmMoon: FC<{
           width="739.193"
           height="739.193"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -134,8 +134,8 @@ const ClubsSmMoon: FC<{
           y2="261.973"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7095_5701"
@@ -145,8 +145,8 @@ const ClubsSmMoon: FC<{
           y2="264.65"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7095_5701"
@@ -156,8 +156,8 @@ const ClubsSmMoon: FC<{
           y2="217.556"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B044" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F8B044" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7095_5701"
@@ -167,8 +167,8 @@ const ClubsSmMoon: FC<{
           y2="619.406"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7095_5701"
@@ -178,8 +178,8 @@ const ClubsSmMoon: FC<{
           y2="259.827"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7095_5701"
@@ -189,8 +189,8 @@ const ClubsSmMoon: FC<{
           y2="357.76"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7095_5701"
@@ -200,8 +200,8 @@ const ClubsSmMoon: FC<{
           y2="357.76"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7095_5701"
@@ -211,8 +211,8 @@ const ClubsSmMoon: FC<{
           y2="357.76"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7095_5701"
@@ -222,8 +222,8 @@ const ClubsSmMoon: FC<{
           y2="357.76"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7095_5701"
@@ -233,8 +233,8 @@ const ClubsSmMoon: FC<{
           y2="357.76"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7095_5701"
@@ -244,9 +244,9 @@ const ClubsSmMoon: FC<{
           y2="338.067"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.583202" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.583202" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7095_5701"
@@ -256,9 +256,9 @@ const ClubsSmMoon: FC<{
           y2="338.067"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.583202" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.583202" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7095_5701"
@@ -268,9 +268,9 @@ const ClubsSmMoon: FC<{
           y2="338.067"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.583202" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.583202" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7095_5701"
@@ -280,9 +280,9 @@ const ClubsSmMoon: FC<{
           y2="338.067"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.583202" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.583202" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
       </defs>
     </svg>

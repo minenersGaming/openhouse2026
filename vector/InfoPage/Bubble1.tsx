@@ -47,8 +47,8 @@ const Bubble1: FC<{
           y2="166.066"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" stop-opacity="0" />
-          <stop offset="1" stop-color="#F4F2C3" stop-opacity="0.4" />
+          <stop stopColor="#F4F2C3" stopOpacity="0" />
+          <stop offset="1" stopColor="#F4F2C3" stopOpacity="0.4" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6642_6565"
@@ -58,8 +58,8 @@ const Bubble1: FC<{
           y2="98.8058"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B044" stop-opacity="0" />
-          <stop offset="1" stop-color="#F8B044" stop-opacity="0.5" />
+          <stop stopColor="#F8B044" stopOpacity="0" />
+          <stop offset="1" stopColor="#F8B044" stopOpacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6642_6565"
@@ -69,8 +69,8 @@ const Bubble1: FC<{
           y2="98.8058"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" stop-opacity="0" />
-          <stop offset="1" stop-color="#9CD6FF" stop-opacity="0.4" />
+          <stop stopColor="#9CD6FF" stopOpacity="0" />
+          <stop offset="1" stopColor="#9CD6FF" stopOpacity="0.4" />
         </linearGradient>
       </defs>
     </svg>

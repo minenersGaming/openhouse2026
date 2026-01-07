@@ -126,8 +126,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="417.598"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#003B95" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#003B95" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7202_4141"
@@ -137,9 +137,9 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="419.528"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.765538" stop-color="#042284" />
-          <stop offset="1" stop-color="#0C1A53" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.765538" stopColor="#042284" />
+          <stop offset="1" stopColor="#0C1A53" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7202_4141"
@@ -149,8 +149,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="374.978"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7202_4141"
@@ -160,8 +160,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="372.801"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7202_4141"
@@ -171,8 +171,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="350.291"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7202_4141"
@@ -182,8 +182,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="417.599"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#003B95" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#003B95" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7202_4141"
@@ -193,9 +193,9 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="419.529"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.765538" stop-color="#042284" />
-          <stop offset="1" stop-color="#0C1A53" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.765538" stopColor="#042284" />
+          <stop offset="1" stopColor="#0C1A53" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7202_4141"
@@ -205,8 +205,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="374.979"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7202_4141"
@@ -216,8 +216,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="372.802"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7202_4141"
@@ -227,8 +227,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="350.292"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7202_4141"
@@ -238,8 +238,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="91.4159"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#003B95" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#003B95" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7202_4141"
@@ -249,9 +249,9 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="176.416"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.765538" stop-color="#042284" />
-          <stop offset="1" stop-color="#0C1A53" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.765538" stopColor="#042284" />
+          <stop offset="1" stopColor="#0C1A53" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7202_4141"
@@ -261,8 +261,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="238.06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7202_4141"
@@ -272,8 +272,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="30.199"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7202_4141"
@@ -283,8 +283,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="201.606"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7202_4141"
@@ -294,8 +294,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="91.4149"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#003B95" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#003B95" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7202_4141"
@@ -305,9 +305,9 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="176.416"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.765538" stop-color="#042284" />
-          <stop offset="1" stop-color="#0C1A53" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.765538" stopColor="#042284" />
+          <stop offset="1" stopColor="#0C1A53" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7202_4141"
@@ -317,8 +317,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="238.06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7202_4141"
@@ -328,8 +328,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="30.2"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7202_4141"
@@ -339,8 +339,8 @@ const Mdcurtain: FC<{ className?: string }> = ({ className }) => {
           y2="201.605"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
       </defs>
     </svg>

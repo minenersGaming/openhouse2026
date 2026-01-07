@@ -325,20 +325,20 @@ const LandingBackground: FC<{
           </g>
         </g>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M105.512 579.043L88.7615 596.014H-25.7588V485.978H105.512V579.043ZM-0.0629959 496.627C-8.88637 496.627 -16.0396 503.781 -16.0396 512.604V549.881H15.9126V512.604C15.9126 503.781 8.76027 496.628 -0.0629959 496.627ZM40.7648 496.627C31.9414 496.627 24.7882 503.781 24.7882 512.604V549.881H56.7404V512.604C56.7404 503.781 49.5881 496.628 40.7648 496.627ZM81.5926 496.627C72.7693 496.627 65.6161 503.781 65.6161 512.604V549.881H97.5682V512.604C97.5682 503.781 90.416 496.627 81.5926 496.627Z"
           fill="#D9D9D9"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M105.512 579.043L88.7615 596.014H-25.7588V485.978H105.512V579.043ZM-0.0629959 496.627C-8.88637 496.627 -16.0396 503.781 -16.0396 512.604V549.881H15.9126V512.604C15.9126 503.781 8.76027 496.628 -0.0629959 496.627ZM40.7648 496.627C31.9414 496.627 24.7882 503.781 24.7882 512.604V549.881H56.7404V512.604C56.7404 503.781 49.5881 496.628 40.7648 496.627ZM81.5926 496.627C72.7693 496.627 65.6161 503.781 65.6161 512.604V549.881H97.5682V512.604C97.5682 503.781 90.416 496.627 81.5926 496.627Z"
           fill="url(#paint32_linear_4598_5108)"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M105.512 579.043L88.7615 596.014H-25.7588V485.978H105.512V579.043ZM-0.0629959 496.627C-8.88637 496.627 -16.0396 503.781 -16.0396 512.604V549.881H15.9126V512.604C15.9126 503.781 8.76027 496.628 -0.0629959 496.627ZM40.7648 496.627C31.9414 496.627 24.7882 503.781 24.7882 512.604V549.881H56.7404V512.604C56.7404 503.781 49.5881 496.628 40.7648 496.627ZM81.5926 496.627C72.7693 496.627 65.6161 503.781 65.6161 512.604V549.881H97.5682V512.604C97.5682 503.781 90.416 496.627 81.5926 496.627Z"
           fill="url(#paint33_linear_4598_5108)"
         />
@@ -484,20 +484,20 @@ const LandingBackground: FC<{
           </g>
         </g>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M1602.08 579.042L1618.83 596.013H1733.35V485.978H1602.08V579.042ZM1707.65 496.627C1716.48 496.627 1723.63 503.78 1723.63 512.604V549.881H1691.68V512.604C1691.68 503.78 1698.83 496.627 1707.65 496.627ZM1666.83 496.627C1675.65 496.627 1682.8 503.78 1682.8 512.604V549.881H1650.85V512.604C1650.85 503.78 1658 496.627 1666.83 496.627ZM1626 496.627C1634.82 496.627 1641.97 503.78 1641.97 512.604V549.881H1610.02V512.604C1610.02 503.78 1617.17 496.627 1626 496.627Z"
           fill="#D9D9D9"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M1602.08 579.042L1618.83 596.013H1733.35V485.978H1602.08V579.042ZM1707.65 496.627C1716.48 496.627 1723.63 503.78 1723.63 512.604V549.881H1691.68V512.604C1691.68 503.78 1698.83 496.627 1707.65 496.627ZM1666.83 496.627C1675.65 496.627 1682.8 503.78 1682.8 512.604V549.881H1650.85V512.604C1650.85 503.78 1658 496.627 1666.83 496.627ZM1626 496.627C1634.82 496.627 1641.97 503.78 1641.97 512.604V549.881H1610.02V512.604C1610.02 503.78 1617.17 496.627 1626 496.627Z"
           fill="url(#paint38_linear_4598_5108)"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M1602.08 579.042L1618.83 596.013H1733.35V485.978H1602.08V579.042ZM1707.65 496.627C1716.48 496.627 1723.63 503.78 1723.63 512.604V549.881H1691.68V512.604C1691.68 503.78 1698.83 496.627 1707.65 496.627ZM1666.83 496.627C1675.65 496.627 1682.8 503.78 1682.8 512.604V549.881H1650.85V512.604C1650.85 503.78 1658 496.627 1666.83 496.627ZM1626 496.627C1634.82 496.627 1641.97 503.78 1641.97 512.604V549.881H1610.02V512.604C1610.02 503.78 1617.17 496.627 1626 496.627Z"
           fill="url(#paint39_linear_4598_5108)"
         />
@@ -590,7 +590,7 @@ const LandingBackground: FC<{
         <path
           d="M888.175 606.762C888.175 606.762 893.753 600.903 900.298 597.321M900.298 597.321C901.575 596.622 902.889 596.01 904.205 595.545C910.654 593.265 922.445 592.65 922.445 592.65M900.298 597.321C892.711 589.626 889.687 565.94 889.687 565.94M900.298 597.321C900.455 597.45 900.614 597.573 900.774 597.69C906.318 601.722 925.973 605.25 925.973 605.25M887.671 606.762C887.671 606.762 882.24 600.903 875.695 597.321M875.695 597.321C874.418 596.622 872.958 596.01 871.641 595.545C865.192 593.265 853.401 592.65 853.401 592.65M875.695 597.321C884.243 590.282 886.306 565.94 886.306 565.94M875.695 597.321C875.538 597.45 875.233 597.573 875.072 597.69C869.528 601.722 849.873 605.25 849.873 605.25"
           stroke="#2946A6"
-          stroke-width="3.02385"
+          strokeWidth="3.02385"
         />
         <rect
           x="848.755"
@@ -826,112 +826,112 @@ const LandingBackground: FC<{
             <path
               d="M772.265 525.306L758.004 525.306M764.659 508.487L750.397 508.487M774.167 516.896H750.397M765.61 516.896V525.306M756.102 508.487V516.896"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M794.702 546.399L808.964 546.399M802.309 529.58L816.571 529.58M792.801 537.989H816.571M801.358 537.989V546.399M810.866 529.58V537.989"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M804.519 498.407L790.257 498.407M806.421 506.817H782.651M797.864 506.817V498.407"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M758.347 478.248L772.609 478.248M756.445 486.658H780.215M765.002 486.658V478.248"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M761.441 557.802L775.703 557.802M759.539 566.212H783.309M768.096 566.212V557.802"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M761.442 655.647L775.703 655.647M759.54 664.057H783.31M768.097 664.057V655.647"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M784.361 633.472L770.099 633.472M786.263 641.882H762.493M777.706 641.882V633.472"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M767.297 542.683L753.035 542.683M769.198 551.093H745.428M760.641 551.093V542.683"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M767.297 640.528L753.035 640.528M769.198 648.938H745.428M760.641 648.938V640.528"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M778.506 618.353L792.768 618.353M776.604 626.763H800.374M785.162 626.763V618.353"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M790.671 596.797L804.933 596.797M798.277 579.977L812.539 579.977M788.77 588.387H812.539M797.327 588.387V596.797M806.835 579.977V588.387"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M790.672 694.642L804.934 694.642M798.278 677.822L812.54 677.822M788.771 686.232H812.54M797.328 686.232V694.642M806.836 677.822V686.232"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M796.649 481.965L810.911 481.965M804.255 465.145L818.517 465.145M794.747 473.555H818.517M803.304 473.555V481.965M812.812 465.145V473.555"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M747.329 604.861L761.591 604.861M754.936 588.041L769.197 588.041M745.428 596.451H769.197M753.985 596.451V604.861M763.493 588.041V596.451"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -1050,88 +1050,88 @@ const LandingBackground: FC<{
             <path
               d="M1000.84 563.608L1015.1 563.608M1008.45 546.789L1022.71 546.789M998.938 555.198H1022.71M1007.5 555.198V563.608M1017 546.789V555.198"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M978.402 584.701L964.14 584.701M970.796 567.882L956.534 567.882M980.304 576.291H956.534M971.747 576.291V584.701M962.239 567.882V576.291"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M968.585 536.709L982.847 536.709M966.684 545.119H990.453M975.241 545.119V536.709"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1014.76 516.55L1000.5 516.55M1016.66 524.96H992.89M1008.1 524.96V516.55"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1011.66 596.104L997.403 596.104M1013.57 604.514H989.797M1005.01 604.514V596.104"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M988.744 671.774L1003.01 671.774M986.843 680.184H1010.61M995.4 680.184V671.774"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1005.81 580.985L1020.07 580.985M1003.91 589.395H1027.68M1012.46 589.395V580.985"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M994.599 656.655L980.338 656.655M996.501 665.065H972.731M987.944 665.065V656.655"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M982.434 635.099L968.172 635.099M974.828 618.279L960.566 618.279M984.336 626.689H960.566M975.779 626.689V635.099M966.271 618.279V626.689"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M976.457 520.267L962.195 520.267M968.85 503.447L954.589 503.447M978.358 511.857H954.589M969.801 511.857V520.267M960.293 503.447V511.857"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1025.78 643.163L1011.51 643.163M1018.17 626.343L1003.91 626.343M1027.68 634.753H1003.91M1019.12 634.753V643.163M1009.61 626.343V634.753"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -1250,88 +1250,88 @@ const LandingBackground: FC<{
             <path
               d="M1210.59 558.585L1221.21 558.585M1216.25 546.06L1226.87 546.06M1209.17 552.322H1226.87M1215.54 552.322V558.585M1222.62 546.06V552.322"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1193.88 574.292L1183.26 574.292M1188.21 561.767L1177.59 561.767M1195.29 568.03H1177.59M1188.92 568.03V574.292M1181.84 561.767V568.03"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1186.57 538.553L1197.19 538.553M1185.15 544.816H1202.85M1191.52 544.816V538.553"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1220.95 523.541L1210.33 523.541M1222.37 529.804H1204.67M1216 529.804V523.541"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1218.65 582.784L1208.03 582.784M1220.06 589.047H1202.36M1213.69 589.047V582.784"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1201.58 639.134L1212.2 639.134M1200.17 645.396H1217.87M1206.54 645.396V639.134"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1214.29 571.525L1224.91 571.525M1212.87 577.788H1230.57M1219.24 577.788V571.525"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1205.94 627.875L1195.32 627.875M1207.36 634.137H1189.66M1200.99 634.137V627.875"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1196.88 611.822L1186.26 611.822M1191.22 599.297L1180.6 599.297M1198.3 605.56H1180.6M1191.93 605.56V611.822M1184.85 599.297V605.56"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1192.43 526.309L1181.81 526.309M1186.77 513.784L1176.15 513.784M1193.85 520.046H1176.15M1187.47 520.046V526.309M1180.39 513.784V520.046"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1229.16 617.827L1218.54 617.827M1223.49 605.302L1212.87 605.302M1230.57 611.565H1212.87M1224.2 611.565V617.827M1217.12 605.302V611.565"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -1426,88 +1426,88 @@ const LandingBackground: FC<{
             <path
               d="M694.56 573.2L683.939 573.2M688.895 560.675L678.275 560.675M695.976 566.937H678.275M689.603 566.937V573.2M682.523 560.675V566.937"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M711.27 588.908L721.89 588.908M716.934 576.382L727.554 576.382M709.854 582.645H727.554M716.226 582.645V588.908M723.306 576.382V582.645"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M718.579 553.169L707.959 553.169M719.995 559.431H702.294M713.623 559.431V553.169"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M684.194 538.157L694.815 538.157M682.778 544.419H700.479M689.151 544.419V538.157"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M686.5 597.399L697.121 597.399M685.084 603.662H702.785M691.456 603.662V597.399"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M703.566 653.749L692.946 653.749M704.982 660.012H687.282M698.61 660.012V653.749"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M690.859 586.14L680.239 586.14M692.275 592.403H674.575M685.903 592.403V586.14"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M699.206 642.49L709.827 642.49M697.79 648.753H715.491M704.162 648.753V642.49"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M708.266 626.438L718.886 626.438M713.93 613.912L724.55 613.912M706.85 620.175H724.55M713.222 620.175V626.438M720.302 613.912V620.175"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M712.717 540.924L723.337 540.924M718.381 528.399L729.002 528.399M711.301 534.662H729.002M717.673 534.662V540.924M724.753 528.399V534.662"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M675.991 632.443L686.612 632.443M681.656 619.917L692.276 619.917M674.575 626.18H692.276M680.948 626.18V632.443M688.028 619.917V626.18"
               stroke="white"
-              stroke-width="0.782834"
-              stroke-linecap="round"
+              strokeWidth="0.782834"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -2685,64 +2685,64 @@ const LandingBackground: FC<{
             <path
               d="M1272.92 747.989L1287.18 747.989M1280.52 731.17L1294.78 731.17M1271.01 739.58H1294.78M1279.57 739.58V747.989M1289.08 731.17V739.58"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1243.49 791.331L1229.23 791.331M1235.89 774.511L1221.62 774.511M1245.39 782.921H1221.62M1236.84 782.921V791.331M1227.33 774.511V782.921"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1235.62 749.313L1249.88 749.313M1233.72 757.722H1257.49M1242.28 757.722V749.313"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1276.76 802.734L1262.49 802.734M1278.66 811.144H1254.89M1270.1 811.144V802.734"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1270.9 787.615L1285.16 787.615M1269 796.024H1292.77M1277.56 796.024V787.615"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1247.53 841.728L1233.26 841.728M1239.92 824.909L1225.66 824.909M1249.43 833.319H1225.66M1240.87 833.319V841.728M1231.36 824.909V833.319"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1241.55 726.896L1227.29 726.896M1233.94 710.076L1219.68 710.076M1243.45 718.486H1219.68M1234.89 718.486V726.896M1225.38 710.076V718.486"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1290.87 849.792L1276.61 849.792M1283.26 832.972L1269 832.972M1292.77 841.382H1269M1284.21 841.382V849.792M1274.7 832.972V841.382"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -2911,64 +2911,64 @@ const LandingBackground: FC<{
             <path
               d="M523.003 759.077L537.265 759.077M530.609 742.257L544.871 742.257M521.102 750.667H544.871M529.659 750.667V759.077M539.167 742.257V750.667"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M493.581 802.419L479.319 802.419M485.975 785.599L471.713 785.599M495.482 794.009H471.713M486.925 794.009V802.419M477.417 785.599V794.009"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M485.709 760.4L499.971 760.4M483.808 768.81H507.577M492.365 768.81V760.4"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M526.843 813.821L512.581 813.821M528.744 822.231H504.974M520.187 822.231V813.821"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M520.988 798.702L535.249 798.702M519.086 807.112H542.856M527.643 807.112V798.702"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M497.612 852.816L483.35 852.816M490.006 835.996L475.744 835.996M499.514 844.406H475.744M490.957 844.406V852.816M481.449 835.996V844.406"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M491.636 737.984L477.374 737.984M484.029 721.164L469.767 721.164M493.537 729.574H469.767M484.98 729.574V737.984M475.472 721.164V729.574"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M540.954 860.88L526.692 860.88M533.348 844.06L519.086 844.06M542.855 852.47H519.086M534.298 852.47V860.88M524.79 844.06V852.47"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -3297,64 +3297,64 @@ const LandingBackground: FC<{
             <path
               d="M754.903 810.556L769.164 810.556M762.509 793.736L776.771 793.736M753.001 802.146H776.771M761.558 802.146V810.556M771.066 793.736V802.146"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M725.479 853.898L711.217 853.898M717.873 837.078L703.611 837.078M727.381 845.488H703.611M718.824 845.488V853.898M709.316 837.078V845.488"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M717.609 811.879L731.87 811.879M715.707 820.289H739.477M724.264 820.289V811.879"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M758.742 865.301L744.48 865.301M760.644 873.71H736.874M752.086 873.71V865.301"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M752.887 850.181L767.149 850.181M750.985 858.591H774.755M759.542 858.591V850.181"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M729.512 904.295L715.25 904.295M721.905 887.475L707.643 887.475M731.413 895.885H707.643M722.856 895.885V904.295M713.348 887.475V895.885"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M723.534 789.463L709.272 789.463M715.928 772.643L701.666 772.643M725.436 781.053H701.666M716.878 781.053V789.463M707.371 772.643V781.053"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M772.853 912.359L758.591 912.359M765.247 895.539L750.985 895.539M774.755 903.949H750.985M766.198 903.949V912.359M756.69 895.539V903.949"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -3609,64 +3609,64 @@ const LandingBackground: FC<{
             <path
               d="M1010.73 810.556L996.466 810.556M1003.12 793.736L988.86 793.736M1012.63 802.146H988.86M1004.07 802.146V810.556M994.565 793.736V802.146"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1040.15 853.898L1054.41 853.898M1047.76 837.078L1062.02 837.078M1038.25 845.488H1062.02M1046.81 845.488V853.898M1056.32 837.078V845.488"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1048.02 811.879L1033.76 811.879M1049.92 820.289H1026.16M1041.37 820.289V811.879"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1006.89 865.301L1021.15 865.301M1004.99 873.71H1028.76M1013.55 873.71V865.301"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1012.74 850.181L998.483 850.181M1014.65 858.591H990.877M1006.09 858.591V850.181"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1036.12 904.295L1050.38 904.295M1043.73 887.475L1057.99 887.475M1034.22 895.885H1057.99M1042.78 895.885V904.295M1052.28 887.475V895.885"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M1042.1 789.463L1056.36 789.463M1049.7 772.643L1063.97 772.643M1040.2 781.053H1063.97M1048.75 781.053V789.463M1058.26 772.643V781.053"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
           <g style={{ mixBlendMode: "soft-light" }}>
             <path
               d="M992.779 912.359L1007.04 912.359M1000.38 895.539L1014.65 895.539M990.877 903.949H1014.65M999.434 903.949V912.359M1008.94 895.539V903.949"
               stroke="white"
-              stroke-width="1.05123"
-              stroke-linecap="round"
+              strokeWidth="1.05123"
+              strokeLinecap="round"
             />
           </g>
         </g>
@@ -5096,9 +5096,9 @@ const LandingBackground: FC<{
           width="1274.08"
           height="982.785"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -5117,9 +5117,9 @@ const LandingBackground: FC<{
           width="769.367"
           height="769.367"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -5138,9 +5138,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5173,9 +5173,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5208,9 +5208,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5243,9 +5243,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5278,9 +5278,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5313,9 +5313,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5348,9 +5348,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5383,9 +5383,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5418,9 +5418,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5453,9 +5453,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5488,9 +5488,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5523,9 +5523,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5558,9 +5558,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5593,9 +5593,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5628,9 +5628,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5663,9 +5663,9 @@ const LandingBackground: FC<{
           width="84.6675"
           height="26.2066"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5698,9 +5698,9 @@ const LandingBackground: FC<{
           width="345.303"
           height="345.303"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -5719,9 +5719,9 @@ const LandingBackground: FC<{
           width="50.3977"
           height="132.361"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5754,9 +5754,9 @@ const LandingBackground: FC<{
           width="64.5091"
           height="11.0874"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5789,9 +5789,9 @@ const LandingBackground: FC<{
           width="50.3977"
           height="99.3792"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5824,9 +5824,9 @@ const LandingBackground: FC<{
           width="64.5091"
           height="11.0874"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5859,9 +5859,9 @@ const LandingBackground: FC<{
           width="50.3977"
           height="132.361"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5894,9 +5894,9 @@ const LandingBackground: FC<{
           width="64.5091"
           height="11.0874"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5929,9 +5929,9 @@ const LandingBackground: FC<{
           width="50.3977"
           height="99.3792"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5964,9 +5964,9 @@ const LandingBackground: FC<{
           width="64.5091"
           height="11.0874"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -5999,9 +5999,9 @@ const LandingBackground: FC<{
           width="40.4404"
           height="80.6567"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -6034,9 +6034,9 @@ const LandingBackground: FC<{
           width="40.4404"
           height="80.6567"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -6070,9 +6070,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_4598_5108"
@@ -6082,9 +6082,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_4598_5108"
@@ -6094,9 +6094,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_4598_5108"
@@ -6106,9 +6106,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_4598_5108"
@@ -6118,9 +6118,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_4598_5108"
@@ -6130,9 +6130,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_4598_5108"
@@ -6142,9 +6142,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_4598_5108"
@@ -6154,9 +6154,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_4598_5108"
@@ -6166,9 +6166,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_4598_5108"
@@ -6178,9 +6178,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_4598_5108"
@@ -6190,9 +6190,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_4598_5108"
@@ -6202,9 +6202,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_4598_5108"
@@ -6214,9 +6214,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_4598_5108"
@@ -6226,9 +6226,9 @@ const LandingBackground: FC<{
           y2="794.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.517237" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.517237" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_4598_5108"
@@ -6238,9 +6238,9 @@ const LandingBackground: FC<{
           y2="1095.11"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.560297" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.560297" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_4598_5108"
@@ -6250,8 +6250,8 @@ const LandingBackground: FC<{
           y2="596.169"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#FFFEEC" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#FFFEEC" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_4598_5108"
@@ -6261,8 +6261,8 @@ const LandingBackground: FC<{
           y2="596.169"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#FFFEEC" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#FFFEEC" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_4598_5108"
@@ -6272,8 +6272,8 @@ const LandingBackground: FC<{
           y2="341.209"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#FFFEEC" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#FFFEEC" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_4598_5108"
@@ -6283,8 +6283,8 @@ const LandingBackground: FC<{
           y2="341.209"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#FFFEEC" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#FFFEEC" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_4598_5108"
@@ -6294,8 +6294,8 @@ const LandingBackground: FC<{
           y2="662.18"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_4598_5108"
@@ -6305,9 +6305,9 @@ const LandingBackground: FC<{
           y2="740.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.615656" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="white" />
+          <stop offset="0.615656" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_4598_5108"
@@ -6317,9 +6317,9 @@ const LandingBackground: FC<{
           y2="740.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.615656" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="white" />
+          <stop offset="0.615656" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_4598_5108"
@@ -6329,9 +6329,9 @@ const LandingBackground: FC<{
           y2="740.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.615656" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="white" />
+          <stop offset="0.615656" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_4598_5108"
@@ -6341,7 +6341,7 @@ const LandingBackground: FC<{
           y2="987.262"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-opacity="0" />
+          <stop stopOpacity="0" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -6352,9 +6352,9 @@ const LandingBackground: FC<{
           y2="929.809"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.535622" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.535622" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint25_radial_4598_5108"
@@ -6364,9 +6364,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(874.962 819.943) rotate(90) scale(216.205 1028.25)"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.645364" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.645364" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <radialGradient
           id="paint26_radial_4598_5108"
@@ -6376,8 +6376,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(882.017 761.986) rotate(90) scale(347.238 1201.23)"
         >
-          <stop offset="0.299355" stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop offset="0.299355" stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <radialGradient
           id="paint27_radial_4598_5108"
@@ -6387,8 +6387,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(882.017 761.986) rotate(90) scale(347.238 1201.23)"
         >
-          <stop offset="0.299355" stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop offset="0.299355" stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint28_linear_4598_5108"
@@ -6398,8 +6398,8 @@ const LandingBackground: FC<{
           y2="1118.3"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_4598_5108"
@@ -6409,7 +6409,7 @@ const LandingBackground: FC<{
           y2="942.138"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-opacity="0" />
+          <stop stopOpacity="0" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -6420,9 +6420,9 @@ const LandingBackground: FC<{
           y2="342.175"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_4598_5108"
@@ -6432,9 +6432,9 @@ const LandingBackground: FC<{
           y2="768.033"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_4598_5108"
@@ -6444,9 +6444,9 @@ const LandingBackground: FC<{
           y2="580.051"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.696997" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.696997" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_4598_5108"
@@ -6456,9 +6456,9 @@ const LandingBackground: FC<{
           y2="570.995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_4598_5108"
@@ -6468,9 +6468,9 @@ const LandingBackground: FC<{
           y2="562.916"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.514859" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.514859" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_4598_5108"
@@ -6480,7 +6480,7 @@ const LandingBackground: FC<{
           y2="942.138"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-opacity="0" />
+          <stop stopOpacity="0" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -6491,9 +6491,9 @@ const LandingBackground: FC<{
           y2="342.175"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_4598_5108"
@@ -6503,9 +6503,9 @@ const LandingBackground: FC<{
           y2="768.033"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_4598_5108"
@@ -6515,9 +6515,9 @@ const LandingBackground: FC<{
           y2="580.051"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.696997" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.696997" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_4598_5108"
@@ -6527,9 +6527,9 @@ const LandingBackground: FC<{
           y2="570.994"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_4598_5108"
@@ -6539,9 +6539,9 @@ const LandingBackground: FC<{
           y2="562.916"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.514859" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.514859" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_4598_5108"
@@ -6551,9 +6551,9 @@ const LandingBackground: FC<{
           y2="725.196"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.507469" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.507469" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_4598_5108"
@@ -6563,9 +6563,9 @@ const LandingBackground: FC<{
           y2="726.41"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="0.621565" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="0.621565" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_4598_5108"
@@ -6575,8 +6575,8 @@ const LandingBackground: FC<{
           y2="582.067"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_4598_5108"
@@ -6586,8 +6586,8 @@ const LandingBackground: FC<{
           y2="559.388"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_4598_5108"
@@ -6597,8 +6597,8 @@ const LandingBackground: FC<{
           y2="582.067"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_4598_5108"
@@ -6608,8 +6608,8 @@ const LandingBackground: FC<{
           y2="559.388"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_4598_5108"
@@ -6619,8 +6619,8 @@ const LandingBackground: FC<{
           y2="567.956"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_4598_5108"
@@ -6630,9 +6630,9 @@ const LandingBackground: FC<{
           y2="456.577"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.721869" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.721869" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_4598_5108"
@@ -6642,9 +6642,9 @@ const LandingBackground: FC<{
           y2="563.157"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.541927" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.541927" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_4598_5108"
@@ -6654,8 +6654,8 @@ const LandingBackground: FC<{
           y2="558.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_4598_5108"
@@ -6665,8 +6665,8 @@ const LandingBackground: FC<{
           y2="567.452"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_4598_5108"
@@ -6676,9 +6676,9 @@ const LandingBackground: FC<{
           y2="714.108"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.553204" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.553204" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint53_radial_4598_5108"
@@ -6688,9 +6688,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 565.94) rotate(90) scale(185.463 185.463)"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint54_linear_4598_5108"
@@ -6700,9 +6700,9 @@ const LandingBackground: FC<{
           y2="710.076"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_4598_5108"
@@ -6712,9 +6712,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_4598_5108"
@@ -6724,9 +6724,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_4598_5108"
@@ -6736,9 +6736,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_4598_5108"
@@ -6748,9 +6748,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_4598_5108"
@@ -6760,9 +6760,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_4598_5108"
@@ -6772,9 +6772,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_4598_5108"
@@ -6784,9 +6784,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_4598_5108"
@@ -6796,9 +6796,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_4598_5108"
@@ -6808,9 +6808,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_4598_5108"
@@ -6820,9 +6820,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_4598_5108"
@@ -6832,9 +6832,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_4598_5108"
@@ -6844,9 +6844,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_4598_5108"
@@ -6856,9 +6856,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_4598_5108"
@@ -6868,9 +6868,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_4598_5108"
@@ -6880,9 +6880,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_4598_5108"
@@ -6892,9 +6892,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_4598_5108"
@@ -6904,9 +6904,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_4598_5108"
@@ -6916,9 +6916,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_4598_5108"
@@ -6928,9 +6928,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_4598_5108"
@@ -6940,9 +6940,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_4598_5108"
@@ -6952,9 +6952,9 @@ const LandingBackground: FC<{
           y2="620.873"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.379242" stop-color="#3450AE" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.379242" stopColor="#3450AE" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_4598_5108"
@@ -6964,9 +6964,9 @@ const LandingBackground: FC<{
           y2="89.7954"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_4598_5108"
@@ -6976,8 +6976,8 @@ const LandingBackground: FC<{
           y2="144.238"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint78_linear_4598_5108"
@@ -6987,10 +6987,10 @@ const LandingBackground: FC<{
           y2="102.688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint79_linear_4598_5108"
@@ -7000,9 +7000,9 @@ const LandingBackground: FC<{
           y2="89.7954"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint80_linear_4598_5108"
@@ -7012,8 +7012,8 @@ const LandingBackground: FC<{
           y2="144.238"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint81_linear_4598_5108"
@@ -7023,10 +7023,10 @@ const LandingBackground: FC<{
           y2="102.688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint82_linear_4598_5108"
@@ -7036,9 +7036,9 @@ const LandingBackground: FC<{
           y2="102.688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.123992" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.123992" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint83_linear_4598_5108"
@@ -7048,9 +7048,9 @@ const LandingBackground: FC<{
           y2="434.948"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.443919" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.443919" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint84_linear_4598_5108"
@@ -7060,9 +7060,9 @@ const LandingBackground: FC<{
           y2="357.993"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.417308" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.417308" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint85_linear_4598_5108"
@@ -7072,9 +7072,9 @@ const LandingBackground: FC<{
           y2="392.069"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.52082" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.52082" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint86_linear_4598_5108"
@@ -7084,9 +7084,9 @@ const LandingBackground: FC<{
           y2="419.003"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519741" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519741" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint87_linear_4598_5108"
@@ -7096,9 +7096,9 @@ const LandingBackground: FC<{
           y2="419.003"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519741" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519741" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint88_linear_4598_5108"
@@ -7108,8 +7108,8 @@ const LandingBackground: FC<{
           y2="455.569"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#4180D5" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#4180D5" />
         </linearGradient>
         <linearGradient
           id="paint89_linear_4598_5108"
@@ -7119,9 +7119,9 @@ const LandingBackground: FC<{
           y2="594.25"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint90_linear_4598_5108"
@@ -7131,8 +7131,8 @@ const LandingBackground: FC<{
           y2="648.693"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint91_linear_4598_5108"
@@ -7142,10 +7142,10 @@ const LandingBackground: FC<{
           y2="607.143"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint92_linear_4598_5108"
@@ -7155,9 +7155,9 @@ const LandingBackground: FC<{
           y2="594.25"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint93_linear_4598_5108"
@@ -7167,8 +7167,8 @@ const LandingBackground: FC<{
           y2="648.693"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint94_linear_4598_5108"
@@ -7178,9 +7178,9 @@ const LandingBackground: FC<{
           y2="607.143"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.123992" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.123992" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint95_linear_4598_5108"
@@ -7190,9 +7190,9 @@ const LandingBackground: FC<{
           y2="473.25"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.443919" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.443919" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint96_linear_4598_5108"
@@ -7202,9 +7202,9 @@ const LandingBackground: FC<{
           y2="396.295"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.417308" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.417308" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint97_linear_4598_5108"
@@ -7214,9 +7214,9 @@ const LandingBackground: FC<{
           y2="434.402"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519306" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519306" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint98_linear_4598_5108"
@@ -7226,9 +7226,9 @@ const LandingBackground: FC<{
           y2="457.305"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519741" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519741" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint99_linear_4598_5108"
@@ -7238,9 +7238,9 @@ const LandingBackground: FC<{
           y2="457.305"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519741" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519741" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint100_linear_4598_5108"
@@ -7250,8 +7250,8 @@ const LandingBackground: FC<{
           y2="493.871"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#4180D5" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#4180D5" />
         </linearGradient>
         <linearGradient
           id="paint101_linear_4598_5108"
@@ -7261,9 +7261,9 @@ const LandingBackground: FC<{
           y2="581.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint102_linear_4598_5108"
@@ -7273,8 +7273,8 @@ const LandingBackground: FC<{
           y2="621.945"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint103_linear_4598_5108"
@@ -7284,10 +7284,10 @@ const LandingBackground: FC<{
           y2="591.004"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint104_linear_4598_5108"
@@ -7297,9 +7297,9 @@ const LandingBackground: FC<{
           y2="581.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint105_linear_4598_5108"
@@ -7309,8 +7309,8 @@ const LandingBackground: FC<{
           y2="621.945"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint106_linear_4598_5108"
@@ -7320,10 +7320,10 @@ const LandingBackground: FC<{
           y2="591.004"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint107_linear_4598_5108"
@@ -7333,9 +7333,9 @@ const LandingBackground: FC<{
           y2="503.719"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.443919" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.443919" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint108_linear_4598_5108"
@@ -7345,9 +7345,9 @@ const LandingBackground: FC<{
           y2="488.552"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519741" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519741" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint109_linear_4598_5108"
@@ -7357,9 +7357,9 @@ const LandingBackground: FC<{
           y2="488.552"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519741" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519741" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint110_linear_4598_5108"
@@ -7369,9 +7369,9 @@ const LandingBackground: FC<{
           y2="397.245"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.507917" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#042284" />
+          <stop offset="0.507917" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint111_linear_4598_5108"
@@ -7381,9 +7381,9 @@ const LandingBackground: FC<{
           y2="397.245"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.507917" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#042284" />
+          <stop offset="0.507917" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint112_linear_4598_5108"
@@ -7393,9 +7393,9 @@ const LandingBackground: FC<{
           y2="397.245"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.507917" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#042284" />
+          <stop offset="0.507917" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint113_linear_4598_5108"
@@ -7405,9 +7405,9 @@ const LandingBackground: FC<{
           y2="66.8689"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint114_linear_4598_5108"
@@ -7417,8 +7417,8 @@ const LandingBackground: FC<{
           y2="107.411"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint115_linear_4598_5108"
@@ -7428,10 +7428,10 @@ const LandingBackground: FC<{
           y2="76.4701"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint116_linear_4598_5108"
@@ -7441,9 +7441,9 @@ const LandingBackground: FC<{
           y2="66.8689"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.558012" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.558012" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint117_linear_4598_5108"
@@ -7453,8 +7453,8 @@ const LandingBackground: FC<{
           y2="107.411"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint118_linear_4598_5108"
@@ -7464,10 +7464,10 @@ const LandingBackground: FC<{
           y2="76.4701"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.386095" stop-color="#042284" />
-          <stop offset="0.668543" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.386095" stopColor="#042284" />
+          <stop offset="0.668543" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint119_linear_4598_5108"
@@ -7477,9 +7477,9 @@ const LandingBackground: FC<{
           y2="518.334"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.443919" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.443919" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint120_linear_4598_5108"
@@ -7489,9 +7489,9 @@ const LandingBackground: FC<{
           y2="442.157"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.417308" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.417308" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint121_linear_4598_5108"
@@ -7501,9 +7501,9 @@ const LandingBackground: FC<{
           y2="481.142"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519306" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519306" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint122_linear_4598_5108"
@@ -7513,9 +7513,9 @@ const LandingBackground: FC<{
           y2="503.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.457754" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.457754" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint123_linear_4598_5108"
@@ -7525,9 +7525,9 @@ const LandingBackground: FC<{
           y2="503.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.457754" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.457754" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint124_linear_4598_5108"
@@ -7537,9 +7537,9 @@ const LandingBackground: FC<{
           y2="698.49"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.432941" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.432941" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint125_linear_4598_5108"
@@ -7549,9 +7549,9 @@ const LandingBackground: FC<{
           y2="659.601"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.556081" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.556081" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint126_linear_4598_5108"
@@ -7561,9 +7561,9 @@ const LandingBackground: FC<{
           y2="670.542"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.548052" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.548052" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint127_linear_4598_5108"
@@ -7573,9 +7573,9 @@ const LandingBackground: FC<{
           y2="659.762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.443919" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.443919" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint128_linear_4598_5108"
@@ -7585,8 +7585,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint129_linear_4598_5108"
@@ -7596,8 +7596,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint130_linear_4598_5108"
@@ -7607,8 +7607,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint131_linear_4598_5108"
@@ -7618,8 +7618,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint132_linear_4598_5108"
@@ -7629,8 +7629,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint133_linear_4598_5108"
@@ -7640,8 +7640,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint134_linear_4598_5108"
@@ -7651,8 +7651,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint135_linear_4598_5108"
@@ -7662,8 +7662,8 @@ const LandingBackground: FC<{
           y2="632.968"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint136_linear_4598_5108"
@@ -7673,9 +7673,9 @@ const LandingBackground: FC<{
           y2="607.482"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.498364" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.498364" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint137_linear_4598_5108"
@@ -7685,9 +7685,9 @@ const LandingBackground: FC<{
           y2="591.542"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.582692" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.582692" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint138_linear_4598_5108"
@@ -7697,9 +7697,9 @@ const LandingBackground: FC<{
           y2="621.201"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="0.480694" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="0.480694" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint139_linear_4598_5108"
@@ -7709,9 +7709,9 @@ const LandingBackground: FC<{
           y2="545.278"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.447261" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.447261" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint140_linear_4598_5108"
@@ -7721,9 +7721,9 @@ const LandingBackground: FC<{
           y2="557.013"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.432941" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.432941" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint141_linear_4598_5108"
@@ -7733,9 +7733,9 @@ const LandingBackground: FC<{
           y2="542.787"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.699389" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.699389" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint142_linear_4598_5108"
@@ -7745,8 +7745,8 @@ const LandingBackground: FC<{
           y2="346.908"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2E4BAA" />
-          <stop offset="1" stop-color="#5468AD" />
+          <stop stopColor="#2E4BAA" />
+          <stop offset="1" stopColor="#5468AD" />
         </linearGradient>
         <linearGradient
           id="paint143_linear_4598_5108"
@@ -7756,8 +7756,8 @@ const LandingBackground: FC<{
           y2="346.908"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#2E4BAA" />
-          <stop offset="1" stop-color="#5468AD" />
+          <stop stopColor="#2E4BAA" />
+          <stop offset="1" stopColor="#5468AD" />
         </linearGradient>
         <linearGradient
           id="paint144_linear_4598_5108"
@@ -7767,9 +7767,9 @@ const LandingBackground: FC<{
           y2="505.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.522336" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.522336" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint145_linear_4598_5108"
@@ -7779,9 +7779,9 @@ const LandingBackground: FC<{
           y2="466.619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.748774" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.748774" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint146_linear_4598_5108"
@@ -7791,9 +7791,9 @@ const LandingBackground: FC<{
           y2="505.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.522336" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.522336" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint147_linear_4598_5108"
@@ -7803,9 +7803,9 @@ const LandingBackground: FC<{
           y2="466.619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.748774" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.748774" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint148_linear_4598_5108"
@@ -7815,9 +7815,9 @@ const LandingBackground: FC<{
           y2="505.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.522336" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.522336" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint149_linear_4598_5108"
@@ -7827,9 +7827,9 @@ const LandingBackground: FC<{
           y2="466.619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.748774" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.748774" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint150_linear_4598_5108"
@@ -7839,9 +7839,9 @@ const LandingBackground: FC<{
           y2="505.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.522336" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.522336" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint151_linear_4598_5108"
@@ -7851,9 +7851,9 @@ const LandingBackground: FC<{
           y2="466.619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.748774" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.748774" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint152_linear_4598_5108"
@@ -7863,9 +7863,9 @@ const LandingBackground: FC<{
           y2="505.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.522336" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.522336" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint153_linear_4598_5108"
@@ -7875,9 +7875,9 @@ const LandingBackground: FC<{
           y2="466.619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.748774" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.748774" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint154_linear_4598_5108"
@@ -7887,9 +7887,9 @@ const LandingBackground: FC<{
           y2="505.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.522336" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.522336" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint155_linear_4598_5108"
@@ -7899,9 +7899,9 @@ const LandingBackground: FC<{
           y2="466.619"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.748774" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.748774" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint156_linear_4598_5108"
@@ -7911,8 +7911,8 @@ const LandingBackground: FC<{
           y2="521.124"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint157_linear_4598_5108"
@@ -7922,9 +7922,9 @@ const LandingBackground: FC<{
           y2="521.404"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.457754" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.457754" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint158_linear_4598_5108"
@@ -7934,8 +7934,8 @@ const LandingBackground: FC<{
           y2="521.124"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint159_linear_4598_5108"
@@ -7945,9 +7945,9 @@ const LandingBackground: FC<{
           y2="521.404"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.457754" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.457754" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint160_linear_4598_5108"
@@ -7957,8 +7957,8 @@ const LandingBackground: FC<{
           y2="521.124"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint161_linear_4598_5108"
@@ -7968,9 +7968,9 @@ const LandingBackground: FC<{
           y2="521.404"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.457754" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.457754" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint162_linear_4598_5108"
@@ -7980,8 +7980,8 @@ const LandingBackground: FC<{
           y2="521.124"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint163_linear_4598_5108"
@@ -7991,9 +7991,9 @@ const LandingBackground: FC<{
           y2="521.404"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.457754" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.457754" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint164_linear_4598_5108"
@@ -8003,9 +8003,9 @@ const LandingBackground: FC<{
           y2="730.787"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.432941" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.432941" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint165_linear_4598_5108"
@@ -8015,9 +8015,9 @@ const LandingBackground: FC<{
           y2="659.46"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.556081" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.556081" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint166_linear_4598_5108"
@@ -8027,9 +8027,9 @@ const LandingBackground: FC<{
           y2="668.744"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.548052" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.548052" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint167_linear_4598_5108"
@@ -8039,9 +8039,9 @@ const LandingBackground: FC<{
           y2="659.004"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.470203" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.470203" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint168_linear_4598_5108"
@@ -8051,9 +8051,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint169_linear_4598_5108"
@@ -8063,8 +8063,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint170_linear_4598_5108"
@@ -8074,9 +8074,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint171_linear_4598_5108"
@@ -8086,9 +8086,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint172_linear_4598_5108"
@@ -8098,8 +8098,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint173_linear_4598_5108"
@@ -8109,9 +8109,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint174_linear_4598_5108"
@@ -8121,9 +8121,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint175_linear_4598_5108"
@@ -8133,8 +8133,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint176_linear_4598_5108"
@@ -8144,9 +8144,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint177_linear_4598_5108"
@@ -8156,9 +8156,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint178_linear_4598_5108"
@@ -8168,8 +8168,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint179_linear_4598_5108"
@@ -8179,9 +8179,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint180_linear_4598_5108"
@@ -8191,9 +8191,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint181_linear_4598_5108"
@@ -8203,8 +8203,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint182_linear_4598_5108"
@@ -8214,9 +8214,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint183_linear_4598_5108"
@@ -8226,9 +8226,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint184_linear_4598_5108"
@@ -8238,8 +8238,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint185_linear_4598_5108"
@@ -8249,9 +8249,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint186_linear_4598_5108"
@@ -8261,9 +8261,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint187_linear_4598_5108"
@@ -8273,8 +8273,8 @@ const LandingBackground: FC<{
           y2="694.957"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint188_linear_4598_5108"
@@ -8284,9 +8284,9 @@ const LandingBackground: FC<{
           y2="677.313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint189_linear_4598_5108"
@@ -8296,8 +8296,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint190_linear_4598_5108"
@@ -8307,8 +8307,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint191_linear_4598_5108"
@@ -8318,8 +8318,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint192_linear_4598_5108"
@@ -8329,8 +8329,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint193_linear_4598_5108"
@@ -8340,8 +8340,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint194_linear_4598_5108"
@@ -8351,8 +8351,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint195_linear_4598_5108"
@@ -8362,8 +8362,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint196_linear_4598_5108"
@@ -8373,8 +8373,8 @@ const LandingBackground: FC<{
           y2="637.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint197_linear_4598_5108"
@@ -8384,9 +8384,9 @@ const LandingBackground: FC<{
           y2="610.096"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.498364" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.498364" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint198_linear_4598_5108"
@@ -8396,9 +8396,9 @@ const LandingBackground: FC<{
           y2="585.299"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.582692" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.582692" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint199_linear_4598_5108"
@@ -8408,9 +8408,9 @@ const LandingBackground: FC<{
           y2="627.425"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.552739" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.552739" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint200_linear_4598_5108"
@@ -8420,9 +8420,9 @@ const LandingBackground: FC<{
           y2="465.654"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.442051" stop-color="#4180D5" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.442051" stopColor="#4180D5" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint201_linear_4598_5108"
@@ -8432,9 +8432,9 @@ const LandingBackground: FC<{
           y2="230.797"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.341999" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.341999" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint202_linear_4598_5108"
@@ -8444,8 +8444,8 @@ const LandingBackground: FC<{
           y2="456.577"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint203_linear_4598_5108"
@@ -8455,9 +8455,9 @@ const LandingBackground: FC<{
           y2="429.43"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint204_linear_4598_5108"
@@ -8467,8 +8467,8 @@ const LandingBackground: FC<{
           y2="391.565"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint205_linear_4598_5108"
@@ -8478,8 +8478,8 @@ const LandingBackground: FC<{
           y2="391.565"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint206_linear_4598_5108"
@@ -8489,9 +8489,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint207_radial_4598_5108"
@@ -8501,9 +8501,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint208_linear_4598_5108"
@@ -8513,9 +8513,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint209_radial_4598_5108"
@@ -8525,9 +8525,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint210_linear_4598_5108"
@@ -8537,9 +8537,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint211_radial_4598_5108"
@@ -8549,9 +8549,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint212_linear_4598_5108"
@@ -8561,9 +8561,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint213_radial_4598_5108"
@@ -8573,9 +8573,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint214_linear_4598_5108"
@@ -8585,9 +8585,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint215_radial_4598_5108"
@@ -8597,9 +8597,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint216_linear_4598_5108"
@@ -8609,9 +8609,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint217_radial_4598_5108"
@@ -8621,9 +8621,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint218_linear_4598_5108"
@@ -8633,9 +8633,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint219_radial_4598_5108"
@@ -8645,9 +8645,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint220_linear_4598_5108"
@@ -8657,9 +8657,9 @@ const LandingBackground: FC<{
           y2="440.807"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.498895" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" />
+          <stop offset="0.498895" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint221_radial_4598_5108"
@@ -8669,9 +8669,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(888.065 408.7) rotate(37.7234) scale(68.8129 67.9786)"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.472983" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.472983" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </radialGradient>
         <linearGradient
           id="paint222_linear_4598_5108"
@@ -8681,8 +8681,8 @@ const LandingBackground: FC<{
           y2="454.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint223_linear_4598_5108"
@@ -8692,8 +8692,8 @@ const LandingBackground: FC<{
           y2="641.022"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" stop-opacity="0" />
-          <stop offset="1" stop-color="#F4F2C3" stop-opacity="0.84" />
+          <stop stopColor="#F4F2C4" stopOpacity="0" />
+          <stop offset="1" stopColor="#F4F2C3" stopOpacity="0.84" />
         </linearGradient>
         <linearGradient
           id="paint224_linear_4598_5108"
@@ -8703,8 +8703,8 @@ const LandingBackground: FC<{
           y2="677.963"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" stop-opacity="0" />
-          <stop offset="1" stop-color="#F4F2C3" stop-opacity="0.84" />
+          <stop stopColor="#F4F2C4" stopOpacity="0" />
+          <stop offset="1" stopColor="#F4F2C3" stopOpacity="0.84" />
         </linearGradient>
         <linearGradient
           id="paint225_linear_4598_5108"
@@ -8714,9 +8714,9 @@ const LandingBackground: FC<{
           y2="635.992"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.406431" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.406431" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint226_linear_4598_5108"
@@ -8726,9 +8726,9 @@ const LandingBackground: FC<{
           y2="924.265"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.422015" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.422015" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint227_linear_4598_5108"
@@ -8738,10 +8738,10 @@ const LandingBackground: FC<{
           y2="726.204"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.378873" stop-color="#457BCA" />
-          <stop offset="0.732483" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.378873" stopColor="#457BCA" />
+          <stop offset="0.732483" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint228_linear_4598_5108"
@@ -8751,9 +8751,9 @@ const LandingBackground: FC<{
           y2="619.132"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.406431" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.406431" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint229_linear_4598_5108"
@@ -8763,8 +8763,8 @@ const LandingBackground: FC<{
           y2="988.063"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint230_linear_4598_5108"
@@ -8774,9 +8774,9 @@ const LandingBackground: FC<{
           y2="920.158"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.557428" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#042284" />
+          <stop offset="0.557428" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint231_linear_4598_5108"
@@ -8786,9 +8786,9 @@ const LandingBackground: FC<{
           y2="642.629"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.406431" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.406431" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint232_linear_4598_5108"
@@ -8798,9 +8798,9 @@ const LandingBackground: FC<{
           y2="893.523"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.378918" stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#FFFEE9" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.378918" stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#FFFEE9" />
         </linearGradient>
         <linearGradient
           id="paint233_linear_4598_5108"
@@ -8810,9 +8810,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint234_linear_4598_5108"
@@ -8822,9 +8822,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint235_linear_4598_5108"
@@ -8834,9 +8834,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint236_linear_4598_5108"
@@ -8846,9 +8846,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint237_linear_4598_5108"
@@ -8858,9 +8858,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint238_linear_4598_5108"
@@ -8870,9 +8870,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint239_linear_4598_5108"
@@ -8882,9 +8882,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint240_linear_4598_5108"
@@ -8894,9 +8894,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint241_linear_4598_5108"
@@ -8906,9 +8906,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint242_linear_4598_5108"
@@ -8918,9 +8918,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint243_linear_4598_5108"
@@ -8930,9 +8930,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.496859" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.496859" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint244_linear_4598_5108"
@@ -8942,8 +8942,8 @@ const LandingBackground: FC<{
           y2="756.501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint245_linear_4598_5108"
@@ -8953,9 +8953,9 @@ const LandingBackground: FC<{
           y2="756.868"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint246_linear_4598_5108"
@@ -8965,9 +8965,9 @@ const LandingBackground: FC<{
           y2="905.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.422015" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.422015" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint247_linear_4598_5108"
@@ -8977,8 +8977,8 @@ const LandingBackground: FC<{
           y2="727.716"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint248_linear_4598_5108"
@@ -8988,9 +8988,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint249_linear_4598_5108"
@@ -9000,9 +9000,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint250_linear_4598_5108"
@@ -9012,9 +9012,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint251_linear_4598_5108"
@@ -9024,9 +9024,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint252_linear_4598_5108"
@@ -9036,9 +9036,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint253_linear_4598_5108"
@@ -9048,9 +9048,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint254_linear_4598_5108"
@@ -9060,9 +9060,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint255_linear_4598_5108"
@@ -9072,9 +9072,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint256_linear_4598_5108"
@@ -9084,9 +9084,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint257_linear_4598_5108"
@@ -9096,9 +9096,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint258_linear_4598_5108"
@@ -9108,9 +9108,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint259_linear_4598_5108"
@@ -9120,9 +9120,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint260_linear_4598_5108"
@@ -9132,9 +9132,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint261_linear_4598_5108"
@@ -9144,9 +9144,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint262_linear_4598_5108"
@@ -9156,9 +9156,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint263_linear_4598_5108"
@@ -9168,9 +9168,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint264_linear_4598_5108"
@@ -9180,9 +9180,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint265_linear_4598_5108"
@@ -9192,9 +9192,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint266_linear_4598_5108"
@@ -9204,9 +9204,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint267_linear_4598_5108"
@@ -9216,9 +9216,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint268_linear_4598_5108"
@@ -9228,9 +9228,9 @@ const LandingBackground: FC<{
           y2="692.941"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint269_linear_4598_5108"
@@ -9240,9 +9240,9 @@ const LandingBackground: FC<{
           y2="719.652"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.503141" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.503141" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint270_linear_4598_5108"
@@ -9252,10 +9252,10 @@ const LandingBackground: FC<{
           y2="-5.03975"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.391358" stop-color="#042284" />
-          <stop offset="0.70498" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.391358" stopColor="#042284" />
+          <stop offset="0.70498" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint271_linear_4598_5108"
@@ -9265,9 +9265,9 @@ const LandingBackground: FC<{
           y2="23.6868"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint272_linear_4598_5108"
@@ -9277,9 +9277,9 @@ const LandingBackground: FC<{
           y2="186.974"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.422015" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.422015" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint273_linear_4598_5108"
@@ -9289,8 +9289,8 @@ const LandingBackground: FC<{
           y2="1.51192"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint274_linear_4598_5108"
@@ -9300,9 +9300,9 @@ const LandingBackground: FC<{
           y2="711.175"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.498895" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.498895" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint275_linear_4598_5108"
@@ -9312,9 +9312,9 @@ const LandingBackground: FC<{
           y2="836.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint276_linear_4598_5108"
@@ -9324,9 +9324,9 @@ const LandingBackground: FC<{
           y2="836.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint277_linear_4598_5108"
@@ -9336,8 +9336,8 @@ const LandingBackground: FC<{
           y2="706.519"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint278_linear_4598_5108"
@@ -9347,9 +9347,9 @@ const LandingBackground: FC<{
           y2="666.073"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.515468" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.515468" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint279_linear_4598_5108"
@@ -9359,9 +9359,9 @@ const LandingBackground: FC<{
           y2="618.201"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint280_linear_4598_5108"
@@ -9371,9 +9371,9 @@ const LandingBackground: FC<{
           y2="606.762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.638801" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.638801" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint281_linear_4598_5108"
@@ -9383,9 +9383,9 @@ const LandingBackground: FC<{
           y2="613.817"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519306" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519306" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint282_linear_4598_5108"
@@ -9395,8 +9395,8 @@ const LandingBackground: FC<{
           y2="651.159"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint283_linear_4598_5108"
@@ -9406,8 +9406,8 @@ const LandingBackground: FC<{
           y2="651.159"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint284_linear_4598_5108"
@@ -9417,9 +9417,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint285_linear_4598_5108"
@@ -9429,9 +9429,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint286_linear_4598_5108"
@@ -9441,9 +9441,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint287_linear_4598_5108"
@@ -9453,9 +9453,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint288_linear_4598_5108"
@@ -9465,9 +9465,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint289_linear_4598_5108"
@@ -9477,9 +9477,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint290_linear_4598_5108"
@@ -9489,9 +9489,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint291_linear_4598_5108"
@@ -9501,9 +9501,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint292_linear_4598_5108"
@@ -9513,9 +9513,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint293_linear_4598_5108"
@@ -9525,9 +9525,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.472092" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.472092" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint294_linear_4598_5108"
@@ -9537,9 +9537,9 @@ const LandingBackground: FC<{
           y2="5.47951e-06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.499962" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.499962" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint295_linear_4598_5108"
@@ -9549,9 +9549,9 @@ const LandingBackground: FC<{
           y2="123.978"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint296_linear_4598_5108"
@@ -9561,9 +9561,9 @@ const LandingBackground: FC<{
           y2="5.47951e-06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.499962" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.499962" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint297_linear_4598_5108"
@@ -9573,9 +9573,9 @@ const LandingBackground: FC<{
           y2="123.978"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint298_linear_4598_5108"
@@ -9585,8 +9585,8 @@ const LandingBackground: FC<{
           y2="706.519"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint299_linear_4598_5108"
@@ -9596,9 +9596,9 @@ const LandingBackground: FC<{
           y2="16.9897"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.515468" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.515468" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint300_linear_4598_5108"
@@ -9608,9 +9608,9 @@ const LandingBackground: FC<{
           y2="606.762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.638801" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.638801" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint301_linear_4598_5108"
@@ -9620,9 +9620,9 @@ const LandingBackground: FC<{
           y2="613.817"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.519306" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.519306" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint302_linear_4598_5108"
@@ -9632,8 +9632,8 @@ const LandingBackground: FC<{
           y2="651.159"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint303_linear_4598_5108"
@@ -9643,8 +9643,8 @@ const LandingBackground: FC<{
           y2="651.159"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint304_linear_4598_5108"
@@ -9654,9 +9654,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint305_linear_4598_5108"
@@ -9666,9 +9666,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint306_linear_4598_5108"
@@ -9678,9 +9678,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint307_linear_4598_5108"
@@ -9690,9 +9690,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint308_linear_4598_5108"
@@ -9702,9 +9702,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint309_linear_4598_5108"
@@ -9714,9 +9714,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint310_linear_4598_5108"
@@ -9726,9 +9726,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint311_linear_4598_5108"
@@ -9738,9 +9738,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint312_linear_4598_5108"
@@ -9750,9 +9750,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint313_linear_4598_5108"
@@ -9762,9 +9762,9 @@ const LandingBackground: FC<{
           y2="685.382"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.527908" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.527908" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint314_radial_4598_5108"
@@ -9774,9 +9774,9 @@ const LandingBackground: FC<{
           gradientTransform="matrix(41.0191 125.915 166.781 -51.4702 571.044 765.399)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint315_linear_4598_5108"
@@ -9786,9 +9786,9 @@ const LandingBackground: FC<{
           y2="865.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.426159" stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#AFE3FF" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.426159" stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#AFE3FF" />
         </linearGradient>
         <linearGradient
           id="paint316_linear_4598_5108"
@@ -9798,8 +9798,8 @@ const LandingBackground: FC<{
           y2="865.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <linearGradient
           id="paint317_linear_4598_5108"
@@ -9809,8 +9809,8 @@ const LandingBackground: FC<{
           y2="865.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint318_linear_4598_5108"
@@ -9820,8 +9820,8 @@ const LandingBackground: FC<{
           y2="865.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <radialGradient
           id="paint319_radial_4598_5108"
@@ -9831,8 +9831,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(588.201 730.739) rotate(164.687) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint320_radial_4598_5108"
@@ -9842,8 +9842,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(588.201 730.739) rotate(164.687) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint321_radial_4598_5108"
@@ -9853,8 +9853,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(588.201 730.739) rotate(164.687) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint322_radial_4598_5108"
@@ -9864,9 +9864,9 @@ const LandingBackground: FC<{
           gradientTransform="matrix(41.0191 93.9518 166.781 -38.4047 640.594 757.496)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint323_linear_4598_5108"
@@ -9876,9 +9876,9 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.426159" stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#AFE3FF" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.426159" stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#AFE3FF" />
         </linearGradient>
         <linearGradient
           id="paint324_linear_4598_5108"
@@ -9888,8 +9888,8 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <linearGradient
           id="paint325_linear_4598_5108"
@@ -9899,8 +9899,8 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint326_linear_4598_5108"
@@ -9910,8 +9910,8 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <radialGradient
           id="paint327_radial_4598_5108"
@@ -9921,8 +9921,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(657.75 730.739) rotate(164.687) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint328_radial_4598_5108"
@@ -9932,8 +9932,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(657.75 730.739) rotate(164.687) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint329_radial_4598_5108"
@@ -9943,8 +9943,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(657.75 730.739) rotate(164.687) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint330_radial_4598_5108"
@@ -9954,9 +9954,9 @@ const LandingBackground: FC<{
           gradientTransform="matrix(-41.0191 125.915 -166.781 -51.4702 1189.97 765.399)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint331_linear_4598_5108"
@@ -9966,9 +9966,9 @@ const LandingBackground: FC<{
           y2="865.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.426159" stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#AFE3FF" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.426159" stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#AFE3FF" />
         </linearGradient>
         <linearGradient
           id="paint332_linear_4598_5108"
@@ -9978,8 +9978,8 @@ const LandingBackground: FC<{
           y2="865.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <radialGradient
           id="paint333_radial_4598_5108"
@@ -9989,8 +9989,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1172.81 730.739) rotate(15.3128) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint334_radial_4598_5108"
@@ -10000,8 +10000,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1172.81 730.739) rotate(15.3128) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint335_radial_4598_5108"
@@ -10011,8 +10011,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1172.81 730.739) rotate(15.3128) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint336_radial_4598_5108"
@@ -10022,9 +10022,9 @@ const LandingBackground: FC<{
           gradientTransform="matrix(-41.0191 93.9518 -166.781 -38.4047 1120.42 757.496)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint337_linear_4598_5108"
@@ -10034,9 +10034,9 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FED" />
-          <stop offset="0.426159" stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#AFE3FF" />
+          <stop stopColor="#499FED" />
+          <stop offset="0.426159" stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#AFE3FF" />
         </linearGradient>
         <linearGradient
           id="paint338_linear_4598_5108"
@@ -10046,8 +10046,8 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <linearGradient
           id="paint339_linear_4598_5108"
@@ -10057,8 +10057,8 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint340_linear_4598_5108"
@@ -10068,8 +10068,8 @@ const LandingBackground: FC<{
           y2="832.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#50A4ED" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#50A4ED" />
         </linearGradient>
         <radialGradient
           id="paint341_radial_4598_5108"
@@ -10079,8 +10079,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.26 730.739) rotate(15.3128) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint342_radial_4598_5108"
@@ -10090,8 +10090,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.26 730.739) rotate(15.3128) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <radialGradient
           id="paint343_radial_4598_5108"
@@ -10101,8 +10101,8 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.26 730.739) rotate(15.3128) scale(43.8921 14.0001)"
         >
-          <stop stop-color="#0B298A" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B298A" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <linearGradient
           id="paint344_linear_4598_5108"
@@ -10112,9 +10112,9 @@ const LandingBackground: FC<{
           y2="811.375"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.372" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#042284" />
+          <stop offset="0.372" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint345_linear_4598_5108"
@@ -10124,9 +10124,9 @@ const LandingBackground: FC<{
           y2="825.956"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.376371" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.376371" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint346_linear_4598_5108"
@@ -10136,9 +10136,9 @@ const LandingBackground: FC<{
           y2="811.836"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.372" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#042284" />
+          <stop offset="0.372" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint347_linear_4598_5108"
@@ -10148,9 +10148,9 @@ const LandingBackground: FC<{
           y2="826.353"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.376371" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.376371" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <radialGradient
           id="paint348_radial_4598_5108"
@@ -10160,9 +10160,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(745.863 712.029) rotate(125.522) scale(38.2222 56.4893)"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint349_linear_4598_5108"
@@ -10172,8 +10172,8 @@ const LandingBackground: FC<{
           y2="741.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint350_linear_4598_5108"
@@ -10183,9 +10183,9 @@ const LandingBackground: FC<{
           y2="740.936"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <radialGradient
           id="paint351_radial_4598_5108"
@@ -10195,9 +10195,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(745.863 712.029) rotate(125.522) scale(38.2222 56.4893)"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint352_linear_4598_5108"
@@ -10207,8 +10207,8 @@ const LandingBackground: FC<{
           y2="741.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint353_linear_4598_5108"
@@ -10218,9 +10218,9 @@ const LandingBackground: FC<{
           y2="740.936"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint354_linear_4598_5108"
@@ -10230,9 +10230,9 @@ const LandingBackground: FC<{
           y2="661.695"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.480694" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.480694" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint355_linear_4598_5108"
@@ -10242,8 +10242,8 @@ const LandingBackground: FC<{
           y2="691.502"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint356_linear_4598_5108"
@@ -10253,9 +10253,9 @@ const LandingBackground: FC<{
           y2="691.502"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.608211" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.608211" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint357_linear_4598_5108"
@@ -10265,8 +10265,8 @@ const LandingBackground: FC<{
           y2="691.502"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint358_linear_4598_5108"
@@ -10276,9 +10276,9 @@ const LandingBackground: FC<{
           y2="691.502"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.608211" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.608211" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint359_linear_4598_5108"
@@ -10288,8 +10288,8 @@ const LandingBackground: FC<{
           y2="771.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#375BB8" />
-          <stop offset="1" stop-color="#499EEC" />
+          <stop stopColor="#375BB8" />
+          <stop offset="1" stopColor="#499EEC" />
         </linearGradient>
         <linearGradient
           id="paint360_linear_4598_5108"
@@ -10299,8 +10299,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint361_linear_4598_5108"
@@ -10310,9 +10310,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint362_linear_4598_5108"
@@ -10322,8 +10322,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint363_linear_4598_5108"
@@ -10333,9 +10333,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint364_linear_4598_5108"
@@ -10345,8 +10345,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint365_linear_4598_5108"
@@ -10356,9 +10356,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint366_linear_4598_5108"
@@ -10368,8 +10368,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint367_linear_4598_5108"
@@ -10379,9 +10379,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint368_linear_4598_5108"
@@ -10391,8 +10391,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint369_linear_4598_5108"
@@ -10402,9 +10402,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint370_linear_4598_5108"
@@ -10414,8 +10414,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint371_linear_4598_5108"
@@ -10425,9 +10425,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint372_linear_4598_5108"
@@ -10437,8 +10437,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint373_linear_4598_5108"
@@ -10448,9 +10448,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint374_linear_4598_5108"
@@ -10460,8 +10460,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint375_linear_4598_5108"
@@ -10471,9 +10471,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint376_linear_4598_5108"
@@ -10483,9 +10483,9 @@ const LandingBackground: FC<{
           y2="721.668"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.568738" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.568738" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint377_linear_4598_5108"
@@ -10495,8 +10495,8 @@ const LandingBackground: FC<{
           y2="811.375"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint378_linear_4598_5108"
@@ -10506,9 +10506,9 @@ const LandingBackground: FC<{
           y2="825.956"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint379_linear_4598_5108"
@@ -10518,9 +10518,9 @@ const LandingBackground: FC<{
           y2="722.344"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.568738" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.568738" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint380_linear_4598_5108"
@@ -10530,8 +10530,8 @@ const LandingBackground: FC<{
           y2="811.836"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint381_linear_4598_5108"
@@ -10541,9 +10541,9 @@ const LandingBackground: FC<{
           y2="826.353"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.5051" stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.5051" stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint382_radial_4598_5108"
@@ -10553,9 +10553,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1038.17 712.029) rotate(125.522) scale(38.2222 56.4893)"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint383_linear_4598_5108"
@@ -10565,8 +10565,8 @@ const LandingBackground: FC<{
           y2="741.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint384_linear_4598_5108"
@@ -10576,9 +10576,9 @@ const LandingBackground: FC<{
           y2="740.936"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <radialGradient
           id="paint385_radial_4598_5108"
@@ -10588,9 +10588,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1038.17 712.029) rotate(125.522) scale(38.2222 56.4893)"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.564576" stop-color="#FBD1CF" />
-          <stop offset="1" stop-color="#D3B5EE" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.564576" stopColor="#FBD1CF" />
+          <stop offset="1" stopColor="#D3B5EE" />
         </radialGradient>
         <linearGradient
           id="paint386_linear_4598_5108"
@@ -10600,8 +10600,8 @@ const LandingBackground: FC<{
           y2="741.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9BD7FF" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="#9BD7FF" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint387_linear_4598_5108"
@@ -10611,9 +10611,9 @@ const LandingBackground: FC<{
           y2="740.936"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.451591" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.451591" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint388_linear_4598_5108"
@@ -10623,9 +10623,9 @@ const LandingBackground: FC<{
           y2="670.929"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.501636" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#042284" />
+          <stop offset="0.501636" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint389_linear_4598_5108"
@@ -10635,9 +10635,9 @@ const LandingBackground: FC<{
           y2="661.191"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.519306" stop-color="#499FED" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.519306" stopColor="#499FED" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint390_linear_4598_5108"
@@ -10647,9 +10647,9 @@ const LandingBackground: FC<{
           y2="637"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.519306" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.519306" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint391_linear_4598_5108"
@@ -10659,9 +10659,9 @@ const LandingBackground: FC<{
           y2="691.502"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.475962" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.475962" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint392_linear_4598_5108"
@@ -10671,9 +10671,9 @@ const LandingBackground: FC<{
           y2="691.502"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.475962" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.475962" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint393_linear_4598_5108"
@@ -10683,8 +10683,8 @@ const LandingBackground: FC<{
           y2="771.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#375BB8" />
-          <stop offset="1" stop-color="#499EEC" />
+          <stop stopColor="#375BB8" />
+          <stop offset="1" stopColor="#499EEC" />
         </linearGradient>
         <linearGradient
           id="paint394_linear_4598_5108"
@@ -10694,8 +10694,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint395_linear_4598_5108"
@@ -10705,9 +10705,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint396_linear_4598_5108"
@@ -10717,8 +10717,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint397_linear_4598_5108"
@@ -10728,9 +10728,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint398_linear_4598_5108"
@@ -10740,8 +10740,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint399_linear_4598_5108"
@@ -10751,9 +10751,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint400_linear_4598_5108"
@@ -10763,8 +10763,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint401_linear_4598_5108"
@@ -10774,9 +10774,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint402_linear_4598_5108"
@@ -10786,8 +10786,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint403_linear_4598_5108"
@@ -10797,9 +10797,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint404_linear_4598_5108"
@@ -10809,8 +10809,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint405_linear_4598_5108"
@@ -10820,9 +10820,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint406_linear_4598_5108"
@@ -10832,8 +10832,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint407_linear_4598_5108"
@@ -10843,9 +10843,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint408_linear_4598_5108"
@@ -10855,8 +10855,8 @@ const LandingBackground: FC<{
           y2="765.01"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint409_linear_4598_5108"
@@ -10866,9 +10866,9 @@ const LandingBackground: FC<{
           y2="765.041"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.181803" stop-color="#499FED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.181803" stopColor="#499FED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint410_linear_4598_5108"
@@ -10878,8 +10878,8 @@ const LandingBackground: FC<{
           y2="834.842"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="#F4F2C3" stop-opacity="0.84" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="#F4F2C3" stopOpacity="0.84" />
         </linearGradient>
         <linearGradient
           id="paint411_linear_4598_5108"
@@ -10889,8 +10889,8 @@ const LandingBackground: FC<{
           y2="786.436"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="#F4F2C3" stop-opacity="0.84" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="#F4F2C3" stopOpacity="0.84" />
         </linearGradient>
         <linearGradient
           id="paint412_linear_4598_5108"
@@ -10900,8 +10900,8 @@ const LandingBackground: FC<{
           y2="1050.63"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint413_linear_4598_5108"
@@ -10911,8 +10911,8 @@ const LandingBackground: FC<{
           y2="991.821"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint414_linear_4598_5108"
@@ -10922,8 +10922,8 @@ const LandingBackground: FC<{
           y2="945.021"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint415_linear_4598_5108"
@@ -10933,9 +10933,9 @@ const LandingBackground: FC<{
           y2="208.245"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint416_linear_4598_5108"
@@ -10945,9 +10945,9 @@ const LandingBackground: FC<{
           y2="211.419"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint417_linear_4598_5108"
@@ -10957,9 +10957,9 @@ const LandingBackground: FC<{
           y2="210.341"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint418_linear_4598_5108"
@@ -10969,8 +10969,8 @@ const LandingBackground: FC<{
           y2="364.481"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint419_linear_4598_5108"
@@ -10980,8 +10980,8 @@ const LandingBackground: FC<{
           y2="337.128"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint420_linear_4598_5108"
@@ -10991,9 +10991,9 @@ const LandingBackground: FC<{
           y2="1087.66"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint421_linear_4598_5108"
@@ -11003,9 +11003,9 @@ const LandingBackground: FC<{
           y2="1101.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint422_linear_4598_5108"
@@ -11015,9 +11015,9 @@ const LandingBackground: FC<{
           y2="1193.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint423_linear_4598_5108"
@@ -11027,8 +11027,8 @@ const LandingBackground: FC<{
           y2="1193.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint424_linear_4598_5108"
@@ -11038,8 +11038,8 @@ const LandingBackground: FC<{
           y2="1193.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint425_radial_4598_5108"
@@ -11049,9 +11049,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1352.86 900.101) rotate(7.18854) scale(117.23 43.2642)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint426_linear_4598_5108"
@@ -11061,9 +11061,9 @@ const LandingBackground: FC<{
           y2="924.826"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint427_radial_4598_5108"
@@ -11073,9 +11073,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1352.86 900.101) rotate(7.18854) scale(117.23 43.2642)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint428_linear_4598_5108"
@@ -11085,9 +11085,9 @@ const LandingBackground: FC<{
           y2="924.826"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint429_linear_4598_5108"
@@ -11097,9 +11097,9 @@ const LandingBackground: FC<{
           y2="864.475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint430_radial_4598_5108"
@@ -11109,9 +11109,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1353.39 846.662) rotate(14.8902) scale(93.7864 42.6751)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint431_linear_4598_5108"
@@ -11121,9 +11121,9 @@ const LandingBackground: FC<{
           y2="849.352"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint432_radial_4598_5108"
@@ -11133,11 +11133,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1355.48 843.046) rotate(11.9685) scale(116.215 42.8898)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint433_radial_4598_5108"
@@ -11147,9 +11147,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1352.86 852.477) rotate(7.18854) scale(117.23 43.2642)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint434_linear_4598_5108"
@@ -11159,9 +11159,9 @@ const LandingBackground: FC<{
           y2="877.202"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint435_radial_4598_5108"
@@ -11171,11 +11171,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1355.48 843.046) rotate(11.9685) scale(116.215 42.8898)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint436_radial_4598_5108"
@@ -11185,9 +11185,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1352.86 852.477) rotate(7.18854) scale(117.23 43.2642)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint437_linear_4598_5108"
@@ -11197,9 +11197,9 @@ const LandingBackground: FC<{
           y2="877.202"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint438_linear_4598_5108"
@@ -11209,9 +11209,9 @@ const LandingBackground: FC<{
           y2="130.603"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint439_linear_4598_5108"
@@ -11221,9 +11221,9 @@ const LandingBackground: FC<{
           y2="132.594"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint440_linear_4598_5108"
@@ -11233,9 +11233,9 @@ const LandingBackground: FC<{
           y2="131.917"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint441_linear_4598_5108"
@@ -11245,8 +11245,8 @@ const LandingBackground: FC<{
           y2="228.588"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint442_linear_4598_5108"
@@ -11256,8 +11256,8 @@ const LandingBackground: FC<{
           y2="211.433"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint443_linear_4598_5108"
@@ -11267,9 +11267,9 @@ const LandingBackground: FC<{
           y2="997.675"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint444_linear_4598_5108"
@@ -11279,9 +11279,9 @@ const LandingBackground: FC<{
           y2="1006.22"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint445_linear_4598_5108"
@@ -11291,9 +11291,9 @@ const LandingBackground: FC<{
           y2="1064.19"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint446_linear_4598_5108"
@@ -11303,8 +11303,8 @@ const LandingBackground: FC<{
           y2="1064.19"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint447_linear_4598_5108"
@@ -11314,8 +11314,8 @@ const LandingBackground: FC<{
           y2="1064.19"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint448_radial_4598_5108"
@@ -11325,9 +11325,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1214.15 880.044) rotate(7.18855) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint449_linear_4598_5108"
@@ -11337,9 +11337,9 @@ const LandingBackground: FC<{
           y2="895.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint450_radial_4598_5108"
@@ -11349,9 +11349,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1214.15 880.044) rotate(7.18855) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint451_linear_4598_5108"
@@ -11361,9 +11361,9 @@ const LandingBackground: FC<{
           y2="895.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint452_linear_4598_5108"
@@ -11373,9 +11373,9 @@ const LandingBackground: FC<{
           y2="857.701"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint453_radial_4598_5108"
@@ -11385,9 +11385,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1214.47 846.529) rotate(14.8902) scale(58.819 26.7641)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint454_linear_4598_5108"
@@ -11397,9 +11397,9 @@ const LandingBackground: FC<{
           y2="848.216"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint455_radial_4598_5108"
@@ -11409,11 +11409,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1215.79 844.261) rotate(11.9685) scale(72.8857 26.8988)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint456_radial_4598_5108"
@@ -11423,9 +11423,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1214.15 850.176) rotate(7.18855) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint457_linear_4598_5108"
@@ -11435,9 +11435,9 @@ const LandingBackground: FC<{
           y2="865.682"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint458_radial_4598_5108"
@@ -11447,11 +11447,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1215.79 844.261) rotate(11.9685) scale(72.8857 26.8988)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint459_radial_4598_5108"
@@ -11461,9 +11461,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1214.15 850.176) rotate(7.18855) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint460_linear_4598_5108"
@@ -11473,9 +11473,9 @@ const LandingBackground: FC<{
           y2="865.682"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint461_linear_4598_5108"
@@ -11485,9 +11485,9 @@ const LandingBackground: FC<{
           y2="91.1238"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint462_linear_4598_5108"
@@ -11497,9 +11497,9 @@ const LandingBackground: FC<{
           y2="92.5128"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint463_linear_4598_5108"
@@ -11509,9 +11509,9 @@ const LandingBackground: FC<{
           y2="92.0408"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint464_linear_4598_5108"
@@ -11521,8 +11521,8 @@ const LandingBackground: FC<{
           y2="159.49"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint465_linear_4598_5108"
@@ -11532,8 +11532,8 @@ const LandingBackground: FC<{
           y2="147.52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint466_linear_4598_5108"
@@ -11543,9 +11543,9 @@ const LandingBackground: FC<{
           y2="955.147"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint467_linear_4598_5108"
@@ -11555,9 +11555,9 @@ const LandingBackground: FC<{
           y2="961.108"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint468_linear_4598_5108"
@@ -11567,9 +11567,9 @@ const LandingBackground: FC<{
           y2="1001.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint469_linear_4598_5108"
@@ -11579,8 +11579,8 @@ const LandingBackground: FC<{
           y2="1001.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint470_linear_4598_5108"
@@ -11590,8 +11590,8 @@ const LandingBackground: FC<{
           y2="1001.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint471_radial_4598_5108"
@@ -11601,9 +11601,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.79 873.075) rotate(7.18855) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint472_linear_4598_5108"
@@ -11613,9 +11613,9 @@ const LandingBackground: FC<{
           y2="883.894"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint473_radial_4598_5108"
@@ -11625,9 +11625,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.79 873.075) rotate(7.18855) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint474_linear_4598_5108"
@@ -11637,9 +11637,9 @@ const LandingBackground: FC<{
           y2="883.894"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint475_linear_4598_5108"
@@ -11649,9 +11649,9 @@ const LandingBackground: FC<{
           y2="857.485"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint476_radial_4598_5108"
@@ -11661,9 +11661,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1104.02 849.691) rotate(14.8902) scale(41.039 18.6738)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint477_linear_4598_5108"
@@ -11673,9 +11673,9 @@ const LandingBackground: FC<{
           y2="850.868"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint478_radial_4598_5108"
@@ -11685,11 +11685,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1104.94 848.108) rotate(11.9685) scale(50.8536 18.7677)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint479_radial_4598_5108"
@@ -11699,9 +11699,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.79 852.235) rotate(7.18855) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint480_linear_4598_5108"
@@ -11711,9 +11711,9 @@ const LandingBackground: FC<{
           y2="863.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint481_radial_4598_5108"
@@ -11723,11 +11723,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1104.94 848.108) rotate(11.9685) scale(50.8536 18.7677)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint482_radial_4598_5108"
@@ -11737,9 +11737,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1103.79 852.235) rotate(7.18855) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint483_linear_4598_5108"
@@ -11749,9 +11749,9 @@ const LandingBackground: FC<{
           y2="863.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint484_linear_4598_5108"
@@ -11761,9 +11761,9 @@ const LandingBackground: FC<{
           y2="63.6594"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint485_linear_4598_5108"
@@ -11773,9 +11773,9 @@ const LandingBackground: FC<{
           y2="64.6298"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint486_linear_4598_5108"
@@ -11785,9 +11785,9 @@ const LandingBackground: FC<{
           y2="64.3"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint487_linear_4598_5108"
@@ -11797,8 +11797,8 @@ const LandingBackground: FC<{
           y2="111.42"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint488_linear_4598_5108"
@@ -11808,8 +11808,8 @@ const LandingBackground: FC<{
           y2="103.058"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint489_linear_4598_5108"
@@ -11819,9 +11819,9 @@ const LandingBackground: FC<{
           y2="920.087"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint490_linear_4598_5108"
@@ -11831,9 +11831,9 @@ const LandingBackground: FC<{
           y2="924.251"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint491_linear_4598_5108"
@@ -11843,9 +11843,9 @@ const LandingBackground: FC<{
           y2="952.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint492_linear_4598_5108"
@@ -11855,8 +11855,8 @@ const LandingBackground: FC<{
           y2="952.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint493_linear_4598_5108"
@@ -11866,8 +11866,8 @@ const LandingBackground: FC<{
           y2="952.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint494_radial_4598_5108"
@@ -11877,9 +11877,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.19 862.75) rotate(7.18854) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint495_linear_4598_5108"
@@ -11889,9 +11889,9 @@ const LandingBackground: FC<{
           y2="870.309"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint496_radial_4598_5108"
@@ -11901,9 +11901,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.19 862.75) rotate(7.18854) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint497_linear_4598_5108"
@@ -11913,9 +11913,9 @@ const LandingBackground: FC<{
           y2="870.309"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint498_linear_4598_5108"
@@ -11925,9 +11925,9 @@ const LandingBackground: FC<{
           y2="851.86"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint499_radial_4598_5108"
@@ -11937,9 +11937,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.35 846.414) rotate(14.8902) scale(28.67 13.0456)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint500_linear_4598_5108"
@@ -11949,9 +11949,9 @@ const LandingBackground: FC<{
           y2="847.237"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint501_radial_4598_5108"
@@ -11961,11 +11961,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.99 845.309) rotate(11.9685) scale(35.5265 13.1112)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint502_radial_4598_5108"
@@ -11975,9 +11975,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.19 848.192) rotate(7.18854) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint503_linear_4598_5108"
@@ -11987,9 +11987,9 @@ const LandingBackground: FC<{
           y2="855.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint504_radial_4598_5108"
@@ -11999,11 +11999,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.99 845.309) rotate(11.9685) scale(35.5265 13.1112)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint505_radial_4598_5108"
@@ -12013,9 +12013,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1031.19 848.192) rotate(7.18854) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint506_linear_4598_5108"
@@ -12025,9 +12025,9 @@ const LandingBackground: FC<{
           y2="855.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint507_linear_4598_5108"
@@ -12037,8 +12037,8 @@ const LandingBackground: FC<{
           y2="1050.63"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint508_linear_4598_5108"
@@ -12048,8 +12048,8 @@ const LandingBackground: FC<{
           y2="991.821"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint509_linear_4598_5108"
@@ -12059,8 +12059,8 @@ const LandingBackground: FC<{
           y2="945.021"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint510_linear_4598_5108"
@@ -12070,9 +12070,9 @@ const LandingBackground: FC<{
           y2="1091.33"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint511_linear_4598_5108"
@@ -12082,9 +12082,9 @@ const LandingBackground: FC<{
           y2="1094.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint512_linear_4598_5108"
@@ -12094,9 +12094,9 @@ const LandingBackground: FC<{
           y2="1093.43"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint513_linear_4598_5108"
@@ -12106,8 +12106,8 @@ const LandingBackground: FC<{
           y2="1247.57"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint514_linear_4598_5108"
@@ -12117,8 +12117,8 @@ const LandingBackground: FC<{
           y2="1220.21"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint515_linear_4598_5108"
@@ -12128,9 +12128,9 @@ const LandingBackground: FC<{
           y2="1087.66"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint516_linear_4598_5108"
@@ -12140,9 +12140,9 @@ const LandingBackground: FC<{
           y2="1101.28"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint517_linear_4598_5108"
@@ -12152,9 +12152,9 @@ const LandingBackground: FC<{
           y2="1193.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint518_linear_4598_5108"
@@ -12164,8 +12164,8 @@ const LandingBackground: FC<{
           y2="1193.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint519_linear_4598_5108"
@@ -12175,8 +12175,8 @@ const LandingBackground: FC<{
           y2="1193.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint520_linear_4598_5108"
@@ -12186,9 +12186,9 @@ const LandingBackground: FC<{
           y2="924.826"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint521_linear_4598_5108"
@@ -12198,9 +12198,9 @@ const LandingBackground: FC<{
           y2="924.826"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint522_linear_4598_5108"
@@ -12210,9 +12210,9 @@ const LandingBackground: FC<{
           y2="864.475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint523_radial_4598_5108"
@@ -12222,9 +12222,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(399.203 846.662) rotate(165.11) scale(93.7864 42.6751)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint524_linear_4598_5108"
@@ -12234,9 +12234,9 @@ const LandingBackground: FC<{
           y2="849.352"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint525_radial_4598_5108"
@@ -12246,11 +12246,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(397.107 843.046) rotate(168.032) scale(116.215 42.8898)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint526_radial_4598_5108"
@@ -12260,9 +12260,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(399.726 852.477) rotate(172.811) scale(117.23 43.2642)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint527_linear_4598_5108"
@@ -12272,9 +12272,9 @@ const LandingBackground: FC<{
           y2="877.202"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint528_radial_4598_5108"
@@ -12284,11 +12284,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(397.107 843.046) rotate(168.032) scale(116.215 42.8898)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint529_radial_4598_5108"
@@ -12298,9 +12298,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(399.726 852.477) rotate(172.811) scale(117.23 43.2642)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint530_linear_4598_5108"
@@ -12310,9 +12310,9 @@ const LandingBackground: FC<{
           y2="877.202"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint531_linear_4598_5108"
@@ -12322,9 +12322,9 @@ const LandingBackground: FC<{
           y2="999.974"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint532_linear_4598_5108"
@@ -12334,9 +12334,9 @@ const LandingBackground: FC<{
           y2="1001.97"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint533_linear_4598_5108"
@@ -12346,9 +12346,9 @@ const LandingBackground: FC<{
           y2="1001.29"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint534_linear_4598_5108"
@@ -12358,8 +12358,8 @@ const LandingBackground: FC<{
           y2="1097.96"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint535_linear_4598_5108"
@@ -12369,8 +12369,8 @@ const LandingBackground: FC<{
           y2="1080.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint536_linear_4598_5108"
@@ -12380,9 +12380,9 @@ const LandingBackground: FC<{
           y2="997.675"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint537_linear_4598_5108"
@@ -12392,9 +12392,9 @@ const LandingBackground: FC<{
           y2="1006.22"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint538_linear_4598_5108"
@@ -12404,9 +12404,9 @@ const LandingBackground: FC<{
           y2="1064.19"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint539_linear_4598_5108"
@@ -12416,8 +12416,8 @@ const LandingBackground: FC<{
           y2="1064.19"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint540_linear_4598_5108"
@@ -12427,8 +12427,8 @@ const LandingBackground: FC<{
           y2="1064.19"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint541_radial_4598_5108"
@@ -12438,9 +12438,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.443 880.044) rotate(172.811) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint542_linear_4598_5108"
@@ -12450,9 +12450,9 @@ const LandingBackground: FC<{
           y2="895.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint543_radial_4598_5108"
@@ -12462,9 +12462,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.443 880.044) rotate(172.811) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint544_linear_4598_5108"
@@ -12474,9 +12474,9 @@ const LandingBackground: FC<{
           y2="895.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint545_linear_4598_5108"
@@ -12486,9 +12486,9 @@ const LandingBackground: FC<{
           y2="857.701"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint546_radial_4598_5108"
@@ -12498,9 +12498,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.114 846.529) rotate(165.11) scale(58.819 26.7641)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint547_linear_4598_5108"
@@ -12510,9 +12510,9 @@ const LandingBackground: FC<{
           y2="848.216"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint548_radial_4598_5108"
@@ -12522,11 +12522,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(536.8 844.261) rotate(168.032) scale(72.8857 26.8988)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint549_radial_4598_5108"
@@ -12536,9 +12536,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.443 850.176) rotate(172.811) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint550_linear_4598_5108"
@@ -12548,9 +12548,9 @@ const LandingBackground: FC<{
           y2="865.682"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint551_radial_4598_5108"
@@ -12560,11 +12560,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(536.8 844.261) rotate(168.032) scale(72.8857 26.8988)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint552_radial_4598_5108"
@@ -12574,9 +12574,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.443 850.176) rotate(172.811) scale(73.522 27.1336)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint553_linear_4598_5108"
@@ -12586,9 +12586,9 @@ const LandingBackground: FC<{
           y2="865.682"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint554_linear_4598_5108"
@@ -12598,9 +12598,9 @@ const LandingBackground: FC<{
           y2="956.752"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint555_linear_4598_5108"
@@ -12610,9 +12610,9 @@ const LandingBackground: FC<{
           y2="958.141"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint556_linear_4598_5108"
@@ -12622,9 +12622,9 @@ const LandingBackground: FC<{
           y2="957.669"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint557_linear_4598_5108"
@@ -12634,8 +12634,8 @@ const LandingBackground: FC<{
           y2="1025.12"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint558_linear_4598_5108"
@@ -12645,8 +12645,8 @@ const LandingBackground: FC<{
           y2="1013.15"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint559_linear_4598_5108"
@@ -12656,9 +12656,9 @@ const LandingBackground: FC<{
           y2="955.147"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint560_linear_4598_5108"
@@ -12668,9 +12668,9 @@ const LandingBackground: FC<{
           y2="961.108"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint561_linear_4598_5108"
@@ -12680,9 +12680,9 @@ const LandingBackground: FC<{
           y2="1001.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint562_linear_4598_5108"
@@ -12692,8 +12692,8 @@ const LandingBackground: FC<{
           y2="1001.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint563_linear_4598_5108"
@@ -12703,8 +12703,8 @@ const LandingBackground: FC<{
           y2="1001.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint564_radial_4598_5108"
@@ -12714,9 +12714,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(648.797 873.075) rotate(172.811) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint565_linear_4598_5108"
@@ -12726,9 +12726,9 @@ const LandingBackground: FC<{
           y2="883.894"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint566_radial_4598_5108"
@@ -12738,9 +12738,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(648.797 873.075) rotate(172.811) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint567_linear_4598_5108"
@@ -12750,9 +12750,9 @@ const LandingBackground: FC<{
           y2="883.894"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint568_linear_4598_5108"
@@ -12762,9 +12762,9 @@ const LandingBackground: FC<{
           y2="857.485"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint569_radial_4598_5108"
@@ -12774,9 +12774,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(648.568 849.691) rotate(165.11) scale(41.039 18.6738)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint570_linear_4598_5108"
@@ -12786,9 +12786,9 @@ const LandingBackground: FC<{
           y2="850.868"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint571_radial_4598_5108"
@@ -12798,11 +12798,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(647.651 848.108) rotate(168.032) scale(50.8536 18.7677)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint572_radial_4598_5108"
@@ -12812,9 +12812,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(648.797 852.235) rotate(172.811) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint573_linear_4598_5108"
@@ -12824,9 +12824,9 @@ const LandingBackground: FC<{
           y2="863.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint574_radial_4598_5108"
@@ -12836,11 +12836,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(647.651 848.108) rotate(168.032) scale(50.8536 18.7677)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint575_radial_4598_5108"
@@ -12850,9 +12850,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(648.797 852.235) rotate(172.811) scale(51.2975 18.9316)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint576_linear_4598_5108"
@@ -12862,9 +12862,9 @@ const LandingBackground: FC<{
           y2="863.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint577_linear_4598_5108"
@@ -12874,9 +12874,9 @@ const LandingBackground: FC<{
           y2="921.208"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.482472" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.482472" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint578_linear_4598_5108"
@@ -12886,9 +12886,9 @@ const LandingBackground: FC<{
           y2="922.178"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint579_linear_4598_5108"
@@ -12898,9 +12898,9 @@ const LandingBackground: FC<{
           y2="921.849"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint580_linear_4598_5108"
@@ -12910,8 +12910,8 @@ const LandingBackground: FC<{
           y2="968.969"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint581_linear_4598_5108"
@@ -12921,8 +12921,8 @@ const LandingBackground: FC<{
           y2="960.607"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint582_linear_4598_5108"
@@ -12932,9 +12932,9 @@ const LandingBackground: FC<{
           y2="920.087"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.543637" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.543637" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint583_linear_4598_5108"
@@ -12944,9 +12944,9 @@ const LandingBackground: FC<{
           y2="924.251"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.17617" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.17617" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint584_linear_4598_5108"
@@ -12956,9 +12956,9 @@ const LandingBackground: FC<{
           y2="952.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.314155" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.314155" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint585_linear_4598_5108"
@@ -12968,8 +12968,8 @@ const LandingBackground: FC<{
           y2="952.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint586_linear_4598_5108"
@@ -12979,8 +12979,8 @@ const LandingBackground: FC<{
           y2="952.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <radialGradient
           id="paint587_radial_4598_5108"
@@ -12990,9 +12990,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(721.397 862.75) rotate(172.811) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint588_linear_4598_5108"
@@ -13002,9 +13002,9 @@ const LandingBackground: FC<{
           y2="870.309"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint589_radial_4598_5108"
@@ -13014,9 +13014,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(721.397 862.75) rotate(172.811) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint590_linear_4598_5108"
@@ -13026,9 +13026,9 @@ const LandingBackground: FC<{
           y2="870.309"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint591_linear_4598_5108"
@@ -13038,9 +13038,9 @@ const LandingBackground: FC<{
           y2="851.86"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.368164" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.368164" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <radialGradient
           id="paint592_radial_4598_5108"
@@ -13050,9 +13050,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(721.237 846.414) rotate(165.11) scale(28.67 13.0456)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint593_linear_4598_5108"
@@ -13062,9 +13062,9 @@ const LandingBackground: FC<{
           y2="847.237"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0404478" stop-color="#042284" />
-          <stop offset="0.64275" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop offset="0.0404478" stopColor="#042284" />
+          <stop offset="0.64275" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint594_radial_4598_5108"
@@ -13074,11 +13074,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(720.596 845.309) rotate(168.032) scale(35.5265 13.1112)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint595_radial_4598_5108"
@@ -13088,9 +13088,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(721.397 848.192) rotate(172.811) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint596_linear_4598_5108"
@@ -13100,9 +13100,9 @@ const LandingBackground: FC<{
           y2="855.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint597_radial_4598_5108"
@@ -13112,11 +13112,11 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(720.596 845.309) rotate(168.032) scale(35.5265 13.1112)"
         >
-          <stop stop-color="#FFFEEB" />
-          <stop offset="0.139705" stop-color="#F4F2C3" />
-          <stop offset="0.385811" stop-color="#F3E09D" />
-          <stop offset="0.745105" stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#FFFEEB" />
+          <stop offset="0.139705" stopColor="#F4F2C3" />
+          <stop offset="0.385811" stopColor="#F3E09D" />
+          <stop offset="0.745105" stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </radialGradient>
         <radialGradient
           id="paint598_radial_4598_5108"
@@ -13126,9 +13126,9 @@ const LandingBackground: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(721.397 848.192) rotate(172.811) scale(35.8366 13.2257)"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.398452" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.398452" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <linearGradient
           id="paint599_linear_4598_5108"
@@ -13138,9 +13138,9 @@ const LandingBackground: FC<{
           y2="855.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.2288" stop-color="#3450B0" />
-          <stop offset="0.959552" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.2288" stopColor="#3450B0" />
+          <stop offset="0.959552" stopColor="#042284" />
         </linearGradient>
       </defs>
     </svg>

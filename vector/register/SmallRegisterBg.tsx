@@ -9,7 +9,7 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <g clip-path="url(#clip0_5908_5030)">
+      <g clipPath="url(#clip0_5908_5030)">
         <rect width="590" height="1700" fill="url(#paint0_linear_5908_5030)" />
         <g style={{ mixBlendMode: "plus-lighter" }} opacity="0.29">
           <path
@@ -365,20 +365,20 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           </g>
         </g>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M28.3395 1324.92L24.8261 1328.48H0.804688V1305.4H28.3395V1324.92ZM6.19455 1307.63C4.34379 1307.63 2.84336 1309.13 2.84336 1310.98V1318.8H9.54554V1310.98C9.54554 1309.13 8.04529 1307.63 6.19455 1307.63ZM14.7585 1307.63C12.9077 1307.63 11.4073 1309.13 11.4073 1310.98V1318.8H18.1094V1310.98C18.1094 1309.13 16.6092 1307.63 14.7585 1307.63ZM23.3224 1307.63C21.4716 1307.63 19.9712 1309.13 19.9712 1310.98V1318.8H26.6733V1310.98C26.6733 1309.13 25.1731 1307.63 23.3224 1307.63Z"
           fill="#D9D9D9"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M28.3395 1324.92L24.8261 1328.48H0.804688V1305.4H28.3395V1324.92ZM6.19455 1307.63C4.34379 1307.63 2.84336 1309.13 2.84336 1310.98V1318.8H9.54554V1310.98C9.54554 1309.13 8.04529 1307.63 6.19455 1307.63ZM14.7585 1307.63C12.9077 1307.63 11.4073 1309.13 11.4073 1310.98V1318.8H18.1094V1310.98C18.1094 1309.13 16.6092 1307.63 14.7585 1307.63ZM23.3224 1307.63C21.4716 1307.63 19.9712 1309.13 19.9712 1310.98V1318.8H26.6733V1310.98C26.6733 1309.13 25.1731 1307.63 23.3224 1307.63Z"
           fill="url(#paint33_linear_5908_5030)"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M28.3395 1324.92L24.8261 1328.48H0.804688V1305.4H28.3395V1324.92ZM6.19455 1307.63C4.34379 1307.63 2.84336 1309.13 2.84336 1310.98V1318.8H9.54554V1310.98C9.54554 1309.13 8.04529 1307.63 6.19455 1307.63ZM14.7585 1307.63C12.9077 1307.63 11.4073 1309.13 11.4073 1310.98V1318.8H18.1094V1310.98C18.1094 1309.13 16.6092 1307.63 14.7585 1307.63ZM23.3224 1307.63C21.4716 1307.63 19.9712 1309.13 19.9712 1310.98V1318.8H26.6733V1310.98C26.6733 1309.13 25.1731 1307.63 23.3224 1307.63Z"
           fill="url(#paint34_linear_5908_5030)"
         />
@@ -549,20 +549,20 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           </g>
         </g>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M545.067 1425.99L551.371 1432.38H594.473V1390.97H545.067V1425.99ZM584.802 1394.97C588.122 1394.97 590.815 1397.67 590.815 1400.99V1415.02H578.789V1400.99C578.789 1397.67 581.481 1394.97 584.802 1394.97ZM569.435 1394.97C572.756 1394.97 575.448 1397.67 575.448 1400.99V1415.02H563.423V1400.99C563.423 1397.67 566.115 1394.97 569.435 1394.97ZM554.069 1394.97C557.39 1394.97 560.082 1397.67 560.082 1400.99V1415.02H548.056V1400.99C548.056 1397.67 550.748 1394.97 554.069 1394.97Z"
           fill="#D9D9D9"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M545.067 1425.99L551.371 1432.38H594.473V1390.97H545.067V1425.99ZM584.802 1394.97C588.122 1394.97 590.815 1397.67 590.815 1400.99V1415.02H578.789V1400.99C578.789 1397.67 581.481 1394.97 584.802 1394.97ZM569.435 1394.97C572.756 1394.97 575.448 1397.67 575.448 1400.99V1415.02H563.423V1400.99C563.423 1397.67 566.115 1394.97 569.435 1394.97ZM554.069 1394.97C557.39 1394.97 560.082 1397.67 560.082 1400.99V1415.02H548.056V1400.99C548.056 1397.67 550.748 1394.97 554.069 1394.97Z"
           fill="url(#paint42_linear_5908_5030)"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M545.067 1425.99L551.371 1432.38H594.473V1390.97H545.067V1425.99ZM584.802 1394.97C588.122 1394.97 590.815 1397.67 590.815 1400.99V1415.02H578.789V1400.99C578.789 1397.67 581.481 1394.97 584.802 1394.97ZM569.435 1394.97C572.756 1394.97 575.448 1397.67 575.448 1400.99V1415.02H563.423V1400.99C563.423 1397.67 566.115 1394.97 569.435 1394.97ZM554.069 1394.97C557.39 1394.97 560.082 1397.67 560.082 1400.99V1415.02H548.056V1400.99C548.056 1397.67 550.748 1394.97 554.069 1394.97Z"
           fill="url(#paint43_linear_5908_5030)"
         />
@@ -732,9 +732,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -767,9 +767,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -802,9 +802,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -837,9 +837,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -872,9 +872,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -907,9 +907,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -942,9 +942,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -977,9 +977,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="17.3048"
           height="5.042"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1012,9 +1012,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1047,9 +1047,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1082,9 +1082,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1117,9 +1117,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1152,9 +1152,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1187,9 +1187,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1222,9 +1222,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1257,9 +1257,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           width="31.0506"
           height="9.0469"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -1293,10 +1293,10 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1371.85"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.302433" stop-color="#3450B0" />
-          <stop offset="0.577561" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.302433" stopColor="#3450B0" />
+          <stop offset="0.577561" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_5908_5030"
@@ -1306,8 +1306,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_5908_5030"
@@ -1317,8 +1317,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_5908_5030"
@@ -1328,8 +1328,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_5908_5030"
@@ -1339,8 +1339,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_5908_5030"
@@ -1350,8 +1350,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_5908_5030"
@@ -1361,8 +1361,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_5908_5030"
@@ -1372,8 +1372,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_5908_5030"
@@ -1383,8 +1383,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_5908_5030"
@@ -1394,8 +1394,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_5908_5030"
@@ -1405,8 +1405,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_5908_5030"
@@ -1416,8 +1416,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_5908_5030"
@@ -1427,8 +1427,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_5908_5030"
@@ -1438,8 +1438,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1442.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_5908_5030"
@@ -1449,8 +1449,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="318.795"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_5908_5030"
@@ -1460,8 +1460,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="293.746"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_5908_5030"
@@ -1471,8 +1471,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="286.497"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_5908_5030"
@@ -1482,8 +1482,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="414.255"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_5908_5030"
@@ -1493,8 +1493,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="613.644"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_5908_5030"
@@ -1504,8 +1504,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="586.15"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_5908_5030"
@@ -1515,8 +1515,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="973.626"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_5908_5030"
@@ -1526,8 +1526,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="948.576"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_5908_5030"
@@ -1537,8 +1537,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="941.327"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_5908_5030"
@@ -1548,8 +1548,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1069.09"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_5908_5030"
@@ -1559,8 +1559,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1238.13"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_5908_5030"
@@ -1570,8 +1570,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1210.63"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_5908_5030"
@@ -1581,8 +1581,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1702.13"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_5908_5030"
@@ -1592,9 +1592,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1739.73"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.377245" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.377245" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_5908_5030"
@@ -1604,10 +1604,10 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1513.99"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.212929" stop-color="#457BCA" />
-          <stop offset="0.676949" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.212929" stopColor="#457BCA" />
+          <stop offset="0.676949" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_5908_5030"
@@ -1617,10 +1617,10 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1493.94"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.212929" stop-color="#457BCA" />
-          <stop offset="0.676949" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.212929" stopColor="#457BCA" />
+          <stop offset="0.676949" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_5908_5030"
@@ -1630,7 +1630,7 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1401.08"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-opacity="0" />
+          <stop stopOpacity="0" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -1641,9 +1641,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1275.23"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_5908_5030"
@@ -1653,9 +1653,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1364.56"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_5908_5030"
@@ -1665,9 +1665,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1325.13"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.696997" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.696997" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_5908_5030"
@@ -1677,9 +1677,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1323.23"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_5908_5030"
@@ -1689,9 +1689,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1321.54"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.514859" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.514859" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_5908_5030"
@@ -1701,9 +1701,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1571.91"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.697463" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.697463" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_5908_5030"
@@ -1713,9 +1713,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1644.11"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.328245" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.328245" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_5908_5030"
@@ -1725,8 +1725,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1463.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_5908_5030"
@@ -1736,7 +1736,7 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1562.65"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-opacity="0" />
+          <stop stopOpacity="0" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -1747,9 +1747,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1336.84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_5908_5030"
@@ -1759,9 +1759,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1497.12"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_5908_5030"
@@ -1771,9 +1771,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1426.37"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.696997" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.696997" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_5908_5030"
@@ -1783,9 +1783,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1422.96"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.404302" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.404302" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_5908_5030"
@@ -1795,9 +1795,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1419.92"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.514859" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.514859" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_5908_5030"
@@ -1807,8 +1807,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1552.54"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_5908_5030"
@@ -1818,9 +1818,9 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1426.87"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.671755" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#042284" />
+          <stop offset="0.671755" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_5908_5030"
@@ -1830,8 +1830,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="1459.46"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_5908_5030"
@@ -1841,8 +1841,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="228.181"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_5908_5030"
@@ -1852,8 +1852,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="102.707"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_5908_5030"
@@ -1863,8 +1863,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="259.386"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_5908_5030"
@@ -1874,8 +1874,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="251.34"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_5908_5030"
@@ -1885,8 +1885,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="166.771"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_5908_5030"
@@ -1896,8 +1896,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="131.202"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_5908_5030"
@@ -1907,8 +1907,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="98.7258"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_5908_5030"
@@ -1918,8 +1918,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="40.1577"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_5908_5030"
@@ -1929,8 +1929,8 @@ const SmallRegisterBg: FC<{ className?: string }> = ({ className }) => {
           y2="96.5428"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <clipPath id="clip0_5908_5030">
           <rect width="590" height="1700" fill="white" />

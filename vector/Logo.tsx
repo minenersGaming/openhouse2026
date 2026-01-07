@@ -487,7 +487,7 @@ const Logo: FC<{
           x="0.000420213"
           y="-0.000215262"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -523,8 +523,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_3941_3959"
@@ -534,9 +534,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_3941_3959"
@@ -546,8 +546,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_3941_3959"
@@ -557,9 +557,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_3941_3959"
@@ -569,8 +569,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_3941_3959"
@@ -580,9 +580,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_3941_3959"
@@ -592,8 +592,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_3941_3959"
@@ -603,9 +603,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_3941_3959"
@@ -615,8 +615,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_3941_3959"
@@ -626,9 +626,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_3941_3959"
@@ -638,8 +638,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_3941_3959"
@@ -649,9 +649,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_3941_3959"
@@ -661,8 +661,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_3941_3959"
@@ -672,9 +672,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_3941_3959"
@@ -684,8 +684,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_3941_3959"
@@ -695,9 +695,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_3941_3959"
@@ -707,8 +707,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_3941_3959"
@@ -718,9 +718,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_3941_3959"
@@ -730,8 +730,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_3941_3959"
@@ -741,9 +741,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_3941_3959"
@@ -753,8 +753,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_3941_3959"
@@ -764,9 +764,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_3941_3959"
@@ -776,8 +776,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_3941_3959"
@@ -787,9 +787,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_3941_3959"
@@ -799,8 +799,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_3941_3959"
@@ -810,9 +810,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_3941_3959"
@@ -822,8 +822,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_3941_3959"
@@ -833,9 +833,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_3941_3959"
@@ -845,8 +845,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_3941_3959"
@@ -856,9 +856,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_3941_3959"
@@ -868,8 +868,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_3941_3959"
@@ -879,9 +879,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_3941_3959"
@@ -891,8 +891,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_3941_3959"
@@ -902,9 +902,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_3941_3959"
@@ -914,8 +914,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_3941_3959"
@@ -925,9 +925,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_3941_3959"
@@ -937,8 +937,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_3941_3959"
@@ -948,9 +948,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_3941_3959"
@@ -960,8 +960,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_3941_3959"
@@ -971,9 +971,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_3941_3959"
@@ -983,8 +983,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_3941_3959"
@@ -994,9 +994,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_3941_3959"
@@ -1006,8 +1006,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_3941_3959"
@@ -1017,9 +1017,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_3941_3959"
@@ -1029,8 +1029,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_3941_3959"
@@ -1040,9 +1040,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_3941_3959"
@@ -1052,8 +1052,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_3941_3959"
@@ -1063,9 +1063,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_3941_3959"
@@ -1075,8 +1075,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_3941_3959"
@@ -1086,9 +1086,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_3941_3959"
@@ -1098,8 +1098,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_3941_3959"
@@ -1109,9 +1109,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_3941_3959"
@@ -1121,8 +1121,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_3941_3959"
@@ -1132,9 +1132,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_3941_3959"
@@ -1144,8 +1144,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_3941_3959"
@@ -1155,9 +1155,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_3941_3959"
@@ -1167,8 +1167,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_3941_3959"
@@ -1178,9 +1178,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_3941_3959"
@@ -1190,8 +1190,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_3941_3959"
@@ -1201,9 +1201,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_3941_3959"
@@ -1213,8 +1213,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_3941_3959"
@@ -1224,9 +1224,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_3941_3959"
@@ -1236,8 +1236,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_3941_3959"
@@ -1247,9 +1247,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_3941_3959"
@@ -1259,8 +1259,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_3941_3959"
@@ -1270,9 +1270,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_3941_3959"
@@ -1282,8 +1282,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_3941_3959"
@@ -1293,9 +1293,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_3941_3959"
@@ -1305,8 +1305,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_3941_3959"
@@ -1316,9 +1316,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_3941_3959"
@@ -1328,8 +1328,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_3941_3959"
@@ -1339,9 +1339,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_3941_3959"
@@ -1351,8 +1351,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_3941_3959"
@@ -1362,9 +1362,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_3941_3959"
@@ -1374,8 +1374,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_3941_3959"
@@ -1385,9 +1385,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_3941_3959"
@@ -1397,8 +1397,8 @@ const Logo: FC<{
           y2="57.3176"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_3941_3959"
@@ -1408,9 +1408,9 @@ const Logo: FC<{
           y2="61.4881"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFFEEF" />
-          <stop offset="0.608099" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E6C674" />
+          <stop stopColor="#FFFEEF" />
+          <stop offset="0.608099" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E6C674" />
         </linearGradient>
       </defs>
     </svg>

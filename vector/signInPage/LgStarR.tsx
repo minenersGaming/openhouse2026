@@ -85,9 +85,9 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           width="36.3711"
           height="49.3203"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -120,9 +120,9 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           width="83.8516"
           height="104.352"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -156,8 +156,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="129.272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6198_4280"
@@ -167,8 +167,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="87.3313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6198_4280"
@@ -178,8 +178,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="129.272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6198_4280"
@@ -189,8 +189,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="87.3313"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6198_4280"
@@ -200,8 +200,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="108.18"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6198_4280"
@@ -211,8 +211,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="22.2967"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6198_4280"
@@ -222,8 +222,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="108.18"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6198_4280"
@@ -233,8 +233,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="22.2967"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6198_4280"
@@ -244,8 +244,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="108.18"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_6198_4280"
@@ -255,8 +255,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="22.2967"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_6198_4280"
@@ -266,8 +266,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="108.18"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F8B043" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F8B043" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6198_4280"
@@ -277,8 +277,8 @@ const LgStarR: FC<{ className?: string }> = ({ className }) => {
           y2="22.2967"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
       </defs>
     </svg>

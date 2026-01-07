@@ -51,9 +51,9 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           width="553.624"
           height="108.415"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -86,9 +86,9 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           width="229.917"
           height="47.0539"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -121,9 +121,9 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           width="272.421"
           height="10.4211"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -157,8 +157,8 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           y2="13.3065"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="0.663846" stop-color="#F4F2C4" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="0.663846" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6730_4459"
@@ -168,8 +168,8 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           y2="13.3065"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="0.663846" stop-color="#F4F2C4" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="0.663846" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6730_4459"
@@ -179,8 +179,8 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           y2="176.273"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6730_4459"
@@ -190,8 +190,8 @@ const RegisterText: FC<{ className?: string }> = ({ className }) => {
           y2="122.929"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="0.663846" stop-color="#F4F2C4" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="0.663846" stopColor="#F4F2C4" />
         </linearGradient>
       </defs>
     </svg>

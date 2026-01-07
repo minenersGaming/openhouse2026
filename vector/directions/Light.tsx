@@ -14,13 +14,13 @@ const Lamp: FC<{
         opacity="0.51"
         d="M1253.61 -48.5689L1492.65 -16.9388L1253.61 2212L480.605 2143.43L205.605 2143.43L1253.61 -48.5689Z"
         fill="url(#paint0_linear_1794_1873)"
-        fill-opacity="0.8"
+        fillOpacity="0.8"
       />
       <path
         opacity="0.51"
         d="M1091 -2.49946L1437 -2.49845L913.999 2295L1.49854 2193L1.50064 1440.5L1091 -2.49946Z"
         fill="url(#paint1_linear_1794_1873)"
-        fill-opacity="0.8"
+        fillOpacity="0.8"
       />
       <g opacity="0.62" filter="url(#filter0_f_1794_1873)">
         <rect
@@ -30,7 +30,7 @@ const Lamp: FC<{
           height="556.465"
           transform="rotate(-102 1110.7 464)"
           fill="url(#paint2_radial_1794_1873)"
-          fill-opacity="0.74"
+          fillOpacity="0.74"
         />
       </g>
       <g filter="url(#filter1_d_1794_1873)">

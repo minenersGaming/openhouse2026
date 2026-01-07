@@ -876,8 +876,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="935.715"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1956" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1956" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6595_5085"
@@ -887,8 +887,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1373.87"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#4319AE" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#4319AE" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6595_5085"
@@ -898,9 +898,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="912"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6595_5085"
@@ -910,8 +910,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1305.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#4319AE" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#4319AE" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6595_5085"
@@ -921,8 +921,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1025.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6595_5085"
@@ -932,8 +932,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1305.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#4319AE" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#4319AE" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6595_5085"
@@ -943,9 +943,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1025.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.527223" stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.527223" stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6595_5085"
@@ -955,8 +955,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1084.29"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6595_5085"
@@ -966,8 +966,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="543.359"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_6595_5085"
@@ -977,8 +977,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_6595_5085"
@@ -988,8 +988,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6595_5085"
@@ -999,8 +999,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_6595_5085"
@@ -1010,8 +1010,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_6595_5085"
@@ -1021,8 +1021,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_6595_5085"
@@ -1032,8 +1032,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_6595_5085"
@@ -1043,8 +1043,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_6595_5085"
@@ -1054,8 +1054,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_6595_5085"
@@ -1065,8 +1065,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_6595_5085"
@@ -1076,8 +1076,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_6595_5085"
@@ -1087,8 +1087,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_6595_5085"
@@ -1098,8 +1098,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_6595_5085"
@@ -1109,8 +1109,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="679.462"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_6595_5085"
@@ -1120,8 +1120,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_6595_5085"
@@ -1131,8 +1131,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_6595_5085"
@@ -1142,8 +1142,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_6595_5085"
@@ -1153,8 +1153,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_6595_5085"
@@ -1164,8 +1164,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_6595_5085"
@@ -1175,8 +1175,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_6595_5085"
@@ -1186,8 +1186,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_6595_5085"
@@ -1197,8 +1197,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_6595_5085"
@@ -1208,8 +1208,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_6595_5085"
@@ -1219,8 +1219,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_6595_5085"
@@ -1230,8 +1230,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_6595_5085"
@@ -1241,8 +1241,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_6595_5085"
@@ -1252,8 +1252,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_6595_5085"
@@ -1263,8 +1263,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_6595_5085"
@@ -1274,8 +1274,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_6595_5085"
@@ -1285,8 +1285,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_6595_5085"
@@ -1296,8 +1296,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_6595_5085"
@@ -1307,8 +1307,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_6595_5085"
@@ -1318,8 +1318,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_6595_5085"
@@ -1329,8 +1329,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_6595_5085"
@@ -1340,8 +1340,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_6595_5085"
@@ -1351,8 +1351,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_6595_5085"
@@ -1362,8 +1362,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_6595_5085"
@@ -1373,8 +1373,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_6595_5085"
@@ -1384,8 +1384,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_6595_5085"
@@ -1395,8 +1395,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_6595_5085"
@@ -1406,8 +1406,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_6595_5085"
@@ -1417,8 +1417,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_6595_5085"
@@ -1428,8 +1428,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_6595_5085"
@@ -1439,8 +1439,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_6595_5085"
@@ -1450,8 +1450,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_6595_5085"
@@ -1461,8 +1461,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_6595_5085"
@@ -1472,8 +1472,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_6595_5085"
@@ -1483,8 +1483,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_6595_5085"
@@ -1494,8 +1494,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_6595_5085"
@@ -1505,8 +1505,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_6595_5085"
@@ -1516,8 +1516,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_6595_5085"
@@ -1527,8 +1527,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_6595_5085"
@@ -1538,8 +1538,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_6595_5085"
@@ -1549,8 +1549,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_6595_5085"
@@ -1560,8 +1560,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_6595_5085"
@@ -1571,8 +1571,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_6595_5085"
@@ -1582,8 +1582,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_6595_5085"
@@ -1593,8 +1593,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_6595_5085"
@@ -1604,8 +1604,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_6595_5085"
@@ -1615,8 +1615,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_6595_5085"
@@ -1626,8 +1626,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_6595_5085"
@@ -1637,8 +1637,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_6595_5085"
@@ -1648,8 +1648,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="796.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_6595_5085"
@@ -1659,8 +1659,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="757"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_6595_5085"
@@ -1670,9 +1670,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="725"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#EB7A7A" />
-          <stop offset="0.476854" stop-color="#FFAEAB" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#EB7A7A" />
+          <stop offset="0.476854" stopColor="#FFAEAB" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_6595_5085"
@@ -1682,9 +1682,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="928"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" />
-          <stop offset="0.523146" stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#0998D5" />
+          <stop stopColor="#9CD6FF" />
+          <stop offset="0.523146" stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#0998D5" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_6595_5085"
@@ -1694,9 +1694,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="928"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.523146" stop-color="#0998D5" />
-          <stop offset="1" stop-color="#0759AA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.523146" stopColor="#0998D5" />
+          <stop offset="1" stopColor="#0759AA" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_6595_5085"
@@ -1706,9 +1706,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_6595_5085"
@@ -1718,9 +1718,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_6595_5085"
@@ -1730,9 +1730,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint78_linear_6595_5085"
@@ -1742,9 +1742,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint79_linear_6595_5085"
@@ -1754,9 +1754,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint80_linear_6595_5085"
@@ -1766,9 +1766,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint81_linear_6595_5085"
@@ -1778,9 +1778,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint82_linear_6595_5085"
@@ -1790,9 +1790,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint83_linear_6595_5085"
@@ -1802,9 +1802,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint84_linear_6595_5085"
@@ -1814,9 +1814,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1051.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint85_linear_6595_5085"
@@ -1826,9 +1826,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1051.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint86_linear_6595_5085"
@@ -1838,8 +1838,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="935.715"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1956" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1956" />
         </linearGradient>
         <linearGradient
           id="paint87_linear_6595_5085"
@@ -1849,9 +1849,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="912"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint88_linear_6595_5085"
@@ -1861,8 +1861,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1305.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#4319AE" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#4319AE" />
         </linearGradient>
         <linearGradient
           id="paint89_linear_6595_5085"
@@ -1872,8 +1872,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1025.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint90_linear_6595_5085"
@@ -1883,8 +1883,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1305.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#4319AE" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#4319AE" />
         </linearGradient>
         <linearGradient
           id="paint91_linear_6595_5085"
@@ -1894,9 +1894,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1025.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.527223" stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.527223" stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint92_linear_6595_5085"
@@ -1906,8 +1906,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="543.359"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FAD1CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#FAD1CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint93_linear_6595_5085"
@@ -1917,8 +1917,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint94_linear_6595_5085"
@@ -1928,8 +1928,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint95_linear_6595_5085"
@@ -1939,8 +1939,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint96_linear_6595_5085"
@@ -1950,8 +1950,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint97_linear_6595_5085"
@@ -1961,8 +1961,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint98_linear_6595_5085"
@@ -1972,8 +1972,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint99_linear_6595_5085"
@@ -1983,8 +1983,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint100_linear_6595_5085"
@@ -1994,8 +1994,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint101_linear_6595_5085"
@@ -2005,8 +2005,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint102_linear_6595_5085"
@@ -2016,8 +2016,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint103_linear_6595_5085"
@@ -2027,8 +2027,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint104_linear_6595_5085"
@@ -2038,8 +2038,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint105_linear_6595_5085"
@@ -2049,8 +2049,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint106_linear_6595_5085"
@@ -2060,8 +2060,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="717.983"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#395782" />
-          <stop offset="1" stop-color="#0052C9" />
+          <stop stopColor="#395782" />
+          <stop offset="1" stopColor="#0052C9" />
         </linearGradient>
         <linearGradient
           id="paint107_linear_6595_5085"
@@ -2071,8 +2071,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint108_linear_6595_5085"
@@ -2082,8 +2082,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint109_linear_6595_5085"
@@ -2093,8 +2093,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint110_linear_6595_5085"
@@ -2104,8 +2104,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint111_linear_6595_5085"
@@ -2115,8 +2115,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint112_linear_6595_5085"
@@ -2126,8 +2126,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint113_linear_6595_5085"
@@ -2137,8 +2137,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint114_linear_6595_5085"
@@ -2148,8 +2148,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint115_linear_6595_5085"
@@ -2159,8 +2159,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint116_linear_6595_5085"
@@ -2170,8 +2170,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint117_linear_6595_5085"
@@ -2181,8 +2181,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint118_linear_6595_5085"
@@ -2192,8 +2192,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint119_linear_6595_5085"
@@ -2203,8 +2203,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint120_linear_6595_5085"
@@ -2214,8 +2214,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint121_linear_6595_5085"
@@ -2225,8 +2225,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint122_linear_6595_5085"
@@ -2236,8 +2236,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint123_linear_6595_5085"
@@ -2247,8 +2247,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint124_linear_6595_5085"
@@ -2258,8 +2258,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint125_linear_6595_5085"
@@ -2269,8 +2269,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint126_linear_6595_5085"
@@ -2280,8 +2280,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint127_linear_6595_5085"
@@ -2291,8 +2291,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint128_linear_6595_5085"
@@ -2302,8 +2302,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint129_linear_6595_5085"
@@ -2313,8 +2313,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint130_linear_6595_5085"
@@ -2324,8 +2324,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint131_linear_6595_5085"
@@ -2335,8 +2335,8 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="790"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4A9FEE" />
-          <stop offset="1" stop-color="#9CD6FF" />
+          <stop stopColor="#4A9FEE" />
+          <stop offset="1" stopColor="#9CD6FF" />
         </linearGradient>
         <linearGradient
           id="paint132_linear_6595_5085"
@@ -2346,9 +2346,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="961"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.523146" stop-color="#0998D5" />
-          <stop offset="1" stop-color="#0759AA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.523146" stopColor="#0998D5" />
+          <stop offset="1" stopColor="#0759AA" />
         </linearGradient>
         <linearGradient
           id="paint133_linear_6595_5085"
@@ -2358,9 +2358,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint134_linear_6595_5085"
@@ -2370,9 +2370,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint135_linear_6595_5085"
@@ -2382,9 +2382,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint136_linear_6595_5085"
@@ -2394,9 +2394,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint137_linear_6595_5085"
@@ -2406,9 +2406,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint138_linear_6595_5085"
@@ -2418,9 +2418,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint139_linear_6595_5085"
@@ -2430,9 +2430,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint140_linear_6595_5085"
@@ -2442,9 +2442,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint141_linear_6595_5085"
@@ -2454,9 +2454,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1037.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint142_linear_6595_5085"
@@ -2466,9 +2466,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1051.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint143_linear_6595_5085"
@@ -2478,9 +2478,9 @@ const LgWindow: FC<{ className?: string }> = ({ className }) => {
           y2="1051.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="0.467521" stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#467BCA" />
+          <stop offset="0.467521" stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
       </defs>
     </svg>

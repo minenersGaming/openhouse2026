@@ -99,9 +99,9 @@ const AICLg: FC<{
           width="414.323"
           height="414.322"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -120,9 +120,9 @@ const AICLg: FC<{
           width="164.553"
           height="105.098"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -155,9 +155,9 @@ const AICLg: FC<{
           y2="371.162"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.444808" stop-color="#042284" />
-          <stop offset="1" stop-color="#091B63" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.444808" stopColor="#042284" />
+          <stop offset="1" stopColor="#091B63" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6774_3672"
@@ -167,9 +167,9 @@ const AICLg: FC<{
           y2="372.015"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.49041" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.49041" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint2_radial_6774_3672"
@@ -179,8 +179,8 @@ const AICLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(237.936 311.942) rotate(71.8504) scale(63.3223 147.334)"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <linearGradient
           id="paint3_linear_6774_3672"
@@ -190,9 +190,9 @@ const AICLg: FC<{
           y2="295.03"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.430795" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.430795" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint4_radial_6774_3672"
@@ -202,9 +202,9 @@ const AICLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(58.5208 200.928) rotate(19.6119) scale(263.57 208.567)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.589246" stop-color="#499FED" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.589246" stopColor="#499FED" />
+          <stop offset="1" stopColor="#C4A063" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_6774_3672"
@@ -214,9 +214,9 @@ const AICLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(207.823 135.065) rotate(75.9818) scale(208.093 252.91)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.51306" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.51306" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#457BCA" />
         </radialGradient>
         <linearGradient
           id="paint6_linear_6774_3672"
@@ -226,9 +226,9 @@ const AICLg: FC<{
           y2="347.635"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9F6FF" />
-          <stop offset="0.54901" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#E9F6FF" />
+          <stop offset="0.54901" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <radialGradient
           id="paint7_radial_6774_3672"
@@ -238,9 +238,9 @@ const AICLg: FC<{
           gradientTransform="matrix(102.738 64.4134 -68.4465 67.9347 172.559 190.802)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.484868" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.484868" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <radialGradient
           id="paint8_radial_6774_3672"
@@ -250,8 +250,8 @@ const AICLg: FC<{
           gradientTransform="matrix(127.848 55.7914 -49.3423 73.5802 154.608 167.032)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
       </defs>
     </svg>

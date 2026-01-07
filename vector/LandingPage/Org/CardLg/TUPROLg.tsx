@@ -99,9 +99,9 @@ const TUPROLg: FC<{
           width="414.315"
           height="414.315"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -120,9 +120,9 @@ const TUPROLg: FC<{
           width="206.679"
           height="54.725"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -155,9 +155,9 @@ const TUPROLg: FC<{
           y2="368.844"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.444808" stop-color="#042284" />
-          <stop offset="1" stop-color="#091B63" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.444808" stopColor="#042284" />
+          <stop offset="1" stopColor="#091B63" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6774_3690"
@@ -167,9 +167,9 @@ const TUPROLg: FC<{
           y2="370.52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.49041" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.49041" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint2_radial_6774_3690"
@@ -179,8 +179,8 @@ const TUPROLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(243.222 310.945) rotate(69.5233) scale(63.3223 147.334)"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </radialGradient>
         <linearGradient
           id="paint3_linear_6774_3690"
@@ -190,9 +190,9 @@ const TUPROLg: FC<{
           y2="289.254"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="0.430795" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#C5A064" />
+          <stop offset="0.430795" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <radialGradient
           id="paint4_radial_6774_3690"
@@ -202,9 +202,9 @@ const TUPROLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(59.4489 207.308) rotate(17.2848) scale(263.57 208.567)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.589246" stop-color="#499FED" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.589246" stopColor="#499FED" />
+          <stop offset="1" stopColor="#C4A063" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_6774_3690"
@@ -214,9 +214,9 @@ const TUPROLg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(205.954 135.437) rotate(73.6547) scale(208.093 252.91)"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.51306" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.51306" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#457BCA" />
         </radialGradient>
         <linearGradient
           id="paint6_linear_6774_3690"
@@ -226,9 +226,9 @@ const TUPROLg: FC<{
           y2="347.632"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9F6FF" />
-          <stop offset="0.54901" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#E9F6FF" />
+          <stop offset="0.54901" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <radialGradient
           id="paint7_radial_6774_3690"
@@ -238,9 +238,9 @@ const TUPROLg: FC<{
           gradientTransform="matrix(115.442 54.7907 -108.191 37.1839 168.179 202.214)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="0.484868" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#457BCA" />
+          <stop offset="0.484868" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
         <radialGradient
           id="paint8_radial_6774_3690"
@@ -250,8 +250,8 @@ const TUPROLg: FC<{
           gradientTransform="matrix(150.532 51.9852 -84.9373 43.1629 151.54 184.32)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#042284" />
         </radialGradient>
       </defs>
     </svg>

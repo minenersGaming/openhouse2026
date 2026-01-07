@@ -15,7 +15,7 @@ const CrossIcon: FC<{
         d="M2.57067 2.08398L22.5386 22.0519M22.0519 2.08398L2.08398 22.0519"
         stroke="white"
         stroke-
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </svg>
   );

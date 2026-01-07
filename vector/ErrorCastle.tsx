@@ -26,8 +26,8 @@ const ErrorCastle: FC<{
           cx="0"
           id="paint0_radial_6732_9217"
         >
-          <stop stop-opacity="0" stop-color="#F3E19D" offset="0.540846" />
-          <stop stop-color="#F4F2C4" offset="1" />
+          <stop stopOpacity="0" stopColor="#F3E19D" offset="0.540846" />
+          <stop stopColor="#F4F2C4" offset="1" />
         </radialGradient>
       </defs>
     </svg>

@@ -278,9 +278,9 @@ const CandleL: FC<{
           width="109.332"
           height="102.188"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -313,9 +313,9 @@ const CandleL: FC<{
           width="18.9297"
           height="33.4805"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -348,9 +348,9 @@ const CandleL: FC<{
           width="59.3086"
           height="44.2969"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -383,9 +383,9 @@ const CandleL: FC<{
           width="35.6094"
           height="33.2363"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -418,9 +418,9 @@ const CandleL: FC<{
           width="116.595"
           height="152.378"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -439,9 +439,9 @@ const CandleL: FC<{
           width="73.8008"
           height="68.5332"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -474,9 +474,9 @@ const CandleL: FC<{
           width="13.8555"
           height="23.5293"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -509,9 +509,9 @@ const CandleL: FC<{
           width="40.5703"
           height="30.873"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -544,9 +544,9 @@ const CandleL: FC<{
           width="24.9727"
           height="23.1992"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -579,9 +579,9 @@ const CandleL: FC<{
           width="99.0011"
           height="122.443"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -601,8 +601,8 @@ const CandleL: FC<{
           y2="351.534"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_8091_4816"
@@ -612,8 +612,8 @@ const CandleL: FC<{
           y2="364.029"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_8091_4816"
@@ -623,8 +623,8 @@ const CandleL: FC<{
           y2="351.534"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_8091_4816"
@@ -634,8 +634,8 @@ const CandleL: FC<{
           y2="364.029"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_8091_4816"
@@ -645,8 +645,8 @@ const CandleL: FC<{
           y2="6.64427"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_8091_4816"
@@ -656,8 +656,8 @@ const CandleL: FC<{
           y2="332.744"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_8091_4816"
@@ -667,8 +667,8 @@ const CandleL: FC<{
           y2="226.484"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_8091_4816"
@@ -678,9 +678,9 @@ const CandleL: FC<{
           y2="287.991"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_8091_4816"
@@ -690,8 +690,8 @@ const CandleL: FC<{
           y2="203.018"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F0BF" />
-          <stop offset="1" stop-color="#F4F0BD" />
+          <stop stopColor="#F4F0BF" />
+          <stop offset="1" stopColor="#F4F0BD" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_8091_4816"
@@ -701,9 +701,9 @@ const CandleL: FC<{
           y2="276.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_8091_4816"
@@ -713,9 +713,9 @@ const CandleL: FC<{
           y2="276.38"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_8091_4816"
@@ -725,9 +725,9 @@ const CandleL: FC<{
           y2="340.777"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_8091_4816"
@@ -737,9 +737,9 @@ const CandleL: FC<{
           y2="340.777"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_8091_4816"
@@ -749,9 +749,9 @@ const CandleL: FC<{
           y2="329.381"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_8091_4816"
@@ -761,9 +761,9 @@ const CandleL: FC<{
           y2="329.381"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_8091_4816"
@@ -773,8 +773,8 @@ const CandleL: FC<{
           y2="197.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_8091_4816"
@@ -784,8 +784,8 @@ const CandleL: FC<{
           y2="197.506"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_8091_4816"
@@ -795,8 +795,8 @@ const CandleL: FC<{
           y2="213.621"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_8091_4816"
@@ -806,8 +806,8 @@ const CandleL: FC<{
           y2="388.519"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_8091_4816"
@@ -817,8 +817,8 @@ const CandleL: FC<{
           y2="396.008"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_8091_4816"
@@ -828,8 +828,8 @@ const CandleL: FC<{
           y2="388.519"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_8091_4816"
@@ -839,8 +839,8 @@ const CandleL: FC<{
           y2="396.008"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_8091_4816"
@@ -850,8 +850,8 @@ const CandleL: FC<{
           y2="367.168"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_8091_4816"
@@ -861,8 +861,8 @@ const CandleL: FC<{
           y2="376.045"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_8091_4816"
@@ -872,8 +872,8 @@ const CandleL: FC<{
           y2="305.717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_8091_4816"
@@ -883,9 +883,9 @@ const CandleL: FC<{
           y2="346.455"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_8091_4816"
@@ -895,8 +895,8 @@ const CandleL: FC<{
           y2="289.639"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F0BF" />
-          <stop offset="1" stop-color="#F4F0BD" />
+          <stop stopColor="#F4F0BF" />
+          <stop offset="1" stopColor="#F4F0BD" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_8091_4816"
@@ -906,9 +906,9 @@ const CandleL: FC<{
           y2="338.836"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_8091_4816"
@@ -918,9 +918,9 @@ const CandleL: FC<{
           y2="338.836"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_8091_4816"
@@ -930,9 +930,9 @@ const CandleL: FC<{
           y2="381.168"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_8091_4816"
@@ -942,9 +942,9 @@ const CandleL: FC<{
           y2="381.168"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_8091_4816"
@@ -954,9 +954,9 @@ const CandleL: FC<{
           y2="374.155"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="0.298454" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop stopColor="#E5C675" />
+          <stop offset="0.298454" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_8091_4816"
@@ -966,9 +966,9 @@ const CandleL: FC<{
           y2="374.155"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.701546" stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.701546" stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_8091_4816"
@@ -978,8 +978,8 @@ const CandleL: FC<{
           y2="286.412"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_8091_4816"
@@ -989,8 +989,8 @@ const CandleL: FC<{
           y2="286.412"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" stop-opacity="0.6" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" stopOpacity="0.6" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_8091_4816"
@@ -1000,8 +1000,8 @@ const CandleL: FC<{
           y2="297.059"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_8091_4816"
@@ -1011,8 +1011,8 @@ const CandleL: FC<{
           y2="188.955"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_8091_4816"
@@ -1022,8 +1022,8 @@ const CandleL: FC<{
           y2="93.8717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_8091_4816"
@@ -1033,8 +1033,8 @@ const CandleL: FC<{
           y2="47.8401"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
       </defs>
     </svg>

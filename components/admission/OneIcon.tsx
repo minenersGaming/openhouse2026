@@ -1,6 +1,3 @@
-import { isEmptyArray } from "formik";
-import { stringify } from "querystring";
-import React from "react";
 import type { FC, ReactNode } from "react";
 const SpecialWord = [
   "",
@@ -52,7 +49,7 @@ const OneIcon: FC<{
         >
           {list.map((item, index) => (
             <li
-              id={`${index}`}
+              key={index}
               className="text-[#F4F2C4] text-[10px] lg:text-sm py-[2px]"
             >
               {item}

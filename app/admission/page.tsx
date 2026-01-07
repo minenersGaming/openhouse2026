@@ -67,6 +67,7 @@ const Admission = () => {
               header=""
               element={
                 <OneIcon
+                  key={index}
                   header={programme.name}
                   icon={programme.Icon}
                   description={programme.description}
@@ -86,6 +87,7 @@ const Admission = () => {
               header=""
               element={
                 <OneIcon
+                  key={index}
                   header={exam.name}
                   icon={exam.Icon}
                   description={exam.description}

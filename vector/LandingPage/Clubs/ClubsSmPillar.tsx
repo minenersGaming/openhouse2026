@@ -11,7 +11,7 @@ const ClubsSmPillar: FC<{
       viewBox="0 0 592 980"
       fill="none"
     >
-      <g clip-path="url(#clip0_7095_5370)">
+      <g clipPath="url(#clip0_7095_5370)">
         <mask
           id="mask0_7095_5370"
           style={{ maskType: "alpha" }}
@@ -650,9 +650,9 @@ const ClubsSmPillar: FC<{
           width="715.645"
           height="846.04"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -671,9 +671,9 @@ const ClubsSmPillar: FC<{
           width="508.117"
           height="635.302"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -692,9 +692,9 @@ const ClubsSmPillar: FC<{
           width="376.905"
           height="198.079"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -713,9 +713,9 @@ const ClubsSmPillar: FC<{
           width="324.936"
           height="153.868"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -735,10 +735,10 @@ const ClubsSmPillar: FC<{
           y2="767.231"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.00144125" stop-color="#F4F2C3" />
-          <stop offset="0.24864" stop-color="#457BCA" />
-          <stop offset="0.517933" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop offset="0.00144125" stopColor="#F4F2C3" />
+          <stop offset="0.24864" stopColor="#457BCA" />
+          <stop offset="0.517933" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7095_5370"
@@ -748,10 +748,10 @@ const ClubsSmPillar: FC<{
           y2="767.231"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.00144125" stop-color="#F4F2C3" />
-          <stop offset="0.24864" stop-color="#457BCA" />
-          <stop offset="0.517933" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop offset="0.00144125" stopColor="#F4F2C3" />
+          <stop offset="0.24864" stopColor="#457BCA" />
+          <stop offset="0.517933" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7095_5370"
@@ -761,8 +761,8 @@ const ClubsSmPillar: FC<{
           y2="192.679"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7095_5370"
@@ -772,8 +772,8 @@ const ClubsSmPillar: FC<{
           y2="192.078"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7095_5370"
@@ -783,8 +783,8 @@ const ClubsSmPillar: FC<{
           y2="701.389"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B044" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#F8B044" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7095_5370"
@@ -794,8 +794,8 @@ const ClubsSmPillar: FC<{
           y2="671.723"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F8B044" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F8B044" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7095_5370"
@@ -805,9 +805,9 @@ const ClubsSmPillar: FC<{
           y2="715.904"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.225132" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.225132" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7095_5370"
@@ -817,9 +817,9 @@ const ClubsSmPillar: FC<{
           y2="757.628"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.727816" stop-color="#042284" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.727816" stopColor="#042284" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7095_5370"
@@ -829,9 +829,9 @@ const ClubsSmPillar: FC<{
           y2="1006.21"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.392205" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.392205" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7095_5370"
@@ -841,9 +841,9 @@ const ClubsSmPillar: FC<{
           y2="1006.21"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.392205" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.392205" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7095_5370"
@@ -853,9 +853,9 @@ const ClubsSmPillar: FC<{
           y2="1020.22"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.664151" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.664151" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7095_5370"
@@ -865,8 +865,8 @@ const ClubsSmPillar: FC<{
           y2="700.026"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7095_5370"
@@ -876,9 +876,9 @@ const ClubsSmPillar: FC<{
           y2="701.677"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.492958" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.492958" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7095_5370"
@@ -888,8 +888,8 @@ const ClubsSmPillar: FC<{
           y2="142.884"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7095_5370"
@@ -899,8 +899,8 @@ const ClubsSmPillar: FC<{
           y2="142.884"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7095_5370"
@@ -910,8 +910,8 @@ const ClubsSmPillar: FC<{
           y2="7.91306"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7095_5370"
@@ -921,8 +921,8 @@ const ClubsSmPillar: FC<{
           y2="7.91306"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7095_5370"
@@ -932,9 +932,9 @@ const ClubsSmPillar: FC<{
           y2="14.1077"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.511929" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.511929" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7095_5370"
@@ -944,8 +944,8 @@ const ClubsSmPillar: FC<{
           y2="779.328"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7095_5370"
@@ -955,8 +955,8 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_7095_5370"
@@ -966,10 +966,10 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_7095_5370"
@@ -979,8 +979,8 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_7095_5370"
@@ -990,10 +990,10 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_7095_5370"
@@ -1003,8 +1003,8 @@ const ClubsSmPillar: FC<{
           y2="2.70272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_7095_5370"
@@ -1014,8 +1014,8 @@ const ClubsSmPillar: FC<{
           y2="2.70272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_7095_5370"
@@ -1025,8 +1025,8 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_7095_5370"
@@ -1036,10 +1036,10 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_7095_5370"
@@ -1049,8 +1049,8 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_7095_5370"
@@ -1060,10 +1060,10 @@ const ClubsSmPillar: FC<{
           y2="784.447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_7095_5370"
@@ -1073,8 +1073,8 @@ const ClubsSmPillar: FC<{
           y2="2.70272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_7095_5370"
@@ -1084,8 +1084,8 @@ const ClubsSmPillar: FC<{
           y2="2.70272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_7095_5370"
@@ -1095,8 +1095,8 @@ const ClubsSmPillar: FC<{
           y2="873.636"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_7095_5370"
@@ -1106,8 +1106,8 @@ const ClubsSmPillar: FC<{
           y2="872.848"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_7095_5370"
@@ -1117,8 +1117,8 @@ const ClubsSmPillar: FC<{
           y2="15.1287"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_7095_5370"
@@ -1128,9 +1128,9 @@ const ClubsSmPillar: FC<{
           y2="16.7798"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.492958" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.492958" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_7095_5370"
@@ -1140,8 +1140,8 @@ const ClubsSmPillar: FC<{
           y2="784.445"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_7095_5370"
@@ -1151,8 +1151,8 @@ const ClubsSmPillar: FC<{
           y2="784.445"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_7095_5370"
@@ -1162,8 +1162,8 @@ const ClubsSmPillar: FC<{
           y2="660.417"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#C5A064" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#C5A064" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_7095_5370"
@@ -1173,8 +1173,8 @@ const ClubsSmPillar: FC<{
           y2="660.417"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_7095_5370"
@@ -1184,9 +1184,9 @@ const ClubsSmPillar: FC<{
           y2="652.504"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="0.511929" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="0.511929" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_7095_5370"
@@ -1196,8 +1196,8 @@ const ClubsSmPillar: FC<{
           y2="779.328"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_7095_5370"
@@ -1207,8 +1207,8 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_7095_5370"
@@ -1218,10 +1218,10 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_7095_5370"
@@ -1231,8 +1231,8 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_7095_5370"
@@ -1242,10 +1242,10 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_7095_5370"
@@ -1255,8 +1255,8 @@ const ClubsSmPillar: FC<{
           y2="705.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_7095_5370"
@@ -1266,8 +1266,8 @@ const ClubsSmPillar: FC<{
           y2="771.834"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_7095_5370"
@@ -1277,8 +1277,8 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_7095_5370"
@@ -1288,10 +1288,10 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_7095_5370"
@@ -1301,8 +1301,8 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FDEEB4" />
-          <stop offset="0.927885" stop-color="#EEDA8C" />
+          <stop stopColor="#FDEEB4" />
+          <stop offset="0.927885" stopColor="#EEDA8C" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_7095_5370"
@@ -1312,10 +1312,10 @@ const ClubsSmPillar: FC<{
           y2="784.446"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.268439" stop-color="#7AC4ED" />
-          <stop offset="0.590979" stop-color="#64A4DE" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.268439" stopColor="#7AC4ED" />
+          <stop offset="0.590979" stopColor="#64A4DE" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_7095_5370"
@@ -1325,8 +1325,8 @@ const ClubsSmPillar: FC<{
           y2="705.167"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_7095_5370"
@@ -1336,8 +1336,8 @@ const ClubsSmPillar: FC<{
           y2="771.834"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1C399A" />
-          <stop offset="1" stop-color="#3C64BC" />
+          <stop stopColor="#1C399A" />
+          <stop offset="1" stopColor="#3C64BC" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_7095_5370"
@@ -1347,8 +1347,8 @@ const ClubsSmPillar: FC<{
           y2="987.318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#0B1855" stop-opacity="0.5" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#0B1855" stopOpacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_7095_5370"
@@ -1358,8 +1358,8 @@ const ClubsSmPillar: FC<{
           y2="943.804"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_7095_5370"
@@ -1369,9 +1369,9 @@ const ClubsSmPillar: FC<{
           y2="906.068"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.427592" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.427592" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_7095_5370"
@@ -1381,9 +1381,9 @@ const ClubsSmPillar: FC<{
           y2="887.918"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.490295" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.490295" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_7095_5370"
@@ -1393,10 +1393,10 @@ const ClubsSmPillar: FC<{
           y2="880.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.088301" stop-color="#042284" />
-          <stop offset="0.313194" stop-color="#3450B0" />
-          <stop offset="0.549715" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.088301" stopColor="#042284" />
+          <stop offset="0.313194" stopColor="#3450B0" />
+          <stop offset="0.549715" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_7095_5370"
@@ -1406,10 +1406,10 @@ const ClubsSmPillar: FC<{
           y2="880.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.088301" stop-color="#042284" />
-          <stop offset="0.313194" stop-color="#3450B0" />
-          <stop offset="0.549715" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.088301" stopColor="#042284" />
+          <stop offset="0.313194" stopColor="#3450B0" />
+          <stop offset="0.549715" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_7095_5370"
@@ -1419,10 +1419,10 @@ const ClubsSmPillar: FC<{
           y2="880.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.088301" stop-color="#042284" />
-          <stop offset="0.313194" stop-color="#3450B0" />
-          <stop offset="0.549715" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.088301" stopColor="#042284" />
+          <stop offset="0.313194" stopColor="#3450B0" />
+          <stop offset="0.549715" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_7095_5370"
@@ -1432,10 +1432,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_7095_5370"
@@ -1445,10 +1445,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_7095_5370"
@@ -1458,10 +1458,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_7095_5370"
@@ -1471,10 +1471,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_7095_5370"
@@ -1484,8 +1484,8 @@ const ClubsSmPillar: FC<{
           y2="987.318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="1" stop-color="#0B1855" stop-opacity="0.5" />
+          <stop stopColor="#0B1855" />
+          <stop offset="1" stopColor="#0B1855" stopOpacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_7095_5370"
@@ -1495,8 +1495,8 @@ const ClubsSmPillar: FC<{
           y2="45.4782"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_7095_5370"
@@ -1506,9 +1506,9 @@ const ClubsSmPillar: FC<{
           y2="906.068"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.427592" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.427592" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_7095_5370"
@@ -1518,9 +1518,9 @@ const ClubsSmPillar: FC<{
           y2="887.918"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="0.490295" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="0.490295" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_7095_5370"
@@ -1530,10 +1530,10 @@ const ClubsSmPillar: FC<{
           y2="880.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.088301" stop-color="#042284" />
-          <stop offset="0.313194" stop-color="#3450B0" />
-          <stop offset="0.549715" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.088301" stopColor="#042284" />
+          <stop offset="0.313194" stopColor="#3450B0" />
+          <stop offset="0.549715" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_7095_5370"
@@ -1543,10 +1543,10 @@ const ClubsSmPillar: FC<{
           y2="880.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.088301" stop-color="#042284" />
-          <stop offset="0.313194" stop-color="#3450B0" />
-          <stop offset="0.549715" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.088301" stopColor="#042284" />
+          <stop offset="0.313194" stopColor="#3450B0" />
+          <stop offset="0.549715" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_7095_5370"
@@ -1556,10 +1556,10 @@ const ClubsSmPillar: FC<{
           y2="880.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.088301" stop-color="#042284" />
-          <stop offset="0.313194" stop-color="#3450B0" />
-          <stop offset="0.549715" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#F4F2C3" />
+          <stop offset="0.088301" stopColor="#042284" />
+          <stop offset="0.313194" stopColor="#3450B0" />
+          <stop offset="0.549715" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#F4F2C3" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_7095_5370"
@@ -1569,10 +1569,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_7095_5370"
@@ -1582,10 +1582,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_7095_5370"
@@ -1595,10 +1595,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_7095_5370"
@@ -1608,10 +1608,10 @@ const ClubsSmPillar: FC<{
           y2="-19.0264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.1772" stop-color="#3450B0" />
-          <stop offset="0.505439" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.1772" stopColor="#3450B0" />
+          <stop offset="0.505439" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <clipPath id="clip0_7095_5370">
           <rect width="591.319" height="979.528" fill="white" />

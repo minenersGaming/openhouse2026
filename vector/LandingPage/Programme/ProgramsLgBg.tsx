@@ -11,7 +11,7 @@ const ProgramsLgBg: FC<{
       viewBox="0 0 1706 1120"
       fill="none"
     >
-      <g clip-path="url(#clip0_7878_5244)">
+      <g clipPath="url(#clip0_7878_5244)">
         <rect
           x="-1.96484"
           width="186.987"
@@ -259,18 +259,18 @@ const ProgramsLgBg: FC<{
           opacity="0.32"
           d="M373.442 35.5147L290.388 35.5146M384.516 70.0645H246.093M334.684 70.0645V35.5147"
           stroke="white"
-          stroke-width="6.12182"
-          stroke-linecap="round"
+          strokeWidth="6.12182"
+          strokeLinecap="round"
         />
         <path
           opacity="0.32"
           d="M528.7 184.195L424.764 184.195M473.268 112.276L369.331 112.276M542.559 148.236H369.331M480.197 148.236V184.195M410.906 112.276V148.236"
           stroke="white"
-          stroke-width="5.90253"
-          stroke-linecap="round"
+          strokeWidth="5.90253"
+          strokeLinecap="round"
         />
       </g>
-      <g clip-path="url(#clip1_7878_5244)">
+      <g clipPath="url(#clip1_7878_5244)">
         <rect
           width="186.987"
           height="1120"
@@ -510,15 +510,15 @@ const ProgramsLgBg: FC<{
           opacity="0.32"
           d="M1333.57 60.9317L1416.63 60.9316M1322.5 95.4814H1460.92M1372.33 95.4814V60.9317"
           stroke="white"
-          stroke-width="6.12182"
-          stroke-linecap="round"
+          strokeWidth="6.12182"
+          strokeLinecap="round"
         />
         <path
           opacity="0.32"
           d="M1173.49 179.306L1246.14 179.306M1212.24 105.381L1284.89 105.381M1163.81 142.343H1284.89M1207.4 142.343V179.306M1255.83 105.381V142.343"
           stroke="white"
-          stroke-width="5.35482"
-          stroke-linecap="round"
+          strokeWidth="5.35482"
+          strokeLinecap="round"
         />
       </g>
       <defs>
@@ -529,9 +529,9 @@ const ProgramsLgBg: FC<{
           width="88.9336"
           height="697.438"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -564,9 +564,9 @@ const ProgramsLgBg: FC<{
           width="88.9336"
           height="697.438"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -600,8 +600,8 @@ const ProgramsLgBg: FC<{
           y2="1044.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7878_5244"
@@ -611,8 +611,8 @@ const ProgramsLgBg: FC<{
           y2="1125.58"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7878_5244"
@@ -622,8 +622,8 @@ const ProgramsLgBg: FC<{
           y2="1120"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7878_5244"
@@ -633,9 +633,9 @@ const ProgramsLgBg: FC<{
           y2="927.428"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.696394" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.696394" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7878_5244"
@@ -645,8 +645,8 @@ const ProgramsLgBg: FC<{
           y2="128.489"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7878_5244"
@@ -656,8 +656,8 @@ const ProgramsLgBg: FC<{
           y2="135.865"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7878_5244"
@@ -667,9 +667,9 @@ const ProgramsLgBg: FC<{
           y2="113.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7878_5244"
@@ -679,9 +679,9 @@ const ProgramsLgBg: FC<{
           y2="123.614"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7878_5244"
@@ -691,9 +691,9 @@ const ProgramsLgBg: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7878_5244"
@@ -703,9 +703,9 @@ const ProgramsLgBg: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7878_5244"
@@ -715,9 +715,9 @@ const ProgramsLgBg: FC<{
           y2="124.674"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <radialGradient
           id="paint11_radial_7878_5244"
@@ -727,8 +727,8 @@ const ProgramsLgBg: FC<{
           gradientTransform="matrix(-0.0864403 10.6268 -41.9294 -0.194013 5.70504 6.78026)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint12_linear_7878_5244"
@@ -738,9 +738,9 @@ const ProgramsLgBg: FC<{
           y2="15.3264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7878_5244"
@@ -750,8 +750,8 @@ const ProgramsLgBg: FC<{
           y2="184.027"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7878_5244"
@@ -761,8 +761,8 @@ const ProgramsLgBg: FC<{
           y2="156.769"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7878_5244"
@@ -772,9 +772,9 @@ const ProgramsLgBg: FC<{
           y2="151.78"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint16_radial_7878_5244"
@@ -784,8 +784,8 @@ const ProgramsLgBg: FC<{
           gradientTransform="matrix(-0.122144 23.0931 -59.248 -0.421611 131.354 135.058)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint17_linear_7878_5244"
@@ -795,9 +795,9 @@ const ProgramsLgBg: FC<{
           y2="127.812"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7878_5244"
@@ -807,9 +807,9 @@ const ProgramsLgBg: FC<{
           y2="125.524"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7878_5244"
@@ -819,9 +819,9 @@ const ProgramsLgBg: FC<{
           y2="153.468"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_7878_5244"
@@ -831,8 +831,8 @@ const ProgramsLgBg: FC<{
           y2="794.235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_7878_5244"
@@ -842,8 +842,8 @@ const ProgramsLgBg: FC<{
           y2="634.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_7878_5244"
@@ -853,8 +853,8 @@ const ProgramsLgBg: FC<{
           y2="1044.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_7878_5244"
@@ -864,8 +864,8 @@ const ProgramsLgBg: FC<{
           y2="91.6003"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_7878_5244"
@@ -875,8 +875,8 @@ const ProgramsLgBg: FC<{
           y2="1120"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_7878_5244"
@@ -886,9 +886,9 @@ const ProgramsLgBg: FC<{
           y2="927.428"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.696394" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.696394" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_7878_5244"
@@ -898,8 +898,8 @@ const ProgramsLgBg: FC<{
           y2="128.489"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_7878_5244"
@@ -909,8 +909,8 @@ const ProgramsLgBg: FC<{
           y2="135.865"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_7878_5244"
@@ -920,9 +920,9 @@ const ProgramsLgBg: FC<{
           y2="113.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_7878_5244"
@@ -932,9 +932,9 @@ const ProgramsLgBg: FC<{
           y2="108.101"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_7878_5244"
@@ -944,9 +944,9 @@ const ProgramsLgBg: FC<{
           y2="20.5713"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_7878_5244"
@@ -956,9 +956,9 @@ const ProgramsLgBg: FC<{
           y2="11.6221"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_7878_5244"
@@ -968,9 +968,9 @@ const ProgramsLgBg: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <radialGradient
           id="paint33_radial_7878_5244"
@@ -980,8 +980,8 @@ const ProgramsLgBg: FC<{
           gradientTransform="matrix(-0.0864403 10.6268 -41.9294 -0.194013 1565.65 134.364)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint34_linear_7878_5244"
@@ -991,9 +991,9 @@ const ProgramsLgBg: FC<{
           y2="142.91"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_7878_5244"
@@ -1003,8 +1003,8 @@ const ProgramsLgBg: FC<{
           y2="63.8439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_7878_5244"
@@ -1014,8 +1014,8 @@ const ProgramsLgBg: FC<{
           y2="36.5852"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_7878_5244"
@@ -1025,9 +1025,9 @@ const ProgramsLgBg: FC<{
           y2="31.5964"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint38_radial_7878_5244"
@@ -1037,8 +1037,8 @@ const ProgramsLgBg: FC<{
           gradientTransform="matrix(-0.122144 23.0931 -59.248 -0.421611 8.06147 14.7343)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint39_linear_7878_5244"
@@ -1048,9 +1048,9 @@ const ProgramsLgBg: FC<{
           y2="7.48791"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_7878_5244"
@@ -1060,9 +1060,9 @@ const ProgramsLgBg: FC<{
           y2="5.19999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_7878_5244"
@@ -1072,9 +1072,9 @@ const ProgramsLgBg: FC<{
           y2="33.1436"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_7878_5244"
@@ -1084,8 +1084,8 @@ const ProgramsLgBg: FC<{
           y2="794.235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_7878_5244"
@@ -1095,8 +1095,8 @@ const ProgramsLgBg: FC<{
           y2="634.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_7878_5244">
           <rect width="568.318" height="1120" fill="white" />

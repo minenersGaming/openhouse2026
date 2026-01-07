@@ -241,8 +241,8 @@ const ClubsSmComet: FC<{
           y2="243.286"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7095_5707"
@@ -252,8 +252,8 @@ const ClubsSmComet: FC<{
           y2="235.474"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7095_5707"
@@ -263,8 +263,8 @@ const ClubsSmComet: FC<{
           y2="176.916"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7095_5707"
@@ -274,8 +274,8 @@ const ClubsSmComet: FC<{
           y2="176.916"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7095_5707"
@@ -285,8 +285,8 @@ const ClubsSmComet: FC<{
           y2="251.787"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7095_5707"
@@ -296,8 +296,8 @@ const ClubsSmComet: FC<{
           y2="200.479"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7095_5707"
@@ -307,8 +307,8 @@ const ClubsSmComet: FC<{
           y2="211.814"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7095_5707"
@@ -318,8 +318,8 @@ const ClubsSmComet: FC<{
           y2="222.595"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7095_5707"
@@ -329,8 +329,8 @@ const ClubsSmComet: FC<{
           y2="371.417"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7095_5707"
@@ -340,8 +340,8 @@ const ClubsSmComet: FC<{
           y2="371.417"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7095_5707"
@@ -351,8 +351,8 @@ const ClubsSmComet: FC<{
           y2="319.683"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7095_5707"
@@ -362,8 +362,8 @@ const ClubsSmComet: FC<{
           y2="308.763"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7095_5707"
@@ -373,8 +373,8 @@ const ClubsSmComet: FC<{
           y2="182.193"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7095_5707"
@@ -384,8 +384,8 @@ const ClubsSmComet: FC<{
           y2="176.812"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7095_5707"
@@ -395,8 +395,8 @@ const ClubsSmComet: FC<{
           y2="267.573"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7095_5707"
@@ -406,8 +406,8 @@ const ClubsSmComet: FC<{
           y2="233.776"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7095_5707"
@@ -417,8 +417,8 @@ const ClubsSmComet: FC<{
           y2="241.271"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7095_5707"
@@ -428,8 +428,8 @@ const ClubsSmComet: FC<{
           y2="248.373"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7095_5707"
@@ -439,8 +439,8 @@ const ClubsSmComet: FC<{
           y2="381.87"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7095_5707"
@@ -450,8 +450,8 @@ const ClubsSmComet: FC<{
           y2="381.87"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
       </defs>
     </svg>

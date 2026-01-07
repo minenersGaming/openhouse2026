@@ -332,8 +332,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7755_4655"
@@ -343,9 +343,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7755_4655"
@@ -355,8 +355,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7755_4655"
@@ -366,9 +366,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7755_4655"
@@ -378,8 +378,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7755_4655"
@@ -389,9 +389,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7755_4655"
@@ -401,8 +401,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7755_4655"
@@ -412,9 +412,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7755_4655"
@@ -424,8 +424,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7755_4655"
@@ -435,9 +435,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7755_4655"
@@ -447,8 +447,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7755_4655"
@@ -458,9 +458,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7755_4655"
@@ -470,8 +470,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7755_4655"
@@ -481,9 +481,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7755_4655"
@@ -493,8 +493,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7755_4655"
@@ -504,9 +504,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7755_4655"
@@ -516,8 +516,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7755_4655"
@@ -527,9 +527,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7755_4655"
@@ -539,8 +539,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7755_4655"
@@ -550,9 +550,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_7755_4655"
@@ -562,8 +562,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_7755_4655"
@@ -573,9 +573,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_7755_4655"
@@ -585,8 +585,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_7755_4655"
@@ -596,9 +596,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_7755_4655"
@@ -608,8 +608,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_7755_4655"
@@ -619,9 +619,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_7755_4655"
@@ -631,8 +631,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_7755_4655"
@@ -642,9 +642,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_7755_4655"
@@ -654,8 +654,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_7755_4655"
@@ -665,9 +665,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_7755_4655"
@@ -677,8 +677,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_7755_4655"
@@ -688,9 +688,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_7755_4655"
@@ -700,8 +700,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_7755_4655"
@@ -711,9 +711,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_7755_4655"
@@ -723,8 +723,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_7755_4655"
@@ -734,9 +734,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_7755_4655"
@@ -746,8 +746,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_7755_4655"
@@ -757,9 +757,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_7755_4655"
@@ -769,8 +769,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_7755_4655"
@@ -780,9 +780,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_7755_4655"
@@ -792,8 +792,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_7755_4655"
@@ -803,9 +803,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_7755_4655"
@@ -815,8 +815,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_7755_4655"
@@ -826,9 +826,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_7755_4655"
@@ -838,8 +838,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_7755_4655"
@@ -849,9 +849,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_7755_4655"
@@ -861,8 +861,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_7755_4655"
@@ -872,9 +872,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_7755_4655"
@@ -884,8 +884,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_7755_4655"
@@ -895,9 +895,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_7755_4655"
@@ -907,8 +907,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_7755_4655"
@@ -918,9 +918,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_7755_4655"
@@ -930,8 +930,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_7755_4655"
@@ -941,9 +941,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_7755_4655"
@@ -953,8 +953,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_7755_4655"
@@ -964,9 +964,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_7755_4655"
@@ -976,8 +976,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_7755_4655"
@@ -987,9 +987,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_7755_4655"
@@ -999,8 +999,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_7755_4655"
@@ -1010,9 +1010,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_7755_4655"
@@ -1022,8 +1022,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_7755_4655"
@@ -1033,9 +1033,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_7755_4655"
@@ -1045,8 +1045,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_7755_4655"
@@ -1056,9 +1056,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_7755_4655"
@@ -1068,8 +1068,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_7755_4655"
@@ -1079,9 +1079,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_7755_4655"
@@ -1091,8 +1091,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_7755_4655"
@@ -1102,9 +1102,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_7755_4655"
@@ -1114,8 +1114,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_7755_4655"
@@ -1125,9 +1125,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_7755_4655"
@@ -1137,8 +1137,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_7755_4655"
@@ -1148,9 +1148,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_7755_4655"
@@ -1160,8 +1160,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_7755_4655"
@@ -1171,9 +1171,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_7755_4655"
@@ -1183,8 +1183,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_7755_4655"
@@ -1194,9 +1194,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_7755_4655"
@@ -1206,8 +1206,8 @@ const AureateLogo: FC<{
           y2="575.423"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#999999" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#999999" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_7755_4655"
@@ -1217,9 +1217,9 @@ const AureateLogo: FC<{
           y2="617.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3F2CD" />
-          <stop offset="0.509615" stop-color="#FBDE8C" />
-          <stop offset="1" stop-color="#EDC75B" />
+          <stop stopColor="#F3F2CD" />
+          <stop offset="0.509615" stopColor="#FBDE8C" />
+          <stop offset="1" stopColor="#EDC75B" />
         </linearGradient>
       </defs>
     </svg>

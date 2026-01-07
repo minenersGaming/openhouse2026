@@ -271,9 +271,9 @@ const StarL: FC<{
           width="59.7002"
           height="59.7014"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -306,9 +306,9 @@ const StarL: FC<{
           width="71.6572"
           height="71.6587"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -341,9 +341,9 @@ const StarL: FC<{
           width="38.8955"
           height="38.8958"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -376,9 +376,9 @@ const StarL: FC<{
           width="73.0635"
           height="73.0632"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -411,9 +411,9 @@ const StarL: FC<{
           width="39.583"
           height="39.5828"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -446,9 +446,9 @@ const StarL: FC<{
           width="39.583"
           height="39.5828"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -482,8 +482,8 @@ const StarL: FC<{
           y2="40.9066"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7167_9860"
@@ -493,8 +493,8 @@ const StarL: FC<{
           y2="50.2867"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7167_9860"
@@ -504,8 +504,8 @@ const StarL: FC<{
           y2="1876.61"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7167_9860"
@@ -515,8 +515,8 @@ const StarL: FC<{
           y2="984.897"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7167_9860"
@@ -526,8 +526,8 @@ const StarL: FC<{
           y2="25.1241"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7167_9860"
@@ -537,8 +537,8 @@ const StarL: FC<{
           y2="25.1241"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
       </defs>
     </svg>

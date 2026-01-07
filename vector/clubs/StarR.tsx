@@ -258,9 +258,9 @@ const StarR: FC<{
           width="71.6572"
           height="71.6587"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -293,9 +293,9 @@ const StarR: FC<{
           width="38.8955"
           height="38.8958"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -328,9 +328,9 @@ const StarR: FC<{
           width="43.3018"
           height="43.3001"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -364,8 +364,8 @@ const StarR: FC<{
           y2="498.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7167_9859"
@@ -375,8 +375,8 @@ const StarR: FC<{
           y2="24.5854"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7167_9859"
@@ -386,8 +386,8 @@ const StarR: FC<{
           y2="28.0402"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
       </defs>
     </svg>

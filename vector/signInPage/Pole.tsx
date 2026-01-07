@@ -103,8 +103,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="142.669"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="1" stop-color="#4A9FEE" />
+          <stop stopColor="#467BCA" />
+          <stop offset="1" stopColor="#4A9FEE" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6198_4270"
@@ -114,8 +114,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="163.315"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#354FB0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#354FB0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6198_4270"
@@ -125,8 +125,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="105.019"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#2A1987" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#2A1987" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6198_4270"
@@ -136,8 +136,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="104.474"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#0B1956" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#0B1956" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6198_4270"
@@ -147,8 +147,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="142.669"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#467BCA" />
-          <stop offset="1" stop-color="#4A9FEE" />
+          <stop stopColor="#467BCA" />
+          <stop offset="1" stopColor="#4A9FEE" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6198_4270"
@@ -158,8 +158,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="163.315"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#354FB0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#354FB0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6198_4270"
@@ -169,8 +169,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="105.019"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#2A1987" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#2A1987" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6198_4270"
@@ -180,8 +180,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="104.474"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#0B1956" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#0B1956" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6198_4270"
@@ -191,8 +191,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="78.3742"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_6198_4270"
@@ -202,8 +202,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="70.3847"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#0B1956" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#0B1956" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_6198_4270"
@@ -213,8 +213,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="116.199"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#354FB0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#354FB0" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6198_4270"
@@ -224,8 +224,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="60.4642"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#2A1987" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#2A1987" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_6198_4270"
@@ -235,8 +235,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="111.694"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#354FB0" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#354FB0" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_6198_4270"
@@ -246,9 +246,9 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="669.111"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E19D" />
-          <stop offset="0.53526" stop-color="#E6C674" />
-          <stop offset="1" stop-color="#C4A063" />
+          <stop stopColor="#F3E19D" />
+          <stop offset="0.53526" stopColor="#E6C674" />
+          <stop offset="1" stopColor="#C4A063" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_6198_4270"
@@ -258,8 +258,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="842.331"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1956" />
-          <stop offset="1" stop-color="#2A1987" />
+          <stop stopColor="#0B1956" />
+          <stop offset="1" stopColor="#2A1987" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_6198_4270"
@@ -269,8 +269,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="971.882"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_6198_4270"
@@ -280,8 +280,8 @@ const Pole: FC<{ className?: string }> = ({ className }) => {
           y2="116.845"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
       </defs>
     </svg>

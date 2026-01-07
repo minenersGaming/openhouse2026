@@ -114,9 +114,9 @@ const Bubble2: FC<{
           width="73.2141"
           height="72.2146"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -149,9 +149,9 @@ const Bubble2: FC<{
           width="45.1223"
           height="44.7776"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -185,9 +185,9 @@ const Bubble2: FC<{
           y2="101.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6642_6570"
@@ -197,9 +197,9 @@ const Bubble2: FC<{
           y2="101.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6642_6570"
@@ -209,9 +209,9 @@ const Bubble2: FC<{
           y2="101.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6642_6570"
@@ -221,9 +221,9 @@ const Bubble2: FC<{
           y2="101.301"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6642_6570"
@@ -233,9 +233,9 @@ const Bubble2: FC<{
           y2="124.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6642_6570"
@@ -245,9 +245,9 @@ const Bubble2: FC<{
           y2="124.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6642_6570"
@@ -257,9 +257,9 @@ const Bubble2: FC<{
           y2="124.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6642_6570"
@@ -269,9 +269,9 @@ const Bubble2: FC<{
           y2="124.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6642_6570"
@@ -281,8 +281,8 @@ const Bubble2: FC<{
           y2="400.615"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" stop-opacity="0" />
-          <stop offset="1" stop-color="#F4F2C3" stop-opacity="0.4" />
+          <stop stopColor="#F4F2C3" stopOpacity="0" />
+          <stop offset="1" stopColor="#F4F2C3" stopOpacity="0.4" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_6642_6570"
@@ -292,8 +292,8 @@ const Bubble2: FC<{
           y2="430.074"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B044" stop-opacity="0" />
-          <stop offset="1" stop-color="#F8B044" stop-opacity="0.5" />
+          <stop stopColor="#F8B044" stopOpacity="0" />
+          <stop offset="1" stopColor="#F8B044" stopOpacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_6642_6570"
@@ -303,8 +303,8 @@ const Bubble2: FC<{
           y2="517.686"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9CD6FF" stop-opacity="0" />
-          <stop offset="1" stop-color="#9CD6FF" stop-opacity="0.4" />
+          <stop stopColor="#9CD6FF" stopOpacity="0" />
+          <stop offset="1" stopColor="#9CD6FF" stopOpacity="0.4" />
         </linearGradient>
       </defs>
     </svg>

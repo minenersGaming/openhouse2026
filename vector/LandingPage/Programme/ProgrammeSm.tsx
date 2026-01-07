@@ -11,34 +11,34 @@ const ProgrammeSm: FC<{
       viewBox="0 0 591 2087"
       fill="none"
     >
-      <g clip-path="url(#clip0_5779_4177)">
+      <g clipPath="url(#clip0_5779_4177)">
         <path
           opacity="0.32"
           d="M109.703 66.851L159.215 66.851M103.102 87.4478H185.621M132.809 87.4478V66.851"
           stroke="white"
-          stroke-width="3.6495"
-          stroke-linecap="round"
+          strokeWidth="3.6495"
+          strokeLinecap="round"
         />
         <path
           opacity="0.32"
           d="M46.4581 66.851L89.7667 66.851M69.556 22.7808L112.865 22.7808M40.6836 44.8159H112.865M66.6688 44.8159V66.851M95.5411 22.7808V44.8159"
           stroke="white"
-          stroke-width="3.19226"
-          stroke-linecap="round"
+          strokeWidth="3.19226"
+          strokeLinecap="round"
         />
         <path
           opacity="0.32"
           d="M485.461 217.927L435.949 217.927M492.062 238.524H409.543M462.355 238.524V217.927"
           stroke="white"
-          stroke-width="3.6495"
-          stroke-linecap="round"
+          strokeWidth="3.6495"
+          strokeLinecap="round"
         />
         <path
           opacity="0.32"
           d="M548.71 217.927L505.401 217.927M525.612 173.857L482.303 173.857M554.484 195.892H482.303M528.499 195.892V217.927M499.627 173.857V195.892"
           stroke="white"
-          stroke-width="3.19226"
-          stroke-linecap="round"
+          strokeWidth="3.19226"
+          strokeLinecap="round"
         />
         <path
           d="M46.3516 350.589C46.3516 284.79 99.6915 231.451 165.49 231.451C231.288 231.451 284.627 284.791 284.627 350.589V2087H46.3516V350.589Z"
@@ -196,9 +196,9 @@ const ProgrammeSm: FC<{
           y2="2087"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.572115" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.572115" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_5779_4177"
@@ -208,9 +208,9 @@ const ProgrammeSm: FC<{
           y2="2087"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.572115" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.572115" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_5779_4177"
@@ -220,8 +220,8 @@ const ProgrammeSm: FC<{
           y2="420.793"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_5779_4177"
@@ -231,8 +231,8 @@ const ProgrammeSm: FC<{
           y2="318.207"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_5779_4177"
@@ -242,8 +242,8 @@ const ProgrammeSm: FC<{
           y2="445.291"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_5779_4177"
@@ -253,8 +253,8 @@ const ProgrammeSm: FC<{
           y2="340.699"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_5779_4177">
           <rect width="591" height="2087" fill="white" />

@@ -40,14 +40,14 @@ const GiftedMath: FC<{
           <path
             d="M29.5781 208.865H192.504"
             stroke="#F4F1C2"
-            stroke-width="6.69266"
-            stroke-linecap="round"
+            strokeWidth="6.69266"
+            strokeLinecap="round"
           />
           <path
             d="M111.453 125.342V290.74"
             stroke="#F4F1C2"
-            stroke-width="6.69266"
-            stroke-linecap="round"
+            strokeWidth="6.69266"
+            strokeLinecap="round"
           />
           <path
             d="M111.564 113.962L121.707 129.857H101.421L111.564 113.962Z"
@@ -60,14 +60,14 @@ const GiftedMath: FC<{
           <path
             d="M174.215 145.433C174.215 145.433 168.768 241.657 134.272 221.686C125.822 216.794 120.353 201.518 109.229 193.848C71.5421 167.858 56.2031 286.85 56.2031 286.85"
             stroke="white"
-            stroke-width="8.47262"
-            stroke-linecap="round"
+            strokeWidth="8.47262"
+            strokeLinecap="round"
           />
           <path
             d="M174.215 145.433C174.215 145.433 168.768 241.657 134.272 221.686C125.822 216.794 120.353 201.518 109.229 193.848C71.5421 167.858 56.2031 286.85 56.2031 286.85"
             stroke="url(#paint2_linear_7757_4658)"
-            stroke-width="8.47262"
-            stroke-linecap="round"
+            strokeWidth="8.47262"
+            strokeLinecap="round"
           />
           <mask id="path-9-inside-1_7757_4658" fill="white">
             <path d="M54.3117 137.79C65.1712 136.276 66.0618 136.894 69.6183 148.403C67.8166 136.485 68.3488 135.536 78.7665 132.09C67.907 133.603 67.0164 132.986 63.4599 121.477C65.2613 133.395 64.729 134.344 54.3114 137.79L54.3117 137.79Z" />
@@ -113,9 +113,9 @@ const GiftedMath: FC<{
           width="152.97"
           height="94.0352"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -148,9 +148,9 @@ const GiftedMath: FC<{
           width="229.41"
           height="405.376"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -183,9 +183,9 @@ const GiftedMath: FC<{
           width="202.98"
           height="373.391"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -218,9 +218,9 @@ const GiftedMath: FC<{
           width="183.66"
           height="189.772"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -254,9 +254,9 @@ const GiftedMath: FC<{
           y2="-6.16542"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0917226" stop-color="#F3E19D" />
-          <stop offset="0.530182" stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop offset="0.0917226" stopColor="#F3E19D" />
+          <stop offset="0.530182" stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7757_4658"
@@ -266,9 +266,9 @@ const GiftedMath: FC<{
           y2="-9.50355"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.579478" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.579478" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7757_4658"
@@ -278,10 +278,10 @@ const GiftedMath: FC<{
           y2="292.863"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7757_4658"
@@ -291,10 +291,10 @@ const GiftedMath: FC<{
           y2="152.058"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7757_4658"
@@ -304,10 +304,10 @@ const GiftedMath: FC<{
           y2="270.482"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
       </defs>
     </svg>

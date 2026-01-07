@@ -11,7 +11,7 @@ const LeftPillar: FC<{
       viewBox="0 0 1706 1120"
       fill="none"
     >
-      <g clip-path="url(#clip0_5908_3495)">
+      <g clipPath="url(#clip0_5908_3495)">
         <rect
           width="186.987"
           height="1120"
@@ -251,16 +251,16 @@ const LeftPillar: FC<{
           <path
             d="M1366.17 46.1729L1449.22 46.1729M1355.09 80.7227H1493.52M1404.93 80.7227V46.1729"
             stroke="white"
-            stroke-width="6.12182"
-            stroke-linecap="round"
+            strokeWidth="6.12182"
+            strokeLinecap="round"
           />
         </g>
         <g style={{ mixBlendMode: "soft-light" }}>
           <path
             d="M1206.09 164.546L1278.74 164.546M1244.83 90.6211L1317.48 90.6211M1196.4 127.584H1317.48M1239.99 127.584V164.546M1288.42 90.6211V127.584"
             stroke="white"
-            stroke-width="5.35482"
-            stroke-linecap="round"
+            strokeWidth="5.35482"
+            strokeLinecap="round"
           />
         </g>
         <rect
@@ -510,16 +510,16 @@ const LeftPillar: FC<{
           <path
             d="M371.684 28.8975L288.631 28.8975M382.758 63.4473H244.335M332.926 63.4473V28.8975"
             stroke="white"
-            stroke-width="6.12182"
-            stroke-linecap="round"
+            strokeWidth="6.12182"
+            strokeLinecap="round"
           />
         </g>
         <g style={{ mixBlendMode: "soft-light" }}>
           <path
             d="M526.943 177.577L423.006 177.577M471.51 105.658L367.573 105.658M540.801 141.618H367.573M478.439 141.618V177.577M409.148 105.658V141.618"
             stroke="white"
-            stroke-width="5.90253"
-            stroke-linecap="round"
+            strokeWidth="5.90253"
+            strokeLinecap="round"
           />
         </g>
       </g>
@@ -531,9 +531,9 @@ const LeftPillar: FC<{
           width="88.9336"
           height="697.438"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -566,9 +566,9 @@ const LeftPillar: FC<{
           width="88.9336"
           height="697.438"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -602,9 +602,9 @@ const LeftPillar: FC<{
           y2="1044.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.33412" stop-color="#042284" />
-          <stop offset="0.525063" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop offset="0.33412" stopColor="#042284" />
+          <stop offset="0.525063" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_5908_3495"
@@ -614,8 +614,8 @@ const LeftPillar: FC<{
           y2="91.6003"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_5908_3495"
@@ -625,8 +625,8 @@ const LeftPillar: FC<{
           y2="1120"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_5908_3495"
@@ -636,9 +636,9 @@ const LeftPillar: FC<{
           y2="927.427"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.696394" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.696394" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_5908_3495"
@@ -648,8 +648,8 @@ const LeftPillar: FC<{
           y2="128.488"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_5908_3495"
@@ -659,8 +659,8 @@ const LeftPillar: FC<{
           y2="135.864"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_5908_3495"
@@ -670,9 +670,9 @@ const LeftPillar: FC<{
           y2="113.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_5908_3495"
@@ -682,9 +682,9 @@ const LeftPillar: FC<{
           y2="108.101"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_5908_3495"
@@ -694,9 +694,9 @@ const LeftPillar: FC<{
           y2="20.5713"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_5908_3495"
@@ -706,9 +706,9 @@ const LeftPillar: FC<{
           y2="11.6221"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_5908_3495"
@@ -718,9 +718,9 @@ const LeftPillar: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <radialGradient
           id="paint11_radial_5908_3495"
@@ -730,8 +730,8 @@ const LeftPillar: FC<{
           gradientTransform="matrix(-0.0864403 10.6268 -41.9294 -0.194013 1576.55 134.363)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint12_linear_5908_3495"
@@ -741,9 +741,9 @@ const LeftPillar: FC<{
           y2="142.909"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_5908_3495"
@@ -753,8 +753,8 @@ const LeftPillar: FC<{
           y2="63.8439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_5908_3495"
@@ -764,8 +764,8 @@ const LeftPillar: FC<{
           y2="36.5852"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_5908_3495"
@@ -775,9 +775,9 @@ const LeftPillar: FC<{
           y2="31.5964"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint16_radial_5908_3495"
@@ -787,8 +787,8 @@ const LeftPillar: FC<{
           gradientTransform="matrix(-0.122144 23.0931 -59.248 -0.421611 8.06147 14.7343)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint17_linear_5908_3495"
@@ -798,9 +798,9 @@ const LeftPillar: FC<{
           y2="7.48791"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_5908_3495"
@@ -810,9 +810,9 @@ const LeftPillar: FC<{
           y2="5.19999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_5908_3495"
@@ -822,9 +822,9 @@ const LeftPillar: FC<{
           y2="33.1436"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_5908_3495"
@@ -834,8 +834,8 @@ const LeftPillar: FC<{
           y2="794.235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_5908_3495"
@@ -845,8 +845,8 @@ const LeftPillar: FC<{
           y2="634.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_5908_3495"
@@ -856,8 +856,8 @@ const LeftPillar: FC<{
           y2="1044.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_5908_3495"
@@ -867,8 +867,8 @@ const LeftPillar: FC<{
           y2="1125.58"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_5908_3495"
@@ -878,8 +878,8 @@ const LeftPillar: FC<{
           y2="1120"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_5908_3495"
@@ -889,9 +889,9 @@ const LeftPillar: FC<{
           y2="927.428"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.696394" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.696394" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_5908_3495"
@@ -901,8 +901,8 @@ const LeftPillar: FC<{
           y2="128.489"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_5908_3495"
@@ -912,8 +912,8 @@ const LeftPillar: FC<{
           y2="135.865"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="1" stop-color="#9BD7FF" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="1" stopColor="#9BD7FF" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_5908_3495"
@@ -923,9 +923,9 @@ const LeftPillar: FC<{
           y2="113.16"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_5908_3495"
@@ -935,9 +935,9 @@ const LeftPillar: FC<{
           y2="123.614"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_5908_3495"
@@ -947,9 +947,9 @@ const LeftPillar: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_5908_3495"
@@ -959,9 +959,9 @@ const LeftPillar: FC<{
           y2="0"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_5908_3495"
@@ -971,9 +971,9 @@ const LeftPillar: FC<{
           y2="124.674"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="0.521368" stop-color="#457BCA" />
-          <stop offset="1" stop-color="#499FED" />
+          <stop stopColor="#3450B0" />
+          <stop offset="0.521368" stopColor="#457BCA" />
+          <stop offset="1" stopColor="#499FED" />
         </linearGradient>
         <radialGradient
           id="paint33_radial_5908_3495"
@@ -983,8 +983,8 @@ const LeftPillar: FC<{
           gradientTransform="matrix(-0.0864403 10.6268 -41.9294 -0.194013 5.70504 6.78026)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint34_linear_5908_3495"
@@ -994,9 +994,9 @@ const LeftPillar: FC<{
           y2="15.3264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_5908_3495"
@@ -1006,8 +1006,8 @@ const LeftPillar: FC<{
           y2="184.027"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_5908_3495"
@@ -1017,8 +1017,8 @@ const LeftPillar: FC<{
           y2="156.769"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_5908_3495"
@@ -1028,9 +1028,9 @@ const LeftPillar: FC<{
           y2="151.78"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <radialGradient
           id="paint38_radial_5908_3495"
@@ -1040,8 +1040,8 @@ const LeftPillar: FC<{
           gradientTransform="matrix(-0.122144 23.0931 -59.248 -0.421611 131.354 135.058)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFF6E0" />
-          <stop offset="1" stop-color="#E9D265" />
+          <stop stopColor="#FFF6E0" />
+          <stop offset="1" stopColor="#E9D265" />
         </radialGradient>
         <linearGradient
           id="paint39_linear_5908_3495"
@@ -1051,9 +1051,9 @@ const LeftPillar: FC<{
           y2="127.812"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_5908_3495"
@@ -1063,9 +1063,9 @@ const LeftPillar: FC<{
           y2="125.524"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C4A062" />
-          <stop offset="0.622176" stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#C4A062" />
+          <stop offset="0.622176" stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_5908_3495"
@@ -1075,9 +1075,9 @@ const LeftPillar: FC<{
           y2="153.468"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.434214" stop-color="#499FED" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.434214" stopColor="#499FED" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_5908_3495"
@@ -1087,8 +1087,8 @@ const LeftPillar: FC<{
           y2="794.235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_5908_3495"
@@ -1098,8 +1098,8 @@ const LeftPillar: FC<{
           y2="634.057"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F3E09D" />
-          <stop offset="1" stop-color="#F3E09D" stop-opacity="0" />
+          <stop stopColor="#F3E09D" />
+          <stop offset="1" stopColor="#F3E09D" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_5908_3495">
           <rect width="1706" height="1120" fill="white" />

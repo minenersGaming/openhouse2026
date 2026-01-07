@@ -37,7 +37,7 @@ const TopCurtain: FC<{
         <path
           d="M1127.74 87.771H1253.34V549.325H1208.42C1208.42 549.325 1127.74 456.748 1114.22 334.051C1103.42 236.019 1127.74 87.771 1127.74 87.771Z"
           fill="url(#paint1_linear_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
         <path
           d="M1197.51 92.2012H1304.29V553.755H1222.37C1222.37 553.755 1181.23 402.691 1174.83 314.119C1163.57 158.201 1197.51 92.2012 1197.51 92.2012Z"
@@ -46,7 +46,7 @@ const TopCurtain: FC<{
         <path
           d="M1197.11 1134.02H1296.08V537.808H1220.15C1220.15 537.808 1182.03 732.944 1176.09 847.357C1165.65 1048.76 1197.11 1134.02 1197.11 1134.02Z"
           fill="url(#paint3_linear_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
       </g>
       <mask
@@ -75,7 +75,7 @@ const TopCurtain: FC<{
         <path
           d="M91.4705 87.771H-34.1291V549.325H10.7902C10.7902 549.325 91.4706 456.748 104.99 334.051C115.792 236.019 91.4705 87.771 91.4705 87.771Z"
           fill="url(#paint5_linear_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
         <path
           d="M21.6987 92.2012H-85.076V553.755H-3.15998C-3.15998 553.755 37.9762 402.691 44.3767 314.119C55.6438 158.201 21.6987 92.2012 21.6987 92.2012Z"
@@ -84,7 +84,7 @@ const TopCurtain: FC<{
         <path
           d="M22.0985 1134.02H-76.8686V537.808H-0.942402C-0.942402 537.808 37.1858 732.944 43.1183 847.357C53.5615 1048.76 22.0985 1134.02 22.0985 1134.02Z"
           fill="url(#paint7_linear_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
       </g>
       <mask
@@ -117,7 +117,7 @@ const TopCurtain: FC<{
         <path
           d="M629.145 159.043C879.329 159.254 1060.78 -113.978 1060.78 -113.978C1060.78 -113.978 812.969 60.0727 629.145 59.8688C445.774 59.6654 198.779 -113.978 198.779 -113.978C198.779 -113.978 379.294 158.832 629.145 159.043Z"
           fill="url(#paint10_radial_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
       </g>
       <mask
@@ -154,7 +154,7 @@ const TopCurtain: FC<{
         <path
           d="M1143.47 142.073C903.517 142.307 729.488 -160.01 729.488 -160.01C729.488 -160.01 978.284 -77.1277 1142.87 -77.1277C1307.45 -77.1277 1556.24 -160.01 1556.24 -160.01C1556.24 -160.01 1383.11 141.84 1143.47 142.073Z"
           fill="url(#paint12_linear_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
         <path
           d="M1213.42 80.421C973.466 80.6544 799.437 -221.662 799.437 -221.662C799.437 -221.662 1048.23 -138.78 1212.81 -138.78C1377.4 -138.78 1626.19 -221.662 1626.19 -221.662C1626.19 -221.662 1453.06 80.1879 1213.42 80.421Z"
@@ -199,7 +199,7 @@ const TopCurtain: FC<{
         <path
           d="M75.7408 142.073C315.696 142.307 489.725 -160.01 489.725 -160.01C489.725 -160.01 240.929 -77.1277 76.3478 -77.1277C-88.2336 -77.1277 -337.029 -160.01 -337.029 -160.01C-337.029 -160.01 -163.895 141.84 75.7408 142.073Z"
           fill="url(#paint15_linear_7359_7173)"
-          fill-opacity="0.73"
+          fillOpacity="0.73"
         />
         <path
           d="M5.7916 80.421C245.747 80.6544 419.776 -221.662 419.776 -221.662C419.776 -221.662 170.98 -138.78 6.39862 -138.78C-158.183 -138.78 -406.979 -221.662 -406.979 -221.662C-406.979 -221.662 -233.844 80.1879 5.7916 80.421Z"
@@ -219,8 +219,8 @@ const TopCurtain: FC<{
           y2="517.647"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#364FB0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#364FB0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7359_7173"
@@ -230,8 +230,8 @@ const TopCurtain: FC<{
           y2="523.476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#364FB0" stop-opacity="0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#364FB0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7359_7173"
@@ -241,8 +241,8 @@ const TopCurtain: FC<{
           y2="526.956"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#364FB0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#364FB0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7359_7173"
@@ -252,8 +252,8 @@ const TopCurtain: FC<{
           y2="538.316"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#364FB0" stop-opacity="0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#364FB0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7359_7173"
@@ -263,8 +263,8 @@ const TopCurtain: FC<{
           y2="517.647"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#364FB0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#364FB0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7359_7173"
@@ -274,8 +274,8 @@ const TopCurtain: FC<{
           y2="523.476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#364FB0" stop-opacity="0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#364FB0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7359_7173"
@@ -285,8 +285,8 @@ const TopCurtain: FC<{
           y2="526.956"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#364FB0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#364FB0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7359_7173"
@@ -296,8 +296,8 @@ const TopCurtain: FC<{
           y2="538.316"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="1" stop-color="#364FB0" stop-opacity="0" />
+          <stop stopColor="#042284" />
+          <stop offset="1" stopColor="#364FB0" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7359_7173"
@@ -307,9 +307,9 @@ const TopCurtain: FC<{
           y2="4.43447"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FEE" />
-          <stop offset="1" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#477BCA" />
+          <stop stopColor="#499FEE" />
+          <stop offset="1" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#477BCA" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7359_7173"
@@ -319,9 +319,9 @@ const TopCurtain: FC<{
           y2="309.515"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#364FB0" />
-          <stop offset="0.517684" stop-color="#477BCA" />
-          <stop offset="1" stop-color="#499FEE" />
+          <stop stopColor="#364FB0" />
+          <stop offset="0.517684" stopColor="#477BCA" />
+          <stop offset="1" stopColor="#499FEE" />
         </linearGradient>
         <radialGradient
           id="paint10_radial_7359_7173"
@@ -331,8 +331,8 @@ const TopCurtain: FC<{
           gradientTransform="matrix(449.201 -243.03 355.625 509.728 629.778 159.043)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0.1" />
-          <stop offset="1" stop-color="#042284" stop-opacity="0.62" />
+          <stop stopColor="#042284" stopOpacity="0.1" />
+          <stop offset="1" stopColor="#042284" stopOpacity="0.62" />
         </radialGradient>
         <linearGradient
           id="paint11_linear_7359_7173"
@@ -342,9 +342,9 @@ const TopCurtain: FC<{
           y2="-7.55407"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FEE" />
-          <stop offset="0.498172" stop-color="#477BCA" />
-          <stop offset="1" stop-color="#364FB0" />
+          <stop stopColor="#499FEE" />
+          <stop offset="0.498172" stopColor="#477BCA" />
+          <stop offset="1" stopColor="#364FB0" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7359_7173"
@@ -354,8 +354,8 @@ const TopCurtain: FC<{
           y2="112.749"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#3958B5" stop-opacity="0" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#3958B5" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7359_7173"
@@ -365,9 +365,9 @@ const TopCurtain: FC<{
           y2="4.22922"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FEE" />
-          <stop offset="0.618828" stop-color="#477BCA" />
-          <stop offset="1" stop-color="#364FB0" />
+          <stop stopColor="#499FEE" />
+          <stop offset="0.618828" stopColor="#477BCA" />
+          <stop offset="1" stopColor="#364FB0" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7359_7173"
@@ -377,9 +377,9 @@ const TopCurtain: FC<{
           y2="-7.55407"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FEE" />
-          <stop offset="0.498172" stop-color="#477BCA" />
-          <stop offset="1" stop-color="#364FB0" />
+          <stop stopColor="#499FEE" />
+          <stop offset="0.498172" stopColor="#477BCA" />
+          <stop offset="1" stopColor="#364FB0" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7359_7173"
@@ -389,8 +389,8 @@ const TopCurtain: FC<{
           y2="112.749"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#354FB0" />
-          <stop offset="1" stop-color="#3958B5" stop-opacity="0" />
+          <stop stopColor="#354FB0" />
+          <stop offset="1" stopColor="#3958B5" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7359_7173"
@@ -400,9 +400,9 @@ const TopCurtain: FC<{
           y2="4.22922"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#499FEE" />
-          <stop offset="0.618828" stop-color="#477BCA" />
-          <stop offset="1" stop-color="#364FB0" />
+          <stop stopColor="#499FEE" />
+          <stop offset="0.618828" stopColor="#477BCA" />
+          <stop offset="1" stopColor="#364FB0" />
         </linearGradient>
       </defs>
     </svg>

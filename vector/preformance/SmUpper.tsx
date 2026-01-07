@@ -131,9 +131,9 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           width="44.4428"
           height="44.4419"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -166,9 +166,9 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           width="29.8061"
           height="29.8081"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -201,9 +201,9 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           width="66.9776"
           height="66.9756"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -236,9 +236,9 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           width="35.8877"
           height="35.8877"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -271,9 +271,9 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           width="31.6499"
           height="31.6508"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -306,9 +306,9 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           width="71.2045"
           height="71.2045"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -342,8 +342,8 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           y2="80.6519"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7166_3813"
@@ -353,8 +353,8 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           y2="107.478"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7166_3813"
@@ -364,8 +364,8 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           y2="48.5343"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7166_3813"
@@ -375,8 +375,8 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           y2="24.1412"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F28041" stop-opacity="0.3" />
-          <stop offset="1" stop-color="#FAD1CF" />
+          <stop stopColor="#F28041" stopOpacity="0.3" />
+          <stop offset="1" stopColor="#FAD1CF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7166_3813"
@@ -386,8 +386,8 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           y2="183.107"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F8B043" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#F8B043" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7166_3813"
@@ -397,8 +397,8 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           y2="128.764"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AB2E2" />
-          <stop offset="1" stop-color="#FBDE8C" />
+          <stop stopColor="#7AB2E2" />
+          <stop offset="1" stopColor="#FBDE8C" />
         </linearGradient>
       </defs>
     </svg>

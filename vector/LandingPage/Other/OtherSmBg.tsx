@@ -11,7 +11,7 @@ const OtherSmBg: FC<{
       viewBox="0 0 592 1944"
       fill="none"
     >
-      <g clip-path="url(#clip0_6669_5513)">
+      <g clipPath="url(#clip0_6669_5513)">
         <g opacity="0.12">
           <rect
             x="-17.6797"
@@ -1831,7 +1831,7 @@ const OtherSmBg: FC<{
         <path
           d="M23.0372 1796.53C-7.38518 1796.46 -7.45127 1773.08 2.61232 1743.7C5.4222 1730.6 36.7148 1731.06 39.5393 1744.43C43.9156 1765.14 53.4596 1796.6 23.0372 1796.53Z"
           fill="black"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <circle
           cx="20.6637"
@@ -1885,7 +1885,7 @@ const OtherSmBg: FC<{
         <path
           d="M481.483 1796.55C451.161 1799.02 449.143 1775.74 456.717 1745.61C458.422 1732.32 489.644 1730.17 493.576 1743.25C499.667 1763.53 511.805 1794.08 481.483 1796.55Z"
           fill="black"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         />
         <circle
           cx="475.661"
@@ -1904,8 +1904,8 @@ const OtherSmBg: FC<{
           y2="1643.43"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C5A064" />
-          <stop offset="1" stop-color="#F3E09D" />
+          <stop stopColor="#C5A064" />
+          <stop offset="1" stopColor="#F3E09D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6669_5513"
@@ -1915,8 +1915,8 @@ const OtherSmBg: FC<{
           y2="1979.41"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#E5C675" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#E5C675" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6669_5513"
@@ -1926,8 +1926,8 @@ const OtherSmBg: FC<{
           y2="1926.91"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.149038" stop-color="#003B95" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop offset="0.149038" stopColor="#003B95" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6669_5513"
@@ -1937,8 +1937,8 @@ const OtherSmBg: FC<{
           y2="1923.7"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="0.850962" stop-color="#003B95" />
+          <stop stopColor="#477BCA" />
+          <stop offset="0.850962" stopColor="#003B95" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6669_5513"
@@ -1948,8 +1948,8 @@ const OtherSmBg: FC<{
           y2="1918.22"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6669_5513"
@@ -1959,8 +1959,8 @@ const OtherSmBg: FC<{
           y2="1906.75"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6669_5513"
@@ -1970,8 +1970,8 @@ const OtherSmBg: FC<{
           y2="1873.72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6669_5513"
@@ -1981,8 +1981,8 @@ const OtherSmBg: FC<{
           y2="1821.59"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="0.850962" stop-color="#003B95" />
+          <stop stopColor="#477BCA" />
+          <stop offset="0.850962" stopColor="#003B95" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6669_5513"
@@ -1992,8 +1992,8 @@ const OtherSmBg: FC<{
           y2="1818.85"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="0.850962" stop-color="#003B95" />
+          <stop stopColor="#477BCA" />
+          <stop offset="0.850962" stopColor="#003B95" />
         </linearGradient>
         <radialGradient
           id="paint9_radial_6669_5513"
@@ -2003,8 +2003,8 @@ const OtherSmBg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(20.6637 1755.22) rotate(90) scale(20.1386)"
         >
-          <stop stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#C4A062" />
+          <stop stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#C4A062" />
         </radialGradient>
         <linearGradient
           id="paint10_linear_6669_5513"
@@ -2014,8 +2014,8 @@ const OtherSmBg: FC<{
           y2="1906.32"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.149038" stop-color="#003B95" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop offset="0.149038" stopColor="#003B95" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6669_5513"
@@ -2025,8 +2025,8 @@ const OtherSmBg: FC<{
           y2="1903.34"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="0.850962" stop-color="#003B95" />
+          <stop stopColor="#477BCA" />
+          <stop offset="0.850962" stopColor="#003B95" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_6669_5513"
@@ -2036,8 +2036,8 @@ const OtherSmBg: FC<{
           y2="1899.94"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_6669_5513"
@@ -2047,8 +2047,8 @@ const OtherSmBg: FC<{
           y2="1888.61"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_6669_5513"
@@ -2058,8 +2058,8 @@ const OtherSmBg: FC<{
           y2="1858.71"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#1851A7" />
-          <stop offset="1" stop-color="#0C2478" />
+          <stop stopColor="#1851A7" />
+          <stop offset="1" stopColor="#0C2478" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_6669_5513"
@@ -2069,8 +2069,8 @@ const OtherSmBg: FC<{
           y2="1821.4"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="0.850962" stop-color="#003B95" />
+          <stop stopColor="#477BCA" />
+          <stop offset="0.850962" stopColor="#003B95" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_6669_5513"
@@ -2080,8 +2080,8 @@ const OtherSmBg: FC<{
           y2="1818.67"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#477BCA" />
-          <stop offset="0.850962" stop-color="#003B95" />
+          <stop stopColor="#477BCA" />
+          <stop offset="0.850962" stopColor="#003B95" />
         </linearGradient>
         <radialGradient
           id="paint17_radial_6669_5513"
@@ -2091,8 +2091,8 @@ const OtherSmBg: FC<{
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(475.661 1755.58) rotate(90) scale(20.1386)"
         >
-          <stop stop-color="#F3E19D" />
-          <stop offset="1" stop-color="#C4A062" />
+          <stop stopColor="#F3E19D" />
+          <stop offset="1" stopColor="#C4A062" />
         </radialGradient>
         <clipPath id="clip0_6669_5513">
           <rect width="591.25" height="1943.82" fill="white" />

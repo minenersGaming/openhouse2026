@@ -65,8 +65,8 @@ const Mdbottom: FC<{ className?: string }> = ({ className }) => {
           y2="52.4131"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7095_6335"
@@ -76,8 +76,8 @@ const Mdbottom: FC<{ className?: string }> = ({ className }) => {
           y2="52.4131"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7095_6335"
@@ -87,8 +87,8 @@ const Mdbottom: FC<{ className?: string }> = ({ className }) => {
           y2="-84.3307"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7095_6335"
@@ -98,8 +98,8 @@ const Mdbottom: FC<{ className?: string }> = ({ className }) => {
           y2="-84.3307"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" stop-opacity="0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#042284" stopOpacity="0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7095_6335"
@@ -109,8 +109,8 @@ const Mdbottom: FC<{ className?: string }> = ({ className }) => {
           y2="40.8285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#457BCA" />
-          <stop offset="1" stop-color="#3450B0" />
+          <stop stopColor="#457BCA" />
+          <stop offset="1" stopColor="#3450B0" />
         </linearGradient>
       </defs>
     </svg>

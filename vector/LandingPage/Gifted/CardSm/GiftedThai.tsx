@@ -40,8 +40,8 @@ const GiftedThai: FC<{
           <path
             d="M137.738 145.665C137.738 145.665 85.559 184.253 90.777 218.493C95.9949 252.732 159.094 247.676 155.479 284.255C153.875 300.495 137.738 321.756 137.738 321.756"
             stroke="url(#paint2_linear_7757_4655)"
-            stroke-width="6.52187"
-            stroke-linecap="round"
+            strokeWidth="6.52187"
+            strokeLinecap="round"
           />
           <path
             d="M69.1821 166.832L67.3377 151.811C66.8975 148.226 67.3054 145.432 68.5612 143.43C69.8171 141.427 71.6834 139.928 74.1601 138.93L74.2035 138.578L64.5664 136.296L64.2625 133.821C63.9411 131.204 64.4408 128.687 65.7615 126.273C67.1392 123.851 69.2805 121.769 72.1854 120.026C75.0904 118.283 78.7335 117.142 83.1149 116.605C87.098 116.115 90.7027 116.308 93.929 117.183C97.1553 118.057 99.8077 119.667 101.886 122.01C103.957 124.298 105.238 127.433 105.727 131.416L109.468 161.886L98.6283 163.217L94.9813 133.515C94.5831 130.271 93.3827 128.022 91.3802 126.766C89.3778 125.51 86.8971 125.064 83.9383 125.427C80.9794 125.79 78.7803 126.696 77.3407 128.143C75.9511 129.527 75.3112 131.136 75.421 132.971L84.1821 135.88L83.9469 141.021C81.8486 141.336 80.2608 142.282 79.1837 143.858C78.1564 145.371 77.8 147.407 78.1144 149.968L80.0217 165.501L69.1821 166.832Z"
@@ -90,7 +90,7 @@ const GiftedThai: FC<{
           <path
             d="M60.1688 218.058C60.6717 220.689 61.1442 222.827 61.692 224.559C62.4085 226.825 63.2599 228.42 64.4944 229.522C65.7312 230.626 67.3295 231.213 69.4942 231.514C71.1938 231.751 73.257 231.812 75.7902 231.801C73.3098 232.322 71.3039 232.815 69.6899 233.404C67.6348 234.153 66.1931 235.062 65.2107 236.402C64.2301 237.739 63.7259 239.478 63.4916 241.844C63.3125 243.653 63.2897 245.843 63.3396 248.522C62.8368 245.891 62.3651 243.753 61.8174 242.022C61.101 239.756 60.2496 238.161 59.015 237.059C57.7783 235.955 56.1807 235.367 54.0161 235.066C52.3161 234.829 50.2522 234.768 47.7182 234.779C50.199 234.258 52.2054 233.766 53.8195 233.177C55.8746 232.428 57.3164 231.518 58.2987 230.179C59.2793 228.842 59.7835 227.103 60.0178 224.737C60.197 222.928 60.2187 220.737 60.1688 218.058Z"
             stroke="url(#paint7_linear_7757_4655)"
-            stroke-width="0.415918"
+            strokeWidth="0.415918"
           />
           <path
             d="M188.791 155.763C170.837 157.394 169.636 158.716 168.155 178.485C166.674 158.715 165.474 157.393 147.52 155.763C165.474 154.133 166.674 152.811 168.155 133.042C169.636 152.811 170.837 154.133 188.791 155.763L188.791 155.763Z"
@@ -110,9 +110,9 @@ const GiftedThai: FC<{
           width="152.97"
           height="93.8438"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -145,9 +145,9 @@ const GiftedThai: FC<{
           width="229.41"
           height="405.376"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -180,9 +180,9 @@ const GiftedThai: FC<{
           width="202.98"
           height="373.391"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -215,9 +215,9 @@ const GiftedThai: FC<{
           width="151.938"
           height="219.623"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -251,9 +251,9 @@ const GiftedThai: FC<{
           y2="-6.16542"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.0917226" stop-color="#F3E19D" />
-          <stop offset="0.530182" stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop offset="0.0917226" stopColor="#F3E19D" />
+          <stop offset="0.530182" stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7757_4655"
@@ -263,9 +263,9 @@ const GiftedThai: FC<{
           y2="-9.50355"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#042284" />
-          <stop offset="0.579478" stop-color="#3450B0" />
-          <stop offset="1" stop-color="#457BCA" />
+          <stop stopColor="#042284" />
+          <stop offset="0.579478" stopColor="#3450B0" />
+          <stop offset="1" stopColor="#457BCA" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7757_4655"
@@ -275,10 +275,10 @@ const GiftedThai: FC<{
           y2="323.291"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7757_4655"
@@ -288,10 +288,10 @@ const GiftedThai: FC<{
           y2="184.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7757_4655"
@@ -301,10 +301,10 @@ const GiftedThai: FC<{
           y2="322.295"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7757_4655"
@@ -314,10 +314,10 @@ const GiftedThai: FC<{
           y2="259.837"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7757_4655"
@@ -327,10 +327,10 @@ const GiftedThai: FC<{
           y2="250.337"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7757_4655"
@@ -340,10 +340,10 @@ const GiftedThai: FC<{
           y2="250.337"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7757_4655"
@@ -353,10 +353,10 @@ const GiftedThai: FC<{
           y2="179.54"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F5F9CD" />
-          <stop offset="0.3" stop-color="#FFDD77" />
-          <stop offset="0.542226" stop-color="#F5F9CD" />
-          <stop offset="0.943534" stop-color="#FFDD77" />
+          <stop stopColor="#F5F9CD" />
+          <stop offset="0.3" stopColor="#FFDD77" />
+          <stop offset="0.542226" stopColor="#F5F9CD" />
+          <stop offset="0.943534" stopColor="#FFDD77" />
         </linearGradient>
       </defs>
     </svg>

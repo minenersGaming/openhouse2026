@@ -386,8 +386,8 @@ const ClubsLgComet: FC<{
           y2="359.231"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_7095_4889"
@@ -397,8 +397,8 @@ const ClubsLgComet: FC<{
           y2="348.175"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_7095_4889"
@@ -408,8 +408,8 @@ const ClubsLgComet: FC<{
           y2="295.928"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_7095_4889"
@@ -419,8 +419,8 @@ const ClubsLgComet: FC<{
           y2="284.579"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_7095_4889"
@@ -430,8 +430,8 @@ const ClubsLgComet: FC<{
           y2="415.427"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_7095_4889"
@@ -441,8 +441,8 @@ const ClubsLgComet: FC<{
           y2="399.034"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_7095_4889"
@@ -452,8 +452,8 @@ const ClubsLgComet: FC<{
           y2="467.359"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_7095_4889"
@@ -463,8 +463,8 @@ const ClubsLgComet: FC<{
           y2="452.187"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_7095_4889"
@@ -474,8 +474,8 @@ const ClubsLgComet: FC<{
           y2="290.403"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_7095_4889"
@@ -485,8 +485,8 @@ const ClubsLgComet: FC<{
           y2="282.326"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_7095_4889"
@@ -496,8 +496,8 @@ const ClubsLgComet: FC<{
           y2="566.995"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5C675" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#E5C675" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_7095_4889"
@@ -507,8 +507,8 @@ const ClubsLgComet: FC<{
           y2="559.52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_7095_4889"
@@ -518,8 +518,8 @@ const ClubsLgComet: FC<{
           y2="265.288"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_7095_4889"
@@ -529,8 +529,8 @@ const ClubsLgComet: FC<{
           y2="265.288"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_7095_4889"
@@ -540,8 +540,8 @@ const ClubsLgComet: FC<{
           y2="308.007"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_7095_4889"
@@ -551,8 +551,8 @@ const ClubsLgComet: FC<{
           y2="253.549"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_7095_4889"
@@ -562,8 +562,8 @@ const ClubsLgComet: FC<{
           y2="265.582"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_7095_4889"
@@ -573,8 +573,8 @@ const ClubsLgComet: FC<{
           y2="277.023"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_7095_4889"
@@ -584,8 +584,8 @@ const ClubsLgComet: FC<{
           y2="202.496"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_7095_4889"
@@ -595,8 +595,8 @@ const ClubsLgComet: FC<{
           y2="148.038"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_7095_4889"
@@ -606,8 +606,8 @@ const ClubsLgComet: FC<{
           y2="160.078"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_7095_4889"
@@ -617,8 +617,8 @@ const ClubsLgComet: FC<{
           y2="171.52"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_7095_4889"
@@ -628,8 +628,8 @@ const ClubsLgComet: FC<{
           y2="535.299"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_7095_4889"
@@ -639,8 +639,8 @@ const ClubsLgComet: FC<{
           y2="545.715"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_7095_4889"
@@ -650,8 +650,8 @@ const ClubsLgComet: FC<{
           y2="337.201"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_7095_4889"
@@ -661,8 +661,8 @@ const ClubsLgComet: FC<{
           y2="286.464"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_7095_4889"
@@ -672,8 +672,8 @@ const ClubsLgComet: FC<{
           y2="297.716"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_7095_4889"
@@ -683,8 +683,8 @@ const ClubsLgComet: FC<{
           y2="308.376"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_7095_4889"
@@ -694,8 +694,8 @@ const ClubsLgComet: FC<{
           y2="540.598"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_7095_4889"
@@ -705,8 +705,8 @@ const ClubsLgComet: FC<{
           y2="540.598"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_7095_4889"
@@ -716,8 +716,8 @@ const ClubsLgComet: FC<{
           y2="508.783"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#7AC4ED" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#7AC4ED" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_7095_4889"
@@ -727,8 +727,8 @@ const ClubsLgComet: FC<{
           y2="508.783"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_7095_4889"
@@ -738,8 +738,8 @@ const ClubsLgComet: FC<{
           y2="415.271"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_7095_4889"
@@ -749,8 +749,8 @@ const ClubsLgComet: FC<{
           y2="368.312"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_7095_4889"
@@ -760,8 +760,8 @@ const ClubsLgComet: FC<{
           y2="378.688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_7095_4889"
@@ -771,8 +771,8 @@ const ClubsLgComet: FC<{
           y2="388.553"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C3" />
-          <stop offset="1" stop-color="#FBD1CF" />
+          <stop stopColor="#F4F2C3" />
+          <stop offset="1" stopColor="#FBD1CF" />
         </linearGradient>
       </defs>
     </svg>

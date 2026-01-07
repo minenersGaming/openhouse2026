@@ -46,8 +46,8 @@ const ProgrammeLg: FC<{
           y2="911.54"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F7E49F" stop-opacity="0" />
-          <stop offset="1" stop-color="#F7E49F" />
+          <stop stopColor="#F7E49F" stopOpacity="0" />
+          <stop offset="1" stopColor="#F7E49F" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_5907_2805"
@@ -57,9 +57,9 @@ const ProgrammeLg: FC<{
           y2="911.707"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.572115" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.572115" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_5907_2805"
@@ -69,9 +69,9 @@ const ProgrammeLg: FC<{
           y2="911.707"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0B1855" />
-          <stop offset="0.572115" stop-color="#042284" />
-          <stop offset="1" stop-color="#0B1855" />
+          <stop stopColor="#0B1855" />
+          <stop offset="0.572115" stopColor="#042284" />
+          <stop offset="1" stopColor="#0B1855" />
         </linearGradient>
       </defs>
     </svg>

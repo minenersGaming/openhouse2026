@@ -286,9 +286,9 @@ const CloudAndMoon: FC<{
           width="787.897"
           height="787.896"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -307,9 +307,9 @@ const CloudAndMoon: FC<{
           width="189.049"
           height="209.524"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -342,9 +342,9 @@ const CloudAndMoon: FC<{
           width="189.049"
           height="209.524"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -377,9 +377,9 @@ const CloudAndMoon: FC<{
           width="131.692"
           height="145.957"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -412,9 +412,9 @@ const CloudAndMoon: FC<{
           width="131.692"
           height="145.957"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -448,8 +448,8 @@ const CloudAndMoon: FC<{
           y2="1545.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" stop-opacity="0.43" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="#F4F2C4" stopOpacity="0.43" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_6642_6820"
@@ -459,8 +459,8 @@ const CloudAndMoon: FC<{
           y2="1515.82"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F4F2C4" stop-opacity="0.43" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="#F4F2C4" stopOpacity="0.43" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_6642_6820"
@@ -470,7 +470,7 @@ const CloudAndMoon: FC<{
           y2="744.565"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.710846" stop-color="white" />
+          <stop offset="0.710846" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_6642_6820"
@@ -480,8 +480,8 @@ const CloudAndMoon: FC<{
           y2="752.905"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#FFF5C3" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#FFF5C3" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_6642_6820"
@@ -491,9 +491,9 @@ const CloudAndMoon: FC<{
           y2="662.06"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.52741" stop-color="#F4F2C4" />
-          <stop offset="1" stop-color="#F3E19D" />
+          <stop stopColor="white" />
+          <stop offset="0.52741" stopColor="#F4F2C4" />
+          <stop offset="1" stopColor="#F3E19D" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_6642_6820"
@@ -503,9 +503,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_6642_6820"
@@ -515,9 +515,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_6642_6820"
@@ -527,9 +527,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_6642_6820"
@@ -539,9 +539,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_6642_6820"
@@ -551,9 +551,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_6642_6820"
@@ -563,9 +563,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_6642_6820"
@@ -575,9 +575,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_6642_6820"
@@ -587,9 +587,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_6642_6820"
@@ -599,9 +599,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_6642_6820"
@@ -611,9 +611,9 @@ const CloudAndMoon: FC<{
           y2="757.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_6642_6820"
@@ -623,9 +623,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_6642_6820"
@@ -635,9 +635,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_6642_6820"
@@ -647,9 +647,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_6642_6820"
@@ -659,9 +659,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_6642_6820"
@@ -671,9 +671,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_6642_6820"
@@ -683,9 +683,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_6642_6820"
@@ -695,9 +695,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_6642_6820"
@@ -707,9 +707,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_6642_6820"
@@ -719,9 +719,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_6642_6820"
@@ -731,9 +731,9 @@ const CloudAndMoon: FC<{
           y2="924.133"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#7AC4ED" />
-          <stop offset="0.422869" stop-color="#364FB0" />
-          <stop offset="1" stop-color="#042284" />
+          <stop stopColor="#7AC4ED" />
+          <stop offset="0.422869" stopColor="#364FB0" />
+          <stop offset="1" stopColor="#042284" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_6642_6820"
@@ -743,9 +743,9 @@ const CloudAndMoon: FC<{
           y2="62.8476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_6642_6820"
@@ -755,9 +755,9 @@ const CloudAndMoon: FC<{
           y2="62.8476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_6642_6820"
@@ -767,9 +767,9 @@ const CloudAndMoon: FC<{
           y2="62.8476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_6642_6820"
@@ -779,9 +779,9 @@ const CloudAndMoon: FC<{
           y2="62.8476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_6642_6820"
@@ -791,9 +791,9 @@ const CloudAndMoon: FC<{
           y2="62.8476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_6642_6820"
@@ -803,9 +803,9 @@ const CloudAndMoon: FC<{
           y2="62.8476"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_6642_6820"
@@ -815,9 +815,9 @@ const CloudAndMoon: FC<{
           y2="1179.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_6642_6820"
@@ -827,9 +827,9 @@ const CloudAndMoon: FC<{
           y2="1179.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_6642_6820"
@@ -839,9 +839,9 @@ const CloudAndMoon: FC<{
           y2="1179.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_6642_6820"
@@ -851,9 +851,9 @@ const CloudAndMoon: FC<{
           y2="1179.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_6642_6820"
@@ -863,9 +863,9 @@ const CloudAndMoon: FC<{
           y2="1179.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_6642_6820"
@@ -875,9 +875,9 @@ const CloudAndMoon: FC<{
           y2="1179.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_6642_6820"
@@ -887,9 +887,9 @@ const CloudAndMoon: FC<{
           y2="1297.93"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_6642_6820"
@@ -899,9 +899,9 @@ const CloudAndMoon: FC<{
           y2="1297.93"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_6642_6820"
@@ -911,9 +911,9 @@ const CloudAndMoon: FC<{
           y2="1297.93"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_6642_6820"
@@ -923,9 +923,9 @@ const CloudAndMoon: FC<{
           y2="1297.93"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_6642_6820"
@@ -935,9 +935,9 @@ const CloudAndMoon: FC<{
           y2="1297.93"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_6642_6820"
@@ -947,9 +947,9 @@ const CloudAndMoon: FC<{
           y2="1297.93"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_6642_6820"
@@ -959,9 +959,9 @@ const CloudAndMoon: FC<{
           y2="688.631"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_6642_6820"
@@ -971,9 +971,9 @@ const CloudAndMoon: FC<{
           y2="688.631"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_6642_6820"
@@ -983,9 +983,9 @@ const CloudAndMoon: FC<{
           y2="688.631"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_6642_6820"
@@ -995,9 +995,9 @@ const CloudAndMoon: FC<{
           y2="688.631"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_6642_6820"
@@ -1007,9 +1007,9 @@ const CloudAndMoon: FC<{
           y2="688.631"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_6642_6820"
@@ -1019,9 +1019,9 @@ const CloudAndMoon: FC<{
           y2="688.631"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F9D2CF" />
-          <stop stop-color="#F9D2CF" />
-          <stop offset="1" stop-color="#F4F2C4" />
+          <stop stopColor="#F9D2CF" />
+          <stop stopColor="#F9D2CF" />
+          <stop offset="1" stopColor="#F4F2C4" />
         </linearGradient>
       </defs>
     </svg>
