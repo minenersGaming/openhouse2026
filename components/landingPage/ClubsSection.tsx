@@ -6,6 +6,8 @@ import ClubsSmPillar from "@/vector/LandingPage/Clubs/ClubsSmPillar";
 import ClubsSmMoon from "@/vector/LandingPage/Clubs/ClubsSmMoon";
 import ClubsSmComet from "@/vector/LandingPage/Clubs/ClubsSmComet";
 
+import Link from "next/link";
+
 const ClubsSection = () => {
   return (
     <section
@@ -16,13 +18,13 @@ const ClubsSection = () => {
         <div className="relative z-6 w-full flex justify-center ">
           <ClubsLgComet className="absolute w-full" />
         </div>
-        <a
+        <Link
           href="./clubs"
           target="_blank"
           className=" relative z-7 w-full h-full flex justify-center "
         >
           <ClubsLgMoon className="rounded-full duration-500 absolute w-[75%] translate-y-[7%] hover:translate-y-[5%] hover:scale-103 transition-all " />
-        </a>
+        </Link>
 
         <ClubsLgPillar className="w-full relative z-67 pointer-events-none" />
 
@@ -35,13 +37,12 @@ const ClubsSection = () => {
         <div className="relative z-6 w-full flex justify-center ">
           <ClubsSmComet className="absolute w-full" />
         </div>
-        <a
+        <Link
           href="./clubs"
-          target="_blank"
           className="relative z-7 w-full h-full flex justify-center "
         >
           <ClubsSmMoon className="duration-500 absolute w-[140%] translate-y-[20%] hover:translate-y-[18%] hover:scale-103 transition-all " />
-        </a>
+        </Link>
         <ClubsSmPillar className="w-full relative z-67 pointer-events-none" />
         <div className="relative  z-6969 w-full ">
           <div className="bg-transparent absolute z-6767 -translate-y-[72%]  h-[80vw]   w-full "></div>
