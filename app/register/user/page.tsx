@@ -7,12 +7,8 @@ import { signOut } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 import BigRegisterBg from "@/vector/register/BigRegisterBg";
 import SmallRegisterBg from "@/vector/register/SmallRegisterBg";
-import { Noto_Sans_Thai } from "next/font/google";
+import { callAPI } from "@/utils/callAPI";
 
-const NotoSansThai = Noto_Sans_Thai({
-  variable: "--font-noto-sans-thai",
-  subsets: ["thai", "latin"],
-});
 const receivedInfoOptions = [
   { label: "Facebook Page: Triam Udom Open House", value: "fb" },
   { label: "Instagram: @triamudom.oph / @tucmc_official", value: "ig" },
@@ -24,6 +20,7 @@ const receivedInfoOptions = [
   { label: "ผู้ปกครอง", value: "parent" },
   { label: "โรงเรียน", value: "school" },
 ];
+
 const purposeOptions = [
   {
     label: "หาข้อมูลการสอบเข้าโรงเรียนเตรียมอุดมศึกษา",
@@ -47,6 +44,7 @@ const purposeOptions = [
   },
   { label: "อื่น ๆ โปรดระบุ:", value: "อื่นๆ:" },
 ];
+
 interface RegisterFormValues {
   username: string;
   fullname: string;
@@ -92,20 +90,16 @@ const container = {
   innerBox: "",
 };
 async function registerUser(values: RegisterFormValues) {
-  const res = await fetch("/api/register", {
+  const response = await callAPI("/register", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(values),
+    data: values,
   });
 
-  if (!res.ok) {
-    const error = await res.json();
-    throw new Error(error.error || "Failed to register");
+  if (response.error) {
+    throw new Error(response.error);
   }
 
-  return res.json();
+  return response.data;
 }
 const RegisterPage = () => {
   const router = useRouter();
@@ -113,13 +107,14 @@ const RegisterPage = () => {
   const mutation = useMutation({
     mutationFn: registerUser,
     onSuccess: () => {
-      toast.success("Registration successful 🎉");
+      toast.success("ลงทะเบียนสำเร็จ");
       router.push("/ticket");
     },
     onError: (error: Error) => {
-      toast.error(error.message || "Something went wrong");
+      toast.error(error.message || "เกิดข้อผิดพลาด กรุณาติดต่อกช.");
     },
   });
+
   const formik = useFormik<RegisterFormValues>({
     initialValues: {
       username: "",
@@ -132,7 +127,6 @@ const RegisterPage = () => {
       purpose: [],
     },
     onSubmit: (values) => {
-      console.log(values);
       mutation.mutate(values);
     },
   });

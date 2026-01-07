@@ -7,25 +7,25 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "firebasestorage.googleapis.com",
-        port: "",
+        port: "**",
       },
       {
         protocol: "https",
         hostname: "i.imgur.com",
-        port: "",
+        port: "**",
       },
       {
         protocol: "https",
         hostname: "i.im.ge",
-        port: "",
+        port: "**",
       },
       {
         protocol: "https",
         hostname: "static-clubreg.tucm.cc",
-        port: "",
+        port: "**",
       }
     ]
   }
 };
 
-export default nextConfig;
+export default nextConfig

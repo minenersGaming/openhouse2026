@@ -31,6 +31,6 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "app/not-found.tsx"
-  ],
+],
   "exclude": ["node_modules"]
 }
