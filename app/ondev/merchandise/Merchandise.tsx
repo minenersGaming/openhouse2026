@@ -22,10 +22,30 @@ const ImgData = [
 ];
 
 const TextData = [
-  ["KEYCHAIN", "SUBTITLE1", "67", "งานเริ่มไฟไหม้อีกละ"],
-  ["ANSWER BOOK", "SUBTITLE2", "67", "งานเริ่มไฟไหม้อีกละ"],
-  ["POSTCARD", "SUBTITLE3", "67", "งานเริ่มไฟไหม้อีกละ"],
-  ["STICKER", "SUBTITLE4", "67", "งานเริ่มไฟไหม้อีกละ"],
+  [
+    "KEYCHAIN",
+    "",
+    "67",
+    'พวงกุญแจ The Castle of Countless Legacies  ปราสาทแห่งนี้ไม่ใช่เพียงสถานที่เก็บเรื่องราว แต่ยังเป็น "สิ่งเตือนใจ" ซึ่งสามารถห้อยติดตัวไปได้ทุกที่ !',
+  ],
+  [
+    "ANSWER BOOK",
+    "",
+    "67",
+    "สมุดฝนคำตอบที่จะช่วยพาคุณไปสู่เป้าหมายที่ตั้งไว้ ! ซ้อมมือก่อนลงสนามจริงกับ Answer Sheet และวางแผนอย่างเป็นระบบลงใน Planner",
+  ],
+  [
+    "POSTCARD",
+    "",
+    "67",
+    '3 ลาย ที่มาในธีม "ปราสาทร้อยเรื่องราว" ปราสาทที่ดำรงมากว่า 88 ปี และเรียงร้อยเรื่องราวล้ำค่าไว้ ',
+  ],
+  [
+    "STICKER",
+    "",
+    "67",
+    "ลายสิ่งของและน้องแมวในปราสาทร้อยเรื่องราว ที่นอกจากจะน่ารักแล้ว ยังเล่นแสงอีกด้วย !",
+  ],
 ];
 
 const RecommendBar = [
@@ -56,8 +76,8 @@ export default function Merchandise() {
     return (
       <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3] flex flex-col justify-center  items-center">
         <Beam className="absolute h-full right-0" />
-        <div className="py-20 md:py-[10%] w-[90vw] md:w-[50vw] z-67">
-          <div className="flex w-full flex-row justify-start items-center">
+        <div className="py-20 md:py-[10%] w-[90vw] md:w-[50vw] z-67 md:-translate-x-[20%] intro-fade-down">
+          <div className="flex w-full flex-row justify-start items-center ">
             <a
               href="./merchandise?item=none"
               className=" flex flex-row justify-start items-center hover:scale-110 transition-all duration-400"
@@ -71,13 +91,13 @@ export default function Merchandise() {
               <div className="flex flex-row justify-between items-center w-full mt-[10%] mb-[4%]">
                 <p
                   onClick={prevPage}
-                  className="text-2xl cursor-pointer md:text-4xl opacity-51 font-bold text-[#04217F]"
+                  className="text-4xl cursor-pointer md:text-4xl opacity-51 font-bold text-[#04217F] w-[9vw]"
                 >
-                  {page === 0 ? " " : "<"}
+                  {page === 0 ? "  " : "<"}
                 </p>
 
                 {/* CAROUSEL */}
-                <div className="overflow-hidden w-[70vw] md:w-[30vw] mx-2">
+                <div className="overflow-hidden rounded-[20px] w-[70vw] md:w-[30vw] mx-2">
                   <div
                     className="flex transition-transform duration-500 ease-in-out"
                     style={{
@@ -88,7 +108,7 @@ export default function Merchandise() {
                       <img
                         key={i}
                         src={img}
-                        className="w-[70vw] md:w-[30vw] rounded-[20px] aspect-square shrink-0"
+                        className="w-[70vw] md:w-[30vw] aspect-square shrink-0"
                       />
                     ))}
                   </div>
@@ -96,13 +116,13 @@ export default function Merchandise() {
 
                 <p
                   onClick={nextPage}
-                  className="text-2xl md:text-4xl opacity-51 cursor-pointer font-bold text-[#04217F]"
+                  className="text-4xl text-end md:text-4xl opacity-51 cursor-pointer font-bold text-[#04217F] w-[9vw]"
                 >
-                  {page === 2 ? " " : ">"}
+                  {page === 2 ? "  " : ">"}
                 </p>
               </div>
 
-              <div className="flex flex-col w-[75vw] md:w-97/100  p-2 pl-5">
+              <div className="flex flex-col w-[90vw] md:w-97/100  p-2 pl-5">
                 <div className="flex flex-row justify-between w-full">
                   <p className="text-[#04217F] text-xl sm:text-3xl md:text-4xl font-bold font-noto-sans-thai">
                     {TextData[Number(params)][0]}
@@ -111,17 +131,14 @@ export default function Merchandise() {
                     TextData[Number(params)][2]
                   }`}</p>
                 </div>
-                <p className="text-[#04217F] text-sm sm:text-lg md:text-xl font-bold font-noto-sans-thai ">
-                  {TextData[Number(params)][1]}
-                </p>
               </div>
-              <div className="text-[#04217F] mt-1 ml-[3%] md:-ml-[-2.9%] w-[40vw] items-start">
+              <div className="text-[#04217F] mt-1 ml-[3%] md:-ml-[-2.9%] md:w-[40vw] items-start">
                 <p className="text-xs font-normal sm:text-md md:text-lg font-noto-sans-thai">
                   {TextData[Number(params)][3]}
                 </p>
               </div>
             </div>
-            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mt-[6%]">
+            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mt-[6%] md:translate-x-[12vw]">
               <p className="font-medium text-sm md:text-[13px] lg:text-xl py-1 md:py-3 text-[#04217F] ">
                 สินค้าอื่น ๆ
               </p>
@@ -170,7 +187,7 @@ export default function Merchandise() {
             บริเวณหน้าตึก 80 ปี
           </p>
         </div>
-        <div className="flex flex-col md:flex-row space-x-4  md:space-y-0 space-y-2 mt-4 intro-fade-down">
+        <div className="flex flex-col md:flex-row space-x-4 md:space-y-0 space-y-2 mt-4 intro-fade-down">
           <Box
             img={ImgData[0][0]}
             head={TextData[0][0]}

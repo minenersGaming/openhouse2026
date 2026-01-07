@@ -8,16 +8,17 @@ import ArtsEs from "@/vector/LandingPage/Programme/CardLg/ArtsEs";
 import ArtsMath from "@/vector/LandingPage/Programme/CardLg/ArtsMath";
 import ProgramsLgBg from "@/vector/LandingPage/Programme/ProgramsLgBg";
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
+import P from "@/vector/directions/P";
 const LgFlex = "-space-y-[35%] -translate-y-[11%]";
 const Banner =
-  "hover:scale-105 duration-400 cursor-pointer transition-all -translate-x-[17%] -translate-y-[150%] w-[22vw] ";
+  "hover:scale-105 duration-400 cursor-pointer transition-all -translate-x-[16.1%] -translate-y-[150%] w-[22vw] ";
 const HongChueatIT = () => {
   return (
     <>
       <div className="h-70 flex flex-col justify-center  bg-pink-400">
-        <marquee className="text-9xl  flex flex-col justify-center font-bold w-full items-center text-white">
+        <p className="text-9xl  flex flex-col justify-center font-bold w-full items-center text-white">
           รัก กช.
-        </marquee>
+        </p>
       </div>
       <section
         id="program"
@@ -37,29 +38,45 @@ const HongChueatIT = () => {
             <div className="h-full">
               <ProgrammeLg className="h-3/4" />
               <div className={LgFlex}>
-                <SciMath className={Banner} />
-                <ArtsMath className={Banner} />
+                <div>
+                  <SciMath className={Banner} />
+                </div>
+                <div>
+                  <ArtsMath className={Banner} />
+                </div>
               </div>
             </div>
             <div className="h-full space-x-[5%]">
               <ProgrammeLg className="h-3/4" />
               <div className={LgFlex}>
-                <ArtsFr className={Banner} />
-                <ArtsDe className={Banner} />
+                <div>
+                  <ArtsFr className={Banner} />
+                </div>
+                <div>
+                  <ArtsDe className={Banner} />
+                </div>
               </div>
             </div>
             <div className="h-full space-x-[5%]">
               <ProgrammeLg className="h-3/4" />
               <div className={LgFlex}>
-                <ArtJp className={Banner} />
-                <ArtsEs className={Banner} />
+                <div>
+                  <ArtJp className={Banner} />
+                </div>
+                <div>
+                  <ArtsEs className={Banner} />
+                </div>
               </div>
             </div>
             <div className="h-full space-x-[5%]">
               <ProgrammeLg className="h-3/4" />
               <div className={LgFlex}>
-                <ArtsCn className={Banner} />
-                <ArtsKr className={Banner} />
+                <div>
+                  <ArtsCn className={Banner} />
+                </div>
+                <div>
+                  <ArtsKr className={Banner} />
+                </div>
               </div>
             </div>
           </div>
@@ -68,9 +85,9 @@ const HongChueatIT = () => {
         {/*ends here**/}
       </section>
       <div className="h-70 flex flex-col justify-center  items-center bg-pink-400">
-        <marquee className="text-9xl flex flex-col justify-center font-bold w-full items-center text-white">
+        <p className="text-9xl flex flex-col justify-center font-bold w-full items-center text-white">
           รัก กช.
-        </marquee>
+        </p>
       </div>
     </>
   );

@@ -1,6 +1,8 @@
 import LeftPillar from "@/vector/LandingPage/Programme/LeftPillar";
 import RightPillar from "@/vector/LandingPage/Programme/RightPillar";
 
+import Link from "next/link";
+
 import SciMath from "@/vector/LandingPage/Programme/CardLg/SciMath";
 import ArtsFr from "@/vector/LandingPage/Programme/CardLg/ArtsFr";
 import ArtsKr from "@/vector/LandingPage/Programme/CardLg/ArtsKr";
@@ -114,17 +116,33 @@ const ProgrammeSection = () => {
       </div>
 
       <div className="block md:hidden">
-        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
-          <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
+        <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
+          <a href="./programs/sci-math">
+            <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
         </div>
-        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
-          <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" />
+        <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
+          <a>
+            <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
         </div>
         <div className=" w-full ">
           <ProgrammeSm className=" left-0  w-full" />
