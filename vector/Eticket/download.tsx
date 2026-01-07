@@ -14,7 +14,7 @@ const DownloadIcon: FC<{ className?: string }> = ({ className }) => {
         stroke="white"
         strokeWidth="4.72836"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

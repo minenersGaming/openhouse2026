@@ -13,14 +13,14 @@ export default function BackIcon({ className }: { className?: string }) {
         stroke="#042284"
         strokeWidth="4.00695"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M13.8389 25.4922L37.5078 25.4922M13.8389 25.4922L23.3065 34.8867M13.8389 25.4922L23.3065 16.0976"
         stroke="#042284"
         strokeWidth="4.00695"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

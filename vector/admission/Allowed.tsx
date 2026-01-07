@@ -16,7 +16,7 @@ const Allowed: FC<{
         stroke="#FDFCDA"
         strokeWidth="5.31485"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

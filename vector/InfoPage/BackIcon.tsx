@@ -16,14 +16,14 @@ const BackIcon: FC<{
         stroke="#F3ECB7"
         strokeWidth="2.06692"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M9.9582 18.8914L27.8164 18.8914M9.9582 18.8914L17.1015 26.0347M9.9582 18.8914L17.1015 11.7481"
         stroke="#F3ECB7"
         strokeWidth="2.06692"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -26,7 +26,7 @@ const Style = {
   NavIcon: "w-4 mr-3",
 };
 
-const HeaderDev = () => {
+const Header = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isWaitClose, setWaitClose] = useState(false);
   const [hidden, setHidden] = useState(false);
@@ -38,8 +38,6 @@ const HeaderDev = () => {
   const { scrollY } = useScroll();
   const [showShows, setShowShows] = useState(false)
   const arrow = `w-2 h-[2px] bg-white transition ease transform duration-300`
-
-
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious() ?? 0;
@@ -258,4 +256,4 @@ const HeaderDev = () => {
   );
 };
 
-export default HeaderDev;
+export default Header;
