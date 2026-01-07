@@ -18,6 +18,10 @@ import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
 import giftedData from "@public/data/gifted.json"
 
+export const generateStaticParams = async () => {
+  return giftedData.map((program) => ({ id: program.key }));
+}
+
 export default async function GiftedInfoPage({ params }: { params: Promise<{ id: string }> }) {
   const key = await params
   const programKey = decodeURIComponent(key.id);

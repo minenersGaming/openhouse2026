@@ -18,11 +18,15 @@ import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
 import clubData from "@public/data/clubs.json"
 
+export const generateStaticParams = async () => {
+  return clubData.map((club) => ({ id: club.key }));
+}
+
 export default async function ClubsInfoPage({ params }: { params: Promise<{ id: string }> }) {
   const key = await params
   const clubKey = decodeURIComponent(key.id);
   const data = clubData.find((club) => club.key === clubKey);
-  
+
   if (!data)
     return (
       <div className="text-center p-10">

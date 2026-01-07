@@ -18,6 +18,10 @@ import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
 import organizationData from "@public/data/organizations.json"
 
+export const generateStaticParams = async () => {
+  return organizationData.map((organization) => ({ id: organization.key }));
+}
+
 export default async function OrganizationInfoPage({ params }: { params: Promise<{ id: string }> }) {
 
   const key = await params
