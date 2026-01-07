@@ -18,6 +18,7 @@ import MapIcon from "@/vector/NavIcon/MapIcon";
 import DirectionIcon from "@/vector/NavIcon/DirectionIcon";
 import SouvenirIcon from "@/vector/NavIcon/SouvenirIcon";
 import AccountIcon from "@/vector/NavIcon/AccountIcon";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Style = {
   Link: "cursor-pointer aria-[current=page]:font-bold",
@@ -112,7 +113,7 @@ const Header = () => {
         <Link href="/clubs" className={Style.Link}>
           ชมรม
         </Link>
-        <Link href="" className={Style.Link}>
+        <Link href="/others" className={Style.Link}>
           เพิ่มเติม
         </Link>
 
