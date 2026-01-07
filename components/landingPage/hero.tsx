@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="relative -z-10">
         {/* THIS WON'T WORK  <LandingBackground className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover" />*/}
         <img
-          className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover"
+          className="hidden sm:block min-hnlm-full min-h-[70vh] bottom-0 object-cover"
           src="/LandingBg.svg"
         />
         {/* <LandingBackground className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover" /> */}

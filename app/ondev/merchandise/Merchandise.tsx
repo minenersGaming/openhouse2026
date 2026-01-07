@@ -15,10 +15,26 @@ const Samp2 =
   "https://images.emojiterra.com/google/android-12l/512px/1f62d.png";
 
 const ImgData = [
-  [SampleImg, Samp2, SampleImg],
-  [Samp2, SampleImg, SampleImg],
-  [SampleImg, SampleImg, Samp2],
-  [SampleImg, SampleImg, Samp2],
+  [
+    "/assets/images/merchandise/keychain/1.png",
+    "/assets/images/merchandise/keychain/2.jpg",
+    "/assets/images/merchandise/keychain/3.jpg",
+  ],
+  [
+    "/assets/images/merchandise/answerbook/1.jpg",
+    "/assets/images/merchandise/answerbook/2.jpg",
+    "/assets/images/merchandise/answerbook/3.jpg",
+  ],
+  [
+    "/assets/images/merchandise/postcard/1.jpg",
+    "/assets/images/merchandise/postcard/2.jpg",
+    "/assets/images/merchandise/postcard/3.jpg",
+  ],
+  [
+    "/assets/images/merchandise/sticker/1.jpg",
+    "/assets/images/merchandise/sticker/2.jpg",
+    "/assets/images/merchandise/sticker/3.jpg",
+  ],
 ];
 
 const TextData = [
@@ -91,7 +107,7 @@ export default function Merchandise() {
               <div className="flex flex-row justify-between items-center w-full mt-[10%] mb-[4%]">
                 <p
                   onClick={prevPage}
-                  className="text-4xl cursor-pointer md:text-4xl opacity-51 font-bold text-[#04217F] w-[9vw]"
+                  className="text-4xl cursor-pointer md:text-5xl opacity-51 font-bold text-[#04217F] w-[9vw]"
                 >
                   {page === 0 ? "  " : "<"}
                 </p>
@@ -108,7 +124,7 @@ export default function Merchandise() {
                       <img
                         key={i}
                         src={img}
-                        className="w-[70vw] md:w-[30vw] aspect-square shrink-0"
+                        className="object-cover w-[70vw] md:w-[30vw] aspect-square shrink-0"
                       />
                     ))}
                   </div>
@@ -116,13 +132,13 @@ export default function Merchandise() {
 
                 <p
                   onClick={nextPage}
-                  className="text-4xl text-end md:text-4xl opacity-51 cursor-pointer font-bold text-[#04217F] w-[9vw]"
+                  className="text-4xl text-end md:text-5xl opacity-51 cursor-pointer font-bold text-[#04217F] w-[9vw]"
                 >
                   {page === 2 ? "  " : ">"}
                 </p>
               </div>
 
-              <div className="flex flex-col w-[90vw] md:w-97/100  p-2 pl-5">
+              <div className="flex flex-col w-[90vw] md:w-97/100  p-2 pl-3">
                 <div className="flex flex-row justify-between w-full">
                   <p className="text-[#04217F] text-xl sm:text-3xl md:text-4xl font-bold font-noto-sans-thai">
                     {TextData[Number(params)][0]}
