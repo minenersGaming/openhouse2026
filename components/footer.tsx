@@ -95,7 +95,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className={`${Style.LinkRow}`}>
-              <Link href="#programs" className={`${Style.Link}`}>
+              <Link href="/#programs" className={`${Style.Link}`}>
                 สายการเรียน
               </Link>
               <Link href="/admission" className={`${Style.Link}`}>
@@ -103,7 +103,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className={`${Style.LinkRow}`}>
-              <Link href="#clubs" className={`${Style.Link}`}>
+              <Link href="/#clubs" className={`${Style.Link}`}>
                 ชมรม
               </Link>
               <Link href="/directions" className={`${Style.Link}`}>
