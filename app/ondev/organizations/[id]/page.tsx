@@ -1,8 +1,3 @@
-"use client";
-
-import { useParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-
 import BackIcon from "@/vector/InfoPage/BackIcon";
 import MemberIcon from "@/vector/InfoPage/MemberIcon";
 import StarBar from "@/vector/InfoPage/StarBar";
@@ -21,28 +16,14 @@ import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
+import organizationData from "@public/data/organizations.json"
 
-export default function OrganizationInfoPage() {
-  const params = useParams();
-  const router = useRouter();
-  const id = decodeURIComponent(params.id as string);
+export default async function OrganizationInfoPage({ params }: { params: Promise<{ id: string }> }) {
 
-  const [data, setData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const key = await params
+  const organizationKey = decodeURIComponent(key.id);
+  const data = organizationData.find((organization) => organization.key === organizationKey);
 
-  useEffect(() => {
-    fetch(`/api/doc/getDocument?type=organizations&key=${id}`)
-      .then((res) => res.json())
-      .then((json) => setData(json.data))
-      .finally(() => setLoading(false));
-  }, [id]);
-
-  if (loading)
-    return (
-      <div className="text-center p-10 h-screen [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
-        Loading...
-      </div>
-    );
   if (!data)
     return (
       <div className="text-center p-10">
@@ -78,7 +59,7 @@ export default function OrganizationInfoPage() {
         </a>
 
         <h1 className="text-[#F3ECB7] font-bold text-4xl lg:text-7xl max-w-[65vw] text-center px-4 mt-2">
-          {data.thainame}
+          {data.name}
         </h1>
 
         <div className="flex flex-row items-center space-x-6">
@@ -92,18 +73,18 @@ export default function OrganizationInfoPage() {
             </div>
           </div>
 
-          <div className="h-16 rounded-full bg-[#F3E29E] w-[4px]" />
+          <div className="h-16 rounded-full bg-[#F3E29E] w-1" />
 
           <div className="flex flex-col">
-            {data.ig && (
-              <span className="text-[#F3ECB7] font-light">IG: {data.ig}</span>
+            {data.contacts.ig && (
+              <span className="text-[#F3ECB7] font-light">IG: {data.contacts.ig}</span>
             )}
-            {data.fb && (
-              <span className="text-[#F3ECB7] font-light">FB: {data.fb}</span>
+            {data.contacts.fb && (
+              <span className="text-[#F3ECB7] font-light">FB: {data.contacts.fb}</span>
             )}
-            {data.others && (
+            {data.contacts.others && (
               <span className="text-[#F3ECB7] font-light">
-                อื่น ๆ : {data.others}
+                อื่น ๆ : {data.contacts.others}
               </span>
             )}
           </div>
@@ -117,38 +98,38 @@ export default function OrganizationInfoPage() {
       </div>
 
       <div className="flex flex-col items-center justify-center z-67">
-        {data.captureimg1 && (
+        {data.info.activities && (
           <InfoTemplate
             type="organization"
             item={0}
-            img={data.captureimg1}
-            imgDescription={data.descimg1}
-            text={<div dangerouslySetInnerHTML={{ __html: data.activities }} />}
+            img={data.info.activities.img}
+            imgDescription={data.info.activities.imgDescription}
+            text={data.info.activities.text}
           />
         )}
 
-        {data.captureimg2 && (
+        {data.info.positions && (
           <InfoTemplate
             type="organization"
             item={1}
-            img={data.captureimg2}
-            imgDescription={data.descimg2}
-            text={<div dangerouslySetInnerHTML={{ __html: data.position }} />}
+            img={data.info.positions.img}
+            imgDescription={data.info.positions.imgDescription}
+            text={data.info.positions.text}
           />
         )}
 
-        {data.captureimg3 && (
+        {data.info.workings && (
           <InfoTemplate
             type="organization"
             item={2}
-            img={data.captureimg3}
-            imgDescription={data.descimg3}
-            text={<div dangerouslySetInnerHTML={{ __html: data.working }} />}
+            img={data.info.workings.img}
+            imgDescription={data.info.workings.imgDescription}
+            text={data.info.workings.text}
           />
         )}
       </div>
 
-      {data.reviews?.length > 0 && (
+      {data.reviews.length > 0 && (
         <div className="w-full flex flex-col justify-center items-center mt-5">
           <div className="w-[65%] flex flex-row items-center justify-center space-x-2">
             <h2 className="font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
@@ -156,14 +137,14 @@ export default function OrganizationInfoPage() {
             </h2>
           </div>
 
-          {data.reviews.map((r: any, i: number) => (
+          {data.reviews.map((r, i) => (
             <ReviewBox
               key={i}
               name={r.nick}
               img={r.profile}
               gen={r.gen}
               ig={r.contact}
-              text={<div dangerouslySetInnerHTML={{ __html: r.content }} />}
+              text={r.content}
             />
           ))}
         </div>

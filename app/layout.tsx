@@ -8,7 +8,6 @@ import Providers from "@/components/provider";
 import {
   NotoSansThai,
   FontInter,
-  FontBaiJamjuree,
   BethanyFont,
 } from "@/config/font";
 import { getMetadata } from "@/config/metadata";

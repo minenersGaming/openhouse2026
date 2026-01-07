@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
-import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "framer-motion";
 
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
@@ -21,6 +21,7 @@ import DirectionIcon from "@/vector/NavIcon/DirectionIcon";
 import SouvenirIcon from "@/vector/NavIcon/SouvenirIcon";
 import AccountIcon from "@/vector/NavIcon/AccountIcon";
 
+
 const Style = {
   Link: "cursor-pointer aria-[current=page]:font-bold",
   NavIcon: "w-4 mr-3",
@@ -34,8 +35,12 @@ const HeaderDev = () => {
   const { data, isPending } = useSession();
   const router = useRouter();
   const [isHovering, setIsHovering] = useState(false);
-
+  const [shows, setShows] = useState(false)
   const { scrollY } = useScroll();
+  const [showShows, setShowShows] = useState(false)
+  const arrow = `w-2 h-[2px] bg-white transition ease transform duration-300`
+
+
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious() ?? 0;
@@ -106,13 +111,40 @@ const HeaderDev = () => {
         >
           หน้าแรก
         </Link>
-        <Link href="" className={Style.Link}>
-          ตารางการแสดง
-        </Link>
-        <Link href="/clubs" className={Style.Link}>
+        <div
+            className={`group relative inline-block cursor-pointer ${pathname.startsWith('/performance/lan70') || pathname.startsWith('/performance/auditorium')
+              ? 'font-semibold'
+              : ''
+              } `}
+            onMouseOver={() => setShows(true)}
+            onClick={() => setShows(true)}
+            onMouseLeave={() => setShows(false)}
+          >
+            <span>ตารางการแสดง</span>
+            <AnimatePresence>
+              {shows && (
+                <motion.div
+                  key={'dropdown'}
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute -bottom-[6.03rem] bg-[#1C3BA2] -left-4 z-20 flex w-36 cursor-pointer flex-col items-center justify-center rounded-xl bg-opacity-70"
+                >
+                  <Link href="/" className="py-2 hover:bg-opacity-100 cursor-pointer">
+                    หอประชุมฯ
+                  </Link>
+                  <div className="h-px w-full bg-white opacity-40" />
+                  <Link href="/" className="py-2 hover:bg-opacity-100 cursor-pointer">
+                    ลาน 70 ปีฯ
+                  </Link>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        <Link href="/" className={Style.Link}>
           ชมรม
         </Link>
-        <Link href="" className={Style.Link}>
+        <Link href="/" className={Style.Link}>
           เพิ่มเติม
         </Link>
         {/* {true ? ( */}
@@ -158,11 +190,49 @@ const HeaderDev = () => {
               Icon={<HomeIcon className={Style.NavIcon} />}
               text="หน้าแรก"
             />
-            <NavRow
+            {/* <NavRow
               href="/"
               Icon={<ScheduleIcon className={Style.NavIcon} />}
               text="ตารางการแสดง"
-            />
+            /> */}
+            <div
+              className="flex w-full items-center justify-between"
+              onClick={() => setShowShows(!showShows)}
+            >
+              <div className="p-1 flex ">
+                <ScheduleIcon className={Style.NavIcon} />
+                <p className="text-left text-lg text-white active:underline">ตารางการแสดง</p>
+              </div>
+              <div className="relative mr-8 flex">
+                <div
+                  className={`${arrow} ${showShows
+                    ? 'absolute -left-[5px] top-0 rounded-l-full'
+                    : 'absolute -left-[5px] top-0 rotate-45 rounded-l-full'
+                    }`}
+                />
+                <div
+                  className={`${arrow} ${showShows ? 'rounded-r-full' : '-rotate-45 rounded-r-full'}`}
+                />
+              </div>
+            </div>
+            <AnimatePresence>
+              {showShows && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{
+                    duration: 0.3,
+                    delay: 0,
+                  }}
+                  className="bg-[#0B1855]/80 px-4 rounded-xl"
+                >
+                  <NavRow href="/performance/auditorium" text="หอประชุมฯ" />
+                  <div className="w-full bg-white h-px"></div>
+                  <NavRow href="/performance/lan70" text="ลาน 70 ปีฯ" />
+                </motion.div>
+              )}
+            </AnimatePresence>
             <NavRow
               href="/"
               Icon={<MapIcon className={Style.NavIcon} />}

@@ -20,7 +20,6 @@ import ArtsEsSm from "@/vector/LandingPage/Programme/CardSm/ArtsEsSm";
 import ArtsMathSm from "@/vector/LandingPage/Programme/CardSm/ArtsMathSm";
 import ProgrammeSm from "@/vector/LandingPage/Programme/ProgrammeSm";
 import Bricks from "@/vector/LandingPage/Programme/Bricks";
-import Image from "next/image";
 
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
@@ -44,11 +43,11 @@ const ProgrammeSection = () => {
           <RightPillar className="h-[100%] translate-x-[17%] z-20" /> */}
           <img
             src="../assets/images/Landing/LeftPillar.png"
-            className="h-[100%] -translate-x-[17%] z-20"
+            className=" -translate-x-[0%] z-20"
           />
           <img
             src="../assets/images/Landing/RightPillar.png"
-            className="h-[100%] translate-x-[17%] z-20"
+            className=" translate-x-[0%] z-22"
           />
         </div>
         <div className="hidden relative w-full items-center flex justify-center">
