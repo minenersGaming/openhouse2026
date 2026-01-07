@@ -43,7 +43,7 @@ const ProgrammeSection = () => {
           <LeftPillar className="h-[100%] -translate-x-[17%] z-20" />
           <RightPillar className="h-[100%] translate-x-[17%] z-20" />
         </div>
-        <div className="relative w-full items-center flex justify-center">
+        <div className="hidden relative w-full items-center flex justify-center">
           <Bricks className="absolute w-[70vw] translate-y-[70%] z-2" />
         </div>
       </div>
@@ -51,7 +51,7 @@ const ProgrammeSection = () => {
         <ProgrammeBigLg className="left-0 translate-x-1/2 min-w-[1500px] w-[125%]" />
       </div>
 
-      <div className=" absolute md:relative flex flex-col  justify-center items-center w-full mt-[10%] md:mt-[5%] ">
+      <div className=" absolute md:relative flex flex-col  justify-center items-center w-full mt-[10%] md:mt-[5%] z-677">
         <p className="text-center font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-5xl sm:text-7xl md:text-8xl lg:text-8xl">
           สายการเรียน
         </p>
