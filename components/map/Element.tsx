@@ -1,12 +1,12 @@
 import MapBg from "@/vector/map/MapBg";
 import Toilet from "@/vector/map/toilet";
 import B1 from "@/vector/map/building/B1";
-import B2 from "@/vector/map/building/ฺB2";
-import BArt from "@/vector/map/building/BArt";
-import B3 from "@/vector/map/building/ฺB3";
-import B8 from "@/vector/map/building/ฺB8";
+import B2 from "@/vector/map/building/B2";
+import BArt from "@/vector/map/building/ฺBArt";
+import B3 from "@/vector/map/building/B3";
+import B8 from "@/vector/map/building/B8";
 import B72 from "@/vector/map/building/B72";
-import B9 from "@/vector/map/building/ฺB9";
+import B9 from "@/vector/map/building/B9";
 import B50 from "@/vector/map/building/B50";
 import B55 from "@/vector/map/building/B55";
 import B80 from "@/vector/map/building/B80";
@@ -89,6 +89,7 @@ import O60 from "@/vector/map/organization/O60";
 import O61 from "@/vector/map/organization/O61";
 import O62 from "@/vector/map/organization/O62";
 import O63 from "@/vector/map/organization/O63";
+import B100 from "@/vector/map/other/B100";
 
 export type MapItem = {
   element: React.ReactElement;
@@ -209,6 +210,13 @@ export const mapItems: MapItem[] = [
   },
   {
     element: (
+      <B100 className="absolute -left-[19px] top-[70px] w-1/2 scale-50 origin-top-left" />
+    ),
+    keyword: ["สนตอ."],
+    type: "others",
+  },
+  {
+    element: (
       <Cafeteria1 className="absolute left-[123px] top-[152px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["โดมทอง", "cafeteria", "โรงอาหาร"],
@@ -246,7 +254,7 @@ export const mapItems: MapItem[] = [
     element: (
       <TennisCourt className="absolute left-[360px] top-[350px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สนามเท็นนิส", "TennisCourt"],
+    keyword: ["สนามเทนนิส", "TennisCourt"],
     type: "others",
   },
   {
