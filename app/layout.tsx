@@ -2,7 +2,6 @@ import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 import Header from "../components/header";
-import HeaderDev from "@/components/headerdev";
 import Footer from "../components/footer";
 import Providers from "@/components/provider";
 import {
@@ -23,7 +22,7 @@ export default function RootLayout({
         className={`${FontInter.variable} ${NotoSansThai.variable} ${BethanyFont.variable} antialiased overflow-x-clip`}
       >
         <Providers>
-          <HeaderDev />
+          <Header />
           {/* 
               Line below is spacer for removing empty space in header, 
               you may remove this and replace with a better one (Please)

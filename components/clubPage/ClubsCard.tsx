@@ -14,10 +14,9 @@ const ClubsCard = ({
     return null;
   }
 
-
   return (
     <Link
-      href={`/ondev/clubs/${encodeURIComponent(id)}`} //remove the ondev later
+      href={`/clubs/${encodeURIComponent(id)}`}
       className={String(img) === "" ? "hidden" : "block"}
     >
       <div className="drop-shadow-xl hover:scale-105 transition-all duration-300 overflow-clip aspect-square w-50 max-h-50 rounded-[20px] flex flex-col cursor-pointer">

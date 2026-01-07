@@ -60,19 +60,19 @@ const GiftedSection = () => {
           </p> */}
         </div>
         <div className="translate-y-[70%] absolute flex flex-row justify-center items-center w-full space-x-[10.5%] xfade-in-scroll">
-          <Link href="/ondev/gifted/gifted-math" className="block">
+          <Link href="/gifted/gifted-math" className="block">
             <GiftedMathLg className={LgBanner} />
           </Link>
 
-          <Link href="/ondev/gifted/gifted-science" className="block">
+          <Link href="/gifted/gifted-science" className="block">
             <GiftedSciLg className={LgBanner} />
           </Link>
 
-          <Link href="/ondev/gifted/gifted-english" className="block">
+          <Link href="/gifted/gifted-english" className="block">
             <GiftedEngLg className={LgBanner} />
           </Link>
 
-          <Link href="/ondev/gifted/gifted-thai" className="block">
+          <Link href="/gifted/gifted-thai" className="block">
             <GiftedThaiLg className={LgBanner} />
           </Link>
         </div>

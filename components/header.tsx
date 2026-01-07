@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
+import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "motion/react";
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
@@ -18,14 +19,14 @@ import MapIcon from "@/vector/NavIcon/MapIcon";
 import DirectionIcon from "@/vector/NavIcon/DirectionIcon";
 import SouvenirIcon from "@/vector/NavIcon/SouvenirIcon";
 import AccountIcon from "@/vector/NavIcon/AccountIcon";
-import { motion, AnimatePresence } from "framer-motion";
+
 
 const Style = {
-  Link: "cursor-pointer aria-[current=page]:font-bold",
+  Link: "cursor-pointer aria-[current=page]:font-bold hover:font-bold transition-all",
   NavIcon: "w-4 mr-3",
 };
 
-const Header = () => {
+const HeaderDev = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isWaitClose, setWaitClose] = useState(false);
   const [hidden, setHidden] = useState(false);
@@ -33,15 +34,30 @@ const Header = () => {
   const { data, isPending } = useSession();
   const router = useRouter();
   const [isHovering, setIsHovering] = useState(false);
+  const [shows, setShows] = useState(false)
+  const { scrollY } = useScroll();
+  const [showShows, setShowShows] = useState(false)
+  const arrow = `w-2 h-[2px] bg-white transition ease transform duration-300`
+
+
+
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = scrollY.getPrevious() ?? 0;
+    if (isSidebarOpen) return;
+
+    if (latest > previous && latest > 80) {
+      setHidden(true);
+    } else if (latest < previous) {
+      setHidden(false);
+    }
+  });
 
   const handleMouseEnter = () => {
     setIsHovering(true);
-    console.log("Mouse entered!");
   };
 
   const handleMouseLeave = () => {
     setIsHovering(false);
-    console.log("Mouse left!");
   };
 
   async function ToggleSidebar() {
@@ -53,33 +69,13 @@ const Header = () => {
     setSidebarOpen(!isSidebarOpen);
   }
 
-  useEffect(() => {
-    let lastScrollY = window.scrollY;
-
-    const onScroll = () => {
-      if (isSidebarOpen) return;
-
-      const currentScrollY = window.scrollY;
-
-      if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        setHidden(true);
-      } else {
-        setHidden(false);
-      }
-
-      lastScrollY = currentScrollY;
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [isSidebarOpen]);
-
   return (
-    <header
+    <motion.header
+      initial={{ y: 0 }}
+      animate={{ y: hidden ? "-100%" : 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
       className={`
-        sticky top-0 z-9999
-        transition-transform duration-300 ease-out
-        ${hidden ? "-translate-y-full" : "translate-y-0"}
+        z-9967 fixed top-0 left-0 right-0
         w-full bg-linear-to-r from-[#0B1855]/80 to-[#042284]/80
         h-14 lg:h-16 backdrop-blur-sm
         flex justify-between items-center px-4 lg:px-10
@@ -92,10 +88,15 @@ const Header = () => {
         onMouseLeave={handleMouseLeave}
       >
         <Logo
-          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
-            isHovering && "drop-shadow-sm/100"
+          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white opacity-100 ${
+            isHovering &&
+            "drop-shadow-sm/100 bg-linear-to-t from-[#E6C674] via-[#F3E19D] to-[#FFFEEF] bg-clip-text opacity-0"
           } `}
         />
+        {/* {isHovering && <AureateLogo className={`z-20 absolute w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
+            isHovering ? "drop-shadow-sm/100 opacity-0": "opacity-100"
+          } `}/>} */}
+
         <Toptext hover={isHovering} />
       </Link>
 
@@ -107,34 +108,59 @@ const Header = () => {
         >
           หน้าแรก
         </Link>
-        <Link href="" className={Style.Link}>
-          ตารางการแสดง
-        </Link>
-        <Link href="/clubs" className={Style.Link}>
+        <div
+            className={`group relative inline-block cursor-pointer ${pathname.startsWith('/performance/lan70') || pathname.startsWith('/performance/auditorium')
+              ? 'font-semibold'
+              : ''
+              } `}
+            onMouseOver={() => setShows(true)}
+            onClick={() => setShows(true)}
+            onMouseLeave={() => setShows(false)}
+          >
+            <span className="hover:font-bold transition-all">ตารางการแสดง</span>
+            <AnimatePresence>
+              {shows && (
+                <motion.div
+                  key={'dropdown'}
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute -bottom-[6.03rem] bg-[#1C3BA2] -left-4 z-20 flex w-36 cursor-pointer flex-col items-center justify-center rounded-xl bg-opacity-70"
+                >
+                  <Link href="/" className="py-2 hover:bg-opacity-100 cursor-pointer">
+                    หอประชุมฯ
+                  </Link>
+                  <div className="h-px w-full bg-white opacity-40" />
+                  <Link href="/" className="py-2 hover:bg-opacity-100 cursor-pointer">
+                    ลาน 70 ปีฯ
+                  </Link>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        <Link href="/" className={Style.Link}>
           ชมรม
         </Link>
-        <Link href="/others" className={Style.Link}>
+        <Link href="/" className={Style.Link}>
           เพิ่มเติม
         </Link>
-
-        {/* {!isPending && !data?.user ? ( */}
-        {true ? (
+        {/* {true ? ( */}
+        {isPending || !data?.user ? (
           <Link
-            // href="/ondev/register"
-            href="/"
-            aria-current={pathname === "/ondev/register" ? "page" : undefined}
+            href="/register"
+            aria-current={pathname === "/register" ? "page" : undefined}
             className={Style.Link}
           >
-            {/* ลงทะเบียน */}
-            E-ticket
+            ลงทะเบียน
+            {/* E-ticket */}
           </Link>
         ) : (
-          <a
-            href="/register"
+          <Link
+            href="/ticket"
             className="cursor-pointer font-bold bg-linear-to-r from-[#C5A064] to-[#E5C675] px-3 py-1 rounded-full"
           >
             <p className="text-shadow-sm/15 font-noto-sans-thai">E-ticket</p>
-          </a>
+          </Link>
         )}
       </div>
 
@@ -156,42 +182,80 @@ const Header = () => {
         >
           <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-3.5">
             <NavRow
-              href="/#home"
+              href="/"
               Icon={<HomeIcon className={Style.NavIcon} />}
               text="หน้าแรก"
             />
-            <NavRow
+            {/* <NavRow
               href="/"
               Icon={<ScheduleIcon className={Style.NavIcon} />}
               text="ตารางการแสดง"
-            />
+            /> */}
+            <div
+              className="flex w-full items-center justify-between"
+              onClick={() => setShowShows(!showShows)}
+            >
+              <div className="p-1 flex ">
+                <ScheduleIcon className={Style.NavIcon} />
+                <p className="text-left text-lg text-white active:underline">ตารางการแสดง</p>
+              </div>
+              <div className="relative mr-8 flex">
+                <div
+                  className={`${arrow} ${showShows
+                    ? 'absolute -left-[5px] top-0 rounded-l-full'
+                    : 'absolute -left-[5px] top-0 rotate-45 rounded-l-full'
+                    }`}
+                />
+                <div
+                  className={`${arrow} ${showShows ? 'rounded-r-full' : '-rotate-45 rounded-r-full'}`}
+                />
+              </div>
+            </div>
+            <AnimatePresence>
+              {showShows && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{
+                    duration: 0.3,
+                    delay: 0,
+                  }}
+                  className="bg-[#0B1855]/80 px-4 rounded-xl"
+                >
+                  <NavRow href="/performance/auditorium" text="หอประชุมฯ" />
+                  <div className="w-full bg-white h-px"></div>
+                  <NavRow href="/performance/lan70" text="ลาน 70 ปีฯ" />
+                </motion.div>
+              )}
+            </AnimatePresence>
             <NavRow
-              href="/map"
+              href="/"
               Icon={<MapIcon className={Style.NavIcon} />}
               text="แผนผังงาน"
             />
             <NavRow
-              href="/directions"
+              href="/"
               Icon={<DirectionIcon className={Style.NavIcon} />}
               text="การเดินทางมาโรงเรียน"
             />
             <NavRow
-              href="/merchandise"
+              href="/"
               Icon={<SouvenirIcon className={Style.NavIcon} />}
               text="สินค้าที่ระลึก"
             />
             <NavRow
-              // href="/ondev/register"
-              href="/"
+              href={isPending || !data?.user ? "/register" : "/ticket"}
+              // href="/"
               Icon={<AccountIcon className={Style.NavIcon} />}
-              text="บัญชี"
-              // text={isPending || !data?.user ? "ลงทะเบียน" : "E-ticket"}
+              // text="บัญชี"
+              text={isPending || !data?.user ? "ลงทะเบียน" : "E-ticket"}
             />
           </div>
         </div>
       )}
-    </header>
+    </motion.header>
   );
 };
 
-export default Header;
+export default HeaderDev;

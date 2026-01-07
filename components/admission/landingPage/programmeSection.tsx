@@ -71,10 +71,10 @@ const ProgrammeSection = () => {
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5 -translate-x-[1.5%]">
-              <Link href="/ondev/programs/sci-math" className="block">
+              <Link href="/programs/sci-math" className="block">
                 <SciMath className={Style.LgCard} />
               </Link>
-              <Link href="/ondev/programs/arts-math" className="block">
+              <Link href="/programs/arts-math" className="block">
                 <ArtsMath className={Style.LgCard} />
               </Link>
             </div>
@@ -82,11 +82,11 @@ const ProgrammeSection = () => {
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] translate-x-[1%] -translate-y-5">
-              <Link href="/ondev/programs/arts-french" className="block">
+              <Link href="/programs/arts-french" className="block">
                 <ArtsFr className={Style.LgCard} />
               </Link>
 
-              <Link href="/ondev/programs/arts-german" className="block">
+              <Link href="/programs/arts-german" className="block">
                 <ArtsDe className={Style.LgCard} />
               </Link>
             </div>
@@ -94,11 +94,11 @@ const ProgrammeSection = () => {
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <Link href="/ondev/programs/arts-japanese" className="block">
+              <Link href="/programs/arts-japanese" className="block">
                 <ArtJp className={Style.LgCard} />
               </Link>
 
-              <Link href="/ondev/programs/arts-espanol" className="block">
+              <Link href="/programs/arts-espanol" className="block">
                 <ArtsEs className={Style.LgCard} />
               </Link>
             </div>
@@ -106,10 +106,10 @@ const ProgrammeSection = () => {
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-x-[2.5%] -translate-y-5">
-              <Link href="/ondev/programs/arts-chinese" className="block">
+              <Link href="/programs/arts-chinese" className="block">
                 <ArtsCn className={Style.LgCard} />
               </Link>
-              <Link href="/ondev/programs/arts-korean" className="block">
+              <Link href="/programs/arts-korean" className="block">
                 <ArtsKr className={Style.LgCard} />
               </Link>
             </div>

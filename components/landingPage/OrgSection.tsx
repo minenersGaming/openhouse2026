@@ -26,30 +26,30 @@ const OrgSection = () => {
         <div className="absolute flex w-full flex-row justify-end">
           <div className="w-[80%] h-[170%] p-10 fade-in-scroll -translate-x-[2.75%] -space-x-32 -space-y-10 flex flex-row justify-between">
             <div
-              className=" flex flex-col -space-y-0
+              className=" flex flex-col space-y-0
  [&>*:nth-child(odd)]:self-start
  [&>*:nth-child(even)]:self-end"
             >
-              <Link href="/ondev/organizations/TUSC" className="block">
+              <Link href="/organizations/TUSC" className="block">
                 <TUSCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
-              <Link href="/ondev/organizations/TUANUSORN" className="block">
+              <Link href="/organizations/TUANUSORN" className="block">
                 <AnusornLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
             </div>
             <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
-              <Link href="/ondev/organizations/TUCMC" className="block">
+              <Link href="/organizations/TUCMC" className="block">
                 <TUCMCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
-              <Link href="/ondev/organizations/AIC" className="block">
+              <Link href="/organizations/AIC" className="block">
                 <AICLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
             </div>
             <div className="flex flex-col h-[140%] -space-y-10">
-              <Link href="/ondev/organizations/TUPRO" className="block">
+              <Link href="/organizations/TUPRO" className="block">
                 <TUPROLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
-              <Link href="/ondev/organizations/TUNSO" className="block">
+              <Link href="/organizations/TUNSO" className="block">
                 <TUNSOLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
             </div>
