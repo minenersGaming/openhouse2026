@@ -625,6 +625,13 @@ export const mapItems: MapItem[] = [
   },
   {
     element: (
+      <C48 className="absolute left-[325px] top-[644px] w-1/2 scale-50 origin-top-left" />
+    ),
+    keyword: ["ชมรมภาษาเกาหลี"],
+    type: "club",
+  },
+  {
+    element: (
       <C50 className="absolute left-[360px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาญี่ปุ่น"],

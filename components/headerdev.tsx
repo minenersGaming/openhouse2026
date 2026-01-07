@@ -73,7 +73,7 @@ const HeaderDev = () => {
       animate={{ y: hidden ? "-100%" : 0 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
       className={`
-        fixed top-0 left-0 right-0 z-50
+        z-9967 fixed top-0 left-0 right-0
         w-full bg-linear-to-r from-[#0B1855]/80 to-[#042284]/80
         h-14 lg:h-16 backdrop-blur-sm
         flex justify-between items-center px-4 lg:px-10
@@ -86,8 +86,11 @@ const HeaderDev = () => {
         onMouseLeave={handleMouseLeave}
       >
         <Logo
-          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${isHovering && "drop-shadow-sm/100"
-            } `} />
+          className={`w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white opacity-100 ${
+            isHovering &&
+            "drop-shadow-sm/100 bg-linear-to-t from-[#E6C674] via-[#F3E19D] to-[#FFFEEF] bg-clip-text opacity-0"
+          } `}
+        />
         {/* {isHovering && <AureateLogo className={`z-20 absolute w-10 lg:w-13 transition-all duration-400 drop-shadow-sm/0 drop-shadow-white ${
             isHovering ? "drop-shadow-sm/100 opacity-0": "opacity-100"
           } `}/>} */}
@@ -103,15 +106,15 @@ const HeaderDev = () => {
         >
           หน้าแรก
         </Link>
-        <a href="" className={Style.Link}>
+        <Link href="" className={Style.Link}>
           ตารางการแสดง
-        </a>
-        <a href="" className={Style.Link}>
+        </Link>
+        <Link href="/clubs" className={Style.Link}>
           ชมรม
-        </a>
-        <a href="" className={Style.Link}>
+        </Link>
+        <Link href="" className={Style.Link}>
           เพิ่มเติม
-        </a>
+        </Link>
         {/* {true ? ( */}
         {isPending || !data?.user ? (
           <Link
@@ -124,12 +127,12 @@ const HeaderDev = () => {
             {/* E-ticket */}
           </Link>
         ) : (
-          <a
+          <Link
             href="/ticket"
             className="cursor-pointer font-bold bg-linear-to-r from-[#C5A064] to-[#E5C675] px-3 py-1 rounded-full"
           >
             <p className="text-shadow-sm/15 font-noto-sans-thai">E-ticket</p>
-          </a>
+          </Link>
         )}
       </div>
 
@@ -144,8 +147,9 @@ const HeaderDev = () => {
         <div
           className={`
              w-[95vw] justify-center items-center top-16 block lg:hidden
-            ${isWaitClose ? "outro-fade-down" : "intro-fade-down"} ${hidden ? "hidden" : "fixed"
-            }
+            ${isWaitClose ? "outro-fade-down" : "intro-fade-down"} ${
+            hidden ? "hidden" : "fixed"
+          }
           `}
         >
           <div className="w-[90vw] p-3 bg-[#0B1855]/69 rounded-[18px] text-white space-y-3.5">

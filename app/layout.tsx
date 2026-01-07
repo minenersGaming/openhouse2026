@@ -5,7 +5,12 @@ import Header from "../components/header";
 import HeaderDev from "@/components/headerdev";
 import Footer from "../components/footer";
 import Providers from "@/components/provider";
-import { NotoSansThai, FontInter, BethanyFont } from "@/config/font";
+import {
+  NotoSansThai,
+  FontInter,
+  FontBaiJamjuree,
+  BethanyFont,
+} from "@/config/font";
 import { getMetadata } from "@/config/metadata";
 
 export default function RootLayout({

@@ -1,7 +1,4 @@
-import {
-  Noto_Sans_Thai,
-  Inter,
-} from "next/font/google";
+import { Noto_Sans_Thai, Inter, Bai_Jamjuree } from "next/font/google";
 import localFont from "next/font/local";
 
 const NotoSansThai = Noto_Sans_Thai({
@@ -13,6 +10,11 @@ const FontInter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
+const FontBaiJamjuree = Bai_Jamjuree({
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-bai-jamjuree",
+  subsets: ["thai", "latin"],
+});
 
 const BethanyFont = localFont({
   src: "../public/fonts/BethanyElingston.woff2",
@@ -20,4 +22,4 @@ const BethanyFont = localFont({
   display: "swap",
 });
 
-export { NotoSansThai, FontInter, BethanyFont };
+export { NotoSansThai, FontInter, BethanyFont, FontBaiJamjuree };

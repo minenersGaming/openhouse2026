@@ -12,7 +12,7 @@ import ArtsMath from "@/vector/LandingPage/Programme/CardLg/ArtsMath";
 
 import SciMathSm from "@/vector/LandingPage/Programme/CardSm/SciMathSm";
 import ArtsFrSm from "@/vector/LandingPage/Programme/CardSm/ArtsFrSm";
-import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
+// import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
 import ArtsCnSm from "@/vector/LandingPage/Programme/CardSm/ArtsCnSm";
 import ArtsJpSm from "@/vector/LandingPage/Programme/CardSm/ArtsJpSm";
 import ArtsDeSm from "@/vector/LandingPage/Programme/CardSm/ArtsDeSm";
@@ -20,9 +20,11 @@ import ArtsEsSm from "@/vector/LandingPage/Programme/CardSm/ArtsEsSm";
 import ArtsMathSm from "@/vector/LandingPage/Programme/CardSm/ArtsMathSm";
 import ProgrammeSm from "@/vector/LandingPage/Programme/ProgrammeSm";
 import Bricks from "@/vector/LandingPage/Programme/Bricks";
+import Image from "next/image";
 
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
+import Link from "next/link";
 const Style = {
   LgCard: "w-[25vw] hover:scale-105 transition-all duration-400",
   LgFlex:
@@ -37,9 +39,9 @@ const ProgrammeSection = () => {
       className=" relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
       <div className="h-full top-0">
-        <div className=" -translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
-          <LeftPillar className="h-[100%] -translate-x-[17%] z-67" />
-          <RightPillar className="h-[100%] translate-x-[17%] z-67" />
+        <div className="-translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
+          <LeftPillar className="h-[100%] -translate-x-[17%] z-20" />
+          <RightPillar className="h-[100%] translate-x-[17%] z-20" />
         </div>
         <div className="relative w-full items-center flex justify-center">
           <Bricks className="absolute w-[70vw] translate-y-[70%] z-2" />
@@ -67,64 +69,81 @@ const ProgrammeSection = () => {
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5 -translate-x-[1.5%]">
-              <a href="/ondev/programs/sci-math" className="block">
+              <Link href="/ondev/programs/sci-math" className="block">
                 <SciMath className={Style.LgCard} />
-              </a>
-              <a href="/ondev/programs/arts-math" className="block">
+              </Link>
+              <Link href="/ondev/programs/arts-math" className="block">
                 <ArtsMath className={Style.LgCard} />
-              </a>
+              </Link>
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] translate-x-[1%] -translate-y-5">
-              <a href="/ondev/programs/arts-french" className="block">
+              <Link href="/ondev/programs/arts-french" className="block">
                 <ArtsFr className={Style.LgCard} />
-              </a>
+              </Link>
 
-              <a href="/ondev/programs/arts-german" className="block">
+              <Link href="/ondev/programs/arts-german" className="block">
                 <ArtsDe className={Style.LgCard} />
-              </a>
+              </Link>
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
-              <a href="/ondev/programs/arts-japanese" className="block">
+              <Link href="/ondev/programs/arts-japanese" className="block">
                 <ArtJp className={Style.LgCard} />
-              </a>
+              </Link>
 
-              <a href="/ondev/programs/arts-espanol" className="block">
+              <Link href="/ondev/programs/arts-espanol" className="block">
                 <ArtsEs className={Style.LgCard} />
-              </a>
+              </Link>
             </div>
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
             <div className="absolute flex flex-col -space-y-[40%] -translate-x-[2.5%] -translate-y-5">
-              <a href="/ondev/programs/arts-chinese" className="block">
+              <Link href="/ondev/programs/arts-chinese" className="block">
                 <ArtsCn className={Style.LgCard} />
-              </a>
-              <a href="/ondev/programs/arts-korean" className="block">
+              </Link>
+              <Link href="/ondev/programs/arts-korean" className="block">
                 <ArtsKr className={Style.LgCard} />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
       <div className="block md:hidden">
-        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
-          <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
+        <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center left-0 translate-y-[11%]">
+          <a href="./programs/sci-math">
+            <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
         </div>
-        <div className=" fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
-          <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" />
+        <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
+          <a>
+            <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
+          </a>
+          <a>
+            {/* <Image src={`/korea.png`} alt="korea" className="w-5/4" /> */}
+            {/* <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" /> */}
+          </a>
         </div>
         <div className=" w-full ">
           <ProgrammeSm className=" left-0  w-full" />

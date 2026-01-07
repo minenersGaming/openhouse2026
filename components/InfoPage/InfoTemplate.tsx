@@ -56,7 +56,7 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
   organization: [
     <div className="flex flex-col justify-center items-start md:items-end">
       <p
-        className={`${CommonTextStyle} overflow-visible text-2xl sm:text-3xl md:text-4xl lg:text-5xl hidden md:block`}
+        className={`${CommonTextStyle} overflow-visible text-2xl sm:text-3xl md:text-4xl lg:text-5xl hidden md:block pt-2`}
       >
         องค์กรนี้
       </p>
