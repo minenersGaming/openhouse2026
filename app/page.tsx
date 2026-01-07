@@ -6,7 +6,7 @@ import GiftedSection from "@/components/landingPage/GiftedSection";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col w-full overflow-x-clip ">
+      <div className="flex flex-col w-full overflow-x-clip -mt-12 lg:-mt-[3.5rem]">
         <Herodev />
       </div>
     </>

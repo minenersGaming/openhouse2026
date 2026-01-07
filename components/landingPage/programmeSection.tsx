@@ -40,11 +40,19 @@ const ProgrammeSection = () => {
     >
       <div className="h-full top-0">
         <div className="-translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
-          <LeftPillar className="h-[100%] -translate-x-[17%] z-20" />
-          <RightPillar className="h-[100%] translate-x-[17%] z-20" />
+          {/* <LeftPillar className="h-[100%] -translate-x-[17%] z-20" />
+          <RightPillar className="h-[100%] translate-x-[17%] z-20" /> */}
+          <img
+            src="../assets/images/Landing/LeftPillar.png"
+            className="h-[100%] -translate-x-[17%] z-20"
+          />
+          <img
+            src="../assets/images/Landing/RightPillar.png"
+            className="h-[100%] translate-x-[17%] z-20"
+          />
         </div>
         <div className="hidden relative w-full items-center flex justify-center">
-          <Bricks className="absolute w-[70vw] translate-y-[70%] z-2" />
+          <Bricks className="hidden absolute w-[70vw] translate-y-[70%] z-2" />
         </div>
       </div>
       <div className="hidden absolute min-w-full xlg:flex flex-row justify-center h-[105%]">
@@ -120,7 +128,7 @@ const ProgrammeSection = () => {
           <Link href="./programs/sci-math">
             <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"/programs/"}>
             <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
           <Link href={"/"}>

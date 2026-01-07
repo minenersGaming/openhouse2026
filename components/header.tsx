@@ -109,7 +109,7 @@ const Header = () => {
         <Link href="" className={Style.Link}>
           ตารางการแสดง
         </Link>
-        <Link href="" className={Style.Link}>
+        <Link href="/clubs" className={Style.Link}>
           ชมรม
         </Link>
         <Link href="" className={Style.Link}>
