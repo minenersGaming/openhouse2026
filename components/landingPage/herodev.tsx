@@ -12,7 +12,7 @@ const Herodev = () => {
   return (
     <section
       id="home"
-      className={`${Style.Radial} h-screen object-cover relative overflow-hidden`}
+      className={`${Style.Radial} h-auto w-full relative overflow-hidden`}
     >
       <div className="absolute top-[18%] lg:top-[15%] -translate-y-[15%] left-1/2 -translate-x-1/2 z-10">
         <TriamudomOpenhouse2026 className="w-[70vw] lg:w-[65vw] hidden sm:block" />
@@ -20,7 +20,7 @@ const Herodev = () => {
       </div>
       <div className="relative z-0">
         <img
-          className="hidden sm:block min-h-screen bottom-0 object-cover unselectable-image"
+          className="hidden sm:block min-w-full min-h-[70vh] bottom-0 object-cover unselectable-image"
           src="/LandingBg.svg"
         />
         <img
