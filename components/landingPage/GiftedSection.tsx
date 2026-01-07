@@ -32,12 +32,12 @@ const GiftedSection = () => {
         </div>
         <div className="h-full xoverflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%] fade-in-scroll  ">
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <GiftedMath className={SmBanner} />
-            <GiftedThai className={SmBanner} />
+            <GiftedMathLg className={SmBanner} />
+            <GiftedThaiLg className={SmBanner} />
           </div>
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <GiftedSci className={SmBanner} />
-            <GiftedEng className={SmBanner} />
+            <GiftedSciLg className={SmBanner} />
+            <GiftedEngLg className={SmBanner} />
           </div>
         </div>
         <GiftedSm className=" w-full left-0 " />
