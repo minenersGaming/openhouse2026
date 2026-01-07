@@ -5,8 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
-import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "framer-motion";
-
+import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "motion/react";
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
@@ -23,7 +22,7 @@ import AccountIcon from "@/vector/NavIcon/AccountIcon";
 
 
 const Style = {
-  Link: "cursor-pointer aria-[current=page]:font-bold",
+  Link: "cursor-pointer aria-[current=page]:font-bold hover:font-bold transition-all",
   NavIcon: "w-4 mr-3",
 };
 
@@ -55,12 +54,10 @@ const HeaderDev = () => {
 
   const handleMouseEnter = () => {
     setIsHovering(true);
-    console.log("Mouse entered!");
   };
 
   const handleMouseLeave = () => {
     setIsHovering(false);
-    console.log("Mouse left!");
   };
 
   async function ToggleSidebar() {
@@ -120,7 +117,7 @@ const HeaderDev = () => {
             onClick={() => setShows(true)}
             onMouseLeave={() => setShows(false)}
           >
-            <span>ตารางการแสดง</span>
+            <span className="hover:font-bold transition-all">ตารางการแสดง</span>
             <AnimatePresence>
               {shows && (
                 <motion.div
@@ -151,7 +148,6 @@ const HeaderDev = () => {
         {isPending || !data?.user ? (
           <Link
             href="/register"
-            // href="/"
             aria-current={pathname === "/register" ? "page" : undefined}
             className={Style.Link}
           >

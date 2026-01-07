@@ -18,11 +18,6 @@ import R8 from "@/vector/map/icon/R8";
 
 //error on super small screen (จอเลื่อนนึดหน่อย)
 
-const NotoSansThai = Noto_Sans_Thai({
-  variable: "--font-noto-sans-thai",
-  subsets: ["thai", "latin"],
-});
-
 const CirW = "h-9 w-9 text-[17.937px] md:h-7 md:w-7 md:text-[14px]";
 
 const css = {
