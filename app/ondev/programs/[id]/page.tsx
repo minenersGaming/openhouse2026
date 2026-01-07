@@ -1,8 +1,3 @@
-"use client";
-
-import { useParams, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-
 import BackIcon from "@/vector/InfoPage/BackIcon";
 import MemberIcon from "@/vector/InfoPage/MemberIcon";
 import StarBar from "@/vector/InfoPage/StarBar";
@@ -21,28 +16,13 @@ import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
+import programData from "@public/data/programs.json"
 
-export default function ProgramInfoPage() {
-  const params = useParams();
-  const router = useRouter();
-  const id = decodeURIComponent(params.id as string);
+export default async function ProgramInfoPage({ params }: { params: Promise<{ id: string }> }) {
+  const key = await params
+  const programKey = decodeURIComponent(key.id);
+  const data = programData.find((program) => program.key === programKey);
 
-  const [data, setData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch(`/api/doc/getDocument?type=programs&key=${id}`)
-      .then((res) => res.json())
-      .then((json) => setData(json.data))
-      .finally(() => setLoading(false));
-  }, [id]);
-
-  if (loading)
-    return (
-      <div className="text-center p-10 h-screen [background:linear-gradient(180deg,#0B1956_0%,#042284_35%,#467BCA_77.37%,#F4F2C4_100%)]">
-        Loading...
-      </div>
-    );
   if (!data)
     return (
       <div className="text-center p-10">
@@ -78,7 +58,7 @@ export default function ProgramInfoPage() {
         </a>
 
         <h1 className="max-w-[70vw] text-[#F3ECB7] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
-          {data.thainame}
+          {data.name}
         </h1>
 
         <div className="flex flex-row items-center space-x-6">
@@ -92,18 +72,18 @@ export default function ProgramInfoPage() {
             </div>
           </div>
 
-          <div className="h-16 rounded-full bg-[#F3E29E] w-[4px]" />
+          <div className="h-16 rounded-full bg-[#F3E29E] w-1" />
 
           <div className="flex flex-col">
-            {data.ig && (
-              <span className="text-[#F3ECB7] font-light">IG: {data.ig}</span>
+            {data.contacts.ig && (
+              <span className="text-[#F3ECB7] font-light">IG: {data.contacts.ig}</span>
             )}
-            {data.fb && (
-              <span className="text-[#F3ECB7] font-light">FB: {data.fb}</span>
+            {data.contacts.fb && (
+              <span className="text-[#F3ECB7] font-light">FB: {data.contacts.fb}</span>
             )}
-            {data.others && (
+            {data.contacts.others && (
               <span className="text-[#F3ECB7] font-light">
-                อื่น ๆ : {data.others}
+                อื่น ๆ : {data.contacts.others}
               </span>
             )}
           </div>
@@ -117,33 +97,33 @@ export default function ProgramInfoPage() {
       </div>
 
       <div className="flex flex-col items-center justify-center z-67">
-        {data.captureimg1 && (
+        {data.info.admissions && (
           <InfoTemplate
             type="programme"
             item={0}
-            img={data.captureimg1}
-            imgDescription={data.descimg1}
-            text={<div dangerouslySetInnerHTML={{ __html: data.admissions }} />}
+            img={data.info.admissions.img}
+            imgDescription={data.info.admissions.imgDescription}
+            text={data.info.admissions.text}
           />
         )}
 
-        {data.captureimg2 && (
+        {data.info.courses && (
           <InfoTemplate
             type="programme"
             item={1}
-            img={data.captureimg2}
-            imgDescription={data.descimg2}
-            text={<div dangerouslySetInnerHTML={{ __html: data.courses }} />}
+            img={data.info.courses.img}
+            imgDescription={data.info.courses.imgDescription}
+            text={data.info.courses.text}
           />
         )}
 
-        {data.captureimg3 && (
+        {data.info.interests && (
           <InfoTemplate
             type="programme"
             item={2}
-            img={data.captureimg3}
-            imgDescription={data.descimg3}
-            text={<div dangerouslySetInnerHTML={{ __html: data.interests }} />}
+            img={data.info.interests.img}
+            imgDescription={data.info.interests.imgDescription}
+            text={data.info.interests.text}
           />
         )}
       </div>
@@ -156,14 +136,14 @@ export default function ProgramInfoPage() {
             </h2>
           </div>
 
-          {data.reviews.map((r: any, i: number) => (
+          {data.reviews.map((r, i) => (
             <ReviewBox
               key={i}
               name={r.nick}
               img={r.profile}
               gen={r.gen}
               ig={r.contact}
-              text={<div dangerouslySetInnerHTML={{ __html: r.content }} />}
+              text={r.content}
             />
           ))}
         </div>

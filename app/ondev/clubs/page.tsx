@@ -3,34 +3,20 @@
 import { useEffect, useState } from "react";
 import ClubsCard from "@/components/clubPage/ClubsCard";
 import SearchIcon from "@/vector/Contact/SearchIcon";
-import CurvyLight from "@/vector/CurvyLight";
 import Star1 from "@/vector/clubs/Star1";
 import Star2 from "@/vector/clubs/Star2";
 import Star3 from "@/vector/clubs/Star3";
 import Star4 from "@/vector/clubs/Star4";
 import StarL from "@/vector/clubs/StarL";
 import StarR from "@/vector/clubs/StarR";
+import clubData from "@public/data/clubs.json";
 
-type ClubPreview = {
-  key: string;
-  thainame: string;
-  logo: string;
-};
 
 export default function ClubsPage() {
-  const [clubs, setClubs] = useState<ClubPreview[]>([]);
   const [search, setSearch] = useState("");
 
-  useEffect(() => {
-    fetch("/api/clubs")
-      .then((res) => res.json())
-      .then((json) => {
-        if (json.ok) setClubs(json.data);
-      });
-  }, []);
-
-  const filtered = clubs.filter((club) =>
-    club.thainame.toLowerCase().includes(search.toLowerCase())
+  const filtered = clubData.filter((club) =>
+    club.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -63,7 +49,7 @@ export default function ClubsPage() {
             <ClubsCard
               key={club.key}
               id={club.key}
-              text={club.thainame}
+              text={club.name}
               img={club.logo}
             />
           ))}
