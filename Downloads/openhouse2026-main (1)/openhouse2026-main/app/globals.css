@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Thai:wght@100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --background-navy: #0b1955;
+  --foreground: #171717;
+  --font-noto: "Inter", "Noto Sans Thai", Arial, Helvetica, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background-navy);
+  color: var(--foreground);
+  font-family: var(--font-noto);
+}
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-fade-down {
+  animation: fadeDown 0.5s ease-out forwards;
+}
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDownOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.outro-fade-down {
+  animation: fadeDownOut 0.5s ease-in forwards;
+}
+
+img {
+  /* Prevents text selection highlight (blue color when dragging) */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari, Chrome, Opera */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard syntax */
+
+  /* Prevents the image from being clicked, dragged, or interacted with by mouse events */
+  pointer-events: none;
+}
+
+#qr-reader video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-inter-thai {
+  font-family: var(--font-inter), var(--font-noto-sans-thai), sans-serif;
+}
+
+.font-noto-sans {
+  font-family: var(--font-noto-sans-thai);
+}
+
+.font-noto-sans-thai {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.font-bai-jamjuree {
+  font-family: "Bai Jamjuree", "Inter", sans-serif;
+}
+
+.fade-in-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-scroll.show {
+  opacity: 1;
+  transform: translateY(0);
+}

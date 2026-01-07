@@ -1,0 +1,240 @@
+"use client";
+
+import Box from "@/components/merchandise/Box";
+import BackIcon from "@/components/merchandise/BackIcon";
+import Card from "@/components/merchandise/Card";
+import { useSearchParams } from "next/navigation";
+import { useState } from "react";
+import Beam from "@/components/merchandise/Beam";
+
+const valid = ["0", "1", "2", "3"];
+
+const SampleImg =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOeKKhUS-RWX12esBlBAtUvR38Uo6ZLbOmAg&s";
+const Samp2 =
+  "https://images.emojiterra.com/google/android-12l/512px/1f62d.png";
+
+const ImgData = [
+  [
+    "/assets/images/merchandise/keychain/1.png",
+    "/assets/images/merchandise/keychain/2.jpg",
+    "/assets/images/merchandise/keychain/3.jpg",
+  ],
+  [
+    "/assets/images/merchandise/answerbook/1.JPG",
+    "/assets/images/merchandise/answerbook/2.JPG",
+    "/assets/images/merchandise/answerbook/3.JPG",
+  ],
+  [
+    "/assets/images/merchandise/postcard/1.JPG",
+    "/assets/images/merchandise/postcard/2.JPG",
+    "/assets/images/merchandise/postcard/3.JPG",
+  ],
+  [
+    "/assets/images/merchandise/sticker/1.JPG",
+    "/assets/images/merchandise/sticker/2.JPG",
+    "/assets/images/merchandise/sticker/3.JPG",
+  ],
+];
+
+const TextData = [
+  [
+    "KEYCHAIN",
+    "",
+    "139",
+    'พวงกุญแจ The Castle of Countless Legacies  ปราสาทแห่งนี้ไม่ใช่เพียงสถานที่เก็บเรื่องราว แต่ยังเป็น "สิ่งเตือนใจ" ซึ่งสามารถห้อยติดตัวไปได้ทุกที่ !',
+  ],
+  [
+    "ANSWER BOOK",
+    "",
+    "89",
+    "สมุดฝนคำตอบที่จะช่วยพาคุณไปสู่เป้าหมายที่ตั้งไว้ ! ซ้อมมือก่อนลงสนามจริงกับ Answer Sheet และวางแผนอย่างเป็นระบบลงใน Planner",
+  ],
+  [
+    "POSTCARD",
+    "",
+    "29",
+    '3 ลาย ที่มาในธีม "ปราสาทร้อยเรื่องราว" ปราสาทที่ดำรงมากว่า 88 ปี และเรียงร้อยเรื่องราวล้ำค่าไว้ ',
+  ],
+  [
+    "STICKER",
+    "",
+    "19",
+    "ลายสิ่งของและน้องแมวในปราสาทร้อยเรื่องราว ที่นอกจากจะน่ารักแล้ว ยังเล่นแสงอีกด้วย !",
+  ],
+];
+
+const RecommendBar = [
+  [1, 2, 3],
+  [0, 2, 3],
+  [0, 1, 3],
+  [0, 1, 2],
+];
+
+export default function Merchandise() {
+  const searchParams = useSearchParams();
+  const params = searchParams.get("item");
+
+  const [page, setPage] = useState(0);
+
+  function prevPage() {
+    setPage(page === 0 ? 2 : page - 1);
+  }
+
+  function nextPage() {
+    setPage(page === 2 ? 0 : page + 1);
+  }
+  function setPageZero() {
+    setPage(0);
+  }
+
+  if (valid.includes(params ?? "")) {
+    return (
+      <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3] flex flex-col justify-center  items-center">
+        <Beam className="absolute h-full right-0" />
+        <div className="py-20 md:py-[10%] w-[90vw] md:w-[50vw] z-67 md:-translate-x-[20%] intro-fade-down">
+          <div className="flex w-full flex-row justify-start items-center ">
+            <a
+              href="./merchandise?item=none"
+              className=" flex flex-row justify-start items-center hover:scale-110 transition-all duration-400"
+            >
+              <BackIcon className="w-5 mr-1" />
+              <p className="text-md font-semibold text-[#042284]">ย้อนกลับ</p>
+            </a>
+          </div>
+          <div className="flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start w-full">
+            <div>
+              <div className="flex flex-row justify-between items-center w-full mt-[10%] mb-[4%]">
+                <p
+                  onClick={prevPage}
+                  className="text-4xl cursor-pointer md:text-5xl opacity-51 font-bold text-[#04217F] w-[9vw]"
+                >
+                  {page === 0 ? "  " : "<"}
+                </p>
+
+                {/* CAROUSEL */}
+                <div className="overflow-hidden rounded-[20px] w-[70vw] md:w-[30vw] mx-2">
+                  <div
+                    className="flex transition-transform duration-500 ease-in-out"
+                    style={{
+                      transform: `translateX(-${page * 100}%)`,
+                    }}
+                  >
+                    {ImgData[Number(params)].map((img, i) => (
+                      <img
+                        key={i}
+                        src={img}
+                        className="object-cover w-[70vw] md:w-[30vw] aspect-square shrink-0"
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                <p
+                  onClick={nextPage}
+                  className="text-4xl text-end md:text-5xl opacity-51 cursor-pointer font-bold text-[#04217F] w-[9vw]"
+                >
+                  {page === 2 ? "  " : ">"}
+                </p>
+              </div>
+
+              <div className="flex flex-col w-[90vw] md:w-97/100  p-2 pl-3">
+                <div className="flex flex-row justify-between w-full">
+                  <p className="text-[#04217F] text-xl sm:text-3xl md:text-4xl font-bold font-noto-sans-thai">
+                    {TextData[Number(params)][0]}
+                  </p>
+                  <p className="text-[#04217F] text-xl sm:text-3xl  md:text-4xl font-bold ">{`฿${
+                    TextData[Number(params)][2]
+                  }`}</p>
+                </div>
+              </div>
+              <div className="text-[#04217F] mt-1 ml-[3%] md:-ml-[-2.9%] md:w-[40vw] items-start">
+                <p className="text-xs font-normal sm:text-md md:text-lg font-noto-sans-thai">
+                  {TextData[Number(params)][3]}
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col w-7/10 md:w-1/7 justify-start items-start mt-[6%] md:translate-x-[12vw]">
+              <p className="font-medium text-sm md:text-[13px] lg:text-xl py-1 md:py-3 text-[#04217F] ">
+                สินค้าอื่น ๆ
+              </p>
+              <div
+                onClick={setPageZero}
+                className="flex flex-row md:flex-col space-x-2 md:space-y-2"
+              >
+                <Card
+                  img={ImgData[RecommendBar[Number(params)][0]][0]}
+                  text={TextData[RecommendBar[Number(params)][0]][0]}
+                  item={RecommendBar[Number(params)][0]}
+                />
+                <Card
+                  img={ImgData[RecommendBar[Number(params)][1]][0]}
+                  text={TextData[RecommendBar[Number(params)][1]][0]}
+                  item={RecommendBar[Number(params)][1]}
+                />
+                <Card
+                  img={ImgData[RecommendBar[Number(params)][2]][0]}
+                  text={TextData[RecommendBar[Number(params)][2]][0]}
+                  item={RecommendBar[Number(params)][2]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3]">
+      <Beam className="absolute h-full right-0" />
+      <div className="pt-[2%] pb-[14%]  w-full flex flex-col justify-center items-center">
+        <div className="flex flex-col w-4/5 py-[5%]">
+          <p className="text-[#0020A9] text-4xl md:text-7xl text-center font-bold ">
+            สินค้าที่ระลึก
+          </p>
+          <p className="text-[#0020A9] text-center text-xs md:text-lg font-medium mt-2">
+            สามารถซื้อสินค้าได้ที่ซุ้ม
+          </p>
+          <p className="text-[#0020A9] text-center font-medium text-xs md:text-lg">
+            คณะกรรมการงานกิจกรรมพัฒนาผู้เรียน (กช.)
+          </p>
+          <p className="text-[#0020A9] text-center font-medium text-xs md:text-lg">
+            บริเวณหน้าตึก 80 ปี
+          </p>
+        </div>
+        <div className="flex flex-col md:flex-row space-x-4 md:space-y-0 space-y-2 mt-4 intro-fade-down">
+          <Box
+            img={ImgData[0][0]}
+            head={TextData[0][0]}
+            desc={TextData[0][3]}
+            price={TextData[0][2]}
+            item={0}
+          />
+          <Box
+            img={ImgData[2][0]}
+            head={TextData[2][0]}
+            desc={TextData[2][3]}
+            price={TextData[2][2]}
+            item={2}
+          />
+          <Box
+            img={ImgData[1][0]}
+            head={TextData[1][0]}
+            desc={TextData[1][3]}
+            price={TextData[1][2]}
+            item={1}
+          />
+
+          <Box
+            img={ImgData[3][0]}
+            head={TextData[3][0]}
+            desc={TextData[3][3]}
+            price={TextData[3][2]}
+            item={3}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
