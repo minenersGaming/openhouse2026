@@ -217,11 +217,11 @@ const PerformancePage = () => {
       <div className={container.MdAll}>
         <Mdleft className="hidden md:block absolute w-auto bottom-[5.6vw] left-0 md:h-[1400px] lg:h-[1650px] 2xl:h-[2000px]" />
         <Mdright className="hidden md:block absolute w-auto bottom-[5.6vw] right-0 md:h-[1400px] lg:h-[1650px] 2xl:h-[2020px]" />
-        <Mdcurtain className="hidden md:block absolute w-full h-auto top-0 right-0" />
+        <Mdcurtain className="hidden md:block absolute w-full h-auto -top-[54px] right-0" />
         <Mdbeam className="hidden md:block absolute w-auto top-0 right-0 md:h-[1300px] lg:h-[1400px] 2xl:h-[1800px]" />
         <Mdbottom className=" hidden md:block absolute w-screen h-auto bottom-0 " />
         <SmBottom className="md:hidden absolute bottom-0 left-0 h-auto w-full" />
-        <SmCurtain className="md:hidden absolute top-0 left-0 h-auto w-full" />
+        <SmCurtain className="md:hidden absolute -top-[60px] left-0 h-auto w-full" />
         <SmBeam2 className="md:hidden absolute top-0 right-0 w-auto h-[95%]" />
         <div className=" flex flex-col items-center mx-auto">
           <p className={css.header1}>ตารางการแสดง</p>
