@@ -20,7 +20,7 @@ const NotoSansThai = Noto_Sans_Thai({
 
 const timeTable9 = [
   {
-    time: "9:02-10:42",
+    time: "9:00-10:40",
     overall: "100 นาที",
     name: (
       <p>
@@ -33,28 +33,28 @@ const timeTable9 = [
     img: "/assets/images/auditory/นิเทศศิลป_Tusp.jpg",
   },
   {
-    time: "10.52-11.42",
+    time: "10.50-11.40",
     overall: "50 นาที",
     name: "ภาพยนตร์สั้น",
     caption: "ชมรมภาพยนตร์สั้นและสื่อโทรทัศน์",
     img: "/assets/images/auditory/ภาพยนตร์สั้นและสื่อโทรทัศน์.jpg",
   },
   {
-    time: "12.12-12.42",
+    time: "12.10-12.40",
     overall: "30 นาที",
     name: "My O'Clock",
     caption: "ชมรมสันทนากร",
     img: "/assets/images/auditory/tuent.jpg",
   },
   {
-    time: "12.44-13.19",
+    time: "12.45-13.20",
     overall: "35 นาที",
     name: "ไกล",
     caption: "ชมรมสังคมศึกษา (หนังสังคม) ฝ่าย Documentary Maker",
     img: "/assets/images/auditory/ไกล.jpg",
   },
   {
-    time: "13.22-14.07",
+    time: "13.20-14.05",
     overall: "45 นาที",
     name: "More than words",
     caption: "ชมรมดุริยางค์",
@@ -68,7 +68,7 @@ const timeTable9 = [
     img: "/assets/images/auditory/epcho.jpg",
   },
   {
-    time: "15.13-16.33",
+    time: "15.15-16.35",
     overall: "80 นาที",
     name: (
       <p>
@@ -83,21 +83,21 @@ const timeTable9 = [
 ];
 const timeTable10 = [
   {
-    time: "9.02-9.37",
+    time: "9.00-9.35",
     overall: "35 นาที",
     name: "ไกล",
     caption: "ชมรมสังคมศึกษา (หนังสังคม) ฝ่าย Documentary Maker",
     img: "/assets/images/auditory/ไกล.jpg",
   },
   {
-    time: "9.39-10.34",
+    time: "9.40-10.35",
     overall: "55 นาที",
     name: "ภาพยนตร์สั้น",
     caption: "ชมรมภาพยนตร์สั้นและสื่อโทรทัศน์",
     img: "/assets/images/auditory/ภาพยนตร์สั้นและสื่อโทรทัศน์.jpg",
   },
   {
-    time: "10.36-11.01",
+    time: "10.35-11.00",
     overall: "25 นาที",
     name: (
       <p>
@@ -110,7 +110,7 @@ const timeTable10 = [
     img: "/assets/images/auditory/หลากทัศน์.jpg",
   },
   {
-    time: "11.03-11.23",
+    time: "11.05-11.25",
     overall: "20 นาที",
     name: (
       <p>
@@ -130,7 +130,7 @@ const timeTable10 = [
     img: "/assets/images/auditory/tuent.jpg",
   },
   {
-    time: "12.27-13.27",
+    time: "12.25-13.25",
     overall: "60 นาที",
     name: "Dearest Dreamers",
     caption: "ชมรมภาษาอังกฤษ (ขับร้องประสานเสียง)",
@@ -150,7 +150,7 @@ const timeTable10 = [
     img: "/assets/images/auditory/นิเทศศิลป_Tusp.jpg",
   },
   {
-    time: "15.13-16.33",
+    time: "15.15-16.35",
     overall: "20 นาที",
     name: (
       <p>
@@ -280,14 +280,14 @@ const PerformancePage = () => {
               SAT 10 JAN
             </button>
           </div>
-          <div className="relative min-h-[1000px] w-full">
+          <div className="relative min-h-[1000px] w-full cursor-pointer">
             <div
               key="fri-9"
               className={`
                           absolute inset-0
                 mx-auto flex flex-col items-center
                 transition-all duration-300 ease-in
-                transform
+                transform cursor-pointer
                 ${
                   date === "FRI 9 JAN"
                     ? "translate-x-0 "

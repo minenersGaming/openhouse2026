@@ -10,10 +10,7 @@ const Style = {
 
 const Herodev = () => {
   return (
-    <section
-      id="home"
-      className={`${Style.Radial} w-full relative overflow-hidden`}
-    >
+    <section className={`${Style.Radial} w-full relative overflow-hidden`}>
       <div className="absolute top-[18%] lg:top-[15%] -translate-y-[15%] left-1/2 -translate-x-1/2 z-10">
         <TriamudomOpenhouse2026 className="w-[70vw] lg:w-[65vw] hidden sm:block" />
         <TriamudomOpenHouse26Sm className="w-[85vw] block sm:hidden" />
