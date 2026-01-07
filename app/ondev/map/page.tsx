@@ -15,7 +15,6 @@ import R5 from "@/vector/map/icon/R5";
 import R6 from "@/vector/map/icon/R6";
 import R7 from "@/vector/map/icon/R7";
 import R8 from "@/vector/map/icon/R8";
-import H2Text from "@/vector/map/TRIAM UDOM OPEN HOUSE 2026";
 
 //error on super small screen (จอเลื่อนนึดหน่อย)
 
@@ -31,8 +30,8 @@ const css = {
     "text-[#F3E19D] font-noto-sans-thai text-center font-inter font-bold leading-normal drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" +
     "  text-[30px] sm:text-[34px] md:text-[38px] lg:text-[60px] xl:text-[89.118px] ",
   header2:
-    " h-auto " +
-    " w-[270px] sm:w-[390px] md:w-[500px] lg:w-[600px] xl:w-[700px] ",
+    "text-[#F3E19D] text-center font-normal leading-normal tracking-[4.308px] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] " +
+    " text-[18px] sm:text-[22px] md:text-[26px] lg:text-[32px] xl:text-[43.083px]  ",
   button:
     " hover:scale-105 transition-all " +
     " px-3 py-1 sm:px-4 sm:py-1 md:px-5 lg:px-8 lg:py-1  ",
@@ -158,7 +157,12 @@ const MapPage = () => {
     <div className="w-screen overflow-hidden bg-[linear-gradient(270deg,#042284_0%,#3450B0_100%)] py-20 lg:py-30">
       <div className="w-full flex flex-col items-center">
         <p className={css.header}>แผนผังงาน</p>
-        <H2Text className={css.header2} />
+        <p
+          className={css.header2}
+          style={{ fontFamily: "var(--font-bethany)" }}
+        >
+          TRIAMUDOM OPEN HOUSE 2026
+        </p>
         <div className={container.buttonBox}>
           <div className="flex gap-2">
             <button
@@ -231,7 +235,7 @@ const MapPage = () => {
                   css.buttonText
                 }
               >
-                องค์กรภายใน
+                องค์กรณ์ภายใน
               </p>
             </button>
             <button
