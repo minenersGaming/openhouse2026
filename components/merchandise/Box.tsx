@@ -35,7 +35,7 @@ const Box = ({
             <p className=" text-white font-noto-sans-thai text-md md:texlgxl font-semibold">
               {head}
             </p>
-            <p className=" text-white font-noto-sans-thai text-[9.2px] md:text-[8.25px] lg:text-[9px] opacity-72 pb-[4%]">
+            <p className=" text-white font-noto-sans-thai text-[9.2px] sm:text-[16px] md:text-[8.25px] lg:text-[11.75px] xl:text-[16px] opacity-72 pb-[4%]">
               {desc}
             </p>
           </div>

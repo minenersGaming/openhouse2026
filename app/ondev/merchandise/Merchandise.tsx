@@ -21,19 +21,19 @@ const ImgData = [
     "/assets/images/merchandise/keychain/3.jpg",
   ],
   [
-    "/assets/images/merchandise/answerbook/1.jpg",
-    "/assets/images/merchandise/answerbook/2.jpg",
-    "/assets/images/merchandise/answerbook/3.jpg",
+    "/assets/images/merchandise/answerbook/1.JPG",
+    "/assets/images/merchandise/answerbook/2.JPG",
+    "/assets/images/merchandise/answerbook/3.JPG",
   ],
   [
-    "/assets/images/merchandise/postcard/1.jpg",
-    "/assets/images/merchandise/postcard/2.jpg",
-    "/assets/images/merchandise/postcard/3.jpg",
+    "/assets/images/merchandise/postcard/1.JPG",
+    "/assets/images/merchandise/postcard/2.JPG",
+    "/assets/images/merchandise/postcard/3.JPG",
   ],
   [
-    "/assets/images/merchandise/sticker/1.jpg",
-    "/assets/images/merchandise/sticker/2.jpg",
-    "/assets/images/merchandise/sticker/3.jpg",
+    "/assets/images/merchandise/sticker/1.JPG",
+    "/assets/images/merchandise/sticker/2.JPG",
+    "/assets/images/merchandise/sticker/3.JPG",
   ],
 ];
 
@@ -41,25 +41,25 @@ const TextData = [
   [
     "KEYCHAIN",
     "",
-    "67",
+    "139",
     'พวงกุญแจ The Castle of Countless Legacies  ปราสาทแห่งนี้ไม่ใช่เพียงสถานที่เก็บเรื่องราว แต่ยังเป็น "สิ่งเตือนใจ" ซึ่งสามารถห้อยติดตัวไปได้ทุกที่ !',
   ],
   [
     "ANSWER BOOK",
     "",
-    "67",
+    "89",
     "สมุดฝนคำตอบที่จะช่วยพาคุณไปสู่เป้าหมายที่ตั้งไว้ ! ซ้อมมือก่อนลงสนามจริงกับ Answer Sheet และวางแผนอย่างเป็นระบบลงใน Planner",
   ],
   [
     "POSTCARD",
     "",
-    "67",
+    "29",
     '3 ลาย ที่มาในธีม "ปราสาทร้อยเรื่องราว" ปราสาทที่ดำรงมากว่า 88 ปี และเรียงร้อยเรื่องราวล้ำค่าไว้ ',
   ],
   [
     "STICKER",
     "",
-    "67",
+    "19",
     "ลายสิ่งของและน้องแมวในปราสาทร้อยเรื่องราว ที่นอกจากจะน่ารักแล้ว ยังเล่นแสงอีกด้วย !",
   ],
 ];
@@ -188,8 +188,8 @@ export default function Merchandise() {
   return (
     <div className="w-full bg-linear-to-t from-[#E5C675] to-[#F4F2C3]">
       <Beam className="absolute h-full right-0" />
-      <div className="py-20  sm:py-[10%] w-full flex flex-col justify-center items-center">
-        <div className="flex flex-col w-4/5 py-2">
+      <div className="pt-[2%] pb-[14%]  w-full flex flex-col justify-center items-center">
+        <div className="flex flex-col w-4/5 py-[5%]">
           <p className="text-[#0020A9] text-4xl md:text-7xl text-center font-bold ">
             สินค้าที่ระลึก
           </p>
@@ -212,19 +212,20 @@ export default function Merchandise() {
             item={0}
           />
           <Box
-            img={ImgData[1][0]}
-            head={TextData[1][0]}
-            desc={TextData[1][3]}
-            price={TextData[1][2]}
-            item={1}
-          />
-          <Box
             img={ImgData[2][0]}
             head={TextData[2][0]}
             desc={TextData[2][3]}
             price={TextData[2][2]}
             item={2}
           />
+          <Box
+            img={ImgData[1][0]}
+            head={TextData[1][0]}
+            desc={TextData[1][3]}
+            price={TextData[1][2]}
+            item={1}
+          />
+
           <Box
             img={ImgData[3][0]}
             head={TextData[3][0]}
