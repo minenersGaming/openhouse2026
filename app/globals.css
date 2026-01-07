@@ -63,6 +63,13 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  .footer-xw {
+    padding-top: 4rem; /* same as pt-16 */
+  }
+}
+
+
 .outro-fade-down {
   animation: fadeDownOut 0.5s ease-in forwards;
 }

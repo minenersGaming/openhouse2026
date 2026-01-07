@@ -32,7 +32,7 @@ const Footer = () => {
 
   return (
     <div className="relative">
-      <footer className="bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 lg:px-30 h-full overflow-y-clip">
+      <footer className="bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 footer-xw lg:px-30 h-full overflow-y-clip">
         <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:pb-8">
           <div className="flex flex-col justify-center items-center  lg:justify-start lg:items-start">
             <div className="flex flex-col justify-center lg:justify-start lg:items-start items-center -space-y-1">
