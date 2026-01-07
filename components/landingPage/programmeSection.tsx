@@ -39,8 +39,8 @@ const ProgrammeSection = () => {
     >
       <div className="h-full top-0">
         <div className="-translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
-          <LeftPillar className="h-[100%] -translate-x-[17%] z-20" />
-          <RightPillar className="h-[100%] translate-x-[17%] z-20" />
+          <LeftPillar className="h-full w-[700px] -translate-x-[17%] z-20" />
+          <RightPillar className="h-full w-[700px] translate-x-[17%] z-20" />
           {/* <img
             src="../assets/images/Landing/LeftPillar.png"
             className=" -translate-x-[0%] z-20"
@@ -50,7 +50,7 @@ const ProgrammeSection = () => {
             className=" translate-x-[0%] z-22"
           /> */}
         </div>
-        <div className="hidden relative w-full items-center flex justify-center">
+        <div className="hidden relative w-full items-center justify-center">
           <Bricks className="hidden absolute w-[70vw] translate-y-[70%] z-2" />
         </div>
       </div>
