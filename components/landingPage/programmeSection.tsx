@@ -1,8 +1,6 @@
 import LeftPillar from "@/vector/LandingPage/Programme/LeftPillar";
 import RightPillar from "@/vector/LandingPage/Programme/RightPillar";
 
-import Link from "next/link";
-
 import SciMath from "@/vector/LandingPage/Programme/CardLg/SciMath";
 import ArtsFr from "@/vector/LandingPage/Programme/CardLg/ArtsFr";
 import ArtsKr from "@/vector/LandingPage/Programme/CardLg/ArtsKr";
