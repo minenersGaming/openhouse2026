@@ -117,7 +117,7 @@ const HeaderDev = () => {
             onClick={() => setShows(true)}
             onMouseLeave={() => setShows(false)}
           >
-            <span className="cursor-pointer text-sm hover:font-bold transition-all">ตารางการแสดง</span>
+            <span className="cursor-pointer text-[16px] hover:font-bold transition-all">ตารางการแสดง</span>
             <AnimatePresence>
               {shows && (
                 <motion.div
@@ -127,11 +127,11 @@ const HeaderDev = () => {
                   exit={{ opacity: 0, y: -10 }}
                   className="absolute -bottom-[6.03rem] bg-[#1C3BA2] -left-4 z-20 flex w-36 cursor-pointer flex-col items-center justify-center rounded-xl bg-opacity-70"
                 >
-                  <Link href="/" className="py-2 hover:bg-opacity-100 cursor-pointer">
+                  <Link href="/performance/auditorium" className="py-2 hover:bg-opacity-100 cursor-pointer">
                     หอประชุมฯ
                   </Link>
                   <div className="h-px w-full bg-white opacity-40" />
-                  <Link href="/" className="py-2 hover:bg-opacity-100 cursor-pointer">
+                  <Link href="/performance/lan70" className="py-2 hover:bg-opacity-100 cursor-pointer">
                     ลาน 70 ปีฯ
                   </Link>
                 </motion.div>
@@ -197,7 +197,7 @@ const HeaderDev = () => {
             >
               <div className="p-1 flex ">
                 <ScheduleIcon className={Style.NavIcon} />
-                <p className="text-left text-lg text-white active:underline">ตารางการแสดง</p>
+                <p className="text-left text-[16px] text-white active:underline">ตารางการแสดง</p>
               </div>
               <div className="relative mr-8 flex">
                 <div
@@ -224,7 +224,7 @@ const HeaderDev = () => {
                   className="bg-[#0B1855]/80 px-4 rounded-xl"
                 >
                   <NavRow href="/performance/auditorium" text="หอประชุมฯ" />
-                  <div className="w-full bg-white h-px"></div>
+                  <div className="w-full bg-white opacity-40 h-px rounded-full mt-[0.2rem]"></div>
                   <NavRow href="/performance/lan70" text="ลาน 70 ปีฯ" />
                 </motion.div>
               )}
