@@ -34,18 +34,18 @@ const GiftedSection = () => {
         </div>
         <div className="h-full x-overflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%] fade-in-scroll  ">
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <Link href={"/"} className="block">
+            <Link href={"/gifted/gifted-math"} className="block">
               <GiftedMath className={SmBanner} />
             </Link>
-            <Link href={"/"} className="block">
+            <Link href={"gifted/gifted-thai"} className="block">
               <GiftedThai className={SmBanner} />
             </Link>
           </div>
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
-            <Link href={"/"} className="block">
+            <Link href={"gifted/gifted-science"} className="block">
               <GiftedSci className={SmBanner} />
             </Link>
-            <Link href={"/"} className="block">
+            <Link href={"gifted/gifted-eng"} className="block">
               <GiftedEng className={SmBanner} />
             </Link>
           </div>

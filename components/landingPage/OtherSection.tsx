@@ -6,12 +6,12 @@ import OtherStatue from "@/vector/LandingPage/Other/OtherStatue";
 const List = (
   <>
     <OtherList text="สินค้าที่ระลึก" href="/merchandise" />
-    <OtherList text="การสอบเข้า ม.4" href="./admission" />
-    <OtherList text="การเดินทางมาโรงเรียน" href="./directions" />
+    <OtherList text="การสอบเข้า ม.4" href="/admission" />
+    <OtherList text="การเดินทางมาโรงเรียน" href="/directions" />
     <OtherList text="แผนผังซุ้มในงาน" href="/map" />
     <OtherList text="การแสดงลาน 70 ปี" href="/performance/lan70" />
     <OtherList text="การแสดงบนหอประชุม" href="/performance/auditorium" />
-    <OtherList text="ช่องทางการติดต่อ" href="/" />
+    <OtherList text="ช่องทางการติดต่อ" href="/others" />
   </>
 );
 

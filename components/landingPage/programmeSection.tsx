@@ -34,7 +34,7 @@ const Style = {
 const ProgrammeSection = () => {
   return (
     <section
-      id="program"
+      id="programs"
       className=" relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
       <div className="h-full top-0">
@@ -127,27 +127,27 @@ const ProgrammeSection = () => {
           <Link href="./programs/sci-math">
             <SciMathSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/programs/"}>
+          <Link href={"/programs/arts-french"}>
             <ArtsFrSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"/programs/arts-japanese"}>
             <ArtsJpSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"/programs/arts-chinese"}>
             <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
         </div>
         <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
-          <Link href={"/"}>
+          <Link href={"/programs/arts-math"}>
             <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"/programs/arts-german"}>
             <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"/programs/arts-espanol"}>
             <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
-          <Link href={"/"}>
+          <Link href={"/programs/arts-korean"}>
             <ArtsKrSm className="w-5/4 scale-110 duration-400" />
           </Link>
         </div>

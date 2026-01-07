@@ -117,7 +117,7 @@ const HeaderDev = () => {
             onClick={() => setShows(true)}
             onMouseLeave={() => setShows(false)}
           >
-            <span className="hover:font-bold transition-all">ตารางการแสดง</span>
+            <span className="cursor-pointer text-sm hover:font-bold transition-all">ตารางการแสดง</span>
             <AnimatePresence>
               {shows && (
                 <motion.div
@@ -138,10 +138,10 @@ const HeaderDev = () => {
               )}
             </AnimatePresence>
           </div>
-        <Link href="/" className={Style.Link}>
+        <Link href="/clubs" className={Style.Link}>
           ชมรม
         </Link>
-        <Link href="/" className={Style.Link}>
+        <Link href="/others" className={Style.Link}>
           เพิ่มเติม
         </Link>
         {/* {true ? ( */}
@@ -230,17 +230,17 @@ const HeaderDev = () => {
               )}
             </AnimatePresence>
             <NavRow
-              href="/"
+              href="/map"
               Icon={<MapIcon className={Style.NavIcon} />}
               text="แผนผังงาน"
             />
             <NavRow
-              href="/"
+              href="/directions"
               Icon={<DirectionIcon className={Style.NavIcon} />}
               text="การเดินทางมาโรงเรียน"
             />
             <NavRow
-              href="/"
+              href="/merchandise"
               Icon={<SouvenirIcon className={Style.NavIcon} />}
               text="สินค้าที่ระลึก"
             />

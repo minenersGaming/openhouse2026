@@ -18,6 +18,8 @@ import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
 import programData from "@public/data/programs.json"
 
+import Link from "next/link";
+
 export const generateStaticParams = async () => {
   return programData.map((program) => ({ id: program.key }));
 }
@@ -53,13 +55,13 @@ export default async function ProgramInfoPage({ params }: { params: Promise<{ id
       <Smoke1 className="w-7/10 absolute left-0 -translate-x-[12%]  top-[35%] z-0" />
 
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
-        <a
-          href="https://openhouse.triamudom.ac.th/#programs"
+        <Link
+          href="/#programs"
           className="flex flex-row items-center mt-24 lg:mt-[13%] transition-all hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
-        </a>
+        </Link>
 
         <h1 className="max-w-[70vw] text-[#F3ECB7] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
           {data.name}

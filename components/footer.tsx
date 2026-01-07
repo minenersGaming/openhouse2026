@@ -90,23 +90,23 @@ const Footer = () => {
               <Link href="/" className={`${Style.Link}`}>
                 หน้าแรก
               </Link>
-              <Link href="/" className={`${Style.Link}`}>
+              <Link href="/map" className={`${Style.Link}`}>
                 แผนผัง
               </Link>
             </div>
             <div className={`${Style.LinkRow}`}>
-              <Link href="/" className={`${Style.Link}`}>
+              <Link href="#programs" className={`${Style.Link}`}>
                 สายการเรียน
               </Link>
-              <Link href="/" className={`${Style.Link}`}>
+              <Link href="/admission" className={`${Style.Link}`}>
                 การสอบเข้า
               </Link>
             </div>
             <div className={`${Style.LinkRow}`}>
-              <Link href="/" className={`${Style.Link}`}>
+              <Link href="#clubs" className={`${Style.Link}`}>
                 ชมรม
               </Link>
-              <Link href="/" className={`${Style.Link}`}>
+              <Link href="/directions" className={`${Style.Link}`}>
                 การเดินทาง
               </Link>
             </div>

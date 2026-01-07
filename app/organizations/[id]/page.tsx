@@ -18,6 +18,8 @@ import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
 import organizationData from "@public/data/organizations.json"
 
+import Link from "next/link";
+
 export const generateStaticParams = async () => {
   return organizationData.map((organization) => ({ id: organization.key }));
 }
@@ -54,13 +56,13 @@ export default async function OrganizationInfoPage({ params }: { params: Promise
       <Smoke1 className="w-7/10 absolute left-0 -translate-x-[12%]  top-[35%] z-0" />
 
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
-        <a
-          href="https://openhouse.triamudom.ac.th/#organization"
+        <Link
+          href="/#organizations"
           className="flex flex-row items-center mt-24 lg:mt-[13%] transition-all hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
-        </a>
+        </Link>
 
         <h1 className="text-[#F3ECB7] font-bold text-4xl lg:text-7xl max-w-[65vw] text-center px-4 mt-2">
           {data.name}

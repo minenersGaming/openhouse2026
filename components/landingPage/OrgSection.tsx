@@ -42,7 +42,7 @@ const OrgSection = () => {
                 <TUCMCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
               <Link href="/organizations/AIC" className="block">
-                <AICLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <AICLg className="w-[25vw] hover:scale-105 cursor-pointer transition-all" />
               </Link>
             </div>
             <div className="flex flex-col h-[140%] -space-y-10">
@@ -89,22 +89,22 @@ const OrgSection = () => {
  [&>*:nth-child(odd)]:self-start
  [&>*:nth-child(even)]:self-end"
           >
-            <Link href={"/"}>
+            <Link href={"/organizations/TUCMC"}>
               <TUCMCCard className={LgCard} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"/organizations/TUSC"}>
               <TUSCCard className={LgCard} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"/organizations/TUANUSORN"}>
               <AnusornCard className={LgCard} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"/organizations/AIC"}>
               <AICCard className={LgCard} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"/organizations/TUNSO"}>
               <TUNSOCard className={LgCard} />
             </Link>
-            <Link href={"/"}>
+            <Link href={"/organizations/TUPRO"}>
               <TUPROCard className={LgCard} />
             </Link>
           </div>
