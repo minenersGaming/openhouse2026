@@ -106,15 +106,15 @@ const HeaderDev = () => {
         >
           หน้าแรก
         </Link>
-        <a href="" className={Style.Link}>
+        <Link href="" className={Style.Link}>
           ตารางการแสดง
-        </a>
-        <a href="" className={Style.Link}>
+        </Link>
+        <Link href="/clubs" className={Style.Link}>
           ชมรม
-        </a>
-        <a href="" className={Style.Link}>
+        </Link>
+        <Link href="" className={Style.Link}>
           เพิ่มเติม
-        </a>
+        </Link>
         {/* {true ? ( */}
         {isPending || !data?.user ? (
           <Link
@@ -127,12 +127,12 @@ const HeaderDev = () => {
             {/* E-ticket */}
           </Link>
         ) : (
-          <a
+          <Link
             href="/ticket"
             className="cursor-pointer font-bold bg-linear-to-r from-[#C5A064] to-[#E5C675] px-3 py-1 rounded-full"
           >
             <p className="text-shadow-sm/15 font-noto-sans-thai">E-ticket</p>
-          </a>
+          </Link>
         )}
       </div>
 

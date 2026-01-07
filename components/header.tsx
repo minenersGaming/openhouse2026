@@ -165,17 +165,17 @@ const Header = () => {
               text="ตารางการแสดง"
             />
             <NavRow
-              href="/"
+              href="/map"
               Icon={<MapIcon className={Style.NavIcon} />}
               text="แผนผังงาน"
             />
             <NavRow
-              href="/"
+              href="/directions"
               Icon={<DirectionIcon className={Style.NavIcon} />}
               text="การเดินทางมาโรงเรียน"
             />
             <NavRow
-              href="/"
+              href="/merchandise"
               Icon={<SouvenirIcon className={Style.NavIcon} />}
               text="สินค้าที่ระลึก"
             />
