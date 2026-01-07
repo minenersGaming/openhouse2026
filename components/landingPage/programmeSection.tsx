@@ -12,7 +12,7 @@ import ArtsMath from "@/vector/LandingPage/Programme/CardLg/ArtsMath";
 
 import SciMathSm from "@/vector/LandingPage/Programme/CardSm/SciMathSm";
 import ArtsFrSm from "@/vector/LandingPage/Programme/CardSm/ArtsFrSm";
-// import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
+import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
 import ArtsCnSm from "@/vector/LandingPage/Programme/CardSm/ArtsCnSm";
 import ArtsJpSm from "@/vector/LandingPage/Programme/CardSm/ArtsJpSm";
 import ArtsDeSm from "@/vector/LandingPage/Programme/CardSm/ArtsDeSm";
@@ -148,7 +148,7 @@ const ProgrammeSection = () => {
               width={500}
               height={500}
             />
-            {/* <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" /> */}
+            <ArtsKrSm className="w-5/4 scale-110 duration-400" />
           </Link>
         </div>
         <div className=" w-full ">

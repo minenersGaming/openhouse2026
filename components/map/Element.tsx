@@ -675,7 +675,7 @@ export const mapItems: MapItem[] = [
   },
   {
     element: (
-      <O56 className="absolute left-[265px] top-[378px] w-1/2 scale-50 origin-top-left" />
+      <O56 className="absolute left-[325px] top-[630px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["คณะกรรมการหนังสืออนุสรณ์"],
     type: "organization",

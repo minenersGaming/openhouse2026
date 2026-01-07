@@ -17,13 +17,13 @@ const ClubsSection = () => {
         <div className="relative z-6 w-full flex justify-center ">
           <ClubsLgComet className="absolute w-full" />
         </div>
-        <Link
+        <a
           href="./clubs"
           target="_blank"
-          className="relative z-7 w-full h-full flex justify-center "
+          className=" relative z-7 w-full h-full flex justify-center "
         >
-          <ClubsLgMoon className="duration-500 absolute w-[75%] translate-y-[7%] hover:translate-y-[5%] hover:scale-103 transition-all " />
-        </Link>
+          <ClubsLgMoon className="rounded-full duration-500 absolute w-[75%] translate-y-[7%] hover:translate-y-[5%] hover:scale-103 transition-all " />
+        </a>
 
         <ClubsLgPillar className="w-full relative z-67 pointer-events-none" />
 
