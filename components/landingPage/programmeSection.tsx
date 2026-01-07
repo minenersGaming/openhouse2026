@@ -12,7 +12,7 @@ import ArtsMath from "@/vector/LandingPage/Programme/CardLg/ArtsMath";
 
 import SciMathSm from "@/vector/LandingPage/Programme/CardSm/SciMathSm";
 import ArtsFrSm from "@/vector/LandingPage/Programme/CardSm/ArtsFrSm";
-import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
+// import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
 import ArtsCnSm from "@/vector/LandingPage/Programme/CardSm/ArtsCnSm";
 import ArtsJpSm from "@/vector/LandingPage/Programme/CardSm/ArtsJpSm";
 import ArtsDeSm from "@/vector/LandingPage/Programme/CardSm/ArtsDeSm";
@@ -20,6 +20,7 @@ import ArtsEsSm from "@/vector/LandingPage/Programme/CardSm/ArtsEsSm";
 import ArtsMathSm from "@/vector/LandingPage/Programme/CardSm/ArtsMathSm";
 import ProgrammeSm from "@/vector/LandingPage/Programme/ProgrammeSm";
 import Bricks from "@/vector/LandingPage/Programme/Bricks";
+import Image from "next/image";
 
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
@@ -125,7 +126,8 @@ const ProgrammeSection = () => {
           <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsDeSm className="w-5/4 hover:scale-110 duration-400" />
           <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
-          <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" />
+          <Image src={`/korea.png`} alt="korea" className="w-5/4"/>
+          {/* <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" /> */}
         </div>
         <div className=" w-full ">
           <ProgrammeSm className=" left-0  w-full" />
