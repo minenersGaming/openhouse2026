@@ -12,7 +12,7 @@ const Hero = () => {
     <section
       className={`${Style.Radial} h-auto w-full relative overflow-hidden -z-20`}
     >
-      <div className="absolute top-[18%] lg:top-[15%] -translate-y-[15%] left-1/2 -translate-x-1/2 ">
+      <div className="absolute top-[18%] lg:top-[15%] -translate-y-[15%] left-1/2 -translate-x-1/2">
         <TriamudomOpenhouse2026 className="w-[70vw] lg:w-[65vw] hidden sm:block" />
         <TriamudomOpenHouse26Sm className="w-[85vw] block sm:hidden" />
       </div>
