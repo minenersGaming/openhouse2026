@@ -25,6 +25,7 @@ import Image from "next/image";
 import ProgrammeLg from "@/vector/LandingPage/Programme/ProgrammeLg";
 import ProgrammeBigLg from "@/vector/LandingPage/Programme/ProgrammeBigLg";
 import Link from "next/link";
+import ArtsKrSm from "@/vector/LandingPage/Programme/CardSm/ArtsKrSm";
 const Style = {
   LgCard: "w-[25vw] hover:scale-105 transition-all duration-400",
   LgFlex:
@@ -141,6 +142,7 @@ const ProgrammeSection = () => {
             <ArtsEsSm className="w-5/4 hover:scale-110 duration-400" />
           </a>
           <a>
+            <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" />
             {/* <Image src={`/korea.png`} alt="korea" className="w-5/4" /> */}
             {/* <ArtsKrSm className="w-5/4 hover:scale-110 duration-400" /> */}
           </a>
