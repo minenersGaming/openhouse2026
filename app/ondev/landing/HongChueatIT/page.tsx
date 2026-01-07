@@ -14,11 +14,6 @@ const Banner =
 const HongChueatIT = () => {
   return (
     <>
-      <div className="h-70 flex flex-col justify-center  bg-pink-400">
-        <marquee className="text-9xl  flex flex-col justify-center font-bold w-full items-center text-white">
-          รัก กช.
-        </marquee>
-      </div>
       <section
         id="program"
         className="hidden md:block relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA]"
@@ -67,11 +62,6 @@ const HongChueatIT = () => {
         </div>
         {/*ends here**/}
       </section>
-      <div className="h-70 flex flex-col justify-center  items-center bg-pink-400">
-        <marquee className="text-9xl flex flex-col justify-center font-bold w-full items-center text-white">
-          รัก กช.
-        </marquee>
-      </div>
     </>
   );
 };

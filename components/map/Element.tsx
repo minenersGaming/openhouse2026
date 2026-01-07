@@ -89,6 +89,8 @@ import O60 from "@/vector/map/organization/O60";
 import O61 from "@/vector/map/organization/O61";
 import O62 from "@/vector/map/organization/O62";
 import O63 from "@/vector/map/organization/O63";
+import C54 from "@/vector/map/clubs/C54";
+import O64 from "@/vector/map/organization/O64";
 
 export type MapItem = {
   element: React.ReactElement;
@@ -525,13 +527,6 @@ export const mapItems: MapItem[] = [
   },
   {
     element: (
-      <C35 className="absolute left-[265px] top-[392px] w-1/2 scale-50 origin-top-left" />
-    ),
-    keyword: ["ชมรมบริหารธุรกิจ"],
-    type: "club",
-  },
-  {
-    element: (
       <Library className="absolute left-[295px] top-[346px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ห้องสมุด", "library"],
@@ -623,42 +618,42 @@ export const mapItems: MapItem[] = [
   },
   {
     element: (
-      <C48 className="absolute left-[347px] top-[664px] w-1/2 scale-50 origin-top-left" />
+      <C49 className="absolute left-[347px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาเกาหลี"],
     type: "club",
   },
   {
     element: (
-      <C49 className="absolute left-[360px] top-[664px] w-1/2 scale-50 origin-top-left" />
+      <C50 className="absolute left-[360px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาญี่ปุ่น"],
     type: "club",
   },
   {
     element: (
-      <C50 className="absolute left-[373px] top-[664px] w-1/2 scale-50 origin-top-left" />
+      <C51 className="absolute left-[373px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาจีน"],
     type: "club",
   },
   {
     element: (
-      <C51 className="absolute left-[386px] top-[664px] w-1/2 scale-50 origin-top-left" />
+      <C52 className="absolute left-[386px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาเยอรมัน"],
     type: "club",
   },
   {
     element: (
-      <C52 className="absolute left-[399px] top-[664px] w-1/2 scale-50 origin-top-left" />
+      <C53 className="absolute left-[399px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาฝรั่งเศส"],
     type: "club",
   },
   {
     element: (
-      <C53 className="absolute left-[412px] top-[664px] w-1/2 scale-50 origin-top-left" />
+      <C54 className="absolute left-[412px] top-[664px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["ชมรมภาษาสเปน"],
     type: "club",
@@ -666,70 +661,70 @@ export const mapItems: MapItem[] = [
   //organization
   {
     element: (
-      <O54 className="absolute left-[99px] top-[526px] w-1/2 scale-50 origin-top-left" />
+      <O55 className="absolute left-[99px] top-[526px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["กลุ่มนักเรียนอาสาพยาบาล"],
     type: "organization",
   },
   {
     element: (
-      <O55 className="absolute left-[265px] top-[378px] w-1/2 scale-50 origin-top-left" />
+      <O56 className="absolute left-[265px] top-[378px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["คณะกรรมการหนังสืออนุสรณ์"],
     type: "organization",
   },
   {
     element: (
-      <O56 className="absolute left-[256px] top-[542px] w-1/2 scale-50 origin-top-left" />
+      <O57 className="absolute left-[256px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สปค.ต.อ."],
     type: "organization",
   },
   {
     element: (
-      <O57 className="absolute left-[269px] top-[542px] w-1/2 scale-50 origin-top-left" />
+      <O58 className="absolute left-[269px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สนตอ."],
     type: "organization",
   },
   {
     element: (
-      <O58 className="absolute left-[282px] top-[542px] w-1/2 scale-50 origin-top-left" />
+      <O59 className="absolute left-[282px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สปค.รร.ต.อ."],
     type: "organization",
   },
   {
     element: (
-      <O59 className="absolute left-[300px] top-[542px] w-1/2 scale-50 origin-top-left" />
+      <O60 className="absolute left-[300px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["กช.", "tucmc"],
     type: "organization",
   },
   {
     element: (
-      <O60 className="absolute left-[313px] top-[542px] w-1/2 scale-50 origin-top-left" />
+      <O61 className="absolute left-[313px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["กน."],
     type: "organization",
   },
   {
     element: (
-      <O61 className="absolute left-[326px] top-[542px] w-1/2 scale-50 origin-top-left" />
+      <O62 className="absolute left-[326px] top-[542px] w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["AIC"],
     type: "organization",
   },
   {
     element: (
-      <O62 className="absolute left-[256px] top-[580px]  w-1/2 scale-50 origin-top-left" />
+      <O63 className="absolute left-[256px] top-[580px]  w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["สโมสรอาจารย์โรงเรียนฯ"],
     type: "organization",
   },
   {
     element: (
-      <O63 className="absolute left-[341px] top-[579px]  w-1/2 scale-50 origin-top-left" />
+      <O64 className="absolute left-[341px] top-[579px]  w-1/2 scale-50 origin-top-left" />
     ),
     keyword: ["TUPRO"],
     type: "organization",
