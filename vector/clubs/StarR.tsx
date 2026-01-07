@@ -142,7 +142,7 @@ const StarR: FC<{
           r="32.0433"
           transform="rotate(-164.401 95.4915 479.89)"
           fill="url(#paint0_linear_7167_9859)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -156,7 +156,7 @@ const StarR: FC<{
           r="15.6661"
           transform="matrix(0.963169 0.268897 0.268897 -0.963169 17.4102 438.349)"
           fill="url(#paint1_linear_7167_9859)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -170,7 +170,7 @@ const StarR: FC<{
           r="17.8676"
           transform="matrix(0.963169 0.268897 0.268897 -0.963169 73.9531 1362.75)"
           fill="url(#paint2_linear_7167_9859)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <rect

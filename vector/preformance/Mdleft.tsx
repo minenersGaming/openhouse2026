@@ -223,7 +223,7 @@ const Mdleft: FC<{ className?: string }> = ({ className }) => {
           cy="1459.88"
           r="46.0449"
           fill="url(#paint27_linear_7095_6130)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -237,7 +237,7 @@ const Mdleft: FC<{ className?: string }> = ({ className }) => {
           r="25.3398"
           transform="matrix(-1 0 0 1 118.258 1091.84)"
           fill="url(#paint28_linear_7095_6130)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -251,7 +251,7 @@ const Mdleft: FC<{ className?: string }> = ({ className }) => {
           r="50.1486"
           transform="matrix(0.894898 -0.446271 -0.446271 -0.894898 -33.3711 1095.54)"
           fill="url(#paint29_linear_7095_6130)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <path
@@ -413,7 +413,7 @@ const Mdleft: FC<{ className?: string }> = ({ className }) => {
           r="49.7993"
           transform="rotate(15.5986 50.1719 348.35)"
           fill="url(#paint51_linear_7095_6130)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -427,7 +427,7 @@ const Mdleft: FC<{ className?: string }> = ({ className }) => {
           r="24.3471"
           transform="matrix(-0.963169 -0.268897 -0.268897 0.963169 157.305 388.593)"
           fill="url(#paint52_linear_7095_6130)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -441,7 +441,7 @@ const Mdleft: FC<{ className?: string }> = ({ className }) => {
           r="24.3471"
           transform="matrix(-0.963169 -0.268897 -0.268897 0.963169 291.461 13.6836)"
           fill="url(#paint53_linear_7095_6130)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <path

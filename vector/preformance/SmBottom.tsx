@@ -835,7 +835,7 @@ const SmBottom: FC<{ className?: string }> = ({ className }) => {
           r="17.1782"
           transform="matrix(-1 0 0 1 440.25 136.256)"
           fill="url(#paint109_linear_7166_3814)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -849,7 +849,7 @@ const SmBottom: FC<{ className?: string }> = ({ className }) => {
           r="33.9964"
           transform="matrix(0.894898 -0.446271 -0.446271 -0.894898 196.602 330.704)"
           fill="url(#paint110_linear_7166_3814)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <path
@@ -1099,7 +1099,7 @@ const SmBottom: FC<{ className?: string }> = ({ className }) => {
           r="16.5052"
           transform="matrix(-0.963169 -0.268897 -0.268897 0.963169 74.0977 395.422)"
           fill="url(#paint147_linear_7166_3814)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -1153,7 +1153,7 @@ const SmBottom: FC<{ className?: string }> = ({ className }) => {
           r="33.7596"
           transform="rotate(15.5986 517.528 377.71)"
           fill="url(#paint152_linear_7166_3814)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <defs>

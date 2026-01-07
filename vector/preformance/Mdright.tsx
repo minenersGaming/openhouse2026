@@ -597,7 +597,7 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           r="59.8163"
           transform="rotate(180 285.695 756.699)"
           fill="url(#paint83_linear_7095_6233)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -611,7 +611,7 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           r="59.8163"
           transform="rotate(180 223.086 108.909)"
           fill="url(#paint84_linear_7095_6233)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -625,7 +625,7 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           r="30.4844"
           transform="rotate(180 160.707 694.907)"
           fill="url(#paint85_linear_7095_6233)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g opacity="0.66">
@@ -809,7 +809,7 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           cy="1477.39"
           r="21.4316"
           fill="url(#paint89_linear_7095_6233)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -822,7 +822,7 @@ const Mdright: FC<{ className?: string }> = ({ className }) => {
           cy="1356.34"
           r="53.248"
           fill="url(#paint90_linear_7095_6233)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <defs>

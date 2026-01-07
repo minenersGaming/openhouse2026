@@ -86,7 +86,7 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           r="30.9267"
           transform="matrix(-0.999945 -0.0104481 -0.0104481 0.999945 581.246 119.589)"
           fill="url(#paint2_linear_7166_3813)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -100,7 +100,7 @@ const SmUpper: FC<{ className?: string }> = ({ className }) => {
           r="15.3831"
           transform="matrix(-0.999945 -0.0104481 -0.0104481 0.999945 523.547 170.864)"
           fill="url(#paint3_linear_7166_3813)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g

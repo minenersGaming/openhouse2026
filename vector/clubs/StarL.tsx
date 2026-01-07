@@ -106,7 +106,7 @@ const StarL: FC<{
           r="26.0662"
           transform="matrix(0.963169 0.268897 0.268897 -0.963169 34.0352 192.433)"
           fill="url(#paint0_linear_7167_9860)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -120,7 +120,7 @@ const StarL: FC<{
           r="32.0433"
           transform="matrix(-0.963169 0.268897 0.268897 0.963169 125.914 1775.8)"
           fill="url(#paint1_linear_7167_9860)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -134,7 +134,7 @@ const StarL: FC<{
           r="15.6661"
           transform="rotate(-15.5986 44.8876 1867.69)"
           fill="url(#paint2_linear_7167_9860)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -148,7 +148,7 @@ const StarL: FC<{
           r="32.7455"
           transform="rotate(15.5986 65.164 966.254)"
           fill="url(#paint3_linear_7167_9860)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -162,7 +162,7 @@ const StarL: FC<{
           r="16.0094"
           transform="matrix(-0.963169 -0.268897 -0.268897 0.963169 144.957 1008.7)"
           fill="url(#paint4_linear_7167_9860)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <g
@@ -176,7 +176,7 @@ const StarL: FC<{
           r="16.0094"
           transform="matrix(-0.963169 -0.268897 -0.268897 0.963169 65.8359 1048.15)"
           fill="url(#paint5_linear_7167_9860)"
-          shape-rendering="crispEdges"
+          shapeRendering="crispEdges"
         />
       </g>
       <rect
