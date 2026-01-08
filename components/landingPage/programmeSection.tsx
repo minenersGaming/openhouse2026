@@ -75,7 +75,7 @@ const ProgrammeSection = () => {
         >
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] -translate-y-5 -translate-x-[1.5%]">
+            <div className="absolute flex flex-col -space-y-[40%] -translate-y-10 -translate-x-[1.5%]">
               <Link href="/programs/sci-math" className="block">
                 <SciMath className={Style.LgCard} />
               </Link>
@@ -86,7 +86,7 @@ const ProgrammeSection = () => {
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] translate-x-[1%] -translate-y-5">
+            <div className="absolute flex flex-col -space-y-[40%] translate-x-[1%] -translate-y-10">
               <Link href="/programs/arts-french" className="block">
                 <ArtsFr className={Style.LgCard} />
               </Link>
@@ -98,7 +98,7 @@ const ProgrammeSection = () => {
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] -translate-y-5">
+            <div className="absolute flex flex-col -space-y-[40%] -translate-y-10">
               <Link href="/programs/arts-japanese" className="block">
                 <ArtJp className={Style.LgCard} />
               </Link>
@@ -110,7 +110,7 @@ const ProgrammeSection = () => {
           </div>
           <div className={Style.LgFlex}>
             <ProgrammeLg className={Style.LgPadding} />
-            <div className="absolute flex flex-col -space-y-[40%] -translate-x-[2.5%] -translate-y-5">
+            <div className="absolute flex flex-col -space-y-[40%] -translate-x-[2.5%] -translate-y-10">
               <Link href="/programs/arts-chinese" className="block">
                 <ArtsCn className={Style.LgCard} />
               </Link>
