@@ -5,7 +5,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
-import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "motion/react";
+import {
+  motion,
+  useScroll,
+  useMotionValueEvent,
+  AnimatePresence,
+} from "motion/react";
 import Logo from "@/vector/Logo";
 import AureateLogo from "@/vector/AureateLogo";
 import MenuIcon from "./MenuIcon";
@@ -20,7 +25,6 @@ import DirectionIcon from "@/vector/NavIcon/DirectionIcon";
 import SouvenirIcon from "@/vector/NavIcon/SouvenirIcon";
 import AccountIcon from "@/vector/NavIcon/AccountIcon";
 
-
 const Style = {
   Link: "cursor-pointer aria-[current=page]:font-bold hover:font-bold transition-all",
   NavIcon: "w-4 mr-3",
@@ -34,10 +38,10 @@ const Header = () => {
   const { data, isPending } = useSession();
   const router = useRouter();
   const [isHovering, setIsHovering] = useState(false);
-  const [shows, setShows] = useState(false)
+  const [shows, setShows] = useState(false);
   const { scrollY } = useScroll();
-  const [showShows, setShowShows] = useState(false)
-  const arrow = `w-2 h-[2px] bg-white transition ease transform duration-300`
+  const [showShows, setShowShows] = useState(false);
+  const arrow = `w-2 h-[2px] bg-white transition ease transform duration-300`;
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious() ?? 0;
@@ -107,40 +111,50 @@ const Header = () => {
           หน้าแรก
         </Link>
         <div
-            className={`group relative inline-block cursor-pointer ${pathname.startsWith('/performance/lan70') || pathname.startsWith('/performance/auditorium')
-              ? 'font-semibold'
-              : ''
-              } `}
-            onMouseOver={() => setShows(true)}
-            onClick={() => setShows(true)}
-            onMouseLeave={() => setShows(false)}
-          >
-            <span className="cursor-pointer text-[16px] hover:font-bold transition-all">ตารางการแสดง</span>
-            <AnimatePresence>
-              {shows && (
-                <motion.div
-                  key={'dropdown'}
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -10 }}
-                  className="absolute -bottom-[6.03rem] bg-[#1C3BA2] -left-4 z-20 flex w-36 cursor-pointer flex-col items-center justify-center rounded-xl bg-opacity-70"
+          className={`group relative inline-block cursor-pointer ${
+            pathname.startsWith("/performance/lan70") ||
+            pathname.startsWith("/performance/auditorium")
+              ? "font-semibold"
+              : ""
+          } `}
+          onMouseOver={() => setShows(true)}
+          onClick={() => setShows(true)}
+          onMouseLeave={() => setShows(false)}
+        >
+          <span className="cursor-pointer text-[16px] hover:font-bold transition-all">
+            ตารางการแสดง
+          </span>
+          <AnimatePresence>
+            {shows && (
+              <motion.div
+                key={"dropdown"}
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="absolute -bottom-[6.03rem] bg-[#1C3BA2] -left-4 z-20 flex w-36 cursor-pointer flex-col items-center justify-center rounded-xl bg-opacity-70"
+              >
+                <Link
+                  href="/performance/auditorium"
+                  className="py-2 hover:bg-opacity-100 cursor-pointer"
                 >
-                  <Link href="/performance/auditorium" className="py-2 hover:bg-opacity-100 cursor-pointer">
-                    หอประชุมฯ
-                  </Link>
-                  <div className="h-px w-full bg-white opacity-40" />
-                  <Link href="/performance/lan70" className="py-2 hover:bg-opacity-100 cursor-pointer">
-                    ลาน 70 ปีฯ
-                  </Link>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+                  หอประชุมฯ
+                </Link>
+                <div className="h-px w-full bg-white opacity-40" />
+                <Link
+                  href="/performance/lan70"
+                  className="py-2 hover:bg-opacity-100 cursor-pointer"
+                >
+                  ลาน 70 ปีฯ
+                </Link>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
         <Link href="/clubs" className={Style.Link}>
           ชมรม
         </Link>
-        <Link href="/others" className={Style.Link}>
-          เพิ่มเติม
+        <Link href="/merchandise" className={Style.Link}>
+          สินค้าที่ระลึก
         </Link>
         {/* {true ? ( */}
         {isPending || !data?.user ? (
@@ -195,17 +209,22 @@ const Header = () => {
             >
               <div className="p-1 flex ">
                 <ScheduleIcon className={Style.NavIcon} />
-                <p className="text-left text-[16px] text-white active:underline">ตารางการแสดง</p>
+                <p className="text-left text-[16px] text-white active:underline">
+                  ตารางการแสดง
+                </p>
               </div>
               <div className="relative mr-8 flex">
                 <div
-                  className={`${arrow} ${showShows
-                    ? 'absolute -left-[5px] top-0 rounded-l-full'
-                    : 'absolute -left-[5px] top-0 rotate-45 rounded-l-full'
-                    }`}
+                  className={`${arrow} ${
+                    showShows
+                      ? "absolute -left-[5px] top-0 rounded-l-full"
+                      : "absolute -left-[5px] top-0 rotate-45 rounded-l-full"
+                  }`}
                 />
                 <div
-                  className={`${arrow} ${showShows ? 'rounded-r-full' : '-rotate-45 rounded-r-full'}`}
+                  className={`${arrow} ${
+                    showShows ? "rounded-r-full" : "-rotate-45 rounded-r-full"
+                  }`}
                 />
               </div>
             </div>
