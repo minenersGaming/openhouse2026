@@ -4,40 +4,31 @@ import { useQuery } from "@tanstack/react-query";
 
 const css = {
   header1:
-    " z-10 text-white font-noto-sans-thai font-medium " +
-    " text-[24px] leading-[10px] sm:text-[30px] sm:leading-[15px] md:text-[34px] md:leading-[10px] lg:text-[38px] lg:leading-[10px] 2xl:leading-[10px] 2xl:text-[46.784px] ",
+    " z-10 text-[#F3E19D] text-nowrap font-noto-sans-thai font-bold text-center " +
+    " text-[40px] leading-[37px] sm:text-[55px] sm:leading-[50px] md:text-[60px] md:leading-[55px] lg:text-[75px] lg:leading-[70px] 2xl:text-[80.784px] 2xl:leading-[75px]",
   header2:
-    " z-10 text-white font-noto-sans-thai font-bold leading-normal " +
-    " text-[40px] mb-3 sm:text-[55px] sm:mb-4 md:mb-5 md:text-[60px] md:mb-7 lg:text-[70px] lg:mb-8 2xl:text-[87.958px] 2xl:mb-10 ",
+    " z-10  text-[#F3E19D] text-nowrap font-noto-sans-thai font-semibold leading-normal " +
+    " text-[30px] mb-3 sm:text-[50px] sm:mb-4 md:mb-5 md:text-[60px] md:mb-7 lg:text-[60px] lg:mb-8 2xl:text-[70.958px] 2xl:mb-10 ",
   ButtonText:
-    " z-10 text-white font-noto-sans-thai font-bold [text-shadow:0_3.419px_5.699px_rgba(0,0,0,0.38)] " +
+    " z-10 text-[#122F91] font-noto-sans-thai font-bold [text-shadow:0_3.419px_5.699px_rgba(0,0,0,0.38)] " +
     " text-[21px] sm:text-[24px] md:text-[25px] lg:text-[39px] 2xl:text-[45.65px] ",
   ButtonAll:
     " w-[290px] h-[45px] rounded-[15px] sm:w-[330px] sm:h-[52px] sm:rounded-[18px] md:w-[340px] md:h-[55px] md:rounded-[20px] lg:w-[480px] lg:h-[80px] lg:rounded-[18.034px] 2xl:w-[574.023px] 2xl:h-[88.482px] 2xl:rounded-[18.034px] ",
   ButtonBox:
     " w-[145px] rounded-[15px] sm:w-[165px] sm:rounded-[18px] md:w-[170px] md:rounded-[20px] lg:w-[240px] lg:rounded-[18.034px] 2xl:w-[291px] 2xl:rounded-[18.034px] ",
   h1:
-    " text-[#FDFCE5] font-noto-sans-thai font-bold leading-normal [text-shadow:0_3.164px_3.164px_rgba(0,0,0,0.25)]  " +
+    "  font-noto-sans-thai font-bold leading-normal " +
     " text-[28px] my-3 sm:text-[33px] sm:my-4 md:text-[35px] md:my-4 lg:text-[44.967px] lg:my-5 2xl:my-6  2xl:text-[54.967px] ",
-  timeStart:
-    "text-[#F4F2C4] text-right font-noto-sans-thai font-bold " +
-    " text-[25px] leading-[23px] sm:text-[32px] sm:leading-[31px] md:text-[32px] md:leading-[31px] lg:text-[35.812px] lg:leading-[34.595px] 2xl:text-[45.812px] 2xl:leading-[44.595px] ",
-  timeEnd:
-    " text-[#F4F2C4] text-right font-noto-sans-thai font-medium " +
-    " text-[18px] leading-[16px] sm:text-[20px] sm:leading-[19px] md:text-[20px] md:leading-[19px] lg:text-[23.203px] lg:leading-[22.454px] 2xl:text-[28.203px] 2xl:leading-[27.454px] ",
-  ActivityBox:
-    " rounded-lg  bg-[linear-gradient(180deg,_#042284_-6.54%,_#0B1855_100%)] shadow-[0_2.538px_2.538px_rgba(0,0,0,0.25)] flex items-center " +
-    " w-[270px] px-4 py-3 sm:w-[380px] sm:px-5 sm:py-3 md:w-[400px] md:px-3 md:py-3.25 lg:px-8 lg:py-2 lg:w-[520.32px] 2xl:px-10 2xl:py-2.5 2xl:w-[710.32px] ",
-  ActivityText:
-    " text-[#F4F2C4] font-noto-sans-thai font-semibold flex flex-col " +
+  p:
+    "  font-noto-sans-thai font-semibold flex flex-col " +
     " text-[17px] leading-[18px] sm:text-[21px] sm:leading-[23px] md:text-[22px] md:leading-[26px] lg:text-[26px] lg:leading-[30px] 2xl:text-[29.271px] 2xl:leading-[33.669px] ",
 };
 const container = {
   MdAll:
-    " w-screen overflow-hidden relative bg-[linear-gradient(13deg,#042284_6.23%,#3450B0_45.79%,#457BCA_98.77%)] " +
-    " h-[1600px] py-25 sm:h-[2000px] py-30 md:h-[1430px] md:py-30 lg:h-[1600px] lg:py-40 2xl:py-40 2xl:h-[2100px]  ",
+    " w-screen overflow-hidden relative bg-[linear-gradient(0deg,#0B1855_-3.97%,#042284_35.32%,#3450B0_100%),linear-gradient(180deg,#042284_1.28%,#3450B0_11.64%,#F3E09D_29.58%),linear-gradient(180deg,#457BCA_-6.32%,#3450B0_54.58%,#042284_100%)]  " +
+    " py-25 sm:py-30 md:py-30 lg:py-40 2xl:py-40 ",
   Box1: " flex flex-col " + " gap-4 md:gap-4 lg:gap-4 2xl:gap-6 ",
-  Box2: "w-[90%] flex flex-col",
+  Box2: "w-[80%] rounded-xl p-4 my-4 flex flex-col",
 };
 type tucmcType = {
   AllBooking: number;
@@ -116,27 +107,55 @@ const Backend = () => {
   if (isError) {
     return <span>Error: {error.message}</span>;
   }
-
+  {
+    /**"
+  text-[#F3E19D]
+  text-center
+  font-['Noto_Sans_Thai']
+  text-[32.574px]
+  font-semibold
+  leading-[33.951px]
+  "
+  text-[#F3E19D]
+  text-center
+  font-['Noto_Sans_Thai']
+  text-[54.512px]
+  font-bold
+  leading-[56.816px]
+"
+" */
+  }
   return (
-    <div className="w-full bg-[linear-gradient(0deg,#0B1855_-3.97%,#042284_35.32%,#3450B0_100%),linear-gradient(180deg,#042284_1.28%,#3450B0_11.64%,#F3E09D_29.58%),linear-gradient(180deg,#457BCA_-6.32%,#3450B0_54.58%,#042284_100%)] ">
-      <div className=" w-[500px] mx-auto flex flex-col ">
-        <div className={" bg-white/10" + container.Box2}>
-          <p>วัน{weekday}</p>
-          <p>{dates}</p>
-          <p>{time}</p>
+    <div className={container.MdAll}>
+      <div className=" w-[60vw] border mx-auto flex flex-col justify-center items-center ">
+        <div className="w-full flex flex-col justify-center items-center">
+          <p className={css.header1}>Triam Udom</p>
+          <p className={css.header1}>Open House 2026</p>
+          <p className={css.header2}>ระบบหลังบ้าน กช.</p>
+        </div>
+        <div
+          className={
+            " bg-white/30 " +
+            "text-white  text-center  font-['Noto_Sans_Thai']  text-[53.544px] font-bold  leading-[55.807px] " +
+            container.Box2
+          }
+        >
+          <p className={css.h1 + " text-white "}>{weekday}</p>
+          <p className={css.p + " text-white "}>{dates}</p>
+          <p className={css.h1 + "text-white"}>{time}</p>
         </div>
         <div className={container.Box2 + " bg-white "}>
-          <p>จำนวนคนลงทะเบียน</p>
-          <p>{data.AllBooking}</p>
+          <p className={css.p + " text-[#122F91] "}>จำนวนคนลงทะเบียน</p>
+          <p className={css.h1 + " text-[#122F91] "}>{data.AllBooking}</p>
         </div>
         <div className={container.Box2 + " bg-white "}>
-          <p>จำนวนคนเข้างาน</p>
-          <p>{data.AllEntry}</p>
+          <p className={css.p + " text-[#122F91] "}>จำนวนคนเข้างาน</p>
+          <p className={css.h1 + " text-[#122F91] "}>{data.AllEntry}</p>
         </div>
         <div className="w-full overflow-hidden">
           <div
             className={
-              "z-10 relative mx-auto bg-[#0B1855]/30 cursor-pointer" +
+              "z-10 relative mt-5 my-2 mx-auto bg-[#E6E6E6] cursor-pointer" +
               css.ButtonAll
             }
           >
@@ -146,8 +165,8 @@ const Backend = () => {
               className={
                 ` ${
                   date === "FRI 9 JAN"
-                    ? "text-white opacity-0"
-                    : "text-white opacity-60"
+                    ? "text-[#122F91] opacity-0"
+                    : "text-[#122F91] opacity-60"
                 } absolute cursor-pointer left-0 top-0 h-full flex items-center justify-center transition-opacity duration-300` +
                 css.ButtonBox +
                 css.ButtonText
@@ -159,10 +178,10 @@ const Backend = () => {
             {/* Sliding toggle */}
             <div
               className={
-                ` z-10 absolute top-0 left-0
-                bg-[linear-gradient(265deg,_#E6C674_3.67%,_#C5A064_94.65%)]
+                ` z-10 absolute top-1/2 -translate-y-1/2 left-0
+                bg-white shadow-xl
                 transition-transform duration-300
-                flex items-center justify-center h-full
+                flex items-center justify-center h-[90%]
                 ${
                   date === "SAT 10 JAN"
                     ? " translate-x-[145px] sm:translate-x-[165px] md:translate-x-[170px] lg:translate-x-[240px] 2xl:translate-x-[290px]"
@@ -180,8 +199,8 @@ const Backend = () => {
               className={
                 ` ${
                   date === "SAT 10 JAN"
-                    ? "text-white opacity-0"
-                    : "text-white opacity-60"
+                    ? "text-[#122F91] opacity-0"
+                    : "text-[#122F91] opacity-60"
                 } absolute cursor-pointer right-0 top-0 h-full flex items-center justify-center transition-opacity duration-300 ` +
                 css.ButtonText +
                 css.ButtonBox
@@ -207,23 +226,31 @@ const Backend = () => {
             >
               {/* add day 1 data */}
               <div className={container.Box2 + " bg-white "}>
-                <p>ผู้เข้าร่วมทั้งหมด</p>
-                <p>{data.Date1EntryAll}</p>
+                <p className={css.p + " text-[#122F91] "}>ผู้เข้าร่วมทั้งหมด</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date1EntryAll}
+                </p>
               </div>
 
               <div className={container.Box2 + " bg-white "}>
-                <p>ประตูพญาไท</p>
-                <p>{data.Date1EntryDoorP}</p>
+                <p className={css.p + " text-[#122F91] "}>ประตูพญาไท</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date1EntryDoorP}
+                </p>
               </div>
 
               <div className={container.Box2 + " bg-white "}>
-                <p>ประตูอังรีดูนังต์</p>
-                <p>{data.Date1EntryDoorH}</p>
+                <p className={css.p + " text-[#122F91] "}>ประตูอังรีดูนังต์</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date1EntryDoorH}
+                </p>
               </div>
 
               <div className={container.Box2 + " bg-white "}>
-                <p>ประตูตึก 50 ปี</p>
-                <p>{data.Date1EntryDoorB}</p>
+                <p className={css.p + " text-[#122F91] "}>ประตูตึก 50 ปี</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date1EntryDoorB}
+                </p>
               </div>
             </div>
             <div
@@ -244,22 +271,30 @@ const Backend = () => {
               {/* add day 1 data */}
               <div className={container.Box2 + " bg-white "}>
                 <p>ผู้เข้าร่วมทั้งหมด</p>
-                <p>{data.Date2EntryAll}</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date2EntryAll}
+                </p>
               </div>
 
               <div className={container.Box2 + " bg-white "}>
                 <p>ประตูพญาไท</p>
-                <p>{data.Date2EntryDoorP}</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date2EntryDoorP}
+                </p>
               </div>
 
               <div className={container.Box2 + " bg-white "}>
                 <p>ประตูอังรีดูนังต์</p>
-                <p>{data.Date2EntryDoorH}</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date2EntryDoorH}
+                </p>
               </div>
 
               <div className={container.Box2 + " bg-white "}>
                 <p>ประตูตึก 50 ปี</p>
-                <p>{data.Date2EntryDoorB}</p>
+                <p className={css.h1 + " text-[#122F91] "}>
+                  {data.Date2EntryDoorB}
+                </p>
               </div>
             </div>
           </div>
