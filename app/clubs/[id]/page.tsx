@@ -78,19 +78,19 @@ export default async function ClubsInfoPage({
 
           <div className="h-16 rounded-full bg-[#F3E29E] w-1" />
 
-          <div className="flex flex-col w-[50vw]">
+          <div className="flex flex-col max-w-[50vw]">
             {data.contacts.ig && (
-              <span className="text-[#F3ECB7]  w-[50vw] font-light">
+              <span className="text-[#F3ECB7]  max-w-[50vw] font-light">
                 IG: {data.contacts.ig}
               </span>
             )}
             {data.contacts.fb && (
-              <span className="text-[#F3ECB7]  w-[50vw]  font-light">
+              <span className="text-[#F3ECB7]  max-w-[50vw]  font-light">
                 FB: {data.contacts.fb}
               </span>
             )}
             {data.contacts.others && (
-              <span className="text-[#F3ECB7]  w-[50vw] font-light">
+              <span className="text-[#F3ECB7]  max-w-[50vw] font-light">
                 อื่น ๆ : {data.contacts.others}
               </span>
             )}

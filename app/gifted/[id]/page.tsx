@@ -70,7 +70,7 @@ export default async function GiftedInfoPage({
         </h1>
 
         <div className="flex flex-row items-center justify-center space-x-6">
-          <div className="flex flex-row items-center space-x-3">
+          <div className="flex flex-row items-center justify-center space-x-3">
             <MemberIcon className="w-12" />
             <div className="flex flex-col justify-center items-center">
               <span className="font-semibold text-[#F3ECB7]">สมาชิก</span>

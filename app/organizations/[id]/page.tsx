@@ -69,7 +69,7 @@ export default async function OrganizationInfoPage({
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
         </Link>
 
-        <h1 className="text-[#F3ECB7] font-bold text-4xl lg:text-7xl max-w-[65vw] text-center px-4 mt-2">
+        <h1 className="text-[#F3ECB7] max-w-[70vw] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
           {data.name}
         </h1>
 
