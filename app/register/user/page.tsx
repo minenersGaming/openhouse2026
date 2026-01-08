@@ -4,7 +4,6 @@ import { useFormik } from "formik";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import { signOut } from "@/lib/auth-client";
-import { useRouter } from "next/navigation";
 import BigRegisterBg from "@/vector/register/BigRegisterBg";
 import SmallRegisterBg from "@/vector/register/SmallRegisterBg";
 import { callAPI } from "@/utils/callAPI";
@@ -102,13 +101,11 @@ async function registerUser(values: RegisterFormValues) {
   return response.data;
 }
 const RegisterPage = () => {
-  const router = useRouter();
-
   const mutation = useMutation({
     mutationFn: registerUser,
     onSuccess: () => {
       toast.success("ลงทะเบียนสำเร็จ");
-      router.push("/ticket");
+      window.location.href = "/ticket";
     },
     onError: (error: Error) => {
       toast.error(error.message || "เกิดข้อผิดพลาด กรุณาติดต่อกช.");
