@@ -8,8 +8,8 @@ export default async function proxy(request: NextRequest) {
   const currentPath = decodeURIComponent(path);
 
   const session = await auth.api.getSession({
-    headers: await headers()
-  })
+    headers: await headers(),
+  });
 
   if (currentPath.startsWith("/checkin")) {
     if (!session?.user.isStaff) {
@@ -18,14 +18,12 @@ export default async function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-  if (
-    currentPath !== "/register/user" &&
-    !session?.user.isBooking
-  ) {
+  if (currentPath !== "/register/user" && !session?.user.isBooking) {
     return NextResponse.redirect(new URL("/register/user", request.url));
   }
 
-  if (currentPath === "/tucmc" && !session?.user.isTucmc)return NextResponse.redirect(new URL("/", request.url));
+  if (currentPath === "/tucmc" && !session?.user.isTucmc)
+    return NextResponse.redirect(new URL("/", request.url));
 
   if (currentPath === "/register/user" && session?.user.isBooking) {
     return NextResponse.redirect(new URL("/", request.url));
@@ -35,10 +33,5 @@ export default async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/ticket",
-    "/register/user",
-    "/checkin",
-    "/tucmc"
-  ],
+  matcher: ["/ticket", "/register/user", "/checkin", "/tucmc"],
 };

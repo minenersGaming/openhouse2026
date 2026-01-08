@@ -73,7 +73,7 @@ const CheckInPage = () => {
   };
 
   return (
-    <section className="h-screen w-full bg-white flex flex-col items-center pt-10">
+    <section className="min-h-screen w-full bg-white flex flex-col items-center pt-10">
       <div className="text-2xl font-bold">Staff Scanner</div>
       <div className="text-lg mb-6">Triam Udom Open House 2026</div>
       <div className="flex flex-col items-center">
