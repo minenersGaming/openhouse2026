@@ -45,7 +45,7 @@ const GiftedSection = () => {
             <Link href={"gifted/gifted-science"} className="block">
               <GiftedSci className={SmBanner} />
             </Link>
-            <Link href={"gifted/gifted-eng"} className="block">
+            <Link href={"gifted/gifted-english"} className="block">
               <GiftedEng className={SmBanner} />
             </Link>
           </div>
