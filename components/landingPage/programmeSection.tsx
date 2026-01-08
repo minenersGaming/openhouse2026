@@ -53,7 +53,7 @@ const ProgrammeSection = () => {
       </div>
 
       <div className=" absolute md:relative flex flex-col justify-center items-center w-full mt-[10%] md:mt-[3%] z-677">
-        <p className="text-center font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-4xl sm:text-5xl md:text-[3rem] lg:text-[5rem]">
+        <p className="text-center font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-[2rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem]">
           สายการเรียน
         </p>
         <p className="font-bold text-center bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-md sm:text-xl md:text-md">
