@@ -41,7 +41,7 @@ const ProgrammeSection = () => {
         <LeftPillar className="pointer-events-none" />
       </div>
       <div className="md:block absolute right-0 z-67 hidden overflow-hidden h-full">
-        <RightPillar className="" />
+        <RightPillar className=" pointer-events-none" />
       </div>
       <div className="h-full top-0 w-screen relative">
         <div className="hidden md:flex w-full items-center justify-center">
