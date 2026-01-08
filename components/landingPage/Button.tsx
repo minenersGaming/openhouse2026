@@ -41,9 +41,13 @@ const Button = () => {
           </Link>
         ) : (
           <>
-            {data?.user.isStaff && (
+            {data?.user.isStaff ? (
               <Link href="/checkin" onClick={handleOnClick} className={style}>
                 <p className={TextStyle}>Check-in</p>
+              </Link>
+            ) : (
+              <Link href="/ticket" onClick={handleOnClick} className={style}>
+                <p className={TextStyle}>E-ticket</p>
               </Link>
             )}
           </>

@@ -20,7 +20,6 @@ const ClubsSection = () => {
         </div>
         <Link
           href="./clubs"
-          target="_blank"
           className=" relative z-7 w-full h-full flex justify-center "
         >
           <ClubsLgMoon className="rounded-full duration-500 absolute w-[75%] translate-y-[7%] hover:translate-y-[5%] hover:scale-103 transition-all " />
