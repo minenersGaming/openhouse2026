@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
 
 import { Noto_Sans_Thai } from "next/font/google";
+import Link from "next/link";
 
 const NotoSansThai = Noto_Sans_Thai({
   variable: "--font-noto-sans-thai",
@@ -11,7 +12,7 @@ const NotoSansThai = Noto_Sans_Thai({
 });
 
 const style =
-  "shadow-sm/35  z-6767 items-center hover:scale-105 transition-all cursor-pointer flex flex-row bg-linear-to-r from-[#C5A064] to-[#E5C675] lg:py-2 lg:px-7 py-2 px-5 rounded-full";
+  "shadow-sm/35 z-6767 items-center hover:scale-105 transition-all cursor-pointer flex flex-row bg-linear-to-r from-[#C5A064] to-[#E5C675] lg:py-2 lg:px-7 py-2 px-5 rounded-full";
 const TextStyle =
   "font-bold text-shadow-sm/10 text-white text-2xl lg:text-[33px] font-noto-sans-thai";
 const Button = () => {
@@ -30,18 +31,22 @@ const Button = () => {
     <>
       {!isPending ? (
         !data?.user ? (
-          <a
+          <Link
             href="./register"
             //   onClick={handleLogin}
             className={style}
           >
             <PersonIcon className="h-6 lg:h-8 mr-2 lg:mr-3" />
             <p className={TextStyle}>Register</p>
-          </a>
+          </Link>
         ) : (
-          <a href="/ticket" onClick={handleOnClick} className={style}>
-            <p className={TextStyle}>E-ticket</p>
-          </a>
+          <>
+            {data?.user.isStaff && (
+              <Link href="/checkin" onClick={handleOnClick} className={style}>
+                <p className={TextStyle}>Check-in</p>
+              </Link>
+            )}
+          </>
         )
       ) : (
         <a className={style}>

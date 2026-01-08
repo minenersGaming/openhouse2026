@@ -35,31 +35,25 @@ const ProgrammeSection = () => {
   return (
     <section
       id="programs"
-      className=" relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
+      className=" relative w-screen overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
-      <div className="h-full top-0">
-        <div className="-translate-y-[50px] absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
-          <LeftPillar className="h-full w-[700px] -translate-x-[17%] z-20" />
-          <RightPillar className="h-full w-[700px] translate-x-[17%] z-20" />
-          {/* <img
-      src="../assets/images/Landing/LeftPillar.png"
-      className=" -translate-x-[0%] z-20"
-     />
-     <img
-      src="../assets/images/Landing/RightPillar.png"
-      className=" translate-x-[0%] z-22"
-     /> */}
+        <div className="md:block absolute left-0 z-67 hidden overflow-hidden h-full">
+          <LeftPillar className="" />
         </div>
-        <div className="hidden relative w-full items-center justify-center">
-          <Bricks className="hidden absolute w-[70vw] translate-y-[70%] z-2" />
+        <div className="md:block absolute right-0 z-67 hidden overflow-hidden h-full">
+          <RightPillar className="" />
+        </div>
+      <div className="h-full top-0 w-screen relative">
+        <div className="hidden md:flex w-full items-center justify-center">
+          <Bricks className=" absolute w-[70vw] translate-y-[70%] z-2" />
         </div>
       </div>
       <div className="hidden absolute min-w-full xlg:flex flex-row justify-center h-[105%]">
-        <ProgrammeBigLg className="left-0 translate-x-1/2 min-w-[1500px] w-[125%]" />
+        <ProgrammeBigLg className="left-0 translate-x-1/2 min-w-[1500px] w-[70%]" />
       </div>
 
-      <div className=" absolute md:relative flex flex-col justify-center items-center w-full mt-[10%] md:mt-[5%] z-677">
-        <p className="text-center font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-5xl sm:text-7xl md:text-8xl lg:text-8xl">
+      <div className=" absolute md:relative flex flex-col justify-center items-center w-full mt-[10%] md:mt-[3%] z-677">
+        <p className="text-center font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-[2rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem]">
           สายการเรียน
         </p>
         <p className="font-bold text-center bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-md sm:text-xl md:text-md">

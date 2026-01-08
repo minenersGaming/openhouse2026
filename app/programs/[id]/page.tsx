@@ -16,16 +16,20 @@ import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
-import programData from "@public/data/programs.json"
+import programData from "@public/data/programs.json";
 
 import Link from "next/link";
 
 export const generateStaticParams = async () => {
   return programData.map((program) => ({ id: program.key }));
-}
+};
 
-export default async function ProgramInfoPage({ params }: { params: Promise<{ id: string }> }) {
-  const key = await params
+export default async function ProgramInfoPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const key = await params;
   const programKey = decodeURIComponent(key.id);
   const data = programData.find((program) => program.key === programKey);
 
@@ -43,16 +47,16 @@ export default async function ProgramInfoPage({ params }: { params: Promise<{ id
       </div>
 
       <Bricks className="w-[50vw] top-[8%] left-0 translate-x-1/2 absolute z-30" />
-      <CloudAndMoon className="left-0 scale-140 top-[60%]  absolute z-5" />
+      <CloudAndMoon className="left-0 scale-140 top-[60%] absolute z-5" />
       <Bubble1 className="absolute right-0 w-1/6 translate-x-[0%] top-[27%] z-0" />
       <Bubble2 className=" absolute left-0 w-1/6 translate-x-[5%] top-[32%] z-0" />
-      <Candle1 className=" absolute right-0  w-1/5 translate-x-[5%] top-[33%] z-0" />
+      <Candle1 className=" absolute right-0 w-1/5 translate-x-[5%] top-[33%] z-0" />
       <Candle2 className="w-1/6 absolute left-0 translate-x-[5%] top-[43%] z-0" />
       <Candle3 className="w-1/4 absolute right-0 translate-x-[13%] top-[47%] z-0 " />
       <Comet className=" absolute left-0 w-1/3 translate-x-[-13%] top-[20%] z-0" />
       <Comet className="w-1/3 absolute right-0 translate-x-[7%] top-[38%] z-0" />
-      <Smoke2 className=" absolute right-0  w-7/10 translate-x-[13%] top-[20%] z-0" />
-      <Smoke1 className="w-7/10 absolute left-0 -translate-x-[12%]  top-[35%] z-0" />
+      <Smoke2 className=" absolute right-0 w-7/10 translate-x-[13%] top-[20%] z-0" />
+      <Smoke1 className="w-7/10 absolute left-0 -translate-x-[12%] top-[35%] z-0" />
 
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
         <Link
@@ -82,10 +86,14 @@ export default async function ProgramInfoPage({ params }: { params: Promise<{ id
 
           <div className="flex flex-col">
             {data.contacts.ig && (
-              <span className="text-[#F3ECB7] font-light">IG: {data.contacts.ig}</span>
+              <span className="text-[#F3ECB7] font-light">
+                IG: {data.contacts.ig}
+              </span>
             )}
             {data.contacts.fb && (
-              <span className="text-[#F3ECB7] font-light">FB: {data.contacts.fb}</span>
+              <span className="text-[#F3ECB7] font-light">
+                FB: {data.contacts.fb}
+              </span>
             )}
             {data.contacts.others && (
               <span className="text-[#F3ECB7] font-light">

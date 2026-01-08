@@ -11,7 +11,6 @@ import StarL from "@/vector/clubs/StarL";
 import StarR from "@/vector/clubs/StarR";
 import clubData from "@public/data/clubs.json";
 
-
 export default function ClubsPage() {
   const [search, setSearch] = useState("");
 
@@ -24,9 +23,9 @@ export default function ClubsPage() {
       <StarL className="absolute top-0 -left-10 hidden md:block translate-y-[5%] w-[11%] pointer-events-none" />
       <StarR className="absolute top-0 -right-10 hidden md:block translate-y-[5%] w-[11%] pointer-events-none" />
       <Star1 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw] translate-y-[110%] block md:hidden" />
-      <Star2 className="absolute w-[8vw] left-0 top-0 translate-x-[7vw] translate-y-[1250%]  md:hidden" />
+      <Star2 className="absolute w-[8vw] left-0 top-0 translate-x-[7vw] translate-y-[1250%] md:hidden" />
       <Star3 className="absolute w-[10vw] left-0 top-0 translate-x-[7vw] translate-y-[1500%] md:hidden" />
-      <Star4 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw]  translate-y-[2550%] md:hidden" />
+      <Star4 className="absolute w-[10vw] right-0 top-0 -translate-x-[7vw] translate-y-[2550%] md:hidden" />
       <div className="flex flex-col items-center pt-30 pb-10">
         <p className="text-5xl font-bold bg-linear-to-r from-[#F3E09D] to-[#FDFAE0] bg-clip-text text-transparent">
           ชมรม
