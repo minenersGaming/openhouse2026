@@ -9,8 +9,8 @@ const List = (
     <OtherList text="การสอบเข้า ม.4" href="/admission" />
     <OtherList text="การเดินทางมาโรงเรียน" href="/directions" />
     <OtherList text="แผนผังซุ้มในงาน" href="/map" />
-    <OtherList text="การแสดงลาน 70 ปี" href="/performance/lan70" />
-    <OtherList text="การแสดงบนหอประชุม" href="/performance/auditorium" />
+    <OtherList text="การแสดงลาน 70 ปีฯ" href="/performance/lan70" />
+    <OtherList text="การแสดงบนหอประชุมฯ" href="/performance/auditorium" />
     <OtherList text="ช่องทางการติดต่อ" href="/others" />
   </>
 );

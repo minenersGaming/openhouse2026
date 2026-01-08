@@ -44,13 +44,15 @@ const getSVG = (display: string) => {
 const page = () => {
   return (
     <section className="min-h-screen bg-linear-to-b from-[#569FF0] to-[#385CB7] flex justify-center items-start">
-      <div className="flex flex-col items-center justify-center space-y-10 mt-28">
+      <div className="flex flex-col items-center justify-center space-y-10 mt-28 mb-5">
         <div className="flex flex-col items-center justify-center md:flex-row md:space-x-8 lg:space-x-20">
           <div className="flex flex-col items-center justify-center md:items-start space-y-[0.75rem]">
-            <p className="text-xl text-white font-bold md:text-3xl">ช่องทางการติดต่อ</p>
+            <p className="text-xl text-white font-bold md:text-3xl">
+              ช่องทางการติดต่อ
+            </p>
             <Social
               display="IG"
-              text="traimudom.oph"
+              text="triamudom.oph"
               href="https://www.instagram.com/triamudom.oph/"
             />
             <Social
@@ -74,11 +76,13 @@ const page = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center md:flex-row md:space-x-8 lg:space-x-20">
-            <div className="hidden md:block">
+          <div className="hidden md:block">
             <CandleL className="w-40 md:w-56" />
-            </div>
+          </div>
           <div className="flex flex-col items-center justify-center md:items-end space-y-[0.75rem]">
-            <p className="text-xl text-white font-bold md:text-3xl">ติดต่อเพิ่มเติม</p>
+            <p className="text-xl text-white font-bold md:text-3xl">
+              ติดต่อเพิ่มเติม
+            </p>
             <Social
               display="IG"
               text="tucmc_official"

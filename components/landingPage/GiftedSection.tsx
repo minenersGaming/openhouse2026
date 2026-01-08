@@ -16,7 +16,7 @@ import GiftedTextLg from "@/vector/LandingPage/Gifted/GiftedTextLg";
 import Link from "next/link";
 
 const SmBanner =
-  "w-[30vw] cursor-pointer  duration-400 transition-all hover:scale-105";
+  "w-[30vw] cursor-pointer duration-400 transition-all hover:scale-105";
 const LgBanner =
   "w-[14vw] transition-all hover:scale-105 duration-400 cursor-pointer";
 const GiftedSection = () => {
@@ -25,14 +25,14 @@ const GiftedSection = () => {
       id="gifted"
       className="[background:linear-gradient(180deg,#042284_1.28%,#3450B0_14.51%,#F3E09D_37.42%)]"
     >
-      <div className=" block md:hidden  ">
+      <div className=" block md:hidden ">
         <div className="absolute flex flex-col justify-center items-center w-full mt-[10%] mb-10 px-5">
-          <GiftedTextSm className="w-[90vw]  -translate-x-[4%]" />
-          {/* <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-xl">
-            โครงการพัฒนาความสามารถพิเศษ
-          </p> */}
+          <GiftedTextSm className="w-[90vw] -translate-x-[4%]" />
+          {/* <p className="font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm sm:text-xl">
+      โครงการพัฒนาความสามารถพิเศษ
+     </p> */}
         </div>
-        <div className="h-full x-overflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%] fade-in-scroll  ">
+        <div className="h-full x-overflow-hidden absolute flex flex-row justify-center items-start w-full space-x-[5%] mt-[80%] fade-in-scroll ">
           <div className=" flex flex-col justify-start items-center xmt-10 sm:mt-12 mb-10 space-y-5">
             <Link href={"/gifted/gifted-math"} className="block">
               <GiftedMath className={SmBanner} />
@@ -55,9 +55,9 @@ const GiftedSection = () => {
       <div className="relative hidden md:block">
         <div className="absolute flex flex-col justify-center items-center w-full mt-[1.5%] mb-10 px-5">
           <GiftedTextLg className="w-[65vw]" />
-          {/* <p className="-translate-y-[80%]  font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm  sm:text-2xl">
-            โครงการพัฒนาความสามารถพิเศษ
-          </p> */}
+          {/* <p className="-translate-y-[80%] font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-sm sm:text-2xl">
+      โครงการพัฒนาความสามารถพิเศษ
+     </p> */}
         </div>
         <div className="translate-y-[70%] absolute flex flex-row justify-center items-center w-full space-x-[10.5%] xfade-in-scroll">
           <Link href="/gifted/gifted-math" className="block">

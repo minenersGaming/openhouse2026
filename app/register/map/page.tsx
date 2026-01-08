@@ -230,7 +230,7 @@ const MapPage = () => {
                   css.buttonText
                 }
               >
-                องค์กรณ์ภายใน
+                องค์กรภายใน
               </p>
             </button>
             <button
@@ -243,7 +243,7 @@ const MapPage = () => {
                   css.buttonText
                 }
               >
-                องค์กรณ์ภายนอก
+                องค์กรภายนอก
               </p>
             </button>
             <button
@@ -379,12 +379,12 @@ const MapPage = () => {
               <div className={css.h4}>
                 {" "}
                 <R5 className={css.listicon} />
-                องค์กรณ์ภายใน
+                องค์กรภายใน
               </div>
               <div className={css.h4}>
                 {" "}
                 <R7 className={css.listicon} />
-                องค์กรณ์ภายนอก
+                องค์กรภายนอก
               </div>
             </div>
           </div>

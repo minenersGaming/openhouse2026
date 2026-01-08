@@ -16,15 +16,19 @@ import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
-import clubData from "@public/data/clubs.json"
+import clubData from "@public/data/clubs.json";
 import Link from "next/link";
 
 export const generateStaticParams = async () => {
   return clubData.map((club) => ({ id: club.key }));
-}
+};
 
-export default async function ClubsInfoPage({ params }: { params: Promise<{ id: string }> }) {
-  const key = await params
+export default async function ClubsInfoPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const key = await params;
   const clubKey = decodeURIComponent(key.id);
   const data = clubData.find((club) => club.key === clubKey);
 
@@ -55,7 +59,7 @@ export default async function ClubsInfoPage({ params }: { params: Promise<{ id: 
 
       <div className="relative flex flex-col items-center mt-[6vw] space-y-3 z-67 px-3">
         <Link
-          href="/#clubs"
+          href="/clubs"
           className="flex flex-row items-center mt-24 lg:mt-[13%] transition-all hover:scale-105"
         >
           <BackIcon className="w-5 mr-1" />
@@ -81,10 +85,14 @@ export default async function ClubsInfoPage({ params }: { params: Promise<{ id: 
 
           <div className="flex flex-col">
             {data.contacts.ig && (
-              <span className="text-[#F3ECB7] font-light">IG: {data.contacts.ig}</span>
+              <span className="text-[#F3ECB7] font-light">
+                IG: {data.contacts.ig}
+              </span>
             )}
             {data.contacts.fb && (
-              <span className="text-[#F3ECB7] font-light">FB: {data.contacts.fb}</span>
+              <span className="text-[#F3ECB7] font-light">
+                FB: {data.contacts.fb}
+              </span>
             )}
             {data.contacts.others && (
               <span className="text-[#F3ECB7] font-light">

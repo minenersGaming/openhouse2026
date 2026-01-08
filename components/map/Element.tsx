@@ -269,7 +269,7 @@ export const mapItems: MapItem[] = [
     element: (
       <OuterOrg className="absolute left-[333px] top-[410px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["องค์กรณ์ภายนอก", "outer organization"],
+    keyword: ["องค์กรภายนอก", "outer organization"],
     type: "outer",
   },
   {
