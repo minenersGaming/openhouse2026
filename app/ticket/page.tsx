@@ -48,7 +48,9 @@ const TicketPage = () => {
     queryFn: fetchMyBooking,
   });
   const [qr, setQr] = useState<string>("");
+  const [qrZoomed, setQrZoomed] = useState<string>("");
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [showQRModal, setShowQRModal] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -64,7 +66,27 @@ const TicketPage = () => {
         light: "#00000000", // transparent background
       },
     }).then(setQr);
+
+    QRCode.toDataURL(qrValue, {
+      width: 512,
+      margin: 2,
+      color: {
+        dark: "#000000", // Black QR code
+        light: "#FFFFFF", // White background
+      },
+    }).then(setQrZoomed);
   }, [data?.registerId]);
+
+  useEffect(() => {
+    if (showQRModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [showQRModal]);
 
   const generatePNG = async () => {
     if (!ref.current) return null;
@@ -262,7 +284,10 @@ const TicketPage = () => {
                   <p className={css.student}>{data.userStatus}</p>
                 </div>
               </div>
-              <div className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0">
+              <div
+                className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0"
+                onClick={() => setShowQRModal(true)}
+              >
                 {qr && <img src={qr} alt="QR Code" className="w-full h-auto" />}
               </div>
             </div>
@@ -278,6 +303,43 @@ const TicketPage = () => {
           </div>
         )}
       </div>
+
+      {showQRModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 backdrop-blur-sm"
+          onClick={() => setShowQRModal(false)}
+        >
+          <div className="relative bg-white p-8 rounded-2xl shadow-2xl max-w-md w-[90%]">
+            <button
+              onClick={() => setShowQRModal(false)}
+              className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-3xl font-bold leading-none"
+            >
+              ×
+            </button>
+            <div className="flex flex-col items-center">
+              <p className="text-[#0B1855] font-noto-sans-thai text-2xl font-bold mb-6 text-center">
+                QR Code
+              </p>
+              {qrZoomed && (
+                <img
+                  src={qrZoomed}
+                  alt="QR Code Zoomed"
+                  className="w-full h-auto max-w-[300px]"
+                />
+              )}
+              <p className="text-gray-600 font-noto-sans-thai text-sm mt-4 text-center">
+                ID: {data?.registerId}
+              </p>
+              <button
+                onClick={() => setShowQRModal(false)}
+                className="mt-6 px-8 py-3 bg-[linear-gradient(93deg,#457BCA_2.18%,#042284_114.09%)] text-white rounded-full font-noto-sans-thai hover:scale-105 transition-all"
+              >
+                ปิด
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };
