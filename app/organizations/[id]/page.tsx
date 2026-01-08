@@ -69,7 +69,7 @@ export default async function OrganizationInfoPage({
           <span className="text-[#F3ECB7]">ย้อนกลับ</span>
         </Link>
 
-        <h1 className="text-[#F3ECB7] font-bold text-4xl lg:text-7xl max-w-[65vw] text-center px-4 mt-2">
+        <h1 className="text-[#F3ECB7] max-w-[70vw] font-bold text-4xl lg:text-7xl text-center px-4 mt-2">
           {data.name}
         </h1>
 
@@ -147,7 +147,7 @@ export default async function OrganizationInfoPage({
       {data.reviews.length > 0 && (
         <div className="w-full flex flex-col justify-center items-center mt-5">
           <div className="w-[65%] flex flex-row items-center justify-center space-x-2">
-            <h2 className="pt-2 pb-2 font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
+            <h2 className="py-2 font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
               รีวิวจากรุ่นพี่
             </h2>
           </div>

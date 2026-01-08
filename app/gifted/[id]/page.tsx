@@ -70,7 +70,7 @@ export default async function GiftedInfoPage({
         </h1>
 
         <div className="flex flex-row items-center justify-center space-x-6">
-          <div className="flex flex-row items-center space-x-3">
+          <div className="flex flex-row items-center justify-center space-x-3">
             <MemberIcon className="w-12" />
             <div className="flex flex-col justify-center items-center">
               <span className="font-semibold text-[#F3ECB7]">สมาชิก</span>
@@ -143,7 +143,7 @@ export default async function GiftedInfoPage({
       {data.reviews?.length > 0 && (
         <div className="w-full flex flex-col justify-center items-center mt-5">
           <div className="w-[65%] flex flex-row items-center justify-center space-x-2">
-            <h2 className="pt-2 pb-2 font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
+            <h2 className="py-2 font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
               รีวิวจากรุ่นพี่
             </h2>
           </div>
