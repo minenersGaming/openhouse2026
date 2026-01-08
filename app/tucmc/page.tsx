@@ -17,10 +17,10 @@ const css = {
   ButtonBox:
     " w-[145px] rounded-[15px] sm:w-[165px] sm:rounded-[18px] md:w-[170px] md:rounded-[20px] lg:w-[240px] lg:rounded-[18.034px] 2xl:w-[291px] 2xl:rounded-[18.034px] ",
   h1:
-    "  font-noto-sans-thai font-bold leading-normal " +
-    " text-[28px] my-3 sm:text-[33px] sm:my-4 md:text-[35px] md:my-4 lg:text-[44.967px] lg:my-5 2xl:my-6  2xl:text-[54.967px] ",
+    "  font-noto-sans-thai font-bold " +
+    " text-[28px] sm:text-[33px] md:text-[35px] lg:text-[44.967px] 2xl:text-[54.967px] ",
   p:
-    "  font-noto-sans-thai font-semibold flex flex-col " +
+    "  font-noto-sans-thai border font-semibold " +
     " text-[17px] leading-[18px] sm:text-[21px] sm:leading-[23px] md:text-[22px] md:leading-[26px] lg:text-[26px] lg:leading-[30px] 2xl:text-[29.271px] 2xl:leading-[33.669px] ",
 };
 const container = {
@@ -127,7 +127,7 @@ const Backend = () => {
   }
   return (
     <div className={container.MdAll}>
-      <div className=" w-[60vw] border mx-auto flex flex-col justify-center items-center ">
+      <div className=" w-[60vw] border overflow-visible mx-auto flex flex-col justify-center items-center ">
         <div className="w-full flex flex-col justify-center items-center">
           <p className={css.header1}>Triam Udom</p>
           <p className={css.header1}>Open House 2026</p>
@@ -142,7 +142,7 @@ const Backend = () => {
         >
           <p className={css.h1 + " text-white "}>{weekday}</p>
           <p className={css.p + " text-white "}>{dates}</p>
-          <p className={css.h1 + "text-white"}>{time}</p>
+          <p className={css.h1 + "text-white mt-3 "}>{time}</p>
         </div>
         <div className={container.Box2 + " bg-white "}>
           <p className={css.p + " text-[#122F91] "}>จำนวนคนลงทะเบียน</p>
