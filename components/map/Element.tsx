@@ -248,14 +248,14 @@ export const mapItems: MapItem[] = [
     element: (
       <TennisCourt className="absolute left-[360px] top-[350px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สนามเท็นนิส", "TennisCourt"],
+    keyword: ["สนามเทนนิส", "TennisCourt"],
     type: "others",
   },
   {
     element: (
       <BasketBallCourt className="absolute left-[360px] top-[424px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สนามบาสเก็ตบอล", "BasketBallCourt"],
+    keyword: ["สนามบาสเกตบอล", "BasketBallCourt"],
     type: "others",
   },
   {
@@ -283,63 +283,88 @@ export const mapItems: MapItem[] = [
     element: (
       <Auditorium className="absolute left-[290px] top-[595px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["หอประชุม", "Auditorium"],
+    keyword: ["หอประชุมฯ", "หอประชุม", "Auditorium"],
     type: "others",
   },
   {
     element: (
       <P1 className="absolute left-[47px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาญี่ปุ่น", "Program japanease"],
+    keyword: [
+      "สายการเรียนภาษา-ภาษาญี่ปุ่น",
+      "Program japanese",
+      "Japanese Program",
+    ],
     type: "program",
   },
   {
     element: (
       <P2 className="absolute left-[61px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาจีน", "Program chinease"],
+    keyword: ["สายการเรียนภาษา-ภาษาจีน", "Program chinese", "Chinese Program"],
     type: "program",
   },
   {
     element: (
       <P3 className="absolute left-[75px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาเกาหลี", "Program korea"],
+    keyword: ["สายการเรียนภาษา-ภาษาเกาหลี", "Program korea", "Korean Program"],
     type: "program",
   },
   {
     element: (
       <P4 className="absolute left-[89px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาสเปน", "program spain"],
+    keyword: [
+      "สายการเรียนภาษา-ภาษาสเปน",
+      "program spain",
+      "Spanish Program",
+      "Espanol",
+    ],
     type: "program",
   },
   {
     element: (
       <P5 className="absolute left-[103px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาฝรั่งเศส", "program french"],
+    keyword: [
+      "สายการเรียนภาษา-ภาษาฝรั่งเศส",
+      "program french",
+      "French Program",
+    ],
     type: "program",
   },
   {
     element: (
       <P6 className="absolute left-[117px] top-[447px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-ภาษาเยอรมัน", "program germen"],
+    keyword: [
+      "สายการเรียนภาษา-ภาษาเยอรมัน",
+      "program german",
+      "German Program",
+    ],
     type: "program",
   },
   {
     element: (
       <P7 className="absolute left-[55px] top-[470px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนวิทยาศาสตร์-คณิตศาสตร์", "program science math"],
+    keyword: [
+      "สายการเรียนวิทยาศาสตร์-คณิตศาสตร์",
+      "program science math",
+      "Science-Math Program",
+    ],
     type: "program",
   },
   {
     element: (
       <P8 className="absolute left-[93px] top-[470px] w-1/2 scale-50 origin-top-left" />
     ),
-    keyword: ["สายการเรียนภาษา-คณิตศาสตร์", "program english math"],
+    keyword: [
+      "สายการเรียนภาษา-คณิตศาสตร์",
+      "program english math",
+      "Arts Math Program",
+    ],
     type: "program",
   },
   {

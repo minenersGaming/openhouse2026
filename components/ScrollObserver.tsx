@@ -15,9 +15,9 @@ export default function ScrollObserver() {
       { threshold: 0.2 }
     );
 
-    document
-      .querySelectorAll(".fade-in-scroll")
-      .forEach((el) => observer.observe(el));
+    Array.from(
+      document.querySelectorAll(".fade-in-scroll, .drop-down-scroll")
+    ).forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
   }, []);

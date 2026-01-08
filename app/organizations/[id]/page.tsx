@@ -16,19 +16,24 @@ import Smoke2 from "@/vector/InfoPage/Smoke2";
 import InfoTemplate from "@/components/InfoPage/InfoTemplate";
 import ReviewBox from "@/components/InfoPage/ReviewBox";
 import Custom404 from "@/app/not-found";
-import organizationData from "@public/data/organizations.json"
+import organizationData from "@public/data/organizations.json";
 
 import Link from "next/link";
 
 export const generateStaticParams = async () => {
   return organizationData.map((organization) => ({ id: organization.key }));
-}
+};
 
-export default async function OrganizationInfoPage({ params }: { params: Promise<{ id: string }> }) {
-
-  const key = await params
+export default async function OrganizationInfoPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const key = await params;
   const organizationKey = decodeURIComponent(key.id);
-  const data = organizationData.find((organization) => organization.key === organizationKey);
+  const data = organizationData.find(
+    (organization) => organization.key === organizationKey
+  );
 
   if (!data)
     return (
@@ -68,7 +73,7 @@ export default async function OrganizationInfoPage({ params }: { params: Promise
           {data.name}
         </h1>
 
-        <div className="flex flex-row items-center space-x-6">
+        <div className="flex flex-row items-center justify-center space-x-6">
           <div className="flex flex-row items-center space-x-3">
             <MemberIcon className="w-12" />
             <div className="flex flex-col justify-center items-center">
@@ -83,10 +88,14 @@ export default async function OrganizationInfoPage({ params }: { params: Promise
 
           <div className="flex flex-col">
             {data.contacts.ig && (
-              <span className="text-[#F3ECB7] font-light">IG: {data.contacts.ig}</span>
+              <span className="text-[#F3ECB7] font-light">
+                IG: {data.contacts.ig}
+              </span>
             )}
             {data.contacts.fb && (
-              <span className="text-[#F3ECB7] font-light">FB: {data.contacts.fb}</span>
+              <span className="text-[#F3ECB7] font-light">
+                FB: {data.contacts.fb}
+              </span>
             )}
             {data.contacts.others && (
               <span className="text-[#F3ECB7] font-light">
@@ -138,7 +147,7 @@ export default async function OrganizationInfoPage({ params }: { params: Promise
       {data.reviews.length > 0 && (
         <div className="w-full flex flex-col justify-center items-center mt-5">
           <div className="w-[65%] flex flex-row items-center justify-center space-x-2">
-            <h2 className="font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
+            <h2 className="pt-2 pb-2 font-bold text-3xl lg:text-4xl w-full text-center bg-linear-to-r from-[#F4F2C4] to-[#F3E19D] bg-clip-text text-transparent">
               รีวิวจากรุ่นพี่
             </h2>
           </div>

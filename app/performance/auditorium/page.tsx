@@ -12,6 +12,7 @@ import Mdcurtain from "@/vector/auditory/Mdcurtain";
 import BottomCastle from "@/vector/auditory/BottomCastle";
 import Image from "next/image";
 import SmCurtain from "@/vector/auditory/SmCurtain";
+import ScrollObserver from "@/components/ScrollObserver";
 
 const NotoSansThai = Noto_Sans_Thai({
   variable: "--font-noto-sans-thai",
@@ -201,8 +202,8 @@ const container = {
     " h-[2100px] py-25 sm:h-[2500px] py-30 md:h-[1940px] md:py-30 lg:h-[2350px] lg:py-30 2xl:py-40 2xl:h-[2600px]  ",
   Box1: " flex flex-col " + " gap-4 md:gap-4 lg:gap-4 2xl:gap-6 ",
   Box2:
-    "relative overflow-hidden flex bg-[linear-gradient(180deg,#042284_-6.54%,#0B1855_100%),linear-gradient(264deg,#3450B0_-9.13%,#042284_97.88%)] shadow-[0_1.009px_1.009px_0_rgba(0,0,0,0.25)] " +
-    " w-[370px] rounded-[15px] sm:w-[450px] sm:rounded-[15px] md:w-[400px] md:rounded-[12px] lg:w-[570px] lg:rounded-[12px] 2xl:w-[636.734px] 2xl:rounded-[12.724px] ",
+    " relative overflow-hidden flex bg-[linear-gradient(180deg,#042284_-6.54%,#0B1855_100%),linear-gradient(264deg,#3450B0_-9.13%,#042284_97.88%)] shadow-[0_1.009px_1.009px_0_rgba(0,0,0,0.25)] " +
+    "drop-down-scroll w-[370px] rounded-[15px] sm:w-[450px] sm:rounded-[15px] md:w-[400px] md:rounded-[12px] lg:w-[570px] lg:rounded-[12px] 2xl:w-[636.734px] 2xl:rounded-[12.724px] ",
   Img:
     "aspect-[131.23/185] h-auto overflow-hidden relative flex-shrink-0 " +
     " w-[90px] m-3 rounded-[12px] sm:w-[100px] sm:m-3 sm:rounded-[12px] md:w-[105px] md:m-3 md:rounded-[10px] lg:w-[120px] lg:m-5 lg:rounded-[10px] 2xl:m-4 2xl:rounded-[10px] 2xl:w-[131.23px] ",
@@ -214,6 +215,7 @@ const PerformancePage = () => {
 
   return (
     <>
+      <ScrollObserver />
       <div className={container.MdAll}>
         <Mdleft className="hidden md:block absolute w-auto bottom-[5.6vw] left-0 md:h-[1400px] lg:h-[1650px] 2xl:h-[2000px]" />
         <Mdright className="hidden md:block absolute w-auto bottom-[5.6vw] right-0 md:h-[1400px] lg:h-[1650px] 2xl:h-[2020px]" />
@@ -225,7 +227,7 @@ const PerformancePage = () => {
         <SmBeam2 className="md:hidden absolute top-0 right-0 w-auto h-[95%]" />
         <div className=" flex flex-col items-center mx-auto">
           <p className={css.header1}>ตารางการแสดง</p>
-          <p className={css.header2}>บนหอประชุม</p>
+          <p className={css.header2}>บนหอประชุมฯ</p>
 
           <div
             className={"z-10 relative mx-auto bg-[#0B1855]/30 " + css.ButtonAll}

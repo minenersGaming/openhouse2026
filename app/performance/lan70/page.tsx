@@ -9,6 +9,7 @@ import Mdbeam from "@/vector/preformance/Mdbeam";
 import SmUpper from "@/vector/preformance/SmUpper";
 import SmBeam2 from "@/vector/preformance/SmBeam2";
 import SmBottom from "@/vector/preformance/SmBottom";
+import ScrollObserver from "@/components/ScrollObserver";
 
 const NotoSansThai = Noto_Sans_Thai({
   variable: "--font-noto-sans-thai",
@@ -56,7 +57,7 @@ const timeTable9 = [
       <p>
         สัมภาษณ์ศิลป์ตะวันออก
         <br />
-        (ศิลป์ญี่ปุ่น, ศิลป์จีน, ศิลป์เกาหลี)
+        (ศิลป์-ญี่ปุ่น, ศิลป์-จีน, ศิลป์-เกาหลี)
       </p>
     ),
   },
@@ -89,7 +90,7 @@ const timeTable10 = [
       <p>
         สัมภาษณ์ศิลป์ตะวันตก
         <br />
-        (ศิลป์ฝรั่งเศส, ศิลป์เยอรมัน, ศิลป์สเปน)
+        (ศิลป์-ฝรั่งเศส, ศิลป์-เยอรมัน, ศิลป์-สเปน)
       </p>
     ),
   },
@@ -178,7 +179,7 @@ const container = {
   Box1: " flex flex-col " + " gap-4 md:gap-4 lg:gap-4 2xl:gap-6 ",
   Box2:
     " z-10 flex justify-center items-center " +
-    " gap-4 md:gap-2.5 lg:gap-6 2xl:gap-7 ",
+    "drop-down-scroll gap-4 md:gap-2.5 lg:gap-6 2xl:gap-7 ",
 };
 
 const PerformancePage = () => {
@@ -186,6 +187,7 @@ const PerformancePage = () => {
 
   return (
     <>
+      <ScrollObserver />
       <div className={container.MdAll}>
         <Mdleft className="hidden md:block absolute w-auto bottom-[5.6vw] left-0 md:h-[1300px] lg:h-[1470px] 2xl:h-[2000px]" />
         <Mdright className="hidden md:block absolute w-auto bottom-[5.6vw] right-0 md:h-[1300px] lg:h-[1450px] 2xl:h-[2020px]" />
@@ -199,7 +201,10 @@ const PerformancePage = () => {
           <p className={css.header2}>ลาน 70 ปีฯ</p>
 
           <div
-            className={"z-10 relative mx-auto bg-[#0B1855]/30 cursor-pointer" + css.ButtonAll}
+            className={
+              "z-10 relative mx-auto bg-[#0B1855]/30 cursor-pointer" +
+              css.ButtonAll
+            }
           >
             {/* Left date label */}
             <button

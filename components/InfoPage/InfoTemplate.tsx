@@ -239,7 +239,7 @@ const InfoTemplate = ({
   text: string;
 }) => {
   return (
-    <div className="z-67 flex flex-col md:max-w-[50vw] items-center justify-center my-3">
+    <div className="z-67 flex flex-col md:w-[50vw] items-center justify-center my-3">
       <div
         className={`flex flex-col w-full ${
           item % 2 == 0 ? "md:flex-row" : "md:flex-row-reverse"
@@ -266,7 +266,7 @@ const InfoTemplate = ({
           </p>
         </div>
       </div>
-      <div className={TextBoxStyle}>
+      <div className={`${text == "" && "hidden"} ${TextBoxStyle}`}>
         <div
           dangerouslySetInnerHTML={{ __html: text }}
           className="bg-transparent font-bai-jamjuree py-2 text-sm md:text-md px-5 *:text-white text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)] rich-content"
