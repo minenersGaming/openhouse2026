@@ -2,6 +2,7 @@ import Countdown from "./countdown";
 import TriamudomOpenHouse26Sm from "@/vector/LandingPage/TriamudomOpenhouse26Sm";
 import TriamudomOpenhouse2026 from "@/vector/LandingPage/TriamudomOpenhouse26";
 import Button from "./Button";
+import StaffButton from "./StaffButton";
 
 const Style = {
   Radial:
@@ -36,6 +37,7 @@ const Hero = () => {
           <Countdown />
         </div>
       </div>
+      <StaffButton />
     </section>
   );
 };
