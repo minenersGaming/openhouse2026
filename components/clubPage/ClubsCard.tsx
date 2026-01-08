@@ -24,7 +24,7 @@ const ClubsCard = ({
           src={img}
           width={200}
           height={200}
-          alt="Hello"
+          alt="Thumbnail"
           className="h-2/3 object-cover pointer-events-none"
         />
         <div className="h-1/3 bg-linear-to-r from-[#3450B0] via-[#457BCA] to-[#F3E09D]">

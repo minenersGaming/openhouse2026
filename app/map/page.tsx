@@ -155,7 +155,7 @@ const MapPage = () => {
           className={css.header2}
           style={{ fontFamily: "var(--font-bethany)" }}
         >
-          TRIAMUDOM OPEN HOUSE 2026
+          TRIAM UDOM OPEN HOUSE 2026
         </p>
         <div className={container.buttonBox}>
           <div className="flex gap-2">
