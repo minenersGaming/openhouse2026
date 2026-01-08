@@ -24,6 +24,11 @@ export const auth = betterAuth({
                 defaultValue: false,
                 required: false,
             },
+            isTucmc: {
+                type: "boolean",
+                defaultValue: false,
+                required: false,
+            },
         },
     },
 })

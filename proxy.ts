@@ -18,13 +18,14 @@ export default async function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
-
   if (
     currentPath !== "/register/user" &&
     !session?.user.isBooking
   ) {
     return NextResponse.redirect(new URL("/register/user", request.url));
   }
+
+  if (currentPath === "/tucmc" && !session?.user.isTucmc)return NextResponse.redirect(new URL("/", request.url));
 
   if (currentPath === "/register/user" && session?.user.isBooking) {
     return NextResponse.redirect(new URL("/", request.url));
@@ -38,5 +39,6 @@ export const config = {
     "/ticket",
     "/register/user",
     "/checkin",
+    "/tucmc"
   ],
 };

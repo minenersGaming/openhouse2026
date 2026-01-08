@@ -26,8 +26,8 @@ model Booking {
 }
 
 type CheckInEntry {
-  door      String?
-  checkIn   DateTime?
+  door    String?
+  checkIn DateTime?
 }
 
 type CheckIn {
@@ -45,6 +45,7 @@ model User {
   updatedAt     DateTime @updatedAt
 
   register  Booking?
+  isTucmc   Boolean  @default(false)
   isStaff   Boolean  @default(false)
   isBooking Boolean  @default(false)
   checkIn   CheckIn?
