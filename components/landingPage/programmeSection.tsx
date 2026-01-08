@@ -35,7 +35,7 @@ const ProgrammeSection = () => {
   return (
     <section
       id="programs"
-      className=" relative w-full overflow-hidden lg:pb-10 bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
+      className=" relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
       <div className="h-full top-0">
         <div className="-translate-y-[50px] absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">

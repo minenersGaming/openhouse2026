@@ -24,7 +24,7 @@ const ReviewBox = ({
           alt={name}
           width={500}
           height={500}
-          className="rounded-[10px] w-1/5 lg:wxx-1/6 md:w-1/4 lg:max-w-[500px] lg:max-h-[500px] aspect-square object-cover"
+          className="rounded-[10px] w-1/5 md:w-1/4 lg:max-w-[500px] lg:max-h-[500px] aspect-square object-cover"
         />
         <div className="ml-3 -space-y-1 flex flex-col justify-start items-start">
           <p className="text-[#F3E19E] font-bold text-2xl sm:text-3xl">
@@ -34,13 +34,14 @@ const ReviewBox = ({
             <p className="text-[#F3E19E] font-light text-md sm:text-lg md:text-lg">
               เตรียมอุดมฯ {gen}
             </p>
-            <p className="text-[#F3E19E] font-light text-md sm:text-lg">
-              {ig}
-            </p>
+            <p className="text-[#F3E19E] font-light text-md sm:text-lg">{ig}</p>
           </div>
         </div>
       </div>
-      <div dangerouslySetInnerHTML={{ __html: text }} className="text-sm font-bai-jamjuree pb-2 pt-3  *:text-white text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]" />
+      <div
+        dangerouslySetInnerHTML={{ __html: text }}
+        className="text-sm font-bai-jamjuree pb-2 pt-3  *:text-white text-white text-shadow-[0_1.5px_1px_rgba(0,0,0,0.25)]"
+      />
     </div>
   );
 };
