@@ -1,18 +1,29 @@
 import { NextResponse } from "next/server";
-import { headers } from "next/headers";
 import type { NextRequest } from "next/server";
-import { auth } from "./lib/auth";
 
 export default async function proxy(request: NextRequest) {
   const path = request.nextUrl.pathname;
   const currentPath = decodeURIComponent(path);
+  const url = new URL(request.url);
 
-  const session = await auth.api.getSession({
-    headers: await headers()
-  })
+  const res = await fetch(`${url.origin}/api/auth/check-session`, {
+    headers: request.headers,
+  });
+
+  const json = await res.json();
+
+
+  if (!json.ok) {
+    if (currentPath !== "/") {
+      return NextResponse.redirect(new URL("/", request.url));
+    }
+    return NextResponse.next();
+  }
+
+  const user = json.data.user;
 
   if (currentPath.startsWith("/checkin")) {
-    if (!session?.user.isStaff) {
+    if (!user.isStaff) {
       return NextResponse.redirect(new URL("/", request.url));
     }
     return NextResponse.next();
@@ -21,12 +32,12 @@ export default async function proxy(request: NextRequest) {
 
   if (
     currentPath !== "/register/user" &&
-    !session?.user.isBooking
+    !user.isBooking
   ) {
     return NextResponse.redirect(new URL("/register/user", request.url));
   }
 
-  if (currentPath === "/register/user" && session?.user.isBooking) {
+  if (currentPath === "/register/user" && user.isBooking) {
     return NextResponse.redirect(new URL("/", request.url));
   }
 
