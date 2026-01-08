@@ -216,10 +216,10 @@ const BigTextItem: Record<categoryType, JSX.Element[]> = {
         น่าสนใจ
       </p>
       <p className={`${CommonTextStyle} font-medium text-xl hidden md:block `}>
-        ของสายการเรียน
+        ของโครงการ
       </p>
       <p className={`${CommonTextStyle} ${SmTextStyle} `}>
-        ความน่าสนใจของสายการเรียน
+        ความน่าสนใจของโครงการ
       </p>
     </div>,
   ],
