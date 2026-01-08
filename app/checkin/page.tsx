@@ -52,7 +52,7 @@ const CheckInPage = () => {
 
     setSelectedDoor(values.door);
 
-    toast.loading("กำลังเช็คอิน...", { id: "checkin-toast" });
+    toast.loading("กำลังเช็กอิน...", { id: "checkin-toast" });
 
     // Please keep this simple, no need to use react query
     //"/checkin"
@@ -67,7 +67,7 @@ const CheckInPage = () => {
     if (response.error) {
       toast.error(response.error, { id: "checkin-toast" });
     } else {
-      toast.success("เช็คอินสำเร็จ", { id: "checkin-toast" });
+      toast.success("เช็กอินสำเร็จ", { id: "checkin-toast" });
       setRegisterId("");
     }
   };
@@ -82,7 +82,7 @@ const CheckInPage = () => {
             {/* If you want to setting this please refer to https://www.npmjs.com/package/@yudiel/react-qr-scanner */}
             <Scanner
               onError={() => {
-                toast.error("กรุณาอนุญาตสิทธ์การใช้งานกล้องเพื่อสแกน QR code");
+                toast.error("กรุณาอนุญาตสิทธิ์การใช้งานกล้องเพื่อสแกน QR code");
               }}
               onScan={(data) => [
                 data.forEach((d) => {
@@ -150,7 +150,7 @@ const CheckInPage = () => {
                   type="submit"
                   className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors"
                 >
-                  เช็คอิน
+                  เช็กอิน
                 </button>
               </Form>
             )}

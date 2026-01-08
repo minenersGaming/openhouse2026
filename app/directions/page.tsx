@@ -22,7 +22,7 @@ export default function Directions() {
     <object
       key={"b"}
       data="/assets/images/directions/bts.svg"
-      className="h-[404px] w-full lg:h-[884px] lg:w-[700px]"
+      className="w-[900px] w-full lg:h-[884px] lg:w-[700px]"
     />
   );
 
@@ -216,7 +216,7 @@ export default function Directions() {
           <object
             key={"b"}
             data="assets/images/directions/bts.svg"
-            className="h-[404px] w-[100%] lg:h-[884px] lg:w-[700px]"
+            className="h-[900px] w-[100%] lg:h-[884px] lg:w-[700px]"
           />
         );
         break;
@@ -225,7 +225,7 @@ export default function Directions() {
           <object
             key={"a"}
             data="assets/images/directions/bus.svg"
-            className="h-[404px] w-[100%] lg:h-[884px] lg:w-[700px]"
+            className="h-[900px] w-[100%] lg:h-[884px] lg:w-[700px]"
           />
         );
         break;
@@ -234,7 +234,7 @@ export default function Directions() {
           <object
             key={"d"}
             data="assets/images/directions/mrt.svg"
-            className="h-[404px] w-[100%] lg:h-[876px] lg:w-[700px]"
+            className="h-[900px] w-[100%] lg:h-[876px] lg:w-[700px]"
           />
         );
         break;
@@ -243,7 +243,7 @@ export default function Directions() {
           <object
             key={"d"}
             data="assets/images/directions/parking.svg"
-            className="h-[404px] w-[100%] lg:h-[876px] lg:w-[700px]"
+            className="h-[900px] w-[100%] lg:h-[876px] lg:w-[700px]"
           />
         );
     }

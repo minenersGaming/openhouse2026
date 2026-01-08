@@ -14,7 +14,7 @@ export default function Custom404() {
         </p>
         <Link
           href="https://openhouse.triamudom.ac.th"
-          className="mt-3 hover:scale-105 bg-linear-to-r from-[#F3E19D] to-[#F4F2C4] transition-all px-12  py-2 rounded-full"
+          className="mt-3 hover:scale-105 bg-linear-to-r from-[#F3E19D] to-[#F4F2C4] transition-all px-12 py-2 rounded-full"
         >
           <p className="bg-linear-to-t from-[#042284] to-[#3450B0] bg-clip-text text-transparent text-lg lg:text-2xl font-bold">
             กลับสู่หน้าหลัก

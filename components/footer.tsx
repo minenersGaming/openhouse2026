@@ -34,13 +34,17 @@ const Footer = () => {
     <div className="relative">
       <footer className="bg-[#0B1955] text-[#F4F2C4] px-3 pt-8 footer-xw lg:px-30 h-full overflow-y-clip">
         <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:pb-8">
-          <div className="flex flex-col justify-center items-center  lg:justify-start lg:items-start">
+          <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start">
             <div className="flex flex-col justify-center lg:justify-start lg:items-start items-center -space-y-1">
               <p className="font-bold text-md lg:text-xl">TRIAM UDOM</p>
               <p className=" text-md lg:text-xl">OPEN HOUSE 2026</p>
             </div>
-            <div className="flex py-2  lg:justify-start">
-              <Link target="_blank" className="relative z-10" href="https://www.facebook.com/TriamUdomOPH">
+            <div className="flex py-2 lg:justify-start">
+              <Link
+                target="_blank"
+                className="relative z-10"
+                href="https://www.facebook.com/TriamUdomOPH"
+              >
                 <FBIcon className={`${Style.Contact}`} />
               </Link>
               <Link
@@ -59,7 +63,10 @@ const Footer = () => {
               >
                 <YTIcon className={`${Style.Contact}`} />
               </Link>
-              <Link target="_blank" href="https://www.tiktok.com/@triamudom.oph">
+              <Link
+                target="_blank"
+                href="https://www.tiktok.com/@triamudom.oph"
+              >
                 <TikTokIcon className={`${Style.Contact}`} />
               </Link>
             </div>
@@ -119,7 +126,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="h-px w-60vw lg:w-80vw bg-gray-400 relative z-10"></div>
-        <Link href='https://clubs.triamudom.ac.th/' target="_blank" className="flex flex-row p-4 pb-6 justify-center items-center relative z-10">
+        <Link
+          href="https://clubs.triamudom.ac.th/"
+          target="_blank"
+          className="flex flex-row p-4 pb-6 justify-center items-center relative z-10"
+        >
           <p className="font-bold text-4xl tracking-[-3px] text-[#F4F2C4]">
             กช.
           </p>
@@ -141,8 +152,8 @@ const Footer = () => {
 };
 {
   /* <div className="relative overflow-clip w-[150vw] h-full left-0 -translate-x-1/10 z-0">
-  <FooterBackgroundSm className="block lg:hidden absolute bottom-0" />
-  <FooterBackground className="hidden lg:block absolute object-cover -bottom-1/2 w-[110vw] min-h-full overflow-hidden left-0 z-0" />
+ <FooterBackgroundSm className="block lg:hidden absolute bottom-0" />
+ <FooterBackground className="hidden lg:block absolute object-cover -bottom-1/2 w-[110vw] min-h-full overflow-hidden left-0 z-0" />
 </div>; */
 }
 export default Footer;

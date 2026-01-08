@@ -22,10 +22,12 @@ const ReviewBox = ({
         <Image
           src={img}
           alt={name}
-          width={500}
-          height={500}
-          className="rounded-[10px] w-1/5 md:w-1/4 lg:max-w-[500px] lg:max-h-[500px] aspect-square object-cover"
+          width={200}
+          height={200}
+          className="rounded-[10px] size-18 md:size-20 lg:size-22 aspect-square object-cover"
         />
+        {/* w-1/5 md:w-1/4 min-w-[200px] min-h-[200px] lg:max-w-[200px]
+        lg:max-h-[200px] */}
         <div className="ml-3 -space-y-1 flex flex-col justify-start items-start">
           <p className="text-[#F3E19E] font-bold text-2xl sm:text-3xl">
             {name}
