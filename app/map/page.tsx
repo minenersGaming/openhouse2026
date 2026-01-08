@@ -34,7 +34,7 @@ const css = {
   searchBox:
     " w-full bg-white rounded-[30px] text-[#112E90] font-noto-sans-thai " +
     " pl-[40px] text-[19px] sm:text-[19px] md:text-[20px] lg:text-[25px] ",
-  searchIcon: "absolute left-[27px] w-[24px] h-auto ",
+  searchIcon: "absolute left-[27px] w-4",
   h2:
     " text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.25)] font-noto-sans-thai font-bold leading-normal " +
     " text-[24px] sm:text-[25px] md:text-[27px] lg:text-[39.294px] ",
@@ -68,7 +68,7 @@ const container = {
   buttonBox:
     " flex flex-col justify-center items-center gap-3 " + " my-4 sm:my-6 ",
   searchBox:
-    " relative flex items-center justify-center " +
+    " relative flex items-center justify-center text-[7px]" +
     " w-[350px] px-4 sm:w-[420px] md:w-[560px] lg:w-[60vw] my-4 md:my-5  ",
   list1:
     " flex flex-col " + "mb-6 w-[180px] md:w-[270px] lg:my-6 lg:w-[350px] ",
