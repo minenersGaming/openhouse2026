@@ -27,7 +27,7 @@ import Link from "next/link";
 const Style = {
   LgCard: "w-[25vw] hover:scale-105 transition-all duration-400",
   LgFlex:
-    "flex flex-col justify-center items-center left-0 translate-x- z-6 -space-y-15 -space-xx-1  scale-100 xfade-in-scroll",
+    "flex flex-col justify-center items-center left-0 translate-x- z-6 -space-y-15 -space-xx-1 scale-100 xfade-in-scroll",
   LgPadding: "w-[17vw] left-0 -translate-y-10",
 };
 
@@ -35,20 +35,20 @@ const ProgrammeSection = () => {
   return (
     <section
       id="programs"
-      className=" relative w-full overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
+      className=" relative w-full overflow-hidden lg:pb-10 bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
       <div className="h-full top-0">
-        <div className="-translate-y-[50px]  absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
+        <div className="-translate-y-[50px] absolute right-0 z-67 pointer-events-none w-screen hidden md:flex justify-between overflow-hidden">
           <LeftPillar className="h-full w-[700px] -translate-x-[17%] z-20" />
           <RightPillar className="h-full w-[700px] translate-x-[17%] z-20" />
           {/* <img
-            src="../assets/images/Landing/LeftPillar.png"
-            className=" -translate-x-[0%] z-20"
-          />
-          <img
-            src="../assets/images/Landing/RightPillar.png"
-            className=" translate-x-[0%] z-22"
-          /> */}
+      src="../assets/images/Landing/LeftPillar.png"
+      className=" -translate-x-[0%] z-20"
+     />
+     <img
+      src="../assets/images/Landing/RightPillar.png"
+      className=" translate-x-[0%] z-22"
+     /> */}
         </div>
         <div className="hidden relative w-full items-center justify-center">
           <Bricks className="hidden absolute w-[70vw] translate-y-[70%] z-2" />
@@ -58,7 +58,7 @@ const ProgrammeSection = () => {
         <ProgrammeBigLg className="left-0 translate-x-1/2 min-w-[1500px] w-[125%]" />
       </div>
 
-      <div className=" absolute md:relative flex flex-col  justify-center items-center w-full mt-[10%] md:mt-[5%] z-677">
+      <div className=" absolute md:relative flex flex-col justify-center items-center w-full mt-[10%] md:mt-[5%] z-677">
         <p className="text-center font-bold bg-linear-to-t from-[#FBDE8C] to-[#F3F2CD] bg-clip-text text-transparent text-5xl sm:text-7xl md:text-8xl lg:text-8xl">
           สายการเรียน
         </p>
@@ -137,7 +137,7 @@ const ProgrammeSection = () => {
             <ArtsCnSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
         </div>
-        <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0  translate-y-[15%]">
+        <div className="-translate-x-[12%] fade-in-scroll w-[56vw] overflow-clip absolute z-67 -space-y-[40%] flex flex-col justify-center items-center right-0 translate-y-[15%]">
           <Link href={"/programs/arts-math"}>
             <ArtsMathSm className="w-5/4 hover:scale-110 duration-400" />
           </Link>
@@ -152,7 +152,7 @@ const ProgrammeSection = () => {
           </Link>
         </div>
         <div className=" w-full ">
-          <ProgrammeSm className=" left-0  w-full" />
+          <ProgrammeSm className=" left-0 w-full" />
         </div>
       </div>
     </section>

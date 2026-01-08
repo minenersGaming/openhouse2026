@@ -31,26 +31,26 @@ const OrgSection = () => {
  [&>*:nth-child(even)]:self-end"
             >
               <Link href="/organizations/TUSC" className="block">
-                <TUSCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <TUSCLg className=" w-[25vw] hover:scale-105 duration-400 cursor-pointer transition-all" />
               </Link>
               <Link href="/organizations/TUANUSORN" className="block">
-                <AnusornLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <AnusornLg className=" w-[25vw] hover:scale-105 duration-400 cursor-pointer transition-all" />
               </Link>
             </div>
             <div className=" flex flex-col h-[140%] -space-y-8 mt-[20%] self-end">
               <Link href="/organizations/TUCMC" className="block">
-                <TUCMCLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <TUCMCLg className=" w-[25vw] hover:scale-105 duration-400 cursor-pointer transition-all" />
               </Link>
               <Link href="/organizations/AIC" className="block">
-                <AICLg className="w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <AICLg className="w-[25vw] hover:scale-105 duration-400 cursor-pointer transition-all" />
               </Link>
             </div>
             <div className="flex flex-col h-[140%] -space-y-10">
               <Link href="/organizations/TUPRO" className="block">
-                <TUPROLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <TUPROLg className=" w-[25vw] hover:scale-105 duration-400 cursor-pointer transition-all" />
               </Link>
               <Link href="/organizations/TUNSO" className="block">
-                <TUNSOLg className=" w-[25vw] hover:scale-105 cursor-pointer transition-all" />
+                <TUNSOLg className=" w-[25vw] hover:scale-105 duration-400 cursor-pointer transition-all" />
               </Link>
             </div>
           </div>
