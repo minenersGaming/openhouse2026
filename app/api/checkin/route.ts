@@ -70,33 +70,39 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const isCheckIn = await prisma.user.findFirst({
-      where: {
-        id: guestUserId,
-        checkIn: {
-          [checkInDay]: {
-            not: null,
-          },
-        },
+    const user = await prisma.user.findUnique({
+      where: { id: guestUserId },
+      select: {
+        checkIn: true,
       },
     });
 
-    if (isCheckIn) {
+    if (!user) {
+      return NextResponse.json(
+        { error: "ไม่พบผู้ใช้ในระบบ" },
+        { status: 404 }
+      );
+    }
+
+    // FIX: Check if already checked in for this day
+    if (user.checkIn?.[checkInDay]?.checkIn) {
       return NextResponse.json(
         { error: "รหัสเข้างานถูกเช็กอินไปแล้ว" },
         { status: 400 }
       );
     }
 
+    // FIX: Update with proper nested structure for MongoDB
+    const currentCheckIn = user.checkIn || { day1: null, day2: null };
+    
     await prisma.user.update({
       where: { id: guestUserId },
       data: {
         checkIn: {
+          ...currentCheckIn,
           [checkInDay]: {
             door,
-            checkIn: new Date().toLocaleString("th-TH", {
-              timeZone: "Asia/Bangkok",
-            }),
+            checkIn: new Date(), // Use DateTime instead of string
           },
         },
       },
