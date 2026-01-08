@@ -37,10 +37,10 @@ const ProgrammeSection = () => {
       id="programs"
       className=" relative w-screen overflow-hidden bg-linear-to-t from-[#457BCA] via-[#3450B0] to-[#457BCA] h-auto md:maxx-h-[1600px]"
     >
-      <div className="md:block absolute left-0 z-67 hidden overflow-hidden h-full">
+      <div className=" pointer-events-none md:block absolute left-0 z-67 hidden overflow-hidden h-full">
         <LeftPillar className="pointer-events-none" />
       </div>
-      <div className="md:block absolute right-0 z-67 hidden overflow-hidden h-full">
+      <div className=" pointer-events-none md:block absolute right-0 z-67 hidden overflow-hidden h-full">
         <RightPillar className=" pointer-events-none" />
       </div>
       <div className="h-full top-0 w-screen relative">
