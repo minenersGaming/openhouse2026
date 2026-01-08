@@ -91,32 +91,6 @@ const TicketPage = () => {
     }
   };
 
-  const [isZoomed, setIsZoomed] = useState(false);
-
-  const handleQRClick = () => {
-    const qrElement = document.querySelector(".qr-code-container");
-    if (!qrElement) return;
-
-    if (!isZoomed) {
-      // Zoom in first
-      document.body.style.zoom = "2.5";
-      setIsZoomed(true);
-
-      // Then scroll after zoom is applied
-      setTimeout(() => {
-        qrElement.scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-          inline: "center",
-        });
-      }, 100);
-    } else {
-      // Reset zoom
-      document.body.style.zoom = "1";
-      setIsZoomed(false);
-    }
-  };
-
   const downloadFile = async (file: File) => {
     try {
       const blobUrl = URL.createObjectURL(file);
@@ -288,10 +262,7 @@ const TicketPage = () => {
                   <p className={css.student}>{data.userStatus}</p>
                 </div>
               </div>
-              <div
-                className="qr-code-container absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0 cursor-pointer"
-                onClick={handleQRClick}
-              >
+              <div className="absolute w-[25%] mx-[30px] my-[15px] right-0 bottom-0">
                 {qr && <img src={qr} alt="QR Code" className="w-full h-auto" />}
               </div>
             </div>
