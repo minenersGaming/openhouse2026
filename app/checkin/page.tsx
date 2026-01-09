@@ -70,6 +70,9 @@ const CheckInPage = () => {
 
     if (response.error) {
       toast.error(response.error, { id: "checkin-toast" });
+      if (formikRef.current) {
+        formikRef.current.setFieldValue("registerId", "");
+      }
       setIsProcessing(false);
     } else {
       toast.success(`เช็กอินสำเร็จ - รหัส: ${values.registerId}`, {
@@ -113,6 +116,11 @@ const CheckInPage = () => {
         handleSubmit({
           door: currentDoor,
           registerId: id,
+        }).finally(() => {
+          // Re-enable scanning after 2 seconds
+          setTimeout(() => {
+            setIsProcessing(false);
+          }, 1000);
         });
         setScanUser(id);
       }
