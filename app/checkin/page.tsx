@@ -13,7 +13,7 @@ import toast from "react-hot-toast";
 const CheckInPage = () => {
   const [selectedDoor, setSelectedDoor] = useState("");
   const [isProcessing, setIsProcessing] = useState(false);
-  const [scanUser, setScanUser] = useState("");
+  const lastScannedIdRef = useRef("");
   const formikRef = useRef<any>(null);
   const { data: session, isPending } = useSession() as {
     data: Session | null;
@@ -90,10 +90,9 @@ const CheckInPage = () => {
       if (!data || !data[0]?.rawValue) return;
       if (isProcessing) return;
 
-      // console.log(data);
-      // console.log(data[0].rawValue);
+      console.log(data);
+      console.log(data[0].rawValue);
       const raw = data[0].rawValue;
-
       let id: string | undefined;
 
       if (raw.length === 5) {
@@ -105,10 +104,13 @@ const CheckInPage = () => {
       }
 
       if (id && id.length === 5 && formikRef.current) {
-        console.log("use id" + scanUser);
+        if (id === lastScannedIdRef.current) {
+          console.log("Duplicate scan detected, ignoring");
+          return;
+        }
 
-        if (id === scanUser) return;
         setIsProcessing(true);
+        lastScannedIdRef.current = id;
         const currentDoor = formikRef.current.values.door;
         formikRef.current.setFieldValue("registerId", id);
         console.log("set id");
@@ -117,12 +119,11 @@ const CheckInPage = () => {
           door: currentDoor,
           registerId: id,
         }).finally(() => {
-          // Re-enable scanning after 2 seconds
           setTimeout(() => {
             setIsProcessing(false);
+            lastScannedIdRef.current = ""; // Reset after cooldown
           }, 1000);
         });
-        setScanUser(id);
       }
     } catch (error) {
       console.error("Scan error:", error);
