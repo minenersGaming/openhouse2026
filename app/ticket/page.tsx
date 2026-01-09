@@ -67,7 +67,9 @@ const TicketPage = () => {
       },
     }).then(setQr);
 
-    QRCode.toDataURL(qrValue, {
+    const qrValue2 = `${data.registerId}`;
+
+    QRCode.toDataURL(qrValue2, {
       width: 512,
       margin: 2,
       color: {

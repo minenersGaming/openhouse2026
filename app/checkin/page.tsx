@@ -2,7 +2,7 @@
 
 import { Scanner } from "@yudiel/react-qr-scanner";
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Formik, Form, Field } from "formik";
 import { doors } from "@/constant/doors";
 import { callAPI } from "@/utils/callAPI";
@@ -12,7 +12,7 @@ import toast from "react-hot-toast";
 
 const CheckInPage = () => {
   const [selectedDoor, setSelectedDoor] = useState("");
-  const [registerId, setRegisterId] = useState("");
+  const formikRef = useRef<any>(null);
   const { data: session, isPending } = useSession() as {
     data: Session | null;
     isPending: boolean;
@@ -36,7 +36,7 @@ const CheckInPage = () => {
   }
 
   if (!session || !session.user.isStaff) {
-    return;
+    return null;
   }
 
   const handleSubmit = async (values: { door: string; registerId: string }) => {
@@ -67,8 +67,43 @@ const CheckInPage = () => {
     if (response.error) {
       toast.error(response.error, { id: "checkin-toast" });
     } else {
-      toast.success("เช็กอินสำเร็จ", { id: "checkin-toast" });
-      setRegisterId("");
+      toast.success(`เช็กอินสำเร็จ - รหัส: ${values.registerId}`, {
+        id: "checkin-toast",
+      });
+      if (formikRef.current) {
+        formikRef.current.setFieldValue("registerId", "");
+      }
+    }
+  };
+
+  const handleScan = (data: any) => {
+    try {
+      if (!data || !data[0]?.rawValue) return;
+
+      console.log(data);
+      console.log(data[0].rawValue);
+      const raw = data[0].rawValue;
+
+      let id: string | undefined;
+
+      if (raw.length === 5) {
+        id = raw;
+      } else if (
+        raw.startsWith("https://openhouse.triamudom.ac.th/staff/checkin")
+      ) {
+        id = raw.split("/").pop();
+      }
+
+      if (id && id.length === 5 && formikRef.current) {
+        const currentDoor = formikRef.current.values.door;
+        formikRef.current.setFieldValue("registerId", id);
+        handleSubmit({
+          door: currentDoor,
+          registerId: id,
+        });
+      }
+    } catch (error) {
+      console.error("Scan error:", error);
     }
   };
 
@@ -84,15 +119,7 @@ const CheckInPage = () => {
               onError={() => {
                 toast.error("กรุณาอนุญาตสิทธิ์การใช้งานกล้องเพื่อสแกน QR code");
               }}
-              onScan={(data) => [
-                data.forEach((d) => {
-                  const raw = d.rawValue;
-                  const id = raw.split("/").pop();
-                  if (id) {
-                    setRegisterId(id);
-                  }
-                }),
-              ]}
+              onScan={handleScan}
               components={{
                 zoom: false,
                 torch: false,
@@ -104,10 +131,11 @@ const CheckInPage = () => {
           <Formik
             initialValues={{
               door: selectedDoor,
-              registerId: registerId,
+              registerId: "",
             }}
             enableReinitialize
             onSubmit={handleSubmit}
+            innerRef={formikRef}
           >
             {() => (
               <Form className="w-full flex flex-col gap-4">
