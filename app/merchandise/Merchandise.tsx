@@ -124,6 +124,7 @@ export default function Merchandise() {
                       <img
                         key={i}
                         src={img}
+                        loading="lazy"
                         className="object-cover w-[70vw] md:w-[30vw] aspect-square shrink-0"
                       />
                     ))}

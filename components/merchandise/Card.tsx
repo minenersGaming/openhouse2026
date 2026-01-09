@@ -23,7 +23,11 @@ const Card = ({
       onClick={setPage}
       className="rounded-md md:rounded-[20px] overflow-hidden aspect-square cursor-pointer shrink-0 flex flex-col w-[21vw] md:w-[12vw] hover:scale-105 duration-400 transition-all"
     >
-      <img src={img} className="h-60/100 md:[30vw] object-cover " />
+      <img
+        loading="lazy"
+        src={img}
+        className="h-60/100 md:[30vw] object-cover"
+      />
       <div className="h-full bg-linear-to-t from-[#0B1855] to-[#042284] ">
         <p className="text-white font-semibold font-noto-sans-thai p-1 md:p-2 text-[8px] sm:text-[10px] md:text-md lg:text-[15px]">
           {text}
