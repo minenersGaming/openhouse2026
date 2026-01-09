@@ -33,7 +33,11 @@ const ReviewBox = ({
             {name}
           </p>
           <div className="flex flex-col justify-end -space-y-1">
-            <p className="text-[#F3E19E] font-light text-md sm:text-lg md:text-lg">
+            <p
+              className={`${
+                gen == "" && "hidden"
+              } text-[#F3E19E] font-light text-md sm:text-lg md:text-lg`}
+            >
               เตรียมอุดมฯ {gen}
             </p>
             <p className="text-[#F3E19E] font-light text-md sm:text-lg">{ig}</p>
