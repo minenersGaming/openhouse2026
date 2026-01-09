@@ -152,7 +152,7 @@ const timeTable10 = [
   },
   {
     time: "15.15-16.35",
-    overall: "20 นาที",
+    overall: "80 นาที",
     name: (
       <p>
         In the Name of

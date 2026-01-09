@@ -28,7 +28,7 @@ const Box = ({
       onClick={setPage}
       className="flex flex-col rounded-[20px] overflow-hidden w-[65vw] md:w-[20vw] md:max-w-auto aspect-10/11 md:aspect-auto max-h-[400px] hover:scale-105 cursor-pointer duration-400 "
     >
-      <img src={img} className="min-h-1/2 object-cover" />
+      <img src={img} loading="lazy" className="min-h-1/2 object-cover" />
       <div className="bg-linear-to-t from-[#0B1855] p-[5%] to-[#042284] w-full h-[55%]">
         <div className="flex flex-col justify-between h-full">
           <div className="flex flex-col w-full">
