@@ -12,6 +12,8 @@ import toast from "react-hot-toast";
 
 const CheckInPage = () => {
   const [selectedDoor, setSelectedDoor] = useState("");
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [scanUser, setScanUser] = useState("");
   const formikRef = useRef<any>(null);
   const { data: session, isPending } = useSession() as {
     data: Session | null;
@@ -42,11 +44,13 @@ const CheckInPage = () => {
   const handleSubmit = async (values: { door: string; registerId: string }) => {
     if (!values.door) {
       toast.error("กรุณาเลือกประตูเข้างาน");
+      setIsProcessing(false);
       return;
     }
 
     if (!values.registerId) {
       toast.error("กรุณาใส่รหัสเข้างาน");
+      setIsProcessing(false);
       return;
     }
 
@@ -66,6 +70,7 @@ const CheckInPage = () => {
 
     if (response.error) {
       toast.error(response.error, { id: "checkin-toast" });
+      setIsProcessing(false);
     } else {
       toast.success(`เช็กอินสำเร็จ - รหัส: ${values.registerId}`, {
         id: "checkin-toast",
@@ -73,15 +78,17 @@ const CheckInPage = () => {
       if (formikRef.current) {
         formikRef.current.setFieldValue("registerId", "");
       }
+      setIsProcessing(false);
     }
   };
 
   const handleScan = (data: any) => {
     try {
       if (!data || !data[0]?.rawValue) return;
+      if (isProcessing) return;
 
-      console.log(data);
-      console.log(data[0].rawValue);
+      // console.log(data);
+      // console.log(data[0].rawValue);
       const raw = data[0].rawValue;
 
       let id: string | undefined;
@@ -95,15 +102,23 @@ const CheckInPage = () => {
       }
 
       if (id && id.length === 5 && formikRef.current) {
+        console.log("use id" + scanUser);
+
+        if (id === scanUser) return;
+        setIsProcessing(true);
         const currentDoor = formikRef.current.values.door;
         formikRef.current.setFieldValue("registerId", id);
+        console.log("set id");
+
         handleSubmit({
           door: currentDoor,
           registerId: id,
         });
+        setScanUser(id);
       }
     } catch (error) {
       console.error("Scan error:", error);
+      setIsProcessing(false);
     }
   };
 
@@ -132,7 +147,6 @@ const CheckInPage = () => {
               door: selectedDoor,
               registerId: "",
             }}
-            enableReinitialize
             onSubmit={handleSubmit}
             innerRef={formikRef}
           >
