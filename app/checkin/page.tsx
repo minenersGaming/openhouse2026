@@ -78,28 +78,29 @@ const CheckInPage = () => {
       <div className="text-lg mb-6">Triam Udom Open House 2026</div>
       <div className="flex flex-col items-center">
         <div className="border w-auto flex flex-col items-center p-15 rounded-lg shadow-md">
-          <div className="size-60 border mb-6">
-            {/* If you want to setting this please refer to https://www.npmjs.com/package/@yudiel/react-qr-scanner */}
-            <Scanner
-              onError={() => {
-                toast.error("กรุณาอนุญาตสิทธิ์การใช้งานกล้องเพื่อสแกน QR code");
-              }}
-              onScan={(data) => [
-                data.forEach((d) => {
-                  const raw = d.rawValue;
-                  const id = raw.split("/").pop();
-                  if (id) {
-                    setRegisterId(id);
-                  }
-                }),
-              ]}
-              components={{
-                zoom: false,
-                torch: false,
-                onOff: false,
-              }}
-            />
-          </div>
+          {/* If you want to set up the scanner, uncomment and configure the Scanner component:
+            <div className="size-60 border mb-6">
+              <Scanner
+                onError={() => {
+                  toast.error("กรุณาอนุญาตสิทธิ์การใช้งานกล้องเพื่อสแกน QR code");
+                }}
+                onScan={(data) => {
+                  data.forEach((d) => {
+                    const raw = d.rawValue;
+                    const id = raw.split("/").pop();
+                    if (id) {
+                      setRegisterId(id);
+                    }
+                  });
+                }}
+                components={{
+                  zoom: false,
+                  torch: false,
+                  onOff: false,
+                }}
+              />
+            </div>
+          */}
 
           <Formik
             initialValues={{
