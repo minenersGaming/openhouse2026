@@ -84,6 +84,10 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    console.log("Current user checkIn:", JSON.stringify(user.checkIn, null, 2));
+console.log("Checking day:", checkInDay);
+console.log("checkIn exists?:", !!user.checkIn?.[checkInDay]?.checkIn);
+
     // FIX: Check if already checked in for this day
     if (user.checkIn?.[checkInDay]?.checkIn) {
       return NextResponse.json(
